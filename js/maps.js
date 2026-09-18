@@ -1,792 +1,243 @@
-"use strict";
-/* ===== Mapas conceptuales (Markmap) =====
-   Generado desde el vault NAGUSIA OBS (esquemas propios, traducidos).
-   Añadir un mapa = una entrada { subject, tema, title, md }; `md` = esquema en viñetas. */
+// Generado por tools/build_bach.js — Bachillerato para el alumnado (sin material del profesor).
 const MAPS = {
-  "map-descartes":{ subject:"hf", tema:"Historia de la Filosofía · Descartes", title:"Descartes: la duda y el cogito", md:`# Descartes
-## Duda metódica
-- **Objetivo**: hallar verdades con **certeza absoluta**
-- **Escepticismo radical**: dudar de todo hasta un fundamento firme
-### Motivos de la duda
-- **Los sentidos** — no son fiables, nos engañan
-- **El sueño** — difícil distinguir sueño y vigilia
-- **La razón** — también yerra (errores de cálculo)
-- **El genio maligno** — ser poderoso que manipula el pensamiento; todo podría ser ilusión
-## El cogito
-- El genio maligno puede engañar sobre el cuerpo, los sentidos y el mundo
-- Pero **no puede engañar** sobre el hecho de que **estoy dudando**
-- La duda misma prueba la existencia del sujeto
-- **"Pienso, luego existo"** (*cogito ergo sum*)
-- Primera **verdad absoluta e indudable**
-## Método
-- El saber necesita **axiomas indudables**; modelo: la **matemática**
-### Las cuatro reglas
-- **Evidencia** — admitir solo ideas claras y distintas
-- **Análisis** — dividir el problema en partes
-- **Síntesis** — reconstruir de lo simple a lo complejo
-- **Enumeración** — revisar todo el proceso
-## Teoría de las sustancias
-- **Res cogitans** — el pensamiento; sustancia pensante e inmaterial; nueva definición del ser humano
-- **Res infinita** — Dios; la idea de perfección e infinito no puede venir de un ser imperfecto; **garante** de la verdad, no engaña
-- **Res extensa** — la realidad física; garantizada por Dios frente al genio maligno
-## Dualismo
-- El ser humano es **unión de dos sustancias**
-- **Alma** — res cogitans: inmaterial, autónoma, inmortal
-- **Cuerpo** — res extensa: material, limitado, mortal
-- Sustancias separadas pero que **interactúan**` },
-  "map-kant":{ subject:"hf", tema:"Historia de la Filosofía · Kant", title:"Kant: razón teórica y práctica", md:`# Kant
-## La razón
-- **Uso teórico** — conocer
-- **Uso práctico** — actuar moralmente
-## Problema central
-- **¿Puede la metafísica ser una ciencia?**
-- La ciencia está formada por **juicios**
-## Teoría del conocimiento
-### Tipos de juicios
-- **Analíticos** — a priori; universales y necesarios; no amplían el saber
-- **Sintéticos** — a posteriori; probables; no científicos
-- **Sintéticos a priori** — universales, necesarios y **amplían** el conocimiento
-### Giro copernicano
-- Conocimiento = **experiencia + entendimiento**
-- Distinción **fenómeno / noúmeno**
-- **Estética trascendental** — sensibilidad → fenómenos (materia y forma: espacio/tiempo)
-- **Analítica trascendental** — entendimiento → categorías
-- **Dialéctica trascendental** — razón → metafísica (alma, Dios, mundo); no es ciencia (**ilusión**)
-## Ética (uso práctico)
-- **Buena voluntad** — base de la moralidad
-### Deber → imperativo categórico
-- Ética **formal**: autonomía, universalidad, necesidad, a priori
-### Interés → imperativo hipotético
-- Ética **material**: heteronomía, particular, contingente, a posteriori
-## Consecuencia final
-- **Felicidad**, articulada mediante los **postulados** de la razón
-- Libertad
-- Inmortalidad del alma
-- Dios` },
-  "map-critica-razon-pura":{ subject:"hf", tema:"Historia de la Filosofía · Kant (obra)", title:"Estructura de la Crítica de la razón pura", md:`# Crítica de la razón pura
-## Punto de partida
-- **Prefacio** — examinar la razón antes de usarla
-- **Introducción** — ¿cómo son posibles los **juicios sintéticos a priori**?
-## Doctrina de los elementos
-### Estética trascendental
-- Formas a priori de la **sensibilidad**
-- **Espacio** — forma del sentido externo
-- **Tiempo** — forma del sentido interno
-### Lógica trascendental
-- Funciones a priori del **entendimiento**
-#### Analítica trascendental
-- Condiciones del **conocimiento científico**
-- Analítica de los conceptos — **categorías**
-- Analítica de los principios — juicios sintéticos a priori
-#### Dialéctica trascendental
-- **Ilusiones de la razón**
-- Paralogismos — error sobre el **alma**
-- Antinomias — contradicciones sobre el **mundo**
-- Ideal de la razón pura — idea de **Dios**
-## Doctrina del método
-- **Disciplina** — uso correcto de la razón
-- **Canon** — apertura a la razón práctica
-- **Arquitectónica e historia** — sistema y límites del saber` },
-  "map-ilustracion-modernidad":{ subject:"hf", tema:"Historia de la Filosofía · Ilustración", title:"La Ilustración y la crisis de la modernidad", md:`# Crisis de la modernidad
-## Crisis de autoridad
-- La modernidad rompe con la autoridad heredada
-- Se despliega en **tres ejes**
-## Eje epistémico
-- **Racionalismo** y **empirismo** enfrentados
-- Su síntesis: **criticismo** (Kant)
-- **Idealismo trascendental**
-- Límite: **fenómeno / noúmeno**
-## Eje cultural-estético
-- **Disputa de los Antiguos y los Modernos**
-- Clasicistas frente a modernos
-- **Leibniz** — imparcialidad
-- Idea de **progreso**
-## Eje político
-- El uso de la razón en la vida pública
-- Tensión **razonar / obedecer**
-## Kant como respuesta
-- Fija el **límite del conocimiento** (fenómeno/noúmeno)
-- Distingue **uso público y privado** de la razón (razonar/obedecer)` },
-  "map-san-agustin":{ subject:"hf", tema:"Historia de la Filosofía · San Agustín", title:"San Agustín: las dos ciudades", md:`# San Agustín
-## Antropología
-- El ser humano se debate entre cuerpo, libertad y alma
-- **Cuerpo** — tiende al **amor desordenado** de los bienes sensibles
-- **Libre albedrío** — elige
-- **Alma / interioridad** — donde se halla el verdadero yo
-## Ética, felicidad y salvación
-- **Felicidad falsa** — buscar los bienes materiales como absolutos
-- **Mal / pecado** — elegir bienes menores creyéndolos el Bien
-- **Gracia** — la voluntad está herida y necesita la ayuda de Dios
-- **Felicidad verdadera** — Dios como **Bien Supremo**, hallado en la interioridad
-## Historia y política: las dos ciudades
-- **Ciudad terrena** — nace del amor de sí (amor desordenado)
-- **Ciudad de Dios** — nace del amor a Dios
-- **Poder político** — puede buscar orden y paz, no la salvación
-- **Dilema moral** — condenarse depende de nosotros; salvarse, no
-## Metafísica y teología
-- **Dios** crea el mundo **de la nada**
-- **Providencia** — guía la historia de la humanidad
-- **Predestinación** — Dios conoce y quiere el orden de la salvación
-- **Razones eternas** — las ideas ejemplares están en la mente de Dios` },
-  "map-platon":{ subject:"hf", tema:"Historia de la Filosofía · Platón", title:"Platón: Ideas, conocimiento y alma", md:`# Platón
-## Ontología (dualismo)
-### Mundo de las Ideas (inteligible)
-- **Perfectas**, sin defecto
-- **Inmutables** y **eternas**
-- **Universales** — "la Belleza en sí"
-### Mundo sensible
-- **Material** y **cambiante**
-- **Imperfecto** y **mortal**
-- Copia de las Ideas
-### Teoría de las Ideas
-- Las Ideas son **ontológicamente primeras**
-- Dan estructura profunda a la realidad
-- Las cosas concretas son **copias** de las Ideas
-## Epistemología (dualismo)
-### Opinión (*doxa*)
-- **Imaginación** — sombras, reflejos
-- **Creencia** — percepción de lo sensible
-### Ciencia (*episteme*)
-- **Razón discursiva** — matemática, lógica
-- **Intuición intelectual** — captar las Ideas (cima del saber)
-## Antropología
-- **Alma inmortal** — procede del mundo de las Ideas; transmigración
-- **Anamnesis** — aprender es **recordar**
-- **Tres partes del alma** — racional, irascible, concupiscible
-## Alegorías
-- **La caverna** — liberación de las sombras hacia la luz (las Ideas)
-- **El amor (Banquete)** — de lo material a la Idea de Belleza` },
-  "map-aristoteles":{ subject:"hf", tema:"Historia de la Filosofía · Aristóteles", title:"Aristóteles: alma, conocimiento y virtud", md:`# Aristóteles
-## Teoría del conocimiento
-- **Rechaza las ideas innatas** (contra Platón)
-- El alma nace como **tabula rasa**
-- Todo conocimiento parte de la **experiencia sensible**
-- La **abstracción** capta lo universal
-## Antropología (hilemorfismo)
-- Unidad sustancial de **cuerpo (materia)** y **alma (forma)**
-- No hay alma sin cuerpo
-### Tipos de alma
-- **Nutritiva** — plantas, animales, humanos
-- **Sensitiva** — animales y humanos
-- **Racional** (*noûs*) — solo los humanos
-### Potencia y acto
-- El ser humano actualiza sus **capacidades**
-- **Animal racional y político**
-## Ética
-- Fin: **eudaimonía** — vivir según la razón
-- **Virtud** = **término medio** (*mesótes*) entre dos vicios
-### Clases de virtud
-- **Éticas** — valentía, templanza (alma apetitiva)
-- **Dianoéticas** — **prudencia** (*phronesis*), sabiduría (razón)
-- La prudencia es el **timón** de la acción moral
-### Desviaciones
-- **Akrasia** — incontinencia: se sabe el bien pero no se actúa
-- **Kakia** — vicio: el juicio mismo está corrompido
-- La virtud se forma por **hábito**` },
-  "map-helenismo":{ subject:"hf", tema:"Historia de la Filosofía · Helenismo", title:"Escuelas helenísticas", md:`# Filosofía helenística
-## Contexto
-- Época helenística (s. IV–I a.C.): **de la polis al imperio**
-- Crisis política y existencial: pérdida de la ciudadanía
-- Nueva función: **filosofía como terapia del alma**
-- Fin común: **eudaimonía** (la buena vida)
-## Epicureísmo
-- **Epicuro** — "El Jardín"
-- **Física** — materialismo y atomismo
-- **Ética** — placer natural y necesario
-- **Ataraxia** — serenidad del alma
-- **Tetrafármaco** — no temer a dioses ni a la muerte
-## Estoicismo
-- **Zenón de Citio**; Séneca, Epicteto, Marco Aurelio
-- **Logos** — razón universal del cosmos; **determinismo**
-- **Virtud** — vivir conforme a la razón
-- **Apatía** — dominio de las pasiones dañinas
-- Distinguir lo que **depende de nosotros** y lo que no
-## Cinismo
-- **Antístenes**, **Diógenes** de Sínope
-- La **naturaleza** como modelo frente a la convención
-- **Autarquía** — autogobierno
-- **Pobreza voluntaria** y **desvergüenza** (decir la verdad)
-## Escepticismo
-- **Pirrón**
-- No hay **criterio seguro** de verdad
-- **Epojé** — suspensión del juicio
-- Conduce a la **ataraxia**` },
-  "map-nietzsche":{ subject:"hf", tema:"Historia de la Filosofía · Nietzsche", title:"Nietzsche: crítica y vitalismo", md:`# Nietzsche
-## Crítica de la tradición occidental
-### Metafísica
-- Se funda en el **Ser** (mundo aparente / mundo verdadero)
-- Procede de **Platón** y del **cristianismo**
-- Frente a ella propone el **Devenir**
-### Conocimiento
-- Basado en el **concepto** — busca esencias inmutables, universales, eternas
-- Deriva en la **ciencia** — pretende ser única, objetiva, neutral
-- Frente a ello propone **arte**, **perspectiva**, **metáfora**
-### Religión
-- Basada en la **trascendencia**; rechaza vida, cuerpo y mundo sensible
-- **"Dios ha muerto"** → **nihilismo** (confusión y oportunidad)
-### Moral
-- Nace del **resentimiento**; ascetismo que niega el cuerpo
-- Frente a ella propone la **transmutación de los valores**
-## Propuesta vitalista
-- Afirmación de la **vida**
-- **Voluntad de poder** → **superhombre**
-- **Eterno retorno**
-- Alegoría: **camello, león, niño**` },
-  "map-hegel":{ subject:"hf", tema:"Historia de la Filosofía · Hegel", title:"Hegel: dialéctica y Espíritu", md:`# Hegel
-## Sistema filosófico
-- **Idealismo absoluto**
-- Filosofía **sistemática**
-- Continúa y supera la síntesis de **Kant**
-## Dialéctica
-- **Tesis, antítesis, síntesis**
-- **Negación de la negación**
-- Autodesarrollo del **concepto**
-## Fenomenología del Espíritu
-- **Conciencia** — experiencia de la realidad
-- **Certeza sensible** — primer momento
-- **Percepción** — segundo momento
-- **En sí** y **para sí** — las dos caras del objeto
-- **Reflexión** — proceso del pensamiento
-## Conceptos clave
-- **Lo Absoluto** — unidad de sujeto y objeto
-- **Sujeto-objeto** — unidad de pensamiento y ser
-- **Entendimiento intuitivo**
-## Influencia
-- Schelling, Fichte, Hölderlin
-- **Marx** — dialéctica materialista
-- Teoría crítica` },
-  "map-ideologia":{ subject:"hf", tema:"Historia de la Filosofía · Marx y Frankfurt", title:"Ideología y teoría crítica", md:`# Ideología
-## El concepto en Marx
-- **Sistema de ideas** de la clase dominante
-- **Distorsión** de la realidad
-- **Ocultamiento** de las relaciones sociales
-- Se apoya en el **modo de producción**
-## Crítica ideológica
-- **Marx** — crítica de la ideología burguesa
-- **Escuela de Frankfurt** — razón instrumental
-- **Adorno** — industria cultural
-## Historia del concepto
-- Marx y el origen
-- **Gramsci** y **Althusser**
-- Otras perspectivas contemporáneas
-## Conceptos vinculados
-- **Alienación**
-- **Praxis** — transformación de la realidad` },
-  "map-filosofia-ciencia":{ subject:"fil", tema:"Filosofía · Filosofía de la ciencia", title:"Filosofía de la ciencia", md:`# Filosofía de la ciencia
-## Preguntas centrales
-- ¿Qué es el **conocimiento científico**?
-- ¿Cómo se obtiene?
-- ¿Qué distingue la ciencia de otros saberes?
-## Filosofía de la física
-- **Espacio y tiempo** — Newton vs Leibniz; relatividad; cuántica
-- **Causalidad** — determinismo vs indeterminismo
-## Epistemología científica
-- **Realismo** — las teorías describen la verdad
-- **Instrumentalismo** — las teorías son herramientas
-- **Construcción social** del conocimiento
-- Prueba: **inducción**, **falsación** (Popper), teorema de Bayes
-## Metodología
-- **Método científico** — observación, hipótesis, experimentación, teoría
-- Clasificación: ciencias formales, físicas, biológicas y sociales
-## Filosofía de las matemáticas
-- **Platonismo** — los objetos matemáticos existen
-- **Nominalismo** — solo son lenguaje
-- **Intuicionismo** — son una construcción humana
-## Historia de la ciencia
-- Revoluciones: **Copérnico**, **Newton**, **Einstein**, cuántica
-- **Galileo** — inicio de la revolución científica` },
-  "map-presocraticos":{ subject:"hf", tema:"Historia de la Filosofía · Presocráticos", title:"Los presocráticos y el arché", md:`# Presocráticos
-## Del mito al logos
-- Explicar la **physis** por **causas naturales**, no por los dioses
-- **arché**: principio, origen y sustrato de todo
-## Monistas (Mileto)
-- **Tales** — el agua
-- **Anaximandro** — el *ápeiron* (lo indefinido)
-- **Anaxímenes** — el aire (condensación / rarefacción)
-## Pitagóricos
-- **Pitágoras** — el número y la armonía
-- Alma inmortal que **transmigra** (influye en Platón)
-## El ser y el devenir
-- **Heráclito** — «todo fluye»; el *logos* (fuego); lucha de contrarios
-- **Parménides** — el ser es uno e inmutable; el cambio es apariencia
-## Pluralistas (mecanicismo)
-- **Empédocles** — cuatro raíces + Amor y Odio
-- **Anaxágoras** — las semillas + el *Nous* (mente)
-- **Demócrito** — **átomos** y **vacío**; materia y movimiento` },
-  "map-ser-humano":{ subject:"fil", tema:"Filosofía · Tema 2", title:"¿Qué es el ser humano?", md:`# ¿Qué es el ser humano?
-## Naturaleza y cultura
-- **Evolución** → **hominización** (biológica)
-- **Cultura** → **humanización** (aprendida)
-- Dialéctica naturaleza-cultura; nacemos «inacabados»
-## Cultura, identidad y diversidad
-- **Socialización**; identidad personal y colectiva
-- **Etnocentrismo / relativismo / interculturalidad**
-## Cuerpo y mente
-- **Dualismo** — Platón (cárcel del alma); Descartes (res cogitans / res extensa)
-- **Monismo / materialismo** — somos cuerpo
-- Aristóteles — el alma, **forma** del cuerpo
-## Concepciones en la historia
-- Antigüedad — animal **racional** y social
-- Edad Media — criatura a imagen de Dios
-- Modernidad — sujeto que piensa (Descartes); **dignidad** (Kant)
-- Contemporánea — Marx (trabajo), Nietzsche, existencialismo (**proyecto** y libertad)
-## Conciencia, lenguaje y persona
-- **Conciencia** y autoconciencia (introspección)
-- **Lenguaje** simbólico
-- **Persona** — dignidad; fin en sí misma
-## Identidad personal
-- Barco de Teseo; **memoria** (Locke); Hume; el relato
-- **Transhumanismo**
-## El sentido de la existencia
-- Absurdo / trascendente / inmanente / **darse sentido uno mismo**` },
-  "map-conocimiento":{ subject:"fil", tema:"Filosofía · Tema 3", title:"¿Qué podemos conocer?", md:`# ¿Qué podemos conocer?
-## El conocimiento humano
-- Relación **sujeto — objeto**
-- Grados: **sensación → percepción → concepto** (abstracción)
-- La rama: **epistemología / gnoseología**
-## Las fuentes del conocimiento
-- **Racionalismo** (Descartes) — la razón; ideas innatas
-- **Empirismo** (Locke, Hume) — la experiencia; *tabula rasa*
-- **Criticismo** (Kant) — experiencia + razón
-## ¿Podemos alcanzar la verdad?
-- **Dogmatismo** · **Escepticismo** · **Relativismo** · **Criticismo**
-## La cuestión de la verdad
-- Opinión (**doxa**) frente a ciencia (**episteme**)
-- Teorías: **correspondencia**, coherencia, consenso, pragmática
-## La posverdad
-- Los hechos pesan menos que las emociones
-- Bulos, **fake news**, sesgos, cámaras de eco
-- Defensa: **pensamiento crítico** y contrastar fuentes
-## El saber científico
-- Ciencias **formales** y **empíricas** (naturales / sociales)
-- **Método hipotético-deductivo**; Popper (falsabilidad), Kuhn (paradigmas)
-## Ciencia, tecnología y arte
-- Ciencia / técnica / **tecnología**; límites éticos
-- La **mujer en la ciencia**` },
-  "map-racionalismo-empirismo":{ subject:"fil", tema:"Filosofía · Racionalismo y empirismo", title:"Racionalismo vs. empirismo", md:`# Racionalismo vs. empirismo
-## El problema
-- Edad Moderna: ¿cuál es el **fundamento del conocimiento**?
-## Racionalismo
-- Representante: **Descartes**
-- Fuente: la **razón** — conocimiento **a priori**
-- **Ideas innatas**: Dios (res infinita), res cogitans, res extensa
-- **Dogmatismo**: no duda de la capacidad de la razón
-- Verdades **universales y necesarias**
-- Método **deductivo**; modelo: las **matemáticas**
-## Empirismo
-- Representantes: **Locke** y **Hume**
-- Fuente: la **experiencia** — conocimiento **a posteriori**
-- Locke — la mente al nacer es **tabula rasa**
-- Hume — duda de la **causalidad** (hábito) → **escepticismo**
-- Verdades generales y **provisionales**
-- Método **inductivo**; modelo: la **ciencia experimental**
-## Síntesis: Kant
-- El **criticismo** une razón y experiencia
-- Redefine filosofía, metafísica y ciencia` },
-  "map-sofistas-socrates":{ subject:"hf", tema:"Historia de la Filosofía · Sofistas y Sócrates", title:"Sofistas y Sócrates", md:`# Sofistas y Sócrates
-## Los sofistas
-- **Protágoras**, **Gorgias**
-- **Escepticismo** epistemológico
-- **Relativismo moral**
-- La ley es **convención** (*nomos*), no naturaleza
-## Sócrates
-- **Universalismo moral** (frente al relativismo)
-- Busca **definiciones universales**
-- **Intelectualismo moral**: conocer el bien lleva a obrarlo
-- Método: **ironía** + **mayéutica**
-## Aspasia de Mileto
-- Maestra de **retórica** y logógrafa
-- «Maestra» de Sócrates` },
-  "map-medieval":{ subject:"hf", tema:"Historia de la Filosofía · Filosofía medieval", title:"La filosofía medieval", md:`# Filosofía medieval
-## El gran tema: razón y fe
-- Cómo se relacionan la **fe** y la **razón**
-## Etapas
-- **Patrística** — San Agustín
-- **Escolástica temprana** — San Anselmo
-- **Escolástica tardía** — Santo Tomás de Aquino
-- **Nominalismo** — Guillermo de Ockham
-## Pruebas de la existencia de Dios
-- Agustín — la **verdad interior**
-- Tomás de Aquino — las **cinco vías**
-- Ockham — pruebas **en duda** (fe y razón se separan)` },
-  "map-etica-clasica":{ subject:"hf", tema:"Historia de la Filosofía · Ética antigua", title:"El debate ético clásico", md:`# Ética clásica
-## Intelectualismo moral (Sócrates y Platón)
-- **Conocer el bien** lleva necesariamente a **obrarlo**
-- El mal es **ignorancia**: nadie obra mal a sabiendas
-- La virtud es **saber** y puede enseñarse
-- Fin: el **bien** y la justicia del alma
-## Aristóteles: la virtud como hábito
-- No basta con conocer la virtud: se adquiere por **hábito** (*ethos*)
-- **Término medio** (*mesótes*) entre dos vicios: exceso y defecto
-- Guiada por la **prudencia** (*phrónesis*)
-- Reconoce la **akrasia**: se conoce el bien, pero la pasión arrastra
-## Fin común: la felicidad
-- **Eudaimonía** — la buena vida como meta de la ética
-- Vivir conforme a la **razón**, lo propio del ser humano
-## La gran diferencia
-- Sócrates y Platón — basta el **saber** (intelectualismo)
-- Aristóteles — hace falta **carácter y costumbre** (realismo moral)` },
-  "map-politica-clasica":{ subject:"hf", tema:"Historia de la Filosofía · Política antigua", title:"El debate político clásico", md:`# Política clásica
-## Platón — la ciudad justa (utopía)
-- La *polis* refleja las **tres partes del alma**
-- **Tres clases** — productores, guardianes y gobernantes
-- **Rey filósofo**: gobierna quien conoce el **Bien**
-- **Crítica de la democracia** — el saber no se vota
-## Aristóteles — política realista
-- El ser humano es **animal político** (*zoon politikón*)
-- La *polis* es **natural**, anterior al individuo
-- **Formas puras** — monarquía, aristocracia, república (*politeia*)
-- **Formas corruptas** — tiranía, oligarquía, demagogia
-- La **república** (clase media) es la más estable
-## Contraste
-- Platón — Estado **ideal** regido por el saber
-- Aristóteles — el mejor gobierno **posible**, empírico y moderado` },
-  "map-renacimiento":{ subject:"hf", tema:"Historia de la Filosofía · Renacimiento", title:"Renacimiento y revolución científica", md:`# Renacimiento y ciencia
-## Cambios sociales
-- **Crisis del feudalismo**; auge de la **burguesía**
-- La **imprenta** (Gutenberg) difunde el saber
-- Reforma protestante; nuevas rutas y descubrimientos
-## Humanismo y antropocentrismo
-- El **ser humano** en el centro, ya no Dios
-- Vuelta a las fuentes clásicas (*studia humanitatis*)
-- Confianza en la razón y en la **dignidad** humana
-## Revolución científica
-- **Heliocentrismo** — Copérnico frente al geocentrismo
-- **Galileo** — observación, experimento y matematización
-- **Kepler** y **Newton** — leyes del universo
-- Nace el **método empírico-matemático**
-## Consecuencia
-- Del **cosmos cerrado** medieval al **universo infinito**
-- La naturaleza se lee en **lenguaje matemático**` },
-  "map-sustancias-modernas":{ subject:"hf", tema:"Historia de la Filosofía · Metafísica moderna", title:"El debate de las sustancias", md:`# Las sustancias (racionalismo)
-## El problema
-- ¿Qué es la **sustancia**? Lo que existe por sí mismo
-- Herencia del **dualismo** de Descartes y su dificultad
-## Descartes — dualismo (tres sustancias)
-- **Res infinita** (Dios), **res cogitans** (mente), **res extensa** (cuerpo)
-- Alma y cuerpo **separados**, pero interactúan
-- Problema: ¿**cómo** se comunican? (la glándula pineal)
-## Spinoza — panteísmo (monismo)
-- Una **única sustancia**: **Dios = Naturaleza** (*Deus sive Natura*)
-- Pensamiento y extensión, **dos atributos** de lo mismo
-- El ser humano, un **modo** finito de esa sustancia
-## Leibniz — pluralismo
-- Infinitas **mónadas**: sustancias simples e inextensas
-- «Sin ventanas»: no interactúan entre sí
-- **Armonía preestablecida** por Dios` },
-  "map-contrato-social":{ subject:"hf", tema:"Historia de la Filosofía · Filosofía política moderna", title:"El contrato social", md:`# El contrato social
-## La idea
-- El poder no viene de Dios, sino de un **pacto** entre individuos
-- Del **estado de naturaleza** a la **sociedad civil**
-## Hobbes — absolutismo
-- Estado de naturaleza: **guerra de todos contra todos**
-- *«El hombre es un lobo para el hombre»*
-- Se cede **todo** el poder al soberano: el **Leviatán**
-- Fin: la **seguridad**
-## Locke — liberalismo
-- Derechos naturales: vida, libertad y **propiedad**
-- El poder es **limitado** y revocable
-- **División de poderes**; monarquía parlamentaria
-- Fin: proteger los derechos
-## Rousseau — democracia
-- El ser humano nace **bueno**; la sociedad lo corrompe
-- **Voluntad general** — soberanía del pueblo
-- Fin: la **libertad** y la igualdad` },
-  "map-utilitarismo-liberalismo":{ subject:"hf", tema:"Historia de la Filosofía · Ética y política moderna", title:"Utilitarismo, liberalismo y capitalismo", md:`# Utilitarismo y liberalismo
-## Utilitarismo (Bentham, Mill)
-- Ética **consecuencialista**: lo bueno se mide por sus **resultados**
-- Principio de **utilidad** — la mayor felicidad para el mayor número
-- **Bentham** — cálculo de placeres y dolores (cuantitativo)
-- **Mill** — hay placeres **superiores**; defiende la libertad individual
-## Liberalismo
-- Primacía del **individuo** y de sus derechos
-- **Propiedad privada** y libre mercado
-- **Neutralidad** del Estado (Estado mínimo)
-## Adam Smith — capitalismo
-- La **«mano invisible»** del mercado
-- El **interés propio**, sin quererlo, produce el bien común
-## Azurmendi — crítica cooperativa
-- El ser humano tiene una tendencia natural a **cooperar**
-- No es solo un ser **competitivo**` },
-  "map-maestros-sospecha":{ subject:"hf", tema:"Historia de la Filosofía · Maestros de la sospecha", title:"Los maestros de la sospecha", md:`# Los maestros de la sospecha
-## La idea común
-- La conciencia **no es transparente**: algo oculto la determina
-- «Sospechar» de lo que se presenta como evidente
-- Expresión de **Paul Ricoeur**
-## Marx — sospecha económica
-- **Alienación** del trabajador
-- **Materialismo histórico** — la economía determina la conciencia
-- **Ideología** que oculta las relaciones de clase
-- Fin: la **revolución**
-## Nietzsche — sospecha moral
-- **«Dios ha muerto»** → **nihilismo**
-- La moral nace del **resentimiento**
-- **Voluntad de poder** y **superhombre**
-## Freud — sospecha psicológica
-- El **inconsciente** gobierna la conducta
-- **Ello, yo, superyó**
-- **Eros y Tánatos** — pulsiones de vida y muerte` },
-  "map-critica-capitalismo":{ subject:"hf", tema:"Historia de la Filosofía · Teoría crítica y política del s. XX", title:"Crítica del capitalismo (Frankfurt, Arendt, Rawls)", md:`# Crítica del capitalismo (s. XX)
-## Escuela de Frankfurt
-- **Razón instrumental** — reducida a la relación medio-fin
-- **Industria cultural** (Adorno, Horkheimer) — el ocio como mercancía
-- **Deshumanización** y dominio técnico
-## Hannah Arendt
-- Análisis del **totalitarismo**
-- La **ideología** total y el terror
-- Destrucción de la **esfera pública**; *«banalidad del mal»*
-- Defensa de la **acción** política y la pluralidad
-## John Rawls
-- **Justicia como equidad**
-- **Posición original** y **velo de ignorancia**
-- Estado de **bienestar**; principio de diferencia` },
-  "map-postmodernidad":{ subject:"hf", tema:"Historia de la Filosofía · Posmodernidad", title:"Nietzsche y la posmodernidad", md:`# Posmodernidad
-## Raíz: Nietzsche
-- Crítica de la **verdad objetiva** (perspectivismo)
-- Crítica de la **metafísica** y de los dualismos
-## Rasgos posmodernos
-- Fin de los **grandes relatos** (Lyotard)
-- **Pluralidad** y diferencia frente a lo universal
-- Sospecha ante el **progreso** y la razón ilustrada
-- **Deconstrucción** (Derrida); poder-saber (Foucault)
-## Habermas — defensa de la modernidad
-- La modernidad es un **proyecto inacabado**, no agotado
-- **Razón comunicativa** — el acuerdo mediante el diálogo
-- Frente al relativismo, una racionalidad **intersubjetiva**` },
-  "map-filosofia-lenguaje":{ subject:"hf", tema:"Historia de la Filosofía · Filosofía del lenguaje", title:"Filosofía del lenguaje (Wittgenstein)", md:`# Filosofía del lenguaje
-## Giro lingüístico
-- El siglo XX pone el **lenguaje** en el centro
-- Los límites del lenguaje son los límites del **pensamiento**
-## Primer Wittgenstein (*Tractatus*)
-- El lenguaje es **figura del mundo**
-- La metafísica es **sinsentido**: no describe hechos
-- *«De lo que no se puede hablar, hay que callar»*
-## Segundo Wittgenstein (*Investigaciones*)
-- El significado es el **uso**
-- **Juegos de lenguaje** — cada contexto tiene sus reglas
-- Filosofía **terapéutica**: disolver confusiones
-## Txillardegi — voz vasca
-- La **lengua condiciona** el pensamiento
-- Estructura inconsciente de la comunidad
-- La supervivencia del **euskera** como cuestión filosófica` },
-  "map-existencialismo":{ subject:"hf", tema:"Historia de la Filosofía · Existencialismo", title:"El existencialismo", md:`# Existencialismo
-## Tesis central
-- La **existencia precede a la esencia**
-- No hay naturaleza humana fija: **nos hacemos**
-## Sartre — existencialismo ateo
-- **Condenados a ser libres**
-- La libertad genera **angustia** y responsabilidad
-- La **mala fe** — huir de la propia libertad
-## Heidegger
-- Diferencia entre el **ser** y los entes
-- **Dasein** — el ser humano, arrojado y **proyectado** en el mundo
-- Ser-para-la-muerte
-## Ortega y Gasset — raciovitalismo
-- **«Yo soy yo y mi circunstancia»**
-- **Razón vital** e histórica
-## Unamuno — existencialismo cristiano
-- El **sentimiento trágico de la vida**
-- Ansia de **inmortalidad**; fe y razón en conflicto` },
-  "map-feminismo-beauvoir":{ subject:"hf", tema:"Historia de la Filosofía · Feminismo", title:"Simone de Beauvoir y el feminismo", md:`# Beauvoir y el feminismo
-## «No se nace mujer, se llega a serlo»
-- No existe una **esencia** femenina fija
-- El género es una **construcción cultural**
-## La alteridad — *El segundo sexo*
-- El varón se define como **sujeto** absoluto
-- La mujer, como **«lo Otro»**, lo secundario
-- Dialéctica del **amo y el esclavo** aplicada al género
-## Emancipación
-- **Educación** en igualdad
-- **Autonomía económica** por el trabajo
-- Derechos sobre el propio cuerpo
-## Olas del feminismo
-- **Ilustrado** — Wollstonecraft, De Gouges
-- **Sufragista**
-- **Contemporáneo** — Beauvoir, Butler, Amorós` },
-  "map-ipc-critico":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Pensamiento crítico: el mapa del curso", md:`# Pensamiento crítico
-## Pensar por uno mismo
-- **Filosofía**: hacerse **preguntas** y buscar el fundamento
-- **La reflexión**: no dar nada por supuesto
-- **El diálogo filosófico**: pensar **con** los demás, no contra ellos
-## Argumentar
-- **Premisas** → **conclusión**, unidas por una buena **inferencia**
-- Buen argumento: premisas **verdaderas** + conclusión que **se sigue**
-- Opinión ≠ argumento: hay que dar **razones**
-### Falacias (trampas del razonar)
-- **Ad hominem** — atacar a la persona, no a la idea
-- **Hombre de paja** — deformar lo que dice el otro
-- **Ad populum** — «lo dicen todos, luego es verdad»
-- **Autoridad** — «lo dijo un famoso / influencer»
-- **Falsa causa** — «pasó después, luego lo causó»
-- **Falso dilema** — presentar solo dos opciones
-- **Miedo y pena** — emociones en vez de razones
-## Medios y manipulación
-- **Bulos y fake news**: mentiras que parecen noticia
-- **Verificar**: fuente, pruebas, contrastar
-### Publicidad
-- Vende **emociones** e **identidad**, no productos
-- **FOMO**, idealización, influencers, repetición
-- Lenguaje **pseudocientífico**, hipérbole, comparación falsa
-## Consumo y felicidad
-- **Sociedad de consumo**: comprar sin fin, obsolescencia
-- **Necesidad vs deseo** · **Tener vs ser**
-- ¿Comprar **nos hace felices**?
-## Proyectos
-- Escribir una **noticia falsa** con falacias (y cazarlas)
-- **Cómic** y **cortometraje**` },
-  "map-ipc-falacias":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Las falacias: mapa por familias", md:`# Las falacias
-## ¿Qué es una falacia?
-- Un **error** en el razonamiento que **parece** convincente
-- Se usa para **convencer sin tener razón**
-- Detectarla = **no dejarte engañar**
-## Atacan a la persona
-- **Ad hominem** — «tú no sabes de esto, así que calla»
-- **Hombre de paja** — deforman lo que dijiste para tumbarlo
-## Apelan a la emoción
-- **Al miedo** — «si no lo haces, pasará algo terrible»
-- **A la pena** (ad misericordiam) — dar lástima en vez de razones
-- **A la mayoría** (ad populum) — «lo hace todo el mundo»
-## Errores al razonar
-- **Autoridad** — «lo dijo un famoso / influencer»
-- **Tradición** — «siempre se ha hecho así»
-- **Generalización apresurada** — pocos casos → regla general
-- **Falsa causa** (post hoc) — «pasó después, luego lo causó»
-- **Falso dilema** — solo dos opciones cuando hay más
-## El reto de clase
-- Escribe una **noticia falsa** con 3 falacias
-- Los demás tienen que **cazarlas**` },
-  "map-ipc-tecnologia":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Tecnología, redes y ética", md:`# Tecnología y ética
-## La vida digital
-- **El algoritmo** decide lo que ves; no es neutral
-- **Economía de la atención**: las apps compiten por tu tiempo
-- **Tus datos** son el precio de lo «gratis»
-## Redes sociales
-- **Enganche**: diseñadas para que no las sueltes
-- **Presión y comparación**: vidas «perfectas»
-- **Huella digital**: lo que subes, queda
-## Dilemas para debatir
-- El **vídeo humillante**: ¿compartir o denunciar? ¿quién es responsable?
-- Las **patentes de semillas**: ¿se puede patentar la vida?
-- **Pantallas y descanso**: control parental, tiempo de uso
-## Antes de compartir
-- ¿Es **verdad**? · ¿Hace **daño**? · ¿Me **usa** el algoritmo?` },
-  "map-ipc-sesgos":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Los sesgos cognitivos", md:`# Sesgos cognitivos
-## ¿Qué son?
-- **Atajos** de la mente para ahorrar esfuerzo
-- A veces útiles, a veces nos **engañan**
-- Sesgo (error al **pensar**) ≠ falacia (error al **argumentar**)
-## Deforman lo que crees
-- **Confirmación** — solo ves lo que te da la razón
-- **Anclaje** — el primer dato te condiciona (los precios)
-- **Disponibilidad** — lo que recuerdas fácil parece más frecuente
-## Vienen de los demás
-- **Efecto arrastre** — hacer lo que hace la mayoría
-- **Efecto halo** — guapo o famoso → le supongo otras virtudes
-- **FOMO** — miedo a perderte lo que viven los demás
-## Cómo defenderte
-- Busca **lo que te incomoda**, no solo lo que te gusta
-- **Pide datos y fuentes**
-- **Duda** de tu primera impresión` },
-  "map-ipc-dialogo":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"El diálogo filosófico", md:`# El diálogo
-## Diálogo vs pelea
-- **Diálogo**: pensar juntos, buscar la verdad
-- **Pelea**: ganar, quedar por encima
-- La diferencia está en el **objetivo**
-## La herencia de Sócrates
-- Dialogar **preguntando** (mayéutica)
-- «Solo sé que no sé nada»
-- Preguntar bien > respuestas prefabricadas
-## Reglas del buen diálogo
-- **Escuchar** de verdad antes de responder
-- Ir a las **ideas**, no a la persona (evita el *ad hominem*)
-- **Dar razones**, no solo afirmar
-- **Principio de caridad**: interpreta al otro en su mejor versión
-## Estar en desacuerdo bien
-- Busca lo que **compartís**
-- **Pregunta**, no acuses
-- **Cambiar de idea** no es perder` },
-  "map-ipc-genero":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Género, cuerpo y consumo (Caza de brujas)", md:`# Género, cuerpo y consumo
-## Caza de brujas (S. Federici)
-- **No fue superstición**: violencia para reorganizar la sociedad
-- Al nacer el **capitalismo** (Edad Moderna)
-- **Saberes de mujeres** (plantas, partos, vivir solas) = amenaza
-- Víctimas: mujeres **pobres, viudas, solas**
-- Tesis: **violencia machista histórica**
-## El mismo control, otras formas
-- **El cuerpo** — antes perseguido, hoy vigilado y moldeado
-- **El trabajo** — cuidados invisibles y sin pagar
-- **La voz** — silenciar (miedo, burla, acoso)
-## Género + consumo hoy
-- **Tasa rosa** — lo mismo, más caro «para ellas»
-- **Presión estética** — cuerpo «ideal» para venderte la solución
-- **Moda rápida** — presión + explotación + residuos
-## Para pensar
-- ¿Por qué precisamente esas mujeres?
-- ¿Qué une aquel control con la publicidad de hoy?` },
-  "map-ipc-fastfashion":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Fast fashion: el ciclo de una prenda", md:`# Fast fashion
-## El ciclo de vida de una prenda
-- **Campo de algodón** — mucha agua (~2.700 L por camiseta)
-- **Fábrica** — hilar, teñir, coser (a menudo precariedad)
-- **Transporte** — cruza medio mundo
-- **Tu armario** — usada pocas veces
-- **Vertedero** — tarda siglos en degradarse
-## ¿Qué es el fast fashion?
-- Colecciones nuevas **sin parar**, muy baratas
-- Diseñado para comprar **más y más a menudo**
-## El precio que no ves
-- **Agua** — gasto y contaminación
-- **Trabajo** — sueldos bajos, malas condiciones
-- **Residuos** — un camión de ropa por segundo
-## ¿Por qué compramos tanto?
-- **Presión del grupo** · **Publicidad e influencers** · **Precio bajo**
-## Consumo consciente
-- ¿La **necesito**? ¿La usaré **mucho**? ¿De qué y **quién** la hizo?
-- Segunda mano, intercambio, **cuidar y reparar**, comprar **menos y mejor**` },
-  "map-ipc-emociones":{ subject:"ipc", tema:"Pensamiento crítico · 2.º ESO", title:"Emociones y pensamiento crítico", md:`# Emociones y pensamiento crítico
-## No son el enemigo
-- Son **información**: avisan de algo
-- **No luchan** contra la razón: hay que entenderlas
-- Pero **se pueden manipular**
-## El secuestro emocional
-- Emoción muy fuerte → **modo reacción**, sin pensar
-- Publicidad, bulos y manipuladores lo saben
-## Las que más te usan
-- **Miedo** — «te pasará algo»
-- **Indignación** — el enfado vuela (el algoritmo lo premia)
-- **Pena / culpa** — ceder sin razones (ad misericordiam)
-## Pensar CON la emoción
-- **Ponle nombre**
-- **Para y respira** (cuenta hasta diez)
-- **Pregúntate por qué** lo sientes
-- **Separa** sentir de saber: la indignación no es verdad` },
-  "map-fil-mito-logos":{ subject:"fil", tema:"Filosofía · Tema 1", title:"Del mito al logos", md:`# Del mito al logos
-## El paso decisivo
-- Grecia, **s. VI a. C.**: nace la filosofía
-- De explicar por **dioses** a explicar por **razones**
-## Mito (mythos)
-- Relatos de **dioses** con voluntad caprichosa
-- **Antropomórfico y animista**
-- Se transmite por tradición oral
-- **Dogmático**: se acepta sin discutir
-## Logos (razón)
-- Busca **causas naturales** y leyes
-- Se apoya en **argumentos**; tiene autor
-- **Crítico**: se puede discutir y revisar
-## Los primeros filósofos
-- Buscan el **arché** (el principio de todo)
-- **Tales de Mileto**: el agua
-- Lo decisivo: el **cambio de método**` },
-  "map-fil-cuerpo-mente":{ subject:"fil", tema:"Filosofía · Tema 2", title:"El cuerpo y la mente", md:`# El cuerpo y la mente
-## El problema mente-cuerpo
-- ¿Somos **una** cosa o **dos**?
-## Dualismo (dos realidades)
-- Cuerpo **material** + alma **inmaterial** (lo esencial)
-- **Platón** — alma inmortal, cuerpo «cárcel»; carro alado; alma en 3 partes (racional, irascible, concupiscible)
-- **Descartes** — res cogitans (mente) vs res extensa (cuerpo-máquina)
-## Monismo materialista (una realidad)
-- Solo hay **cuerpo**; la mente es su **actividad** (el cerebro)
-- **Hume** — critica el alma-sustancia
-## Los problemas
-- Dualismo: ¿cómo se comunican mente y cuerpo?
-- Monismo: ¿somos **libres** o solo química?` }
+ "map-descartes": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Descartes",
+  "title": "Descartes: la duda y el cogito",
+  "md": "# Descartes\n## Duda metódica\n- **Objetivo**: hallar verdades con **certeza absoluta**\n- **Escepticismo radical**: dudar de todo hasta un fundamento firme\n### Motivos de la duda\n- **Los sentidos** — no son fiables, nos engañan\n- **El sueño** — difícil distinguir sueño y vigilia\n- **La razón** — también yerra (errores de cálculo)\n- **El genio maligno** — ser poderoso que manipula el pensamiento; todo podría ser ilusión\n## El cogito\n- El genio maligno puede engañar sobre el cuerpo, los sentidos y el mundo\n- Pero **no puede engañar** sobre el hecho de que **estoy dudando**\n- La duda misma prueba la existencia del sujeto\n- **\"Pienso, luego existo\"** (*cogito ergo sum*)\n- Primera **verdad absoluta e indudable**\n## Método\n- El saber necesita **axiomas indudables**; modelo: la **matemática**\n### Las cuatro reglas\n- **Evidencia** — admitir solo ideas claras y distintas\n- **Análisis** — dividir el problema en partes\n- **Síntesis** — reconstruir de lo simple a lo complejo\n- **Enumeración** — revisar todo el proceso\n## Teoría de las sustancias\n- **Res cogitans** — el pensamiento; sustancia pensante e inmaterial; nueva definición del ser humano\n- **Res infinita** — Dios; la idea de perfección e infinito no puede venir de un ser imperfecto; **garante** de la verdad, no engaña\n- **Res extensa** — la realidad física; garantizada por Dios frente al genio maligno\n## Dualismo\n- El ser humano es **unión de dos sustancias**\n- **Alma** — res cogitans: inmaterial, autónoma, inmortal\n- **Cuerpo** — res extensa: material, limitado, mortal\n- Sustancias separadas pero que **interactúan**"
+ },
+ "map-kant": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Kant",
+  "title": "Kant: razón teórica y práctica",
+  "md": "# Kant\n## La razón\n- **Uso teórico** — conocer\n- **Uso práctico** — actuar moralmente\n## Problema central\n- **¿Puede la metafísica ser una ciencia?**\n- La ciencia está formada por **juicios**\n## Teoría del conocimiento\n### Tipos de juicios\n- **Analíticos** — a priori; universales y necesarios; no amplían el saber\n- **Sintéticos** — a posteriori; probables; no científicos\n- **Sintéticos a priori** — universales, necesarios y **amplían** el conocimiento\n### Giro copernicano\n- Conocimiento = **experiencia + entendimiento**\n- Distinción **fenómeno / noúmeno**\n- **Estética trascendental** — sensibilidad → fenómenos (materia y forma: espacio/tiempo)\n- **Analítica trascendental** — entendimiento → categorías\n- **Dialéctica trascendental** — razón → metafísica (alma, Dios, mundo); no es ciencia (**ilusión**)\n## Ética (uso práctico)\n- **Buena voluntad** — base de la moralidad\n### Deber → imperativo categórico\n- Ética **formal**: autonomía, universalidad, necesidad, a priori\n### Interés → imperativo hipotético\n- Ética **material**: heteronomía, particular, contingente, a posteriori\n## Consecuencia final\n- **Felicidad**, articulada mediante los **postulados** de la razón\n- Libertad\n- Inmortalidad del alma\n- Dios"
+ },
+ "map-critica-razon-pura": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Kant (obra)",
+  "title": "Estructura de la Crítica de la razón pura",
+  "md": "# Crítica de la razón pura\n## Punto de partida\n- **Prefacio** — examinar la razón antes de usarla\n- **Introducción** — ¿cómo son posibles los **juicios sintéticos a priori**?\n## Doctrina de los elementos\n### Estética trascendental\n- Formas a priori de la **sensibilidad**\n- **Espacio** — forma del sentido externo\n- **Tiempo** — forma del sentido interno\n### Lógica trascendental\n- Funciones a priori del **entendimiento**\n#### Analítica trascendental\n- Condiciones del **conocimiento científico**\n- Analítica de los conceptos — **categorías**\n- Analítica de los principios — juicios sintéticos a priori\n#### Dialéctica trascendental\n- **Ilusiones de la razón**\n- Paralogismos — error sobre el **alma**\n- Antinomias — contradicciones sobre el **mundo**\n- Ideal de la razón pura — idea de **Dios**\n## Doctrina del método\n- **Disciplina** — uso correcto de la razón\n- **Canon** — apertura a la razón práctica\n- **Arquitectónica e historia** — sistema y límites del saber"
+ },
+ "map-ilustracion-modernidad": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Ilustración",
+  "title": "La Ilustración y la crisis de la modernidad",
+  "md": "# Crisis de la modernidad\n## Crisis de autoridad\n- La modernidad rompe con la autoridad heredada\n- Se despliega en **tres ejes**\n## Eje epistémico\n- **Racionalismo** y **empirismo** enfrentados\n- Su síntesis: **criticismo** (Kant)\n- **Idealismo trascendental**\n- Límite: **fenómeno / noúmeno**\n## Eje cultural-estético\n- **Disputa de los Antiguos y los Modernos**\n- Clasicistas frente a modernos\n- **Leibniz** — imparcialidad\n- Idea de **progreso**\n## Eje político\n- El uso de la razón en la vida pública\n- Tensión **razonar / obedecer**\n## Kant como respuesta\n- Fija el **límite del conocimiento** (fenómeno/noúmeno)\n- Distingue **uso público y privado** de la razón (razonar/obedecer)"
+ },
+ "map-san-agustin": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · San Agustín",
+  "title": "San Agustín: las dos ciudades",
+  "md": "# San Agustín\n## Antropología\n- El ser humano se debate entre cuerpo, libertad y alma\n- **Cuerpo** — tiende al **amor desordenado** de los bienes sensibles\n- **Libre albedrío** — elige\n- **Alma / interioridad** — donde se halla el verdadero yo\n## Ética, felicidad y salvación\n- **Felicidad falsa** — buscar los bienes materiales como absolutos\n- **Mal / pecado** — elegir bienes menores creyéndolos el Bien\n- **Gracia** — la voluntad está herida y necesita la ayuda de Dios\n- **Felicidad verdadera** — Dios como **Bien Supremo**, hallado en la interioridad\n## Historia y política: las dos ciudades\n- **Ciudad terrena** — nace del amor de sí (amor desordenado)\n- **Ciudad de Dios** — nace del amor a Dios\n- **Poder político** — puede buscar orden y paz, no la salvación\n- **Dilema moral** — condenarse depende de nosotros; salvarse, no\n## Metafísica y teología\n- **Dios** crea el mundo **de la nada**\n- **Providencia** — guía la historia de la humanidad\n- **Predestinación** — Dios conoce y quiere el orden de la salvación\n- **Razones eternas** — las ideas ejemplares están en la mente de Dios"
+ },
+ "map-platon": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Platón",
+  "title": "Platón: Ideas, conocimiento y alma",
+  "md": "# Platón\n## Ontología (dualismo)\n### Mundo de las Ideas (inteligible)\n- **Perfectas**, sin defecto\n- **Inmutables** y **eternas**\n- **Universales** — \"la Belleza en sí\"\n### Mundo sensible\n- **Material** y **cambiante**\n- **Imperfecto** y **mortal**\n- Copia de las Ideas\n### Teoría de las Ideas\n- Las Ideas son **ontológicamente primeras**\n- Dan estructura profunda a la realidad\n- Las cosas concretas son **copias** de las Ideas\n## Epistemología (dualismo)\n### Opinión (*doxa*)\n- **Imaginación** — sombras, reflejos\n- **Creencia** — percepción de lo sensible\n### Ciencia (*episteme*)\n- **Razón discursiva** — matemática, lógica\n- **Intuición intelectual** — captar las Ideas (cima del saber)\n## Antropología\n- **Alma inmortal** — procede del mundo de las Ideas; transmigración\n- **Anamnesis** — aprender es **recordar**\n- **Tres partes del alma** — racional, irascible, concupiscible\n## Alegorías\n- **La caverna** — liberación de las sombras hacia la luz (las Ideas)\n- **El amor (Banquete)** — de lo material a la Idea de Belleza"
+ },
+ "map-aristoteles": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Aristóteles",
+  "title": "Aristóteles: alma, conocimiento y virtud",
+  "md": "# Aristóteles\n## Teoría del conocimiento\n- **Rechaza las ideas innatas** (contra Platón)\n- El alma nace como **tabula rasa**\n- Todo conocimiento parte de la **experiencia sensible**\n- La **abstracción** capta lo universal\n## Antropología (hilemorfismo)\n- Unidad sustancial de **cuerpo (materia)** y **alma (forma)**\n- No hay alma sin cuerpo\n### Tipos de alma\n- **Nutritiva** — plantas, animales, humanos\n- **Sensitiva** — animales y humanos\n- **Racional** (*noûs*) — solo los humanos\n### Potencia y acto\n- El ser humano actualiza sus **capacidades**\n- **Animal racional y político**\n## Ética\n- Fin: **eudaimonía** — vivir según la razón\n- **Virtud** = **término medio** (*mesótes*) entre dos vicios\n### Clases de virtud\n- **Éticas** — valentía, templanza (alma apetitiva)\n- **Dianoéticas** — **prudencia** (*phronesis*), sabiduría (razón)\n- La prudencia es el **timón** de la acción moral\n### Desviaciones\n- **Akrasia** — incontinencia: se sabe el bien pero no se actúa\n- **Kakia** — vicio: el juicio mismo está corrompido\n- La virtud se forma por **hábito**"
+ },
+ "map-helenismo": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Helenismo",
+  "title": "Escuelas helenísticas",
+  "md": "# Filosofía helenística\n## Contexto\n- Época helenística (s. IV–I a.C.): **de la polis al imperio**\n- Crisis política y existencial: pérdida de la ciudadanía\n- Nueva función: **filosofía como terapia del alma**\n- Fin común: **eudaimonía** (la buena vida)\n## Epicureísmo\n- **Epicuro** — \"El Jardín\"\n- **Física** — materialismo y atomismo\n- **Ética** — placer natural y necesario\n- **Ataraxia** — serenidad del alma\n- **Tetrafármaco** — no temer a dioses ni a la muerte\n## Estoicismo\n- **Zenón de Citio**; Séneca, Epicteto, Marco Aurelio\n- **Logos** — razón universal del cosmos; **determinismo**\n- **Virtud** — vivir conforme a la razón\n- **Apatía** — dominio de las pasiones dañinas\n- Distinguir lo que **depende de nosotros** y lo que no\n## Cinismo\n- **Antístenes**, **Diógenes** de Sínope\n- La **naturaleza** como modelo frente a la convención\n- **Autarquía** — autogobierno\n- **Pobreza voluntaria** y **desvergüenza** (decir la verdad)\n## Escepticismo\n- **Pirrón**\n- No hay **criterio seguro** de verdad\n- **Epojé** — suspensión del juicio\n- Conduce a la **ataraxia**"
+ },
+ "map-nietzsche": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Nietzsche",
+  "title": "Nietzsche: crítica y vitalismo",
+  "md": "# Nietzsche\n## Crítica de la tradición occidental\n### Metafísica\n- Se funda en el **Ser** (mundo aparente / mundo verdadero)\n- Procede de **Platón** y del **cristianismo**\n- Frente a ella propone el **Devenir**\n### Conocimiento\n- Basado en el **concepto** — busca esencias inmutables, universales, eternas\n- Deriva en la **ciencia** — pretende ser única, objetiva, neutral\n- Frente a ello propone **arte**, **perspectiva**, **metáfora**\n### Religión\n- Basada en la **trascendencia**; rechaza vida, cuerpo y mundo sensible\n- **\"Dios ha muerto\"** → **nihilismo** (confusión y oportunidad)\n### Moral\n- Nace del **resentimiento**; ascetismo que niega el cuerpo\n- Frente a ella propone la **transmutación de los valores**\n## Propuesta vitalista\n- Afirmación de la **vida**\n- **Voluntad de poder** → **superhombre**\n- **Eterno retorno**\n- Alegoría: **camello, león, niño**"
+ },
+ "map-hegel": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Hegel",
+  "title": "Hegel: dialéctica y Espíritu",
+  "md": "# Hegel\n## Sistema filosófico\n- **Idealismo absoluto**\n- Filosofía **sistemática**\n- Continúa y supera la síntesis de **Kant**\n## Dialéctica\n- **Tesis, antítesis, síntesis**\n- **Negación de la negación**\n- Autodesarrollo del **concepto**\n## Fenomenología del Espíritu\n- **Conciencia** — experiencia de la realidad\n- **Certeza sensible** — primer momento\n- **Percepción** — segundo momento\n- **En sí** y **para sí** — las dos caras del objeto\n- **Reflexión** — proceso del pensamiento\n## Conceptos clave\n- **Lo Absoluto** — unidad de sujeto y objeto\n- **Sujeto-objeto** — unidad de pensamiento y ser\n- **Entendimiento intuitivo**\n## Influencia\n- Schelling, Fichte, Hölderlin\n- **Marx** — dialéctica materialista\n- Teoría crítica"
+ },
+ "map-ideologia": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Marx y Frankfurt",
+  "title": "Ideología y teoría crítica",
+  "md": "# Ideología\n## El concepto en Marx\n- **Sistema de ideas** de la clase dominante\n- **Distorsión** de la realidad\n- **Ocultamiento** de las relaciones sociales\n- Se apoya en el **modo de producción**\n## Crítica ideológica\n- **Marx** — crítica de la ideología burguesa\n- **Escuela de Frankfurt** — razón instrumental\n- **Adorno** — industria cultural\n## Historia del concepto\n- Marx y el origen\n- **Gramsci** y **Althusser**\n- Otras perspectivas contemporáneas\n## Conceptos vinculados\n- **Alienación**\n- **Praxis** — transformación de la realidad"
+ },
+ "map-filosofia-ciencia": {
+  "subject": "fil",
+  "tema": "Filosofía · Filosofía de la ciencia",
+  "title": "Filosofía de la ciencia",
+  "md": "# Filosofía de la ciencia\n## Preguntas centrales\n- ¿Qué es el **conocimiento científico**?\n- ¿Cómo se obtiene?\n- ¿Qué distingue la ciencia de otros saberes?\n## Filosofía de la física\n- **Espacio y tiempo** — Newton vs Leibniz; relatividad; cuántica\n- **Causalidad** — determinismo vs indeterminismo\n## Epistemología científica\n- **Realismo** — las teorías describen la verdad\n- **Instrumentalismo** — las teorías son herramientas\n- **Construcción social** del conocimiento\n- Prueba: **inducción**, **falsación** (Popper), teorema de Bayes\n## Metodología\n- **Método científico** — observación, hipótesis, experimentación, teoría\n- Clasificación: ciencias formales, físicas, biológicas y sociales\n## Filosofía de las matemáticas\n- **Platonismo** — los objetos matemáticos existen\n- **Nominalismo** — solo son lenguaje\n- **Intuicionismo** — son una construcción humana\n## Historia de la ciencia\n- Revoluciones: **Copérnico**, **Newton**, **Einstein**, cuántica\n- **Galileo** — inicio de la revolución científica"
+ },
+ "map-presocraticos": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Presocráticos",
+  "title": "Los presocráticos y el arché",
+  "md": "# Presocráticos\n## Del mito al logos\n- Explicar la **physis** por **causas naturales**, no por los dioses\n- **arché**: principio, origen y sustrato de todo\n## Monistas (Mileto)\n- **Tales** — el agua\n- **Anaximandro** — el *ápeiron* (lo indefinido)\n- **Anaxímenes** — el aire (condensación / rarefacción)\n## Pitagóricos\n- **Pitágoras** — el número y la armonía\n- Alma inmortal que **transmigra** (influye en Platón)\n## El ser y el devenir\n- **Heráclito** — «todo fluye»; el *logos* (fuego); lucha de contrarios\n- **Parménides** — el ser es uno e inmutable; el cambio es apariencia\n## Pluralistas (mecanicismo)\n- **Empédocles** — cuatro raíces + Amor y Odio\n- **Anaxágoras** — las semillas + el *Nous* (mente)\n- **Demócrito** — **átomos** y **vacío**; materia y movimiento"
+ },
+ "map-ser-humano": {
+  "subject": "fil",
+  "tema": "Filosofía · Tema 2",
+  "title": "¿Qué es el ser humano?",
+  "md": "# ¿Qué es el ser humano?\n## Naturaleza y cultura\n- **Evolución** → **hominización** (biológica)\n- **Cultura** → **humanización** (aprendida)\n- Dialéctica naturaleza-cultura; nacemos «inacabados»\n## Cultura, identidad y diversidad\n- **Socialización**; identidad personal y colectiva\n- **Etnocentrismo / relativismo / interculturalidad**\n## Cuerpo y mente\n- **Dualismo** — Platón (cárcel del alma); Descartes (res cogitans / res extensa)\n- **Monismo / materialismo** — somos cuerpo\n- Aristóteles — el alma, **forma** del cuerpo\n## Concepciones en la historia\n- Antigüedad — animal **racional** y social\n- Edad Media — criatura a imagen de Dios\n- Modernidad — sujeto que piensa (Descartes); **dignidad** (Kant)\n- Contemporánea — Marx (trabajo), Nietzsche, existencialismo (**proyecto** y libertad)\n## Conciencia, lenguaje y persona\n- **Conciencia** y autoconciencia (introspección)\n- **Lenguaje** simbólico\n- **Persona** — dignidad; fin en sí misma\n## Identidad personal\n- Barco de Teseo; **memoria** (Locke); Hume; el relato\n- **Transhumanismo**\n## El sentido de la existencia\n- Absurdo / trascendente / inmanente / **darse sentido uno mismo**"
+ },
+ "map-conocimiento": {
+  "subject": "fil",
+  "tema": "Filosofía · Tema 3",
+  "title": "¿Qué podemos conocer?",
+  "md": "# ¿Qué podemos conocer?\n## El conocimiento humano\n- Relación **sujeto — objeto**\n- Grados: **sensación → percepción → concepto** (abstracción)\n- La rama: **epistemología / gnoseología**\n## Las fuentes del conocimiento\n- **Racionalismo** (Descartes) — la razón; ideas innatas\n- **Empirismo** (Locke, Hume) — la experiencia; *tabula rasa*\n- **Criticismo** (Kant) — experiencia + razón\n## ¿Podemos alcanzar la verdad?\n- **Dogmatismo** · **Escepticismo** · **Relativismo** · **Criticismo**\n## La cuestión de la verdad\n- Opinión (**doxa**) frente a ciencia (**episteme**)\n- Teorías: **correspondencia**, coherencia, consenso, pragmática\n## La posverdad\n- Los hechos pesan menos que las emociones\n- Bulos, **fake news**, sesgos, cámaras de eco\n- Defensa: **pensamiento crítico** y contrastar fuentes\n## El saber científico\n- Ciencias **formales** y **empíricas** (naturales / sociales)\n- **Método hipotético-deductivo**; Popper (falsabilidad), Kuhn (paradigmas)\n## Ciencia, tecnología y arte\n- Ciencia / técnica / **tecnología**; límites éticos\n- La **mujer en la ciencia**"
+ },
+ "map-racionalismo-empirismo": {
+  "subject": "fil",
+  "tema": "Filosofía · Racionalismo y empirismo",
+  "title": "Racionalismo vs. empirismo",
+  "md": "# Racionalismo vs. empirismo\n## El problema\n- Edad Moderna: ¿cuál es el **fundamento del conocimiento**?\n## Racionalismo\n- Representante: **Descartes**\n- Fuente: la **razón** — conocimiento **a priori**\n- **Ideas innatas**: Dios (res infinita), res cogitans, res extensa\n- **Dogmatismo**: no duda de la capacidad de la razón\n- Verdades **universales y necesarias**\n- Método **deductivo**; modelo: las **matemáticas**\n## Empirismo\n- Representantes: **Locke** y **Hume**\n- Fuente: la **experiencia** — conocimiento **a posteriori**\n- Locke — la mente al nacer es **tabula rasa**\n- Hume — duda de la **causalidad** (hábito) → **escepticismo**\n- Verdades generales y **provisionales**\n- Método **inductivo**; modelo: la **ciencia experimental**\n## Síntesis: Kant\n- El **criticismo** une razón y experiencia\n- Redefine filosofía, metafísica y ciencia"
+ },
+ "map-sofistas-socrates": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Sofistas y Sócrates",
+  "title": "Sofistas y Sócrates",
+  "md": "# Sofistas y Sócrates\n## Los sofistas\n- **Protágoras**, **Gorgias**\n- **Escepticismo** epistemológico\n- **Relativismo moral**\n- La ley es **convención** (*nomos*), no naturaleza\n## Sócrates\n- **Universalismo moral** (frente al relativismo)\n- Busca **definiciones universales**\n- **Intelectualismo moral**: conocer el bien lleva a obrarlo\n- Método: **ironía** + **mayéutica**\n## Aspasia de Mileto\n- Maestra de **retórica** y logógrafa\n- «Maestra» de Sócrates"
+ },
+ "map-medieval": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Filosofía medieval",
+  "title": "La filosofía medieval",
+  "md": "# Filosofía medieval\n## El gran tema: razón y fe\n- Cómo se relacionan la **fe** y la **razón**\n## Etapas\n- **Patrística** — San Agustín\n- **Escolástica temprana** — San Anselmo\n- **Escolástica tardía** — Santo Tomás de Aquino\n- **Nominalismo** — Guillermo de Ockham\n## Pruebas de la existencia de Dios\n- Agustín — la **verdad interior**\n- Tomás de Aquino — las **cinco vías**\n- Ockham — pruebas **en duda** (fe y razón se separan)"
+ },
+ "map-etica-clasica": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Ética antigua",
+  "title": "El debate ético clásico",
+  "md": "# Ética clásica\n## Intelectualismo moral (Sócrates y Platón)\n- **Conocer el bien** lleva necesariamente a **obrarlo**\n- El mal es **ignorancia**: nadie obra mal a sabiendas\n- La virtud es **saber** y puede enseñarse\n- Fin: el **bien** y la justicia del alma\n## Aristóteles: la virtud como hábito\n- No basta con conocer la virtud: se adquiere por **hábito** (*ethos*)\n- **Término medio** (*mesótes*) entre dos vicios: exceso y defecto\n- Guiada por la **prudencia** (*phrónesis*)\n- Reconoce la **akrasia**: se conoce el bien, pero la pasión arrastra\n## Fin común: la felicidad\n- **Eudaimonía** — la buena vida como meta de la ética\n- Vivir conforme a la **razón**, lo propio del ser humano\n## La gran diferencia\n- Sócrates y Platón — basta el **saber** (intelectualismo)\n- Aristóteles — hace falta **carácter y costumbre** (realismo moral)"
+ },
+ "map-politica-clasica": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Política antigua",
+  "title": "El debate político clásico",
+  "md": "# Política clásica\n## Platón — la ciudad justa (utopía)\n- La *polis* refleja las **tres partes del alma**\n- **Tres clases** — productores, guardianes y gobernantes\n- **Rey filósofo**: gobierna quien conoce el **Bien**\n- **Crítica de la democracia** — el saber no se vota\n## Aristóteles — política realista\n- El ser humano es **animal político** (*zoon politikón*)\n- La *polis* es **natural**, anterior al individuo\n- **Formas puras** — monarquía, aristocracia, república (*politeia*)\n- **Formas corruptas** — tiranía, oligarquía, demagogia\n- La **república** (clase media) es la más estable\n## Contraste\n- Platón — Estado **ideal** regido por el saber\n- Aristóteles — el mejor gobierno **posible**, empírico y moderado"
+ },
+ "map-renacimiento": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Renacimiento",
+  "title": "Renacimiento y revolución científica",
+  "md": "# Renacimiento y ciencia\n## Cambios sociales\n- **Crisis del feudalismo**; auge de la **burguesía**\n- La **imprenta** (Gutenberg) difunde el saber\n- Reforma protestante; nuevas rutas y descubrimientos\n## Humanismo y antropocentrismo\n- El **ser humano** en el centro, ya no Dios\n- Vuelta a las fuentes clásicas (*studia humanitatis*)\n- Confianza en la razón y en la **dignidad** humana\n## Revolución científica\n- **Heliocentrismo** — Copérnico frente al geocentrismo\n- **Galileo** — observación, experimento y matematización\n- **Kepler** y **Newton** — leyes del universo\n- Nace el **método empírico-matemático**\n## Consecuencia\n- Del **cosmos cerrado** medieval al **universo infinito**\n- La naturaleza se lee en **lenguaje matemático**"
+ },
+ "map-sustancias-modernas": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Metafísica moderna",
+  "title": "El debate de las sustancias",
+  "md": "# Las sustancias (racionalismo)\n## El problema\n- ¿Qué es la **sustancia**? Lo que existe por sí mismo\n- Herencia del **dualismo** de Descartes y su dificultad\n## Descartes — dualismo (tres sustancias)\n- **Res infinita** (Dios), **res cogitans** (mente), **res extensa** (cuerpo)\n- Alma y cuerpo **separados**, pero interactúan\n- Problema: ¿**cómo** se comunican? (la glándula pineal)\n## Spinoza — panteísmo (monismo)\n- Una **única sustancia**: **Dios = Naturaleza** (*Deus sive Natura*)\n- Pensamiento y extensión, **dos atributos** de lo mismo\n- El ser humano, un **modo** finito de esa sustancia\n## Leibniz — pluralismo\n- Infinitas **mónadas**: sustancias simples e inextensas\n- «Sin ventanas»: no interactúan entre sí\n- **Armonía preestablecida** por Dios"
+ },
+ "map-contrato-social": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Filosofía política moderna",
+  "title": "El contrato social",
+  "md": "# El contrato social\n## La idea\n- El poder no viene de Dios, sino de un **pacto** entre individuos\n- Del **estado de naturaleza** a la **sociedad civil**\n## Hobbes — absolutismo\n- Estado de naturaleza: **guerra de todos contra todos**\n- *«El hombre es un lobo para el hombre»*\n- Se cede **todo** el poder al soberano: el **Leviatán**\n- Fin: la **seguridad**\n## Locke — liberalismo\n- Derechos naturales: vida, libertad y **propiedad**\n- El poder es **limitado** y revocable\n- **División de poderes**; monarquía parlamentaria\n- Fin: proteger los derechos\n## Rousseau — democracia\n- El ser humano nace **bueno**; la sociedad lo corrompe\n- **Voluntad general** — soberanía del pueblo\n- Fin: la **libertad** y la igualdad"
+ },
+ "map-utilitarismo-liberalismo": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Ética y política moderna",
+  "title": "Utilitarismo, liberalismo y capitalismo",
+  "md": "# Utilitarismo y liberalismo\n## Utilitarismo (Bentham, Mill)\n- Ética **consecuencialista**: lo bueno se mide por sus **resultados**\n- Principio de **utilidad** — la mayor felicidad para el mayor número\n- **Bentham** — cálculo de placeres y dolores (cuantitativo)\n- **Mill** — hay placeres **superiores**; defiende la libertad individual\n## Liberalismo\n- Primacía del **individuo** y de sus derechos\n- **Propiedad privada** y libre mercado\n- **Neutralidad** del Estado (Estado mínimo)\n## Adam Smith — capitalismo\n- La **«mano invisible»** del mercado\n- El **interés propio**, sin quererlo, produce el bien común\n## Azurmendi — crítica cooperativa\n- El ser humano tiene una tendencia natural a **cooperar**\n- No es solo un ser **competitivo**"
+ },
+ "map-maestros-sospecha": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Maestros de la sospecha",
+  "title": "Los maestros de la sospecha",
+  "md": "# Los maestros de la sospecha\n## La idea común\n- La conciencia **no es transparente**: algo oculto la determina\n- «Sospechar» de lo que se presenta como evidente\n- Expresión de **Paul Ricoeur**\n## Marx — sospecha económica\n- **Alienación** del trabajador\n- **Materialismo histórico** — la economía determina la conciencia\n- **Ideología** que oculta las relaciones de clase\n- Fin: la **revolución**\n## Nietzsche — sospecha moral\n- **«Dios ha muerto»** → **nihilismo**\n- La moral nace del **resentimiento**\n- **Voluntad de poder** y **superhombre**\n## Freud — sospecha psicológica\n- El **inconsciente** gobierna la conducta\n- **Ello, yo, superyó**\n- **Eros y Tánatos** — pulsiones de vida y muerte"
+ },
+ "map-critica-capitalismo": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Teoría crítica y política del s. XX",
+  "title": "Crítica del capitalismo (Frankfurt, Arendt, Rawls)",
+  "md": "# Crítica del capitalismo (s. XX)\n## Escuela de Frankfurt\n- **Razón instrumental** — reducida a la relación medio-fin\n- **Industria cultural** (Adorno, Horkheimer) — el ocio como mercancía\n- **Deshumanización** y dominio técnico\n## Hannah Arendt\n- Análisis del **totalitarismo**\n- La **ideología** total y el terror\n- Destrucción de la **esfera pública**; *«banalidad del mal»*\n- Defensa de la **acción** política y la pluralidad\n## John Rawls\n- **Justicia como equidad**\n- **Posición original** y **velo de ignorancia**\n- Estado de **bienestar**; principio de diferencia"
+ },
+ "map-postmodernidad": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Posmodernidad",
+  "title": "Nietzsche y la posmodernidad",
+  "md": "# Posmodernidad\n## Raíz: Nietzsche\n- Crítica de la **verdad objetiva** (perspectivismo)\n- Crítica de la **metafísica** y de los dualismos\n## Rasgos posmodernos\n- Fin de los **grandes relatos** (Lyotard)\n- **Pluralidad** y diferencia frente a lo universal\n- Sospecha ante el **progreso** y la razón ilustrada\n- **Deconstrucción** (Derrida); poder-saber (Foucault)\n## Habermas — defensa de la modernidad\n- La modernidad es un **proyecto inacabado**, no agotado\n- **Razón comunicativa** — el acuerdo mediante el diálogo\n- Frente al relativismo, una racionalidad **intersubjetiva**"
+ },
+ "map-filosofia-lenguaje": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Filosofía del lenguaje",
+  "title": "Filosofía del lenguaje (Wittgenstein)",
+  "md": "# Filosofía del lenguaje\n## Giro lingüístico\n- El siglo XX pone el **lenguaje** en el centro\n- Los límites del lenguaje son los límites del **pensamiento**\n## Primer Wittgenstein (*Tractatus*)\n- El lenguaje es **figura del mundo**\n- La metafísica es **sinsentido**: no describe hechos\n- *«De lo que no se puede hablar, hay que callar»*\n## Segundo Wittgenstein (*Investigaciones*)\n- El significado es el **uso**\n- **Juegos de lenguaje** — cada contexto tiene sus reglas\n- Filosofía **terapéutica**: disolver confusiones\n## Txillardegi — voz vasca\n- La **lengua condiciona** el pensamiento\n- Estructura inconsciente de la comunidad\n- La supervivencia del **euskera** como cuestión filosófica"
+ },
+ "map-existencialismo": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Existencialismo",
+  "title": "El existencialismo",
+  "md": "# Existencialismo\n## Tesis central\n- La **existencia precede a la esencia**\n- No hay naturaleza humana fija: **nos hacemos**\n## Sartre — existencialismo ateo\n- **Condenados a ser libres**\n- La libertad genera **angustia** y responsabilidad\n- La **mala fe** — huir de la propia libertad\n## Heidegger\n- Diferencia entre el **ser** y los entes\n- **Dasein** — el ser humano, arrojado y **proyectado** en el mundo\n- Ser-para-la-muerte\n## Ortega y Gasset — raciovitalismo\n- **«Yo soy yo y mi circunstancia»**\n- **Razón vital** e histórica\n## Unamuno — existencialismo cristiano\n- El **sentimiento trágico de la vida**\n- Ansia de **inmortalidad**; fe y razón en conflicto"
+ },
+ "map-feminismo-beauvoir": {
+  "subject": "hf",
+  "tema": "Historia de la Filosofía · Feminismo",
+  "title": "Simone de Beauvoir y el feminismo",
+  "md": "# Beauvoir y el feminismo\n## «No se nace mujer, se llega a serlo»\n- No existe una **esencia** femenina fija\n- El género es una **construcción cultural**\n## La alteridad — *El segundo sexo*\n- El varón se define como **sujeto** absoluto\n- La mujer, como **«lo Otro»**, lo secundario\n- Dialéctica del **amo y el esclavo** aplicada al género\n## Emancipación\n- **Educación** en igualdad\n- **Autonomía económica** por el trabajo\n- Derechos sobre el propio cuerpo\n## Olas del feminismo\n- **Ilustrado** — Wollstonecraft, De Gouges\n- **Sufragista**\n- **Contemporáneo** — Beauvoir, Butler, Amorós"
+ },
+ "map-ipc-critico": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Pensamiento crítico: el mapa del curso",
+  "md": "# Pensamiento crítico\n## Pensar por uno mismo\n- **Filosofía**: hacerse **preguntas** y buscar el fundamento\n- **La reflexión**: no dar nada por supuesto\n- **El diálogo filosófico**: pensar **con** los demás, no contra ellos\n## Argumentar\n- **Premisas** → **conclusión**, unidas por una buena **inferencia**\n- Buen argumento: premisas **verdaderas** + conclusión que **se sigue**\n- Opinión ≠ argumento: hay que dar **razones**\n### Falacias (trampas del razonar)\n- **Ad hominem** — atacar a la persona, no a la idea\n- **Hombre de paja** — deformar lo que dice el otro\n- **Ad populum** — «lo dicen todos, luego es verdad»\n- **Autoridad** — «lo dijo un famoso / influencer»\n- **Falsa causa** — «pasó después, luego lo causó»\n- **Falso dilema** — presentar solo dos opciones\n- **Miedo y pena** — emociones en vez de razones\n## Medios y manipulación\n- **Bulos y fake news**: mentiras que parecen noticia\n- **Verificar**: fuente, pruebas, contrastar\n### Publicidad\n- Vende **emociones** e **identidad**, no productos\n- **FOMO**, idealización, influencers, repetición\n- Lenguaje **pseudocientífico**, hipérbole, comparación falsa\n## Consumo y felicidad\n- **Sociedad de consumo**: comprar sin fin, obsolescencia\n- **Necesidad vs deseo** · **Tener vs ser**\n- ¿Comprar **nos hace felices**?\n## Proyectos\n- Escribir una **noticia falsa** con falacias (y cazarlas)\n- **Cómic** y **cortometraje**"
+ },
+ "map-ipc-falacias": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Las falacias: mapa por familias",
+  "md": "# Las falacias\n## ¿Qué es una falacia?\n- Un **error** en el razonamiento que **parece** convincente\n- Se usa para **convencer sin tener razón**\n- Detectarla = **no dejarte engañar**\n## Atacan a la persona\n- **Ad hominem** — «tú no sabes de esto, así que calla»\n- **Hombre de paja** — deforman lo que dijiste para tumbarlo\n## Apelan a la emoción\n- **Al miedo** — «si no lo haces, pasará algo terrible»\n- **A la pena** (ad misericordiam) — dar lástima en vez de razones\n- **A la mayoría** (ad populum) — «lo hace todo el mundo»\n## Errores al razonar\n- **Autoridad** — «lo dijo un famoso / influencer»\n- **Tradición** — «siempre se ha hecho así»\n- **Generalización apresurada** — pocos casos → regla general\n- **Falsa causa** (post hoc) — «pasó después, luego lo causó»\n- **Falso dilema** — solo dos opciones cuando hay más\n## El reto de clase\n- Escribe una **noticia falsa** con 3 falacias\n- Los demás tienen que **cazarlas**"
+ },
+ "map-ipc-tecnologia": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Tecnología, redes y ética",
+  "md": "# Tecnología y ética\n## La vida digital\n- **El algoritmo** decide lo que ves; no es neutral\n- **Economía de la atención**: las apps compiten por tu tiempo\n- **Tus datos** son el precio de lo «gratis»\n## Redes sociales\n- **Enganche**: diseñadas para que no las sueltes\n- **Presión y comparación**: vidas «perfectas»\n- **Huella digital**: lo que subes, queda\n## Dilemas para debatir\n- El **vídeo humillante**: ¿compartir o denunciar? ¿quién es responsable?\n- Las **patentes de semillas**: ¿se puede patentar la vida?\n- **Pantallas y descanso**: control parental, tiempo de uso\n## Antes de compartir\n- ¿Es **verdad**? · ¿Hace **daño**? · ¿Me **usa** el algoritmo?"
+ },
+ "map-ipc-sesgos": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Los sesgos cognitivos",
+  "md": "# Sesgos cognitivos\n## ¿Qué son?\n- **Atajos** de la mente para ahorrar esfuerzo\n- A veces útiles, a veces nos **engañan**\n- Sesgo (error al **pensar**) ≠ falacia (error al **argumentar**)\n## Deforman lo que crees\n- **Confirmación** — solo ves lo que te da la razón\n- **Anclaje** — el primer dato te condiciona (los precios)\n- **Disponibilidad** — lo que recuerdas fácil parece más frecuente\n## Vienen de los demás\n- **Efecto arrastre** — hacer lo que hace la mayoría\n- **Efecto halo** — guapo o famoso → le supongo otras virtudes\n- **FOMO** — miedo a perderte lo que viven los demás\n## Cómo defenderte\n- Busca **lo que te incomoda**, no solo lo que te gusta\n- **Pide datos y fuentes**\n- **Duda** de tu primera impresión"
+ },
+ "map-ipc-dialogo": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "El diálogo filosófico",
+  "md": "# El diálogo\n## Diálogo vs pelea\n- **Diálogo**: pensar juntos, buscar la verdad\n- **Pelea**: ganar, quedar por encima\n- La diferencia está en el **objetivo**\n## La herencia de Sócrates\n- Dialogar **preguntando** (mayéutica)\n- «Solo sé que no sé nada»\n- Preguntar bien > respuestas prefabricadas\n## Reglas del buen diálogo\n- **Escuchar** de verdad antes de responder\n- Ir a las **ideas**, no a la persona (evita el *ad hominem*)\n- **Dar razones**, no solo afirmar\n- **Principio de caridad**: interpreta al otro en su mejor versión\n## Estar en desacuerdo bien\n- Busca lo que **compartís**\n- **Pregunta**, no acuses\n- **Cambiar de idea** no es perder"
+ },
+ "map-ipc-genero": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Género, cuerpo y consumo (Caza de brujas)",
+  "md": "# Género, cuerpo y consumo\n## Caza de brujas (S. Federici)\n- **No fue superstición**: violencia para reorganizar la sociedad\n- Al nacer el **capitalismo** (Edad Moderna)\n- **Saberes de mujeres** (plantas, partos, vivir solas) = amenaza\n- Víctimas: mujeres **pobres, viudas, solas**\n- Tesis: **violencia machista histórica**\n## El mismo control, otras formas\n- **El cuerpo** — antes perseguido, hoy vigilado y moldeado\n- **El trabajo** — cuidados invisibles y sin pagar\n- **La voz** — silenciar (miedo, burla, acoso)\n## Género + consumo hoy\n- **Tasa rosa** — lo mismo, más caro «para ellas»\n- **Presión estética** — cuerpo «ideal» para venderte la solución\n- **Moda rápida** — presión + explotación + residuos\n## Para pensar\n- ¿Por qué precisamente esas mujeres?\n- ¿Qué une aquel control con la publicidad de hoy?"
+ },
+ "map-ipc-fastfashion": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Fast fashion: el ciclo de una prenda",
+  "md": "# Fast fashion\n## El ciclo de vida de una prenda\n- **Campo de algodón** — mucha agua (~2.700 L por camiseta)\n- **Fábrica** — hilar, teñir, coser (a menudo precariedad)\n- **Transporte** — cruza medio mundo\n- **Tu armario** — usada pocas veces\n- **Vertedero** — tarda siglos en degradarse\n## ¿Qué es el fast fashion?\n- Colecciones nuevas **sin parar**, muy baratas\n- Diseñado para comprar **más y más a menudo**\n## El precio que no ves\n- **Agua** — gasto y contaminación\n- **Trabajo** — sueldos bajos, malas condiciones\n- **Residuos** — un camión de ropa por segundo\n## ¿Por qué compramos tanto?\n- **Presión del grupo** · **Publicidad e influencers** · **Precio bajo**\n## Consumo consciente\n- ¿La **necesito**? ¿La usaré **mucho**? ¿De qué y **quién** la hizo?\n- Segunda mano, intercambio, **cuidar y reparar**, comprar **menos y mejor**"
+ },
+ "map-ipc-emociones": {
+  "subject": "ipc",
+  "tema": "Pensamiento crítico · 2.º ESO",
+  "title": "Emociones y pensamiento crítico",
+  "md": "# Emociones y pensamiento crítico\n## No son el enemigo\n- Son **información**: avisan de algo\n- **No luchan** contra la razón: hay que entenderlas\n- Pero **se pueden manipular**\n## El secuestro emocional\n- Emoción muy fuerte → **modo reacción**, sin pensar\n- Publicidad, bulos y manipuladores lo saben\n## Las que más te usan\n- **Miedo** — «te pasará algo»\n- **Indignación** — el enfado vuela (el algoritmo lo premia)\n- **Pena / culpa** — ceder sin razones (ad misericordiam)\n## Pensar CON la emoción\n- **Ponle nombre**\n- **Para y respira** (cuenta hasta diez)\n- **Pregúntate por qué** lo sientes\n- **Separa** sentir de saber: la indignación no es verdad"
+ },
+ "map-fil-mito-logos": {
+  "subject": "fil",
+  "tema": "Filosofía · Tema 1",
+  "title": "Del mito al logos",
+  "md": "# Del mito al logos\n## El paso decisivo\n- Grecia, **s. VI a. C.**: nace la filosofía\n- De explicar por **dioses** a explicar por **razones**\n## Mito (mythos)\n- Relatos de **dioses** con voluntad caprichosa\n- **Antropomórfico y animista**\n- Se transmite por tradición oral\n- **Dogmático**: se acepta sin discutir\n## Logos (razón)\n- Busca **causas naturales** y leyes\n- Se apoya en **argumentos**; tiene autor\n- **Crítico**: se puede discutir y revisar\n## Los primeros filósofos\n- Buscan el **arché** (el principio de todo)\n- **Tales de Mileto**: el agua\n- Lo decisivo: el **cambio de método**"
+ },
+ "map-fil-cuerpo-mente": {
+  "subject": "fil",
+  "tema": "Filosofía · Tema 2",
+  "title": "El cuerpo y la mente",
+  "md": "# El cuerpo y la mente\n## El problema mente-cuerpo\n- ¿Somos **una** cosa o **dos**?\n## Dualismo (dos realidades)\n- Cuerpo **material** + alma **inmaterial** (lo esencial)\n- **Platón** — alma inmortal, cuerpo «cárcel»; carro alado; alma en 3 partes (racional, irascible, concupiscible)\n- **Descartes** — res cogitans (mente) vs res extensa (cuerpo-máquina)\n## Monismo materialista (una realidad)\n- Solo hay **cuerpo**; la mente es su **actividad** (el cerebro)\n- **Hume** — critica el alma-sustancia\n## Los problemas\n- Dualismo: ¿cómo se comunican mente y cuerpo?\n- Monismo: ¿somos **libres** o solo química?"
+ }
 };
