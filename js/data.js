@@ -37,10 +37,7 @@ const WEEK = [
   ],
   "",
   "",
-  [
-   "ipc",
-   "P. crítico · S2"
-  ]
+  ""
  ],
  [
   "11:15",
@@ -50,10 +47,7 @@ const WEEK = [
    "Filo 1.º D · S1"
   ],
   "",
-  [
-   "ipc",
-   "P. crítico · S1"
-  ],
+  "",
   ""
  ],
  [
@@ -251,45 +245,6 @@ const SUBJECTS = {
     "Citas · contemporánea",
     "tarjetas",
     "citasC"
-   ]
-  ]
- },
- "ipc": {
-  "name": "Pensamiento crítico",
-  "kick": "2.º de ESO · Inicio de curso",
-  "color": "var(--ipc)",
-  "intro": "Fundamentar los conceptos del curso (opinión, pregunta y tipos de pregunta, argumentación, debate, diálogo, crítica, criterio, autonomía, conflicto, negociación) y hacer la preevaluación inicial.",
-  "mats": [
-   [
-    "Contrato de aula",
-    "Normas, compromisos y hoja de firma.",
-    "ipc\\gestion_aula",
-    "ipc-contrato"
-   ],
-   [
-    "Diario de aprendizaje",
-    "Portada, plantilla de entrada y hoja de evidencias.",
-    "ipc\\gestion_aula",
-    "ipc-diario"
-   ],
-   [
-    "Evaluación inicial",
-    "«¿Buena razón o truco?»: test de 10 ítems + escrito breve.",
-    "ipc\\fichas",
-    "ipc-eval-inicial"
-   ],
-   [
-    "Lista de control del diálogo",
-    "Sí / A medias / No, en cuatro dimensiones.",
-    "ipc\\rubricas",
-    "ipc-lista-dialogo"
-   ]
-  ],
-  "tools": [
-   [
-    "Cuestionario: falacias",
-    "cuestionarios",
-    "falacias"
    ]
   ]
  }
@@ -2767,210 +2722,6 @@ const DECKS = {
     "Una teoría es científica si puede ponerse a prueba y, en principio, refutarse."
    ]
   ]
- },
- "ipc-conceptos": {
-  "name": "Pensamiento crítico · Conceptos básicos",
-  "subject": "ipc",
-  "cards": [
-   [
-    "💬",
-    "Opinión",
-    "Lo que alguien piensa sobre algo. Vale más cuando se apoya en razones y no solo en gustos."
-   ],
-   [
-    "🧩",
-    "Argumento",
-    "Una afirmación (conclusión) defendida con razones (premisas)."
-   ],
-   [
-    "❓",
-    "Pregunta",
-    "La herramienta del pensamiento: abre la investigación en vez de cerrarla."
-   ],
-   [
-    "🗣️",
-    "Debate",
-    "Confrontar posturas con argumentos para defender una idea."
-   ],
-   [
-    "🤝",
-    "Diálogo",
-    "Pensar juntos para acercarse a la verdad, no para «ganar»."
-   ],
-   [
-    "🔍",
-    "Pensamiento crítico",
-    "Examinar las ideas (propias y ajenas) antes de aceptarlas, buscando razones y pruebas."
-   ],
-   [
-    "📏",
-    "Criterio",
-    "La razón o la regla en la que baso un juicio o una decisión."
-   ],
-   [
-    "🧭",
-    "Autonomía",
-    "Pensar y decidir por uno mismo, con criterio propio, frente a seguir a la masa."
-   ],
-   [
-    "🕊️",
-    "Principio de caridad",
-    "Interpretar la postura del otro en su versión más fuerte antes de criticarla."
-   ],
-   [
-    "⚔️",
-    "Conflicto",
-    "Choque de intereses o de ideas; puede resolverse con diálogo y negociación."
-   ],
-   [
-    "🤲",
-    "Negociación",
-    "Buscar un acuerdo en el que las partes ceden algo para ganar algo."
-   ]
-  ]
- },
- "ipc-falacias": {
-  "name": "Pensamiento crítico · Falacias",
-  "subject": "ipc",
-  "cards": [
-   [
-    "🙅",
-    "Ad hominem",
-    "Atacar a la persona en vez de a su argumento: «¿Qué vas a decir tú, que llegas tarde todos los días?»."
-   ],
-   [
-    "🥊",
-    "Hombre de paja",
-    "Deformar lo que dice el otro para rebatir una versión más fácil de tumbar."
-   ],
-   [
-    "🚪",
-    "Falso dilema",
-    "Presentar solo dos opciones cuando hay más: «O estás conmigo o estás contra mí»."
-   ],
-   [
-    "👥",
-    "Ad populum",
-    "«Lo hace todo el mundo, así que es bueno». Que muchos lo hagan no lo hace verdad."
-   ],
-   [
-    "🎓",
-    "Apelación a la autoridad",
-    "«Lo dice un famoso, será verdad». Citar a quien no es experto en el tema."
-   ],
-   [
-    "🔗",
-    "Falsa causa (post hoc)",
-    "Creer que si algo ocurrió después, fue por su causa: «Aprobé con estos calcetines»."
-   ],
-   [
-    "😱",
-    "Apelación al miedo",
-    "Convencer asustando con consecuencias terribles de las que no se da ninguna prueba."
-   ],
-   [
-    "😢",
-    "Apelación a la compasión",
-    "Dar pena en lugar de dar razones."
-   ],
-   [
-    "🎲",
-    "Generalización precipitada",
-    "Sacar una regla general de muy pocos casos: «Fui dos veces y siempre está lleno»."
-   ],
-   [
-    "⏳",
-    "Apelación a la tradición",
-    "«Siempre se ha hecho así», como si eso por sí solo lo justificara."
-   ]
-  ]
- },
- "ipc-sesgos": {
-  "name": "Pensamiento crítico · Sesgos cognitivos",
-  "subject": "ipc",
-  "cards": [
-   [
-    "🧲",
-    "Sesgo de confirmación",
-    "Buscar y creer solo lo que confirma lo que ya pienso, ignorando lo demás."
-   ],
-   [
-    "⚓",
-    "Anclaje",
-    "Quedarse pegado al primer dato recibido al juzgar (el primer precio, la primera cifra)."
-   ],
-   [
-    "📺",
-    "Disponibilidad",
-    "Creer que algo es más probable solo porque lo recuerdo con facilidad (sale mucho en las noticias)."
-   ],
-   [
-    "🐑",
-    "Arrastre (efecto bandwagon)",
-    "Pensar u opinar como el grupo por no quedarme fuera."
-   ],
-   [
-    "✨",
-    "Efecto halo",
-    "Si alguien me cae bien o me parece atractivo, doy por buenas todas sus ideas."
-   ],
-   [
-    "⏰",
-    "FOMO",
-    "Miedo a perderse algo; empuja a decidir por impulso para no quedar atrás."
-   ],
-   [
-    "🔀",
-    "Sesgo ≠ falacia",
-    "La falacia es un error en el argumento; el sesgo es un atajo mental que tuerce cómo pensamos."
-   ]
-  ]
- },
- "ipc-publicidad": {
-  "name": "Pensamiento crítico · Publicidad y medios",
-  "subject": "ipc",
-  "cards": [
-   [
-    "🌟",
-    "Testimonio / influencer",
-    "Alguien famoso recomienda el producto para que confíes en él."
-   ],
-   [
-    "👥",
-    "Todos lo tienen (bandwagon)",
-    "«Únete a los millones que ya lo usan»."
-   ],
-   [
-    "⏳",
-    "Escasez y urgencia",
-    "«Solo hoy», «últimas unidades»: presionan para decidir sin pensar."
-   ],
-   [
-    "🌈",
-    "Publicidad aspiracional",
-    "No vende el producto, sino la vida feliz y admirada que promete."
-   ],
-   [
-    "😂",
-    "Humor y emoción",
-    "Te hace reír o emocionarte para que asocies esa sensación con la marca."
-   ],
-   [
-    "🎯",
-    "Clickbait",
-    "Titular exagerado que promete más de lo que da, para que hagas clic."
-   ],
-   [
-    "✅",
-    "Contrastar fuentes",
-    "Antes de creer o compartir: ¿quién lo dice?, ¿con qué pruebas?, ¿lo confirman otros?"
-   ],
-   [
-    "🧠",
-    "Alfabetización mediática",
-    "Saber leer críticamente los medios: distinguir información, opinión y publicidad."
-   ]
-  ]
  }
 };
 const QUIZZES = {
@@ -3088,133 +2839,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Empédocles (cuatro raíces + Amor y Odio), Anaxágoras (semillas + Nous) y los atomistas: principios eternos que se mezclan y separan."
-   }
-  ]
- },
- "falacias": {
-  "name": "Falacias (Pensamiento crítico)",
-  "subject": "ipc",
-  "items": [
-   {
-    "q": "¿Qué es una falacia?",
-    "o": [
-     "Un argumento con razones sólidas y pruebas.",
-     "Un razonamiento que parece bueno pero no lo es; muchas veces se usa para convencer o engañar.",
-     "Una frase que siempre es verdadera.",
-     "Una opinión con la que no estoy de acuerdo."
-    ],
-    "a": 1,
-    "fb": "Una falacia parece un buen razonamiento, pero sus razones no sostienen la conclusión."
-   },
-   {
-    "q": "En la asamblea de clase, Naroa propone cambiar de sitio las mochilas. Julen le contesta: «¿Y tú qué vas a proponer, si llegas tarde todos los días?».",
-    "o": [
-     "Hombre de paja.",
-     "Falso dilema.",
-     "Ad hominem (ataque a la persona).",
-     "Apelación a la tradición."
-    ],
-    "a": 2,
-    "fb": "Julen ataca a la persona (llega tarde) en vez de responder a su idea."
-   },
-   {
-    "q": "«O venís todos al concierto del sábado o es que ya no sois mis amigos».",
-    "o": [
-     "Falso dilema.",
-     "Apelación al miedo.",
-     "Ad populum (apelación a la mayoría).",
-     "Generalización precipitada."
-    ],
-    "a": 0,
-    "fb": "Presenta solo dos opciones cuando hay más: ir otro día, o no poder ir y seguir siendo amigos."
-   },
-   {
-    "q": "«El streamer que más sigo dice que estos cereales dan energía para todo el día. Si lo dice él, es verdad».",
-    "o": [
-     "Apelación a la tradición.",
-     "Falsa causa (post hoc).",
-     "Ad hominem.",
-     "Apelación a la autoridad."
-    ],
-    "a": 3,
-    "fb": "Un streamer no es experto en alimentación; «lo dice él» no es una prueba."
-   },
-   {
-    "q": "Iker: «Deberíamos usar menos plástico en el comedor». Lucía: «Claro, tú lo que quieres es que comamos con las manos y sin bandeja».",
-    "o": [
-     "Ad hominem.",
-     "Falso dilema.",
-     "Apelación a la compasión.",
-     "Hombre de paja."
-    ],
-    "a": 3,
-    "fb": "Lucía deforma lo que dijo Iker (menos plástico no es comer con las manos) para tumbarlo más fácil."
-   },
-   {
-    "q": "«Me puse los calcetines verdes y aprobé el examen de mates. Los calcetines verdes hacen aprobar».",
-    "o": [
-     "Generalización precipitada.",
-     "Falsa causa (post hoc).",
-     "Apelación al miedo.",
-     "Ad populum."
-    ],
-    "a": 1,
-    "fb": "Aprobó después de ponérselos, pero la causa fue estudiar (o la suerte), no los calcetines."
-   },
-   {
-    "q": "«Todo el mundo en mi cuadrilla tiene esa marca de auriculares. Si los tiene todo el mundo, son los mejores».",
-    "o": [
-     "Apelación a la autoridad.",
-     "Apelación a la tradición.",
-     "Ad populum (apelación a la mayoría).",
-     "Falso dilema."
-    ],
-    "a": 2,
-    "fb": "Que muchos los tengan solo dice que están de moda, no que suenen mejor."
-   },
-   {
-    "q": "A su entrenadora: «Tienes que ponerme de titular. Llevo toda la semana triste y, si no juego, mi padre se llevará un disgusto enorme».",
-    "o": [
-     "Apelación a la compasión (ad misericordiam).",
-     "Apelación al miedo.",
-     "Ad hominem.",
-     "Generalización precipitada."
-    ],
-    "a": 0,
-    "fb": "Da pena (tristeza, disgusto del padre) en lugar de dar razones deportivas."
-   },
-   {
-    "q": "«Tienes que apuntarte al refuerzo de los sábados. Si no, suspenderás todo, repetirás y te quedarás sin amigos».",
-    "o": [
-     "Apelación a la compasión.",
-     "Apelación al miedo (ad metum).",
-     "Falsa causa.",
-     "Hombre de paja."
-    ],
-    "a": 1,
-    "fb": "Convence asustando con un futuro terrible del que no da ninguna prueba."
-   },
-   {
-    "q": "«He ido dos veces al polideportivo nuevo y las dos veces estaba lleno. Siempre está lleno; no merece la pena ir».",
-    "o": [
-     "Falsa causa (post hoc).",
-     "Ad populum.",
-     "Apelación a la tradición.",
-     "Generalización precipitada."
-    ],
-    "a": 3,
-    "fb": "Dos visitas no bastan para decir «siempre está lleno»."
-   },
-   {
-    "q": "«Yo aprendí a nadar tirándome al agua sin flotador, y mi padre igual. Así se ha aprendido toda la vida, así que así aprenderás tú».",
-    "o": [
-     "Apelación a la tradición (ad antiquitatem).",
-     "Apelación a la autoridad.",
-     "Falso dilema.",
-     "Ad hominem."
-    ],
-    "a": 0,
-    "fb": "«Siempre se ha hecho así» no demuestra que sea la mejor manera ni la más segura."
    }
   ]
  },
@@ -3708,6 +3332,28 @@ const QUIZZES = {
     ],
     "a": 2,
     "fb": "Cada ciencia estudia una parcela con su método; la filosofía piensa el conjunto y cuestiona los fundamentos."
+   },
+   {
+    "q": "¿Qué es el asombro para el nacimiento de la filosofía?",
+    "o": [
+     "La capacidad de extrañarse ante lo que parece obvio y preguntar por qué.",
+     "El miedo a los dioses.",
+     "La falta de interés.",
+     "La obediencia ciega."
+    ],
+    "a": 0,
+    "fb": "Platón y Aristóteles señalan el asombro como origen del filosofar."
+   },
+   {
+    "q": "¿Qué distingue a una pregunta filosófica de una científica?",
+    "o": [
+     "La filosófica no la cierra un solo dato y admite razones a favor y en contra.",
+     "La filosófica se resuelve con un experimento.",
+     "No hay diferencia.",
+     "La científica no admite razones."
+    ],
+    "a": 0,
+    "fb": "Las preguntas filosóficas buscan fundamentos últimos y admiten debate racional."
    }
   ]
  },
@@ -3802,6 +3448,28 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Es el clásico problema de la identidad personal a través del cambio."
+   },
+   {
+    "q": "¿Qué es el etnocentrismo?",
+    "o": [
+     "Juzgar otras culturas desde la propia como única válida.",
+     "Comprender cada cultura en su contexto.",
+     "Rechazar toda cultura.",
+     "Estudiar la evolución."
+    ],
+    "a": 0,
+    "fb": "El etnocentrismo toma la propia cultura como medida."
+   },
+   {
+    "q": "¿Qué diferencia hay entre hominización y humanización?",
+    "o": [
+     "Hominización es el proceso biológico; humanización, el proceso cultural.",
+     "Son lo mismo.",
+     "La humanización es biológica.",
+     "No hay diferencia."
+    ],
+    "a": 0,
+    "fb": "La hominización es biológica y la humanización cultural."
    }
   ]
  },
@@ -3896,194 +3564,28 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Criterio de falsación (Popper): lo científico debe poder someterse a prueba y, en principio, refutarse."
-   }
-  ]
- },
- "ipc-sesgos-q": {
-  "name": "Sesgos cognitivos (Pensamiento crítico)",
-  "subject": "ipc",
-  "items": [
-   {
-    "q": "¿Qué es un sesgo cognitivo?",
-    "o": [
-     "Un argumento con pruebas sólidas.",
-     "Un atajo mental que tuerce cómo pensamos, muchas veces sin darnos cuenta.",
-     "Una mentira dicha a propósito.",
-     "Una opinión bien fundada."
-    ],
-    "a": 1,
-    "fb": "El sesgo es un atajo mental que deforma nuestro juicio, aunque no queramos."
    },
    {
-    "q": "Aitor solo sigue cuentas que piensan como él y da por falso todo lo demás. ¿Qué sesgo es?",
+    "q": "¿Qué es la posverdad?",
     "o": [
-     "Sesgo de confirmación.",
-     "Efecto halo.",
-     "Anclaje.",
-     "FOMO."
+     "Que las emociones y las creencias pesan más que los hechos.",
+     "Que los hechos mandan.",
+     "Que la mentira desaparece.",
+     "Que la ciencia siempre acierta."
     ],
     "a": 0,
-    "fb": "Sesgo de confirmación: buscar solo lo que confirma lo que ya creemos."
+    "fb": "La posverdad prioriza la emoción sobre el hecho objetivo."
    },
    {
-    "q": "En una tienda, el primer precio que ves (200 €) hace que 120 € te parezca barato. ¿Qué sesgo actúa?",
+    "q": "¿Qué es el sesgo de confirmación?",
     "o": [
-     "Disponibilidad.",
-     "Anclaje.",
-     "Arrastre.",
-     "Confirmación."
-    ],
-    "a": 1,
-    "fb": "Anclaje: el primer dato («ancla») condiciona los juicios siguientes."
-   },
-   {
-    "q": "Tras ver muchas noticias de accidentes de avión crees que volar es muy peligroso, aunque los datos digan lo contrario. ¿Qué sesgo es?",
-    "o": [
-     "Efecto halo.",
-     "Sesgo de disponibilidad.",
-     "Falso dilema.",
-     "Anclaje."
-    ],
-    "a": 1,
-    "fb": "Disponibilidad: lo que recordamos con facilidad nos parece más probable de lo que es."
-   },
-   {
-    "q": "Cambias de opinión solo porque todo tu grupo piensa distinto y no quieres quedar fuera. ¿Qué sesgo es?",
-    "o": [
-     "Arrastre (efecto bandwagon).",
-     "Anclaje.",
-     "Efecto halo.",
-     "Confirmación."
+     "Tender a buscar y creer lo que confirma nuestras ideas.",
+     "Aceptar cualquier dato.",
+     "Dudar de todo.",
+     "Cambiar de opinión a menudo."
     ],
     "a": 0,
-    "fb": "Arrastre: seguir a la mayoría por no quedar fuera del grupo."
-   },
-   {
-    "q": "Como esa chica te cae genial, das por buenas todas sus ideas sin examinarlas. ¿Qué sesgo es?",
-    "o": [
-     "FOMO.",
-     "Efecto halo.",
-     "Disponibilidad.",
-     "Anclaje."
-    ],
-    "a": 1,
-    "fb": "Efecto halo: una impresión positiva (simpatía, atractivo) contagia a todo lo demás."
-   },
-   {
-    "q": "Compras algo a toda prisa «porque todos van y no quiero perdérmelo». ¿Qué está actuando?",
-    "o": [
-     "FOMO (miedo a perderse algo).",
-     "Sesgo de confirmación.",
-     "Principio de caridad.",
-     "Anclaje."
-    ],
-    "a": 0,
-    "fb": "FOMO: el miedo a quedarse fuera empuja a decidir por impulso."
-   },
-   {
-    "q": "¿En qué se diferencian un sesgo y una falacia?",
-    "o": [
-     "Son exactamente lo mismo.",
-     "La falacia es un error en el argumento; el sesgo es un atajo mental que tuerce cómo pensamos.",
-     "El sesgo aparece solo en matemáticas.",
-     "La falacia solo la cometen los adultos."
-    ],
-    "a": 1,
-    "fb": "Falacia = fallo en el razonamiento; sesgo = desviación en el modo de pensar."
-   }
-  ]
- },
- "ipc-medios-q": {
-  "name": "Publicidad y medios (Pensamiento crítico)",
-  "subject": "ipc",
-  "items": [
-   {
-    "q": "Un anuncio saca a tu influencer favorito usando el producto. ¿Qué técnica es?",
-    "o": [
-     "Escasez.",
-     "Testimonio de una figura conocida.",
-     "Humor.",
-     "Datos científicos."
-    ],
-    "a": 1,
-    "fb": "Testimonio: una figura conocida presta su imagen para que confíes en el producto."
-   },
-   {
-    "q": "«¡Solo hoy! ¡Últimas unidades!» ¿Qué técnica publicitaria es?",
-    "o": [
-     "Escasez y urgencia.",
-     "Publicidad aspiracional.",
-     "Testimonio.",
-     "Humor."
-    ],
-    "a": 0,
-    "fb": "Escasez y urgencia: presionan para que compres sin pensarlo."
-   },
-   {
-    "q": "Un anuncio no muestra el producto, sino una vida feliz y admirada que este promete. ¿Cómo se llama?",
-    "o": [
-     "Clickbait.",
-     "Publicidad aspiracional.",
-     "Bandwagon.",
-     "Contraste de fuentes."
-    ],
-    "a": 1,
-    "fb": "Publicidad aspiracional: vende un estilo de vida, no el producto en sí."
-   },
-   {
-    "q": "Un titular exagerado promete mucho más de lo que el artículo da, para que hagas clic. Es…",
-    "o": [
-     "alfabetización mediática.",
-     "clickbait.",
-     "un argumento.",
-     "un testimonio."
-    ],
-    "a": 1,
-    "fb": "Clickbait: cebo de clics mediante titulares exagerados o engañosos."
-   },
-   {
-    "q": "Te llega un mensaje viral alarmante. ¿Qué es lo más sensato antes de creerlo o reenviarlo?",
-    "o": [
-     "Reenviarlo rápido por si acaso.",
-     "Contrastar la fuente: quién lo dice, con qué pruebas y si lo confirman otros.",
-     "Creerlo porque lo manda un amigo.",
-     "Borrarlo sin mirarlo."
-    ],
-    "a": 1,
-    "fb": "Contrastar fuentes: ¿quién lo dice?, ¿qué pruebas hay?, ¿lo confirman medios fiables?"
-   },
-   {
-    "q": "«Únete a los millones de personas que ya lo usan.» En publicidad, esto es…",
-    "o": [
-     "apelar a que todos lo tienen (efecto bandwagon).",
-     "escasez.",
-     "humor.",
-     "un dato técnico."
-    ],
-    "a": 0,
-    "fb": "Bandwagon: «lo usa todo el mundo» como razón para que lo uses tú."
-   },
-   {
-    "q": "Saber distinguir en un medio la información, la opinión y la publicidad se llama…",
-    "o": [
-     "clickbait.",
-     "alfabetización mediática.",
-     "posverdad.",
-     "anclaje."
-    ],
-    "a": 1,
-    "fb": "Alfabetización mediática: leer los medios de forma crítica."
-   },
-   {
-    "q": "¿Por qué la publicidad usa tanto el humor y la emoción?",
-    "o": [
-     "Porque aporta datos objetivos del producto.",
-     "Para que asocies esa emoción agradable con la marca y la recuerdes.",
-     "Porque la ley la obliga.",
-     "Para informar de los ingredientes."
-    ],
-    "a": 1,
-    "fb": "La emoción positiva se asocia a la marca y ayuda a recordarla, sin necesidad de dar razones."
+    "fb": "El sesgo de confirmación refuerza lo que ya creemos."
    }
   ]
  },
@@ -4146,6 +3648,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Agustín sitúa el tiempo en la vida interior del sujeto, donde la memoria retiene el pasado, la atención sostiene el presente y la esperanza abre el futuro."
+   },
+   {
+    "q": "¿Cuál es la teoría de la iluminación de Agustín?",
+    "o": [
+     "La luz de Dios permite conocer las verdades eternas e inmutables.",
+     "Los sentidos iluminan la razón.",
+     "La razón se ilumina a sí misma.",
+     "La luz física ilumina el alma."
+    ],
+    "a": 0,
+    "fb": "Para Agustín los sentidos solo ofrecen lo cambiante; es Dios quien ilumina el entendimiento para conocer las verdades necesarias."
+   },
+   {
+    "q": "¿Qué diferencia hay entre creación y emanación?",
+    "o": [
+     "La creación es libre y de la nada; la emanación es desbordamiento necesario.",
+     "Son exactamente lo mismo.",
+     "La emanación es libre y voluntaria.",
+     "La creación es necesaria e inconsciente."
+    ],
+    "a": 0,
+    "fb": "Agustín opone la creación libre de un Dios personal a la emanación necesaria de Plotino."
+   },
+   {
+    "q": "¿Qué papel juega el tiempo en Agustín?",
+    "o": [
+     "El tiempo es una medida del alma: memoria, atención y esperanza.",
+     "El tiempo es puramente objetivo y medible por los astros.",
+     "El tiempo no existe.",
+     "El tiempo es solo el movimiento circular del universo."
+    ],
+    "a": 0,
+    "fb": "Agustín sitúa el tiempo en el alma: la memoria retiene el pasado, la atención sostiene el presente y la esperanza abre el futuro."
+   },
+   {
+    "q": "¿Qué postura adopta Agustín sobre el mal?",
+    "o": [
+     "El mal es carencia o desorden del bien, no una sustancia junto a Dios.",
+     "El mal es una sustancia creada por Dios.",
+     "El mal es la materia misma.",
+     "El mal es puramente físico."
+    ],
+    "a": 0,
+    "fb": "Frente al maniqueísmo, Agustín niega que el mal sea una sustancia: es privación o corrupción del bien."
+   },
+   {
+    "q": "¿Por qué Agustín sitúa la verdad en el interior?",
+    "o": [
+     "Porque volviéndose al interior el alma halla la verdad inmutable que la ilumina.",
+     "Porque la verdad está en los sentidos.",
+     "Porque la verdad es exterior y cambiante.",
+     "Porque no existe verdad alguna."
+    ],
+    "a": 0,
+    "fb": "«No salgas fuera, vuelve a ti mismo; en el interior del hombre habita la verdad.»"
    }
   ]
  },
@@ -4208,6 +3765,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Hildegarda importa porque muestra que el saber medieval no se reduce a la forma escolástica y universitaria, mayoritariamente masculina."
+   },
+   {
+    "q": "¿Qué une la cosmología de Hildegarda?",
+    "o": [
+     "Dios, la naturaleza, el cuerpo, la salud y la comunidad en un orden vivo.",
+     "Solo la música y la liturgia.",
+     "Únicamente los aspectos políticos.",
+     "Los átomos y el vacío."
+    ],
+    "a": 0,
+    "fb": "La cosmología de Hildegarda entrelaza Dios, la naturaleza, el cuerpo, la salud y la comunidad."
+   },
+   {
+    "q": "¿Qué significa la viriditas?",
+    "o": [
+     "El verdor y la fuerza viva que anuda la naturaleza, la salud y la fuerza de Dios.",
+     "La pura sustancia pensante.",
+     "La firma del contrato social.",
+     "La suspensión del juicio."
+    ],
+    "a": 0,
+    "fb": "La viriditas expresa la fecundidad y fuerza de la vida, clave del mundo integral de Hildegarda."
+   },
+   {
+    "q": "¿Por qué Hildegarda no encaja en el modelo escolástico?",
+    "o": [
+     "Alcanzó autoridad por la vía mística y simbólica, no por una cátedra universitaria.",
+     "Era la única mujer con cátedra universitaria.",
+     "Rechazó todo saber religioso.",
+     "Solo se dedicó a la política."
+    ],
+    "a": 0,
+    "fb": "Como mujer del siglo XII, Hildegarda logró autoridad por las visiones proféticas y el simbolismo, fuera del modelo académico."
+   },
+   {
+    "q": "¿Qué campos cultivó Hildegarda?",
+    "o": [
+     "Teología, medicina, ciencias naturales y música.",
+     "Solo la lógica formal.",
+     "Únicamente la astronomía observacional.",
+     "Solo el comercio."
+    ],
+    "a": 0,
+    "fb": "Hildegarda unió fe, ciencia y arte: escribió de medicina y ciencias naturales y compuso música."
+   },
+   {
+    "q": "¿Qué muestra la figura de Hildegarda sobre el saber medieval?",
+    "o": [
+     "Que el saber medieval rebasó la forma escolástica masculina universitaria.",
+     "Que las mujeres no participaron del saber medieval.",
+     "Que toda la filosofía medieval fue escolástica universitaria.",
+     "Que el saber medieval fue solo cosa de hombres."
+    ],
+    "a": 0,
+    "fb": "El caso de Hildegarda demuestra que hubo saberes no escolásticos y que las mujeres los cultivaron."
    }
   ]
  },
@@ -4270,6 +3882,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Avicena desarrolló su filosofía en el mundo islámico, tendiendo puentes entre razón y fe antes de que Europa recuperara a Aristóteles."
+   },
+   {
+    "q": "¿Cuál es la distinción metafísica más célebre de Avicena?",
+    "o": [
+     "La distinción entre esencia y existencia.",
+     "La de materia y forma aristotélica.",
+     "La de sensación e intuición.",
+     "La de cuerpo y alma."
+    ],
+    "a": 0,
+    "fb": "Avicena distingue la esencia (qué es algo) de la existencia (que realmente es)."
+   },
+   {
+    "q": "¿Qué demuestra el «hombre volador»?",
+    "o": [
+     "Que la autoconciencia del alma es independiente del cuerpo.",
+     "Que el cuerpo es lo esencial.",
+     "Que los sentidos dan todo el conocimiento.",
+     "Que el alma muere con el cuerpo."
+    ],
+    "a": 0,
+    "fb": "El experimento mental muestra que el alma, consciente de sí sin percibir su cuerpo, no depende de la percepción corporal."
+   },
+   {
+    "q": "¿Qué es el Ser Necesario?",
+    "o": [
+     "Aquel cuya existencia coincide con su esencia.",
+     "Un ser contingente cualquiera.",
+     "Un principio puramente material.",
+     "Una idea innata."
+    ],
+    "a": 0,
+    "fb": "El Ser Necesario es el fundamento en el que esencia y existencia coinciden, y que sostiene los seres contingentes."
+   },
+   {
+    "q": "¿Cómo influyó Avicena en la escolástica?",
+    "o": [
+     "Transmitió la distinción esencia/existencia y el legado de Aristóteles.",
+     "Implantó el nominalismo.",
+     "Creó el método experimental.",
+     "Negó toda filosofía griega."
+    ],
+    "a": 0,
+    "fb": "Traducido al latín, Avicena aportó a la escolástica la distinción esencia/existencia y el Aristóteles que Tomás consideró."
+   },
+   {
+    "q": "¿En qué contexto se desarrolló el pensamiento de Avicena?",
+    "o": [
+     "En el mundo islámico, antes de que Europa recuperara a Aristóteles.",
+     "En la universidad de París.",
+     "En la Grecia clásica.",
+     "En el Imperio Romano."
+    ],
+    "a": 0,
+    "fb": "Avicena trabajó en el mundo islámico, tendiendo puentes entre razón y fe antes de la recepción latina de Aristóteles."
    }
   ]
  },
@@ -4332,6 +3999,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Ockham anticipa la modernidad al primar los individuos, la economía de la explicación y los límites de la razón, aunque siguiera siendo teólogo medieval."
+   },
+   {
+    "q": "¿Qué sostiene el nominalismo de Ockham sobre los universales?",
+    "o": [
+     "Los universales son nombres o conceptos, no realidades independientes.",
+     "Los universales existen aparte en el mundo de las Ideas.",
+     "Los universales son formas reales en las cosas.",
+     "Los universales son ideas divinas necesarias."
+    ],
+    "a": 0,
+    "fb": "Para Ockham solo existen los individuos; los universales son nombres o conceptos generales."
+   },
+   {
+    "q": "¿Qué es la navaja de Ockham?",
+    "o": [
+     "No multiplicar las entidades sin necesidad.",
+     "Multiplicar los principios para explicar mejor.",
+     "Descartar toda razón.",
+     "Aceptar todas las formas reales."
+    ],
+    "a": 0,
+    "fb": "La navaja de Ockham es el principio de economía: no introducir entidades innecesarias en la explicación."
+   },
+   {
+    "q": "¿Qué consecuencia trae el nominalismo para el conocimiento?",
+    "o": [
+     "El conocimiento parte de los individuos y de la experiencia.",
+     "El conocimiento solo es posible desde universales reales.",
+     "El conocimiento es imposible.",
+     "El conocimiento depende de las ideas divinas."
+    ],
+    "a": 0,
+    "fb": "Si lo real son los individuos, el conocimiento se apoya en la experiencia de las cosas concretas."
+   },
+   {
+    "q": "¿Cómo ve Ockham la relación entre fe y razón?",
+    "o": [
+     "Separa fe y razón: la razón no basta para demostrar las verdades de la teología.",
+     "Las une del todo en la síntesis tomista.",
+     "La razón sustituye a la fe.",
+     "La fe anula a la razón."
+    ],
+    "a": 0,
+    "fb": "Ockham marca los límites de la razón: muchas verdades de la fe no se demuestran y quedan en el ámbito de la revelación."
+   },
+   {
+    "q": "¿Por qué se llama a Ockham «puerta a la modernidad»?",
+    "o": [
+     "Por primar los individuos, la economía de la explicación y los límites de la razón.",
+     "Por crear la ciencia experimental.",
+     "Por fundar el capitalismo.",
+     "Por negar toda diferencia entre fe y razón."
+    ],
+    "a": 0,
+    "fb": "Ockham anticipa la modernidad al subrayar los individuos, la simplicidad explicativa y la separación fe-razón."
    }
   ]
  },
@@ -4394,6 +4116,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Con el hilemorfismo aristotélico, Tomás entiende al ser humano como unidad de alma y cuerpo, donde el alma es la forma del cuerpo viviente."
+   },
+   {
+    "q": "¿Cuál es el proyecto de Tomás de Aquino?",
+    "o": [
+     "Integrar la filosofía de Aristóteles en el cristianismo en una síntesis.",
+     "Separar del todo razón y fe.",
+     "Negar toda experiencia.",
+     "Implantar el fideísmo."
+    ],
+    "a": 0,
+    "fb": "Tomás busca una gran síntesis escolástica: armonizar el aristotelismo con la fe cristiana."
+   },
+   {
+    "q": "¿Cómo entiende Tomás la fe y la razón?",
+    "o": [
+     "Distintas pero colaboradoras, sin contradicción.",
+     "Siempre enemigas.",
+     "La razón anula la fe.",
+     "La fe no necesita razones."
+    ],
+    "a": 0,
+    "fb": "Para Tomás la razón y la fe colaboran y no pueden contradecirse, porque la verdad es una."
+   },
+   {
+    "q": "¿De dónde parten las cinco vías?",
+    "o": [
+     "De hechos observables del mundo: movimiento, causa, contingencia, perfección y finalidad.",
+     "Solo del concepto de Dios.",
+     "De la experiencia interna.",
+     "De la autoridad de la Escritura."
+    ],
+    "a": 0,
+    "fb": "Las cinco vías parten de la experiencia del mundo y concluyen la existencia de Dios."
+   },
+   {
+    "q": "¿Qué es la ley natural para Tomás?",
+    "o": [
+     "El fundamento moral que la razón percibe en el orden de la naturaleza y los fines humanos.",
+     "Cualquier ley impuesta por el gobernante.",
+     "Un mandato que contradice la naturaleza.",
+     "La ley positiva de la ciudad."
+    ],
+    "a": 0,
+    "fb": "La ley natural es el fundamento racional de la moral, base de la ley positiva."
+   },
+   {
+    "q": "¿Cómo entiende Tomás al ser humano?",
+    "o": [
+     "Como unidad hilemórfica de alma y cuerpo.",
+     "Como alma separada del cuerpo.",
+     "Como pura materia.",
+     "Como puro espíritu."
+    ],
+    "a": 0,
+    "fb": "Con el hilemorfismo, Tomás entiende al ser humano como unidad de alma (forma) y cuerpo (materia)."
    }
   ]
  },
@@ -4456,6 +4233,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "El éxito de la ciencia nueva pone en primer plano el método, el sujeto y la certeza, que serán la pregunta central de Descartes y de B4."
+   },
+   {
+    "q": "¿Qué es el humanismo renacentista?",
+    "o": [
+     "La revalorización de la dignidad y el potencial del individuo.",
+     "La vuelta al teocentrismo medieval.",
+     "La desconfianza en los textos clásicos.",
+     "La negación de la razón."
+    ],
+    "a": 0,
+    "fb": "El humanismo renacentista sitúa al ser humano y su potencial en el centro."
+   },
+   {
+    "q": "¿Qué influencia tuvo la imprenta de Gutenberg?",
+    "o": [
+     "Revolucionó la difusión del conocimiento y las ideas.",
+     "Solo afectó a la religión.",
+     "Frenó la difusión cultural.",
+     "No tuvo impacto."
+    ],
+    "a": 0,
+    "fb": "Con la imprenta los textos se multiplicaron y difundieron, abriendo el Renacimiento."
+   },
+   {
+    "q": "¿Qué novedad supone el heliocentrismo de Copérnico?",
+    "o": [
+     "Desplazar a la Tierra del centro y situar el Sol como centro.",
+     "Mantener a la Tierra en el centro.",
+     "Eliminar todo centro.",
+     "Confirmar el geocentrismo."
+    ],
+    "a": 0,
+    "fb": "Copérnico propone el heliocentrismo, clave de la nueva imagen del universo."
+   },
+   {
+    "q": "¿Qué defiende el mecanicismo como nueva visión de la naturaleza?",
+    "o": [
+     "Entender la naturaleza como una máquina regida por leyes físicas.",
+     "Entenderla como un organismo con fines.",
+     "Negar las leyes naturales.",
+     "Subordinar la ciencia a la teología."
+    ],
+    "a": 0,
+    "fb": "El mecanicismo explica la naturaleza con leyes matemáticas, no con fines internos."
+   },
+   {
+    "q": "¿Qué sostiene el positivismo de Comte?",
+    "o": [
+     "Solo es conocimiento verdadero lo verificable empíricamente.",
+     "La metafísica es la ciencia suprema.",
+     "La ciencia se subordina a la teología.",
+     "Las ideas innatas bastan."
+    ],
+    "a": 0,
+    "fb": "El positivismo reduce el saber a los hechos verificables, rechazando la metafísica."
    }
   ]
  },
@@ -4518,6 +4350,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Un Dios perfecto no puede ser un engañador sistemático, y por eso garantiza la fiabilidad y verdad de las ideas claras y distintas."
+   },
+   {
+    "q": "¿Qué busca el proyecto cartesiano?",
+    "o": [
+     "Un conocimiento absolutamente seguro y cierto.",
+     "Aceptar la tradición sin dudas.",
+     "Negar toda certeza.",
+     "Solo sistematizar opiniones."
+    ],
+    "a": 0,
+    "fb": "Descartes busca una certeza radical desde la que reconstruir el saber."
+   },
+   {
+    "q": "¿Qué etapas recorre la duda metódica?",
+    "o": [
+     "Dudar de los sentidos, del conocimiento y de las matemáticas.",
+     "Aceptar las matemáticas sin dudar.",
+     "Solo dudar de los sentidos.",
+     "No dudar de nada."
+    ],
+    "a": 0,
+    "fb": "La duda recorre los sentidos, el conocimiento cotidiano y hasta las matemáticas."
+   },
+   {
+    "q": "¿Qué papel juega la garantía de Dios en Descartes?",
+    "o": [
+     "Garantiza la fiabilidad de las ideas claras y distintas.",
+     "Es el fundamento de la duda.",
+     "Niega la razón.",
+     "Solo sirve para la fe."
+    ],
+    "a": 0,
+    "fb": "Un Dios no engañador garantiza el valor de verdad de lo claro y distinto."
+   },
+   {
+    "q": "¿Cómo define Descartes las dos sustancias?",
+    "o": [
+     "La res cogitans (pensante) y la res extensa (extension).",
+     "La materia y la forma.",
+     "El alma y el átomo.",
+     "Dios y el mundo."
+    ],
+    "a": 0,
+    "fb": "El dualismo cartesiano distingue la sustancia pensante de la extensa."
+   },
+   {
+    "q": "¿Cuál es el problema del dualismo cartesiano?",
+    "o": [
+     "Explicar cómo interactúan la mente y el cuerpo.",
+     "Demostrar que solo existe una sustancia.",
+     "Probar el empirismo.",
+     "Explicar la percepción sensible."
+    ],
+    "a": 0,
+    "fb": "El nudo del dualismo es la interacción entre la res cogitans y la res extensa."
    }
   ]
  },
@@ -4580,6 +4467,61 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La libertad no consiste en actuar sin causa, sino en comprender la necesidad y dejar de ser juguete de las pasiones ciegas."
+   },
+   {
+    "q": "¿Qué significa Deus sive Natura?",
+    "o": [
+     "Dios o la Naturaleza: la única sustancia infinita.",
+     "Dios está separado de la naturaleza.",
+     "La naturaleza es ilusión.",
+     "Hay dos sustancias."
+    ],
+    "a": 0,
+    "fb": "Spinoza identifica a Dios con la Naturaleza como única sustancia."
+   },
+   {
+    "q": "¿Cuántos atributos conoce de la sustancia?",
+    "o": [
+     "El pensamiento y la extensión.",
+     "Solo el pensamiento.",
+     "Infinitos e inexplicables.",
+     "Ninguno."
+    ],
+    "a": 0,
+    "fb": "De los infinitos atributos, el ser humano conoce el pensamiento y la extensión."
+   },
+   {
+    "q": "¿Qué es el modo en Spinoza?",
+    "o": [
+     "Una expresión concreta y limitada de la sustancia única.",
+     "Una sustancia independiente.",
+     "Un atributo de Dios.",
+     "Una ilusión."
+    ],
+    "a": 0,
+    "fb": "Los seres particulares son modos de la sustancia, no sustancias autónomas."
+   },
+   {
+    "q": "¿Cómo entiende Spinoza la libertad?",
+    "o": [
+     "Como comprender la necesidad y liberarse de las pasiones ciegas.",
+     "Como actuar sin causa.",
+     "Como poder hacer lo que se quiera.",
+     "Como negar la naturaleza."
+    ],
+    "a": 0,
+    "fb": "La libertad es comprender la necesidad, no escapar de las leyes de la naturaleza."
+   },
+   {
+    "q": "¿Qué critica Spinoza a Descartes?",
+    "o": [
+     "Dejar el pensamiento y la extensión como dos sustancias separadas.",
+     "Usar el método matemático.",
+     "Dudar de los sentidos.",
+     "Afirmar el cogito."
+    ],
+    "a": 0,
+    "fb": "Spinoza niega dos sustancias: pensamiento y extensión son atributos de una única sustancia."
    }
   ]
  },
@@ -4642,6 +4584,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Los derechos naturales que Locke reconoce a todos los seres humanos son la vida, la libertad y la propiedad."
+   },
+   {
+    "q": "¿Qué es la tabula rasa de Locke?",
+    "o": [
+     "La mente al nacer es una hoja en blanco que se llena con la experiencia.",
+     "La mente tiene ideas innatas.",
+     "La mente crea ideas sola.",
+     "La mente es una hoja ya escrita."
+    ],
+    "a": 0,
+    "fb": "Para Locke no hay ideas innatas: todo conocimiento procede de la experiencia."
+   },
+   {
+    "q": "¿Cuáles son las dos fuentes de la experiencia en Locke?",
+    "o": [
+     "La sensación y la reflexión.",
+     "La razón y la fe.",
+     "La intuición y la memoria.",
+     "El hábito y la costumbre."
+    ],
+    "a": 0,
+    "fb": "Locke distingue sensación (externos) y reflexión (operaciones internas)."
+   },
+   {
+    "q": "¿Qué son las cualidades primarias?",
+    "o": [
+     "Propiedades objetivas como extensión, forma y movimiento.",
+     "Efectos subjetivos como el color.",
+     "Atributos de Dios.",
+     "Ideas innatas."
+    ],
+    "a": 0,
+    "fb": "Las cualidades primarias son objetivas, independientes del sujeto."
+   },
+   {
+    "q": "¿Qué derechos naturales defiende Locke?",
+    "o": [
+     "Vida, libertad y propiedad.",
+     "Solo la propiedad.",
+     "Igualdad y obediencia.",
+     "Fe, esperanza y caridad."
+    ],
+    "a": 0,
+    "fb": "Locke afirma los derechos naturales a la vida, la libertad y la propiedad."
+   },
+   {
+    "q": "¿Qué carácter tiene el poder político según Locke?",
+    "o": [
+     "Limitado, procede del consentimiento y es revocable.",
+     "Absoluto e ilimitado.",
+     "Es natural y eterno.",
+     "Solo pertenece al rey."
+    ],
+    "a": 0,
+    "fb": "El poder de Locke es limitado y deriva del consentimiento del pueblo."
    }
   ]
  },
@@ -4704,6 +4701,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Hume despierta a Kant del «sueño dogmático» al llevar al extremo el problema de la causalidad y de la necesidad del conocimiento."
+   },
+   {
+    "q": "¿Cuál es la tesis central del empirismo de Hume?",
+    "o": [
+     "Todo conocimiento procede de la experiencia.",
+     "Hay ideas innatas.",
+     "La razón conoce sin experiencia.",
+     "La metafísica es la ciencia suprema."
+    ],
+    "a": 0,
+    "fb": "Para Hume no hay ideas innatas: todo saber nace de la experiencia."
+   },
+   {
+    "q": "¿Qué son las impresiones en Hume?",
+    "o": [
+     "Percepciones vivas recibidas por los sentidos.",
+     "Copias débiles de ideas.",
+     "Ideas innatas.",
+     "Verdades de la razón."
+    ],
+    "a": 0,
+    "fb": "Las impresiones son percepciones vivas; las ideas, copias de ellas."
+   },
+   {
+    "q": "¿Qué es el problema de la inducción?",
+    "o": [
+     "No se puede probar la conexión necesaria entre hechos, solo la sucesión.",
+     "Que la inducción siempre es válida.",
+     "Que no hay conocimiento probable.",
+     "Que el futuro se deduce necesariamente."
+    ],
+    "a": 0,
+    "fb": "Hume muestra que de la experiencia repetida no se deduce la causalidad necesaria."
+   },
+   {
+    "q": "¿Qué dice Hume sobre la causalidad?",
+    "o": [
+     "No percibimos una conexión necesaria, solo la sucesión repetida por costumbre.",
+     "La causalidad es evidente a la razón.",
+     "Es una verdad matemática.",
+     "La percibimos directamente."
+    ],
+    "a": 0,
+    "fb": "La expectativa causal nace del hábito tras observar la repetición."
+   },
+   {
+    "q": "¿Qué es el yo según Hume?",
+    "o": [
+     "Un haz o flujo de percepciones cambiantes.",
+     "Una sustancia inmutable.",
+     "Una idea innata.",
+     "El alma inmortal."
+    ],
+    "a": 0,
+    "fb": "No tenemos impresión de un yo permanente; solo percepciones sucesivas."
    }
   ]
  },
@@ -4766,6 +4818,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Kant reorganiza el problema y examina las condiciones que hacen posible la experiencia objetiva, en lugar de elegir uno de los dos caminos."
+   },
+   {
+    "q": "¿Cuál es la pregunta central del racionalismo y empirismo?",
+    "o": [
+     "Cómo puede lograrse un conocimiento fiable.",
+     "Cómo organizar la ciudad justa.",
+     "Cómo demostrar la fe.",
+     "Cómo conocer la naturaleza sin método."
+    ],
+    "a": 0,
+    "fb": "La modernidad se pregunta por la fiabilidad del conocimiento."
+   },
+   {
+    "q": "¿Qué subraya el racionalismo?",
+    "o": [
+     "El orden de la razón, el método y la deducción.",
+     "La experiencia sensible.",
+     "La tabula rasa.",
+     "La observación empírica."
+    ],
+    "a": 0,
+    "fb": "El racionalismo confía en la razón y el método deductivo."
+   },
+   {
+    "q": "¿Qué subraya el empirismo?",
+    "o": [
+     "Partir de la experiencia y la observación.",
+     "Las ideas innatas.",
+     "La deducción matemática.",
+     "La razón pura."
+    ],
+    "a": 0,
+    "fb": "El empirismo parte de la experiencia y los sentidos."
+   },
+   {
+    "q": "¿Qué aporta la crítica de Hume a la causalidad?",
+    "o": [
+     "Muestra que no percibimos la conexión necesaria.",
+     "Demuestra la causalidad evidente.",
+     "Funda la metafísica.",
+     "Niega la experiencia."
+    ],
+    "a": 0,
+    "fb": "Hume muestra que la conexión causal no se percibe, solo la sucesión."
+   },
+   {
+    "q": "¿Qué propone Kant ante este choque?",
+    "o": [
+     "Reorganizar el problema examinando las condiciones de la experiencia objetiva.",
+     "Elegir el racionalismo.",
+     "Adoptar el empirismo sin más.",
+     "Negar toda posibilidad."
+    ],
+    "a": 0,
+    "fb": "Kant supera el choque analizando las condiciones que hacen posible la objetividad."
    }
   ]
  },
@@ -4828,6 +4935,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Los autores de B5 deben entenderse como distintas respuestas a un problema común: pensar a la vez el sujeto y la naturaleza mecánica."
+   },
+   {
+    "q": "¿Cuál es el problema del dualismo?",
+    "o": [
+     "La interacción entre la mente y el cuerpo.",
+     "La definición de sustancia.",
+     "El origen de los átomos.",
+     "La organización de la ciudad."
+    ],
+    "a": 0,
+    "fb": "El dualismo debe explicar el vínculo causal entre mente y cuerpo."
+   },
+   {
+    "q": "¿Qué defiende el materialismo?",
+    "o": [
+     "Que toda la realidad se explica por materia y procesos naturales.",
+     "Que existen dos sustancias.",
+     "Que el alma es inmortal.",
+     "Que la materia no existe."
+    ],
+    "a": 0,
+    "fb": "El materialismo explica la realidad solo por materia y movimiento."
+   },
+   {
+    "q": "¿Por qué es crucial la idea de naturaleza mecánica?",
+    "o": [
+     "Porque la ciencia nueva explica la naturaleza por leyes y medición.",
+     "Porque niega toda ley.",
+     "Porque es teológica.",
+     "Porque elimina la observación."
+    ],
+    "a": 0,
+    "fb": "El mecanicismo permite explicar la naturaleza con leyes matemáticas."
+   },
+   {
+    "q": "¿Qué es la sustancia en este contexto?",
+    "o": [
+     "Lo que existe por sí mismo.",
+     "Un simple accidente.",
+     "Un atributo del alma.",
+     "Una opinión."
+    ],
+    "a": 0,
+    "fb": "La sustancia es lo que tiene existencia propia en el debate metafísico."
+   },
+   {
+    "q": "¿Qué opone el materialismo al concepto de alma?",
+    "o": [
+     "El pensamiento como actividad del cerebro y la materia.",
+     "Una sustancia espiritual.",
+     "Un principio inmaterial aparte.",
+     "El alma como forma inmortal."
+    ],
+    "a": 0,
+    "fb": "Para el materialismo la mente es actividad corporal, no sustancia aparte."
    }
   ]
  },
@@ -4890,6 +5052,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Separar legislativo, ejecutivo y judicial (Montesquieu) hace que el poder frene al poder, limitando su abuso y garantizando la libertad política."
+   },
+   {
+    "q": "¿Cuál es la pregunta central del contrato social?",
+    "o": [
+     "De dónde viene el poder político y cuándo es legítimo.",
+     "Cómo organizar la economía.",
+     "Cómo demostrar la fe.",
+     "Cómo explicar la causalidad."
+    ],
+    "a": 0,
+    "fb": "El contrato pregunta por el origen y la legitimidad del poder."
+   },
+   {
+    "q": "¿Qué es el estado de naturaleza según Hobbes?",
+    "o": [
+     "Una guerra de todos contra todos.",
+     "Un estado de paz perfecta.",
+     "Un estado sin conflictos.",
+     "La sociedad ideal."
+    ],
+    "a": 0,
+    "fb": "Hobbes parte de un estado de naturaleza egoísta y violento."
+   },
+   {
+    "q": "¿Qué protege el gobierno limitado de Locke?",
+    "o": [
+     "Los derechos naturales: vida, libertad y propiedad.",
+     "El poder absoluto.",
+     "La sumisión del pueblo.",
+     "Solo la seguridad."
+    ],
+    "a": 0,
+    "fb": "Locke limita el poder para proteger los derechos naturales."
+   },
+   {
+    "q": "¿Qué es la voluntad general en Rousseau?",
+    "o": [
+     "El interés común, no la suma de intereses particulares.",
+     "El interés privado.",
+     "La voluntad del monarca.",
+     "La opinión de la mayoría."
+    ],
+    "a": 0,
+    "fb": "La voluntad general encarna el bien común."
+   },
+   {
+    "q": "¿Por qué es importante la separación de poderes?",
+    "o": [
+     "Para que el poder frene al poder y proteger la libertad.",
+     "Para concentrar el poder.",
+     "Para eliminar la política.",
+     "Para garantizar la tiranía."
+    ],
+    "a": 0,
+    "fb": "Separar legislativo, ejecutivo y judicial limita el abuso del poder."
    }
   ]
  },
@@ -4952,6 +5169,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "El riesgo del cálculo utilitarista es sacrificar a minorías o individuos en nombre del bienestar total de la mayoría."
+   },
+   {
+    "q": "¿Qué defiende el utilitarismo?",
+    "o": [
+     "Medir las consecuencias de las acciones según el bienestar.",
+     "Los derechos absolutos.",
+     "La razón como fin.",
+     "La obediencia ciega."
+    ],
+    "a": 0,
+    "fb": "El utilitarismo juzga las acciones por sus consecuencias en felicidad."
+   },
+   {
+    "q": "¿Qué dice el principio del daño?",
+    "o": [
+     "Solo se limita la libertad para evitar daño a otros.",
+     "El Estado debe forzar siempre.",
+     "La mayoría impone.",
+     "La libertad es ilimitada."
+    ],
+    "a": 0,
+    "fb": "Mill limita la libertad solo para evitar dañar a otros."
+   },
+   {
+    "q": "¿Por qué se distingue el liberalismo político del económico?",
+    "o": [
+     "Porque cabe defender derechos políticos y, a la vez, corregir las desigualdades del mercado.",
+     "Son lo mismo.",
+     "El político niega la libertad.",
+     "El económico anula la propiedad."
+    ],
+    "a": 0,
+    "fb": "Los derechos políticos y la libertad económica no siempre coinciden."
+   },
+   {
+    "q": "¿Qué es la mano invisible de Smith?",
+    "o": [
+     "El mercado armoniza los intereses egoístas en beneficio social.",
+     "El Estado controla todo.",
+     "La cooperación es imposible.",
+     "El mercado siempre falla."
+    ],
+    "a": 0,
+    "fb": "Para Smith el interés propio conduce al bienestar general."
+   },
+   {
+    "q": "¿Cuál es un problema del cálculo utilitarista?",
+    "o": [
+     "Puede sacrificar minorías en nombre del bienestar total.",
+     "Nunca examina consecuencias.",
+     "Siempre protege la libertad.",
+     "No mide la felicidad."
+    ],
+    "a": 0,
+    "fb": "El cálculo utilitarista puede perjudicar a minorías para maximizar el bienestar global."
    }
   ]
  },
@@ -5014,6 +5286,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Para Wollstonecraft la subordinación femenina no es natural, sino fruto de una educación desigual, las costumbres y la dependencia económica."
+   },
+   {
+    "q": "¿Qué papel jugó el espacio público en la Ilustración?",
+    "o": [
+     "Es el lugar para argumentar, difundir y criticar las ideas.",
+     "Es un lujo innecesario.",
+     "Sirve solo para la propaganda.",
+     "No tiene relación con la razón."
+    ],
+    "a": 0,
+    "fb": "El espacio público es esencial porque en él las ideas se debaten y se ponen a prueba ante todos."
+   },
+   {
+    "q": "¿Qué crítica hace Olympe de Gouges?",
+    "o": [
+     "Pone a prueba la universalidad ilustrada al denunciar la exclusión de las mujeres.",
+     "Rechaza toda la Ilustración.",
+     "Defiende los privilegios masculinos.",
+     "Propone volver al Antiguo Régimen."
+    ],
+    "a": 0,
+    "fb": "De Gouges vuelve la Declaración contra sí misma y denuncia que las mujeres quedaban fuera de los derechos."
+   },
+   {
+    "q": "¿Qué sostiene Wollstonecraft sobre la inferioridad de las mujeres?",
+    "o": [
+     "Que no es natural, sino fruto de una educación desigual y la dependencia.",
+     "Que es un hecho biológico inmutable.",
+     "Que responde a la razón femenina.",
+     "Que es un don de la naturaleza."
+    ],
+    "a": 0,
+    "fb": "Para Wollstonecraft la subordinación femenina proviene de la educación y las costumbres, no de la naturaleza."
+   },
+   {
+    "q": "¿Qué es el deísmo ilustrado?",
+    "o": [
+     "Una religión racional sin dogmas ni milagros, basada en un Dios como principio.",
+     "La fe ciega en la autoridad religiosa.",
+     "Una religión de milagros.",
+     "La negación de toda divinidad."
+    ],
+    "a": 0,
+    "fb": "El deísmo concibe un Dios racional que no interviene en milagros, acorde con la visión mecanicista ilustrada."
+   },
+   {
+    "q": "¿Qué papel asigna la Ilustración a la razón?",
+    "o": [
+     "Una razón crítica, autónoma y orientada al progreso.",
+     "Una razón subordinada a la tradición.",
+     "Una razón meramente pasiva.",
+     "Una razón sin capacidad de crítica."
+    ],
+    "a": 0,
+    "fb": "La Ilustración confía en una razón crítica y autónoma que libera del prejuicio y guía el progreso."
    }
   ]
  },
@@ -5076,6 +5403,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La libertad, Dios y la inmortalidad no se demuestran teóricamente, pero la razón práctica los necesita como horizonte de la moral."
+   },
+   {
+    "q": "¿Qué es la pregunta trascendental en Kant?",
+    "o": [
+     "Preguntar por las condiciones que hacen posible la experiencia objetiva.",
+     "Describir la cosa en sí.",
+     "Fundar la moral en los sentimientos.",
+     "Recuperar las pruebas dogmáticas."
+    ],
+    "a": 0,
+    "fb": "La pregunta trascendental indaga las condiciones de posibilidad de la experiencia, no la cosa en sí."
+   },
+   {
+    "q": "¿Qué son los juicios sintéticos a priori?",
+    "o": [
+     "Juicios que amplían el conocimiento y son a la vez necesarios.",
+     "Meras definiciones.",
+     "Costumbres contingentes.",
+     "Postulados religiosos."
+    ],
+    "a": 0,
+    "fb": "El juicio sintético a priori amplía el conocimiento con necesidad, como en la matemática."
+   },
+   {
+    "q": "¿Qué consecuencia tiene distinguir fenómeno y noúmeno?",
+    "o": [
+     "El conocimiento se limita a los fenómenos y la cosa en sí queda como concepto límite.",
+     "Conocemos la cosa en sí.",
+     "El fenómeno es incognoscible.",
+     "No hay diferencia entre ambos."
+    ],
+    "a": 0,
+    "fb": "Solo conocemos fenómenos; el noúmeno, la cosa en sí, escapa al conocimiento."
+   },
+   {
+    "q": "¿Qué exige el imperativo categórico?",
+    "o": [
+     "Que la máxima pueda universalizarse y se trate a la persona como fin, nunca solo como medio.",
+     "Calcular las consecuencias más agradables.",
+     "Obedecer al mandato externo.",
+     "Seguir los intereses privados."
+    ],
+    "a": 0,
+    "fb": "El imperativo categórico exige una máxima universalizable y el respeto de la persona como fin."
+   },
+   {
+    "q": "¿Qué papel tienen los postulados prácticos?",
+    "o": [
+     "La libertad, Dios y la inmortalidad como ideas que la moral necesita aunque la razón teórica no las demuestre.",
+     "Son los objetos de la ciencia.",
+     "Son pruebas dogmáticas.",
+     "Son meras hipótesis."
+    ],
+    "a": 0,
+    "fb": "Los postulados prácticos son exigencias de la razón práctica que la teórica no puede demostrar."
    }
   ]
  },
@@ -5138,6 +5520,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "El sufragismo pone a prueba la universalidad de los derechos modernos al exigir que se reconozca a las mujeres como ciudadanas plenas."
+   },
+   {
+    "q": "¿Qué une el pensamiento del siglo XIX?",
+    "o": [
+     "Forma el puente de Kant a la filosofía de la sospecha de Marx, Nietzsche y Freud.",
+     "Repite las ideas ilustradas.",
+     "Es una colección de autores sin vínculo.",
+     "Se limita a la biología."
+    ],
+    "a": 0,
+    "fb": "El siglo XIX conecta la Ilustración con los filósofos de la sospecha."
+   },
+   {
+    "q": "¿Qué subraya la historización de Herder?",
+    "o": [
+     "Que el ser humano se forma en una lengua, un pueblo, una memoria y una cultura concretas.",
+     "Que la razón es abstracta y sin historia.",
+     "Que la historia no importa.",
+     "Que todas las culturas son iguales en todo."
+    ],
+    "a": 0,
+    "fb": "Herder subraya la historicidad y la diversidad cultural frente a una razón abstracta."
+   },
+   {
+    "q": "¿Cuál es la clave de la dialéctica de Hegel?",
+    "o": [
+     "Que la contradicción es el motor del proceso histórico y conceptual.",
+     "Que la historia es azar.",
+     "Que la negación es un error a evitar.",
+     "Que la razón imita a la naturaleza."
+    ],
+    "a": 0,
+    "fb": "En Hegel la contradicción impulsa el desarrollo histórico e ideal."
+   },
+   {
+    "q": "¿Qué significa el «descentramiento» de Darwin?",
+    "o": [
+     "Que el ser humano queda situado dentro de la historia evolutiva, sin excepción metafísica.",
+     "Que el ser humano está fuera de la naturaleza.",
+     "Que la selección natural es un fin moral.",
+     "Que el darwinismo es un programa político."
+    ],
+    "a": 0,
+    "fb": "El darwinismo sitúa al ser humano en el continuum de la vida, cuestionando su excepción metafísica."
+   },
+   {
+    "q": "¿Por qué es importante el sufragismo?",
+    "o": [
+     "Pone a prueba la universalidad de los derechos al exigir ciudadanía plena para las mujeres.",
+     "Apoya el darwinismo social.",
+     "Niega la Ilustración.",
+     "Solo busca el voto masculino."
+    ],
+    "a": 0,
+    "fb": "El sufragismo exige aplicar los derechos modernos a las mujeres, poniéndolos a prueba."
    }
   ]
  },
@@ -5200,6 +5637,61 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La ideología importa porque hace que un orden social histórico se presente a sí mismo como natural, justo o inmutable."
+   },
+   {
+    "q": "¿Qué significa «poner a Hegel cabeza abajo»?",
+    "o": [
+     "Conservar la dialéctica pero dar primacía a las condiciones materiales.",
+     "Aceptar el idealismo hegeliano.",
+     "Negar toda contradicción.",
+     "Someter la filosofía a la religión."
+    ],
+    "a": 0,
+    "fb": "Marx conserva la lógica de las contradicciones pero la funda en lo material, no en el Espíritu."
+   },
+   {
+    "q": "¿Qué es la alienación económica?",
+    "o": [
+     "Volverse ajeno al producto del trabajo, a la propia actividad y a la capacidad creadora.",
+     "Recibir el fruto del trabajo.",
+     "La igualdad de clases.",
+     "La conciencia de clase."
+    ],
+    "a": 0,
+    "fb": "La alienación es enajenarse respecto al producto, la actividad y la propia esencia humana."
+   },
+   {
+    "q": "¿Qué distinguen la infraestructura y la superestructura?",
+    "o": [
+     "La base económica y las formas jurídicas, políticas e ideológicas.",
+     "La cultura y la naturaleza.",
+     "Dos conceptos psicológicos.",
+     "Lo público y lo privado."
+    ],
+    "a": 0,
+    "fb": "La infraestructura es la base económica; sobre ella se levanta la superestructura."
+   },
+   {
+    "q": "¿Qué es la plusvalía?",
+    "o": [
+     "El valor excedente que el trabajador crea y no recibe en salario.",
+     "El salario del trabajador.",
+     "El valor de uso de la mercancía.",
+     "El beneficio repartido por igual."
+    ],
+    "a": 0,
+    "fb": "La plusvalía es el valor que el trabajador produce de más y del que se apropia el capitalista."
+   },
+   {
+    "q": "¿Qué papel juega la ideología en Marx?",
+    "o": [
+     "Presenta un orden social histórico como natural y justo.",
+     "Es neutra y científica.",
+     "No toca las clases.",
+     "Es la verdad última."
+    ],
+    "a": 0,
+    "fb": "La ideología hace que un orden concreto parezca natural, legitimando la dominación."
    }
   ]
  },
@@ -5262,6 +5754,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "La genealogía examina el origen histórico, afectivo y de poder de los valores morales, en vez de darlos por naturales o eternos."
+   },
+   {
+    "q": "¿Qué expresan lo apolíneo y lo dionisíaco?",
+    "o": [
+     "La tensión entre forma, mesura y el impulso trágico creador.",
+     "La división de la conciencia y el inconsciente.",
+     "El conflicto entre capitalismo y comunismo.",
+     "La distinción entre razón teórica y práctica."
+    ],
+    "a": 0,
+    "fb": "Lo apolíneo (forma, claridad) y lo dionisíaco (impulso, caos) son las dos fuerzas de la tragedia."
+   },
+   {
+    "q": "¿Qué significa «Dios ha muerto»?",
+    "o": [
+     "Que ha caído el fundamento de los valores absolutos de Occidente.",
+     "Que la religión ha desaparecido.",
+     "Que la ciencia resuelve la moral.",
+     "Que el ser humano no crea valores."
+    ],
+    "a": 0,
+    "fb": "«Dios ha muerto» señala la crisis de los fundamentos absolutos de los valores occidentales."
+   },
+   {
+    "q": "¿Qué es el nihilismo pasivo?",
+    "o": [
+     "Quedarse en la desesperanza y la pequeña comodidad del último hombre.",
+     "La oportunidad de crear valores.",
+     "La forma trágica del arte.",
+     "La alienación."
+    ],
+    "a": 0,
+    "fb": "El nihilismo pasivo se conforma con la comodidad y la mediocridad, sin crear."
+   },
+   {
+    "q": "¿Qué es la transmutación de los valores?",
+    "o": [
+     "Superar los valores que niegan la vida y crear valores que la afirman.",
+     "Reforzar la moral cristiana.",
+     "Mantener los valores con otros nombres.",
+     "Encontrar la verdad objetiva."
+    ],
+    "a": 0,
+    "fb": "La transmutación de valores los revalúa para afirmar la vida."
+   },
+   {
+    "q": "¿Qué busca la genealogía de la moral?",
+    "o": [
+     "Examinar el origen histórico, afectivo y de poder de los valores.",
+     "Demostrar el origen divino de la moral.",
+     "Mostrar que todas las morales son iguales.",
+     "Encontrar leyes económicas."
+    ],
+    "a": 0,
+    "fb": "La genealogía estudia cómo se formaron los valores, no los da por naturales."
    }
   ]
  },
@@ -5324,6 +5871,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Ricoeur añade que, tras romper los significados falsos, la sospecha necesita una hermenéutica que reconstruya el sentido."
+   },
+   {
+    "q": "¿Cuál es el gran golpe filosófico de Freud?",
+    "o": [
+     "Mostrar que el sujeto no es del todo dueño de sí mismo.",
+     "Que la conciencia es transparente.",
+     "Que la historia es la lucha de clases.",
+     "Que la moral es eterna."
+    ],
+    "a": 0,
+    "fb": "Freud muestra que «el yo no es amo en su propia casa»: hay fuerzas inconscientes."
+   },
+   {
+    "q": "¿Por qué son importantes los sueños?",
+    "o": [
+     "Son una vía de acceso al inconsciente.",
+     "Solo tienen significado literal.",
+     "No se relacionan con el deseo.",
+     "Explican la economía."
+    ],
+    "a": 0,
+    "fb": "Los sueños revelan deseos reprimidos, aunque aparezcan disfrazados."
+   },
+   {
+    "q": "¿Qué es la represión?",
+    "o": [
+     "Apartar de la conciencia un contenido conflictivo sin que desaparezca.",
+     "Destruir los viejos valores.",
+     "Que el trabajador pierda el producto.",
+     "Pensar la historia con una meta."
+    ],
+    "a": 0,
+    "fb": "Lo reprimido no se elimina, sino que puede volver como síntoma o sueño."
+   },
+   {
+    "q": "¿Qué forman el Ello, el Yo y el Superyó?",
+    "o": [
+     "La estructura conflictiva del aparato psíquico.",
+     "Los tres poderes del Estado.",
+     "Las clases sociales.",
+     "Las partes del alma platónica."
+    ],
+    "a": 0,
+    "fb": "Ello, Yo y Superyó son instancias en conflicto de la psique."
+   },
+   {
+    "q": "¿Qué añade Ricoeur a los maestros de la sospecha?",
+    "o": [
+     "Que además de desenmascarar, se necesita una interpretación reconstructiva.",
+     "Que no tienen relación.",
+     "Que la conciencia es transparente.",
+     "Que el inconsciente no cuenta."
+    ],
+    "a": 0,
+    "fb": "Ricoeur pide una hermenéutica que reconstruya el sentido tras la sospecha."
    }
   ]
  },
@@ -5386,6 +5988,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Habermas entiende la razón comunicativa y la esfera pública como reconstrucción de la teoría crítica y base de una democracia deliberativa."
+   },
+   {
+    "q": "¿Qué añade Gramsci?",
+    "o": [
+     "Que la dominación se organiza también por la cultura, el sentido común y el consentimiento.",
+     "Que la revolución no necesita organización.",
+     "Que la cultura es neutral.",
+     "Que el capitalismo no depende de la economía."
+    ],
+    "a": 0,
+    "fb": "Con la hegemonía cultural, Gramsci muestra la dominación a través del consentimiento."
+   },
+   {
+    "q": "¿Qué critican Adorno y Horkheimer con la razón instrumental?",
+    "o": [
+     "La reducción de la razón a cálculo y control, sin discutir los fines.",
+     "El exceso de crítica.",
+     "La democracia deliberativa.",
+     "La racionalidad comunicativa."
+    ],
+    "a": 0,
+    "fb": "La razón instrumental reduce la razón a eficiencia al servicio del control."
+   },
+   {
+    "q": "¿Qué es la sociedad unidimensional de Marcuse?",
+    "o": [
+     "Un sistema que absorbe la crítica y la oposición, volviéndolas consumo.",
+     "Una sociedad sin economía.",
+     "Una sociedad plenamente libre.",
+     "Una sociedad sin cultura."
+    ],
+    "a": 0,
+    "fb": "La sociedad unidimensional integra la crítica y la neutraliza como mercancía."
+   },
+   {
+    "q": "¿Para qué usa Marcuse a Freud y Marx?",
+    "o": [
+     "Para examinar el deseo y la represión en la sociedad capitalista.",
+     "Para negar la economía.",
+     "Para separar psique y sociedad.",
+     "Para defender el consumo."
+    ],
+    "a": 0,
+    "fb": "Marcuse cruza psicoanálisis y crítica social para analizar la represión."
+   },
+   {
+    "q": "¿Cuál es la aportación de Habermas?",
+    "o": [
+     "La razón comunicativa y la esfera pública como base de la democracia deliberativa.",
+     "La sociedad unidimensional.",
+     "La razón instrumental.",
+     "La hegemonía cultural."
+    ],
+    "a": 0,
+    "fb": "Habermas reconstruye la teoría crítica desde la razón comunicativa."
    }
   ]
  },
@@ -5448,6 +6105,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "El poder nace del actuar juntos y del acuerdo entre iguales; la violencia aparece donde falta el poder, como su sustituto, nunca como su fundamento (sección «La acción y el espacio público»)."
+   },
+   {
+    "q": "¿Qué es el totalitarismo para Arendt?",
+    "o": [
+     "Una novedad política del siglo XX fundada en la ideología total y el terror.",
+     "Una tiranía clásica.",
+     "La antigua democracia.",
+     "El caos social."
+    ],
+    "a": 0,
+    "fb": "El totalitarismo es una forma inédita de poder basada en ideología y terror."
+   },
+   {
+    "q": "¿Qué es la «banalidad del mal»?",
+    "o": [
+     "Que el mal puede nacer de la renuncia a pensar y la obediencia.",
+     "Que el mal es intencional y extremo.",
+     "Que el mal es divino.",
+     "Que el mal no se evita."
+    ],
+    "a": 0,
+    "fb": "El caso Eichmann muestra el mal burocrático, sin pensar."
+   },
+   {
+    "q": "¿Cuáles son las tres formas de la vita activa?",
+    "o": [
+     "Labor, trabajo y acción.",
+     "Consumo, ocio y descanso.",
+     "Teoría, práctica y poesía.",
+     "Vegetativa, sensitiva y racional."
+    ],
+    "a": 0,
+    "fb": "Labor (biología), trabajo (mundo de objetos) y acción (política entre iguales)."
+   },
+   {
+    "q": "¿Por qué es importante la natalidad?",
+    "o": [
+     "Hace posibles la novedad y la libertad.",
+     "Solo explica la biología.",
+     "Impide la política.",
+     "Justifica la violencia."
+    ],
+    "a": 0,
+    "fb": "Cada nacimiento trae un comienzo nuevo, condición de la libertad."
+   },
+   {
+    "q": "¿Cómo distingue Arendt poder y violencia?",
+    "o": [
+     "El poder nace de actuar juntos; la violencia es su sustituto.",
+     "La violencia es la base del poder.",
+     "Son exactamente lo mismo.",
+     "El poder es violencia."
+    ],
+    "a": 0,
+    "fb": "El poder es cooperación; la violencia aparece donde falta el poder."
    }
   ]
  },
@@ -5510,6 +6222,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "La ética de la ambigüedad no aplica una fórmula cerrada: la libertad se decide en cada situación y solo es legítima si no niega la libertad de los demás («querer ser libre es querer libres a los demás»)."
+   },
+   {
+    "q": "¿Qué significa «no se nace mujer, se llega a serlo»?",
+    "o": [
+     "Que el género es una construcción social y cultural, no un dato biológico.",
+     "Que la mujer es inferior por naturaleza.",
+     "Que solo importa la biología.",
+     "Que la identidad femenina es eterna."
+    ],
+    "a": 0,
+    "fb": "Beauvoir defiende que la feminidad se construye por la cultura y las instituciones."
+   },
+   {
+    "q": "¿Qué es «la Otra» según Beauvoir?",
+    "o": [
+     "La mujer definida como segundo sexo, respecto al hombre como sujeto.",
+     "La igualdad de derechos.",
+     "El derecho al voto.",
+     "La independencia biológica."
+    ],
+    "a": 0,
+    "fb": "La mujer ha sido «la otra» respecto al hombre, sujeto absoluto."
+   },
+   {
+    "q": "¿Qué distingue inmanencia y trascendencia?",
+    "o": [
+     "Inmanencia es repetición y pasividad; trascendencia es proyectarse al futuro.",
+     "Son lo mismo.",
+     "La inmanencia es la libertad.",
+     "La trascendencia es doméstica."
+    ],
+    "a": 0,
+    "fb": "La mujer fue confinada a la inmanencia, negándole la trascendencia."
+   },
+   {
+    "q": "¿Por qué critica Beauvoir el matrimonio y la maternidad?",
+    "o": [
+     "Porque, sin condiciones, refuerzan la dependencia y la inmanencia.",
+     "Porque son naturales.",
+     "Porque liberan a la mujer.",
+     "Porque favorecen al hombre."
+    ],
+    "a": 0,
+    "fb": "Sin autonomía, esas instituciones pueden empujar a la inmanencia."
+   },
+   {
+    "q": "¿Qué es la ética de la ambigüedad?",
+    "o": [
+     "Que la libertad se decide en situación respetando la libertad de los demás.",
+     "Una ética absoluta.",
+     "Una ética de la obediencia.",
+     "Una ética que niega la libertad."
+    ],
+    "a": 0,
+    "fb": "La libertad se ejerce en cada situación y debe respetar la de los demás."
    }
   ]
  },
@@ -5572,6 +6339,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La libertad pesa porque de cada elección somos responsables sin excusas: estamos condenados a ser libres y no podemos descargar esa responsabilidad tras un rol o una esencia (sección «Sartre»)."
+   },
+   {
+    "q": "¿Qué significa «yo soy yo y mi circunstancia»?",
+    "o": [
+     "Que el yo y su situación histórico-social son inseparables.",
+     "Que el yo es una esencia fija.",
+     "Que la libertad es imposible.",
+     "Que la circunstancia no importa."
+    ],
+    "a": 0,
+    "fb": "Ortega liga el yo a su circunstancia concreta."
+   },
+   {
+    "q": "¿En qué se distinguen Sartre y Ortega?",
+    "o": [
+     "Sartre radicaliza la libertad; Ortega la sitúa en la circunstancia.",
+     "Sartre es determinista.",
+     "Ortega no habla de la vida.",
+     "Son idénticos."
+    ],
+    "a": 0,
+    "fb": "Ambos ligan al ser humano al mundo, pero distinto peso de la libertad."
+   },
+   {
+    "q": "¿Qué es el Dasein en Heidegger?",
+    "o": [
+     "El ser humano que está en el mundo y se pregunta por el ser.",
+     "Un ser sin relación con el mundo.",
+     "Una esencia fija.",
+     "Un simple animal."
+    ],
+    "a": 0,
+    "fb": "Dasein es el ente que pregunta por el ser."
+   },
+   {
+    "q": "¿Qué significa «la existencia precede a la esencia»?",
+    "o": [
+     "Que el ser humano se hace a sí mismo, no tiene una naturaleza acabada.",
+     "Que hay una esencia fija previa.",
+     "Que la biología define al humano.",
+     "Que el ser humano no decide."
+    ],
+    "a": 0,
+    "fb": "Primero existimos y luego nos definimos con nuestros actos."
+   },
+   {
+    "q": "¿Por qué la libertad es una carga en Sartre?",
+    "o": [
+     "Porque somos responsables de cada elección sin excusas.",
+     "Porque la libertad no existe.",
+     "Porque siempre hay que obedecer.",
+     "Porque nos da comodidad."
+    ],
+    "a": 0,
+    "fb": "Estamos condenados a ser libres; cada elección nos hace responsables."
    }
   ]
  },
@@ -5634,6 +6456,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "«Débil» no significa banal, sino sin pretensión de fuerza absoluta: Vattimo renuncia a los fundamentos metafísicos firmes y da primacía a la interpretación (sección «Vattimo: el pensamiento débil»)."
+   },
+   {
+    "q": "¿Qué es un metarrelato según Lyotard?",
+    "o": [
+     "Un gran relato que legitima globalmente la historia y el saber.",
+     "Un relato local de la vida cotidiana.",
+     "El método científico.",
+     "Un discurso neutro."
+    ],
+    "a": 0,
+    "fb": "Los metarrelatos legitimaban el saber; la posmodernidad los pone en crisis."
+   },
+   {
+    "q": "¿Qué es la différance de Derrida?",
+    "o": [
+     "Que el significado nunca está del todo presente, sino diferido y aplazado.",
+     "Que el sentido es fijo.",
+     "Que el lenguaje es isomórfico con el mundo.",
+     "Que hay un significado único."
+    ],
+    "a": 0,
+    "fb": "La différance indica que el sentido se difiere en el juego de diferencias."
+   },
+   {
+    "q": "¿Qué subraya el vínculo poder/saber en Foucault?",
+    "o": [
+     "Que la verdad se produce dentro de estructuras de poder.",
+     "Que la ciencia es neutral.",
+     "Que el poder es solo represivo.",
+     "Que el saber siempre libera."
+    ],
+    "a": 0,
+    "fb": "Para Foucault el saber y el poder son inseparables."
+   },
+   {
+    "q": "¿Qué es el simulacro de Baudrillard?",
+    "o": [
+     "Cuando los signos sustituyen a la realidad en la hiperrealidad.",
+     "Una copia fiel.",
+     "Una apariencia que oculta la verdad.",
+     "Un ideal."
+    ],
+    "a": 0,
+    "fb": "En la hiperrealidad los signos devienen la «realidad»."
+   },
+   {
+    "q": "¿Qué es el «pensamiento débil» de Vattimo?",
+    "o": [
+     "Renunciar a la fuerza absoluta y dar primacía a la interpretación.",
+     "Un pensamiento banal.",
+     "El dogmatismo.",
+     "La búsqueda de la verdad absoluta."
+    ],
+    "a": 0,
+    "fb": "El pensamiento débil no busca fundamentos firmes."
    }
   ]
  },
@@ -5696,6 +6573,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "El primer Wittgenstein del Tractatus sostiene el isomorfismo: la proposición con sentido figura la estructura lógica de los hechos del mundo (sección «El primer Wittgenstein»)."
+   },
+   {
+    "q": "¿Qué defendía el criterio de verificabilidad?",
+    "o": [
+     "Que un enunciado solo tiene sentido si puede verificarse empíricamente.",
+     "Que la metafísica es ciencia.",
+     "Que el lenguaje no importa.",
+     "Que todo es verificable."
+    ],
+    "a": 0,
+    "fb": "El positivismo lógico exige condiciones de verificación."
+   },
+   {
+    "q": "¿Qué es la falsabilidad de Popper?",
+    "o": [
+     "Una teoría es científica si hay modo de refutarla.",
+     "Que la ciencia acumula datos.",
+     "Que una teoría es inatacable.",
+     "Que la verificación sustituye a la falsación."
+    ],
+    "a": 0,
+    "fb": "Lo científico debe poder refutarse."
+   },
+   {
+    "q": "¿Qué es el paradigma de Kuhn?",
+    "o": [
+     "El marco que comparte una comunidad científica.",
+     "Una teoría privada.",
+     "La metafísica.",
+     "El único argumento."
+    ],
+    "a": 0,
+    "fb": "El paradigma enmarca la ciencia normal hasta las revoluciones."
+   },
+   {
+    "q": "¿Para qué sirve la teoría de las descripciones de Russell?",
+    "o": [
+     "Para aclarar la estructura lógica de las frases.",
+     "Para demostrar que todo vale.",
+     "Para reconstruir la metafísica.",
+     "Para descartar la ciencia."
+    ],
+    "a": 0,
+    "fb": "Russell analiza la forma lógica bajo la gramática superficial."
+   },
+   {
+    "q": "¿Qué defiende el primer Wittgenstein?",
+    "o": [
+     "Que el lenguaje puede representar la estructura lógica del mundo.",
+     "Que el lenguaje es poético.",
+     "Que la ciencia no tiene sentido.",
+     "Que los problemas filosóficos son políticos."
+    ],
+    "a": 0,
+    "fb": "El Tractatus sostiene el isomorfismo lenguaje-mundo."
    }
   ]
  },
@@ -5758,6 +6690,61 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Fraser sostiene que la justicia de género exige a la vez redistribución de recursos y reconocimiento simbólico, sin reducir una cosa a la otra (sección «Fraser: redistribución y reconocimiento»)."
+   },
+   {
+    "q": "¿Qué subraya la interseccionalidad?",
+    "o": [
+     "Que el género se cruza con la clase, la raza, la sexualidad y la migración.",
+     "Que solo el género importa.",
+     "Que el cuidado no tiene valor político.",
+     "Que el feminismo terminó."
+    ],
+    "a": 0,
+    "fb": "Las opresiones se cruzan y se refuerzan mutuamente."
+   },
+   {
+    "q": "¿Por qué es importante la ética del cuidado?",
+    "o": [
+     "Porque revela la interdependencia y el trabajo de cuidados invisible.",
+     "Porque niega los derechos.",
+     "Porque la libertad es solo de mercado.",
+     "Porque el género es natural."
+    ],
+    "a": 0,
+    "fb": "La ética del cuidado muestra la interdependencia tras la autonomía abstracta."
+   },
+   {
+    "q": "¿Qué reivindicaba la primera ola feminista?",
+    "o": [
+     "El derecho al voto y la igualdad jurídica.",
+     "Solo cambios culturales.",
+     "La crítica a la economía.",
+     "La negación de los derechos."
+    ],
+    "a": 0,
+    "fb": "La primera ola fue el sufragismo por el voto y la igualdad legal."
+   },
+   {
+    "q": "¿Qué significa que el género es performativo para Butler?",
+    "o": [
+     "Que el género se produce por la repetición de normas y actos.",
+     "Que el género es biológico y fijo.",
+     "Que es solo económico.",
+     "Que es innato."
+    ],
+    "a": 0,
+    "fb": "La performatividad muestra que el género se hace."
+   },
+   {
+    "q": "¿Qué añade Fraser al feminismo?",
+    "o": [
+     "La justicia necesita redistribución y reconocimiento a la vez.",
+     "Solo el reconocimiento.",
+     "Solo la redistribución.",
+     "Que baste con los derechos formales."
+    ],
+    "a": 0,
+    "fb": "Fraser une justicia económica y cultural."
    }
   ]
  },
@@ -5820,6 +6807,61 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Chomsky denuncia que los medios y el poder económico moldean la opinión pública seleccionando la información e imponiendo marcos (sección «Chomsky: lenguaje, poder y opinión pública»)."
+   },
+   {
+    "q": "¿Por qué es la IA un problema filosófico en C10?",
+    "o": [
+     "Abre las preguntas de los datos, el poder, la responsabilidad y la discriminación.",
+     "Porque la tecnología es neutra.",
+     "Porque la filosofía es del pasado.",
+     "Porque no toca la ecología."
+    ],
+    "a": 0,
+    "fb": "La IA no es neutra: plantea poder y responsabilidad."
+   },
+   {
+    "q": "¿Qué defiende la justicia climática?",
+    "o": [
+     "Examinar juntas la crisis ecológica y las desigualdades sociales.",
+     "Que el crecimiento es siempre sostenible.",
+     "Que el clima es solo técnico.",
+     "Que la naturaleza no es política."
+    ],
+    "a": 0,
+    "fb": "La crisis ecológica afecta desigualmente y es un problema de justicia."
+   },
+   {
+    "q": "¿Qué muestra la crítica de la globalización?",
+    "o": [
+     "Que economía, comunicación y poder están ligados a escala mundial.",
+     "Que los Estados no importan.",
+     "Que las desigualdades han desaparecido.",
+     "Que no afecta a la vida."
+    ],
+    "a": 0,
+    "fb": "La globalización crea redes y también nuevas dependencias."
+   },
+   {
+    "q": "¿Qué es la modernidad líquida de Bauman?",
+    "o": [
+     "La precariedad e inestabilidad de lazos e instituciones.",
+     "Una fase técnica.",
+     "La unidad naturaleza-cultura.",
+     "Una nueva metafísica."
+    ],
+    "a": 0,
+    "fb": "Lo líquido nombra lo que no conserva su forma."
+   },
+   {
+    "q": "¿Qué subraya Chomsky sobre los medios?",
+    "o": [
+     "Que el discurso público se moldea según intereses determinados.",
+     "Que los medios son neutrales.",
+     "Que la información es libre.",
+     "Que la política no depende del lenguaje."
+    ],
+    "a": 0,
+    "fb": "Chomsky denuncia la fabricación del consentimiento."
    }
   ]
  },
@@ -6394,6 +7436,17 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La eudaimonía es el fin último que se busca por sí mismo: la vida plena, actividad del alma conforme a la razón y la virtud durante toda una vida."
+   },
+   {
+    "q": "¿Qué son las virtudes dianoéticas según Aristóteles?",
+    "o": [
+     "Perfecciones del entendimiento que se aprenden por la enseñanza.",
+     "Hábitos del cuerpo.",
+     "Reglas de la retórica.",
+     "Virtudes de la voluntad."
+    ],
+    "a": 0,
+    "fb": "Las dianoéticas perfeccionan la razón (sabiduría, prudencia) y se enseñan."
    }
   ]
  },
@@ -6511,17 +7564,6 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La condena del más justo mostró a Platón que una política sin saber, dominada por la opinión cambiante, corrompe la justicia; de ahí su proyecto de una ciudad regida por el conocimiento."
-   },
-   {
-    "q": "¿Qué tesis resume la correspondencia entre el alma y la ciudad en Platón?",
-    "o": [
-     "Que la ciudad justa se corrompe siempre.",
-     "Que la polis es el alma «escrita en grande».",
-     "Que el alma y la ciudad no se relacionan.",
-     "Que el Estado debe suprimir el alma."
-    ],
-    "a": 1,
-    "fb": "Platón propone la correlación entre el alma y la ciudad: la polis justa reproduce a gran escala el orden interno de las tres partes del alma gobernadas por la razón."
    }
   ]
  },
@@ -6584,6 +7626,61 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Alejandría importa como símbolo del saber cosmopolita: su Biblioteca y su Museo organizaron ciencia y cultura en un mundo más amplio."
+   },
+   {
+    "q": "¿Qué es la eudaimonía en el helenismo?",
+    "o": [
+     "La vida buena o felicidad como fin por el que se vive.",
+     "El placer momentáneo.",
+     "El poder político.",
+     "La opinión corriente."
+    ],
+    "a": 0,
+    "fb": "Las escuelas helenísticas se ocupan de la eudaimonía: cómo vivir bien."
+   },
+   {
+    "q": "¿Qué es la autarquía en el cinismo?",
+    "o": [
+     "La autosuficiencia, no depender de nada ni de nadie.",
+     "El goce de todos los placeres.",
+     "El poder absoluto.",
+     "La suspensión del juicio."
+    ],
+    "a": 0,
+    "fb": "El cinismo busca la autarquía viviendo conforme a la naturaleza."
+   },
+   {
+    "q": "¿Qué es el cosmopolitismo estoico?",
+    "o": [
+     "Todos los seres humanos son ciudadanos de un mismo mundo.",
+     "Cada ciudad es un mundo cerrado.",
+     "Solo los sabios tienen patria.",
+     "La ciudadanía es exclusiva."
+    ],
+    "a": 0,
+    "fb": "Para los estoicos, gobernados por el logos, todos son ciudadanos del mundo."
+   },
+   {
+    "q": "¿Qué es el tetrafármaco de Epicuro?",
+    "o": [
+     "El remedio contra los miedos: a los dioses, a la muerte, al placer y al dolor.",
+     "Las cuatro reglas de la lógica.",
+     "Los cuatro elementos.",
+     "Las cuatro clases de la ciudad."
+    ],
+    "a": 0,
+    "fb": "El tetrafármaco resume la doctrina epicúrea para alcanzar la ataraxia."
+   },
+   {
+    "q": "¿Qué representa Hipatia de Alejandría?",
+    "o": [
+     "El final de la filosofía antigua y el tránsito a la Edad Media.",
+     "El origen del epicureísmo.",
+     "La democracia ateniense.",
+     "El fin del escepticismo."
+    ],
+    "a": 0,
+    "fb": "Hipatia, matemática y neoplatónica, su asesinato marca el fin del mundo clásico."
    }
   ]
  },

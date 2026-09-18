@@ -9,8 +9,7 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · ¿Qué es la filosofía? (asombro, mito→logos, ramas, método)",
-   "hf": "Tema 3 · Del mito al logos",
-   "ipc": "Conceptos del curso; preevaluación"
+   "hf": "Tema 3 · Del mito al logos"
   },
   "sesiones": [
    {
@@ -352,29 +351,6 @@ const SEMANAS = [
    },
    {
     "dia": "Jue 17",
-    "hora": "11:15",
-    "asig": "ipc",
-    "grupo": "2.º ESO",
-    "aula": "32",
-    "cod": "P-S1",
-    "titulo": "Contrato, diario y mapa de conceptos",
-    "obj": "Encuadrar el curso y poner en común los conceptos clave del pensamiento crítico.",
-    "sec": "Contrato de aula comentado (15) · portada del diario y 1.ª entrada (10) · mapa de conceptos: definir los 11 términos y ponerlos en común (20) · firma del contrato (5).",
-    "enl": [
-     {
-      "t": "Tarjetas: conceptos básicos",
-      "view": "tarjetas",
-      "fn": "loadDeck",
-      "arg": "ipc-conceptos"
-     },
-     {
-      "t": "Material: contrato y diario",
-      "view": "materiales"
-     }
-    ]
-   },
-   {
-    "dia": "Jue 17",
     "hora": "12:10",
     "asig": "fil",
     "grupo": "1.º C",
@@ -398,29 +374,6 @@ const SEMANAS = [
      },
      {
       "t": "Material: ficha T1 (E, F)",
-      "view": "materiales"
-     }
-    ]
-   },
-   {
-    "dia": "Vie 18",
-    "hora": "9:50",
-    "asig": "ipc",
-    "grupo": "2.º ESO",
-    "aula": "32",
-    "cod": "P-S2",
-    "titulo": "Preevaluación",
-    "obj": "Diagnosticar el punto de partida en argumentación, criterio y opinión.",
-    "sec": "Test «¿buena razón o truco?» (20) · escrito breve (15) · puesta en común y lista de control del diálogo (15).",
-    "enl": [
-     {
-      "t": "Cuestionario: falacias",
-      "view": "cuestionarios",
-      "fn": "loadQuiz",
-      "arg": "falacias"
-     },
-     {
-      "t": "Material: evaluación inicial",
       "view": "materiales"
      }
     ]
@@ -493,8 +446,7 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Tipos de saber, historia de la filosofía, su valor hoy y comentario de texto",
-   "hf": "Cierre Q1 (preevaluación, temas 1-2) + Tema 3 · Del mito al logos",
-   "ipc": "S3 · La pregunta filosófica · S4 · Lista de control del diálogo y dilema del día"
+   "hf": "Cierre Q1 (preevaluación, temas 1-2) + Tema 3 · Del mito al logos"
   },
   "sesiones": [
    {
@@ -824,41 +776,6 @@ const SEMANAS = [
    },
    {
     "dia": "Jue 24",
-    "hora": "11:15",
-    "asig": "ipc",
-    "grupo": "2.º ESO",
-    "aula": "32",
-    "cod": "P-S3",
-    "titulo": "¿Por qué? y ¿para qué?: la pregunta filosófica",
-    "obj": "Distinguir una pregunta cotidiana de una filosófica y entender qué hace filosófica a una pregunta.",
-    "sec": "¿Por qué? y ¿para qué?: dos preguntas ante la misma acción (10) · pregunta cotidiana frente a filosófica con las 12 tarjetas de situaciones, en parejas (20) · mini-debate con las 6 preguntas filosóficas (15) · diario de aprendizaje (5).",
-    "enl": [
-     {
-      "t": "Infografía: pensar (la pregunta)",
-      "view": "infografias",
-      "fn": "loadInfografia",
-      "arg": "ipc-pensar"
-     },
-     {
-      "t": "Mapa: pensamiento crítico",
-      "view": "mapas",
-      "fn": "loadMap",
-      "arg": "map-ipc-critico"
-     },
-     {
-      "t": "Tarjetas: conceptos básicos",
-      "view": "tarjetas",
-      "fn": "loadDeck",
-      "arg": "ipc-conceptos"
-     },
-     {
-      "t": "Material: ficha S3",
-      "view": "materiales"
-     }
-    ]
-   },
-   {
-    "dia": "Jue 24",
     "hora": "12:10",
     "asig": "fil",
     "grupo": "1.º C",
@@ -888,35 +805,6 @@ const SEMANAS = [
      },
      {
       "t": "Material: ficha T1 (bloque F, rúbrica)",
-      "view": "materiales"
-     }
-    ]
-   },
-   {
-    "dia": "Vie 25",
-    "hora": "9:50",
-    "asig": "ipc",
-    "grupo": "2.º ESO",
-    "aula": "32",
-    "cod": "P-S4",
-    "titulo": "La lista de control del diálogo y el primer dilema del día",
-    "obj": "Conocer las cuatro dimensiones con las que se valora el diálogo y estrenar la rutina del dilema del día.",
-    "sec": "Presentación de la lista de control: actitud, calidad de los argumentos, participación y mirada sobre el problema (10) · normas del diálogo en 20 segundos (2) · dilema del día, tarjeta 1 «El trabajo en grupo injusto»: guion de Filosofía para Niños, primera votación, razones, segunda votación; se registra a 6-8 alumnos con la lista (25) · diario: una razón que me ha convencido (8) · cierre (5).",
-    "enl": [
-     {
-      "t": "Infografía: el diálogo",
-      "view": "infografias",
-      "fn": "loadInfografia",
-      "arg": "ipc-dialogo"
-     },
-     {
-      "t": "Mapa: el diálogo",
-      "view": "mapas",
-      "fn": "loadMap",
-      "arg": "map-ipc-dialogo"
-     },
-     {
-      "t": "Material: lista de control + dilema del día",
       "view": "materiales"
      }
     ]
@@ -1001,9 +889,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · ¿Qué es la filosofía? (asombro, mito→logos, ramas, método)",
-   "hf": "Tema 4 · Presocráticos (arché)",
-   "ipc": "Conceptos del curso; preevaluación"
-  }
+   "hf": "Tema 4 · Presocráticos (arché)"
+  },
+  "sesiones": []
  },
  {
   "n": 4,
@@ -1013,9 +901,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · ¿Qué es la filosofía? (asombro, mito→logos, ramas, método)",
-   "hf": "Tema 5 · Sofistas, Sócrates y Aspasia",
-   "ipc": "Conceptos del curso; preevaluación"
-  }
+   "hf": "Tema 5 · Sofistas, Sócrates y Aspasia"
+  },
+  "sesiones": []
  },
  {
   "n": 5,
@@ -1025,9 +913,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · ¿Qué es la filosofía? (asombro, mito→logos, ramas, método)",
-   "hf": "Tema 5 · Sofistas, Sócrates y Aspasia",
-   "ipc": "Preguntar y argumentar"
-  }
+   "hf": "Tema 5 · Sofistas, Sócrates y Aspasia"
+  },
+  "sesiones": []
  },
  {
   "n": 6,
@@ -1037,9 +925,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Filosofía y otros saberes; comentario de texto",
-   "hf": "Tema 6 · Platón",
-   "ipc": "Preguntar y argumentar"
-  }
+   "hf": "Tema 6 · Platón"
+  },
+  "sesiones": []
  },
  {
   "n": 7,
@@ -1049,9 +937,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Filosofía y otros saberes; comentario de texto",
-   "hf": "Tema 7 · Aristóteles",
-   "ipc": "Preguntar y argumentar"
-  }
+   "hf": "Tema 7 · Aristóteles"
+  },
+  "sesiones": []
  },
  {
   "n": 8,
@@ -1061,9 +949,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Filosofía y otros saberes; comentario de texto",
-   "hf": "Tema 8 · Antropología clásica",
-   "ipc": "Diálogo, criterio y autonomía"
-  }
+   "hf": "Tema 8 · Antropología clásica"
+  },
+  "sesiones": []
  },
  {
   "n": 9,
@@ -1073,9 +961,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Filosofía y otros saberes; comentario de texto",
-   "hf": "Tema 8 · Antropología clásica",
-   "ipc": "Diálogo, criterio y autonomía"
-  }
+   "hf": "Tema 8 · Antropología clásica"
+  },
+  "sesiones": []
  },
  {
   "n": 10,
@@ -1085,9 +973,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Filosofía y otros saberes; comentario de texto",
-   "hf": "Tema 9 · Ética clásica",
-   "ipc": "Diálogo, criterio y autonomía"
-  }
+   "hf": "Tema 9 · Ética clásica"
+  },
+  "sesiones": []
  },
  {
   "n": 11,
@@ -1097,9 +985,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Repaso y examen",
-   "hf": "Tema 10 · Política clásica",
-   "ipc": "Diálogo, criterio y autonomía"
-  }
+   "hf": "Tema 10 · Política clásica"
+  },
+  "sesiones": []
  },
  {
   "n": 12,
@@ -1109,9 +997,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Repaso y examen",
-   "hf": "Tema 10 · Política clásica",
-   "ipc": "Falacias"
-  }
+   "hf": "Tema 10 · Política clásica"
+  },
+  "sesiones": []
  },
  {
   "n": 13,
@@ -1121,9 +1009,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Repaso y examen",
-   "hf": "Tema 12 · Helenismo",
-   "ipc": "Falacias"
-  }
+   "hf": "Tema 12 · Helenismo"
+  },
+  "sesiones": []
  },
  {
   "n": 14,
@@ -1133,9 +1021,9 @@ const SEMANAS = [
   "trim": 1,
   "temas": {
    "fil": "T1 · Repaso y examen",
-   "hf": "Repaso bloque A y examen",
-   "ipc": "Falacias"
-  }
+   "hf": "Repaso bloque A y examen"
+  },
+  "sesiones": []
  },
  {
   "n": 15,
@@ -1145,9 +1033,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · ¿Qué es el ser humano? Naturaleza y cultura",
-   "hf": "Agustín de Hipona",
-   "ipc": "Sesgos cognitivos"
-  }
+   "hf": "Agustín de Hipona"
+  },
+  "sesiones": []
  },
  {
   "n": 16,
@@ -1157,9 +1045,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · ¿Qué es el ser humano? Naturaleza y cultura",
-   "hf": "Agustín de Hipona",
-   "ipc": "Sesgos cognitivos"
-  }
+   "hf": "Agustín de Hipona"
+  },
+  "sesiones": []
  },
  {
   "n": 17,
@@ -1169,9 +1057,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · ¿Qué es el ser humano? Naturaleza y cultura",
-   "hf": "Hildegard, Avicena y Ockham",
-   "ipc": "Sesgos cognitivos"
-  }
+   "hf": "Hildegard, Avicena y Ockham"
+  },
+  "sesiones": []
  },
  {
   "n": 18,
@@ -1181,9 +1069,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · Cuerpo y mente; identidad",
-   "hf": "Tomás de Aquino",
-   "ipc": "Publicidad y técnicas persuasivas"
-  }
+   "hf": "Tomás de Aquino"
+  },
+  "sesiones": []
  },
  {
   "n": 19,
@@ -1193,9 +1081,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · Cuerpo y mente; identidad",
-   "hf": "Renacimiento y revolución científica",
-   "ipc": "Publicidad y técnicas persuasivas"
-  }
+   "hf": "Renacimiento y revolución científica"
+  },
+  "sesiones": []
  },
  {
   "n": 20,
@@ -1205,9 +1093,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T2 · Cuerpo y mente; identidad",
-   "hf": "Descartes",
-   "ipc": "Publicidad y técnicas persuasivas"
-  }
+   "hf": "Descartes"
+  },
+  "sesiones": []
  },
  {
   "n": 21,
@@ -1217,9 +1105,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · ¿Qué podemos conocer? Racionalismo y empirismo",
-   "hf": "Spinoza, Locke y Hume",
-   "ipc": "Consumo y moda rápida"
-  }
+   "hf": "Spinoza, Locke y Hume"
+  },
+  "sesiones": []
  },
  {
   "n": 22,
@@ -1229,9 +1117,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · ¿Qué podemos conocer? Racionalismo y empirismo",
-   "hf": "Spinoza, Locke y Hume",
-   "ipc": "Consumo y moda rápida"
-  }
+   "hf": "Spinoza, Locke y Hume"
+  },
+  "sesiones": []
  },
  {
   "n": 23,
@@ -1241,9 +1129,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · ¿Qué podemos conocer? Racionalismo y empirismo",
-   "hf": "Racionalismo y empirismo; metafísica moderna",
-   "ipc": "Consumo y moda rápida"
-  }
+   "hf": "Racionalismo y empirismo; metafísica moderna"
+  },
+  "sesiones": []
  },
  {
   "n": 24,
@@ -1253,9 +1141,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · Verdad, posverdad y saber científico; examen",
-   "hf": "Contrato social",
-   "ipc": "Alfabetización mediática"
-  }
+   "hf": "Contrato social"
+  },
+  "sesiones": []
  },
  {
   "n": 25,
@@ -1265,9 +1153,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · Verdad, posverdad y saber científico; examen",
-   "hf": "Utilitarismo y liberalismo",
-   "ipc": "Alfabetización mediática"
-  }
+   "hf": "Utilitarismo y liberalismo"
+  },
+  "sesiones": []
  },
  {
   "n": 26,
@@ -1277,9 +1165,9 @@ const SEMANAS = [
   "trim": 2,
   "temas": {
    "fil": "T3 · Verdad, posverdad y saber científico; examen",
-   "hf": "Repaso bloque B y examen",
-   "ipc": "Alfabetización mediática"
-  }
+   "hf": "Repaso bloque B y examen"
+  },
+  "sesiones": []
  },
  {
   "n": 27,
@@ -1289,9 +1177,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Ética: el problema del bien y la acción",
-   "hf": "La Ilustración",
-   "ipc": "Tecnología y dilemas éticos"
-  }
+   "hf": "La Ilustración"
+  },
+  "sesiones": []
  },
  {
   "n": 28,
@@ -1301,9 +1189,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Ética: el problema del bien y la acción",
-   "hf": "La Ilustración",
-   "ipc": "Tecnología y dilemas éticos"
-  }
+   "hf": "La Ilustración"
+  },
+  "sesiones": []
  },
  {
   "n": 29,
@@ -1313,9 +1201,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Ética: el problema del bien y la acción",
-   "hf": "Kant",
-   "ipc": "Tecnología y dilemas éticos"
-  }
+   "hf": "Kant"
+  },
+  "sesiones": []
  },
  {
   "n": 30,
@@ -1325,9 +1213,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Ética: el problema del bien y la acción",
-   "hf": "Pensamiento del s. XIX (Hegel, Schopenhauer)",
-   "ipc": "Género y consumo (Caza de brujas)"
-  }
+   "hf": "Pensamiento del s. XIX (Hegel, Schopenhauer)"
+  },
+  "sesiones": []
  },
  {
   "n": 31,
@@ -1337,9 +1225,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Éticas materiales y formales",
-   "hf": "Marx",
-   "ipc": "Género y consumo (Caza de brujas)"
-  }
+   "hf": "Marx"
+  },
+  "sesiones": []
  },
  {
   "n": 32,
@@ -1349,9 +1237,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Éticas materiales y formales",
-   "hf": "Nietzsche",
-   "ipc": "Género y consumo (Caza de brujas)"
-  }
+   "hf": "Nietzsche"
+  },
+  "sesiones": []
  },
  {
   "n": 33,
@@ -1361,9 +1249,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Éticas materiales y formales",
-   "hf": "Maestros de la sospecha y teoría crítica",
-   "ipc": "Conspiraciones y posverdad"
-  }
+   "hf": "Maestros de la sospecha y teoría crítica"
+  },
+  "sesiones": []
  },
  {
   "n": 34,
@@ -1373,9 +1261,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T5 · Éticas materiales y formales",
-   "hf": "Arendt y Beauvoir",
-   "ipc": "Conspiraciones y posverdad"
-  }
+   "hf": "Arendt y Beauvoir"
+  },
+  "sesiones": []
  },
  {
   "n": 35,
@@ -1385,9 +1273,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T7 · Filosofía del arte y la estética; examen",
-   "hf": "Existencialismo y posmodernidad",
-   "ipc": "Conspiraciones y posverdad"
-  }
+   "hf": "Existencialismo y posmodernidad"
+  },
+  "sesiones": []
  },
  {
   "n": 36,
@@ -1397,9 +1285,9 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T7 · Filosofía del arte y la estética; examen",
-   "hf": "Feminismo y retos del s. XXI",
-   "ipc": "Proyecto final"
-  }
+   "hf": "Feminismo y retos del s. XXI"
+  },
+  "sesiones": []
  },
  {
   "n": 37,
@@ -1409,8 +1297,8 @@ const SEMANAS = [
   "trim": 3,
   "temas": {
    "fil": "T7 · Filosofía del arte y la estética; examen",
-   "hf": "Repaso PAU",
-   "ipc": "Proyecto final"
-  }
+   "hf": "Repaso PAU"
+  },
+  "sesiones": []
  }
 ];
