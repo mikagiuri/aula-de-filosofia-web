@@ -3241,6 +3241,177 @@ const QUIZZES = {
    }
   ]
  },
+ "fil-t7": {
+  "name": "¿Qué es el arte? · Estética (Filosofía 1.º · T7)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿De qué palabra griega viene «estética» y qué significa?",
+    "o": [
+     "De «téchne»: saber hacer.",
+     "De «aísthesis»: sensación o percepción por los sentidos.",
+     "De «mímesis»: imitación.",
+     "De «logos»: razón."
+    ],
+    "a": 1,
+    "fb": "Baumgarten la tomó de «aísthesis»: el estudio del conocimiento sensible."
+   },
+   {
+    "q": "¿De qué se ocupa la estética?",
+    "o": [
+     "De fabricar obras de arte.",
+     "De enseñar técnicas de pintura.",
+     "De reflexionar sobre la belleza, el arte y la experiencia estética.",
+     "De tasar el precio de las obras."
+    ],
+    "a": 2,
+    "fb": "La estética piensa qué es lo bello y qué es el arte; no produce arte."
+   },
+   {
+    "q": "Según la concepción clásica, la belleza es sobre todo…",
+    "o": [
+     "Un placer subjetivo del que mira.",
+     "Proporción, armonía, orden y medida en el objeto.",
+     "Una emoción del artista.",
+     "Lo que decidan los expertos."
+    ],
+    "a": 1,
+    "fb": "Pitagóricos, Policleto o Santo Tomás: la belleza está en el objeto y puede medirse."
+   },
+   {
+    "q": "¿Qué diferencia lo bello de lo simplemente agradable?",
+    "o": [
+     "Lo bello satisface un apetito; lo agradable no.",
+     "Lo bello se contempla por sí mismo y no sacia un deseo; lo agradable satisface un apetito.",
+     "No hay ninguna diferencia.",
+     "Lo agradable es siempre más valioso."
+    ],
+    "a": 1,
+    "fb": "Un helado es agradable (sacia un deseo); lo bello gusta sin saciar ninguno."
+   },
+   {
+    "q": "¿Qué categoría estética nombra el sentimiento de temor y admiración ante lo inmenso o poderoso?",
+    "o": [
+     "Lo cómico.",
+     "Lo bello.",
+     "Lo sublime.",
+     "Lo grotesco."
+    ],
+    "a": 2,
+    "fb": "Lo sublime: una tormenta, el mar o el cosmos nos sobrecogen y elevan a la vez."
+   },
+   {
+    "q": "Para Kant, el juicio estético es «desinteresado». ¿Qué quiere decir?",
+    "o": [
+     "Que no nos importa nada la obra.",
+     "Que contemplamos la cosa sin querer poseerla ni usarla.",
+     "Que es aburrido.",
+     "Que no despierta ninguna emoción."
+    ],
+    "a": 1,
+    "fb": "El placer estético es libre: no busca poseer ni usar el objeto."
+   },
+   {
+    "q": "«El juicio de gusto es universal sin concepto» (Kant) significa que…",
+    "o": [
+     "La belleza se demuestra con reglas, como un teorema.",
+     "Pretendo que los demás lo vean bello, pero no puedo probarlo con reglas.",
+     "Solo vale mi gusto personal.",
+     "La belleza depende únicamente de la moda."
+    ],
+    "a": 1,
+    "fb": "Pretendemos acuerdo, pero la belleza no se demuestra con conceptos ni reglas."
+   },
+   {
+    "q": "La teoría del arte como imitación (mímesis) no explica bien…",
+    "o": [
+     "La pintura realista.",
+     "La escultura clásica.",
+     "La música o el arte abstracto, que no imitan nada.",
+     "El retrato."
+    ],
+    "a": 2,
+    "fb": "Hay arte que no representa nada (música, arquitectura, abstracción)."
+   },
+   {
+    "q": "Según la teoría institucional (Danto, Dickie), algo es arte porque…",
+    "o": [
+     "Imita bien la realidad.",
+     "Es bello y está bien hecho.",
+     "El «mundo del arte» (museos, crítica, historia) lo reconoce como arte.",
+     "Expresa la emoción del autor."
+    ],
+    "a": 2,
+    "fb": "Explica obras como el ready-made; su riesgo: «arte = lo que digan los expertos»."
+   },
+   {
+    "q": "¿Por qué desconfía Platón del arte?",
+    "o": [
+     "Porque es demasiado caro.",
+     "Porque, al imitar el mundo sensible (ya copia de las Ideas), es copia de una copia y aleja de la verdad.",
+     "Porque no gusta a nadie.",
+     "Porque es propio solo de los dioses."
+    ],
+    "a": 1,
+    "fb": "Copia de copia; además apela a las emociones, por eso vigila o expulsa a los poetas."
+   },
+   {
+    "q": "¿Qué es la catarsis en Aristóteles?",
+    "o": [
+     "La condena de los poetas.",
+     "La copia perfecta de la realidad.",
+     "La purificación o descarga de emociones (compasión y temor) que produce la tragedia.",
+     "El precio de una obra."
+    ],
+    "a": 2,
+    "fb": "Al ver el dolor y el miedo en escena, el espectador los descarga y se purifica."
+   },
+   {
+    "q": "La tesis de Hegel sobre el «fin» o «muerte» del arte quiere decir que…",
+    "o": [
+     "El arte va a desaparecer del todo.",
+     "El arte deja de ser la vía principal para expresar la verdad (lo son la religión y la filosofía).",
+     "El arte moderno es malo.",
+     "Ya no habrá más artistas."
+    ],
+    "a": 1,
+    "fb": "No que desaparezca, sino que pierde su papel central."
+   },
+   {
+    "q": "Según Walter Benjamin, cuando una obra puede reproducirse en masa (foto, cine, digital)…",
+    "o": [
+     "Gana su «aura».",
+     "Pierde su «aura» (su carácter único) pero se vuelve accesible a las masas.",
+     "Se vuelve siempre más cara.",
+     "Deja de ser una imagen."
+    ],
+    "a": 1,
+    "fb": "Reproductibilidad técnica: se pierde el aura, pero la imagen se democratiza."
+   },
+   {
+    "q": "El «ready-made» de Duchamp (un urinario firmado y expuesto) mostró que…",
+    "o": [
+     "El arte necesita mucha técnica.",
+     "El arte se define por la belleza.",
+     "El arte ya no se define por la habilidad, la belleza o la imitación: se vuelve pregunta y gesto.",
+     "La imitación es la esencia del arte."
+    ],
+    "a": 2,
+    "fb": "El ready-made abre la puerta a las teorías institucionales del arte."
+   },
+   {
+    "q": "En el debate ética/estética, el «autonomismo» («arte por el arte») sostiene que…",
+    "o": [
+     "La moral de una obra determina su valor artístico.",
+     "El arte tiene sus propias reglas, independientes de la moral.",
+     "Todo arte debe ser propaganda.",
+     "El arte no tiene ningún valor."
+    ],
+    "a": 1,
+    "fb": "Frente al moralismo, que sí hace depender el valor artístico de la moral."
+   }
+  ]
+ },
  "fil-t1": {
   "name": "¿Qué es la filosofía? (Filosofía 1.º · T1)",
   "subject": "fil",
