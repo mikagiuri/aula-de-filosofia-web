@@ -145,174 +145,174 @@ const ESQUEMAS = {
   "block": "A",
   "tema": "Métodos del filósofo",
   "title": "Métodos y herramientas del filósofo",
-  "mermaid": "graph LR\n\n  subgraph A2 [\"A.2 Métodos y herramientas del filósofo\"]\n    subgraph A2a [\"Fuentes de información\"]\n      A2a1[\"Documentos\"]\n      A2a2[\"Conferencias\"]\n      A2a3[\"Huellas digitales\"]\n    end\n    subgraph A2b [\"Herramientas del filósofo\"]\n      A2b1[\"Análisis crítico de las fuentes\"]\n      A2b2[\"Interpretación de documentos\"]\n      A2b3[\"Identificar problemas filosóficos\"]\n      A2b4[\"Diálogo basado en argumentos\"]\n      A2b5[\"Investigación filosófica\"]\n    end\n    A2a --> A2b1\n    A2b2 --> A2b3\n    A2b4 --> A2b5\n  end"
+  "mermaid": "flowchart TD\n  center[\"MÉTODOS Y HERRAMIENTAS<br>DEL FILÓSOFO\"]:::axis\n  fu[\"Fuentes de información\"]:::key\n  he[\"Herramientas del filósofo\"]:::key\n  center -->|\"parte de\"| fu\n  center -->|\"las trabaja con\"| he\n  fu --> f1[\"documentos · conferencias<br>· huellas digitales\"]\n  f1 -->|\"se someten a\"| h1[\"1· análisis crítico de las fuentes\"]\n  he --> h1\n  h1 --> h2[\"2· interpretación de documentos\"]\n  h2 --> h3[\"3· identificar problemas filosóficos\"]\n  h3 --> h4[\"4· diálogo basado en argumentos\"]\n  h4 --> h5[\"5· investigación filosófica\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A3": {
   "subject": "hf",
   "block": "A",
   "tema": "Origen de la filosofía",
   "title": "El nacimiento de la filosofía en Grecia",
-  "mermaid": "graph LR\n\n  subgraph A3 [\"A.3 El nacimiento de la filosofía en Grecia\"]\n    subgraph A3a [\"Transición del mito al logos\"]\n      A3a1[\"Mito - explicaciones imaginativas\"]\n      A3a2[\"Logos - explicaciones racionales\"]\n    end\n    subgraph A3b [\"Factores determinantes\"]\n      A3b1[\"Democracia de la polis - debate en el ágora\"]\n      A3b2[\"La esclavitud - tiempo libre\"]\n      A3b3[\"Religión sin escritura - ausencia de dogmas\"]\n      A3b4[\"Comercio - multiculturalidad\"]\n      A3b5[\"Leyes escritas - debate sistemático\"]\n    end\n    A3b --> A3a\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL NACIMIENTO DE LA FILOSOFÍA<br>EN GRECIA (s. VI a. C.)\"]:::axis\n  paso[\"Paso del mito al logos\"]:::key\n  fac[\"Factores que lo hacen posible\"]:::key\n  center -->|\"consiste en\"| paso\n  center -->|\"lo explican\"| fac\n  paso --> mito[\"MITO:<br>explicación imaginativa (dioses)\"]\n  paso --> logos[\"LOGOS:<br>explicación racional (causas)\"]\n  mito -->|\"da paso al\"| logos\n  fac --> c1[\"democracia de la polis → debate en el ágora\"]\n  fac --> c2[\"esclavitud → tiempo libre para pensar\"]\n  fac --> c3[\"religión sin dogmas → libertad de crítica\"]\n  fac --> c4[\"comercio → contacto con otras culturas\"]\n  fac --> c5[\"leyes escritas → debate sistemático\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A4": {
   "subject": "hf",
   "block": "A",
   "tema": "Presocráticos",
   "title": "Presocráticos: la búsqueda del arché",
-  "mermaid": "graph LR\n\n  subgraph A4 [\"A.4 Presocráticos - la búsqueda del arché\"]\n    subgraph A4a [\"Físicos - materialistas\"]\n      A4a1[\"Tales → Agua\"]\n      A4a2[\"Anaximandro → Ápeiron\"]\n      A4a3[\"Anaxímenes → Aire\"]\n      A4a4[\"Demócrito → Átomos + vacío\"]\n    end\n    subgraph A4b [\"Otros\"]\n      A4b1[\"Pitágoras → Números\"]\n      A4b2[\"Heráclito → Cambio / fuego\"]\n      A4b3[\"Parménides → Ser inmutable\"]\n      A4b4[\"Empédocles → 4 elementos\"]\n      A4b5[\"Anaxágoras → Nous\"]\n    end\n    A4a --> A4b\n  end"
+  "mermaid": "flowchart TD\n  center[\"PRESOCRÁTICOS:<br>¿cuál es el arché (principio) de todo?\"]:::axis\n  fis[\"Físicos:<br>un principio material\"]:::key\n  otros[\"Otras respuestas\"]:::key\n  deb[\"El gran debate:<br>cambio vs permanencia\"]:::key\n  center --> fis\n  center --> otros\n  center --> deb\n  fis --> t1[\"Tales → agua\"]\n  fis --> t2[\"Anaximandro → ápeiron\"]\n  fis --> t3[\"Anaxímenes → aire\"]\n  fis --> t4[\"Demócrito → átomos + vacío\"]\n  otros --> p1[\"Pitágoras → números\"]\n  otros --> emp[\"Empédocles → 4 elementos\"]\n  otros --> ana[\"Anaxágoras → nous\"]\n  deb --> her[\"Heráclito → todo fluye (fuego)\"]\n  deb --> par[\"Parménides → el ser es inmutable\"]\n  her -->|\"se opone a\"| par\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A5": {
   "subject": "hf",
   "block": "A",
   "tema": "Sofistas y Sócrates",
   "title": "Los sofistas y Sócrates",
-  "mermaid": "graph LR\n\n  subgraph A5 [\"A.5 Los sofistas y Sócrates\"]\n    subgraph A5a [\"Sofistas\"]\n      A5a1[\"Protágoras, Gorgias\"]\n      A5a2[\"Escepticismo epistemológico\"]\n      A5a3[\"Relativismo moral\"]\n      A5a4[\"Convencionalidad de las leyes\"]\n    end\n    subgraph A5b [\"Sócrates\"]\n      A5b1[\"Universalismo moral\"]\n      A5b2[\"Definiciones universales\"]\n      A5b3[\"Intelectualismo moral\"]\n      A5b4[\"Método: ironía + mayéutica\"]\n    end\n    subgraph A5c [\"Aspasia de Mileto\"]\n      A5c1[\"Maestra de retórica\"]\n      A5c2[\"Maestra de Sócrates\"]\n    end\n    A5a -- contra --> A5b\n    A5c --> A5b\n  end"
+  "mermaid": "flowchart TD\n  center[\"LOS SOFISTAS Y SÓCRATES\"]:::axis\n  sof[\"SOFISTAS<br>(Protágoras, Gorgias)\"]:::key\n  soc[\"SÓCRATES\"]:::key\n  asp[\"ASPASIA DE MILETO\"]:::key\n  center --> sof\n  center --> soc\n  center --> asp\n  sof -->|\"se enfrentan a\"| soc\n  sof --> s1[\"escepticismo epistemológico\"]\n  sof --> s2[\"relativismo moral\"]\n  sof --> s3[\"las leyes son convención\"]\n  soc --> c1[\"universalismo moral\"]\n  soc --> c2[\"busca definiciones universales\"]\n  soc --> c3[\"intelectualismo moral: saber = virtud\"]\n  soc -->|\"método\"| c4[\"ironía + mayéutica\"]\n  asp --> a1[\"maestra de retórica\"]\n  asp -->|\"influye en\"| soc\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A6": {
   "subject": "hf",
   "block": "A",
   "tema": "Platón y Aristóteles",
   "title": "Platón y Aristóteles",
-  "mermaid": "graph LR\n\n  subgraph A6 [\"A.6 Platón y Aristóteles\"]\n    subgraph A6a [\"Platón\"]\n      A6a1[\"Dualismo: mundo de las Ideas vs. mundo físico\"]\n      A6a2[\"Anamnesis - reminiscencia\"]\n      A6a3[\"Episteme - conocimiento cierto\"]\n      A6a4[\"Doxa - opinión\"]\n    end\n    subgraph A6b [\"Aristóteles\"]\n      A6b1[\"Hilemorfismo: materia + forma\"]\n      A6b2[\"Teoría de las cuatro causas\"]\n      A6b3[\"De la potencia al acto\"]\n    end\n    A6b -- crítica --> A6a\n  end"
+  "mermaid": "flowchart TD\n  center[\"PLATÓN Y ARISTÓTELES\"]:::axis\n  pla[\"PLATÓN\"]:::key\n  ari[\"ARISTÓTELES\"]:::key\n  center --> pla\n  center --> ari\n  ari -->|\"critica a\"| pla\n  pla --> p1[\"dualismo: mundo de las Ideas<br>vs mundo físico\"]\n  pla --> p2[\"anamnesis (reminiscencia)\"]\n  pla --> p3[\"episteme (saber) vs doxa (opinión)\"]\n  ari --> a1[\"hilemorfismo: materia + forma\"]\n  ari --> a2[\"teoría de las cuatro causas\"]\n  ari --> a3[\"de la potencia al acto\"]\n  a1 -->|\"frente al dualismo\"| p1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A7": {
   "subject": "hf",
   "block": "A",
   "tema": "Antropología clásica",
   "title": "Antropología clásica: la psique",
-  "mermaid": "graph LR\n\n  subgraph A7 [\"A.7 Antropología clásica - la psique\"]\n    subgraph A7a [\"Sócrates\"]\n      A7a1[\"Conócete a ti mismo\"]\n      A7a2[\"El alma es lo más valioso\"]\n      A7a3[\"Conocimiento = virtud\"]\n    end\n    subgraph A7b [\"Platón\"]\n      A7b1[\"Alma inmortal, tres partes\"]\n      A7b2[\"El cuerpo - cárcel\"]\n      A7b3[\"Dualismo antropológico\"]\n    end\n    subgraph A7c [\"Aristóteles\"]\n      A7c1[\"Alma = forma, no existe sin cuerpo\"]\n      A7c2[\"Tres almas: vegetativa, sensitiva, racional\"]\n      A7c3[\"Unidad sustancial\"]\n    end\n    A7a --> A7b --> A7c\n  end"
+  "mermaid": "flowchart TD\n  center[\"ANTROPOLOGÍA CLÁSICA:<br>¿qué es la psique (el alma)?\"]:::axis\n  soc[\"SÓCRATES\"]:::key\n  pla[\"PLATÓN\"]:::key\n  ari[\"ARISTÓTELES\"]:::key\n  center --> soc\n  soc -->|\"desarrollado por\"| pla\n  pla -->|\"corregido por\"| ari\n  soc --> s1[\"«conócete a ti mismo»\"]\n  soc --> s2[\"el alma es lo más valioso\"]\n  soc --> s3[\"conocimiento = virtud\"]\n  pla --> p1[\"alma inmortal, tres partes\"]\n  pla --> p2[\"el cuerpo es su cárcel\"]\n  pla --> p3[\"dualismo antropológico\"]\n  ari --> a1[\"el alma es forma: no existe sin cuerpo\"]\n  ari --> a2[\"tres almas: vegetativa,<br>sensitiva, racional\"]\n  ari --> a3[\"unidad sustancial (cuerpo + alma)\"]\n  p3 -->|\"rechazado por\"| a3\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A8": {
   "subject": "hf",
   "block": "A",
   "tema": "Ética clásica",
   "title": "El debate ético",
-  "mermaid": "graph LR\n\n  subgraph A8 [\"A.8 El debate ético\"]\n    subgraph A8a [\"Sócrates - Platón\"]\n      A8a1[\"Intelectualismo moral\"]\n      A8a2[\"Conocimiento → virtud\"]\n      A8a3[\"Nadie obra mal voluntariamente\"]\n    end\n    subgraph A8b [\"Aristóteles\"]\n      A8b1[\"La virtud se cultiva con el hábito\"]\n      A8b2[\"El término medio - entre dos extremos\"]\n      A8b3[\"Eudaimonía - la felicidad como fin\"]\n    end\n    A8b -- diferencia principal --> A8a\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL DEBATE ÉTICO CLÁSICO\"]:::axis\n  sp[\"SÓCRATES Y PLATÓN:<br>intelectualismo moral\"]:::key\n  ari[\"ARISTÓTELES:<br>ética de la virtud\"]:::key\n  center --> sp\n  center --> ari\n  ari -->|\"se distancia de\"| sp\n  sp --> s1[\"conocer el bien → obrar bien\"]\n  sp --> s2[\"nadie obra mal a propósito<br>(solo por ignorancia)\"]\n  ari --> a1[\"la virtud se cultiva con el hábito\"]\n  ari --> a2[\"término medio entre dos extremos\"]\n  ari --> a3[\"eudaimonía: la felicidad como fin\"]\n  s1 -->|\"saber no basta:<br>hay que habituarse\"| a1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A9": {
   "subject": "hf",
   "block": "A",
   "tema": "Política clásica",
   "title": "El debate político",
-  "mermaid": "graph LR\n\n  subgraph A9 [\"A.9 El debate político\"]\n    subgraph A9a [\"Platón - Utopía\"]\n      A9a1[\"Tres clases sociales\"]\n      A9a2[\"Reyes filósofos\"]\n      A9a3[\"Crítica de la democracia\"]\n    end\n    subgraph A9b [\"Aristóteles - Política realista\"]\n      A9b1[\"Zoon politikon - animal político\"]\n      A9b2[\"Tres gobiernos rectos: monarquía, aristocracia, república\"]\n      A9b3[\"Tres gobiernos desviados: tiranía, oligarquía, demagogia\"]\n      A9b4[\"La república es la mejor\"]\n    end\n    A9b -- más pragmático --> A9a\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL DEBATE POLÍTICO CLÁSICO\"]:::axis\n  pla[\"PLATÓN:<br>la ciudad ideal (utopía)\"]:::key\n  ari[\"ARISTÓTELES:<br>política realista\"]:::key\n  center --> pla\n  center --> ari\n  ari -->|\"más pragmático que\"| pla\n  pla --> p1[\"tres clases sociales\"]\n  pla --> p2[\"gobierno de reyes filósofos\"]\n  pla --> p3[\"crítica de la democracia\"]\n  ari --> a0[\"el ser humano es zoon politikon<br>(animal político)\"]\n  ari --> rectos[\"Gobiernos rectos:<br>monarquía · aristocracia · república\"]\n  ari --> desv[\"Gobiernos desviados:<br>tiranía · oligarquía · demagogia\"]\n  rectos -->|\"se corrompen en\"| desv\n  ari -->|\"la mejor forma\"| a4[\"la república\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-A10": {
   "subject": "hf",
   "block": "A",
   "tema": "Helenismo",
   "title": "Las escuelas helenísticas",
-  "mermaid": "graph LR\n\n  subgraph A10 [\"A.10 Escuelas helenísticas\"]\n    subgraph A10a [\"Epicureísmo\"]\n      A10a1[\"El placer como fin\"]\n      A10a2[\"Ataraxia - serenidad del alma\"]\n    end\n    subgraph A10b [\"Estoicismo\"]\n      A10b1[\"Aceptar el destino\"]\n      A10b2[\"Apatía - controlar los sentimientos\"]\n    end\n    subgraph A10c [\"Cinismo\"]\n      A10c1[\"Volver a la naturaleza\"]\n      A10c2[\"Autarquía - gobernarse a uno mismo\"]\n    end\n    subgraph A10d [\"Escepticismo\"]\n      A10d1[\"Epojé - suspensión del juicio\"]\n      A10d2[\"Alcanzar la ataraxia renunciando al conocimiento\"]\n    end\n  end"
+  "mermaid": "flowchart TD\n  center[\"ESCUELAS HELENÍSTICAS\"]:::axis\n  meta[\"Meta común: la felicidad<br>como serenidad (ataraxia)\"]:::key\n  center -->|\"todas buscan\"| meta\n  epi[\"EPICUREÍSMO\"]:::key\n  est[\"ESTOICISMO\"]:::key\n  cin[\"CINISMO\"]:::key\n  esc[\"ESCEPTICISMO\"]:::key\n  meta --> epi\n  meta --> est\n  meta --> cin\n  meta --> esc\n  epi -->|\"vía\"| e1[\"placer moderado,<br>evitar el dolor\"]\n  est -->|\"vía\"| s1[\"aceptar el destino<br>(apatía)\"]\n  cin -->|\"vía\"| c1[\"vivir según la naturaleza<br>(autarquía)\"]\n  esc -->|\"vía\"| x1[\"suspender el juicio<br>(epojé)\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B1": {
   "subject": "hf",
   "block": "B",
   "tema": "Filosofía medieval",
   "title": "La filosofía medieval",
-  "mermaid": "graph LR\n\n  subgraph B1 [\"B.1 La filosofía medieval\"]\n    subgraph B1a [\"Etapas\"]\n      B1a1[\"Patrística - Agustín\"]\n      B1a2[\"Escolástica temprana - Anselmo\"]\n      B1a3[\"Escolástica tardía - Tomás de Aquino\"]\n      B1a4[\"Nominalismo - Ockham\"]\n    end\n    subgraph B1b [\"Pruebas de la existencia de Dios\"]\n      B1b1[\"Agustín: la verdad interior\"]\n      B1b2[\"Tomás de Aquino: las cinco vías\"]\n      B1b3[\"Ockham: las pruebas en duda\"]\n    end\n    B1a --> B1b\n  end"
+  "mermaid": "flowchart TD\n  center[\"LA FILOSOFÍA MEDIEVAL\"]:::axis\n  hilo[\"Tema central:<br>¿puede la razón demostrar a Dios?\"]:::key\n  et[\"Cuatro etapas\"]:::key\n  center -->|\"gira en torno a\"| hilo\n  center --> et\n  et --> e1[\"Patrística → Agustín\"]\n  e1 --> e2[\"Escolástica temprana → Anselmo\"]\n  e2 --> e3[\"Escolástica tardía → Tomás de Aquino\"]\n  e3 --> e4[\"Nominalismo → Ockham\"]\n  e1 -->|\"prueba\"| p1[\"la verdad interior (Agustín)\"]\n  e3 -->|\"prueba\"| p2[\"las cinco vías (Tomás)\"]\n  e4 -->|\"pone en duda\"| p3[\"las pruebas racionales (Ockham)\"]\n  p3 -->|\"acaba separando\"| sep[\"fe y razón\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B2": {
   "subject": "hf",
   "block": "B",
   "tema": "Fe y razón",
   "title": "Fe y razón",
-  "mermaid": "graph LR\n\n  subgraph B2 [\"B.2 Fe y razón\"]\n    subgraph B2a [\"Agustín\"]\n      B2a1[\"Creer para entender, entender para creer\"]\n      B2a2[\"Fe y razón son compatibles\"]\n    end\n    subgraph B2b [\"Tomás de Aquino\"]\n      B2b1[\"Ámbitos distintos: filosofía vs teología\"]\n      B2b2[\"Compatibles - preámbulos de la fe\"]\n    end\n    subgraph B2c [\"Tertuliano\"]\n      B2c1[\"La fe basta, la razón no tiene nada que ver\"]\n    end\n  end"
+  "mermaid": "flowchart TD\n  center[\"FE Y RAZÓN\"]:::axis\n  q[\"¿Pueden fe y razón<br>ir juntas hacia la verdad?\"]\n  center --> q\n  agus[\"AGUSTÍN\"]:::key\n  tom[\"TOMÁS DE AQUINO\"]:::key\n  ter[\"TERTULIANO\"]:::key\n  q -->|\"unión\"| agus\n  q -->|\"armonía\"| tom\n  q -->|\"oposición\"| ter\n  agus -->|\"lema\"| a1[\"«Cree para entender,<br>entiende para creer»\"]\n  agus --> a2[\"fe y razón se necesitan\"]\n  tom --> t1[\"dos ámbitos:<br>teología y filosofía\"]\n  tom -->|\"no se contradicen\"| t2[\"la razón prepara la fe<br>(preámbulos)\"]\n  ter -->|\"«Creo porque es absurdo»\"| te1[\"la fe basta,<br>la razón sobra\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B3": {
   "subject": "hf",
   "block": "B",
   "tema": "Renacimiento",
   "title": "El Renacimiento",
-  "mermaid": "graph LR\n\n  subgraph B3 [\"B.3 El Renacimiento\"]\n    subgraph B3a [\"Cambios sociales\"]\n      B3a1[\"La crisis del feudalismo\"]\n      B3a2[\"El fortalecimiento de la burguesía\"]\n      B3a3[\"La imprenta - Gutenberg\"]\n    end\n    subgraph B3b [\"Antropocentrismo\"]\n      B3b1[\"El ser humano en el centro\"]\n      B3b2[\"Humanismo\"]\n    end\n    subgraph B3c [\"Revolución científica\"]\n      B3c1[\"Heliocentrismo - Copérnico, Galileo\"]\n      B3c2[\"Método empírico\"]\n    end\n    B3a --> B3b --> B3c\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL RENACIMIENTO\"]:::axis\n  soc[\"Cambios sociales\"]:::key\n  ant[\"Antropocentrismo\"]:::key\n  cie[\"Revolución científica\"]:::key\n  center --> soc\n  soc -->|\"hacen posible\"| ant\n  ant -->|\"desemboca en\"| cie\n  soc --> s1[\"crisis del feudalismo\"]\n  soc --> s2[\"auge de la burguesía\"]\n  soc --> s3[\"la imprenta (Gutenberg)\"]\n  ant --> a1[\"el ser humano en el centro\"]\n  ant --> a2[\"humanismo\"]\n  cie --> c1[\"heliocentrismo<br>(Copérnico, Galileo)\"]\n  cie --> c2[\"método empírico\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B4": {
   "subject": "hf",
   "block": "B",
   "tema": "Racionalismo y empirismo",
   "title": "Racionalismo y empirismo",
-  "mermaid": "graph LR\n\n  subgraph B4 [\"B.4 Racionalismo y empirismo\"]\n    subgraph B4a [\"Racionalismo - Descartes\"]\n      B4a1[\"La fuente del conocimiento: la razón\"]\n      B4a2[\"Ideas innatas - a priori\"]\n      B4a3[\"Método matemático-deductivo\"]\n      B4a4[\"Cogito ergo sum\"]\n    end\n    subgraph B4b [\"Empirismo - Hume\"]\n      B4b1[\"La fuente del conocimiento: la experiencia\"]\n      B4b2[\"Tabula rasa\"]\n      B4b3[\"Conocimiento probabilístico\"]\n      B4b4[\"Crítica de la causalidad\"]\n    end\n    B4a -- contra --> B4b\n  end"
+  "mermaid": "flowchart TD\n  center[\"RACIONALISMO Y EMPIRISMO\"]:::axis\n  rac[\"RACIONALISMO<br>(Descartes)\"]:::key\n  emp[\"EMPIRISMO<br>(Hume)\"]:::key\n  center --> rac\n  center --> emp\n  rac -->|\"¿razón o experiencia?\"| emp\n  rac --> r1[\"la fuente es la razón\"]\n  rac --> r2[\"hay ideas innatas (a priori)\"]\n  rac --> r3[\"método matemático-deductivo\"]\n  rac --> r4[\"«cogito ergo sum»\"]\n  emp --> e1[\"la fuente es la experiencia\"]\n  emp --> e2[\"la mente es una tabula rasa\"]\n  emp --> e3[\"conocimiento solo probable\"]\n  emp --> e4[\"crítica de la causalidad\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B5": {
   "subject": "hf",
   "block": "B",
   "tema": "Sustancia (modernos)",
   "title": "El debate moderno sobre la sustancia",
-  "mermaid": "graph LR\n\n  subgraph B5 [\"B.5 El debate moderno sobre la sustancia\"]\n    subgraph B5a [\"Descartes - Dualismo\"]\n      B5a1[\"Tres sustancias\"]\n      B5a2[\"Alma y cuerpo separados\"]\n      B5a3[\"La glándula pineal - interacción\"]\n    end\n    subgraph B5b [\"Spinoza - Panteísmo\"]\n      B5b1[\"Una sola sustancia: Dios o Naturaleza\"]\n      B5b2[\"Cuerpo y alma, dos aspectos de una misma realidad\"]\n    end\n    subgraph B5c [\"Leibniz - Monadología\"]\n      B5c1[\"Mónadas - sustancias simples\"]\n      B5c2[\"Armonía preestablecida\"]\n    end\n    B5a -- problema --> B5b\n    B5a -- problema --> B5c\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL DEBATE MODERNO<br>SOBRE LA SUSTANCIA\"]:::axis\n  des[\"DESCARTES:<br>dualismo (tres sustancias)\"]:::key\n  spi[\"SPINOZA:<br>panteísmo\"]:::key\n  lei[\"LEIBNIZ:<br>monadología\"]:::key\n  center --> des\n  des --> d1[\"alma y cuerpo separados\"]\n  des --> d2[\"interacción en la glándula pineal\"]\n  des -->|\"problema no resuelto\"| pr[\"¿cómo se relacionan<br>alma y cuerpo?\"]\n  pr -->|\"una sola sustancia\"| spi\n  pr -->|\"infinitas mónadas\"| lei\n  spi --> s1[\"una sola sustancia:<br>Dios o Naturaleza\"]\n  spi --> s2[\"cuerpo y alma:<br>dos aspectos de lo mismo\"]\n  lei --> l1[\"mónadas: sustancias simples\"]\n  lei --> l2[\"armonía preestablecida\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B6": {
   "subject": "hf",
   "block": "B",
   "tema": "Contrato social",
   "title": "El contrato social",
-  "mermaid": "graph LR\n\n  subgraph B6 [\"B.6 El contrato social\"]\n    subgraph B6a [\"Hobbes\"]\n      B6a1[\"Homo homini lupus\"]\n      B6a2[\"Leviatán - monarquía absoluta\"]\n    end\n    subgraph B6b [\"Locke\"]\n      B6b1[\"Derechos naturales: vida, libertad, propiedad\"]\n      B6b2[\"Monarquía parlamentaria\"]\n      B6b3[\"Separación de poderes\"]\n    end\n    subgraph B6c [\"Rousseau\"]\n      B6c1[\"La voluntad general\"]\n      B6c2[\"Democracia asamblearia\"]\n    end\n    B6a --> B6b --> B6c\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL CONTRATO SOCIAL\"]:::axis\n  idea[\"Del estado de naturaleza a la sociedad<br>por un pacto\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"tesis común\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"«homo homini lupus»\"]\n  hob -->|\"pacto que da\"| h2[\"Leviatán:<br>monarquía absoluta\"]\n  loc --> l1[\"derechos naturales:<br>vida, libertad, propiedad\"]\n  loc -->|\"pacto que da\"| l2[\"monarquía parlamentaria<br>+ separación de poderes\"]\n  rou --> r1[\"la voluntad general\"]\n  rou -->|\"pacto que da\"| r2[\"democracia asamblearia\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-B7": {
   "subject": "hf",
   "block": "B",
   "tema": "Utilitarismo y liberalismo",
   "title": "Utilitarismo, liberalismo y capitalismo",
-  "mermaid": "graph LR\n\n  subgraph B7 [\"B.7 Utilitarismo, liberalismo, capitalismo\"]\n    subgraph B7a [\"Utilitarismo - Bentham, Mill\"]\n      B7a1[\"La mayor felicidad para el mayor número de personas\"]\n      B7a2[\"Placer vs dolor\"]\n    end\n    subgraph B7b [\"Liberalismo\"]\n      B7b1[\"La primacía del individuo\"]\n      B7b2[\"Propiedad privada\"]\n      B7b3[\"La neutralidad del Estado\"]\n    end\n    subgraph B7c [\"Adam Smith - Capitalismo\"]\n      B7c1[\"La mano invisible\"]\n      B7c2[\"El interés personal trae el bienestar general\"]\n    end\n    subgraph B7d [\"Azurmendi - Cooperación\"]\n      B7d1[\"El ser humano tiene una tendencia cooperativa innata\"]\n      B7d2[\"No solo competitivo\"]\n    end\n    B7b --> B7c\n    B7d -- crítica --> B7c\n  end"
+  "mermaid": "flowchart TD\n  center[\"UTILITARISMO, LIBERALISMO<br>Y CAPITALISMO\"]:::axis\n  uti[\"UTILITARISMO<br>(Bentham, Mill)\"]:::key\n  lib[\"LIBERALISMO\"]:::key\n  cap[\"CAPITALISMO<br>(Adam Smith)\"]:::key\n  azu[\"AZURMENDI: crítica\"]:::key\n  center --> uti\n  center --> lib\n  center --> cap\n  center --> azu\n  uti --> u1[\"la mayor felicidad para<br>el mayor número\"]\n  uti --> u2[\"balance de placer vs dolor\"]\n  lib --> l1[\"primacía del individuo\"]\n  lib --> l2[\"propiedad privada\"]\n  lib --> l3[\"Estado neutral\"]\n  lib -->|\"fundamenta\"| cap\n  cap --> c1[\"la «mano invisible»\"]\n  cap --> c2[\"el interés personal trae<br>el bienestar general\"]\n  azu -->|\"replica a\"| c2\n  azu --> az1[\"el ser humano también es<br>cooperativo por naturaleza\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C1": {
   "subject": "hf",
   "block": "C",
   "tema": "Ilustración",
   "title": "La Ilustración: razón y derechos",
-  "mermaid": "graph LR\n\n  subgraph C1 [\"C.1 La Ilustración\"]\n    subgraph C1a [\"Un nuevo modelo de razón\"]\n      C1a1[\"Razón crítica\"]\n      C1a2[\"Razón autónoma\"]\n    end\n    subgraph C1b [\"Derechos naturales\"]\n      C1b1[\"Rechazo del absolutismo\"]\n      C1b2[\"Separación de poderes - Montesquieu\"]\n      C1b3[\"Soberanía popular - Rousseau\"]\n    end\n    subgraph C1c [\"La primera ola del feminismo\"]\n      C1c1[\"Mary Wollstonecraft\"]\n      C1c2[\"Olympe de Gouges\"]\n    end\n    C1a --> C1b --> C1c\n  end"
+  "mermaid": "flowchart TD\n  center[\"LA ILUSTRACIÓN:<br>razón y derechos\"]:::axis\n  raz[\"Un nuevo modelo de razón\"]:::key\n  der[\"Derechos naturales\"]:::key\n  fem[\"Primera ola del feminismo\"]:::key\n  center --> raz\n  raz -->|\"lleva a exigir\"| der\n  der -->|\"se amplía al reclamar\"| fem\n  raz --> r1[\"razón crítica\"]\n  raz --> r2[\"razón autónoma («atrévete a saber»)\"]\n  der --> d1[\"rechazo del absolutismo\"]\n  der --> d2[\"separación de poderes (Montesquieu)\"]\n  der --> d3[\"soberanía popular (Rousseau)\"]\n  fem --> f1[\"Mary Wollstonecraft\"]\n  fem --> f2[\"Olympe de Gouges\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C2": {
   "subject": "hf",
   "block": "C",
   "tema": "Kant",
   "title": "La filosofía crítica de Kant",
-  "mermaid": "graph LR\n\n  subgraph C2 [\"C.2 La filosofía crítica de Kant\"]\n    subgraph C2a [\"Criticismo\"]\n      C2a1[\"Unir racionalismo + empirismo\"]\n      C2a2[\"Conocimiento = materia (a posteriori) + forma (a priori)\"]\n    end\n    subgraph C2b [\"Fenómeno / Noúmeno\"]\n      C2b1[\"Fenómeno - la realidad que aparece (se puede conocer)\"]\n      C2b2[\"Noúmeno - la realidad en sí (incognoscible)\"]\n    end\n    subgraph C2c [\"El problema de la metafísica\"]\n      C2c1[\"La metafísica no puede ser ciencia\"]\n      C2c2[\"Los objetos trascendentes no se pueden demostrar\"]\n    end\n    C2a --> C2b --> C2c\n  end"
+  "mermaid": "flowchart TD\n  center[\"LA FILOSOFÍA CRÍTICA DE KANT\"]:::axis\n  cri[\"Criticismo\"]:::key\n  fn[\"Fenómeno / Noúmeno\"]:::key\n  met[\"El problema de la metafísica\"]:::key\n  center --> cri\n  cri -->|\"distingue\"| fn\n  fn -->|\"conclusión\"| met\n  cri --> c1[\"une racionalismo + empirismo\"]\n  cri --> c2[\"conocer = materia (a posteriori)<br>+ forma (a priori)\"]\n  fn --> fe[\"FENÓMENO: la realidad que aparece<br>(se puede conocer)\"]\n  fn --> no[\"NOÚMENO: la cosa en sí<br>(incognoscible)\"]\n  no -->|\"por eso\"| met\n  met --> m1[\"la metafísica no puede ser ciencia\"]\n  met --> m2[\"los objetos trascendentes<br>no se pueden demostrar\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C3": {
   "subject": "hf",
   "block": "C",
   "tema": "Ética moderna",
   "title": "Ética: Kant frente al utilitarismo",
-  "mermaid": "graph LR\n\n  subgraph C3 [\"C.3 Ética: Kant vs Utilitarismo\"]\n    subgraph C3a [\"Kant - Ética deontológica\"]\n      C3a1[\"La ética del deber\"]\n      C3a2[\"Imperativo categórico\"]\n      C3a3[\"La persona como fin, no como medio\"]\n    end\n    subgraph C3b [\"Utilitarismo - Bentham, Mill\"]\n      C3b1[\"Ética consecuencialista\"]\n      C3b2[\"Valora las consecuencias\"]\n      C3b3[\"La mayor felicidad para el mayor número de personas\"]\n    end\n    subgraph C3c [\"Azurmendi - Relativismo relativo\"]\n      C3c1[\"No hay un fundamento ético absoluto\"]\n      C3c2[\"Los valores dependen del contexto\"]\n    end\n    C3a -- contra --> C3b\n    C3c --> C3a & C3b\n  end"
+  "mermaid": "flowchart TD\n  center[\"ÉTICA: KANT FRENTE<br>AL UTILITARISMO\"]:::axis\n  kant[\"KANT:<br>ética deontológica (del deber)\"]:::key\n  uti[\"UTILITARISMO<br>(Bentham, Mill)\"]:::key\n  azu[\"AZURMENDI:<br>relativismo relativo\"]:::key\n  center --> kant\n  center --> uti\n  kant -->|\"se opone a\"| uti\n  kant --> k1[\"mira el deber y la intención\"]\n  kant --> k2[\"imperativo categórico\"]\n  kant --> k3[\"la persona como fin, no como medio\"]\n  uti --> u1[\"mira las consecuencias\"]\n  uti --> u2[\"la mayor felicidad para<br>el mayor número\"]\n  center --> azu\n  azu -->|\"matiza a ambos\"| kant\n  azu -->|\"matiza a ambos\"| uti\n  azu --> az1[\"no hay un fundamento ético absoluto\"]\n  azu --> az2[\"los valores dependen del contexto\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C4": {
   "subject": "hf",
   "block": "C",
   "tema": "Filósofos de la sospecha",
   "title": "Los filósofos de la sospecha",
-  "mermaid": "graph LR\n\n  subgraph C4 [\"C.4 Los filósofos de la sospecha\"]\n    subgraph C4a [\"Marx\"]\n      C4a1[\"Alienación económica\"]\n      C4a2[\"Materialismo histórico\"]\n      C4a3[\"Revolución - sociedad comunista\"]\n    end\n    subgraph C4b [\"Nietzsche\"]\n      C4b1[\"Nihilismo\"]\n      C4b2[\"La muerte de Dios\"]\n      C4b3[\"El superhombre\"]\n      C4b4[\"La voluntad de poder\"]\n    end\n    subgraph C4c [\"Freud\"]\n      C4c1[\"El inconsciente\"]\n      C4c2[\"Ello, yo, superyó\"]\n      C4c3[\"Eros y thanatos\"]\n    end\n  end"
+  "mermaid": "flowchart TD\n  center[\"LOS FILÓSOFOS DE LA SOSPECHA\"]:::axis\n  idea[\"La conciencia no es transparente:<br>algo oculto la determina\"]\n  center -->|\"tesis común\"| idea\n  marx[\"MARX\"]:::key\n  niet[\"NIETZSCHE\"]:::key\n  freud[\"FREUD\"]:::key\n  idea --> marx\n  idea --> niet\n  idea --> freud\n  marx -->|\"desenmascara\"| eco[\"la economía\"]\n  eco -->|\"produce\"| ideo[\"ideología y alienación\"]\n  ideo -->|\"se supera con\"| rev[\"revolución → comunismo\"]\n  niet -->|\"desenmascara\"| moral[\"la moral y sus valores\"]\n  moral -->|\"conduce al\"| nih[\"nihilismo · muerte de Dios\"]\n  nih -->|\"respuesta\"| super[\"voluntad de poder · superhombre\"]\n  freud -->|\"desenmascara\"| incon[\"el inconsciente\"]\n  incon --> yo[\"ello · yo · superyó\"]\n  incon --> pul[\"Eros y Thanatos\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C5": {
   "subject": "hf",
   "block": "C",
   "tema": "Crítica del capitalismo",
   "title": "La crítica del capitalismo",
-  "mermaid": "graph LR\n\n  subgraph C5 [\"C.5 La crítica del capitalismo\"]\n    subgraph C5a [\"La Escuela de Frankfurt\"]\n      C5a1[\"Razón instrumental\"]\n      C5a2[\"Industria cultural\"]\n      C5a3[\"Deshumanización\"]\n    end\n    subgraph C5b [\"Hannah Arendt\"]\n      C5b1[\"Análisis del totalitarismo\"]\n      C5b2[\"Ideología totalizadora\"]\n      C5b3[\"La anulación de la esfera pública/privada\"]\n    end\n    subgraph C5c [\"John Rawls\"]\n      C5c1[\"La justicia como equidad\"]\n      C5c2[\"El Estado del bienestar\"]\n    end\n  end"
+  "mermaid": "flowchart TD\n  center[\"LA CRÍTICA DEL CAPITALISMO<br>Y LA SOCIEDAD DE MASAS\"]:::axis\n  fra[\"ESCUELA DE FRANKFURT\"]:::key\n  are[\"HANNAH ARENDT\"]:::key\n  raw[\"JOHN RAWLS\"]:::key\n  center --> fra\n  center --> are\n  center --> raw\n  fra --> f1[\"razón instrumental\"]\n  fra --> f2[\"industria cultural\"]\n  fra -->|\"produce\"| f3[\"deshumanización\"]\n  are --> a1[\"análisis del totalitarismo\"]\n  are --> a2[\"ideología totalizadora\"]\n  are -->|\"provoca\"| a3[\"anulación de la esfera<br>pública y privada\"]\n  raw -->|\"respuesta: reformar, no destruir\"| r1[\"la justicia como equidad\"]\n  raw --> r2[\"el Estado del bienestar\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C6": {
   "subject": "hf",
   "block": "C",
   "tema": "Postmodernidad",
   "title": "Nietzsche y la postmodernidad",
-  "mermaid": "graph LR\n\n  subgraph C6 [\"C.6 Nietzsche y la postmodernidad\"]\n    subgraph C6a [\"Nietzsche - Deconstrucción\"]\n      C6a1[\"Crítica de la verdad objetiva\"]\n      C6a2[\"Crítica de la metafísica\"]\n      C6a3[\"Crítica del dualismo\"]\n    end\n    subgraph C6b [\"Postmodernidad\"]\n      C6b1[\"Crítica de las verdades universales\"]\n      C6b2[\"Pluralidad y diferencia\"]\n    end\n    subgraph C6c [\"Habermas - Defensa de la modernidad\"]\n      C6c1[\"Razón comunicativa\"]\n      C6c2[\"El proyecto no se ha agotado\"]\n    end\n    C6a --> C6b\n    C6c -- crítica --> C6b\n  end"
+  "mermaid": "flowchart TD\n  center[\"NIETZSCHE Y LA POSTMODERNIDAD\"]:::axis\n  niet[\"NIETZSCHE:<br>deconstrucción\"]:::key\n  post[\"POSTMODERNIDAD\"]:::key\n  hab[\"HABERMAS:<br>defensa de la modernidad\"]:::key\n  center --> niet\n  niet -->|\"inspira\"| post\n  niet --> n1[\"crítica de la verdad objetiva\"]\n  niet --> n2[\"crítica de la metafísica\"]\n  niet --> n3[\"crítica del dualismo\"]\n  post --> p1[\"crítica de las verdades universales<br>(fin de los metarrelatos)\"]\n  post --> p2[\"pluralidad y diferencia\"]\n  center --> hab\n  hab -->|\"responde a\"| post\n  hab --> h1[\"razón comunicativa\"]\n  hab --> h2[\"la modernidad no se ha agotado\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C7": {
   "subject": "hf",
   "block": "C",
   "tema": "Filosofía del lenguaje",
   "title": "La filosofía del lenguaje",
-  "mermaid": "graph LR\n\n  subgraph C7 [\"C.7 La filosofía del lenguaje\"]\n    subgraph C7a [\"Wittgenstein - el primero\"]\n      C7a1[\"El lenguaje = imagen del mundo\"]\n      C7a2[\"Metafísica sin sentido\"]\n      C7a3[\"De lo que no se puede hablar, hay que callar\"]\n    end\n    subgraph C7b [\"Wittgenstein - el segundo\"]\n      C7b1[\"El significado = el uso\"]\n      C7b2[\"Juegos de lenguaje\"]\n      C7b3[\"Filosofía terapéutica\"]\n    end\n    subgraph C7c [\"Txillardegi\"]\n      C7c1[\"La lengua condiciona el pensamiento\"]\n      C7c2[\"Estructurador inconsciente\"]\n      C7c3[\"La supervivencia del euskera - difícil sin un Estado vasco\"]\n    end\n    C7a --> C7b\n    C7c -- desde el euskera --> C7b\n  end"
+  "mermaid": "flowchart TD\n  center[\"LA FILOSOFÍA DEL LENGUAJE\"]:::axis\n  w1[\"WITTGENSTEIN I<br>(el primero)\"]:::key\n  w2[\"WITTGENSTEIN II<br>(el segundo)\"]:::key\n  txi[\"TXILLARDEGI\"]:::key\n  center --> w1\n  w1 -->|\"se corrige a sí mismo en\"| w2\n  w1 --> a1[\"el lenguaje es imagen del mundo\"]\n  w1 --> a2[\"la metafísica no tiene sentido\"]\n  w1 --> a3[\"«de lo que no se puede hablar,<br>hay que callar»\"]\n  w2 --> b1[\"el significado es el uso\"]\n  w2 --> b2[\"juegos de lenguaje\"]\n  w2 --> b3[\"filosofía terapéutica\"]\n  center --> txi\n  txi -->|\"desde el euskera\"| w2\n  txi --> c1[\"la lengua condiciona el pensamiento\"]\n  txi --> c2[\"es un estructurador inconsciente\"]\n  txi --> c3[\"la supervivencia del euskera,<br>difícil sin un Estado vasco\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C8": {
   "subject": "hf",
   "block": "C",
   "tema": "Existencialismo",
   "title": "El existencialismo",
-  "mermaid": "graph LR\n\n  subgraph C8 [\"C.8 El existencialismo\"]\n    subgraph C8a [\"Sartre - Existencialismo ateo\"]\n      C8a1[\"La existencia precede a la esencia\"]\n      C8a2[\"Condenados a ser libres\"]\n    end\n    subgraph C8b [\"Heidegger\"]\n      C8b1[\"Distinguir el ser y los entes\"]\n      C8b2[\"Dasein - proyectado en el mundo\"]\n    end\n    subgraph C8c [\"Ortega y Gasset\"]\n      C8c1[\"La razón vital\"]\n      C8c2[\"Yo soy yo y mi circunstancia\"]\n    end\n    subgraph C8d [\"Unamuno - Existencialismo cristiano\"]\n      C8d1[\"El sentimiento trágico de la vida\"]\n      C8d2[\"El ansia de inmortalidad\"]\n    end\n  end"
+  "mermaid": "flowchart TD\n  center[\"EL EXISTENCIALISMO\"]:::axis\n  idea[\"Parte de la existencia concreta,<br>no de esencias abstractas\"]:::key\n  center -->|\"tesis común\"| idea\n  sar[\"SARTRE (ateo)\"]:::key\n  hei[\"HEIDEGGER\"]:::key\n  ort[\"ORTEGA Y GASSET\"]:::key\n  una[\"UNAMUNO (cristiano)\"]:::key\n  idea --> sar\n  idea --> hei\n  idea --> ort\n  idea --> una\n  sar --> s1[\"la existencia precede a la esencia\"]\n  sar --> s2[\"condenados a ser libres\"]\n  hei --> h1[\"distinguir el ser y los entes\"]\n  hei --> h2[\"Dasein: proyectado en el mundo\"]\n  ort --> o1[\"la razón vital\"]\n  ort --> o2[\"«yo soy yo y mi circunstancia»\"]\n  una --> u1[\"el sentimiento trágico de la vida\"]\n  una --> u2[\"el ansia de inmortalidad\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
  "ds-C9": {
   "subject": "hf",
   "block": "C",
   "tema": "Beauvoir / feminismo",
   "title": "Simone de Beauvoir: el feminismo",
-  "mermaid": "graph LR\n\n  subgraph C9 [\"C.9 Simone de Beauvoir - Feminismo\"]\n    subgraph C9a [\"No se nace mujer, se llega a serlo\"]\n      C9a1[\"No existe una esencia femenina fija\"]\n      C9a2[\"La cultura la construye\"]\n    end\n    subgraph C9b [\"La alteridad - el segundo sexo\"]\n      C9b1[\"El hombre = sujeto absoluto\"]\n      C9b2[\"La mujer = la otra, lo complementario\"]\n      C9b3[\"La dialéctica del amo y el esclavo\"]\n    end\n    subgraph C9c [\"Emancipación\"]\n      C9c1[\"Educación igualitaria\"]\n      C9c2[\"Derecho al aborto y a la anticoncepción\"]\n      C9c3[\"Autonomía económica\"]\n    end\n    C9a --> C9b --> C9c\n  end"
+  "mermaid": "flowchart TD\n  center[\"SIMONE DE BEAUVOIR:<br>el feminismo\"]:::axis\n  tesis[\"«No se nace mujer,<br>se llega a serlo»\"]:::key\n  alt[\"La alteridad: el segundo sexo\"]:::key\n  eman[\"La emancipación\"]:::key\n  center --> tesis\n  tesis -->|\"explica\"| alt\n  alt -->|\"se supera con\"| eman\n  tesis --> t1[\"no hay una esencia femenina fija\"]\n  tesis --> t2[\"la cultura construye «lo femenino»\"]\n  alt --> a1[\"el hombre = sujeto absoluto\"]\n  alt --> a2[\"la mujer = «la otra», lo complementario\"]\n  alt --> a3[\"dialéctica del amo y el esclavo\"]\n  eman --> e1[\"educación igualitaria\"]\n  eman --> e2[\"derecho al aborto y a la anticoncepción\"]\n  eman --> e3[\"autonomía económica\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  }
 };
