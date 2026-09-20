@@ -158,9 +158,19 @@ const SUBJECTS = {
     "fil-t3"
    ],
    [
-    "Tarjetas: mito y logos",
+    "Tarjetas: características de la filosofía",
     "tarjetas",
-    "mito"
+    "fil-caracteristicas"
+   ],
+   [
+    "Tarjetas: concepciones del ser humano",
+    "tarjetas",
+    "fil-concepciones"
+   ],
+   [
+    "Tarjetas: teorías de la verdad",
+    "tarjetas",
+    "fil-verdad"
    ]
   ]
  },
@@ -2720,6 +2730,510 @@ const DECKS = {
     "❌",
     "Falsación (Popper)",
     "Una teoría es científica si puede ponerse a prueba y, en principio, refutarse."
+   ]
+  ]
+ },
+ "fil-caracteristicas": {
+  "name": "Filosofía 1.º · Características del saber filosófico (T1)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🧠",
+    "Racional",
+    "Busca explicaciones mediante la razón y argumentos, no por fe, costumbre o autoridad."
+   ],
+   [
+    "🔍",
+    "Crítica",
+    "No acepta nada por tradición o hábito: examina y exige razones de todo."
+   ],
+   [
+    "🌳",
+    "Radical",
+    "Va a la raíz (radix): cuestiona los fundamentos que otros saberes dan por supuestos."
+   ],
+   [
+    "🌐",
+    "Universal",
+    "Se pregunta por el conjunto de la realidad, no por una parcela concreta como hacen las ciencias."
+   ],
+   [
+    "🧩",
+    "Sistemática",
+    "Aspira a un saber ordenado y coherente, en el que las ideas se conectan sin contradicción."
+   ],
+   [
+    "🧭",
+    "Práctica",
+    "No es solo teoría: orienta cómo vivir, actuar y organizar la convivencia."
+   ],
+   [
+    "🕊️",
+    "Autónoma",
+    "Piensa por sí misma, sin someterse a dogmas ni autoridades (Kant: «atrévete a saber»)."
+   ],
+   [
+    "♾️",
+    "Abierta",
+    "Sus preguntas rara vez tienen respuesta definitiva: el diálogo sigue siempre abierto."
+   ],
+   [
+    "😮",
+    "Actitud filosófica",
+    "Asombro, duda y afán de saber: la disposición de quien no da nada por obvio."
+   ],
+   [
+    "🆚",
+    "Frente al mito",
+    "El mito se acepta sin discusión; la filosofía argumenta, se debate y se pone a prueba."
+   ]
+  ]
+ },
+ "fil-mente": {
+  "name": "Filosofía 1.º · El cuerpo y la mente (T2)",
+  "subject": "fil",
+  "cards": [
+   [
+    "⚖️",
+    "Problema mente-cuerpo",
+    "¿Qué relación hay entre lo físico (cuerpo y cerebro) y lo mental (pensamientos, conciencia)?"
+   ],
+   [
+    "👤",
+    "Dualismo",
+    "Cuerpo y mente son dos realidades distintas: una material y otra inmaterial (Platón, Descartes)."
+   ],
+   [
+    "🧠",
+    "Res cogitans / res extensa",
+    "Descartes: la mente es «cosa que piensa» y el cuerpo «cosa extensa»; se unirían en la glándula pineal."
+   ],
+   [
+    "🧬",
+    "Monismo materialista",
+    "Solo existe la materia: la mente es actividad del cerebro, sin un alma separada."
+   ],
+   [
+    "💭",
+    "Monismo idealista",
+    "Solo lo mental o espiritual es real; la materia dependería de la mente."
+   ],
+   [
+    "👻",
+    "«Fantasma en la máquina»",
+    "Crítica de Ryle al dualismo: no hay un «yo» inmaterial pilotando el cuerpo."
+   ],
+   [
+    "🤖",
+    "Conductismo",
+    "Lo mental se reduce a conducta observable y a disposiciones a comportarse."
+   ],
+   [
+    "💻",
+    "Funcionalismo",
+    "La mente es como un programa: importa la función que cumple, no el material del que esté hecha."
+   ],
+   [
+    "🌊",
+    "Emergentismo",
+    "La conciencia «emerge» de la complejidad del cerebro, sin ser una sustancia aparte."
+   ],
+   [
+    "🪆",
+    "Alma (Platón)",
+    "Principio inmaterial e inmortal; el cuerpo sería su «cárcel» (dualismo antropológico)."
+   ]
+  ]
+ },
+ "fil-concepciones": {
+  "name": "Filosofía 1.º · Concepciones del ser humano (T2)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🏛️",
+    "Platón",
+    "Dualismo: el alma inmortal está atrapada en el cuerpo, su «cárcel»."
+   ],
+   [
+    "🦉",
+    "Aristóteles",
+    "El ser humano es «animal racional» y «animal político» (zoon politikon): vive en comunidad."
+   ],
+   [
+    "✝️",
+    "Cristianismo",
+    "Persona creada a imagen de Dios (imago Dei), con alma inmortal y dignidad."
+   ],
+   [
+    "🧠",
+    "Descartes",
+    "«Pienso, luego existo»: lo esencial del ser humano es ser una cosa que piensa (la razón)."
+   ],
+   [
+    "🔨",
+    "Marx",
+    "Nos define el trabajo y las relaciones sociales: el ser humano es un «ser social»."
+   ],
+   [
+    "⚡",
+    "Nietzsche",
+    "Critica al hombre «de rebaño» y propone crear los propios valores (el superhombre)."
+   ],
+   [
+    "🎭",
+    "Sartre (existencialismo)",
+    "«La existencia precede a la esencia»: no hay naturaleza fija; nos hacemos al elegir."
+   ],
+   [
+    "🐒",
+    "Naturalismo evolutivo",
+    "El ser humano es un animal más, producto de la evolución (Darwin)."
+   ],
+   [
+    "🔣",
+    "Animal simbólico (Cassirer)",
+    "Vivimos en un mundo de símbolos: lenguaje, arte, mito, religión."
+   ],
+   [
+    "♀️",
+    "Beauvoir",
+    "«No se nace mujer, se llega a serlo»: también lo humano se construye culturalmente."
+   ]
+  ]
+ },
+ "fil-verdad": {
+  "name": "Filosofía 1.º · ¿Podemos alcanzar la verdad? (T3)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🛑",
+    "Dogmatismo",
+    "Confía en que la razón puede alcanzar verdades ciertas y definitivas."
+   ],
+   [
+    "🤔",
+    "Escepticismo",
+    "Duda de que podamos alcanzar un conocimiento seguro y verdadero."
+   ],
+   [
+    "⚖️",
+    "Criticismo (Kant)",
+    "Ni certeza total ni duda total: conocemos, pero dentro de los límites de la razón."
+   ],
+   [
+    "🔄",
+    "Relativismo",
+    "No habría verdades absolutas: todo dependería del sujeto, la cultura o el contexto."
+   ],
+   [
+    "🌀",
+    "Duda metódica (Descartes)",
+    "Dudar de todo para hallar una verdad indudable: «pienso, luego existo»."
+   ],
+   [
+    "✅",
+    "Verdad como correspondencia",
+    "Es verdadero lo que se ajusta a los hechos, a la realidad."
+   ],
+   [
+    "🕸️",
+    "Verdad como coherencia",
+    "Es verdadero lo que encaja sin contradicción con lo que ya sabemos."
+   ],
+   [
+    "🛠️",
+    "Verdad pragmática",
+    "Es verdadero lo que funciona y da buen resultado en la práctica (James, Dewey)."
+   ],
+   [
+    "🤝",
+    "Verdad como consenso",
+    "Es verdadero aquello sobre lo que llegaríamos a acuerdo en un diálogo racional (Habermas)."
+   ],
+   [
+    "🎯",
+    "Verdad y certeza",
+    "Verdad: relación con la realidad. Certeza: convicción subjetiva. No siempre coinciden."
+   ]
+  ]
+ },
+ "fil-metodo": {
+  "name": "Filosofía 1.º · El método: leer y argumentar (T1)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🧩",
+    "Argumento",
+    "Conjunto de razones (premisas) que apoyan una conclusión."
+   ],
+   [
+    "🧱",
+    "Premisa",
+    "Cada afirmación que se ofrece como razón dentro de un argumento."
+   ],
+   [
+    "🎯",
+    "Conclusión",
+    "La idea que el argumento pretende justificar a partir de las premisas."
+   ],
+   [
+    "⬇️",
+    "Deducción",
+    "De lo general a lo particular: si las premisas son verdaderas, la conclusión es necesaria."
+   ],
+   [
+    "⬆️",
+    "Inducción",
+    "De casos particulares a una regla general: la conclusión es probable, no segura."
+   ],
+   [
+    "⚠️",
+    "Falacia",
+    "Razonamiento que parece válido pero no lo es: convence sin justificar."
+   ],
+   [
+    "💬",
+    "Diálogo",
+    "Pensar juntos con argumentos para acercarse a la verdad, no para «ganar»."
+   ],
+   [
+    "🐝",
+    "Mayéutica (Sócrates)",
+    "«Dar a luz» ideas mediante preguntas: que el otro descubra por sí mismo."
+   ],
+   [
+    "🎭",
+    "Ironía socrática",
+    "Fingir ignorancia y preguntar para revelar las contradicciones del interlocutor."
+   ],
+   [
+    "📖",
+    "Comentario de texto",
+    "Leer, identificar la tesis y los argumentos del autor y valorarlos con razones propias."
+   ]
+  ]
+ },
+ "fil-saberes": {
+  "name": "Filosofía 1.º · Los tipos de saber (T1)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🗣️",
+    "Saber cotidiano",
+    "El del sentido común y la experiencia diaria: práctico pero poco crítico."
+   ],
+   [
+    "🌩️",
+    "Mito",
+    "Explica el mundo por la voluntad de los dioses; se transmite y se acepta sin discusión."
+   ],
+   [
+    "🙏",
+    "Religión",
+    "Saber basado en la fe y la revelación; da sentido y normas de vida."
+   ],
+   [
+    "🎨",
+    "Arte",
+    "Conocimiento a través de la belleza y la creación; expresa lo que el concepto no dice."
+   ],
+   [
+    "🔧",
+    "Técnica",
+    "Saber hacer: transformar la realidad para resolver problemas prácticos."
+   ],
+   [
+    "🔬",
+    "Ciencia",
+    "Conocimiento riguroso de parcelas concretas mediante hipótesis y experimentación."
+   ],
+   [
+    "🦉",
+    "Filosofía",
+    "Saber racional, crítico y radical sobre el conjunto de la realidad."
+   ],
+   [
+    "📏",
+    "Teórico vs práctico",
+    "Saber teórico: cómo son las cosas. Saber práctico: cómo actuar."
+   ],
+   [
+    "🧠",
+    "Episteme y doxa",
+    "Platón: episteme (saber fundado) frente a doxa (opinión sin fundamento)."
+   ],
+   [
+    "🤝",
+    "Filosofía y ciencia",
+    "La ciencia estudia partes con método experimental; la filosofía pregunta por el todo y el sentido."
+   ]
+  ]
+ },
+ "fil-identidad": {
+  "name": "Filosofía 1.º · Persona, identidad y sentido (T2)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🧠",
+    "Conciencia",
+    "Darse cuenta de uno mismo y del mundo: «darse cuenta de que se da cuenta»."
+   ],
+   [
+    "🗨️",
+    "Lenguaje",
+    "Lo que permite pensar, comunicar y construir cultura; rasgo distintivo de lo humano."
+   ],
+   [
+    "👤",
+    "Persona",
+    "Ser racional, libre y con dignidad; un fin en sí mismo, no un medio (Kant)."
+   ],
+   [
+    "🪞",
+    "Identidad personal",
+    "Lo que me hace ser «yo» y seguir siéndolo pese a los cambios."
+   ],
+   [
+    "⛵",
+    "Barco de Teseo",
+    "Si cambian todas mis «piezas», ¿sigo siendo el mismo? El problema de la identidad."
+   ],
+   [
+    "🧵",
+    "Identidad como memoria (Locke)",
+    "Soy el mismo mientras recuerdo mi pasado como propio."
+   ],
+   [
+    "📖",
+    "Identidad narrativa",
+    "Somos la historia que nos contamos de nosotros mismos."
+   ],
+   [
+    "🌌",
+    "Sentido de la existencia",
+    "La pregunta por el «para qué» de la vida."
+   ],
+   [
+    "🕳️",
+    "Nihilismo",
+    "La postura de que la vida carece de sentido o valor objetivo."
+   ],
+   [
+    "🪨",
+    "Absurdo (Camus)",
+    "El choque entre nuestra ansia de sentido y un mundo que no lo ofrece; aun así, vivir."
+   ]
+  ]
+ },
+ "fil-ciencia": {
+  "name": "Filosofía 1.º · El saber científico (T3)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🔬",
+    "Ciencia",
+    "Conocimiento riguroso que formula hipótesis y las contrasta con la experiencia."
+   ],
+   [
+    "🧪",
+    "Hipótesis",
+    "Respuesta provisional a un problema, que debe poder comprobarse."
+   ],
+   [
+    "🔁",
+    "Método científico",
+    "Observar, formular hipótesis, experimentar y contrastar los resultados."
+   ],
+   [
+    "⬆️",
+    "Inducción",
+    "Generalizar a partir de observaciones; base del método experimental clásico."
+   ],
+   [
+    "📐",
+    "Ley científica",
+    "Regularidad constante entre fenómenos, expresada a menudo en forma matemática."
+   ],
+   [
+    "🏗️",
+    "Teoría",
+    "Conjunto de leyes e hipótesis que explican un ámbito de la realidad."
+   ],
+   [
+    "❌",
+    "Falsación (Popper)",
+    "Una teoría es científica si puede ponerse a prueba y, en principio, refutarse."
+   ],
+   [
+    "🔄",
+    "Paradigma (Kuhn)",
+    "Marco compartido por una comunidad científica; cambia en las «revoluciones científicas»."
+   ],
+   [
+    "🔮",
+    "Pseudociencia",
+    "Lo que se presenta como ciencia pero no admite prueba ni refutación (p. ej. la astrología)."
+   ],
+   [
+    "⚖️",
+    "Ciencia y ética",
+    "Poder no es deber: no todo lo técnicamente posible es moralmente aceptable."
+   ]
+  ]
+ },
+ "fil-posverdad": {
+  "name": "Filosofía 1.º · Posverdad y fake news (T3)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🗣️",
+    "Posverdad",
+    "Situación en que las emociones y creencias pesan más que los hechos al formar la opinión."
+   ],
+   [
+    "📰",
+    "Bulo (fake news)",
+    "Información falsa difundida como verdadera, muchas veces para manipular."
+   ],
+   [
+    "🧲",
+    "Sesgo de confirmación",
+    "Tendencia a buscar y creer solo lo que confirma lo que ya pensamos."
+   ],
+   [
+    "🫧",
+    "Cámara de eco",
+    "Entorno donde solo oímos opiniones iguales a la nuestra y se refuerzan."
+   ],
+   [
+    "🎣",
+    "Clickbait",
+    "Titular exagerado que busca el clic, no informar."
+   ],
+   [
+    "🤖",
+    "Bots y desinformación",
+    "Cuentas automáticas que amplifican bulos para simular apoyo masivo."
+   ],
+   [
+    "✅",
+    "Verificación (fact-checking)",
+    "Contrastar una afirmación con fuentes fiables antes de creerla o compartirla."
+   ],
+   [
+    "🔎",
+    "Fuente fiable",
+    "La identificable, experta y contrastable; desconfía de lo anónimo."
+   ],
+   [
+    "🧠",
+    "Pensamiento crítico",
+    "Examinar la información con razones antes de aceptarla o difundirla."
+   ],
+   [
+    "🛑",
+    "Antes de compartir",
+    "Pregúntate: ¿quién lo dice, con qué pruebas y con qué intención?"
    ]
   ]
  }
