@@ -4622,6 +4622,144 @@ const QUIZZES = {
    }
   ]
  },
+ "fil-ramas-q": {
+  "name": "Las ramas de la filosofía (Filosofía 1.º · T1)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué rama de la filosofía estudia qué es lo real y el «ser» de las cosas?",
+    "o": [
+     "La ética.",
+     "La metafísica (u ontología).",
+     "La estética.",
+     "La lógica."
+    ],
+    "a": 1,
+    "fb": "La metafísica se pregunta qué existe y qué significa «ser»."
+   },
+   {
+    "q": "La rama que investiga qué es el conocimiento, de dónde procede y qué es la verdad se llama…",
+    "o": [
+     "antropología.",
+     "epistemología o teoría del conocimiento (gnoseología).",
+     "filosofía política.",
+     "estética."
+    ],
+    "a": 1,
+    "fb": "Epistemología o gnoseología: la teoría del conocimiento."
+   },
+   {
+    "q": "¿De qué se ocupa la ética?",
+    "o": [
+     "De la belleza y el arte.",
+     "Del bien y el mal, y de cómo debemos actuar.",
+     "De la validez de los razonamientos.",
+     "De lo que existe."
+    ],
+    "a": 1,
+    "fb": "La ética reflexiona sobre el bien, el deber y el fundamento de las normas morales."
+   },
+   {
+    "q": "La rama que piensa el poder, la justicia y la mejor organización de la sociedad es…",
+    "o": [
+     "la filosofía política.",
+     "la metafísica.",
+     "la lógica.",
+     "la estética."
+    ],
+    "a": 0,
+    "fb": "La filosofía política se ocupa de la vida en comunidad: poder, justicia y gobierno."
+   },
+   {
+    "q": "¿Qué estudia la estética?",
+    "o": [
+     "El conocimiento científico.",
+     "La belleza y el arte, y nuestros juicios sobre lo bello.",
+     "La conducta moral.",
+     "La estructura de los argumentos."
+    ],
+    "a": 1,
+    "fb": "Estética: la belleza, el arte y lo bello, lo feo o lo sublime."
+   },
+   {
+    "q": "La rama que analiza la corrección de los razonamientos (distinguir los válidos de las falacias) es…",
+    "o": [
+     "la lógica.",
+     "la ética.",
+     "la ontología.",
+     "la antropología."
+    ],
+    "a": 0,
+    "fb": "La lógica estudia la forma y la validez de los razonamientos."
+   },
+   {
+    "q": "La antropología filosófica se pregunta sobre todo…",
+    "o": [
+     "qué es la belleza.",
+     "qué es el ser humano.",
+     "cómo gobernar.",
+     "qué es un número."
+    ],
+    "a": 1,
+    "fb": "La antropología filosófica: la pregunta por el ser humano."
+   },
+   {
+    "q": "La pregunta «¿qué debo hacer?» corresponde sobre todo a…",
+    "o": [
+     "la ética.",
+     "la metafísica.",
+     "la estética.",
+     "la lógica."
+    ],
+    "a": 0,
+    "fb": "La ética responde a cómo debemos actuar."
+   },
+   {
+    "q": "La pregunta «¿qué puedo conocer?» corresponde sobre todo a…",
+    "o": [
+     "la filosofía política.",
+     "la epistemología (teoría del conocimiento).",
+     "la estética.",
+     "la ética."
+    ],
+    "a": 1,
+    "fb": "La teoría del conocimiento pregunta hasta dónde y cómo podemos conocer."
+   },
+   {
+    "q": "¿En qué se diferencian la ética y la filosofía política?",
+    "o": [
+     "En nada, son lo mismo.",
+     "La ética se centra en la acción y el bien; la política, en la vida en comunidad (justicia, poder).",
+     "La ética estudia la belleza.",
+     "La política estudia los razonamientos."
+    ],
+    "a": 1,
+    "fb": "Ética: cómo actuar. Política: cómo organizar la convivencia."
+   },
+   {
+    "q": "La ontología es la parte de la metafísica que estudia…",
+    "o": [
+     "el arte.",
+     "el ser en cuanto ser: qué significa «ser» y qué existe.",
+     "las normas morales.",
+     "las falacias."
+    ],
+    "a": 1,
+    "fb": "Ontología: el estudio del ser y de lo que existe."
+   },
+   {
+    "q": "¿Por qué la filosofía se divide en ramas?",
+    "o": [
+     "Porque cada filósofo inventa la suya.",
+     "Porque su objeto es muy amplio y cada rama se centra en un tipo de preguntas.",
+     "Porque lo exige la ciencia.",
+     "Porque así es más fácil de aprobar."
+    ],
+    "a": 1,
+    "fb": "Al ser tan amplio su objeto, la filosofía se organiza en disciplinas según el tipo de preguntas."
+   }
+  ]
+ },
  "ltfh-B1": {
   "name": "Agustín de Hipona (HF · libro)",
   "subject": "hf",
