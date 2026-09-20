@@ -8855,6 +8855,474 @@ const QUIZZES = {
    }
   ]
  },
+ "hf-t1-historicidad": {
+  "name": "Historicidad y universalidad (HF · T1)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "La «historicidad» de la filosofía significa que…",
+    "o": [
+     "cada filosofía nace en un contexto histórico y cultural concreto.",
+     "la filosofía no cambia nunca.",
+     "solo importa la historia antigua.",
+     "la filosofía es una ciencia exacta."
+    ],
+    "a": 0,
+    "fb": "Historicidad: todo pensamiento surge situado en su tiempo y su cultura."
+   },
+   {
+    "q": "La «universalidad» de la filosofía se refiere a que…",
+    "o": [
+     "todos piensan igual.",
+     "ciertas preguntas (el ser, el bien, la verdad) reaparecen en distintas épocas y culturas.",
+     "solo hay una respuesta verdadera.",
+     "la filosofía es universal en la escuela."
+    ],
+    "a": 1,
+    "fb": "Universalidad: hay problemas que vuelven una y otra vez, más allá de cada época."
+   },
+   {
+    "q": "¿Cómo se relacionan historicidad y universalidad?",
+    "o": [
+     "Se excluyen.",
+     "No se oponen: preguntas universales reciben respuestas históricas, situadas.",
+     "Son lo mismo.",
+     "Ninguna es real."
+    ],
+    "a": 1,
+    "fb": "Preguntas que se repiten, respuestas que dependen del contexto."
+   },
+   {
+    "q": "Que la filosofía se transmita por «escuelas y redes» quiere decir que…",
+    "o": [
+     "el pensamiento circula entre maestros, discípulos e instituciones, no en solitario.",
+     "cada filósofo trabaja aislado.",
+     "solo se aprende en internet.",
+     "no se puede enseñar."
+    ],
+    "a": 0,
+    "fb": "La filosofía se hereda y discute en comunidad."
+   },
+   {
+    "q": "El «canon» filosófico es…",
+    "o": [
+     "una ley.",
+     "el conjunto de autores y obras que una tradición considera imprescindibles.",
+     "un examen.",
+     "un tipo de argumento."
+    ],
+    "a": 1,
+    "fb": "Canon: la lista de referencias que una tradición da por básicas."
+   },
+   {
+    "q": "Una crítica al canon tradicional es que…",
+    "o": [
+     "era demasiado largo.",
+     "dejó fuera a muchas voces (por ejemplo mujeres o pensadores no europeos).",
+     "incluía a todos.",
+     "era demasiado moderno."
+    ],
+    "a": 1,
+    "fb": "El canon clásico invisibilizó aportaciones importantes."
+   },
+   {
+    "q": "Estudiar la filosofía «históricamente» ayuda a…",
+    "o": [
+     "memorizar fechas sin más.",
+     "entender por qué surgió cada idea y no leerla fuera de su tiempo.",
+     "evitar pensar.",
+     "demostrar teoremas."
+    ],
+    "a": 1,
+    "fb": "El contexto explica el sentido de cada propuesta."
+   },
+   {
+    "q": "Que reaparezcan las mismas preguntas NO significa que…",
+    "o": [
+     "sean importantes.",
+     "las respuestas sean siempre iguales.",
+     "interesen a mucha gente.",
+     "tengan que ver con la realidad."
+    ],
+    "a": 1,
+    "fb": "Misma pregunta, respuestas distintas según la época."
+   },
+   {
+    "q": "La filosofía occidental suele situar su inicio en…",
+    "o": [
+     "la Grecia del siglo VI a. C. (paso del mito al logos).",
+     "Roma imperial.",
+     "la Edad Media.",
+     "el Renacimiento."
+    ],
+    "a": 0,
+    "fb": "Con los presocráticos griegos: del mito al logos."
+   },
+   {
+    "q": "Reconocer la historicidad del propio pensamiento invita a…",
+    "o": [
+     "creerse en posesión de la verdad absoluta.",
+     "la humildad y la autocrítica: también nuestras ideas están situadas.",
+     "dejar de estudiar.",
+     "despreciar el pasado."
+    ],
+    "a": 1,
+    "fb": "Si todo pensamiento es histórico, el nuestro también lo es."
+   }
+  ]
+ },
+ "hf-t2-metodos": {
+  "name": "Los métodos de la filosofía (HF · T2)",
+  "subject": "hf",
+  "block": "A",
+  "items": [
+   {
+    "q": "En filosofía, un «argumento» es…",
+    "o": [
+     "una pelea.",
+     "un conjunto de premisas que sostienen una conclusión.",
+     "una opinión.",
+     "un ejemplo."
+    ],
+    "a": 1,
+    "fb": "Argumentar: dar razones (premisas) para una conclusión."
+   },
+   {
+    "q": "El «principio de caridad» al interpretar un texto consiste en…",
+    "o": [
+     "atribuir al autor la versión más razonable y fuerte de su postura.",
+     "buscar sus errores.",
+     "resumirlo mal.",
+     "ignorar el contexto."
+    ],
+    "a": 0,
+    "fb": "Se interpreta al autor en su mejor versión antes de criticarlo."
+   },
+   {
+    "q": "¿Por qué es útil el principio de caridad?",
+    "o": [
+     "Porque es más rápido.",
+     "Porque criticar la versión más débil (un «hombre de paja») no refuta de verdad.",
+     "Porque evita leer.",
+     "Porque siempre da la razón al autor."
+    ],
+    "a": 1,
+    "fb": "Refutar una caricatura del rival no demuestra nada."
+   },
+   {
+    "q": "La «investigación filosófica» avanza sobre todo mediante…",
+    "o": [
+     "experimentos de laboratorio.",
+     "preguntas, distinciones conceptuales y argumentos.",
+     "encuestas.",
+     "cálculos numéricos."
+    ],
+    "a": 1,
+    "fb": "La filosofía analiza conceptos y razona, no mide en el laboratorio."
+   },
+   {
+    "q": "El diálogo socrático (mayéutica) es un método que…",
+    "o": [
+     "impone conclusiones.",
+     "mediante preguntas hace que el interlocutor examine sus propias ideas.",
+     "memoriza definiciones.",
+     "evita el debate."
+    ],
+    "a": 1,
+    "fb": "Sócrates «da a luz» ideas preguntando."
+   },
+   {
+    "q": "Un «género filosófico» es, por ejemplo…",
+    "o": [
+     "el diálogo, el tratado, el aforismo o el ensayo.",
+     "la novela policíaca.",
+     "el telediario.",
+     "la receta de cocina."
+    ],
+    "a": 0,
+    "fb": "La filosofía se ha escrito en formas muy distintas."
+   },
+   {
+    "q": "El método de la «duda» de Descartes busca…",
+    "o": [
+     "dudar por dudar.",
+     "poner en cuestión todo lo dudoso para hallar una certeza firme.",
+     "negar la razón.",
+     "creer sin pruebas."
+    ],
+    "a": 1,
+    "fb": "Dudar de todo hasta encontrar algo indudable (el cogito)."
+   },
+   {
+    "q": "La «dialéctica» de Hegel entiende el pensamiento como…",
+    "o": [
+     "algo inmóvil.",
+     "un proceso de tesis, antítesis y síntesis.",
+     "una lista de datos.",
+     "pura intuición."
+    ],
+    "a": 1,
+    "fb": "El pensamiento avanza por contradicciones que se superan."
+   },
+   {
+    "q": "La «genealogía» de Nietzsche consiste en…",
+    "o": [
+     "dibujar árboles familiares.",
+     "rastrear el origen histórico de nuestros valores para cuestionarlos.",
+     "clasificar animales.",
+     "defender la tradición."
+    ],
+    "a": 1,
+    "fb": "Preguntar de dónde vienen los valores para desnaturalizarlos."
+   },
+   {
+    "q": "Frente a la ciencia, el método filosófico se distingue por…",
+    "o": [
+     "medir con aparatos.",
+     "analizar conceptos y fundamentos, no solo hechos observables.",
+     "hacer encuestas.",
+     "repetir experimentos."
+    ],
+    "a": 1,
+    "fb": "La filosofía examina supuestos y conceptos, no solo datos empíricos."
+   }
+  ]
+ },
+ "hf-t12-fe-razon": {
+  "name": "Fe y razón (HF · T12)",
+  "subject": "hf",
+  "block": "B",
+  "items": [
+   {
+    "q": "Un aporte del cristianismo a la filosofía fue…",
+    "o": [
+     "la idea de creación desde la nada y la dignidad de la persona.",
+     "la democracia ateniense.",
+     "el método científico.",
+     "el atomismo."
+    ],
+    "a": 0,
+    "fb": "Creación «ex nihilo», persona y una historia con sentido."
+   },
+   {
+    "q": "Las «cinco vías» de Tomás de Aquino son…",
+    "o": [
+     "cinco oraciones.",
+     "cinco argumentos para demostrar racionalmente la existencia de Dios.",
+     "cinco pecados.",
+     "cinco sacramentos."
+    ],
+    "a": 1,
+    "fb": "Vías racionales (movimiento, causa, contingencia, grados, finalidad)."
+   },
+   {
+    "q": "El argumento «ontológico» de san Anselmo parte de…",
+    "o": [
+     "la observación del cosmos.",
+     "la idea de Dios como «aquello mayor que lo cual nada puede pensarse».",
+     "un milagro.",
+     "la autoridad de la Iglesia."
+    ],
+    "a": 1,
+    "fb": "Del concepto de Dios se intenta deducir su existencia."
+   },
+   {
+    "q": "Los argumentos «cosmológicos» (Tomás) parten de…",
+    "o": [
+     "la sola idea de Dios.",
+     "los efectos del mundo (movimiento, causas) para llegar a una causa primera.",
+     "la fe sin razones.",
+     "los sentimientos."
+    ],
+    "a": 1,
+    "fb": "Del mundo (efectos) se asciende a una primera causa: Dios."
+   },
+   {
+    "q": "La postura de que fe y razón coinciden y se ayudan es la de…",
+    "o": [
+     "la doble verdad.",
+     "la síntesis de Tomás de Aquino: no hay contradicción entre ambas.",
+     "el ateísmo.",
+     "el escepticismo."
+    ],
+    "a": 1,
+    "fb": "Para Tomás, razón y fe, bien entendidas, no se contradicen."
+   },
+   {
+    "q": "La postura de la «doble verdad» sostiene que…",
+    "o": [
+     "hay dos dioses.",
+     "algo puede ser verdadero en teología y no en filosofía (ámbitos separados).",
+     "la fe es falsa.",
+     "la razón es inútil."
+    ],
+    "a": 1,
+    "fb": "Separa los ámbitos: verdad de fe y verdad de razón por su cuenta."
+   },
+   {
+    "q": "Para san Agustín, «creer para comprender» significa que…",
+    "o": [
+     "no hay que pensar.",
+     "la fe orienta y precede a la razón en la búsqueda de la verdad.",
+     "la razón sobra.",
+     "hay que dudar de Dios."
+    ],
+    "a": 1,
+    "fb": "Agustín: la fe abre el camino que la razón después recorre."
+   },
+   {
+    "q": "En la escolástica, la razón (filosofía) se veía como…",
+    "o": [
+     "enemiga de la fe.",
+     "una ayuda («ancilla») para comprender y defender lo que se cree.",
+     "superior a Dios.",
+     "algo prohibido."
+    ],
+    "a": 1,
+    "fb": "«Filosofía, sierva de la teología»: la razón al servicio de la fe."
+   },
+   {
+    "q": "El problema de fondo del tema fe-razón es…",
+    "o": [
+     "qué idioma usar.",
+     "hasta dónde puede la razón demostrar las verdades de la religión.",
+     "cómo construir catedrales.",
+     "quién manda en la ciudad."
+    ],
+    "a": 1,
+    "fb": "El alcance de la razón ante las verdades reveladas."
+   },
+   {
+    "q": "Que la existencia de Dios se intente «demostrar» supone…",
+    "o": [
+     "que basta con creer.",
+     "someter una creencia religiosa a la argumentación racional.",
+     "que Dios no existe.",
+     "renunciar a la fe."
+    ],
+    "a": 1,
+    "fb": "Demostrar es dar razones: se lleva la fe al terreno de la razón."
+   }
+  ]
+ },
+ "hf-t20-etica-deber": {
+  "name": "Éticas de la felicidad y del deber (HF · T20)",
+  "subject": "hf",
+  "block": "C",
+  "items": [
+   {
+    "q": "El utilitarismo juzga si una acción es buena según…",
+    "o": [
+     "la intención.",
+     "sus consecuencias: la mayor felicidad para el mayor número.",
+     "la tradición.",
+     "lo que mande la autoridad."
+    ],
+    "a": 1,
+    "fb": "Utilitarismo: cuenta el resultado (felicidad) para el mayor número."
+   },
+   {
+    "q": "El utilitarismo es una ética «consecuencialista» porque…",
+    "o": [
+     "mira el resultado de la acción, no la intención.",
+     "solo mira la intención.",
+     "no valora nada.",
+     "depende del azar."
+    ],
+    "a": 0,
+    "fb": "Consecuencialismo: lo que importa son las consecuencias."
+   },
+   {
+    "q": "Para Kant, una acción es moralmente buena si…",
+    "o": [
+     "trae placer.",
+     "se hace por deber, por respeto a la ley moral, no por sus consecuencias.",
+     "conviene a uno mismo.",
+     "la aprueban los demás."
+    ],
+    "a": 1,
+    "fb": "Kant: valor moral = obrar por deber, no por interés ni resultado."
+   },
+   {
+    "q": "El «imperativo categórico» de Kant manda…",
+    "o": [
+     "buscar siempre tu felicidad.",
+     "obrar solo según máximas que puedas querer como ley universal.",
+     "obedecer al Estado.",
+     "seguir tus emociones."
+    ],
+    "a": 1,
+    "fb": "Universaliza tu norma: ¿querrías que todos obraran así?"
+   },
+   {
+    "q": "Tratar a las personas «como fin y nunca solo como medio» es…",
+    "o": [
+     "una regla del utilitarismo.",
+     "la fórmula kantiana de la dignidad humana.",
+     "una ley física.",
+     "un consejo de prudencia."
+    ],
+    "a": 1,
+    "fb": "Segunda fórmula del imperativo: la dignidad de la persona."
+   },
+   {
+    "q": "La diferencia central entre Kant y el utilitarismo es que…",
+    "o": [
+     "Kant mira la intención y el deber; el utilitarismo, las consecuencias.",
+     "son idénticos.",
+     "ninguno usa la razón.",
+     "los dos miran solo el placer."
+    ],
+    "a": 0,
+    "fb": "Deber e intención (Kant) frente a consecuencias (utilitarismo)."
+   },
+   {
+    "q": "Una crítica al utilitarismo es que…",
+    "o": [
+     "es demasiado rígido.",
+     "podría justificar sacrificar a una minoría si aumenta la felicidad total.",
+     "ignora las consecuencias.",
+     "no piensa en la gente."
+    ],
+    "a": 1,
+    "fb": "El cálculo de la mayoría puede atropellar los derechos de unos pocos."
+   },
+   {
+    "q": "Una crítica a la ética kantiana es que…",
+    "o": [
+     "solo mira el placer.",
+     "su rigor formal puede chocar con las consecuencias reales (p. ej. no mentir nunca).",
+     "no usa la razón.",
+     "cambia según la moda."
+    ],
+    "a": 1,
+    "fb": "El deber absoluto puede dar resultados difíciles de aceptar."
+   },
+   {
+    "q": "Bentham y Mill son representantes de…",
+    "o": [
+     "el utilitarismo.",
+     "el kantismo.",
+     "el existencialismo.",
+     "el estoicismo."
+    ],
+    "a": 0,
+    "fb": "Bentham y Mill: los grandes utilitaristas clásicos."
+   },
+   {
+    "q": "La postura de Joxe Azurmendi («relativismo relativo») defiende que…",
+    "o": [
+     "todo vale.",
+     "los valores dependen del contexto, pero eso no implica que «todo valga».",
+     "no hay valores.",
+     "los valores son eternos e inmutables."
+    ],
+    "a": 1,
+    "fb": "Ni absolutismo ni «todo vale»: valores situados pero no arbitrarios."
+   }
+  ]
+ },
  "makro-descartes": {
   "name": "Descartes y el racionalismo: unidad completa",
   "subject": "hf",
