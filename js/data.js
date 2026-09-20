@@ -4274,6 +4274,354 @@ const QUIZZES = {
    }
   ]
  },
+ "fil-metodo-q": {
+  "name": "El método y los tipos de saber (Filosofía 1.º · T1)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué es un argumento?",
+    "o": [
+     "Una opinión sin justificar.",
+     "Un conjunto de razones (premisas) que apoyan una conclusión.",
+     "Una pregunta retórica.",
+     "Un ejemplo cualquiera."
+    ],
+    "a": 1,
+    "fb": "Argumentar es dar razones (premisas) a favor de una conclusión."
+   },
+   {
+    "q": "En un argumento, la «premisa» es…",
+    "o": [
+     "la afirmación que se quiere demostrar.",
+     "cada razón que se ofrece como apoyo.",
+     "una conclusión falsa.",
+     "un adorno del discurso."
+    ],
+    "a": 1,
+    "fb": "Las premisas son las razones; la conclusión es lo que se defiende."
+   },
+   {
+    "q": "Un razonamiento en el que, si las premisas son verdaderas, la conclusión es necesariamente verdadera, es…",
+    "o": [
+     "inductivo.",
+     "deductivo.",
+     "falaz.",
+     "poético."
+    ],
+    "a": 1,
+    "fb": "En la deducción la conclusión se sigue con necesidad de las premisas."
+   },
+   {
+    "q": "La inducción se caracteriza por…",
+    "o": [
+     "ir de casos particulares a una regla general, con conclusión probable.",
+     "ir de lo general a lo particular con conclusión segura.",
+     "no usar nunca la experiencia.",
+     "ser siempre falsa."
+    ],
+    "a": 0,
+    "fb": "La inducción generaliza a partir de casos; su conclusión es probable, no segura."
+   },
+   {
+    "q": "Una falacia es…",
+    "o": [
+     "un argumento verdadero.",
+     "un razonamiento que parece válido pero no lo es.",
+     "una ciencia exacta.",
+     "una pregunta abierta."
+    ],
+    "a": 1,
+    "fb": "La falacia convence sin justificar de verdad."
+   },
+   {
+    "q": "La «mayéutica» de Sócrates consiste en…",
+    "o": [
+     "imponer la verdad al alumno.",
+     "hacer preguntas para que el otro descubra la verdad por sí mismo.",
+     "memorizar respuestas.",
+     "escribir largos discursos."
+    ],
+    "a": 1,
+    "fb": "Mayéutica: «dar a luz» ideas mediante el diálogo y las preguntas."
+   },
+   {
+    "q": "¿Qué distingue el logos del mito?",
+    "o": [
+     "El logos se acepta sin discusión.",
+     "El logos argumenta y se pone a prueba; el mito se acepta sin discusión.",
+     "El mito usa la razón.",
+     "No hay ninguna diferencia."
+    ],
+    "a": 1,
+    "fb": "Del mito al logos: explicar con razones y no por la voluntad de los dioses."
+   },
+   {
+    "q": "¿Cuál de estos es un saber «práctico» (saber hacer)?",
+    "o": [
+     "La ciencia.",
+     "La técnica.",
+     "La metafísica.",
+     "La lógica."
+    ],
+    "a": 1,
+    "fb": "La técnica es un saber práctico: transformar la realidad para resolver problemas."
+   },
+   {
+    "q": "En Platón, la diferencia entre «episteme» y «doxa» es…",
+    "o": [
+     "episteme es opinión; doxa es ciencia.",
+     "episteme es saber fundado; doxa es opinión sin fundamento.",
+     "son sinónimos.",
+     "ambas son falsas."
+    ],
+    "a": 1,
+    "fb": "Episteme: conocimiento verdadero y fundado. Doxa: mera opinión."
+   },
+   {
+    "q": "¿En qué se diferencian filosofía y ciencia?",
+    "o": [
+     "La filosofía hace experimentos y la ciencia no.",
+     "La ciencia estudia parcelas con método experimental; la filosofía se pregunta por el conjunto y el sentido.",
+     "Son lo mismo.",
+     "La ciencia no usa la razón."
+    ],
+    "a": 1,
+    "fb": "La ciencia investiga ámbitos concretos; la filosofía, radical y universal, pregunta por el todo."
+   }
+  ]
+ },
+ "fil-mente-q": {
+  "name": "Cuerpo, mente y concepciones del ser humano (Filosofía 1.º · T2)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "El «problema mente-cuerpo» pregunta por…",
+    "o": [
+     "cómo cuidar el cuerpo.",
+     "la relación entre lo físico (cerebro) y lo mental (conciencia).",
+     "el origen del universo.",
+     "la existencia de Dios."
+    ],
+    "a": 1,
+    "fb": "Es la cuestión de cómo se relacionan lo material y lo mental."
+   },
+   {
+    "q": "El dualismo sostiene que el ser humano es…",
+    "o": [
+     "solo cuerpo.",
+     "dos realidades distintas: cuerpo (material) y mente/alma (inmaterial).",
+     "solo mente.",
+     "una máquina."
+    ],
+    "a": 1,
+    "fb": "Dualismo (Platón, Descartes): cuerpo y alma/mente son realidades distintas."
+   },
+   {
+    "q": "Para Descartes, la mente es…",
+    "o": [
+     "una parte del cuerpo.",
+     "«res cogitans», cosa que piensa, distinta del cuerpo (res extensa).",
+     "una ilusión.",
+     "el cerebro sin más."
+    ],
+    "a": 1,
+    "fb": "Descartes distingue la res cogitans (mente) de la res extensa (cuerpo)."
+   },
+   {
+    "q": "El monismo materialista afirma que…",
+    "o": [
+     "solo existe el alma.",
+     "solo existe la materia; la mente es actividad del cerebro.",
+     "mente y cuerpo son mundos separados.",
+     "nada existe."
+    ],
+    "a": 1,
+    "fb": "Para el materialismo no hay alma separada: lo mental es actividad cerebral."
+   },
+   {
+    "q": "La expresión «el fantasma en la máquina» (Ryle) critica…",
+    "o": [
+     "el materialismo.",
+     "el dualismo mente-cuerpo.",
+     "la ciencia.",
+     "el empirismo."
+    ],
+    "a": 1,
+    "fb": "Ryle ridiculiza el dualismo: no hay un «yo» inmaterial pilotando el cuerpo."
+   },
+   {
+    "q": "Para Aristóteles, el ser humano es…",
+    "o": [
+     "un animal racional y político (zoon politikon).",
+     "un alma caída en el cuerpo.",
+     "una máquina pensante.",
+     "pura voluntad."
+    ],
+    "a": 0,
+    "fb": "Aristóteles: animal racional que solo se realiza en comunidad (animal político)."
+   },
+   {
+    "q": "«La existencia precede a la esencia» es la tesis de…",
+    "o": [
+     "Platón.",
+     "el existencialismo de Sartre.",
+     "Descartes.",
+     "el cristianismo."
+    ],
+    "a": 1,
+    "fb": "Sartre: no hay naturaleza humana fija; nos hacemos con nuestras elecciones."
+   },
+   {
+    "q": "Para Marx, lo que define al ser humano es…",
+    "o": [
+     "el alma inmortal.",
+     "el trabajo y las relaciones sociales (ser social).",
+     "la razón pura.",
+     "los instintos."
+    ],
+    "a": 1,
+    "fb": "Marx: somos seres sociales definidos por el trabajo y las relaciones de producción."
+   },
+   {
+    "q": "«No se nace mujer, se llega a serlo» es una frase de…",
+    "o": [
+     "Nietzsche.",
+     "Simone de Beauvoir.",
+     "Kant.",
+     "Aristóteles."
+    ],
+    "a": 1,
+    "fb": "Beauvoir: lo femenino se construye culturalmente, no viene dado por la naturaleza."
+   },
+   {
+    "q": "El «barco de Teseo» ilustra el problema de…",
+    "o": [
+     "la existencia de Dios.",
+     "la identidad personal a través del cambio.",
+     "el origen del lenguaje.",
+     "la libertad."
+    ],
+    "a": 1,
+    "fb": "Si cambian todas las piezas, ¿sigue siendo el mismo? Es el problema de la identidad."
+   }
+  ]
+ },
+ "fil-ciencia-q": {
+  "name": "Ciencia, método y posverdad (Filosofía 1.º · T3)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "Una hipótesis científica es…",
+    "o": [
+     "una ley ya demostrada.",
+     "una respuesta provisional a un problema, que debe poder comprobarse.",
+     "una creencia religiosa.",
+     "una opinión sin importancia."
+    ],
+    "a": 1,
+    "fb": "La hipótesis se formula para ponerla a prueba con la experiencia."
+   },
+   {
+    "q": "Según Popper, una teoría es científica si…",
+    "o": [
+     "nadie la discute.",
+     "puede ponerse a prueba y, en principio, refutarse (falsación).",
+     "es muy antigua.",
+     "la creen muchos."
+    ],
+    "a": 1,
+    "fb": "Criterio de falsación: lo científico debe poder someterse a prueba y, en principio, refutarse."
+   },
+   {
+    "q": "El concepto de «paradigma» y de «revoluciones científicas» es de…",
+    "o": [
+     "Karl Popper.",
+     "Thomas Kuhn.",
+     "René Descartes.",
+     "David Hume."
+    ],
+    "a": 1,
+    "fb": "Kuhn: la ciencia cambia por revoluciones que sustituyen un paradigma por otro."
+   },
+   {
+    "q": "La astrología, que no admite ninguna refutación, es un ejemplo de…",
+    "o": [
+     "ciencia experimental.",
+     "pseudociencia.",
+     "técnica.",
+     "matemática."
+    ],
+    "a": 1,
+    "fb": "Lo que no puede ponerse a prueba ni refutarse no es ciencia: es pseudociencia."
+   },
+   {
+    "q": "La verdad como «correspondencia» sostiene que es verdadero…",
+    "o": [
+     "lo que cree la mayoría.",
+     "lo que se ajusta a los hechos, a la realidad.",
+     "lo que me conviene.",
+     "lo más antiguo."
+    ],
+    "a": 1,
+    "fb": "Correspondencia: coincidencia entre lo que se afirma y la realidad."
+   },
+   {
+    "q": "La verdad como «coherencia» sostiene que es verdadero…",
+    "o": [
+     "lo que encaja sin contradicción con lo que ya sabemos.",
+     "solo lo que se ve.",
+     "lo que dice la autoridad.",
+     "lo que emociona."
+    ],
+    "a": 0,
+    "fb": "Coherencia: encaje sin contradicción dentro de un sistema de creencias."
+   },
+   {
+    "q": "La «posverdad» describe la situación en que…",
+    "o": [
+     "los hechos pesan más que las emociones.",
+     "las emociones y creencias pesan más que los hechos al formar la opinión.",
+     "desaparece la mentira.",
+     "la ciencia siempre acierta."
+    ],
+    "a": 1,
+    "fb": "En la posverdad la emoción y la creencia pesan más que el hecho objetivo."
+   },
+   {
+    "q": "El «sesgo de confirmación» consiste en…",
+    "o": [
+     "buscar y creer solo lo que confirma lo que ya pensamos.",
+     "aceptar cualquier dato sin filtro.",
+     "dudar de absolutamente todo.",
+     "cambiar de idea a cada momento."
+    ],
+    "a": 0,
+    "fb": "Tendemos a fijarnos en lo que nos da la razón e ignorar lo que la contradice."
+   },
+   {
+    "q": "Una «cámara de eco» (o burbuja) es…",
+    "o": [
+     "una sala insonorizada.",
+     "un entorno donde solo oímos opiniones iguales a la nuestra.",
+     "un tipo de altavoz.",
+     "una red científica."
+    ],
+    "a": 1,
+    "fb": "En la cámara de eco se refuerzan las mismas ideas y no entran las contrarias."
+   },
+   {
+    "q": "Ante una noticia dudosa en redes, lo más crítico es…",
+    "o": [
+     "compartirla rápido si es llamativa.",
+     "verificarla con fuentes fiables antes de creerla o difundirla.",
+     "creerla si tiene muchos «me gusta».",
+     "ignorar siempre la información."
+    ],
+    "a": 1,
+    "fb": "Verificar (fact-checking) con fuentes fiables antes de creer o compartir."
+   }
+  ]
+ },
  "ltfh-B1": {
   "name": "Agustín de Hipona (HF · libro)",
   "subject": "hf",
