@@ -4286,17 +4286,6 @@ const QUIZZES = {
     "fb": "Es el clásico problema de la identidad personal a través del cambio."
    },
    {
-    "q": "¿Qué es el etnocentrismo?",
-    "o": [
-     "Juzgar otras culturas desde la propia como única válida.",
-     "Comprender cada cultura en su contexto.",
-     "Rechazar toda cultura.",
-     "Estudiar la evolución."
-    ],
-    "a": 0,
-    "fb": "El etnocentrismo toma la propia cultura como medida."
-   },
-   {
     "q": "¿Qué diferencia hay entre hominización y humanización?",
     "o": [
      "Hominización es el proceso biológico; humanización, el proceso cultural.",
@@ -5334,17 +5323,6 @@ const QUIZZES = {
     "fb": "Para Ockham solo existen los individuos; los universales son nombres o conceptos generales."
    },
    {
-    "q": "¿Qué es la navaja de Ockham?",
-    "o": [
-     "No multiplicar las entidades sin necesidad.",
-     "Multiplicar los principios para explicar mejor.",
-     "Descartar toda razón.",
-     "Aceptar todas las formas reales."
-    ],
-    "a": 0,
-    "fb": "La navaja de Ockham es el principio de economía: no introducir entidades innecesarias en la explicación."
-   },
-   {
     "q": "¿Qué consecuencia trae el nominalismo para el conocimiento?",
     "o": [
      "El conocimiento parte de los individuos y de la experiencia.",
@@ -5451,17 +5429,6 @@ const QUIZZES = {
     "fb": "Tomás busca una gran síntesis escolástica: armonizar el aristotelismo con la fe cristiana."
    },
    {
-    "q": "¿Cómo entiende Tomás la fe y la razón?",
-    "o": [
-     "Distintas pero colaboradoras, sin contradicción.",
-     "Siempre enemigas.",
-     "La razón anula la fe.",
-     "La fe no necesita razones."
-    ],
-    "a": 0,
-    "fb": "Para Tomás la razón y la fe colaboran y no pueden contradecirse, porque la verdad es una."
-   },
-   {
     "q": "¿De dónde parten las cinco vías?",
     "o": [
      "De hechos observables del mundo: movimiento, causa, contingencia, perfección y finalidad.",
@@ -5471,28 +5438,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Las cinco vías parten de la experiencia del mundo y concluyen la existencia de Dios."
-   },
-   {
-    "q": "¿Qué es la ley natural para Tomás?",
-    "o": [
-     "El fundamento moral que la razón percibe en el orden de la naturaleza y los fines humanos.",
-     "Cualquier ley impuesta por el gobernante.",
-     "Un mandato que contradice la naturaleza.",
-     "La ley positiva de la ciudad."
-    ],
-    "a": 0,
-    "fb": "La ley natural es el fundamento racional de la moral, base de la ley positiva."
-   },
-   {
-    "q": "¿Cómo entiende Tomás al ser humano?",
-    "o": [
-     "Como unidad hilemórfica de alma y cuerpo.",
-     "Como alma separada del cuerpo.",
-     "Como pura materia.",
-     "Como puro espíritu."
-    ],
-    "a": 0,
-    "fb": "Con el hilemorfismo, Tomás entiende al ser humano como unidad de alma (forma) y cuerpo (materia)."
    }
   ]
  },
@@ -5824,17 +5769,6 @@ const QUIZZES = {
     "fb": "Los seres particulares son modos de la sustancia, no sustancias autónomas."
    },
    {
-    "q": "¿Cómo entiende Spinoza la libertad?",
-    "o": [
-     "Como comprender la necesidad y liberarse de las pasiones ciegas.",
-     "Como actuar sin causa.",
-     "Como poder hacer lo que se quiera.",
-     "Como negar la naturaleza."
-    ],
-    "a": 0,
-    "fb": "La libertad es comprender la necesidad, no escapar de las leyes de la naturaleza."
-   },
-   {
     "q": "¿Qué critica Spinoza a Descartes?",
     "o": [
      "Dejar el pensamiento y la extensión como dos sustancias separadas.",
@@ -6047,17 +5981,6 @@ const QUIZZES = {
     "fb": "Las impresiones son percepciones vivas; las ideas, copias de ellas."
    },
    {
-    "q": "¿Qué es el problema de la inducción?",
-    "o": [
-     "No se puede probar la conexión necesaria entre hechos, solo la sucesión.",
-     "Que la inducción siempre es válida.",
-     "Que no hay conocimiento probable.",
-     "Que el futuro se deduce necesariamente."
-    ],
-    "a": 0,
-    "fb": "Hume muestra que de la experiencia repetida no se deduce la causalidad necesaria."
-   },
-   {
     "q": "¿Qué dice Hume sobre la causalidad?",
     "o": [
      "No percibimos una conexión necesaria, solo la sucesión repetida por costumbre.",
@@ -6153,28 +6076,6 @@ const QUIZZES = {
     "fb": "La modernidad se pregunta por la fiabilidad del conocimiento."
    },
    {
-    "q": "¿Qué subraya el racionalismo?",
-    "o": [
-     "El orden de la razón, el método y la deducción.",
-     "La experiencia sensible.",
-     "La tabula rasa.",
-     "La observación empírica."
-    ],
-    "a": 0,
-    "fb": "El racionalismo confía en la razón y el método deductivo."
-   },
-   {
-    "q": "¿Qué subraya el empirismo?",
-    "o": [
-     "Partir de la experiencia y la observación.",
-     "Las ideas innatas.",
-     "La deducción matemática.",
-     "La razón pura."
-    ],
-    "a": 0,
-    "fb": "El empirismo parte de la experiencia y los sentidos."
-   },
-   {
     "q": "¿Qué aporta la crítica de Hume a la causalidad?",
     "o": [
      "Muestra que no percibimos la conexión necesaria.",
@@ -6268,17 +6169,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "El dualismo debe explicar el vínculo causal entre mente y cuerpo."
-   },
-   {
-    "q": "¿Qué defiende el materialismo?",
-    "o": [
-     "Que toda la realidad se explica por materia y procesos naturales.",
-     "Que existen dos sustancias.",
-     "Que el alma es inmortal.",
-     "Que la materia no existe."
-    ],
-    "a": 0,
-    "fb": "El materialismo explica la realidad solo por materia y movimiento."
    },
    {
     "q": "¿Por qué es crucial la idea de naturaleza mecánica?",
@@ -6504,17 +6394,6 @@ const QUIZZES = {
     "fb": "El utilitarismo juzga las acciones por sus consecuencias en felicidad."
    },
    {
-    "q": "¿Qué dice el principio del daño?",
-    "o": [
-     "Solo se limita la libertad para evitar daño a otros.",
-     "El Estado debe forzar siempre.",
-     "La mayoría impone.",
-     "La libertad es ilimitada."
-    ],
-    "a": 0,
-    "fb": "Mill limita la libertad solo para evitar dañar a otros."
-   },
-   {
     "q": "¿Por qué se distingue el liberalismo político del económico?",
     "o": [
      "Porque cabe defender derechos políticos y, a la vez, corregir las desigualdades del mercado.",
@@ -6738,39 +6617,6 @@ const QUIZZES = {
     "fb": "La pregunta trascendental indaga las condiciones de posibilidad de la experiencia, no la cosa en sí."
    },
    {
-    "q": "¿Qué son los juicios sintéticos a priori?",
-    "o": [
-     "Juicios que amplían el conocimiento y son a la vez necesarios.",
-     "Meras definiciones.",
-     "Costumbres contingentes.",
-     "Postulados religiosos."
-    ],
-    "a": 0,
-    "fb": "El juicio sintético a priori amplía el conocimiento con necesidad, como en la matemática."
-   },
-   {
-    "q": "¿Qué consecuencia tiene distinguir fenómeno y noúmeno?",
-    "o": [
-     "El conocimiento se limita a los fenómenos y la cosa en sí queda como concepto límite.",
-     "Conocemos la cosa en sí.",
-     "El fenómeno es incognoscible.",
-     "No hay diferencia entre ambos."
-    ],
-    "a": 0,
-    "fb": "Solo conocemos fenómenos; el noúmeno, la cosa en sí, escapa al conocimiento."
-   },
-   {
-    "q": "¿Qué exige el imperativo categórico?",
-    "o": [
-     "Que la máxima pueda universalizarse y se trate a la persona como fin, nunca solo como medio.",
-     "Calcular las consecuencias más agradables.",
-     "Obedecer al mandato externo.",
-     "Seguir los intereses privados."
-    ],
-    "a": 0,
-    "fb": "El imperativo categórico exige una máxima universalizable y el respeto de la persona como fin."
-   },
-   {
     "q": "¿Qué papel tienen los postulados prácticos?",
     "o": [
      "La libertad, Dios y la inmortalidad como ideas que la moral necesita aunque la razón teórica no las demuestre.",
@@ -6864,17 +6710,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Herder subraya la historicidad y la diversidad cultural frente a una razón abstracta."
-   },
-   {
-    "q": "¿Cuál es la clave de la dialéctica de Hegel?",
-    "o": [
-     "Que la contradicción es el motor del proceso histórico y conceptual.",
-     "Que la historia es azar.",
-     "Que la negación es un error a evitar.",
-     "Que la razón imita a la naturaleza."
-    ],
-    "a": 0,
-    "fb": "En Hegel la contradicción impulsa el desarrollo histórico e ideal."
    },
    {
     "q": "¿Qué significa el «descentramiento» de Darwin?",
@@ -6983,28 +6818,6 @@ const QUIZZES = {
     "fb": "La alienación es enajenarse respecto al producto, la actividad y la propia esencia humana."
    },
    {
-    "q": "¿Qué distinguen la infraestructura y la superestructura?",
-    "o": [
-     "La base económica y las formas jurídicas, políticas e ideológicas.",
-     "La cultura y la naturaleza.",
-     "Dos conceptos psicológicos.",
-     "Lo público y lo privado."
-    ],
-    "a": 0,
-    "fb": "La infraestructura es la base económica; sobre ella se levanta la superestructura."
-   },
-   {
-    "q": "¿Qué es la plusvalía?",
-    "o": [
-     "El valor excedente que el trabajador crea y no recibe en salario.",
-     "El salario del trabajador.",
-     "El valor de uso de la mercancía.",
-     "El beneficio repartido por igual."
-    ],
-    "a": 0,
-    "fb": "La plusvalía es el valor que el trabajador produce de más y del que se apropia el capitalista."
-   },
-   {
     "q": "¿Qué papel juega la ideología en Marx?",
     "o": [
      "Presenta un orden social histórico como natural y justo.",
@@ -7078,17 +6891,6 @@ const QUIZZES = {
     "fb": "La genealogía examina el origen histórico, afectivo y de poder de los valores morales, en vez de darlos por naturales o eternos."
    },
    {
-    "q": "¿Qué expresan lo apolíneo y lo dionisíaco?",
-    "o": [
-     "La tensión entre forma, mesura y el impulso trágico creador.",
-     "La división de la conciencia y el inconsciente.",
-     "El conflicto entre capitalismo y comunismo.",
-     "La distinción entre razón teórica y práctica."
-    ],
-    "a": 0,
-    "fb": "Lo apolíneo (forma, claridad) y lo dionisíaco (impulso, caos) son las dos fuerzas de la tragedia."
-   },
-   {
     "q": "¿Qué significa «Dios ha muerto»?",
     "o": [
      "Que ha caído el fundamento de los valores absolutos de Occidente.",
@@ -7098,39 +6900,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "«Dios ha muerto» señala la crisis de los fundamentos absolutos de los valores occidentales."
-   },
-   {
-    "q": "¿Qué es el nihilismo pasivo?",
-    "o": [
-     "Quedarse en la desesperanza y la pequeña comodidad del último hombre.",
-     "La oportunidad de crear valores.",
-     "La forma trágica del arte.",
-     "La alienación."
-    ],
-    "a": 0,
-    "fb": "El nihilismo pasivo se conforma con la comodidad y la mediocridad, sin crear."
-   },
-   {
-    "q": "¿Qué es la transmutación de los valores?",
-    "o": [
-     "Superar los valores que niegan la vida y crear valores que la afirman.",
-     "Reforzar la moral cristiana.",
-     "Mantener los valores con otros nombres.",
-     "Encontrar la verdad objetiva."
-    ],
-    "a": 0,
-    "fb": "La transmutación de valores los revalúa para afirmar la vida."
-   },
-   {
-    "q": "¿Qué busca la genealogía de la moral?",
-    "o": [
-     "Examinar el origen histórico, afectivo y de poder de los valores.",
-     "Demostrar el origen divino de la moral.",
-     "Mostrar que todas las morales son iguales.",
-     "Encontrar leyes económicas."
-    ],
-    "a": 0,
-    "fb": "La genealogía estudia cómo se formaron los valores, no los da por naturales."
    }
   ]
  },
@@ -7195,17 +6964,6 @@ const QUIZZES = {
     "fb": "Ricoeur añade que, tras romper los significados falsos, la sospecha necesita una hermenéutica que reconstruya el sentido."
    },
    {
-    "q": "¿Cuál es el gran golpe filosófico de Freud?",
-    "o": [
-     "Mostrar que el sujeto no es del todo dueño de sí mismo.",
-     "Que la conciencia es transparente.",
-     "Que la historia es la lucha de clases.",
-     "Que la moral es eterna."
-    ],
-    "a": 0,
-    "fb": "Freud muestra que «el yo no es amo en su propia casa»: hay fuerzas inconscientes."
-   },
-   {
     "q": "¿Por qué son importantes los sueños?",
     "o": [
      "Son una vía de acceso al inconsciente.",
@@ -7215,28 +6973,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Los sueños revelan deseos reprimidos, aunque aparezcan disfrazados."
-   },
-   {
-    "q": "¿Qué es la represión?",
-    "o": [
-     "Apartar de la conciencia un contenido conflictivo sin que desaparezca.",
-     "Destruir los viejos valores.",
-     "Que el trabajador pierda el producto.",
-     "Pensar la historia con una meta."
-    ],
-    "a": 0,
-    "fb": "Lo reprimido no se elimina, sino que puede volver como síntoma o sueño."
-   },
-   {
-    "q": "¿Qué forman el Ello, el Yo y el Superyó?",
-    "o": [
-     "La estructura conflictiva del aparato psíquico.",
-     "Los tres poderes del Estado.",
-     "Las clases sociales.",
-     "Las partes del alma platónica."
-    ],
-    "a": 0,
-    "fb": "Ello, Yo y Superyó son instancias en conflicto de la psique."
    },
    {
     "q": "¿Qué añade Ricoeur a los maestros de la sospecha?",
@@ -7579,17 +7315,6 @@ const QUIZZES = {
     "fb": "La mujer fue confinada a la inmanencia, negándole la trascendencia."
    },
    {
-    "q": "¿Por qué critica Beauvoir el matrimonio y la maternidad?",
-    "o": [
-     "Porque, sin condiciones, refuerzan la dependencia y la inmanencia.",
-     "Porque son naturales.",
-     "Porque liberan a la mujer.",
-     "Porque favorecen al hombre."
-    ],
-    "a": 0,
-    "fb": "Sin autonomía, esas instituciones pueden empujar a la inmanencia."
-   },
-   {
     "q": "¿Qué es la ética de la ambigüedad?",
     "o": [
      "Que la libertad se decide en situación respetando la libertad de los demás.",
@@ -7672,17 +7397,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Ortega liga el yo a su circunstancia concreta."
-   },
-   {
-    "q": "¿En qué se distinguen Sartre y Ortega?",
-    "o": [
-     "Sartre radicaliza la libertad; Ortega la sitúa en la circunstancia.",
-     "Sartre es determinista.",
-     "Ortega no habla de la vida.",
-     "Son idénticos."
-    ],
-    "a": 0,
-    "fb": "Ambos ligan al ser humano al mundo, pero distinto peso de la libertad."
    },
    {
     "q": "¿Qué es el Dasein en Heidegger?",
@@ -7780,17 +7494,6 @@ const QUIZZES = {
     "fb": "«Débil» no significa banal, sino sin pretensión de fuerza absoluta: Vattimo renuncia a los fundamentos metafísicos firmes y da primacía a la interpretación (sección «Vattimo: el pensamiento débil»)."
    },
    {
-    "q": "¿Qué es un metarrelato según Lyotard?",
-    "o": [
-     "Un gran relato que legitima globalmente la historia y el saber.",
-     "Un relato local de la vida cotidiana.",
-     "El método científico.",
-     "Un discurso neutro."
-    ],
-    "a": 0,
-    "fb": "Los metarrelatos legitimaban el saber; la posmodernidad los pone en crisis."
-   },
-   {
     "q": "¿Qué es la différance de Derrida?",
     "o": [
      "Que el significado nunca está del todo presente, sino diferido y aplazado.",
@@ -7811,17 +7514,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Para Foucault el saber y el poder son inseparables."
-   },
-   {
-    "q": "¿Qué es el simulacro de Baudrillard?",
-    "o": [
-     "Cuando los signos sustituyen a la realidad en la hiperrealidad.",
-     "Una copia fiel.",
-     "Una apariencia que oculta la verdad.",
-     "Un ideal."
-    ],
-    "a": 0,
-    "fb": "En la hiperrealidad los signos devienen la «realidad»."
    },
    {
     "q": "¿Qué es el «pensamiento débil» de Vattimo?",
@@ -7895,61 +7587,6 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "El primer Wittgenstein del Tractatus sostiene el isomorfismo: la proposición con sentido figura la estructura lógica de los hechos del mundo (sección «El primer Wittgenstein»)."
-   },
-   {
-    "q": "¿Qué defendía el criterio de verificabilidad?",
-    "o": [
-     "Que un enunciado solo tiene sentido si puede verificarse empíricamente.",
-     "Que la metafísica es ciencia.",
-     "Que el lenguaje no importa.",
-     "Que todo es verificable."
-    ],
-    "a": 0,
-    "fb": "El positivismo lógico exige condiciones de verificación."
-   },
-   {
-    "q": "¿Qué es la falsabilidad de Popper?",
-    "o": [
-     "Una teoría es científica si hay modo de refutarla.",
-     "Que la ciencia acumula datos.",
-     "Que una teoría es inatacable.",
-     "Que la verificación sustituye a la falsación."
-    ],
-    "a": 0,
-    "fb": "Lo científico debe poder refutarse."
-   },
-   {
-    "q": "¿Qué es el paradigma de Kuhn?",
-    "o": [
-     "El marco que comparte una comunidad científica.",
-     "Una teoría privada.",
-     "La metafísica.",
-     "El único argumento."
-    ],
-    "a": 0,
-    "fb": "El paradigma enmarca la ciencia normal hasta las revoluciones."
-   },
-   {
-    "q": "¿Para qué sirve la teoría de las descripciones de Russell?",
-    "o": [
-     "Para aclarar la estructura lógica de las frases.",
-     "Para demostrar que todo vale.",
-     "Para reconstruir la metafísica.",
-     "Para descartar la ciencia."
-    ],
-    "a": 0,
-    "fb": "Russell analiza la forma lógica bajo la gramática superficial."
-   },
-   {
-    "q": "¿Qué defiende el primer Wittgenstein?",
-    "o": [
-     "Que el lenguaje puede representar la estructura lógica del mundo.",
-     "Que el lenguaje es poético.",
-     "Que la ciencia no tiene sentido.",
-     "Que los problemas filosóficos son políticos."
-    ],
-    "a": 0,
-    "fb": "El Tractatus sostiene el isomorfismo lenguaje-mundo."
    }
   ]
  },
@@ -8014,28 +7651,6 @@ const QUIZZES = {
     "fb": "Fraser sostiene que la justicia de género exige a la vez redistribución de recursos y reconocimiento simbólico, sin reducir una cosa a la otra (sección «Fraser: redistribución y reconocimiento»)."
    },
    {
-    "q": "¿Qué subraya la interseccionalidad?",
-    "o": [
-     "Que el género se cruza con la clase, la raza, la sexualidad y la migración.",
-     "Que solo el género importa.",
-     "Que el cuidado no tiene valor político.",
-     "Que el feminismo terminó."
-    ],
-    "a": 0,
-    "fb": "Las opresiones se cruzan y se refuerzan mutuamente."
-   },
-   {
-    "q": "¿Por qué es importante la ética del cuidado?",
-    "o": [
-     "Porque revela la interdependencia y el trabajo de cuidados invisible.",
-     "Porque niega los derechos.",
-     "Porque la libertad es solo de mercado.",
-     "Porque el género es natural."
-    ],
-    "a": 0,
-    "fb": "La ética del cuidado muestra la interdependencia tras la autonomía abstracta."
-   },
-   {
     "q": "¿Qué reivindicaba la primera ola feminista?",
     "o": [
      "El derecho al voto y la igualdad jurídica.",
@@ -8056,17 +7671,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La performatividad muestra que el género se hace."
-   },
-   {
-    "q": "¿Qué añade Fraser al feminismo?",
-    "o": [
-     "La justicia necesita redistribución y reconocimiento a la vez.",
-     "Solo el reconocimiento.",
-     "Solo la redistribución.",
-     "Que baste con los derechos formales."
-    ],
-    "a": 0,
-    "fb": "Fraser une justicia económica y cultural."
    }
   ]
  },
@@ -8151,17 +7755,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La crisis ecológica afecta desigualmente y es un problema de justicia."
-   },
-   {
-    "q": "¿Qué muestra la crítica de la globalización?",
-    "o": [
-     "Que economía, comunicación y poder están ligados a escala mundial.",
-     "Que los Estados no importan.",
-     "Que las desigualdades han desaparecido.",
-     "Que no afecta a la vida."
-    ],
-    "a": 0,
-    "fb": "La globalización crea redes y también nuevas dependencias."
    },
    {
     "q": "¿Qué es la modernidad líquida de Bauman?",
