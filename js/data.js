@@ -3331,6 +3331,62 @@ const DECKS = {
     "Estética, cognoscitiva, social y crítica."
    ]
   ]
+ },
+ "fil-logica": {
+  "name": "Filosofía 1.º · Lógica: conectivas, Boole y puertas (T4)",
+  "subject": "fil",
+  "cards": [
+   [
+    "¬",
+    "Negación (NOT)",
+    "Invierte el valor de verdad: ¬V = F, ¬F = V. Puerta lógica NOT."
+   ],
+   [
+    "∧",
+    "Conjunción (AND)",
+    "«y»: verdadera solo si lo son las dos partes. Puerta AND."
+   ],
+   [
+    "∨",
+    "Disyunción (OR)",
+    "«o» inclusivo: verdadera si al menos una parte lo es. Puerta OR."
+   ],
+   [
+    "→",
+    "Condicional",
+    "«si… entonces»: falso solo si el antecedente es V y el consecuente F."
+   ],
+   [
+    "↔",
+    "Bicondicional",
+    "«si y solo si»: verdadero cuando las dos partes tienen el mismo valor."
+   ],
+   [
+    "📊",
+    "Tabla de verdad",
+    "Recoge el valor de una fórmula para cada combinación de sus partes."
+   ],
+   [
+    "✅",
+    "Argumento válido",
+    "No hay ninguna fila con premisas verdaderas y conclusión falsa."
+   ],
+   [
+    "🧮",
+    "Tautología",
+    "Fórmula verdadera en todas las filas de su tabla de verdad."
+   ],
+   [
+    "🔢",
+    "Álgebra de Boole",
+    "Boole (1854): la lógica como álgebra con 1 (verdadero) y 0 (falso)."
+   ],
+   [
+    "🔌",
+    "Puertas lógicas",
+    "Shannon (1938): circuitos que realizan AND, OR y NOT. La base del ordenador."
+   ]
+  ]
  }
 };
 const QUIZZES = {
@@ -9604,6 +9660,89 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Para Hume, «la razón es esclava de las pasiones»: los juicios morales nacen del sentimiento, no de la sola razón."
+   }
+  ]
+ },
+ "fil-logica-q": {
+  "name": "Filosofía 1.º · Tablas de verdad y lógica (T4)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "La conjunción p ∧ q es verdadera…",
+    "o": [
+     "siempre",
+     "solo si p y q son ambas verdaderas",
+     "si al menos una es verdadera",
+     "solo si las dos son falsas"
+    ],
+    "a": 1,
+    "fb": "El «y» (AND) exige que las dos partes sean verdaderas a la vez."
+   },
+   {
+    "q": "¿Cuándo es FALSO el condicional p → q?",
+    "o": [
+     "cuando p es falso",
+     "nunca",
+     "solo cuando p es verdadero y q es falso",
+     "siempre que q sea falso"
+    ],
+    "a": 2,
+    "fb": "El «si… entonces» solo falla cuando el antecedente es verdadero y el consecuente falso."
+   },
+   {
+    "q": "La disyunción inclusiva p ∨ q es falsa…",
+    "o": [
+     "solo cuando p y q son ambas falsas",
+     "cuando una es falsa",
+     "nunca",
+     "siempre"
+    ],
+    "a": 0,
+    "fb": "El «o» inclusivo solo es falso si fallan las dos partes."
+   },
+   {
+    "q": "En el álgebra de Boole, ¿qué valores se usan?",
+    "o": [
+     "V y F",
+     "1 y 0",
+     "sí y quizá",
+     "+ y −"
+    ],
+    "a": 1,
+    "fb": "Boole representa lo verdadero con 1 y lo falso con 0."
+   },
+   {
+    "q": "Una puerta lógica AND da salida 1…",
+    "o": [
+     "si alguna entrada es 1",
+     "solo si sus dos entradas son 1",
+     "siempre",
+     "nunca"
+    ],
+    "a": 1,
+    "fb": "La puerta AND corresponde a la conjunción: da 1 solo con las dos entradas a 1."
+   },
+   {
+    "q": "¿Quién mostró que las operaciones lógicas se pueden hacer con circuitos eléctricos?",
+    "o": [
+     "Aristóteles",
+     "George Boole",
+     "Claude Shannon",
+     "Gottlob Frege"
+    ],
+    "a": 2,
+    "fb": "Shannon (1938) unió el álgebra de Boole con los circuitos: las puertas lógicas."
+   },
+   {
+    "q": "Una fórmula verdadera en TODAS las filas de su tabla de verdad es…",
+    "o": [
+     "una contradicción",
+     "una tautología",
+     "una falacia",
+     "un silogismo"
+    ],
+    "a": 1,
+    "fb": "Tautología: siempre verdadera. Si fuera siempre falsa, sería una contradicción."
    }
   ]
  }
