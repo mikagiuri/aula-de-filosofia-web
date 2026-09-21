@@ -28,19 +28,12 @@
     <div class="brand"><span class="owl" aria-hidden="true">🦉</span> Aula de Filosofía</div>
     <nav class="tabs" id="tabs" aria-label="Secciones">
       <button data-view="inicio" aria-current="true">Inicio</button>
-      <div class="navsec">
-        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Programación</span>
-        <div class="navmenu">
-          <button data-view="sesiones">Sesiones</button>
-          <button data-view="calendario">Calendario</button>
-          <button data-view="teoria">Teoría</button>
-          <button data-view="materiales">Materiales</button>
-          <button data-view="lecturas">Lecturas</button>
-        </div>
-      </div>
+      
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Estudiar</span>
         <div class="navmenu">
+          <button data-view="teoria">Teoría</button>
+          <button data-view="lecturas">Lecturas</button>
           <button data-view="tarjetas">Tarjetas</button>
           <button data-view="cuestionarios">Cuestionarios</button>
           <button data-view="glosario">Glosario</button>
@@ -119,21 +112,10 @@
   
 
   <!-- SESIONES -->
-  <section class="view" id="sesiones">
-    <p class="eyebrow">Programación</p>
-    <h1 class="title">Sesiones</h1>
-    <p class="lead">Secuenciación del curso semana a semana, con el <strong>contenido de cada sesión</strong> de la semana en curso y enlaces directos a los materiales de la web. Filtra por <strong>materia</strong> y <strong>semana</strong>.</p>
-    <div class="filterbar" id="sesfilter" role="group" aria-label="Filtrar sesiones"></div>
-    <div id="sesbody"></div>
-  </section>
+  
 
   <!-- CALENDARIO -->
-  <section class="view" id="calendario">
-    <p class="eyebrow">Programación</p>
-    <h1 class="title">Calendario del curso</h1>
-    <p class="lead">Listado de <strong>todos y cada uno de los días de clase</strong> del curso 2026-27, agrupados por mes y semana: el <strong>tema de cada materia</strong> y las <strong>asignaturas</strong> que se imparten cada día (según el horario). Fechas provisionales.</p>
-    <div id="calbody"></div>
-  </section>
+  
 
   <!-- TEORÍA -->
   <section class="view" id="teoria">
@@ -149,17 +131,7 @@
   </section>
 
   <!-- MATERIALES -->
-  <section class="view" id="materiales">
-    <p class="eyebrow">Materiales</p>
-    <h1 class="title">Materiales completos</h1>
-    <p class="lead">Las fichas de ejercicios (con soluciones), la presentación de la asignatura y las guías de las tres materias, para consultar en clase o en casa. Las hojas imprimibles del alumnado (sin soluciones) siguen en `.docx`.</p>
-    <div class="filterbar" id="materialfilter" role="group" aria-label="Filtrar materiales"></div>
-    <div class="chips" id="materialchips" role="group" aria-label="Elegir material"></div>
-    <div class="theory-layout">
-      <nav class="toc" id="mtoc" aria-label="Índice del material"></nav>
-      <article class="theory" id="materialbody"></article>
-    </div>
-  </section>
+  
 
   <!-- LECTURAS -->
   <section class="view" id="lecturas">
