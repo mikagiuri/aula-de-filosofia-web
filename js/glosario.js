@@ -1,6 +1,7 @@
 // Generado por tools/build_bach.js — Bachillerato para el alumnado (sin material del profesor).
 const GLOSARIO = [
  {
+  "subject": "hf",
   "t": "A priori",
   "area": "Epistemología",
   "bloque": "C",
@@ -9,6 +10,7 @@ const GLOSARIO = [
   "def": "Condición o estructura que vale antes de la experiencia concreta; no significa que sea contenido de una idea innata."
  },
  {
+  "subject": "hf",
   "t": "Abstracción",
   "area": "Epistemología",
   "bloque": "A",
@@ -17,6 +19,7 @@ const GLOSARIO = [
   "def": "El proceso por el cual el entendimiento, partiendo de las cosas particulares, distingue la forma o estructura general."
  },
  {
+  "subject": "hf",
   "t": "Acto y potencia",
   "area": "Metafísica",
   "bloque": "A",
@@ -25,6 +28,7 @@ const GLOSARIO = [
   "def": "La potencia es la posibilidad de ser; el acto, el estado en que esa posibilidad está realizada. El cambio se entiende como tránsito entre ambos."
  },
  {
+  "subject": "hf",
   "t": "Alejandría",
   "area": "Historia",
   "bloque": "A",
@@ -33,6 +37,7 @@ const GLOSARIO = [
   "def": "Fue uno de los principales centros del saber helenístico. La Biblioteca, el Museo y las redes de estudiosos organizaron la cultura griega en un mundo más amplio."
  },
  {
+  "subject": "hf",
   "t": "Alienación",
   "area": "Antropología",
   "bloque": "C",
@@ -41,6 +46,7 @@ const GLOSARIO = [
   "def": "El trabajador se vuelve ajeno a su producto, a su actividad laboral, a los demás y a su capacidad creadora."
  },
  {
+  "subject": "hf",
   "t": "Alteridad",
   "area": "Feminismo",
   "bloque": "C",
@@ -49,6 +55,7 @@ const GLOSARIO = [
   "def": "La mujer ha sido definida a lo largo de la historia como \"la otra\", frente al sujeto universal masculino. No se define por sí misma, sino como lo que no es hombre."
  },
  {
+  "subject": "hf",
   "t": "Anarquismo metodológico",
   "area": "Método",
   "bloque": "C",
@@ -57,6 +64,7 @@ const GLOSARIO = [
   "def": "Según la tesis de Feyerabend, no hay ningún método científico universal o necesario; los mayores avances de la ciencia han ocurrido rompiendo las reglas. Se resume con el lema \"Todo vale\"."
  },
  {
+  "subject": "hf",
   "t": "Angustia",
   "area": "Antropología",
   "bloque": "C",
@@ -65,6 +73,7 @@ const GLOSARIO = [
   "def": "En el existencialismo no es un mero miedo corriente. Es la experiencia que pone al ser humano ante su elección, su finitud y su responsabilidad; es también el vértigo de la libertad."
  },
  {
+  "subject": "hf",
   "t": "Anticapitalismo",
   "area": "Economía",
   "bloque": "C",
@@ -73,6 +82,7 @@ const GLOSARIO = [
   "def": "No critica el capitalismo solo como sistema económico; lo examina también como organización del trabajo, la cultura, el deseo, el Estado y las relaciones de poder a escala mundial."
  },
  {
+  "subject": "hf",
   "t": "Antinomia",
   "area": "Metafísica",
   "bloque": "C",
@@ -81,6 +91,7 @@ const GLOSARIO = [
   "def": "El conflicto que surge cuando la razón quiere demostrar afirmaciones contrapuestas sobre el mundo entero fuera del límite de la experiencia."
  },
  {
+  "subject": "hf",
   "t": "Apatheia",
   "area": "Ética",
   "bloque": "A",
@@ -89,6 +100,7 @@ const GLOSARIO = [
   "def": "No es carecer de sentimientos, sino no vivir a merced de las pasiones ciegas y cuidar el autogobierno racional."
  },
  {
+  "subject": "hf",
   "t": "Apologetas",
   "area": "Religión",
   "bloque": "B",
@@ -97,6 +109,7 @@ const GLOSARIO = [
   "def": "Los autores que defendieron el cristianismo temprano. No solo predicaron la fe: quisieron explicarla con razones, frente a las acusaciones del imperio y a la filosofía clásica."
  },
  {
+  "subject": "hf",
   "t": "Aponía",
   "area": "Ética",
   "bloque": "A",
@@ -105,6 +118,7 @@ const GLOSARIO = [
   "def": "La ausencia de dolor en el cuerpo. En el epicureísmo, junto con la ataraxia, es una de las condiciones principales de la vida feliz."
  },
  {
+  "subject": "hf",
   "t": "Aporía",
   "area": "Método",
   "bloque": "A",
@@ -113,6 +127,7 @@ const GLOSARIO = [
   "def": "La situación sin salida a la que llega el diálogo socrático: el interlocutor reconoce que su supuesto saber es contradictorio. La aporía no es un fracaso, sino el momento de tomar conciencia de la ignorancia y comenzar la verdadera búsqueda."
  },
  {
+  "subject": "hf",
   "t": "Areté",
   "area": "Ética",
   "bloque": "A",
@@ -121,6 +136,7 @@ const GLOSARIO = [
   "def": "La excelencia o plenitud de una capacidad. En la ética clásica se liga a la buena forma del carácter humano."
  },
  {
+  "subject": "hf",
   "t": "Argumento ontológico",
   "area": "Metafísica",
   "bloque": "B",
@@ -129,6 +145,7 @@ const GLOSARIO = [
   "def": "La idea del Dios perfecto lleva en sí la existencia: a una perfección no puede faltarle la existencia. Por tanto, Dios existe por su propia definición."
  },
  {
+  "subject": "hf",
   "t": "Arkhé",
   "area": "Metafísica",
   "bloque": "A",
@@ -137,6 +154,7 @@ const GLOSARIO = [
   "def": "Palabra que designa el origen, fundamento o principio común de todas las cosas."
  },
  {
+  "subject": "hf",
   "t": "Ataraxia",
   "area": "Ética",
   "bloque": "A",
@@ -145,6 +163,7 @@ const GLOSARIO = [
   "def": "La disminución de la perturbación y del miedo. Para muchas escuelas helenísticas es una de las condiciones principales de la vida buena."
  },
  {
+  "subject": "hf",
   "t": "Aura",
   "area": "Estética",
   "bloque": "C",
@@ -153,6 +172,7 @@ const GLOSARIO = [
   "def": "La presencia de la obra de arte como única e irrepetible; la reproducción técnica (fotografía, cine) la debilita, y eso cambia el sentido social del arte."
  },
  {
+  "subject": "hf",
   "t": "Autarquía",
   "area": "Ética",
   "bloque": "A",
@@ -161,6 +181,7 @@ const GLOSARIO = [
   "def": "Reducir la dependencia de la fortuna externa entendiendo con mesura las propias necesidades. No es mera soledad, sino autosuficiencia razonable."
  },
  {
+  "subject": "hf",
   "t": "Autonomía",
   "area": "Ética",
   "bloque": "C",
@@ -169,6 +190,7 @@ const GLOSARIO = [
   "def": "Que el sujeto racional actúe según el principio que puede darse a sí mismo como ley universal."
  },
  {
+  "subject": "hf",
   "t": "Banalidad del mal",
   "area": "Ética",
   "bloque": "C",
@@ -177,6 +199,7 @@ const GLOSARIO = [
   "def": "El mal no nace siempre de una intención malvada; a veces es consecuencia de la renuncia a pensar. Eichmann es el ejemplo clásico: amante de la burocracia, obediencia ciega."
  },
  {
+  "subject": "hf",
   "t": "Biopolítica",
   "area": "Política",
   "bloque": "C",
@@ -185,6 +208,7 @@ const GLOSARIO = [
   "def": "El régimen que nace cuando el poder moderno administra la vida: gestiona las poblaciones, la salud, la sexualidad, las tasas de natalidad, las migraciones, no solo mediante leyes, sino mediante la estadística, la epidemiología y los dispositivos de seguridad."
  },
  {
+  "subject": "hf",
   "t": "Capacidades",
   "area": "Feminismo",
   "bloque": "C",
@@ -193,6 +217,7 @@ const GLOSARIO = [
   "def": "Para Nussbaum, las capacidades son las oportunidades que una persona puede realmente hacer y ser. La justicia no es solo reconocer derechos; es también garantizar las condiciones para volverlas realidad."
  },
  {
+  "subject": "hf",
   "t": "Categoría",
   "area": "Epistemología",
   "bloque": "C",
@@ -201,6 +226,7 @@ const GLOSARIO = [
   "def": "Concepto puro del entendimiento; no viene de la experiencia, pero es necesario para pensar la experiencia como objetiva."
  },
  {
+  "subject": "hf",
   "t": "Cinismo",
   "area": "Ética",
   "bloque": "A",
@@ -209,6 +235,7 @@ const GLOSARIO = [
   "def": "La escuela helenística que critica las convenciones sociales y propone vivir según la naturaleza, con pocas necesidades y con autarquía."
  },
  {
+  "subject": "hf",
   "t": "Circunstancia",
   "area": "Antropología",
   "bloque": "C",
@@ -217,6 +244,7 @@ const GLOSARIO = [
   "def": "En Ortega, el conjunto de condiciones históricas, sociales, materiales y personales que componen la vida concreta. No es decorado: es parte del yo."
  },
  {
+  "subject": "hf",
   "t": "Ciudadanía limitada",
   "area": "Política",
   "bloque": "C",
@@ -225,6 +253,7 @@ const GLOSARIO = [
   "def": "Que una sociedad que usa el lenguaje de los derechos universales, en la práctica, no reconozca a ciertos grupos como sujetos políticos plenos."
  },
  {
+  "subject": "hf",
   "t": "Clase media",
   "area": "Política",
   "bloque": "A",
@@ -233,6 +262,7 @@ const GLOSARIO = [
   "def": "Para Aristóteles, el grupo social que refuerza la estabilidad de la polis, porque suaviza los intereses extremos."
  },
  {
+  "subject": "hf",
   "t": "Cogito",
   "area": "Antropología",
   "bloque": "B",
@@ -241,6 +271,7 @@ const GLOSARIO = [
   "def": "La primera certeza que expresa la fórmula \"pienso; luego existo\": el sujeto que duda no puede deshacerse negando su propio pensar."
  },
  {
+  "subject": "hf",
   "t": "Colaboración fe-razón",
   "area": "Religión",
   "bloque": "B",
@@ -249,6 +280,7 @@ const GLOSARIO = [
   "def": "Para Agustín, la fe y la razón se impulsan mutuamente: la razón busca, la fe orienta, y la razón vuelve a profundizar."
  },
  {
+  "subject": "hf",
   "t": "Colonialismo",
   "area": "Política",
   "bloque": "C",
@@ -257,6 +289,7 @@ const GLOSARIO = [
   "def": "La dependencia política, económica y cultural de un país o pueblo. Para Fanon, el colonialismo hiere también la autoimagen del sujeto."
  },
  {
+  "subject": "hf",
   "t": "Consumismo",
   "area": "Economía",
   "bloque": "C",
@@ -265,6 +298,7 @@ const GLOSARIO = [
   "def": "Aparece cuando el consumo pasa de ser actividad para satisfacer necesidades a lógica social que organiza la identidad, el prestigio y el deseo. En la crítica de Klein, las marcas y la publicidad naturalizan ese poder económico."
  },
  {
+  "subject": "hf",
   "t": "Contrasexualidad",
   "area": "Feminismo",
   "bloque": "C",
@@ -273,6 +307,7 @@ const GLOSARIO = [
   "def": "Es la perspectiva que pone en duda las clasificaciones naturalizadas de los cuerpos y las identidades sexuales. El objetivo no es crear otra norma fija, sino dejar al descubierto cómo las normas producen los cuerpos."
  },
  {
+  "subject": "hf",
   "t": "Contrato social",
   "area": "Política",
   "bloque": "B",
@@ -281,6 +316,7 @@ const GLOSARIO = [
   "def": "El modelo que explica el poder legítimo mediante un consentimiento teórico de los ciudadanos."
  },
  {
+  "subject": "hf",
   "t": "Conversión",
   "area": "Religión",
   "bloque": "B",
@@ -289,6 +325,7 @@ const GLOSARIO = [
   "def": "En Agustín no es un mero cambio de opinión. Es reorganizar la dirección entera de la vida: la verdad, la voluntad y la búsqueda de Dios se anudan."
  },
  {
+  "subject": "hf",
   "t": "Cosmopolitismo",
   "area": "Política",
   "bloque": "C",
@@ -297,6 +334,7 @@ const GLOSARIO = [
   "def": "Los seres humanos no son meros miembros de un Estado; tienen derechos y deberes compartidos en un mundo común."
  },
  {
+  "subject": "hf",
   "t": "Crisis ecológica",
   "area": "Ecología",
   "bloque": "C",
@@ -305,6 +343,7 @@ const GLOSARIO = [
   "def": "La amenaza sistémica creada como consecuencia de las lógicas de producción, consumo y poder."
  },
  {
+  "subject": "hf",
   "t": "Criticismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -313,6 +352,7 @@ const GLOSARIO = [
   "def": "En Kant, la actitud que examina la capacidad y los límites de la razón; quiere superar el dogmatismo y el escepticismo."
  },
  {
+  "subject": "hf",
   "t": "Crítica",
   "area": "Método",
   "bloque": "C",
@@ -321,6 +361,7 @@ const GLOSARIO = [
   "def": "Examinar la capacidad, el límite y los usos legítimos de la razón; no mera destrucción, sino juicio responsable."
  },
  {
+  "subject": "hf",
   "t": "Crítica material",
   "area": "Método",
   "bloque": "C",
@@ -329,6 +370,7 @@ const GLOSARIO = [
   "def": "Examinar las ideas, las leyes y las instituciones en conexión con sus condiciones económicas e históricas."
  },
  {
+  "subject": "hf",
   "t": "Darwinismo social",
   "area": "Política",
   "bloque": "C",
@@ -337,6 +379,7 @@ const GLOSARIO = [
   "def": "La ideología que usa la explicación biológica de Darwin para justificar la desigualdad social, el colonialismo o la competencia económica salvaje."
  },
  {
+  "subject": "hf",
   "t": "Dasein",
   "area": "Antropología",
   "bloque": "C",
@@ -345,6 +388,7 @@ const GLOSARIO = [
   "def": "El término que usa Heidegger nombra al ser humano, pero no como mero objeto biológico: es el ser que puede preguntar por su ser y que está situado en el mundo."
  },
  {
+  "subject": "hf",
   "t": "Deber",
   "area": "Ética",
   "bloque": "C",
@@ -353,6 +397,7 @@ const GLOSARIO = [
   "def": "Actuar por respeto a la ley moral; no solo coincidir con la norma, sino tener la motivación moral correcta."
  },
  {
+  "subject": "hf",
   "t": "Deconstrucción",
   "area": "Lenguaje",
   "bloque": "C",
@@ -361,6 +406,7 @@ const GLOSARIO = [
   "def": "Es el método que hace aflorar las jerarquías binarias de la filosofía occidental y rompe su aparente naturalidad. No quiere destruir, sino mostrar las bases ocultas de la construcción."
  },
  {
+  "subject": "hf",
   "t": "Degeneración de los regímenes",
   "area": "Política",
   "bloque": "A",
@@ -369,6 +415,7 @@ const GLOSARIO = [
   "def": "La cadena política que describe Platón: de la aristocracia a la timocracia, la oligarquía, la democracia y la tiranía."
  },
  {
+  "subject": "hf",
   "t": "Derechos naturales",
   "area": "Política",
   "bloque": "B",
@@ -377,6 +424,7 @@ const GLOSARIO = [
   "def": "Los derechos que corresponden a la persona antes que el Estado; en el caso de Locke, la vida, la libertad y la propiedad."
  },
  {
+  "subject": "hf",
   "t": "Descentramiento biológico",
   "area": "Ciencia",
   "bloque": "C",
@@ -385,6 +433,7 @@ const GLOSARIO = [
   "def": "En lugar de entender al ser humano como excepción por encima de la naturaleza, situarlo dentro de la historia evolutiva de la vida."
  },
  {
+  "subject": "hf",
   "t": "Descolonización",
   "area": "Política",
   "bloque": "C",
@@ -393,6 +442,7 @@ const GLOSARIO = [
   "def": "El proceso de liberarse de la dominación colonial. Para Fanon, no es solo cambiar la estructura política, sino también reconstruir la subjetividad y la dignidad."
  },
  {
+  "subject": "hf",
   "t": "Deseo productivo",
   "area": "Sociedad",
   "bloque": "C",
@@ -401,6 +451,7 @@ const GLOSARIO = [
   "def": "Para Deleuze y Guattari el deseo no es solo una falta privada. Es también la fuerza social que crea relaciones, cuerpos, imágenes e instituciones."
  },
  {
+  "subject": "hf",
   "t": "Deshacer el género",
   "area": "Feminismo",
   "bloque": "C",
@@ -409,6 +460,7 @@ const GLOSARIO = [
   "def": "La propuesta de Butler es no aceptar las categorías binarias de género como si fueran naturales, sino dejar al descubierto su carácter performativo e histórico."
  },
  {
+  "subject": "hf",
   "t": "Después de la sospecha",
   "area": "Hermenéutica",
   "bloque": "C",
@@ -417,6 +469,7 @@ const GLOSARIO = [
   "def": "Tras hacer la crítica, la pregunta no es solo qué mentira se ha roto, sino qué significado, institución o práctica puede reconstruirse."
  },
  {
+  "subject": "hf",
   "t": "Deus sive Natura",
   "area": "Metafísica",
   "bloque": "B",
@@ -425,6 +478,7 @@ const GLOSARIO = [
   "def": "\"Dios o la Naturaleza\": la fórmula central de Spinoza. Hay una sola sustancia, y todas las cosas son modos o expresiones suyas."
  },
  {
+  "subject": "hf",
   "t": "Dialéctica",
   "area": "Método",
   "bloque": "C",
@@ -433,6 +487,7 @@ const GLOSARIO = [
   "def": "El modo de entender la realidad como proceso: cada forma crea su límite, ese límite se vuelve contradicción, y de la contradicción nace una forma nueva."
  },
  {
+  "subject": "hf",
   "t": "Dialéctica materialista",
   "area": "Método",
   "bloque": "C",
@@ -441,6 +496,7 @@ const GLOSARIO = [
   "def": "Situar las contradicciones históricas en las condiciones materiales: trabajo, propiedad, producción y relaciones de clase."
  },
  {
+  "subject": "hf",
   "t": "Dialéctica negativa",
   "area": "Método",
   "bloque": "C",
@@ -449,6 +505,7 @@ const GLOSARIO = [
   "def": "En la propuesta de Adorno, el pensamiento no debe tener prisa por cerrar la realidad en una fórmula pacífica. Intenta escuchar lo que los conceptos no atrapan del todo."
  },
  {
+  "subject": "hf",
   "t": "Différance",
   "area": "Lenguaje",
   "bloque": "C",
@@ -457,6 +514,7 @@ const GLOSARIO = [
   "def": "El concepto de Derrida expresa que el significado no está nunca del todo presente, sino que queda siempre en el juego de la diferencia y el aplazamiento. El sentido no se fija metafísicamente."
  },
  {
+  "subject": "hf",
   "t": "Dignidad",
   "area": "Ética",
   "bloque": "C",
@@ -465,6 +523,7 @@ const GLOSARIO = [
   "def": "El valor absoluto de la persona; no es precio, utilidad ni sustituibilidad."
  },
  {
+  "subject": "hf",
   "t": "Dignitas hominis",
   "area": "Antropología",
   "bloque": "B",
@@ -473,6 +532,7 @@ const GLOSARIO = [
   "def": "La dignidad del hombre (lat.): el humanismo renacentista (Pico della Mirandola) defendió que el ser humano no tiene una naturaleza fija, que es un ser capaz de construirse a sí mismo en libertad."
  },
  {
+  "subject": "hf",
   "t": "Discriminación algorítmica",
   "area": "Tecnología",
   "bloque": "C",
@@ -481,6 +541,7 @@ const GLOSARIO = [
   "def": "Es la injusticia que ocurre cuando los sistemas automatizados pueden repetir y reforzar las desigualdades de los datos históricos o los prejuicios del diseño."
  },
  {
+  "subject": "hf",
   "t": "Distinción sexo-género",
   "area": "Feminismo",
   "bloque": "C",
@@ -489,6 +550,7 @@ const GLOSARIO = [
   "def": "La tradición feminista ha distinguido el sexo como dato biológico y el género como construcción cultural. Butler problematiza esa distinción, argumentando que también el sexo se construye mediante normas sociales."
  },
  {
+  "subject": "hf",
   "t": "Doxa",
   "area": "Epistemología",
   "bloque": "A",
@@ -497,6 +559,7 @@ const GLOSARIO = [
   "def": "La opinión o creencia corriente. Se mueve en el ámbito de los sentidos y las apariencias, y carece de la solidez de la episteme."
  },
  {
+  "subject": "hf",
   "t": "Dualismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -505,6 +568,7 @@ const GLOSARIO = [
   "def": "La postura que entiende la mente y el cuerpo como tipos distintos de realidad; su problema principal es explicar el vínculo entre ambos."
  },
  {
+  "subject": "hf",
   "t": "Dualismo ontológico",
   "area": "Metafísica",
   "bloque": "A",
@@ -513,6 +577,7 @@ const GLOSARIO = [
   "def": "Distinguir la realidad en dos niveles: el mundo sensible cambiante y el mundo inteligible e inmutable de las Ideas."
  },
  {
+  "subject": "hf",
   "t": "Duda metódica",
   "area": "Epistemología",
   "bloque": "B",
@@ -521,6 +586,7 @@ const GLOSARIO = [
   "def": "La duda sistemática empleada para encontrar una certeza sólida; no quiere destruir el conocimiento, sino buscar un fundamento seguro."
  },
  {
+  "subject": "hf",
   "t": "Ecodependencia",
   "area": "Ecología",
   "bloque": "C",
@@ -529,6 +595,7 @@ const GLOSARIO = [
   "def": "Es la idea de que la vida humana depende de las condiciones materiales y energéticas de la naturaleza. No hay economía fuera de la biosfera."
  },
  {
+  "subject": "hf",
   "t": "Educación igualitaria",
   "area": "Educación",
   "bloque": "C",
@@ -537,6 +604,7 @@ const GLOSARIO = [
   "def": "El principio que defiende que todas las personas deben formarse para usar la razón y actuar como ciudadanas."
  },
  {
+  "subject": "hf",
   "t": "El absurdo",
   "area": "Antropología",
   "bloque": "C",
@@ -545,6 +613,7 @@ const GLOSARIO = [
   "def": "Para Camus, el ser humano quiere sentido, orden y claridad, pero el mundo no satisface automáticamente esa exigencia. Del choque entre ambos nace el absurdo."
  },
  {
+  "subject": "hf",
   "t": "El amo y el esclavo",
   "area": "Antropología",
   "bloque": "C",
@@ -553,6 +622,7 @@ const GLOSARIO = [
   "def": "La célebre dialéctica de Hegel: la lucha por el reconocimiento entre dos autoconciencias. El esclavo, mediante el trabajo, abre el camino a la libertad; gran influencia en Marx y en el existencialismo."
  },
  {
+  "subject": "hf",
   "t": "El Bien",
   "area": "Epistemología",
   "bloque": "A",
@@ -561,6 +631,7 @@ const GLOSARIO = [
   "def": "La cima de la jerarquía de las Ideas. El principio supremo que ilumina el conocimiento y el ser, representado por el sol en la alegoría de la caverna."
  },
  {
+  "subject": "hf",
   "t": "El búho de Minerva",
   "area": "Metafísica",
   "bloque": "C",
@@ -569,6 +640,7 @@ const GLOSARIO = [
   "def": "\"El búho de Minerva emprende el vuelo al atardecer\": la filosofía entiende los hechos después de que sucedan, no de antemano."
  },
  {
+  "subject": "hf",
   "t": "El Canon de medicina",
   "area": "Ciencia",
   "bloque": "B",
@@ -577,6 +649,7 @@ const GLOSARIO = [
   "def": "al-Qanun fi al-Tibb. La enciclopedia médica de Avicena, que fue durante siglos el libro de texto de referencia en Europa y en el mundo islámico."
  },
  {
+  "subject": "hf",
   "t": "El criterio de autoridad",
   "area": "Epistemología",
   "bloque": "B",
@@ -585,6 +658,7 @@ const GLOSARIO = [
   "def": "Aceptar algo como verdadero porque lo garantiza una autoridad antigua; en el Renacimiento ese criterio se puso en duda y se dio más lugar a la observación."
  },
  {
+  "subject": "hf",
   "t": "El destino",
   "area": "Feminismo",
   "bloque": "C",
@@ -593,6 +667,7 @@ const GLOSARIO = [
   "def": "Es la idea que critica Beauvoir: que la mujer tiene su destino decidido por la biología o la tradición social. A su juicio, ese destino es una construcción histórica, y la libertad puede romperlo."
  },
  {
+  "subject": "hf",
   "t": "El Estado (Hegel)",
   "area": "Política",
   "bloque": "C",
@@ -601,6 +676,7 @@ const GLOSARIO = [
   "def": "La cumbre del espíritu objetivo: el ámbito donde la libertad racional se realiza en la institución común, por encima de la familia y la sociedad civil."
  },
  {
+  "subject": "hf",
   "t": "El genio maligno",
   "area": "Método",
   "bloque": "B",
@@ -609,6 +685,7 @@ const GLOSARIO = [
   "def": "La hipótesis para llevar la duda al extremo: aunque todo lo que el sujeto piensa fuera engañoso, el propio sujeto que duda no puede borrarse."
  },
  {
+  "subject": "hf",
   "t": "El hombre volador",
   "area": "Epistemología",
   "bloque": "B",
@@ -617,6 +694,7 @@ const GLOSARIO = [
   "def": "El experimento mental de Avicena: el argumento para demostrar que la autoconciencia del alma es independiente de la percepción del cuerpo."
  },
  {
+  "subject": "hf",
   "t": "El Liceo",
   "area": "Educación",
   "bloque": "A",
@@ -625,6 +703,7 @@ const GLOSARIO = [
   "def": "La escuela fundada por Aristóteles en Atenas. Unía la investigación sistemática, la clasificación, la observación y el razonamiento lógico."
  },
  {
+  "subject": "hf",
   "t": "El malestar en la cultura",
   "area": "Psicología",
   "bloque": "C",
@@ -633,6 +712,7 @@ const GLOSARIO = [
   "def": "La tesis de que la sociedad da seguridad y convivencia, pero crea también el control del deseo, la culpa y costosos límites internos."
  },
  {
+  "subject": "hf",
   "t": "El mito de la caverna",
   "area": "Epistemología",
   "bloque": "A",
@@ -641,6 +721,7 @@ const GLOSARIO = [
   "def": "Alegoría que simboliza la situación de los seres humanos corrientes: viven entre apariencias (sombras) hasta ser liberados. Es la imagen del ascenso dialéctico y de la educación."
  },
  {
+  "subject": "hf",
   "t": "El mito de la maternidad",
   "area": "Feminismo",
   "bloque": "C",
@@ -649,6 +730,7 @@ const GLOSARIO = [
   "def": "La maternidad se presenta a menudo como fin natural de la mujer; Beauvoir muestra que ese mito naturaliza el reparto desequilibrado del trabajo de cuidados."
  },
  {
+  "subject": "hf",
   "t": "El mundo de la vida (Lebenswelt)",
   "area": "Antropología",
   "bloque": "C",
@@ -657,6 +739,7 @@ const GLOSARIO = [
   "def": "El «mundo de la vida» de Husserl (al. Lebenswelt): el mundo de experiencia vivido que está antes y debajo de la ciencia, lleno de sentido cotidiano. El existencialismo parte de ahí para explicar que el ser humano está situado en el mundo."
  },
  {
+  "subject": "hf",
   "t": "El problema de la inducción",
   "area": "Epistemología",
   "bloque": "B",
@@ -665,6 +748,7 @@ const GLOSARIO = [
   "def": "La tendencia a extraer conclusiones generales sobre el futuro desde las experiencias pasadas; para Hume no puede demostrarse lógicamente, la sostienen el hábito y la probabilidad."
  },
  {
+  "subject": "hf",
   "t": "El problema de los dos mundos",
   "area": "Metafísica",
   "bloque": "A",
@@ -673,6 +757,7 @@ const GLOSARIO = [
   "def": "El dualismo platónico deja una pregunta: ¿cómo se conectan el mundo de las Ideas y las cosas sensibles? Aristóteles responde situando las formas en las cosas mismas."
  },
  {
+  "subject": "hf",
   "t": "El rechazo de las Ideas",
   "area": "Metafísica",
   "bloque": "A",
@@ -681,6 +766,7 @@ const GLOSARIO = [
   "def": "Aristóteles critica que las formas se sitúen aparte de las cosas; cree que eso duplica la realidad."
  },
  {
+  "subject": "hf",
   "t": "El ser",
   "area": "Metafísica",
   "bloque": "B",
@@ -689,6 +775,7 @@ const GLOSARIO = [
   "def": "Eje esencial de la metafísica tomista; la clave para entender el nivel de realidad del que participan los seres finitos."
  },
  {
+  "subject": "hf",
   "t": "El ser (Parménides)",
   "area": "Metafísica",
   "bloque": "A",
@@ -697,6 +784,7 @@ const GLOSARIO = [
   "def": "Único, continuo, completo, inmutable, eterno. El cambio que dan los sentidos es pura apariencia. Solo se conoce mediante la razón."
  },
  {
+  "subject": "hf",
   "t": "El Ser Necesario",
   "area": "Metafísica",
   "bloque": "B",
@@ -705,6 +793,7 @@ const GLOSARIO = [
   "def": "El ser cuya existencia coincide con su esencia. Para Avicena, la cadena de los seres contingentes exige este primer fundamento."
  },
  {
+  "subject": "hf",
   "t": "El tercer hombre",
   "area": "Metafísica",
   "bloque": "A",
@@ -713,6 +802,7 @@ const GLOSARIO = [
   "def": "Crítica a la teoría de las Ideas: si la cosa y la Idea son semejantes, haría falta otra Idea para explicar su semejanza, y eso generaría una regresión infinita."
  },
  {
+  "subject": "hf",
   "t": "El vacío",
   "area": "Metafísica",
   "bloque": "A",
@@ -721,6 +811,7 @@ const GLOSARIO = [
   "def": "Para los atomistas, el espacio no lleno que hace posible el movimiento. Frente a Parménides, aceptar el vacío es un paso decisivo."
  },
  {
+  "subject": "hf",
   "t": "El ángel de la historia",
   "area": "Historia",
   "bloque": "C",
@@ -729,6 +820,7 @@ const GLOSARIO = [
   "def": "La imagen de Benjamin: el progreso no es mejora tranquila, sino acumulación de catástrofes; el ángel quiere mirar al pasado, pero la tormenta del \"progreso\" lo empuja hacia adelante."
  },
  {
+  "subject": "hf",
   "t": "Emotivismo",
   "area": "Ética",
   "bloque": "B",
@@ -737,6 +829,7 @@ const GLOSARIO = [
   "def": "Hume: los juicios morales no vienen de la razón, sino del sentimiento. Al decir «bueno» o «malo», expresamos un sentimiento de aprobación o rechazo, no un hecho objetivo."
  },
  {
+  "subject": "hf",
   "t": "Empirismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -745,6 +838,7 @@ const GLOSARIO = [
   "def": "La tradición que defiende que el conocimiento parte de la experiencia, los sentidos y la observación."
  },
  {
+  "subject": "hf",
   "t": "Episteme",
   "area": "Epistemología",
   "bloque": "A",
@@ -753,6 +847,7 @@ const GLOSARIO = [
   "def": "El conocimiento verdadero. Se alcanza cuando la razón comprende las Ideas y sus conexiones."
  },
  {
+  "subject": "hf",
   "t": "Eros y liberación",
   "area": "Estética",
   "bloque": "C",
@@ -761,6 +856,7 @@ const GLOSARIO = [
   "def": "Marcuse no entiende el deseo solo como riesgo privado. El cuerpo, la imaginación y el arte pueden ser fuerza crítica contra la normalidad cotidiana."
  },
  {
+  "subject": "hf",
   "t": "Escolástica",
   "area": "Método",
   "bloque": "B",
@@ -769,6 +865,7 @@ const GLOSARIO = [
   "def": "El método de pensamiento desarrollado en las universidades medievales: busca la verdad mediante preguntas, argumentos, objeciones y respuestas sistemáticas."
  },
  {
+  "subject": "hf",
   "t": "Esfera pública",
   "area": "Política",
   "bloque": "C",
@@ -777,6 +874,7 @@ const GLOSARIO = [
   "def": "El espacio social y político donde los ciudadanos debaten los asuntos comunes, critican el poder y forman una opinión razonada."
  },
  {
+  "subject": "hf",
   "t": "Espacio público",
   "area": "Política",
   "bloque": "C",
@@ -785,6 +883,7 @@ const GLOSARIO = [
   "def": "El lugar para el debate político y la acción, donde los ciudadanos hablan y se escuchan. Allí nace el poder."
  },
  {
+  "subject": "hf",
   "t": "Espíritu objetivo",
   "area": "Política",
   "bloque": "C",
@@ -793,6 +892,7 @@ const GLOSARIO = [
   "def": "En el sistema de Hegel, el nivel en que la libertad se realiza en instituciones: el derecho, la moralidad, la familia, la sociedad civil y el Estado."
  },
  {
+  "subject": "hf",
   "t": "Esquematismo",
   "area": "Epistemología",
   "bloque": "C",
@@ -801,6 +901,7 @@ const GLOSARIO = [
   "def": "El mediador para aplicar las categorías a los fenómenos a través del tiempo; une el concepto puro y la intuición sensible."
  },
  {
+  "subject": "hf",
   "t": "Fabricación del consenso",
   "area": "Política",
   "bloque": "C",
@@ -809,6 +910,7 @@ const GLOSARIO = [
   "def": "Es el proceso de orientar sistemáticamente la opinión pública, presentando como naturales y razonables ciertos intereses políticos o económicos."
  },
  {
+  "subject": "hf",
   "t": "Falacia",
   "area": "Método",
   "bloque": "A",
@@ -817,6 +919,7 @@ const GLOSARIO = [
   "def": "Etimología: del latín fallacia, engaño. Definición: Razonamiento que parece sólido pero no justifica debidamente su conclusión."
  },
  {
+  "subject": "hf",
   "t": "Falsabilidad",
   "area": "Ciencia",
   "bloque": "C",
@@ -825,6 +928,7 @@ const GLOSARIO = [
   "def": "Una teoría es científica si ciertos hechos posibles dan la posibilidad de refutarla. Es el principal criterio de ciencia de Popper."
  },
  {
+  "subject": "hf",
   "t": "Fascismo de consumo",
   "area": "Economía",
   "bloque": "C",
@@ -833,6 +937,7 @@ const GLOSARIO = [
   "def": "En la línea de Pasolini, idea que puede usarse para nombrar el poder de la sociedad de consumo para homogeneizar a los sujetos de modo suave pero profundo."
  },
  {
+  "subject": "hf",
   "t": "Feminismo",
   "area": "Feminismo",
   "bloque": "C",
@@ -841,6 +946,7 @@ const GLOSARIO = [
   "def": "El movimiento teórico y político que quiere criticar y transformar las desigualdades de género históricas y estructurales."
  },
  {
+  "subject": "hf",
   "t": "Fenomenismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -849,6 +955,7 @@ const GLOSARIO = [
   "def": "Todo lo que sabemos de las cosas corresponde al modo en que se nos aparecen (los fenómenos); no podemos conocer qué hay detrás de las apariencias."
  },
  {
+  "subject": "hf",
   "t": "Fenómeno",
   "area": "Epistemología",
   "bloque": "C",
@@ -857,6 +964,7 @@ const GLOSARIO = [
   "def": "La realidad que se nos aparece en la experiencia, estructurada por las condiciones de la sensibilidad y del entendimiento."
  },
  {
+  "subject": "hf",
   "t": "Fetichismo",
   "area": "Economía",
   "bloque": "C",
@@ -865,6 +973,7 @@ const GLOSARIO = [
   "def": "Ocurre cuando las relaciones de trabajo y de poder entre personas aparecen como relaciones naturales entre cosas."
  },
  {
+  "subject": "hf",
   "t": "Genealogía de la moral",
   "area": "Política",
   "bloque": "C",
@@ -873,6 +982,7 @@ const GLOSARIO = [
   "def": "Método crítico para examinar los valores morales según sus orígenes históricos, afectivos y de poder."
  },
  {
+  "subject": "hf",
   "t": "Giro antropológico",
   "area": "Antropología",
   "bloque": "A",
@@ -881,6 +991,7 @@ const GLOSARIO = [
   "def": "El paso de la explicación de la naturaleza al examen del ser humano, la educación, el lenguaje y la vida política."
  },
  {
+  "subject": "hf",
   "t": "Giro lingüístico",
   "area": "Lenguaje",
   "bloque": "C",
@@ -889,6 +1000,7 @@ const GLOSARIO = [
   "def": "El cambio metodológico que ocurre cuando la filosofía pone el lenguaje mismo, en lugar de la conciencia o la realidad, en el centro de su análisis. Es el rasgo principal de la filosofía analítica."
  },
  {
+  "subject": "hf",
   "t": "Globalización",
   "area": "Sociedad",
   "bloque": "C",
@@ -897,6 +1009,7 @@ const GLOSARIO = [
   "def": "Es el proceso que liga la economía, la comunicación, la política y los modos de vida en redes mundiales. Crea oportunidades, pero también nuevas dependencias y desigualdades."
  },
  {
+  "subject": "hf",
   "t": "Género filosófico",
   "area": "Texto",
   "bloque": "A",
@@ -905,6 +1018,7 @@ const GLOSARIO = [
   "def": "Definición: Forma escrita o discursiva de organizar y expresar el pensamiento."
  },
  {
+  "subject": "hf",
   "t": "Haz de percepciones",
   "area": "Metafísica",
   "bloque": "B",
@@ -913,6 +1027,7 @@ const GLOSARIO = [
   "def": "La tendencia a entender el yo permanente no como una sustancia única, sino como un conjunto de percepciones y experiencias cambiantes."
  },
  {
+  "subject": "hf",
   "t": "Hegemonía cultural",
   "area": "Política",
   "bloque": "C",
@@ -921,6 +1036,7 @@ const GLOSARIO = [
   "def": "La capacidad de un grupo dominante para convertir su visión del mundo en sentido común de una sociedad. No es solo fuerza: también consentimiento, costumbre y cultura."
  },
  {
+  "subject": "hf",
   "t": "Helenismo",
   "area": "Historia",
   "bloque": "A",
@@ -929,6 +1045,7 @@ const GLOSARIO = [
   "def": "La época posterior a Alejandro: la cultura griega se extendió por el Mediterráneo oriental y el Próximo Oriente, y la filosofía adoptó una orientación vital más práctica."
  },
  {
+  "subject": "hf",
   "t": "Hermenéutica",
   "area": "Lenguaje",
   "bloque": "C",
@@ -937,6 +1054,7 @@ const GLOSARIO = [
   "def": "Entender no es recibir un dato limpio: es interpretar textos, símbolos, síntomas y discursos."
  },
  {
+  "subject": "hf",
   "t": "Hilemorfismo",
   "area": "Metafísica",
   "bloque": "A",
@@ -945,6 +1063,7 @@ const GLOSARIO = [
   "def": "La teoría según la cual los seres concretos se componen de materia y forma. La forma no está fuera de las cosas; es la estructura misma de la cosa."
  },
  {
+  "subject": "hf",
   "t": "Hilozoísmo",
   "area": "Metafísica",
   "bloque": "A",
@@ -953,6 +1072,7 @@ const GLOSARIO = [
   "def": "La visión de que la materia está viva por sí misma y dotada de movimiento (gr. hýlē, materia + zōḗ, vida). Los físicos de Mileto entendieron el arkhé como algo viviente, sin separar vida y materia."
  },
  {
+  "subject": "hf",
   "t": "Historicidad",
   "area": "Historia",
   "bloque": "A",
@@ -961,6 +1081,7 @@ const GLOSARIO = [
   "def": "Etimología: historia + -idad, carácter o condición. Definición: El pensamiento está siempre situado en una época, una sociedad y una cultura concretas."
  },
  {
+  "subject": "hf",
   "t": "Historización",
   "area": "Historia",
   "bloque": "C",
@@ -969,6 +1090,7 @@ const GLOSARIO = [
   "def": "El ser humano, la razón y las instituciones no son solo formas fuera del tiempo; son realidades que nacen, cambian y se desarrollan en conflicto dentro de procesos históricos."
  },
  {
+  "subject": "hf",
   "t": "Homeomerías",
   "area": "Metafísica",
   "bloque": "A",
@@ -977,6 +1099,7 @@ const GLOSARIO = [
   "def": "Según Anaxágoras, las semillas o partes infinitamente pequeñas que componen la realidad, cada una con algo de todas las cosas. El Nous (la inteligencia) las organiza para crear el mundo desde la mezcla inicial."
  },
  {
+  "subject": "hf",
   "t": "Huelga de masas",
   "area": "Política",
   "bloque": "C",
@@ -985,6 +1108,7 @@ const GLOSARIO = [
   "def": "La idea de Luxemburg: la acción colectiva espontánea de los trabajadores, que crea conciencia y organización, frente al control de arriba abajo del partido."
  },
  {
+  "subject": "hf",
   "t": "Humanismo",
   "area": "Antropología",
   "bloque": "B",
@@ -993,6 +1117,7 @@ const GLOSARIO = [
   "def": "La corriente que vuelve a los textos clásicos y subraya la capacidad creadora del ser humano."
  },
  {
+  "subject": "hf",
   "t": "Hábito",
   "area": "Epistemología",
   "bloque": "B",
@@ -1001,6 +1126,7 @@ const GLOSARIO = [
   "def": "La expectativa que nace tras ver juntos, una y otra vez, ciertos acontecimientos. Para Hume, la creencia práctica en la causalidad viene del hábito."
  },
  {
+  "subject": "hf",
   "t": "Idea regulativa",
   "area": "Metafísica",
   "bloque": "C",
@@ -1009,6 +1135,7 @@ const GLOSARIO = [
   "def": "No es objeto del conocimiento teórico, pero sirve para orientar el pensamiento y la investigación."
  },
  {
+  "subject": "hf",
   "t": "Ideas claras y distintas",
   "area": "Epistemología",
   "bloque": "B",
@@ -1017,6 +1144,7 @@ const GLOSARIO = [
   "def": "Las ideas que se presentan al entendimiento sin confusión y con evidencia; para Descartes forman el núcleo del criterio de verdad."
  },
  {
+  "subject": "hf",
   "t": "Ideología",
   "area": "Sociedad",
   "bloque": "C",
@@ -1025,6 +1153,7 @@ const GLOSARIO = [
   "def": "Forma de conciencia que presenta las relaciones históricas y sociales como si fueran naturales, justas o inmutables."
  },
  {
+  "subject": "hf",
   "t": "Igualdad formal / material",
   "area": "Feminismo",
   "bloque": "C",
@@ -1033,6 +1162,7 @@ const GLOSARIO = [
   "def": "Que la ley reconozca el mismo derecho no siempre basta. La igualdad material debe tener en cuenta también las oportunidades reales, las condiciones de vida y los obstáculos sociales."
  },
  {
+  "subject": "hf",
   "t": "Imperialismo",
   "area": "Economía",
   "bloque": "C",
@@ -1041,6 +1171,7 @@ const GLOSARIO = [
   "def": "La expansión global del capitalismo avanzado: crea dependencias a escala mundial mediante los mercados, las materias primas, las colonias y el poder financiero."
  },
  {
+  "subject": "hf",
   "t": "Impresión",
   "area": "Epistemología",
   "bloque": "B",
@@ -1049,6 +1180,7 @@ const GLOSARIO = [
   "def": "La percepción viva e intensa de la experiencia: ver, oír, sentir, el dolor o el placer. Las ideas son copias más débiles de las impresiones."
  },
  {
+  "subject": "hf",
   "t": "Inconmensurabilidad",
   "area": "Ciencia",
   "bloque": "C",
@@ -1057,6 +1189,7 @@ const GLOSARIO = [
   "def": "Que los términos de paradigmas distintos no pueden traducirse o compararse directamente entre sí; el significado se fija dentro del paradigma entero."
  },
  {
+  "subject": "hf",
   "t": "Industria cultural",
   "area": "Estética",
   "bloque": "C",
@@ -1065,6 +1198,7 @@ const GLOSARIO = [
   "def": "El sistema que nace cuando la cultura se produce según la lógica del mercado: puede estandarizar los productos, guiar el deseo y adormecer la conciencia crítica."
  },
  {
+  "subject": "hf",
   "t": "Infraestructura / superestructura",
   "area": "Sociedad",
   "bloque": "C",
@@ -1073,6 +1207,7 @@ const GLOSARIO = [
   "def": "El vínculo entre la base económica y las formas jurídicas, políticas y culturales que se construyen sobre ella."
  },
  {
+  "subject": "hf",
   "t": "Inmaterialismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -1081,6 +1216,7 @@ const GLOSARIO = [
   "def": "La tesis de Berkeley: la materia no existe como sustancia independiente; lo que existe son las ideas percibidas y las mentes que las perciben. Su principio es «esse est percipi» («ser es ser percibido»). Consecuencia radical del empirismo."
  },
  {
+  "subject": "hf",
   "t": "Innatismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -1089,6 +1225,7 @@ const GLOSARIO = [
   "def": "Algunas ideas y principios los tiene el propio entendimiento desde el nacimiento, al margen de la experiencia. Base del racionalismo; tiene vínculo con la anámnesis platónica."
  },
  {
+  "subject": "hf",
   "t": "Intelectualismo moral",
   "area": "Ética",
   "bloque": "A",
@@ -1097,6 +1234,7 @@ const GLOSARIO = [
   "def": "Según Sócrates, quien conoce de verdad el bien no obraría mal a propósito. La raíz del mal es la ignorancia."
  },
  {
+  "subject": "hf",
   "t": "Intencionalidad",
   "area": "Epistemología",
   "bloque": "C",
@@ -1105,6 +1243,7 @@ const GLOSARIO = [
   "def": "Rasgo básico de la fenomenología (Husserl): la conciencia es siempre «conciencia de algo», siempre dirigida a algo. Pensar, querer o temer tienen siempre un objeto."
  },
  {
+  "subject": "hf",
   "t": "Interioridad",
   "area": "Religión",
   "bloque": "B",
@@ -1113,6 +1252,7 @@ const GLOSARIO = [
   "def": "Acudir a la experiencia interior del sujeto en la búsqueda de la verdad, pero sin quedarse en las meras opiniones propias."
  },
  {
+  "subject": "hf",
   "t": "Interseccionalidad",
   "area": "Feminismo",
   "bloque": "C",
@@ -1121,6 +1261,7 @@ const GLOSARIO = [
   "def": "Es la perspectiva que examina cómo los ejes de opresión se cruzan entre sí: el género, la clase, la raza, la sexualidad, la capacidad o la migración no siempre se entienden por separado."
  },
  {
+  "subject": "hf",
   "t": "Intuiciones puras",
   "area": "Epistemología",
   "bloque": "C",
@@ -1129,6 +1270,7 @@ const GLOSARIO = [
   "def": "El espacio y el tiempo: las formas a priori con que la sensibilidad recibe los fenómenos."
  },
  {
+  "subject": "hf",
   "t": "Ironía socrática",
   "area": "Método",
   "bloque": "A",
@@ -1137,6 +1279,7 @@ const GLOSARIO = [
   "def": "Sócrates confiesa que no sabe y pone a prueba las firmes creencias de su interlocutor."
  },
  {
+  "subject": "hf",
   "t": "Isegoría",
   "area": "Política",
   "bloque": "A",
@@ -1145,6 +1288,7 @@ const GLOSARIO = [
   "def": "El derecho igual de los ciudadanos a hablar en la asamblea. Expresa el ideal democrático de la palabra pública."
  },
  {
+  "subject": "hf",
   "t": "Isomorfismo",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1153,6 +1297,7 @@ const GLOSARIO = [
   "def": "Según el primer Wittgenstein, la idea de que la estructura lógica del lenguaje y la estructura de los hechos del mundo pueden compartir la misma forma. Así, el lenguaje es la figura lógica del mundo."
  },
  {
+  "subject": "hf",
   "t": "Isonomía",
   "area": "Política",
   "bloque": "A",
@@ -1161,6 +1306,7 @@ const GLOSARIO = [
   "def": "El principio de que todos los ciudadanos son iguales ante la ley. Es la condición formal de la democracia."
  },
  {
+  "subject": "hf",
   "t": "Juego de lenguaje",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1169,6 +1315,7 @@ const GLOSARIO = [
   "def": "El uso del lenguaje en un contexto determinado, con sus propias reglas. Según el segundo Wittgenstein, el significado se liga al uso, no a una referencia fija."
  },
  {
+  "subject": "hf",
   "t": "Juicio y conciencia",
   "area": "Ética política",
   "bloque": "A",
@@ -1177,6 +1324,7 @@ const GLOSARIO = [
   "def": "El juicio de Sócrates deja una pregunta afilada: ¿hay que obedecer siempre la ley, o la conciencia exige otra responsabilidad ante una ley injusta?"
  },
  {
+  "subject": "hf",
   "t": "Justicia",
   "area": "Política",
   "bloque": "A",
@@ -1185,6 +1333,7 @@ const GLOSARIO = [
   "def": "Para Platón, la justicia no es solo la ley externa. Es la armonía que surge cuando cada parte del alma y de la ciudad cumple debidamente su función."
  },
  {
+  "subject": "hf",
   "t": "Koiné",
   "area": "Historia",
   "bloque": "A",
@@ -1193,6 +1342,7 @@ const GLOSARIO = [
   "def": "El griego común (gr. koinḗ) que se extendió por el Mediterráneo oriental en la época helenística. Esa lengua compartida hizo posibles el saber, el comercio y la cultura cosmopolita en el mundo posterior a Alejandro."
  },
  {
+  "subject": "hf",
   "t": "Kultur y Zivilisation",
   "area": "Cultura",
   "bloque": "C",
@@ -1201,6 +1351,7 @@ const GLOSARIO = [
   "def": "Kultur subraya el modo de vida histórico y la creación espiritual de un pueblo; Zivilisation, el progreso técnico, las instituciones y la organización material."
  },
  {
+  "subject": "hf",
   "t": "La Academia",
   "area": "Educación",
   "bloque": "A",
@@ -1209,6 +1360,7 @@ const GLOSARIO = [
   "def": "La escuela filosófica fundada por Platón en Atenas. Unía la educación matemática, la dialéctica y la preparación para el gobierno."
  },
  {
+  "subject": "hf",
   "t": "La ambigüedad",
   "area": "Antropología",
   "bloque": "C",
@@ -1217,6 +1369,7 @@ const GLOSARIO = [
   "def": "Para Beauvoir el ser humano es a la vez libre y condicionado. Por eso, la existencia no es ni una esencia cerrada, ni una libertad pura y sin límites."
  },
  {
+  "subject": "hf",
   "t": "La armonía del cosmos",
   "area": "Psicología",
   "bloque": "B",
@@ -1225,6 +1378,7 @@ const GLOSARIO = [
   "def": "Entender el universo no como puro caos, sino como estructura viva con orden, significado y vínculos."
  },
  {
+  "subject": "hf",
   "t": "La astucia de la razón",
   "area": "Historia",
   "bloque": "C",
@@ -1233,6 +1387,7 @@ const GLOSARIO = [
   "def": "La idea de que las pasiones de los individuos, sin quererlo, cumplen el fin general de la historia (el desarrollo de la libertad). Figuras como Napoleón son instrumentos de la razón."
  },
  {
+  "subject": "hf",
   "t": "La ciudad justa",
   "area": "Política",
   "bloque": "A",
@@ -1241,6 +1396,7 @@ const GLOSARIO = [
   "def": "Para Platón, el orden político que surge cuando cada parte de la ciudad cumple bien su función."
  },
  {
+  "subject": "hf",
   "t": "La construcción del género",
   "area": "Feminismo",
   "bloque": "C",
@@ -1249,6 +1405,7 @@ const GLOSARIO = [
   "def": "Beauvoir sugiere que ser mujer no es un mero dato biológico. La sociedad, la educación y las relaciones de poder hacen entrar a la mujer en un papel determinado."
  },
  {
+  "subject": "hf",
   "t": "La existencia primero",
   "area": "Antropología",
   "bloque": "C",
@@ -1257,6 +1414,7 @@ const GLOSARIO = [
   "def": "Sartre dice que el ser humano no es un objeto fabricado: primero existe, y luego se forma a sí mismo mediante sus actos."
  },
  {
+  "subject": "hf",
   "t": "La felicidad de la mayoría",
   "area": "Ética",
   "bloque": "B",
@@ -1265,6 +1423,7 @@ const GLOSARIO = [
   "def": "La fórmula clásica del utilitarismo: juzgar las decisiones según creen el mayor bienestar para el mayor número posible de personas."
  },
  {
+  "subject": "hf",
   "t": "La garantía de Dios",
   "area": "Metafísica",
   "bloque": "B",
@@ -1273,6 +1432,7 @@ const GLOSARIO = [
   "def": "Para Descartes, un Dios perfecto no nos engaña de forma sistemática; por eso las ideas claras y distintas pueden tener valor de verdad."
  },
  {
+  "subject": "hf",
   "t": "La grieta de la universalidad",
   "area": "Feminismo",
   "bloque": "C",
@@ -1281,6 +1441,7 @@ const GLOSARIO = [
   "def": "La contradicción que surge cuando se dice que los principios son para todos, pero su aplicación se niega a ciertos grupos."
  },
  {
+  "subject": "hf",
   "t": "La muerte de Dios",
   "area": "Religión",
   "bloque": "C",
@@ -1289,6 +1450,7 @@ const GLOSARIO = [
   "def": "Fórmula que expresa el declive de los valores absolutos y de los fundamentos trascendentes. Eso abre el problema del nihilismo."
  },
  {
+  "subject": "hf",
   "t": "La mujer en el medievo",
   "area": "Historia",
   "bloque": "B",
@@ -1297,6 +1459,7 @@ const GLOSARIO = [
   "def": "La figura de Hildegarda muestra que también las mujeres tuvieron una gran producción intelectual y espiritual, aunque las estructuras sociales la limitaran."
  },
  {
+  "subject": "hf",
   "t": "La página en blanco",
   "area": "Epistemología",
   "bloque": "A",
@@ -1305,6 +1468,7 @@ const GLOSARIO = [
   "def": "Aunque el entendimiento esté vacío en acto, tiene el potencial de escribir en él las formas de los seres. Según Aristóteles, el conocimiento viene de la experiencia, pero el entendimiento tiene capacidad de recibir las formas. (Más tarde Locke lo recuperará como «tabula rasa».)"
  },
  {
+  "subject": "hf",
   "t": "La situación",
   "area": "Antropología",
   "bloque": "C",
@@ -1313,6 +1477,7 @@ const GLOSARIO = [
   "def": "En la línea de Beauvoir y de Ortega y Gasset, el sujeto no elige desde la nada: su cuerpo, las condiciones de su época y las relaciones sociales lo sitúan."
  },
  {
+  "subject": "hf",
   "t": "La sociedad del cansancio",
   "area": "Sociedad",
   "bloque": "C",
@@ -1321,6 +1486,7 @@ const GLOSARIO = [
   "def": "La situación en que el mandato del rendimiento convierte la autoexplotación y el agotamiento en algo sistemático."
  },
  {
+  "subject": "hf",
   "t": "La verdad interior",
   "area": "Antropología",
   "bloque": "B",
@@ -1329,6 +1495,7 @@ const GLOSARIO = [
   "def": "La idea agustiniana: la verdad se encuentra en el interior del ser humano, no fuera. El principal precedente del giro cartesiano hacia el sujeto."
  },
  {
+  "subject": "hf",
   "t": "Las cuatro causas",
   "area": "Metafísica",
   "bloque": "A",
@@ -1337,6 +1504,7 @@ const GLOSARIO = [
   "def": "Aristóteles distingue la causa material, la formal, la eficiente y la final para explicar las cosas de forma más completa."
  },
  {
+  "subject": "hf",
   "t": "Las olas",
   "area": "Historia",
   "bloque": "C",
@@ -1345,6 +1513,7 @@ const GLOSARIO = [
   "def": "El modo de nombrar las grandes fases históricas del feminismo moderno: del sufragismo a las pluralidades actuales."
  },
  {
+  "subject": "hf",
   "t": "Las raíces del totalitarismo",
   "area": "Política",
   "bloque": "C",
@@ -1353,6 +1522,7 @@ const GLOSARIO = [
   "def": "Según Arendt, los totalitarismos del siglo XX tienen doble raíz: el antisemitismo moderno (el caso Dreyfus) y el imperialismo. Ambos prepararon la crisis del Estado-nación y la atomización de las masas."
  },
  {
+  "subject": "hf",
   "t": "Las tres partes del alma",
   "area": "Antropología",
   "bloque": "A",
@@ -1361,6 +1531,7 @@ const GLOSARIO = [
   "def": "La estructura antropológica que distingue lo racional, lo irascible y lo apetitivo; es también el puente entre la ética y la política."
  },
  {
+  "subject": "hf",
   "t": "Lathe biosas",
   "area": "Ética",
   "bloque": "A",
@@ -1369,6 +1540,7 @@ const GLOSARIO = [
   "def": "El consejo de vida de Epicuro: «vive oculto» (gr. láthe biṓsas). Lejos de la agitada vida política, la serenidad (ataraxia) se busca en el pequeño círculo de amigos y en el placer medido."
  },
  {
+  "subject": "hf",
   "t": "Ley de los tres estadios",
   "area": "Política",
   "bloque": "C",
@@ -1377,6 +1549,7 @@ const GLOSARIO = [
   "def": "Según Comte, la humanidad pasa de la explicación teológica a la metafísica y de ahí al estadio positivo; en este último dominan los hechos y las leyes."
  },
  {
+  "subject": "hf",
   "t": "Ley natural",
   "area": "Política",
   "bloque": "B",
@@ -1385,6 +1558,7 @@ const GLOSARIO = [
   "def": "El fundamento de la norma moral que la razón humana puede percibir en el orden de la naturaleza y de los fines humanos."
  },
  {
+  "subject": "hf",
   "t": "Liberalismo político",
   "area": "Política",
   "bloque": "B",
@@ -1393,6 +1567,7 @@ const GLOSARIO = [
   "def": "La tradición que defiende los límites del poder, los derechos individuales, la libertad de expresión y el pluralismo."
  },
  {
+  "subject": "hf",
   "t": "Lo apolíneo",
   "area": "Estética",
   "bloque": "C",
@@ -1401,6 +1576,7 @@ const GLOSARIO = [
   "def": "La fuerza que expresa la claridad, la forma, la medida, la imagen y la individualidad. En la tragedia aparece junto a lo dionisíaco."
  },
  {
+  "subject": "hf",
   "t": "Lo dionisíaco",
   "area": "Estética",
   "bloque": "C",
@@ -1409,6 +1585,7 @@ const GLOSARIO = [
   "def": "Expresa la desmesura, el cuerpo, el impulso, el caos creador y la unidad trágica de la vida."
  },
  {
+  "subject": "hf",
   "t": "Logos",
   "area": "Historia",
   "bloque": "A",
@@ -1417,6 +1594,7 @@ const GLOSARIO = [
   "def": "Idea que reúne a la vez palabra, razón y discurso. Abre la posibilidad de dar y debatir explicaciones públicamente."
  },
  {
+  "subject": "hf",
   "t": "Logos pharmakon",
   "area": "Lenguaje",
   "bloque": "A",
@@ -1425,6 +1603,7 @@ const GLOSARIO = [
   "def": "Idea ligada a Gorgias: la palabra puede ser a la vez remedio y veneno; no solo explica, también actúa."
  },
  {
+  "subject": "hf",
   "t": "Los intereses del conocimiento",
   "area": "Epistemología",
   "bloque": "C",
@@ -1433,6 +1612,7 @@ const GLOSARIO = [
   "def": "Según Habermas, el conocimiento está siempre ligado a un interés: técnico (dominar el mundo), práctico (encontrar sentido) y emancipatorio (liberar al ser humano). El último es el principal."
  },
  {
+  "subject": "hf",
   "t": "Los límites de la razón",
   "area": "Epistemología",
   "bloque": "B",
@@ -1441,6 +1621,7 @@ const GLOSARIO = [
   "def": "La idea de que la filosofía no puede demostrar por sí sola todas las verdades que dan la fe o la revelación."
  },
  {
+  "subject": "hf",
   "t": "Lucha de clases",
   "area": "Política",
   "bloque": "C",
@@ -1449,6 +1630,7 @@ const GLOSARIO = [
   "def": "El conflicto histórico entre clases con intereses contrapuestos dentro de un modo de producción."
  },
  {
+  "subject": "hf",
   "t": "Línea de fuga",
   "area": "Antropología",
   "bloque": "C",
@@ -1457,6 +1639,7 @@ const GLOSARIO = [
   "def": "Cuando un sistema quiere fijar sujetos y prácticas, las líneas de fuga abren otras conexiones, usos y modos de vida. No son mera huida privada, sino grietas del cambio político."
  },
  {
+  "subject": "hf",
   "t": "Maestros de la sospecha",
   "area": "Método",
   "bloque": "C",
@@ -1465,6 +1648,7 @@ const GLOSARIO = [
   "def": "La denominación que reúne a Marx, Nietzsche y Freud. Los tres rompen la transparencia de la conciencia, pero en niveles y con fines distintos."
  },
  {
+  "subject": "hf",
   "t": "Materialismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -1473,6 +1657,7 @@ const GLOSARIO = [
   "def": "La perspectiva que defiende que la realidad puede explicarse mediante cuerpos y procesos naturales; quiere situar la conciencia dentro de la naturaleza."
  },
  {
+  "subject": "hf",
   "t": "Materialismo histórico",
   "area": "Historia",
   "bloque": "C",
@@ -1481,6 +1666,7 @@ const GLOSARIO = [
   "def": "Teoría que examina cómo los modos de producción, las relaciones de clase y las condiciones materiales condicionan la historia."
  },
  {
+  "subject": "hf",
   "t": "Mayéutica",
   "area": "Método",
   "bloque": "A",
@@ -1489,6 +1675,7 @@ const GLOSARIO = [
   "def": "El método que ayuda a alumbrar el pensamiento mediante preguntas; Sócrates conduce al interlocutor hacia la búsqueda."
  },
  {
+  "subject": "hf",
   "t": "Mecanicismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -1497,6 +1684,7 @@ const GLOSARIO = [
   "def": "(gr. mēchanē, máquina) La perspectiva que explica la naturaleza según cuerpos, movimiento y leyes matemáticas; relega a segundo plano las viejas explicaciones teleológicas. Antónimo: teleología."
  },
  {
+  "subject": "hf",
   "t": "Metarrelato",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1505,6 +1693,7 @@ const GLOSARIO = [
   "def": "Es el gran relato que legitima globalmente la historia, la ciencia o la política. Ejemplos: el relato del progreso de la Ilustración, el desarrollo del Espíritu en Hegel, la sociedad sin clases del marxismo."
  },
  {
+  "subject": "hf",
   "t": "Modernidad inacabada",
   "area": "Historia",
   "bloque": "C",
@@ -1513,6 +1702,7 @@ const GLOSARIO = [
   "def": "Definición: la idea de Habermas de que las promesas de libertad y razón de la Ilustración deben reconstruirse críticamente sin descartarlas."
  },
  {
+  "subject": "hf",
   "t": "Modernidad líquida",
   "area": "Sociedad",
   "bloque": "C",
@@ -1521,6 +1711,7 @@ const GLOSARIO = [
   "def": "Según Bauman, es la situación histórica en que las estructuras, los lazos y las identidades de la sociedad se vuelven cada vez más flexibles e inestables."
  },
  {
+  "subject": "hf",
   "t": "Modo",
   "area": "Metafísica",
   "bloque": "B",
@@ -1529,6 +1720,7 @@ const GLOSARIO = [
   "def": "La expresión concreta de la sustancia única. Los seres particulares no son sustancias independientes, sino modos limitados."
  },
  {
+  "subject": "hf",
   "t": "Motor Inmóvil",
   "area": "Metafísica",
   "bloque": "A",
@@ -1537,6 +1729,7 @@ const GLOSARIO = [
   "def": "El primer principio del movimiento: acto puro que, sin cambiar él mismo, atrae todo lo demás como causa final."
  },
  {
+  "subject": "hf",
   "t": "Mundo sensible",
   "area": "Metafísica",
   "bloque": "A",
@@ -1545,6 +1738,7 @@ const GLOSARIO = [
   "def": "El ámbito cambiante, pasajero y aparente; por sí solo no da la solidez del conocimiento verdadero."
  },
  {
+  "subject": "hf",
   "t": "Método crítico",
   "area": "Síntesis",
   "bloque": "C",
@@ -1553,6 +1747,7 @@ const GLOSARIO = [
   "def": "El modo de distinguir en cada problema las condiciones, los límites y el uso legítimo; no es receta, sino orientación racional."
  },
  {
+  "subject": "hf",
   "t": "Método experimental",
   "area": "Método",
   "bloque": "B",
@@ -1561,6 +1756,7 @@ const GLOSARIO = [
   "def": "El modo de investigación que une observación, hipótesis, medición y prueba; con la obra de Galileo se situó en el centro de la ciencia moderna."
  },
  {
+  "subject": "hf",
   "t": "Método filosófico",
   "area": "Método",
   "bloque": "A",
@@ -1569,6 +1765,7 @@ const GLOSARIO = [
   "def": "Etimología: del griego methodos, camino o modo de proceder. Definición: Procedimiento que organiza las preguntas, los conceptos y los argumentos para trabajar un problema."
  },
  {
+  "subject": "hf",
   "t": "Método geométrico",
   "area": "Método",
   "bloque": "B",
@@ -1577,6 +1774,7 @@ const GLOSARIO = [
   "def": "El modo de presentar la filosofía mediante una cadena rigurosa de definiciones, axiomas y proposiciones; Spinoza lo usa en la Ética para mostrar la coherencia de todo el sistema."
  },
  {
+  "subject": "hf",
   "t": "Mónadas",
   "area": "Metafísica",
   "bloque": "B",
@@ -1585,6 +1783,7 @@ const GLOSARIO = [
   "def": "Según Leibniz, las sustancias simples, indivisibles y espirituales que componen la realidad. Cada mónada refleja el universo entero desde su perspectiva, y concuerdan gracias a la «armonía preestablecida»."
  },
  {
+  "subject": "hf",
   "t": "Natalidad",
   "area": "Antropología",
   "bloque": "C",
@@ -1593,6 +1792,7 @@ const GLOSARIO = [
   "def": "El ser humano trae algo nuevo al mundo, crea la posibilidad de la novedad. La libertad política está ligada al nacimiento."
  },
  {
+  "subject": "hf",
   "t": "Necesidades falsas",
   "area": "Sociedad",
   "bloque": "C",
@@ -1601,6 +1801,7 @@ const GLOSARIO = [
   "def": "Son los deseos que el sistema crea y naturaliza. El sujeto puede vivirlos como libertad, pero a menudo lo atan al consumo y al conformismo."
  },
  {
+  "subject": "hf",
   "t": "Neoplatonismo",
   "area": "Religión",
   "bloque": "B",
@@ -1609,6 +1810,7 @@ const GLOSARIO = [
   "def": "La corriente que relee la herencia de Platón. Fue importante para Agustín para pensar la verdad, el alma y la trascendencia de Dios."
  },
  {
+  "subject": "hf",
   "t": "Nihilismo",
   "area": "Ética",
   "bloque": "C",
@@ -1617,6 +1819,7 @@ const GLOSARIO = [
   "def": "La crisis que surge cuando cae el fundamento de los valores supremos. Puede ser pasivo, de desesperanza, o activo, oportunidad de crear valores nuevos."
  },
  {
+  "subject": "hf",
   "t": "Nominalismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -1625,6 +1828,7 @@ const GLOSARIO = [
   "def": "La perspectiva que defiende que los universales no tienen realidad independiente; son nombres generales que usamos para nombrar las cosas individuales."
  },
  {
+  "subject": "hf",
   "t": "Nomos",
   "area": "Política",
   "bloque": "A",
@@ -1633,6 +1837,7 @@ const GLOSARIO = [
   "def": "La ley, la costumbre o el pacto social. En tiempos de los sofistas se usa para preguntar si las normas son naturales o creadas por los seres humanos."
  },
  {
+  "subject": "hf",
   "t": "Normalización lingüística",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1641,6 +1846,7 @@ const GLOSARIO = [
   "def": "Es el proceso por el que una lengua recupera o consolida su uso social completo. No es solo cuestión de gramática: toca la educación, la administración, el prestigio y el uso diario."
  },
  {
+  "subject": "hf",
   "t": "Nous",
   "area": "Metafísica",
   "bloque": "A",
@@ -1649,6 +1855,7 @@ const GLOSARIO = [
   "def": "Según Anaxágoras, la inteligencia o principio rector que ordena y pone en movimiento el universo."
  },
  {
+  "subject": "hf",
   "t": "Noúmeno",
   "area": "Epistemología",
   "bloque": "C",
@@ -1657,6 +1864,7 @@ const GLOSARIO = [
   "def": "Concepto-límite para pensar la cosa en sí; no se conoce al modo de un fenómeno."
  },
  {
+  "subject": "hf",
   "t": "Ocasionalismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -1665,6 +1873,7 @@ const GLOSARIO = [
   "def": "La doctrina de Malebranche: los cuerpos y las almas no pueden influirse directamente; Dios es la única causa, y cada suceso es la «ocasión» de Su intervención. Una respuesta al dualismo cuerpo-alma de Descartes."
  },
  {
+  "subject": "hf",
   "t": "Ostracismo",
   "area": "Política",
   "bloque": "A",
@@ -1673,6 +1882,7 @@ const GLOSARIO = [
   "def": "Práctica política ateniense: la ciudad podía desterrar temporalmente a una persona considerada peligrosa, para evitar la tiranía."
  },
  {
+  "subject": "hf",
   "t": "Panta rei",
   "area": "Metafísica",
   "bloque": "A",
@@ -1681,6 +1891,7 @@ const GLOSARIO = [
   "def": "La fórmula \"todo fluye\"; según Heráclito, la realidad es devenir y movimiento incesantes."
  },
  {
+  "subject": "hf",
   "t": "Paradigma",
   "area": "Ciencia",
   "bloque": "C",
@@ -1689,6 +1900,7 @@ const GLOSARIO = [
   "def": "Es el modelo general que comparte una comunidad científica: qué problemas son importantes, qué métodos son válidos, qué explicación es adecuada y cuáles son los ejemplos modélicos."
  },
  {
+  "subject": "hf",
   "t": "Participación (méthexis)",
   "area": "Metafísica",
   "bloque": "A",
@@ -1697,6 +1909,7 @@ const GLOSARIO = [
   "def": "La estructura y el sentido que las cosas sensibles reciben al participar de las ideas. La Idea es el modelo (arquetipo), y la cosa sensible es su imitación (mímesis) o copia."
  },
  {
+  "subject": "hf",
   "t": "Partido de vanguardia",
   "area": "Antropología",
   "bloque": "C",
@@ -1705,6 +1918,7 @@ const GLOSARIO = [
   "def": "Para Lenin, la revolución no se logra por puro espontaneísmo. Necesita una herramienta que articule organización, estrategia y conciencia política."
  },
  {
+  "subject": "hf",
   "t": "Patrística",
   "area": "Religión",
   "bloque": "B",
@@ -1713,6 +1927,7 @@ const GLOSARIO = [
   "def": "La tradición filosófico-teológica de los primeros pensadores de la Iglesia. Trata de explicar la fe cristiana con los lenguajes conceptuales de Grecia y Roma; Agustín es una de las cumbres de la patrística occidental."
  },
  {
+  "subject": "hf",
   "t": "Pensamiento débil",
   "area": "Metafísica",
   "bloque": "C",
@@ -1721,6 +1936,7 @@ const GLOSARIO = [
   "def": "El pensamiento que propone Vattimo renuncia a las verdades absolutas, las metafísicas firmes y las legitimaciones totales. No es pensamiento banal, sino el esfuerzo por no imponerse como fuerza totalizadora."
  },
  {
+  "subject": "hf",
   "t": "Performatividad",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1729,6 +1945,7 @@ const GLOSARIO = [
   "def": "Concepto descubierto por Austin: algunas frases no describen el mundo, realizan una acción. Decir \"lo juro\" es hacer el juramento."
  },
  {
+  "subject": "hf",
   "t": "Perspectiva integral",
   "area": "Antropología",
   "bloque": "B",
@@ -1737,6 +1954,7 @@ const GLOSARIO = [
   "def": "La tendencia a entender al ser humano, la naturaleza y lo sagrado en una totalidad inseparable."
  },
  {
+  "subject": "hf",
   "t": "Perspectivismo",
   "area": "Epistemología",
   "bloque": "C",
@@ -1745,6 +1963,7 @@ const GLOSARIO = [
   "def": "Subraya que todo conocimiento está situado. No significa que todas las opiniones valgan igual, pero sí que los discursos absolutos se disfrazan a sí mismos."
  },
  {
+  "subject": "hf",
   "t": "Physis",
   "area": "Metafísica",
   "bloque": "A",
@@ -1753,6 +1972,7 @@ const GLOSARIO = [
   "def": "La naturaleza, pero no solo como objeto pasivo: la realidad viva que nace, crece, cambia y se ordena."
  },
  {
+  "subject": "hf",
   "t": "Pluralismo",
   "area": "Metafísica",
   "bloque": "A",
@@ -1761,6 +1981,7 @@ const GLOSARIO = [
   "def": "Doctrina según la cual la realidad surge de varios elementos y principios originarios. Empédocles, Anaxágoras y los atomistas eran pluralistas."
  },
  {
+  "subject": "hf",
   "t": "Plusvalía",
   "area": "Economía",
   "bloque": "C",
@@ -1769,6 +1990,7 @@ const GLOSARIO = [
   "def": "El valor excedente que el trabajador crea pero no recibe en salario; una de las bases de la acumulación del capital."
  },
  {
+  "subject": "hf",
   "t": "Poder / saber",
   "area": "Política",
   "bloque": "C",
@@ -1777,6 +1999,7 @@ const GLOSARIO = [
   "def": "Para Foucault el poder y la verdad no pueden separarse. En el momento en que una sociedad decide qué es normal o verdadero, el poder también está trabajando. El saber nunca es neutro."
  },
  {
+  "subject": "hf",
   "t": "Poder legítimo",
   "area": "Política",
   "bloque": "B",
@@ -1785,6 +2008,7 @@ const GLOSARIO = [
   "def": "El poder que tiene una razón pública para exigir obediencia; necesita seguridad, derechos y consentimiento."
  },
  {
+  "subject": "hf",
   "t": "Poder y violencia",
   "area": "Política",
   "bloque": "C",
@@ -1793,6 +2017,7 @@ const GLOSARIO = [
   "def": "Según Arendt no son lo mismo. El poder nace cuando la gente actúa junta; la violencia, en cambio, puede ser herramienta para sustituir ese poder o cubrir su vacío."
  },
  {
+  "subject": "hf",
   "t": "Polis",
   "area": "Política",
   "bloque": "A",
@@ -1801,6 +2026,7 @@ const GLOSARIO = [
   "def": "La ciudad y la comunidad política. En ella se anudan el debate, la ley y la participación."
  },
  {
+  "subject": "hf",
   "t": "Políticas del cuerpo",
   "area": "Política",
   "bloque": "C",
@@ -1809,6 +2035,7 @@ const GLOSARIO = [
   "def": "Es la perspectiva que examina cómo los cuerpos se regulan, se clasifican, se controlan o se liberan. El género, la sexualidad y la salud se cruzan en ella."
  },
  {
+  "subject": "hf",
   "t": "Positividad",
   "area": "Sociedad",
   "bloque": "C",
@@ -1817,6 +2044,7 @@ const GLOSARIO = [
   "def": "Definición: que el poder aparezca, en lugar de la prohibición, como mandato continuo de capacidad, automejora y rendimiento."
  },
  {
+  "subject": "hf",
   "t": "Posmodernidad",
   "area": "Historia",
   "bloque": "C",
@@ -1825,6 +2053,7 @@ const GLOSARIO = [
   "def": "La época en que los grandes metarrelatos de la modernidad (la Ilustración, el marxismo, el cristianismo) pierden fuerza y dominan la fragmentación, la pluralidad y las verdades parciales."
  },
  {
+  "subject": "hf",
   "t": "Praxis",
   "area": "Método",
   "bloque": "C",
@@ -1833,6 +2062,7 @@ const GLOSARIO = [
   "def": "La actividad histórica que une la teoría y la transformación práctica."
  },
  {
+  "subject": "hf",
   "t": "Precariedad",
   "area": "Economía",
   "bloque": "C",
@@ -1841,6 +2071,7 @@ const GLOSARIO = [
   "def": "Es la situación social que vuelve inestables e inciertas las condiciones de trabajo, de vida y de futuro. No significa solo un mal salario, sino el debilitamiento de la vida entera."
  },
  {
+  "subject": "hf",
   "t": "Principio de caridad",
   "area": "Método",
   "bloque": "A",
@@ -1849,6 +2080,7 @@ const GLOSARIO = [
   "def": "Al interpretar un texto o a un interlocutor, tratar de reconstruir su versión más sólida. No es estar de acuerdo, sino entender qué defiende realmente antes de criticarlo."
  },
  {
+  "subject": "hf",
   "t": "Principio de no contradicción",
   "area": "Lógica",
   "bloque": "A",
@@ -1857,6 +2089,7 @@ const GLOSARIO = [
   "def": "Una misma cosa no puede ser y no ser a la vez y en el mismo sentido; es condición de la definición, del debate y de la ciencia."
  },
  {
+  "subject": "hf",
   "t": "Principio del daño",
   "area": "Política",
   "bloque": "B",
@@ -1865,6 +2098,7 @@ const GLOSARIO = [
   "def": "Según Mill, la razón principal para limitar la libertad por la fuerza es evitar el daño a otro."
  },
  {
+  "subject": "hf",
   "t": "Programa de investigación",
   "area": "Ciencia",
   "bloque": "C",
@@ -1873,6 +2107,7 @@ const GLOSARIO = [
   "def": "Según Lakatos, las teorías científicas no se evalúan aisladas; un programa tiene un núcleo duro y un cinturón protector. El programa es progresivo si hace continuamente predicciones nuevas."
  },
  {
+  "subject": "hf",
   "t": "Propaganda",
   "area": "Política",
   "bloque": "C",
@@ -1881,6 +2116,7 @@ const GLOSARIO = [
   "def": "Herramienta para encauzar masivamente la conciencia y el imaginario político."
  },
  {
+  "subject": "hf",
   "t": "Psicopolítica",
   "area": "Política",
   "bloque": "C",
@@ -1889,6 +2125,7 @@ const GLOSARIO = [
   "def": "Es el modo de gobernar que ocurre cuando el poder usa la motivación interior del sujeto, el autocontrol y la autoexplotación."
  },
  {
+  "subject": "hf",
   "t": "Racionalismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -1897,6 +2134,7 @@ const GLOSARIO = [
   "def": "La corriente moderna que quiere construir el conocimiento sólido desde la estructura de la razón, las ideas claras y la deducción."
  },
  {
+  "subject": "hf",
   "t": "Razón comunicativa",
   "area": "Lenguaje",
   "bloque": "C",
@@ -1905,6 +2143,7 @@ const GLOSARIO = [
   "def": "La razón fundada en el diálogo libre, los argumentos y el consenso razonado. Para Habermas, de ahí viene el potencial emancipatorio de la modernidad."
  },
  {
+  "subject": "hf",
   "t": "Razón crítica",
   "area": "Epistemología",
   "bloque": "C",
@@ -1913,6 +2152,7 @@ const GLOSARIO = [
   "def": "La razón no es mera herramienta para repetir costumbres. Es también la capacidad de juzgar las autoridades, la tradición y los propios prejuicios."
  },
  {
+  "subject": "hf",
   "t": "Razón instrumental",
   "area": "Historia",
   "bloque": "C",
@@ -1921,6 +2161,7 @@ const GLOSARIO = [
   "def": "La razón reducida al cálculo de medios eficaces sin poner en duda los fines. Para los de Frankfurt, uno de los grandes riesgos de la modernidad."
  },
  {
+  "subject": "hf",
   "t": "Razón poética",
   "area": "Antropología",
   "bloque": "C",
@@ -1929,6 +2170,7 @@ const GLOSARIO = [
   "def": "Es el concepto de Zambrano: la razón no se reduce a puro cálculo o definición, sino que piensa también mediante la vivencia, la memoria y la claridad interior."
  },
  {
+  "subject": "hf",
   "t": "Realismo",
   "area": "Metafísica",
   "bloque": "A",
@@ -1937,6 +2179,7 @@ const GLOSARIO = [
   "def": "En la perspectiva aristotélica, las formas y esencias no están fuera de las cosas; hay que encontrarlas y comprenderlas en las cosas concretas mismas."
  },
  {
+  "subject": "hf",
   "t": "Reconocimiento",
   "area": "Política",
   "bloque": "C",
@@ -1945,6 +2188,7 @@ const GLOSARIO = [
   "def": "Ser aceptado por el otro como sujeto libre e igual. Para Hegel es la condición social de la libertad."
  },
  {
+  "subject": "hf",
   "t": "Redistribución y reconocimiento",
   "area": "Feminismo",
   "bloque": "C",
@@ -1953,6 +2197,7 @@ const GLOSARIO = [
   "def": "Según Fraser, la justicia de género necesita dos ejes: la redistribución de recursos, tiempo y oportunidades sociales; y, a la vez, el reconocimiento de la dignidad y la voz de los sujetos oprimidos."
  },
  {
+  "subject": "hf",
   "t": "Relativismo relativo",
   "area": "Ética",
   "bloque": "C",
@@ -1961,6 +2206,7 @@ const GLOSARIO = [
   "def": "La postura ética de Joxe Azurmendi: renunciar a los valores absolutos, pero sin caer en el nihilismo; unir la ética de la convicción (principios) y la de la responsabilidad (consecuencias), sin reconocer valor absoluto a ninguna de las dos."
  },
  {
+  "subject": "hf",
   "t": "Representación",
   "area": "Epistemología",
   "bloque": "C",
@@ -1969,6 +2215,7 @@ const GLOSARIO = [
   "def": "Es el modo en que el mundo aparece para el sujeto. No conocemos directamente la cosa en sí, sino el mundo que aparece en nuestras formas de conocimiento."
  },
  {
+  "subject": "hf",
   "t": "Represión",
   "area": "Psicología",
   "bloque": "C",
@@ -1977,6 +2224,7 @@ const GLOSARIO = [
   "def": "Mecanismo para apartar de la conciencia un contenido inaceptable o conflictivo. El contenido no desaparece: puede volver como síntoma o sueño."
  },
  {
+  "subject": "hf",
   "t": "Represión excedente",
   "area": "Psicología",
   "bloque": "C",
@@ -1985,6 +2233,7 @@ const GLOSARIO = [
   "def": "Según Marcuse, toda civilización necesita ciertos límites, pero la sociedad capitalista añade a esos límites necesarios una disciplina social sobrante, en favor del trabajo, el consumo y la obediencia."
  },
  {
+  "subject": "hf",
   "t": "Res cogitans",
   "area": "Antropología",
   "bloque": "B",
@@ -1993,6 +2242,7 @@ const GLOSARIO = [
   "def": "La sustancia pensante; su rasgo no es la extensión, sino pensar, dudar, querer y tener conciencia."
  },
  {
+  "subject": "hf",
   "t": "Ressentiment",
   "area": "Ética",
   "bloque": "C",
@@ -2001,6 +2251,7 @@ const GLOSARIO = [
   "def": "Es la venganza oculta nacida de la impotencia; convierte al fuerte en malvado y presenta la debilidad como virtud."
  },
  {
+  "subject": "hf",
   "t": "Rizoma",
   "area": "Metafísica",
   "bloque": "C",
@@ -2009,6 +2260,7 @@ const GLOSARIO = [
   "def": "Es el modelo de pensamiento que, en lugar de un solo centro, una raíz principal o una jerarquía fija, tiene conexiones múltiples y cambiantes. Muestra que las redes, los movimientos y las ideas se extienden en muchas direcciones."
  },
  {
+  "subject": "hf",
   "t": "Saber integral",
   "area": "Educación",
   "bloque": "B",
@@ -2017,6 +2269,7 @@ const GLOSARIO = [
   "def": "El modo de pensar sin separar el saber teórico, la experiencia práctica, el cuidado del cuerpo, el símbolo y la vida de la comunidad."
  },
  {
+  "subject": "hf",
   "t": "Sensación y reflexión",
   "area": "Epistemología",
   "bloque": "B",
@@ -2025,6 +2278,7 @@ const GLOSARIO = [
   "def": "Las dos fuentes de la experiencia. Sensación: las ideas que recibimos del mundo exterior mediante los sentidos (colores, sonidos). Reflexión: la conciencia de las operaciones internas de la mente (pensar, querer)."
  },
  {
+  "subject": "hf",
   "t": "Sentido común",
   "area": "Sociedad",
   "bloque": "C",
@@ -2033,6 +2287,7 @@ const GLOSARIO = [
   "def": "El conjunto de ideas que una sociedad toma como si fueran \"propias\" o \"normales\". Para Gramsci, el sentido común es un terreno de la lucha política."
  },
  {
+  "subject": "hf",
   "t": "Sentimiento trágico",
   "area": "Antropología",
   "bloque": "C",
@@ -2041,6 +2296,7 @@ const GLOSARIO = [
   "def": "En Unamuno, la tensión existencial del ser humano que, aun sabiendo que ha de morir, sigue buscando sentido, permanencia y fe."
  },
  {
+  "subject": "hf",
   "t": "Ser hacia la muerte",
   "area": "Metafísica",
   "bloque": "C",
@@ -2049,6 +2305,7 @@ const GLOSARIO = [
   "def": "Esta idea de Heidegger expresa que el ser humano compone su vida con posibilidades finitas, y que su muerte es el límite propio e inevitable de esas posibilidades."
  },
  {
+  "subject": "hf",
   "t": "Ser-para-sí",
   "area": "Antropología",
   "bloque": "C",
@@ -2057,6 +2314,7 @@ const GLOSARIO = [
   "def": "Según Sartre, la conciencia no es una cosa cerrada; es la existencia que toma distancia de sí, elige y se forma como proyecto."
  },
  {
+  "subject": "hf",
   "t": "Silogismo",
   "area": "Lógica",
   "bloque": "A",
@@ -2065,6 +2323,7 @@ const GLOSARIO = [
   "def": "La forma de razonamiento que extrae de dos premisas una conclusión necesaria; la base de la lógica aristotélica."
  },
  {
+  "subject": "hf",
   "t": "Simulacro",
   "area": "Antropología",
   "bloque": "C",
@@ -2073,6 +2332,7 @@ const GLOSARIO = [
   "def": "La situación que nace cuando un sistema de signos o imágenes se vuelve sustituto de la realidad, y al final no tiene relación con ella. En la hiperrealidad, el simulacro es más real que la realidad original."
  },
  {
+  "subject": "hf",
   "t": "Situación ideal de habla",
   "area": "Lenguaje",
   "bloque": "C",
@@ -2081,6 +2341,7 @@ const GLOSARIO = [
   "def": "Condición regulativa para que el diálogo sea válido: todos los participantes argumentan en igualdad, libertad y sin coacción; domina la fuerza del mejor argumento, no el poder."
  },
  {
+  "subject": "hf",
   "t": "Soberanía",
   "area": "Política",
   "bloque": "B",
@@ -2089,6 +2350,7 @@ const GLOSARIO = [
   "def": "Quién tiene la última palabra en la comunidad política; el problema es cómo se legitima y se limita esa autoridad."
  },
  {
+  "subject": "hf",
   "t": "Sociedad de masas",
   "area": "Sociedad",
   "bloque": "C",
@@ -2097,6 +2359,7 @@ const GLOSARIO = [
   "def": "La situación en que los individuos se insertan en grandes mecanismos de fabricación de opinión y deseo."
  },
  {
+  "subject": "hf",
   "t": "Sociedad unidimensional",
   "area": "Sociedad",
   "bloque": "C",
@@ -2105,6 +2368,7 @@ const GLOSARIO = [
   "def": "Para Marcuse, la sociedad que nace cuando la crítica y las alternativas políticas se absorben dentro del sistema. El propio desacuerdo puede volverse estilo de mercado."
  },
  {
+  "subject": "hf",
   "t": "Sofistas",
   "area": "Educación",
   "bloque": "A",
@@ -2113,6 +2377,7 @@ const GLOSARIO = [
   "def": "Maestros y oradores itinerantes de Grecia. Cultivaron la retórica, la educación pública y la crítica de las convenciones sociales."
  },
  {
+  "subject": "hf",
   "t": "Soledad política",
   "area": "Política",
   "bloque": "C",
@@ -2121,6 +2386,7 @@ const GLOSARIO = [
   "def": "Para Arendt es una de las bases del totalitarismo. Cuando el individuo se desprende de los lazos comunes, queda más indefenso ante la propaganda y la obediencia."
  },
  {
+  "subject": "hf",
   "t": "Solidaridad",
   "area": "Sociedad",
   "bloque": "C",
@@ -2129,6 +2395,7 @@ const GLOSARIO = [
   "def": "Para Rorty la solidaridad no baja de un principio metafísico último. Es la práctica histórica de escuchar el sufrimiento de los demás, crear hablas nuevas y ensanchar la comunidad democrática."
  },
  {
+  "subject": "hf",
   "t": "Solipsismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -2137,6 +2404,7 @@ const GLOSARIO = [
   "def": "El riesgo que surge al concluir que la propia conciencia (el cogito) es la única certeza: no poder demostrar que existen el mundo exterior y las otras mentes, y pensar que solo el yo es real. Descartes quiere superarlo mediante la garantía de Dios."
  },
  {
+  "subject": "hf",
   "t": "Sospecha",
   "area": "Método",
   "bloque": "C",
@@ -2145,6 +2413,7 @@ const GLOSARIO = [
   "def": "Desconfiar de la explicación que la conciencia se da a sí misma. No niega la verdad; busca las condiciones, intereses y fuerzas bajo el significado superficial."
  },
  {
+  "subject": "hf",
   "t": "Subjetivismo",
   "area": "Epistemología",
   "bloque": "A",
@@ -2153,6 +2422,7 @@ const GLOSARIO = [
   "def": "La postura según la cual la verdad y los valores dependen del sujeto: la percepción y el interés propios son la medida. Es una forma de relativismo aplicada al individuo (Protágoras: «el hombre es la medida de todas las cosas»)."
  },
  {
+  "subject": "hf",
   "t": "Superación (Aufhebung)",
   "area": "Método",
   "bloque": "C",
@@ -2161,6 +2431,7 @@ const GLOSARIO = [
   "def": "El movimiento de la dialéctica: la contradicción no se borra, sino que se conserva y se supera a la vez en un nivel superior."
  },
  {
+  "subject": "hf",
   "t": "Superhombre",
   "area": "Antropología",
   "bloque": "C",
@@ -2169,6 +2440,7 @@ const GLOSARIO = [
   "def": "Es la fuerza vital creadora capaz de crear valores nuevos. No es una caricatura política, sino la imagen de la superación del hombre."
  },
  {
+  "subject": "hf",
   "t": "Sustancia (clásica)",
   "area": "Metafísica",
   "bloque": "A",
@@ -2177,6 +2449,7 @@ const GLOSARIO = [
   "def": "La cosa concreta, lo que es por sí. Para Aristóteles, las demás características corresponden a la sustancia."
  },
  {
+  "subject": "hf",
   "t": "Sustancia (moderna)",
   "area": "Metafísica",
   "bloque": "B",
@@ -2185,6 +2458,7 @@ const GLOSARIO = [
   "def": "La realidad que existe por sí misma o el fundamento último de las demás cosas; en la modernidad se vuelve la clave para pensar la mente, el cuerpo y Dios."
  },
  {
+  "subject": "hf",
   "t": "Teleología",
   "area": "Metafísica",
   "bloque": "A",
@@ -2193,6 +2467,7 @@ const GLOSARIO = [
   "def": "(telos + logía) Teoría filosófica que propone que todos los seres —incluida la naturaleza— tienen un fin. Sinónimo: finalismo."
  },
  {
+  "subject": "hf",
   "t": "Teoría crítica",
   "area": "Historia",
   "bloque": "C",
@@ -2201,6 +2476,7 @@ const GLOSARIO = [
   "def": "El tipo de pensamiento que no solo describe la sociedad, sino que deja al descubierto sus formas de dominación y busca transformarla. La Escuela de Frankfurt extiende el marxismo a la crítica de la cultura y la modernidad."
  },
  {
+  "subject": "hf",
   "t": "Teoría de las descripciones",
   "area": "Lenguaje",
   "bloque": "C",
@@ -2209,6 +2485,7 @@ const GLOSARIO = [
   "def": "Definición: el análisis de Russell para aclarar la estructura lógica que hay bajo la gramática superficial de una frase."
  },
  {
+  "subject": "hf",
   "t": "Teoría de las Ideas",
   "area": "Metafísica",
   "bloque": "A",
@@ -2217,6 +2494,7 @@ const GLOSARIO = [
   "def": "La realidad verdadera no está en la variabilidad que dan los sentidos, sino en el nivel estable de las ideas o formas."
  },
  {
+  "subject": "hf",
   "t": "Teoría de los actos de habla",
   "area": "Lenguaje",
   "bloque": "C",
@@ -2225,6 +2503,7 @@ const GLOSARIO = [
   "def": "Es la teoría desarrollada por Searle: al hablar, se distinguen tres tipos de actos: el locutivo (decir las palabras), el ilocutivo (qué se hace, por ejemplo, ordenar) y el perlocutivo (el efecto en el oyente)."
  },
  {
+  "subject": "hf",
   "t": "Teoría queer",
   "area": "Feminismo",
   "bloque": "C",
@@ -2233,6 +2512,7 @@ const GLOSARIO = [
   "def": "Es la corriente teórica contra las categorías fijas de identidad sexual y de género. Pone en duda el binarismo heterosexual y los límites sociales de la normalidad."
  },
  {
+  "subject": "hf",
   "t": "Tipos de alma",
   "area": "Antropología",
   "bloque": "A",
@@ -2241,6 +2521,7 @@ const GLOSARIO = [
   "def": "Distingue la vegetativa, la sensitiva y la racional; son la herramienta para entender la gradación de los vivientes."
  },
  {
+  "subject": "hf",
   "t": "Tiranía",
   "area": "Política",
   "bloque": "A",
@@ -2249,6 +2530,7 @@ const GLOSARIO = [
   "def": "El régimen degenerado que pone el poder al servicio del interés privado y del miedo."
  },
  {
+  "subject": "hf",
   "t": "Totalitarismo",
   "area": "Política",
   "bloque": "C",
@@ -2257,6 +2539,7 @@ const GLOSARIO = [
   "def": "Forma de poder político del siglo XX que absorbe por completo al individuo mediante una ideología totalizadora, usando el terror y creando la sociedad de masas. No es la tiranía clásica."
  },
  {
+  "subject": "hf",
   "t": "Transmigración del alma",
   "area": "Antropología",
   "bloque": "A",
@@ -2265,6 +2548,7 @@ const GLOSARIO = [
   "def": "El alma es inmortal, cambia de cuerpo (renace en otro cuerpo) y tras la muerte debe purificarse para volver al mundo de las Ideas."
  },
  {
+  "subject": "hf",
   "t": "Transmutación de los valores",
   "area": "Ética",
   "bloque": "C",
@@ -2273,6 +2557,7 @@ const GLOSARIO = [
   "def": "El proceso de superar los viejos valores que niegan la vida y crear valores nuevos que afirman la fuerza de la vida, la creatividad y la autosuperación."
  },
  {
+  "subject": "hf",
   "t": "Trascendental",
   "area": "Epistemología",
   "bloque": "C",
@@ -2281,6 +2566,7 @@ const GLOSARIO = [
   "def": "Relativo a las condiciones que hacen posible el conocimiento objetivo; no la cosa en sí, sino la estructura de la experiencia."
  },
  {
+  "subject": "hf",
   "t": "Trivium y quadrivium",
   "area": "Educación",
   "bloque": "B",
@@ -2289,6 +2575,7 @@ const GLOSARIO = [
   "def": "Las siete artes liberales medievales: el trivium (gramática, retórica, dialéctica) y el quadrivium (aritmética, geometría, astronomía, música). Formaban el currículo básico de la escolástica en las universidades."
  },
  {
+  "subject": "hf",
   "t": "Término medio",
   "area": "Ética",
   "bloque": "A",
@@ -2297,6 +2584,7 @@ const GLOSARIO = [
   "def": "La medida adecuada entre el exceso y el defecto, ajustada a la situación y a la recta razón."
  },
  {
+  "subject": "hf",
   "t": "Uso público",
   "area": "Política",
   "bloque": "C",
@@ -2305,6 +2593,7 @@ const GLOSARIO = [
   "def": "Usar la razón ante el público: la capacidad de argumentar, debatir y criticar las instituciones."
  },
  {
+  "subject": "hf",
   "t": "Utilitarismo",
   "area": "Ética",
   "bloque": "B",
@@ -2313,6 +2602,7 @@ const GLOSARIO = [
   "def": "La perspectiva que mide el valor de una acción o institución según sus consecuencias; el objetivo es crear mayor bienestar o felicidad."
  },
  {
+  "subject": "hf",
   "t": "Verificabilidad",
   "area": "Epistemología",
   "bloque": "C",
@@ -2321,6 +2611,7 @@ const GLOSARIO = [
   "def": "El criterio según el cual, para decir que un enunciado tiene sentido, deben indicarse las condiciones para verificar su verdad o falsedad mediante la experiencia. Emblema del positivismo lógico."
  },
  {
+  "subject": "hf",
   "t": "Viriditas",
   "area": "Religión",
   "bloque": "B",
@@ -2329,6 +2620,7 @@ const GLOSARIO = [
   "def": "En Hildegarda, el concepto que expresa el verdor, la fuerza y la fecundidad de la vida. Anuda la naturaleza, la salud y la fuerza vital de Dios."
  },
  {
+  "subject": "hf",
   "t": "Virtud",
   "area": "Ética",
   "bloque": "A",
@@ -2337,6 +2629,7 @@ const GLOSARIO = [
   "def": "La excelencia o buena disposición de una persona. En la ética clásica no es mera obediencia, sino formación del carácter."
  },
  {
+  "subject": "hf",
   "t": "Virtù",
   "area": "Política",
   "bloque": "B",
@@ -2345,6 +2638,7 @@ const GLOSARIO = [
   "def": "En Maquiavelo, el coraje y la determinación que necesita el gobernante para hacer frente a la fortuna (el azar). No es virtud moral, sino la capacidad eficaz de dominar la situación política a su favor."
  },
  {
+  "subject": "hf",
   "t": "Vita activa",
   "area": "Antropología",
   "bloque": "C",
@@ -2353,6 +2647,7 @@ const GLOSARIO = [
   "def": "La teoría de Arendt que organiza la actividad humana en tres niveles: la labor (biológica), el trabajo (artificial) y la acción (política)."
  },
  {
+  "subject": "hf",
   "t": "Volk",
   "area": "Historia",
   "bloque": "C",
@@ -2361,6 +2656,7 @@ const GLOSARIO = [
   "def": "En el contexto del romanticismo alemán, designa la comunidad popular que comparte lengua, memoria, costumbres y experiencia histórica."
  },
  {
+  "subject": "hf",
   "t": "Voluntad ciega",
   "area": "Metafísica",
   "bloque": "C",
@@ -2369,6 +2665,7 @@ const GLOSARIO = [
   "def": "Para Schopenhauer en el fondo de la realidad no hay razón transparente, sino impulso sin fin racional y deseo insaciable."
  },
  {
+  "subject": "hf",
   "t": "Voluntad de poder",
   "area": "Política",
   "bloque": "C",
@@ -2377,6 +2674,7 @@ const GLOSARIO = [
   "def": "El concepto de Nietzsche no significa solo dominación bruta. Expresa la fuerza creadora de la vida, la capacidad de imponer formas nuevas y el impulso de superarse."
  },
  {
+  "subject": "hf",
   "t": "Ápeiron",
   "area": "Metafísica",
   "bloque": "A",
@@ -2385,6 +2683,7 @@ const GLOSARIO = [
   "def": "Según Anaximandro, el principio no es un elemento concreto, sino un fundamento ilimitado, indeterminado e inconmensurable."
  },
  {
+  "subject": "hf",
   "t": "Átomo",
   "area": "Metafísica",
   "bloque": "A",
@@ -2393,6 +2692,7 @@ const GLOSARIO = [
   "def": "Indivisible, inmutable, eterno. Tiene formas, tamaños y posiciones distintas. Es la unidad básica de la realidad."
  },
  {
+  "subject": "hf",
   "t": "Ética",
   "area": "Ética",
   "bloque": "A",
@@ -2401,6 +2701,7 @@ const GLOSARIO = [
   "def": "La filosofía práctica que estudia la vida buena, la acción recta y la formación del carácter."
  },
  {
+  "subject": "hf",
   "t": "Ética del cuidado",
   "area": "Feminismo",
   "bloque": "C",
@@ -2409,6 +2710,7 @@ const GLOSARIO = [
   "def": "La línea que trae al centro de la moral la dependencia, la vulnerabilidad y la relación."
  },
  {
+  "subject": "hf",
   "t": "Autonomía de la razón",
   "area": "Epistemología",
   "bloque": "B",
@@ -2417,6 +2719,7 @@ const GLOSARIO = [
   "def": "El rasgo más característico de la Edad Moderna. El ejercicio de la razón no está limitado por ninguna instancia exterior (ni la tradición, ni la autoridad, ni la fe). La razón es el principio y el tribunal supremo para juzgar sobre lo verdadero."
  },
  {
+  "subject": "hf",
   "t": "Racionalismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -2425,6 +2728,7 @@ const GLOSARIO = [
   "def": "Etimología: del latín ratio, razón. Definición: corriente filosófica que reconoce a la razón como única fuente, fundamento y criterio de todo conocimiento humano. En el siglo XVII, de la mano de Descartes, Spinoza y Leibniz, se convirtió en una corriente filosófica precisa."
  },
  {
+  "subject": "hf",
   "t": "Innatismo",
   "area": "Epistemología",
   "bloque": "B",
@@ -2433,6 +2737,7 @@ const GLOSARIO = [
   "def": "Teoría que sostiene que el entendimiento posee ciertas ideas fundamentales desde el nacimiento. Según el racionalismo, son principios independientes de la experiencia, base del conocimiento seguro."
  },
  {
+  "subject": "hf",
   "t": "Intuición",
   "area": "Epistemología",
   "bloque": "B",
@@ -2441,6 +2746,7 @@ const GLOSARIO = [
   "def": "La percepción directa, sin duda, de una mente clara y atenta. Según Descartes, el punto de partida del conocimiento seguro."
  },
  {
+  "subject": "hf",
   "t": "Deducción",
   "area": "Epistemología",
   "bloque": "B",
@@ -2449,6 +2755,7 @@ const GLOSARIO = [
   "def": "Extracción de conclusiones necesarias a partir de principios seguros, mediante una cadena lógica."
  },
  {
+  "subject": "hf",
   "t": "Duda metódica",
   "area": "Epistemología",
   "bloque": "B",
@@ -2457,6 +2764,7 @@ const GLOSARIO = [
   "def": "Poner todo en duda para encontrar un fundamento seguro. Es un instrumento, no un fin."
  },
  {
+  "subject": "hf",
   "t": "Genio maligno",
   "area": "Método",
   "bloque": "B",
@@ -2465,6 +2773,7 @@ const GLOSARIO = [
   "def": "Hipótesis del 3.er nivel de la duda: aunque todo lo que el sujeto piensa fuera engañoso, el propio sujeto que duda no puede ser eliminado."
  },
  {
+  "subject": "hf",
   "t": "Cogito",
   "area": "Antropología",
   "bloque": "B",
@@ -2473,6 +2782,7 @@ const GLOSARIO = [
   "def": "Etimología: del latín cogito, pienso. Definición: \"Pienso, luego existo\". La primera verdad y fundamento de la filosofía de Descartes: no puede negarse la existencia del sujeto que duda."
  },
  {
+  "subject": "hf",
   "t": "Ideas claras y distintas",
   "area": "Epistemología",
   "bloque": "B",
@@ -2481,6 +2791,7 @@ const GLOSARIO = [
   "def": "Una idea es clara cuando es inmediata y patente para una mente atenta. Es distinta cuando está separada de todas las demás. Criterio de verdad extraído del cogito."
  },
  {
+  "subject": "hf",
   "t": "Realidad objetiva",
   "area": "Metafísica",
   "bloque": "B",
@@ -2489,6 +2800,7 @@ const GLOSARIO = [
   "def": "El grado de realidad de la cosa que una idea representa. Aplicando el principio de causalidad, la realidad objetiva de una idea necesita una causa que tenga una realidad formal igual o mayor."
  },
  {
+  "subject": "hf",
   "t": "La garantía de Dios",
   "area": "Metafísica",
   "bloque": "B",
@@ -2497,6 +2809,7 @@ const GLOSARIO = [
   "def": "Para Descartes, un Dios perfecto no nos engaña de manera sistemática; por eso las ideas claras y distintas pueden tener valor de verdad."
  },
  {
+  "subject": "hf",
   "t": "Sustancia",
   "area": "Metafísica",
   "bloque": "B",
@@ -2505,6 +2818,7 @@ const GLOSARIO = [
   "def": "Lo que existe en sí mismo y no necesita de ninguna otra cosa para existir. Según Descartes, en sentido estricto solo Dios es sustancia."
  },
  {
+  "subject": "hf",
   "t": "Atributo",
   "area": "Metafísica",
   "bloque": "B",
@@ -2513,6 +2827,7 @@ const GLOSARIO = [
   "def": "La propiedad esencial de la sustancia, que no puede separarse de ella. El de la res cogitans es el pensamiento; el de la res extensa, la extensión."
  },
  {
+  "subject": "hf",
   "t": "Modo",
   "area": "Metafísica",
   "bloque": "B",
@@ -2521,6 +2836,7 @@ const GLOSARIO = [
   "def": "Una modificación particular del atributo. Por ejemplo, entender y querer son modos del pensamiento; la forma y el movimiento, modos de la extensión."
  },
  {
+  "subject": "hf",
   "t": "Res cogitans",
   "area": "Antropología",
   "bloque": "B",
@@ -2529,6 +2845,7 @@ const GLOSARIO = [
   "def": "Es la sustancia pensante; su característica no es la extensión, sino pensar, dudar, querer y tener conciencia."
  },
  {
+  "subject": "hf",
   "t": "Res extensa",
   "area": "Metafísica",
   "bloque": "B",
@@ -2537,6 +2854,7 @@ const GLOSARIO = [
   "def": "Es el ámbito de los cuerpos y de la naturaleza: la realidad que puede explicarse mediante la extensión, la figura, la posición y el movimiento."
  },
  {
+  "subject": "hf",
   "t": "Glándula pineal",
   "area": "Antropología",
   "bloque": "B",
@@ -2545,6 +2863,7 @@ const GLOSARIO = [
   "def": "Estructura que Descartes propuso como punto de unión entre el alma y el cuerpo; nombra el problema, pero no lo resuelve definitivamente."
  },
  {
+  "subject": "hf",
   "t": "Dualismo",
   "area": "Antropología",
   "bloque": "B",
@@ -2553,6 +2872,7 @@ const GLOSARIO = [
   "def": "Concepción que divide la realidad en dos sustancias independientes: res cogitans (pensamiento) y res extensa (extensión)."
  },
  {
+  "subject": "hf",
   "t": "Mecanicismo",
   "area": "Física",
   "bloque": "B",
@@ -2561,6 +2881,7 @@ const GLOSARIO = [
   "def": "Concepción que explica la naturaleza mediante la materia y el movimiento mecánico. Según Descartes, el universo funciona mediante grandes torbellinos."
  },
  {
+  "subject": "hf",
   "t": "Ocasionalismo",
   "area": "Metafísica",
   "bloque": "B",
@@ -2569,6 +2890,7 @@ const GLOSARIO = [
   "def": "Doctrina de Malebranche: las sustancias no actúan unas sobre otras, Dios es la única causa."
  },
  {
+  "subject": "hf",
   "t": "Panteísmo",
   "area": "Metafísica",
   "bloque": "B",
@@ -2577,6 +2899,7 @@ const GLOSARIO = [
   "def": "Dios y la Naturaleza son lo mismo. Spinoza: Deus sive Natura. Existe una única sustancia."
  },
  {
+  "subject": "hf",
   "t": "Mónada",
   "area": "Metafísica",
   "bloque": "B",
@@ -2585,11 +2908,782 @@ const GLOSARIO = [
   "def": "Etimología: del griego monas, unidad. Definición: según Leibniz, la sustancia simple, activa e indivisible. Las mónadas no tienen ventanas."
  },
  {
+  "subject": "hf",
   "t": "Armonía preestablecida",
   "area": "Metafísica",
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes y el racionalismo: unidad completa",
   "def": "Doctrina de Leibniz: Dios, al crear el mundo, sincronizó las sustancias para siempre, sin influencia externa."
+ },
+ {
+  "subject": "fil",
+  "t": "Filosofía",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "Del griego philía (amor) y sophía (sabiduría): «amor a la sabiduría». No es poseer la verdad, sino buscarla con actitud crítica."
+ },
+ {
+  "subject": "fil",
+  "t": "Asombro",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "La capacidad de extrañarse ante lo que a los demás parece obvio. Para Platón y Aristóteles, es el origen de la filosofía."
+ },
+ {
+  "subject": "fil",
+  "t": "Mito",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "Relato tradicional, transmitido oralmente, que explica la realidad mediante seres sobrenaturales; es antropomórfico, animista, arbitrario, normativo y acrítico."
+ },
+ {
+  "subject": "fil",
+  "t": "Logos",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "En griego, «palabra» y «razón». Designa la explicación racional, apoyada en causas naturales y argumentos, y abierta a la crítica."
+ },
+ {
+  "subject": "fil",
+  "t": "Paso del mito al logos",
+  "area": "Historia",
+  "tema": "Filosofía · Tema 1",
+  "def": "El nacimiento de la filosofía (Grecia, s. VI a. C.): el paso de explicar el mundo por relatos míticos a explicarlo por la razón."
+ },
+ {
+  "subject": "fil",
+  "t": "Arché",
+  "area": "Metafísica",
+  "tema": "Filosofía · Tema 1",
+  "def": "El principio o elemento originario del que todo procede. Tales de Mileto lo identificó con el agua."
+ },
+ {
+  "subject": "fil",
+  "t": "Pregunta filosófica",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "La que no la cierra un dato ni es mera preferencia: admite razones a favor y en contra y busca el fundamento último de las cosas."
+ },
+ {
+  "subject": "fil",
+  "t": "Saber común",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 1",
+  "def": "Conocimiento espontáneo de la vida diaria (sentido común): útil, pero no reflexivo y con prejuicios."
+ },
+ {
+  "subject": "fil",
+  "t": "Saber científico",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 1",
+  "def": "Investiga las causas próximas de los hechos mediante observación y experimentación; es parcial (cada ciencia estudia una parcela de la realidad)."
+ },
+ {
+  "subject": "fil",
+  "t": "Saber filosófico",
+  "area": "Metafísica",
+  "tema": "Filosofía · Tema 1",
+  "def": "Estudia los primeros principios y las causas últimas; busca una cosmovisión, una comprensión de la realidad en su conjunto."
+ },
+ {
+  "subject": "fil",
+  "t": "Metafísica",
+  "area": "Metafísica",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que estudia la realidad en cuanto tal: qué significa «ser», qué existe y sus propiedades últimas."
+ },
+ {
+  "subject": "fil",
+  "t": "Epistemología",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama (teoría del conocimiento o gnoseología) que investiga qué es el conocimiento, de dónde procede, hasta dónde llega y qué es la verdad."
+ },
+ {
+  "subject": "fil",
+  "t": "Ética",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que reflexiona sobre el bien y el mal, el fundamento de las normas morales y cómo debemos actuar."
+ },
+ {
+  "subject": "fil",
+  "t": "Estética",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que estudia la belleza y el arte, y en qué se basan nuestros juicios sobre lo bello y lo feo."
+ },
+ {
+  "subject": "fil",
+  "t": "Lógica",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que analiza la forma y la corrección de los razonamientos, para distinguir los válidos de los que no lo son."
+ },
+ {
+  "subject": "fil",
+  "t": "Filosofía política",
+  "area": "Política",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que se ocupa de la vida en comunidad: el poder, la justicia, las formas de gobierno y la organización de la sociedad."
+ },
+ {
+  "subject": "fil",
+  "t": "Antropología filosófica",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 1",
+  "def": "Rama que se pregunta qué es el ser humano, desde los puntos de vista biológico, social y cultural."
+ },
+ {
+  "subject": "fil",
+  "t": "Actitud crítica",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "La disposición a examinar y poner en cuestión las creencias admitidas «porque sí», incluidas las propias; rechaza el dogmatismo."
+ },
+ {
+  "subject": "fil",
+  "t": "Dogmatismo",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "Aceptar un saber como cierto sin someterlo a crítica ni comprobación."
+ },
+ {
+  "subject": "fil",
+  "t": "Sapere aude",
+  "area": "Método",
+  "tema": "Filosofía · Tema 1",
+  "def": "«Atrévete a saber»: consigna de Kant; ten el valor de servirte de tu propia razón."
+ },
+ {
+  "subject": "fil",
+  "t": "Evolución",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "El proceso por el que las especies cambian con el tiempo; Darwin lo explicó mediante la selección natural y el origen común."
+ },
+ {
+  "subject": "fil",
+  "t": "Selección natural",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Mecanismo de la evolución: sobreviven y se reproducen más los individuos mejor adaptados al medio."
+ },
+ {
+  "subject": "fil",
+  "t": "Hominización",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Proceso biológico que, a lo largo de millones de años, condujo de los primeros primates al Homo sapiens."
+ },
+ {
+  "subject": "fil",
+  "t": "Humanización",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Proceso cultural por el que el homínido llega a ser plenamente humano gracias a la cultura."
+ },
+ {
+  "subject": "fil",
+  "t": "Cultura",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Conjunto de conocimientos, creencias, arte, moral, derecho, costumbres y hábitos que se adquieren como miembro de una sociedad (Tylor)."
+ },
+ {
+  "subject": "fil",
+  "t": "Socialización",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Proceso por el que aprendemos las normas, valores y modelos de nuestra comunidad."
+ },
+ {
+  "subject": "fil",
+  "t": "Identidad personal",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Lo que me hace ser yo mismo y distinto de los demás."
+ },
+ {
+  "subject": "fil",
+  "t": "Identidad colectiva",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Lo que comparto con quienes pertenecen a mi grupo, pueblo o cultura."
+ },
+ {
+  "subject": "fil",
+  "t": "Etnocentrismo",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Juzgar las demás culturas desde la propia, tomándola como el único modelo válido y superior."
+ },
+ {
+  "subject": "fil",
+  "t": "Relativismo cultural",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Sostener que cada cultura solo puede valorarse según sus propios criterios y que ninguna es mejor que otra."
+ },
+ {
+  "subject": "fil",
+  "t": "Interculturalidad",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Actitud que defiende el diálogo y el enriquecimiento mutuo entre culturas sobre la base de unos mínimos comunes (derechos humanos, dignidad)."
+ },
+ {
+  "subject": "fil",
+  "t": "Dualismo",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Postura que afirma que el ser humano está compuesto de dos realidades distintas: cuerpo material y alma (o mente) inmaterial."
+ },
+ {
+  "subject": "fil",
+  "t": "Monismo",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Postura (a menudo materialista) que sostiene que solo hay una realidad: somos cuerpo, y la mente es actividad suya."
+ },
+ {
+  "subject": "fil",
+  "t": "Res cogitans / res extensa",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "En Descartes: la «cosa pensante» (la mente) y la «cosa extensa» (el cuerpo, la materia)."
+ },
+ {
+  "subject": "fil",
+  "t": "Estructura psicosomática",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "La unión de lo psíquico (psique) y lo corporal (soma) que constituye a la persona."
+ },
+ {
+  "subject": "fil",
+  "t": "Animal racional",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Definición griega del ser humano: lo que nos distingue es la razón (logos)."
+ },
+ {
+  "subject": "fil",
+  "t": "Animal social",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Rasgo que Aristóteles añade: necesitamos vivir en comunidad para desarrollarnos y ser plenamente humanos."
+ },
+ {
+  "subject": "fil",
+  "t": "Persona",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Sujeto libre, racional y responsable, portador de una dignidad que no tiene precio."
+ },
+ {
+  "subject": "fil",
+  "t": "Dignidad",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 2",
+  "def": "El valor absoluto de la persona, que hace que sea un fin en sí misma y nunca un simple medio (Kant)."
+ },
+ {
+  "subject": "fil",
+  "t": "Conciencia",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "No solo percibir el mundo, sino saber que lo percibimos."
+ },
+ {
+  "subject": "fil",
+  "t": "Autoconciencia",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "La capacidad de volvernos sobre nosotros mismos y examinar nuestros propios pensamientos y sentimientos (introspección)."
+ },
+ {
+  "subject": "fil",
+  "t": "Lenguaje simbólico",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Lenguaje articulado de signos convencionales y arbitrarios, que permite hablar de lo ausente, imaginar y pensar de forma abstracta."
+ },
+ {
+  "subject": "fil",
+  "t": "Identidad personal (problema)",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "La cuestión de qué hace que siga siendo la misma persona a lo largo del tiempo (criterios: memoria, continuidad corporal, relato)."
+ },
+ {
+  "subject": "fil",
+  "t": "Transhumanismo",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "Corriente que defiende usar la tecnología para superar los límites del cuerpo humano y «mejorar» la especie."
+ },
+ {
+  "subject": "fil",
+  "t": "Circunstancia",
+  "area": "Antropología",
+  "tema": "Filosofía · Tema 2",
+  "def": "El entorno concreto (época, cuerpo, sociedad) con el que el yo se hace: «yo soy yo y mi circunstancia» (Ortega)."
+ },
+ {
+  "subject": "fil",
+  "t": "Sentido de la existencia",
+  "area": "Metafísica",
+  "tema": "Filosofía · Tema 2",
+  "def": "La pregunta por el significado de la vida humana, que la ciencia no responde con un dato sino decidiendo cómo vivir."
+ },
+ {
+  "subject": "fil",
+  "t": "Conocimiento",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Creencia verdadera y justificada: saber algo con razones, no por azar."
+ },
+ {
+  "subject": "fil",
+  "t": "Verdad",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "La correspondencia entre lo que se afirma y la realidad."
+ },
+ {
+  "subject": "fil",
+  "t": "Creencia",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Lo que se acepta como cierto sin garantía de que corresponda a la realidad (opinión, doxa)."
+ },
+ {
+  "subject": "fil",
+  "t": "Justificación",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Las razones que apoyan una creencia y la convierten en conocimiento."
+ },
+ {
+  "subject": "fil",
+  "t": "Realismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Postura que afirma que existe una realidad independiente del sujeto que la conoce."
+ },
+ {
+  "subject": "fil",
+  "t": "Idealismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Postura que sostiene que lo que conocemos depende, en parte, de las estructuras o ideas del sujeto."
+ },
+ {
+  "subject": "fil",
+  "t": "Empirismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Corriente que afirma que todo conocimiento procede de la experiencia sensible (Locke, Hume)."
+ },
+ {
+  "subject": "fil",
+  "t": "Racionalismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Corriente que confía sobre todo en la razón como fuente de conocimiento (Descartes)."
+ },
+ {
+  "subject": "fil",
+  "t": "Criticismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Síntesis de Kant (apriorismo): el conocimiento nace de la experiencia, pero lo ordena con estructuras a priori del sujeto."
+ },
+ {
+  "subject": "fil",
+  "t": "A priori / a posteriori",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "A priori: lo que vale antes de la experiencia; a posteriori: lo que procede de la experiencia."
+ },
+ {
+  "subject": "fil",
+  "t": "Fenómeno / noúmeno",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "En Kant: el fenómeno es lo que se nos aparece (lo cognoscible); el noúmeno, la cosa en sí (incognoscible)."
+ },
+ {
+  "subject": "fil",
+  "t": "Escepticismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Postura que niega o pone en duda la posibilidad de alcanzar un conocimiento seguro."
+ },
+ {
+  "subject": "fil",
+  "t": "Relativismo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Postura que afirma que la verdad depende del sujeto, la cultura o la época."
+ },
+ {
+  "subject": "fil",
+  "t": "Percepción",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "El conocimiento inmediato que nos dan los sentidos."
+ },
+ {
+  "subject": "fil",
+  "t": "Razón",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "La facultad que elabora conceptos y argumentos a partir de los datos sensibles."
+ },
+ {
+  "subject": "fil",
+  "t": "Concepto",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "La representación general y abstracta de una clase de objetos."
+ },
+ {
+  "subject": "fil",
+  "t": "Deducción",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 3",
+  "def": "Razonamiento que va de lo general a lo particular; si las premisas son verdaderas, la conclusión es necesaria."
+ },
+ {
+  "subject": "fil",
+  "t": "Inducción",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 3",
+  "def": "Razonamiento que va de casos particulares a una conclusión general; solo probable."
+ },
+ {
+  "subject": "fil",
+  "t": "Evidencia",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "El estado en que una verdad se presenta con claridad y distinción, sin posible duda (Descartes)."
+ },
+ {
+  "subject": "fil",
+  "t": "Sesgo cognitivo",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Tendencia sistemática del pensamiento a desviarse del juicio racional (por ejemplo, el sesgo de confirmación)."
+ },
+ {
+  "subject": "fil",
+  "t": "Posverdad",
+  "area": "Epistemología",
+  "tema": "Filosofía · Tema 3",
+  "def": "Situación en la que las emociones y creencias pesan más que los hechos objetivos en la formación de la opinión."
+ },
+ {
+  "subject": "fil",
+  "t": "Moral",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "El conjunto de normas, valores y costumbres que una persona o sociedad considera correctos."
+ },
+ {
+  "subject": "fil",
+  "t": "Autonomía",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Actuar según la ley que uno mismo se da racionalmente, sin imposición externa."
+ },
+ {
+  "subject": "fil",
+  "t": "Heteronomía",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Actuar según normas impuestas desde fuera (autoridad, costumbre, miedo)."
+ },
+ {
+  "subject": "fil",
+  "t": "Conciencia moral",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "La capacidad de juzgar si nuestros actos son buenos o malos."
+ },
+ {
+  "subject": "fil",
+  "t": "Desarrollo moral",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "El proceso por el que se madura el juicio moral; Kohlberg lo describe en niveles (preconvencional, convencional, posconvencional)."
+ },
+ {
+  "subject": "fil",
+  "t": "Deliberación",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Sopesar razones y consecuencias antes de decidir cómo actuar."
+ },
+ {
+  "subject": "fil",
+  "t": "Falacia naturalista",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "El error de derivar lo que debe ser de lo que es (ser/deber ser): que algo ocurra no implica que sea bueno."
+ },
+ {
+  "subject": "fil",
+  "t": "Valor",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Cualidad que apreciamos y que orienta nuestra conducta (justicia, libertad, solidaridad…)."
+ },
+ {
+  "subject": "fil",
+  "t": "Norma",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Regla que prescribe cómo debemos actuar."
+ },
+ {
+  "subject": "fil",
+  "t": "Libertad",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "La capacidad de elegir y obrar por uno mismo; condición de la responsabilidad moral."
+ },
+ {
+  "subject": "fil",
+  "t": "Responsabilidad",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Responder de las consecuencias de los propios actos."
+ },
+ {
+  "subject": "fil",
+  "t": "Eudemonismo",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Ética que identifica el bien con la felicidad (Aristóteles)."
+ },
+ {
+  "subject": "fil",
+  "t": "Hedonismo",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Ética que identifica el bien con el placer (epicureísmo, utilitarismo)."
+ },
+ {
+  "subject": "fil",
+  "t": "Virtud",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "En Aristóteles, el hábito de elegir el término medio entre dos extremos; la excelencia del carácter."
+ },
+ {
+  "subject": "fil",
+  "t": "Ética del deber",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Ética (deontología) que juzga la acción por su conformidad con el deber, no por sus consecuencias (Kant)."
+ },
+ {
+  "subject": "fil",
+  "t": "Imperativo categórico",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "El mandato incondicionado de Kant: obra solo según la máxima que puedas querer que se convierta en ley universal."
+ },
+ {
+  "subject": "fil",
+  "t": "Utilitarismo",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Ética que juzga la acción por su utilidad: busca la mayor felicidad para el mayor número."
+ },
+ {
+  "subject": "fil",
+  "t": "Dilema moral",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Situación en la que hay que elegir entre opciones que entran en conflicto con distintos valores."
+ },
+ {
+  "subject": "fil",
+  "t": "Justicia",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "Dar a cada uno lo que le corresponde; trato equitativo entre las personas."
+ },
+ {
+  "subject": "fil",
+  "t": "Ética aplicada",
+  "area": "Ética",
+  "tema": "Filosofía · Tema 5",
+  "def": "La aplicación de la reflexión ética a ámbitos concretos (bioética, ética ambiental, ética de los medios…)."
+ },
+ {
+  "subject": "fil",
+  "t": "Belleza",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 7",
+  "def": "La cualidad que hace que algo nos produzca una experiencia de agrado desinteresado."
+ },
+ {
+  "subject": "fil",
+  "t": "Arte",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 7",
+  "def": "La actividad humana que crea obras para expresar y comunicar emociones, ideas o belleza."
+ },
+ {
+  "subject": "fil",
+  "t": "Obra de arte",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 7",
+  "def": "El objeto creado con intención artística, portador de forma y sentido."
+ },
+ {
+  "subject": "fil",
+  "t": "Juicio estético",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 7",
+  "def": "El juicio con el que valoramos algo como bello o feo; para Kant es subjetivo pero aspira a validez universal."
+ },
+ {
+  "subject": "fil",
+  "t": "Sublime",
+  "area": "Estética",
+  "tema": "Filosofía · Tema 7",
+  "def": "La experiencia de lo que sobrepasa nuestra medida (lo inmenso, lo poderoso), que despierta admiración y respeto."
+ },
+ {
+  "subject": "fil",
+  "t": "Argumento",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Un conjunto de razones (premisas) que se ofrecen para apoyar una conclusión."
+ },
+ {
+  "subject": "fil",
+  "t": "Premisa",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Cada una de las razones o afirmaciones de las que parte un argumento."
+ },
+ {
+  "subject": "fil",
+  "t": "Conclusión",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "La afirmación que se pretende sostener con las premisas."
+ },
+ {
+  "subject": "fil",
+  "t": "Argumento deductivo",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "El que, si las premisas son verdaderas, garantiza la verdad de la conclusión."
+ },
+ {
+  "subject": "fil",
+  "t": "Argumento inductivo",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "El que apoya la conclusión con cierta probabilidad, sin garantizarla."
+ },
+ {
+  "subject": "fil",
+  "t": "Validez",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Propiedad formal del argumento deductivo: si las premisas son verdaderas, la conclusión no puede ser falsa."
+ },
+ {
+  "subject": "fil",
+  "t": "Falacia",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Un razonamiento que parece válido pero no lo es; un error de argumentación que puede engañar."
+ },
+ {
+  "subject": "fil",
+  "t": "Ad hominem",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Atacar a la persona que argumenta en vez de rebatir sus razones."
+ },
+ {
+  "subject": "fil",
+  "t": "Hombre de paja",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Deformar la postura del contrario para atacar una versión debilitada de ella."
+ },
+ {
+  "subject": "fil",
+  "t": "Apelación a la autoridad",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Dar algo por verdadero solo porque lo dice una autoridad, sin examinar las razones."
+ },
+ {
+  "subject": "fil",
+  "t": "Pendiente resbaladiza",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Afirmar que un paso llevará inevitablemente a una cadena de consecuencias extremas, sin justificarlo."
+ },
+ {
+  "subject": "fil",
+  "t": "Falso dilema",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Presentar solo dos opciones cuando en realidad hay más."
+ },
+ {
+  "subject": "fil",
+  "t": "Generalización apresurada",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Concluir una regla general a partir de muy pocos casos."
+ },
+ {
+  "subject": "fil",
+  "t": "Causa falsa",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Tomar la sucesión temporal como causalidad (post hoc): «después de esto, por lo tanto, a causa de esto»."
+ },
+ {
+  "subject": "fil",
+  "t": "Apelación a la ignorancia",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Afirmar que algo es cierto porque no se ha demostrado lo contrario."
+ },
+ {
+  "subject": "fil",
+  "t": "Apelación a la mayoría",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Dar algo por verdadero porque lo cree la mayoría (ad populum)."
+ },
+ {
+  "subject": "fil",
+  "t": "Petición de principio",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Dar por supuesta en las premisas la misma conclusión que se quiere demostrar (circularidad)."
+ },
+ {
+  "subject": "fil",
+  "t": "Disertación",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Texto argumentativo que defiende una tesis con razones, estructura (introducción, desarrollo, conclusión) y valoración personal."
  }
 ];
