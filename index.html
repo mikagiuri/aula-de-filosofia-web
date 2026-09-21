@@ -29,13 +29,6 @@
     <nav class="tabs" id="tabs" aria-label="Secciones">
       <button data-view="inicio" aria-current="true">Inicio</button>
       <div class="navsec">
-        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Materias</span>
-        <div class="navmenu">
-          <button data-view="fil">Filosofía 1.º</button>
-          <button data-view="hf">Historia de la Filosofía</button>
-        </div>
-      </div>
-      <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Programación</span>
         <div class="navmenu">
           <button data-view="sesiones">Sesiones</button>
@@ -97,13 +90,13 @@
     <p class="lead">Las dos materias de Bachillerato del departamento: Filosofía (1.º) e Historia de la Filosofía (2.º). Reúne los materiales de aula y las herramientas interactivas —tarjetas y cuestionarios— para usarlas en clase y en casa. Se irá ampliando.</p>
 
     <div class="courses">
-      <article class="course" style="--c:var(--fil)">
+      <article class="course" data-view="fil" role="button" tabindex="0" aria-label="Abrir Filosofía 1.º Bachillerato" style="--c:var(--fil)">
         <span class="kick">Filosofía · 1.º Bach</span>
         <h3>¿Qué es la filosofía?</h3>
         <p>Del asombro al logos: origen, características, método, preguntas y relación con otros saberes. Tres grupos (C, D, G).</p>
         <div class="meta"><span><b>Tema 1</b> en marcha</span><span>Libro McGraw Hill</span></div>
       </article>
-      <article class="course" style="--c:var(--hf)">
+      <article class="course" data-view="hf" role="button" tabindex="0" aria-label="Abrir Historia de la Filosofía 2.º Bachillerato" style="--c:var(--hf)">
         <span class="kick">Historia de la Filosofía · 2.º Bach</span>
         <h3>Filosofía antigua</h3>
         <p>De los presocráticos a Platón, pasando por los sofistas, Sócrates y Aspasia. Preparación de la PAU.</p>
