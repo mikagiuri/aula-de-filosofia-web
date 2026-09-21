@@ -103,12 +103,6 @@ const SUBJECTS = {
     "fil\\T01_hoja…"
    ],
    [
-    "Ficha con soluciones T1 (profesor)",
-    "Los mismos ejercicios del T1 con las soluciones orientativas y la rúbrica del comentario.",
-    "fil\\T01_ficha…",
-    "fil-ficha-t1"
-   ],
-   [
     "Apunte teórico T2",
     "Texto completo del Tema 2: naturaleza y cultura, cuerpo y mente, concepciones del ser humano, identidad y sentido de la existencia.",
     "fil\\T02_teoria…"
@@ -117,12 +111,6 @@ const SUBJECTS = {
     "Hoja de ejercicios T2 (alumnado)",
     "«¿Qué es el ser humano?»: 14 ejercicios con tablas y líneas para rellenar, para imprimir y repartir.",
     "fil\\T02_hoja…"
-   ],
-   [
-    "Ficha con soluciones T2 (profesor)",
-    "Los mismos ejercicios del T2 con las soluciones orientativas y la rúbrica del comentario.",
-    "fil\\T02_ficha…",
-    "fil-ficha-t2"
    ],
    [
     "Apunte teórico T3",
