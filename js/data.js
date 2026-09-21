@@ -4391,17 +4391,6 @@ const QUIZZES = {
     "fb": "Criterio de falsación (Popper): lo científico debe poder someterse a prueba y, en principio, refutarse."
    },
    {
-    "q": "¿Qué es la posverdad?",
-    "o": [
-     "Que las emociones y las creencias pesan más que los hechos.",
-     "Que los hechos mandan.",
-     "Que la mentira desaparece.",
-     "Que la ciencia siempre acierta."
-    ],
-    "a": 0,
-    "fb": "La posverdad prioriza la emoción sobre el hecho objetivo."
-   },
-   {
     "q": "¿Qué es el sesgo de confirmación?",
     "o": [
      "Tender a buscar y creer lo que confirma nuestras ideas.",
@@ -4961,17 +4950,6 @@ const QUIZZES = {
     "fb": "Agustín sitúa el tiempo en la vida interior del sujeto, donde la memoria retiene el pasado, la atención sostiene el presente y la esperanza abre el futuro."
    },
    {
-    "q": "¿Cuál es la teoría de la iluminación de Agustín?",
-    "o": [
-     "La luz de Dios permite conocer las verdades eternas e inmutables.",
-     "Los sentidos iluminan la razón.",
-     "La razón se ilumina a sí misma.",
-     "La luz física ilumina el alma."
-    ],
-    "a": 0,
-    "fb": "Para Agustín los sentidos solo ofrecen lo cambiante; es Dios quien ilumina el entendimiento para conocer las verdades necesarias."
-   },
-   {
     "q": "¿Qué diferencia hay entre creación y emanación?",
     "o": [
      "La creación es libre y de la nada; la emanación es desbordamiento necesario.",
@@ -5076,17 +5054,6 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Hildegarda importa porque muestra que el saber medieval no se reduce a la forma escolástica y universitaria, mayoritariamente masculina."
-   },
-   {
-    "q": "¿Qué une la cosmología de Hildegarda?",
-    "o": [
-     "Dios, la naturaleza, el cuerpo, la salud y la comunidad en un orden vivo.",
-     "Solo la música y la liturgia.",
-     "Únicamente los aspectos políticos.",
-     "Los átomos y el vacío."
-    ],
-    "a": 0,
-    "fb": "La cosmología de Hildegarda entrelaza Dios, la naturaleza, el cuerpo, la salud y la comunidad."
    },
    {
     "q": "¿Qué significa la viriditas?",
@@ -5206,39 +5173,6 @@ const QUIZZES = {
     "fb": "Avicena distingue la esencia (qué es algo) de la existencia (que realmente es)."
    },
    {
-    "q": "¿Qué demuestra el «hombre volador»?",
-    "o": [
-     "Que la autoconciencia del alma es independiente del cuerpo.",
-     "Que el cuerpo es lo esencial.",
-     "Que los sentidos dan todo el conocimiento.",
-     "Que el alma muere con el cuerpo."
-    ],
-    "a": 0,
-    "fb": "El experimento mental muestra que el alma, consciente de sí sin percibir su cuerpo, no depende de la percepción corporal."
-   },
-   {
-    "q": "¿Qué es el Ser Necesario?",
-    "o": [
-     "Aquel cuya existencia coincide con su esencia.",
-     "Un ser contingente cualquiera.",
-     "Un principio puramente material.",
-     "Una idea innata."
-    ],
-    "a": 0,
-    "fb": "El Ser Necesario es el fundamento en el que esencia y existencia coinciden, y que sostiene los seres contingentes."
-   },
-   {
-    "q": "¿Cómo influyó Avicena en la escolástica?",
-    "o": [
-     "Transmitió la distinción esencia/existencia y el legado de Aristóteles.",
-     "Implantó el nominalismo.",
-     "Creó el método experimental.",
-     "Negó toda filosofía griega."
-    ],
-    "a": 0,
-    "fb": "Traducido al latín, Avicena aportó a la escolástica la distinción esencia/existencia y el Aristóteles que Tomás consideró."
-   },
-   {
     "q": "¿En qué contexto se desarrolló el pensamiento de Avicena?",
     "o": [
      "En el mundo islámico, antes de que Europa recuperara a Aristóteles.",
@@ -5310,50 +5244,6 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Ockham anticipa la modernidad al primar los individuos, la economía de la explicación y los límites de la razón, aunque siguiera siendo teólogo medieval."
-   },
-   {
-    "q": "¿Qué sostiene el nominalismo de Ockham sobre los universales?",
-    "o": [
-     "Los universales son nombres o conceptos, no realidades independientes.",
-     "Los universales existen aparte en el mundo de las Ideas.",
-     "Los universales son formas reales en las cosas.",
-     "Los universales son ideas divinas necesarias."
-    ],
-    "a": 0,
-    "fb": "Para Ockham solo existen los individuos; los universales son nombres o conceptos generales."
-   },
-   {
-    "q": "¿Qué consecuencia trae el nominalismo para el conocimiento?",
-    "o": [
-     "El conocimiento parte de los individuos y de la experiencia.",
-     "El conocimiento solo es posible desde universales reales.",
-     "El conocimiento es imposible.",
-     "El conocimiento depende de las ideas divinas."
-    ],
-    "a": 0,
-    "fb": "Si lo real son los individuos, el conocimiento se apoya en la experiencia de las cosas concretas."
-   },
-   {
-    "q": "¿Cómo ve Ockham la relación entre fe y razón?",
-    "o": [
-     "Separa fe y razón: la razón no basta para demostrar las verdades de la teología.",
-     "Las une del todo en la síntesis tomista.",
-     "La razón sustituye a la fe.",
-     "La fe anula a la razón."
-    ],
-    "a": 0,
-    "fb": "Ockham marca los límites de la razón: muchas verdades de la fe no se demuestran y quedan en el ámbito de la revelación."
-   },
-   {
-    "q": "¿Por qué se llama a Ockham «puerta a la modernidad»?",
-    "o": [
-     "Por primar los individuos, la economía de la explicación y los límites de la razón.",
-     "Por crear la ciencia experimental.",
-     "Por fundar el capitalismo.",
-     "Por negar toda diferencia entre fe y razón."
-    ],
-    "a": 0,
-    "fb": "Ockham anticipa la modernidad al subrayar los individuos, la simplicidad explicativa y la separación fe-razón."
    }
   ]
  },
@@ -5416,28 +5306,6 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "Con el hilemorfismo aristotélico, Tomás entiende al ser humano como unidad de alma y cuerpo, donde el alma es la forma del cuerpo viviente."
-   },
-   {
-    "q": "¿Cuál es el proyecto de Tomás de Aquino?",
-    "o": [
-     "Integrar la filosofía de Aristóteles en el cristianismo en una síntesis.",
-     "Separar del todo razón y fe.",
-     "Negar toda experiencia.",
-     "Implantar el fideísmo."
-    ],
-    "a": 0,
-    "fb": "Tomás busca una gran síntesis escolástica: armonizar el aristotelismo con la fe cristiana."
-   },
-   {
-    "q": "¿De dónde parten las cinco vías?",
-    "o": [
-     "De hechos observables del mundo: movimiento, causa, contingencia, perfección y finalidad.",
-     "Solo del concepto de Dios.",
-     "De la experiencia interna.",
-     "De la autoridad de la Escritura."
-    ],
-    "a": 0,
-    "fb": "Las cinco vías parten de la experiencia del mundo y concluyen la existencia de Dios."
    }
   ]
  },
@@ -5736,17 +5604,6 @@ const QUIZZES = {
     "fb": "La libertad no consiste en actuar sin causa, sino en comprender la necesidad y dejar de ser juguete de las pasiones ciegas."
    },
    {
-    "q": "¿Qué significa Deus sive Natura?",
-    "o": [
-     "Dios o la Naturaleza: la única sustancia infinita.",
-     "Dios está separado de la naturaleza.",
-     "La naturaleza es ilusión.",
-     "Hay dos sustancias."
-    ],
-    "a": 0,
-    "fb": "Spinoza identifica a Dios con la Naturaleza como única sustancia."
-   },
-   {
     "q": "¿Cuántos atributos conoce de la sustancia?",
     "o": [
      "El pensamiento y la extensión.",
@@ -5756,17 +5613,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "De los infinitos atributos, el ser humano conoce el pensamiento y la extensión."
-   },
-   {
-    "q": "¿Qué es el modo en Spinoza?",
-    "o": [
-     "Una expresión concreta y limitada de la sustancia única.",
-     "Una sustancia independiente.",
-     "Un atributo de Dios.",
-     "Una ilusión."
-    ],
-    "a": 0,
-    "fb": "Los seres particulares son modos de la sustancia, no sustancias autónomas."
    },
    {
     "q": "¿Qué critica Spinoza a Descartes?",
@@ -5862,28 +5708,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Locke distingue sensación (externos) y reflexión (operaciones internas)."
-   },
-   {
-    "q": "¿Qué son las cualidades primarias?",
-    "o": [
-     "Propiedades objetivas como extensión, forma y movimiento.",
-     "Efectos subjetivos como el color.",
-     "Atributos de Dios.",
-     "Ideas innatas."
-    ],
-    "a": 0,
-    "fb": "Las cualidades primarias son objetivas, independientes del sujeto."
-   },
-   {
-    "q": "¿Qué derechos naturales defiende Locke?",
-    "o": [
-     "Vida, libertad y propiedad.",
-     "Solo la propiedad.",
-     "Igualdad y obediencia.",
-     "Fe, esperanza y caridad."
-    ],
-    "a": 0,
-    "fb": "Locke afirma los derechos naturales a la vida, la libertad y la propiedad."
    },
    {
     "q": "¿Qué carácter tiene el poder político según Locke?",
@@ -6160,28 +5984,6 @@ const QUIZZES = {
     "fb": "Los autores de B5 deben entenderse como distintas respuestas a un problema común: pensar a la vez el sujeto y la naturaleza mecánica."
    },
    {
-    "q": "¿Cuál es el problema del dualismo?",
-    "o": [
-     "La interacción entre la mente y el cuerpo.",
-     "La definición de sustancia.",
-     "El origen de los átomos.",
-     "La organización de la ciudad."
-    ],
-    "a": 0,
-    "fb": "El dualismo debe explicar el vínculo causal entre mente y cuerpo."
-   },
-   {
-    "q": "¿Por qué es crucial la idea de naturaleza mecánica?",
-    "o": [
-     "Porque la ciencia nueva explica la naturaleza por leyes y medición.",
-     "Porque niega toda ley.",
-     "Porque es teológica.",
-     "Porque elimina la observación."
-    ],
-    "a": 0,
-    "fb": "El mecanicismo permite explicar la naturaleza con leyes matemáticas."
-   },
-   {
     "q": "¿Qué es la sustancia en este contexto?",
     "o": [
      "Lo que existe por sí mismo.",
@@ -6308,17 +6110,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La voluntad general encarna el bien común."
-   },
-   {
-    "q": "¿Por qué es importante la separación de poderes?",
-    "o": [
-     "Para que el poder frene al poder y proteger la libertad.",
-     "Para concentrar el poder.",
-     "Para eliminar la política.",
-     "Para garantizar la tiranía."
-    ],
-    "a": 0,
-    "fb": "Separar legislativo, ejecutivo y judicial limita el abuso del poder."
    }
   ]
  },
@@ -6414,17 +6205,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Para Smith el interés propio conduce al bienestar general."
-   },
-   {
-    "q": "¿Cuál es un problema del cálculo utilitarista?",
-    "o": [
-     "Puede sacrificar minorías en nombre del bienestar total.",
-     "Nunca examina consecuencias.",
-     "Siempre protege la libertad.",
-     "No mide la felicidad."
-    ],
-    "a": 0,
-    "fb": "El cálculo utilitarista puede perjudicar a minorías para maximizar el bienestar global."
    }
   ]
  },
@@ -6498,17 +6278,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "El espacio público es esencial porque en él las ideas se debaten y se ponen a prueba ante todos."
-   },
-   {
-    "q": "¿Qué crítica hace Olympe de Gouges?",
-    "o": [
-     "Pone a prueba la universalidad ilustrada al denunciar la exclusión de las mujeres.",
-     "Rechaza toda la Ilustración.",
-     "Defiende los privilegios masculinos.",
-     "Propone volver al Antiguo Régimen."
-    ],
-    "a": 0,
-    "fb": "De Gouges vuelve la Declaración contra sí misma y denuncia que las mujeres quedaban fuera de los derechos."
    },
    {
     "q": "¿Qué sostiene Wollstonecraft sobre la inferioridad de las mujeres?",
@@ -6606,17 +6375,6 @@ const QUIZZES = {
     "fb": "La libertad, Dios y la inmortalidad no se demuestran teóricamente, pero la razón práctica los necesita como horizonte de la moral."
    },
    {
-    "q": "¿Qué es la pregunta trascendental en Kant?",
-    "o": [
-     "Preguntar por las condiciones que hacen posible la experiencia objetiva.",
-     "Describir la cosa en sí.",
-     "Fundar la moral en los sentimientos.",
-     "Recuperar las pruebas dogmáticas."
-    ],
-    "a": 0,
-    "fb": "La pregunta trascendental indaga las condiciones de posibilidad de la experiencia, no la cosa en sí."
-   },
-   {
     "q": "¿Qué papel tienen los postulados prácticos?",
     "o": [
      "La libertad, Dios y la inmortalidad como ideas que la moral necesita aunque la razón teórica no las demuestre.",
@@ -6699,28 +6457,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "El siglo XIX conecta la Ilustración con los filósofos de la sospecha."
-   },
-   {
-    "q": "¿Qué subraya la historización de Herder?",
-    "o": [
-     "Que el ser humano se forma en una lengua, un pueblo, una memoria y una cultura concretas.",
-     "Que la razón es abstracta y sin historia.",
-     "Que la historia no importa.",
-     "Que todas las culturas son iguales en todo."
-    ],
-    "a": 0,
-    "fb": "Herder subraya la historicidad y la diversidad cultural frente a una razón abstracta."
-   },
-   {
-    "q": "¿Qué significa el «descentramiento» de Darwin?",
-    "o": [
-     "Que el ser humano queda situado dentro de la historia evolutiva, sin excepción metafísica.",
-     "Que el ser humano está fuera de la naturaleza.",
-     "Que la selección natural es un fin moral.",
-     "Que el darwinismo es un programa político."
-    ],
-    "a": 0,
-    "fb": "El darwinismo sitúa al ser humano en el continuum de la vida, cuestionando su excepción metafísica."
    },
    {
     "q": "¿Por qué es importante el sufragismo?",
@@ -6807,17 +6543,6 @@ const QUIZZES = {
     "fb": "Marx conserva la lógica de las contradicciones pero la funda en lo material, no en el Espíritu."
    },
    {
-    "q": "¿Qué es la alienación económica?",
-    "o": [
-     "Volverse ajeno al producto del trabajo, a la propia actividad y a la capacidad creadora.",
-     "Recibir el fruto del trabajo.",
-     "La igualdad de clases.",
-     "La conciencia de clase."
-    ],
-    "a": 0,
-    "fb": "La alienación es enajenarse respecto al producto, la actividad y la propia esencia humana."
-   },
-   {
     "q": "¿Qué papel juega la ideología en Marx?",
     "o": [
      "Presenta un orden social histórico como natural y justo.",
@@ -6889,17 +6614,6 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "La genealogía examina el origen histórico, afectivo y de poder de los valores morales, en vez de darlos por naturales o eternos."
-   },
-   {
-    "q": "¿Qué significa «Dios ha muerto»?",
-    "o": [
-     "Que ha caído el fundamento de los valores absolutos de Occidente.",
-     "Que la religión ha desaparecido.",
-     "Que la ciencia resuelve la moral.",
-     "Que el ser humano no crea valores."
-    ],
-    "a": 0,
-    "fb": "«Dios ha muerto» señala la crisis de los fundamentos absolutos de los valores occidentales."
    }
   ]
  },
@@ -7081,17 +6795,6 @@ const QUIZZES = {
     "fb": "La sociedad unidimensional integra la crítica y la neutraliza como mercancía."
    },
    {
-    "q": "¿Para qué usa Marcuse a Freud y Marx?",
-    "o": [
-     "Para examinar el deseo y la represión en la sociedad capitalista.",
-     "Para negar la economía.",
-     "Para separar psique y sociedad.",
-     "Para defender el consumo."
-    ],
-    "a": 0,
-    "fb": "Marcuse cruza psicoanálisis y crítica social para analizar la represión."
-   },
-   {
     "q": "¿Cuál es la aportación de Habermas?",
     "o": [
      "La razón comunicativa y la esfera pública como base de la democracia deliberativa.",
@@ -7185,39 +6888,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "El caso Eichmann muestra el mal burocrático, sin pensar."
-   },
-   {
-    "q": "¿Cuáles son las tres formas de la vita activa?",
-    "o": [
-     "Labor, trabajo y acción.",
-     "Consumo, ocio y descanso.",
-     "Teoría, práctica y poesía.",
-     "Vegetativa, sensitiva y racional."
-    ],
-    "a": 0,
-    "fb": "Labor (biología), trabajo (mundo de objetos) y acción (política entre iguales)."
-   },
-   {
-    "q": "¿Por qué es importante la natalidad?",
-    "o": [
-     "Hace posibles la novedad y la libertad.",
-     "Solo explica la biología.",
-     "Impide la política.",
-     "Justifica la violencia."
-    ],
-    "a": 0,
-    "fb": "Cada nacimiento trae un comienzo nuevo, condición de la libertad."
-   },
-   {
-    "q": "¿Cómo distingue Arendt poder y violencia?",
-    "o": [
-     "El poder nace de actuar juntos; la violencia es su sustituto.",
-     "La violencia es la base del poder.",
-     "Son exactamente lo mismo.",
-     "El poder es violencia."
-    ],
-    "a": 0,
-    "fb": "El poder es cooperación; la violencia aparece donde falta el poder."
    }
   ]
  },
@@ -7282,17 +6952,6 @@ const QUIZZES = {
     "fb": "La ética de la ambigüedad no aplica una fórmula cerrada: la libertad se decide en cada situación y solo es legítima si no niega la libertad de los demás («querer ser libre es querer libres a los demás»)."
    },
    {
-    "q": "¿Qué significa «no se nace mujer, se llega a serlo»?",
-    "o": [
-     "Que el género es una construcción social y cultural, no un dato biológico.",
-     "Que la mujer es inferior por naturaleza.",
-     "Que solo importa la biología.",
-     "Que la identidad femenina es eterna."
-    ],
-    "a": 0,
-    "fb": "Beauvoir defiende que la feminidad se construye por la cultura y las instituciones."
-   },
-   {
     "q": "¿Qué es «la Otra» según Beauvoir?",
     "o": [
      "La mujer definida como segundo sexo, respecto al hombre como sujeto.",
@@ -7302,28 +6961,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La mujer ha sido «la otra» respecto al hombre, sujeto absoluto."
-   },
-   {
-    "q": "¿Qué distingue inmanencia y trascendencia?",
-    "o": [
-     "Inmanencia es repetición y pasividad; trascendencia es proyectarse al futuro.",
-     "Son lo mismo.",
-     "La inmanencia es la libertad.",
-     "La trascendencia es doméstica."
-    ],
-    "a": 0,
-    "fb": "La mujer fue confinada a la inmanencia, negándole la trascendencia."
-   },
-   {
-    "q": "¿Qué es la ética de la ambigüedad?",
-    "o": [
-     "Que la libertad se decide en situación respetando la libertad de los demás.",
-     "Una ética absoluta.",
-     "Una ética de la obediencia.",
-     "Una ética que niega la libertad."
-    ],
-    "a": 0,
-    "fb": "La libertad se ejerce en cada situación y debe respetar la de los demás."
    }
   ]
  },
@@ -7397,17 +7034,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Ortega liga el yo a su circunstancia concreta."
-   },
-   {
-    "q": "¿Qué es el Dasein en Heidegger?",
-    "o": [
-     "El ser humano que está en el mundo y se pregunta por el ser.",
-     "Un ser sin relación con el mundo.",
-     "Una esencia fija.",
-     "Un simple animal."
-    ],
-    "a": 0,
-    "fb": "Dasein es el ente que pregunta por el ser."
    },
    {
     "q": "¿Qué significa «la existencia precede a la esencia»?",
@@ -7651,17 +7277,6 @@ const QUIZZES = {
     "fb": "Fraser sostiene que la justicia de género exige a la vez redistribución de recursos y reconocimiento simbólico, sin reducir una cosa a la otra (sección «Fraser: redistribución y reconocimiento»)."
    },
    {
-    "q": "¿Qué reivindicaba la primera ola feminista?",
-    "o": [
-     "El derecho al voto y la igualdad jurídica.",
-     "Solo cambios culturales.",
-     "La crítica a la economía.",
-     "La negación de los derechos."
-    ],
-    "a": 0,
-    "fb": "La primera ola fue el sufragismo por el voto y la igualdad legal."
-   },
-   {
     "q": "¿Qué significa que el género es performativo para Butler?",
     "o": [
      "Que el género se produce por la repetición de normas y actos.",
@@ -7744,17 +7359,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La IA no es neutra: plantea poder y responsabilidad."
-   },
-   {
-    "q": "¿Qué defiende la justicia climática?",
-    "o": [
-     "Examinar juntas la crisis ecológica y las desigualdades sociales.",
-     "Que el crecimiento es siempre sostenible.",
-     "Que el clima es solo técnico.",
-     "Que la naturaleza no es política."
-    ],
-    "a": 0,
-    "fb": "La crisis ecológica afecta desigualmente y es un problema de justicia."
    },
    {
     "q": "¿Qué es la modernidad líquida de Bauman?",
@@ -8106,17 +7710,6 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "La virtud ética es un hábito selectivo que elige el término medio entre el exceso y el defecto, medida que determina la prudencia (phrónesis)."
-   },
-   {
-    "q": "¿Cómo comienza, en Aristóteles, el conocimiento de lo general?",
-    "o": [
-     "Recordando las Ideas ya conocidas.",
-     "Aceptando los relatos míticos.",
-     "Contemplando solo el mundo celeste.",
-     "Partiendo de la experiencia sensible y mediante la abstracción y la lógica."
-    ],
-    "a": 3,
-    "fb": "Frente al ascenso platónico, Aristóteles parte de la experiencia sensible y, mediante la abstracción y la lógica, capta las estructuras generales de lo real."
    },
    {
     "q": "¿En qué sentido critica Aristóteles situar las Ideas «aparte» de las cosas?",
