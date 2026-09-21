@@ -3224,6 +3224,113 @@ const DECKS = {
     "Pregúntate: ¿quién lo dice, con qué pruebas y con qué intención?"
    ]
   ]
+ },
+ "fil-etica": {
+  "name": "Filosofía 1.º · Las preguntas de la ética (T5)",
+  "subject": "fil",
+  "cards": [
+   [
+    "⚖️",
+    "Ética y moral",
+    "La moral son las normas de hecho de una comunidad; la ética es la reflexión filosófica sobre esa moral."
+   ],
+   [
+    "🎯",
+    "Éticas materiales",
+    "Dicen cuál es el bien o el fin que hay que perseguir (p. ej. la felicidad)."
+   ],
+   [
+    "📐",
+    "Éticas formales",
+    "No fijan el contenido, sino la forma que debe tener el deber (Kant)."
+   ],
+   [
+    "🌿",
+    "Eudaimonismo",
+    "Aristóteles: el fin es la felicidad (eudaimonía), lograda mediante la virtud."
+   ],
+   [
+    "😊",
+    "Hedonismo",
+    "Epicuro: el bien es el placer, entendido como ausencia de dolor y de turbación."
+   ],
+   [
+    "📊",
+    "Utilitarismo",
+    "Mill: es bueno lo que produce la mayor felicidad para el mayor número."
+   ],
+   [
+    "🧭",
+    "Deontología",
+    "Kant: obrar por deber según el imperativo categórico, no por las consecuencias."
+   ],
+   [
+    "💬",
+    "Emotivismo",
+    "Hume: los juicios morales expresan sentimientos, no la sola razón."
+   ],
+   [
+    "🕊️",
+    "Autonomía y heteronomía",
+    "Autonomía: darse uno mismo la ley moral. Heteronomía: recibirla de fuera."
+   ],
+   [
+    "⭐",
+    "Virtud",
+    "Hábito bueno, término medio entre dos extremos, guiado por la razón (Aristóteles)."
+   ]
+  ]
+ },
+ "fil-arte": {
+  "name": "Filosofía 1.º · La belleza y el arte (T7)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🌸",
+    "Belleza",
+    "Lo que produce placer estético; buscada en la proporción y la armonía o en la mirada del sujeto."
+   ],
+   [
+    "👁️",
+    "Objetivismo estético",
+    "La belleza está en el objeto: proporción, orden y armonía (los clásicos)."
+   ],
+   [
+    "💭",
+    "Subjetivismo estético",
+    "La belleza está en el sujeto: «sobre gustos no hay nada escrito»."
+   ],
+   [
+    "⚖️",
+    "Juicio de gusto (Kant)",
+    "Placer desinteresado y sin concepto, pero con pretensión de validez universal."
+   ],
+   [
+    "🪞",
+    "Mímesis",
+    "El arte como imitación de la realidad (Platón, Aristóteles)."
+   ],
+   [
+    "❤️",
+    "Expresión",
+    "El arte comunica y expresa emociones y estados de ánimo."
+   ],
+   [
+    "🔷",
+    "Formalismo",
+    "Lo que importa es la forma: «el arte por el arte»."
+   ],
+   [
+    "🏛️",
+    "Teoría institucional",
+    "Es arte lo que el «mundo del arte» (museos, críticos) reconoce como tal."
+   ],
+   [
+    "🖼️",
+    "Funciones del arte",
+    "Estética, cognoscitiva, social y crítica."
+   ]
+  ]
  }
 };
 const QUIZZES = {
@@ -9425,6 +9532,78 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "Respuesta correcta: El problema de la comunicación entre las sustancias."
+   }
+  ]
+ },
+ "fil-etica-q": {
+  "name": "Filosofía 1.º · Ética: teorías (T5)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué diferencia hay entre ética y moral?",
+    "o": [
+     "Son sinónimos exactos.",
+     "La moral son las normas vividas de una comunidad; la ética reflexiona filosóficamente sobre ellas.",
+     "La ética es religiosa y la moral científica.",
+     "La moral es colectiva y la ética individual."
+    ],
+    "a": 1,
+    "fb": "La moral es el conjunto de normas y valores de hecho; la ética es la reflexión racional sobre qué debemos hacer y por qué."
+   },
+   {
+    "q": "Una ética FORMAL, como la de Kant, se caracteriza por…",
+    "o": [
+     "Decir cuál es el bien concreto que hay que buscar.",
+     "Dar la forma del deber (que la norma sea universalizable) sin fijar un contenido.",
+     "Basar la moral en el placer.",
+     "Medir las consecuencias de cada acto."
+    ],
+    "a": 1,
+    "fb": "Kant no dice qué hacer en cada caso, sino la forma de toda norma moral: que pueda universalizarse (imperativo categórico)."
+   },
+   {
+    "q": "Para Aristóteles, la felicidad (eudaimonía) se alcanza…",
+    "o": [
+     "Acumulando placeres inmediatos.",
+     "Cumpliendo el deber por el deber.",
+     "Desarrollando la virtud, como término medio, a lo largo de la vida.",
+     "Evitando toda emoción."
+    ],
+    "a": 2,
+    "fb": "La eudaimonía es la vida buena lograda con la virtud, entendida como término medio guiado por la razón."
+   },
+   {
+    "q": "El principio «la mayor felicidad para el mayor número» pertenece al…",
+    "o": [
+     "Estoicismo.",
+     "Utilitarismo (Bentham, Mill).",
+     "Racionalismo.",
+     "Deontologismo kantiano."
+    ],
+    "a": 1,
+    "fb": "El utilitarismo es una ética teleológica: lo correcto es lo que maximiza el bienestar del mayor número de personas."
+   },
+   {
+    "q": "El imperativo categórico kantiano manda…",
+    "o": [
+     "Buscar siempre el mayor placer.",
+     "Tratar a la humanidad siempre como un fin, nunca solo como un medio.",
+     "Obedecer a la autoridad.",
+     "Actuar según lo que sientas en cada momento."
+    ],
+    "a": 1,
+    "fb": "Una de sus formulaciones: obra de modo que trates a la humanidad, en ti y en los demás, siempre como fin y nunca solo como medio."
+   },
+   {
+    "q": "El emotivismo moral de Hume sostiene que…",
+    "o": [
+     "La moral se deduce de la razón pura.",
+     "Los juicios morales expresan sentimientos de aprobación o rechazo.",
+     "El bien es objetivo y medible.",
+     "La moral solo puede fundarla la religión."
+    ],
+    "a": 1,
+    "fb": "Para Hume, «la razón es esclava de las pasiones»: los juicios morales nacen del sentimiento, no de la sola razón."
    }
   ]
  }
