@@ -1,2 +1,2 @@
-// Generado por tools/build_bach.js — Bachillerato para el alumnado (sin material del profesor).
+// Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
 const MATERIALS = {};

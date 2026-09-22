@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aula de Filosofía · Bachillerato</title>
+<title>Filosofía · 1.º de Bachillerato</title>
 <meta name="description" content="El taller de filosofía en una página: teoría, materiales, esquemas, tarjetas, mapas y juegos de Filosofía 1.º, Historia de la Filosofía 2.º y Pensamiento crítico.">
 <meta name="theme-color" content="#f0ece3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
@@ -33,7 +33,6 @@
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Estudiar</span>
         <div class="navmenu">
           <button data-view="teoria">Teoría</button>
-          <button data-view="lecturas">Lecturas</button>
           <button data-view="tarjetas">Tarjetas</button>
           <button data-view="cuestionarios">Cuestionarios</button>
           <button data-view="glosario">Glosario</button>
@@ -55,17 +54,12 @@
           <button data-view="infografias">Infografías</button>
           <button data-view="galeria">Galería</button>
           <button data-view="mapas">Mapas</button>
-          <button data-view="cronogramas">Cronogramas</button>
           <button data-view="esquemas">Esquemas</button>
-          <button data-view="esqautor">Esquemas de autor</button>
         </div>
       </div>
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">PAU</span>
         <div class="navmenu">
-          <button data-view="disertaciones">Disertaciones</button>
-          <button data-view="pau">Guía de la prueba</button>
-          <button data-view="comentario">Comentario de texto</button>
           <button data-view="unidad">Banco por unidad</button>
         </div>
       </div>
@@ -81,7 +75,7 @@
   <section class="view active" id="inicio">
     <p class="eyebrow">IES Martín de Bertendona · Curso 2026-27</p>
     <h1 class="title">El taller de filosofía, en una página</h1>
-    <p class="lead">Las dos materias de Bachillerato del departamento: Filosofía (1.º) e Historia de la Filosofía (2.º). Reúne los materiales de aula y las herramientas interactivas —tarjetas y cuestionarios— para usarlas en clase y en casa. Se irá ampliando.</p>
+    <p class="lead">La asignatura de <strong>Filosofía de 1.º de Bachillerato</strong>: teoría, tarjetas, cuestionarios, esquemas y galería para estudiar en clase y en casa. Se irá ampliando.</p>
 
     <div class="courses">
       <article class="course" data-view="fil" role="button" tabindex="0" aria-label="Abrir Filosofía 1.º Bachillerato" style="--c:var(--fil)">
@@ -89,12 +83,6 @@
         <h3>¿Qué es la filosofía?</h3>
         <p>Del asombro al logos: origen, características, método, preguntas y relación con otros saberes. Tres grupos (C, D, G).</p>
         <div class="meta"><span><b>Tema 1</b> en marcha</span><span>Libro McGraw Hill</span></div>
-      </article>
-      <article class="course" data-view="hf" role="button" tabindex="0" aria-label="Abrir Historia de la Filosofía 2.º Bachillerato" style="--c:var(--hf)">
-        <span class="kick">Historia de la Filosofía · 2.º Bach</span>
-        <h3>Filosofía antigua</h3>
-        <p>De los presocráticos a Platón, pasando por los sofistas, Sócrates y Aspasia. Preparación de la PAU.</p>
-        <div class="meta"><span><b>Bloque A</b>, temas 3-6</span><span>Grupo 2.º E</span></div>
       </article>
     </div>
 
@@ -109,7 +97,7 @@
 
   <!-- MATERIAS (se rellenan desde js/app.js) -->
   <section class="view" id="fil"></section>
-  <section class="view" id="hf"></section>
+  
   
 
   <!-- SESIONES -->
@@ -135,60 +123,19 @@
   
 
   <!-- LECTURAS -->
-  <section class="view" id="lecturas">
-    <p class="eyebrow">Lecturas</p>
-    <h1 class="title">Lecturas</h1>
-    <p class="lead">Los textos originales de la PAU —Platón, Descartes, Kant, Nietzsche y Beauvoir— con su guía de lectura, los fragmentos, los modelos de respuesta y el glosario. Para leer en clase o en casa y preparar el Ejercicio 1.</p>
-    <div class="filterbar" id="lecturafilter" role="group" aria-label="Filtrar lecturas"></div>
-    <div class="chips" id="lecturachips" role="group" aria-label="Elegir lectura"></div>
-    <div class="toolrow" id="comentariolink" style="display:none">
-      <button class="btn" data-go="comentario">✍️ Comentar este texto (método guiado) →</button>
-    </div>
-    <div class="theory-layout">
-      <nav class="toc" id="ltoc" aria-label="Índice de la lectura"></nav>
-      <article class="theory" id="lecturabody"></article>
-    </div>
-  </section>
+  
 
   <!-- DISERTACIONES -->
-  <section class="view" id="disertaciones">
-    <p class="eyebrow">PAU</p>
-    <h1 class="title">Disertaciones</h1>
-    <p class="lead">El ejercicio que <strong>vale 3 puntos</strong> en la PAU. Aquí tienes la metodología y la rúbrica, modelos completos resueltos (Platón, Kant, Nietzsche y un modelo medieval) y modelos comparativos por parejas para practicar la argumentación.</p>
-    <div class="filterbar" id="disertfilter" role="group" aria-label="Filtrar disertaciones"></div>
-    <div class="chips" id="disertchips" role="group" aria-label="Elegir disertación"></div>
-    <div class="theory-layout">
-      <nav class="toc" id="diserttoc" aria-label="Índice de la disertación"></nav>
-      <article class="theory" id="disertbody"></article>
-    </div>
-  </section>
+  
 
   <!-- PAU -->
-  <section class="view" id="pau">
-    <p class="eyebrow">Selectividad</p>
-    <h1 class="title">Preparación PAU</h1>
-    <p class="lead">Todo lo necesario para el examen de Historia de la Filosofía: la <strong>estructura</strong> de la prueba, cómo afrontar el <strong>Ejercicio 1</strong> (comprensión de texto) y el <strong>Ejercicio 3</strong> (exposición), y los <strong>modelos oficiales</strong>. El Ejercicio 2, la disertación, tiene su propia pestaña.</p>
-    <div class="chips" id="pauchips" role="group" aria-label="Elegir guía PAU"></div>
-    <div class="theory-layout">
-      <nav class="toc" id="pautoc" aria-label="Índice de la guía"></nav>
-      <article class="theory" id="paubody"></article>
-    </div>
-  </section>
+  
 
   <!-- RECURSOS -->
   
 
   <!-- COMENTARIO DE TEXTO -->
-  <section class="view" id="comentario">
-    <p class="eyebrow">PAU</p>
-    <h1 class="title">Comentario de texto guiado</h1>
-    <p class="lead">El método paso a paso para comentar un texto de Historia de la Filosofía (Ejercicio 1 de la PAU): del problema a la tesis, con rúbrica, plantilla imprimible y <strong>ejemplos resueltos</strong> (Platón, Descartes, Kant, Nietzsche, Beauvoir).</p>
-    <div class="chips" id="comentariochips" role="group" aria-label="Elegir guía de comentario"></div>
-    <div class="theory-layout">
-      <nav class="toc" id="comtoc" aria-label="Índice de la guía"></nav>
-      <article class="theory" id="comentariobody"></article>
-    </div>
-  </section>
+  
 
   <!-- UNIDAD (banco por tema) -->
   <section class="view" id="unidad">
@@ -246,16 +193,7 @@
   </section>
 
   <!-- ESQUEMAS DE AUTOR -->
-  <section class="view" id="esqautor">
-    <p class="eyebrow">Visual</p>
-    <h1 class="title">Esquemas de autor</h1>
-    <p class="lead"><strong>25 esquemas por tema/autor</strong> del temario (del departamento), en formato textual limpio e imprimible —un autor, una página de repaso para la PAU—. Complementan los grafos de <strong>Esquemas</strong>. Usa <strong>Imprimir</strong> para sacarlos en papel.</p>
-    <div class="ea-actions">
-      <button id="eaprint" class="ea-print" type="button">Imprimir / PDF</button>
-    </div>
-    <div class="filterbar" id="eafilter" role="group" aria-label="Filtrar esquemas de autor"></div>
-    <div id="eabody"></div>
-  </section>
+  
 
   <!-- GALERÍA -->
   <section class="view" id="galeria">
@@ -336,14 +274,7 @@
     <div id="retobox"></div>
   </section>
 
-  <section class="view" id="cronogramas">
-    <p class="eyebrow">Visual</p>
-    <h1 class="title">Cronogramas</h1>
-    <p class="lead">Líneas de tiempo del libro de Historia de la Filosofía: las vidas y los periodos de cada bloque sobre un eje de años. Elige bloque y cronograma.</p>
-    <div class="crono-filter" id="cronofilter" role="group" aria-label="Filtrar por bloque"></div>
-    <div class="crono-chips" id="cronochips" role="group" aria-label="Elegir cronograma"></div>
-    <div id="cronobox"></div>
-  </section>
+  
 
   <section class="view" id="parejas">
     <p class="eyebrow">Herramienta</p>
@@ -413,8 +344,6 @@
 <script src="js/esquemas.js"></script>
 <script src="js/esquemas_fil.js"></script>
 <script src="js/esquemasview.js"></script>
-<script src="js/esquemas_autor.js"></script>
-<script src="js/esquemas_autorview.js"></script>
 <script src="js/sesiones.js"></script>
 <script src="js/sesionesview.js"></script>
 <script src="js/calendarioview.js"></script>
