@@ -308,5 +308,104 @@ const ILUSTRACIONES = [
   "license": "Public domain",
   "artist": "Sandro Botticelli",
   "page": "https://commons.wikimedia.org/wiki/File:Botticelli_Venus.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_pre_tales.jpg",
+  "t": "Tales de Mileto",
+  "pie": "El primer filósofo: el agua como principio de todo.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Thales_in_Thomas_Stanley_History_of_Philosophy.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_pre_heraclito.jpg",
+  "t": "Heráclito",
+  "pie": "«Todo fluye»: el devenir regido por el logos.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Hendrick ter Brugghen",
+  "page": "https://commons.wikimedia.org/wiki/File:Heraclitus_Rijksmuseum_SK-A-2784.jpeg"
+ },
+ {
+  "f": "media/ilustraciones/fil_pre_democrito.jpg",
+  "t": "Demócrito",
+  "pie": "La materia es átomos y vacío (el filósofo que ríe).",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Johannes Moreelse",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannes_Moreelse_-_Democritus,_the_Laughing_Philosopher_-_705_-_Mauritshuis.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_epicuro.jpg",
+  "t": "Epicuro",
+  "pie": "La felicidad como placer sereno y ausencia de dolor (ataraxia).",
+  "tema": "fil-helenismo",
+  "license": "CC0",
+  "artist": "Gary Todd",
+  "page": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_zenon.jpg",
+  "t": "Zenón de Citio",
+  "pie": "Fundador del estoicismo: vivir según la razón y la naturaleza.",
+  "tema": "fil-helenismo",
+  "license": "Public domain",
+  "artist": "Marie-Lan Nguyen",
+  "page": "https://commons.wikimedia.org/wiki/File:Zeno_of_Citium_Ny_Carlsberg_Glyptotek_IN606.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_seneca.jpg",
+  "t": "Séneca",
+  "pie": "Estoico: aceptar con serenidad lo que no depende de nosotros.",
+  "tema": "fil-helenismo",
+  "license": "CC0",
+  "artist": "Peter Paul Rubens",
+  "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Pseudo-Seneca_MET_DP359039.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_diogenes.jpg",
+  "t": "Diógenes de Sínope",
+  "pie": "Cínico: la autarquía, bastarse a sí mismo.",
+  "tema": "fil-helenismo",
+  "license": "Public domain",
+  "artist": "John William Waterhouse",
+  "page": "https://commons.wikimedia.org/wiki/File:Waterhouse-Diogenes.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_marcoaurelio.jpg",
+  "t": "Marco Aurelio",
+  "pie": "Emperador estoico: las Meditaciones y el deber.",
+  "tema": "fil-helenismo",
+  "license": "CC0",
+  "artist": "Gary Todd from Xinzheng, China",
+  "page": "https://commons.wikimedia.org/wiki/File:Roman_Marble_Bust_of_Emperor_Marcus_Aurelius_(AD_161-180),_c._161_AD_(28204008722).jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hel_epicteto.jpg",
+  "t": "Epicteto",
+  "pie": "Estoico: distinguir lo que depende de mí de lo que no.",
+  "tema": "fil-helenismo",
+  "license": "Public domain",
+  "artist": "\"Abric.\"",
+  "page": "https://commons.wikimedia.org/wiki/File:Epictetus_portrait_from_Les_Morales_de_Plutarque,_S%C3%A9n%C3%A8que,_Socrate_et_Epict%C3%A8te,_1653,_Indian_ink.png"
+ },
+ {
+  "f": "media/ilustraciones/fil_pre_pitagoras.jpg",
+  "t": "Pitágoras de Samos",
+  "pie": "El número como clave y orden de la realidad.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Pythagoras_in_the_Roman_Forum,_Colosseum.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_pre_anaximandro.jpg",
+  "t": "Anaximandro",
+  "pie": "El arché es el ápeiron: lo indefinido e ilimitado.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "ancient Roman mosaic artist from the early third century AD",
+  "page": "https://commons.wikimedia.org/wiki/File:Anaximander_Mosaic.jpg"
  }
 ];
