@@ -1,7 +1,4 @@
-"use strict";
-/* ===== Citas — frases célebres de la filosofía =====
-   {c:cita, a:autor, o:obra/contexto (opcional), e:época antigua|medieval|moderna|contemporanea}.
-   Recopiladas de la teoría y de las barajas de citas del aula. Dominio público (textos clásicos). */
+// Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
 const CITAS = [
  {
   "c": "Los seres humanos comienzan y han comenzado siempre a filosofar movidos por el asombro.",
@@ -34,12 +31,6 @@ const CITAS = [
   "e": "antigua"
  },
  {
-  "c": "De las cosas que existen, unas dependen de nosotros y otras no dependen de nosotros.",
-  "a": "Epicteto",
-  "o": "En nuestro poder (Enquiridión 1)",
-  "e": "antigua"
- },
- {
   "c": "La muerte no es nada para nosotros: mientras existimos, la muerte no está; y cuando la muerte está, nosotros ya no existimos.",
   "a": "Epicuro",
   "o": "Carta a Meneceo",
@@ -49,12 +40,6 @@ const CITAS = [
   "c": "La muerte nada es para nosotros: todo placer o dolor es sensación, y la muerte es privación de sensación.",
   "a": "Epicuro",
   "o": "Muerte y serenidad (Carta a Meneceo)",
-  "e": "antigua"
- },
- {
-  "c": "En los mismos ríos entramos y no entramos, somos y no somos.",
-  "a": "Heráclito",
-  "o": "Flujo y cambio (DK B12)",
   "e": "antigua"
  },
  {
@@ -118,30 +103,6 @@ const CITAS = [
   "e": "antigua"
  },
  {
-  "c": "La razón y la fe, ambas, conducen a la verdad; no puede haber oposición entre lo verdadero revelado y lo verdadero demostrado.",
-  "a": "Averroes",
-  "o": "La doble verdad (Tahafut al-Tahafut I)",
-  "e": "medieval"
- },
- {
-  "c": "Es inútil hacer con más lo que puede hacerse con menos.",
-  "a": "Guillermo de Ockham",
-  "o": "La navaja de Ockham (Summa Logicae I, 12)",
-  "e": "medieval"
- },
- {
-  "c": "Y vi como un espejo de la luz viviente, en el que una claridad resplandeciente fluía sobre toda criatura.",
-  "a": "Hildegard von Bingen",
-  "o": "La visión de la luz viviente (Scivias I)",
-  "e": "medieval"
- },
- {
-  "c": "La revelación debe entenderse según la capacidad humana, recurriendo a metáforas y símbolos para expresar lo inefable.",
-  "a": "Maimónides",
-  "o": "La dificultad de la interpretación (Guía de los perplejos I, 31)",
-  "e": "medieval"
- },
- {
   "c": "¿Qué es, pues, el tiempo? Si nadie me lo pregunta, lo sé; si quiero explicarlo a quien me lo pide, no lo sé.",
   "a": "San Agustín",
   "o": "El tiempo en el alma (Confesiones XI, 26)",
@@ -154,18 +115,6 @@ const CITAS = [
   "e": "medieval"
  },
  {
-  "c": "Al perseguir su propio interés, el individuo promueve con frecuencia el de la sociedad de manera más eficaz que cuando realmente intenta promoverlo.",
-  "a": "Adam Smith",
-  "o": "La mano invisible (La riqueza de las naciones IV, II)",
-  "e": "moderna"
- },
- {
-  "c": "El hombre no es más que una caña, la más débil de la naturaleza, pero es una caña que piensa.",
-  "a": "Blaise Pascal",
-  "o": "Pensamientos",
-  "e": "moderna"
- },
- {
   "c": "La razón es, y solo debe ser, esclava de las pasiones.",
   "a": "David Hume",
   "o": "Tratado de la naturaleza humana",
@@ -175,24 +124,6 @@ const CITAS = [
   "c": "La belleza no es una cualidad de las cosas mismas: existe únicamente en la mente que las contempla.",
   "a": "David Hume",
   "o": "La norma del gusto",
-  "e": "moderna"
- },
- {
-  "c": "El fin de una enciclopedia es reunir los conocimientos dispersos sobre la superficie de la tierra.",
-  "a": "Diderot",
-  "o": "El proyecto enciclopédico (Encyclopédie, Prólogo)",
-  "e": "moderna"
- },
- {
-  "c": "El hombre más oprimido puede oprimir a un ser: su mujer. Ella es la proletaria del propio proletario.",
-  "a": "Flora Tristán",
-  "o": "Emancipación obrera y femenina (Unión obrera)",
-  "e": "moderna"
- },
- {
-  "c": "Saber es poder.",
-  "a": "Francis Bacon",
-  "o": "Ciencia y dominio de la naturaleza (Meditationes sacrae)",
   "e": "moderna"
  },
  {
@@ -268,21 +199,9 @@ const CITAS = [
   "e": "moderna"
  },
  {
-  "c": "El alma no es más que el resultado del funcionamiento de los órganos del cuerpo.",
-  "a": "La Mettrie",
-  "o": "El hombre máquina",
-  "e": "moderna"
- },
- {
   "c": "El estado de naturaleza tiene una ley de naturaleza que lo gobierna y obliga a todos: la razón, que es esa ley, enseña a toda la humanidad, si se digna consultarla, que siendo todos iguales e independientes, ninguno debe dañar a otro en su vida, salud, libertad o posesiones.",
   "a": "Locke",
   "o": "Derechos naturales (Segundo tratado, cap. II)",
-  "e": "moderna"
- },
- {
-  "c": "Muchos se han imaginado repúblicas y principados que nunca han existido ni se han conocido realmente; porque hay tanta distancia entre cómo se vive y cómo se debería vivir, que quien deja lo que se hace por lo que se debería hacer, aprende más bien su ruina que su preservación.",
-  "a": "Maquiavelo",
-  "o": "Virtù y fortuna (El Príncipe XV)",
   "e": "moderna"
  },
  {
@@ -292,39 +211,9 @@ const CITAS = [
   "e": "moderna"
  },
  {
-  "c": "No deseo que las mujeres tengan poder sobre los hombres, sino sobre sí mismas.",
-  "a": "Mary Wollstonecraft",
-  "o": "Vindicación de los derechos de la mujer",
-  "e": "moderna"
- },
- {
-  "c": "Para que no se pueda abusar del poder, es preciso que, por la disposición de las cosas, el poder frene al poder.",
-  "a": "Montesquieu",
-  "o": "Separación de poderes (Espíritu de las leyes XI, 6)",
-  "e": "moderna"
- },
- {
   "c": "Todos los movimientos de los cuerpos en espacios libres se realizan en líneas rectas, salvo en la medida en que son desviados por fuerzas aplicadas.",
   "a": "Newton",
   "o": "Ley de gravitación universal (Principia Mathematica)",
-  "e": "moderna"
- },
- {
-  "c": "La mujer nace libre y permanece igual al hombre en derechos.",
-  "a": "Olympe de Gouges",
-  "o": "Derechos de la mujer (Declaración, 1791)",
-  "e": "moderna"
- },
- {
-  "c": "No te he dado, oh Adán, un lugar fijo, ni un rostro propio, ni un don particular, para que aquel lugar, aquel rostro y aquellos dones que tú elijas, sean tuyos según tu voluntad y tu decisión.",
-  "a": "Pico della Mirandola",
-  "o": "La dignidad del hombre (Oratio)",
-  "e": "moderna"
- },
- {
-  "c": "La mente no tiene sexo.",
-  "a": "Poulain de la Barre",
-  "o": "La mente no tiene sexo (De l’égalité des deux sexes)",
   "e": "moderna"
  },
  {
@@ -358,18 +247,6 @@ const CITAS = [
   "e": "moderna"
  },
  {
-  "c": "Depende de nosotros no hacer la tierra aún más desgraciada de lo que ya es.",
-  "a": "Voltaire",
-  "o": "La tolerancia (Tratado sobre la tolerancia I)",
-  "e": "moderna"
- },
- {
-  "c": "No deseo que ellas [las mujeres] tengan poder sobre los hombres, sino sobre sí mismas.",
-  "a": "Wollstonecraft",
-  "o": "Educación e igualdad (Vindicación de los derechos de la mujer IV)",
-  "e": "moderna"
- },
- {
   "c": "La Ilustración es totalitaria.",
   "a": "Adorno & Horkheimer",
   "o": "Razón instrumental (Dialéctica de la Ilustración)",
@@ -379,12 +256,6 @@ const CITAS = [
   "c": "Lo eternamente incomprensible del mundo es su comprensibilidad.",
   "a": "Albert Einstein",
   "o": "Física y realidad",
-  "e": "contemporanea"
- },
- {
-  "c": "El feminismo es hijo no reconocido de la Ilustración.",
-  "a": "Amorós",
-  "o": "La igualdad ilustrada (Hacia una crítica de la razón patriarcal)",
   "e": "contemporanea"
  },
  {
@@ -400,45 +271,15 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
-  "c": "El género es la estilización repetida del cuerpo, un conjunto de actos reiterados dentro de un marco regulador muy rígido que, con el tiempo, se consolidan hasta producir la apariencia de una sustancia.",
-  "a": "Butler",
-  "o": "Género performativo (Gender Trouble)",
-  "e": "contemporanea"
- },
- {
   "c": "El hombre lleva aún en su cuerpo el sello indeleble de su origen.",
   "a": "Charles Darwin",
   "o": "El origen del hombre",
   "e": "contemporanea"
  },
  {
-  "c": "No hay nada fuera del texto.",
-  "a": "Derrida",
-  "o": "La différance (De la gramatología)",
-  "e": "contemporanea"
- },
- {
-  "c": "El criterio material universal de la ética es la producción, reproducción y desarrollo de la vida humana en comunidad.",
-  "a": "Dussel",
-  "o": "Ética de la liberación (1998)",
-  "e": "contemporanea"
- },
- {
   "c": "El ser humano es un animal simbólico.",
   "a": "Ernst Cassirer",
   "o": "Antropología filosófica",
-  "e": "contemporanea"
- },
- {
-  "c": "El saber no está hecho para comprender, sino para cortar.",
-  "a": "Foucault",
-  "o": "Saber y poder (Vigilar y castigar)",
-  "e": "contemporanea"
- },
- {
-  "c": "Lo inconsciente es lo verdaderamente real en la vida psíquica.",
-  "a": "Freud",
-  "o": "El inconsciente (La interpretación de los sueños VII)",
   "e": "contemporanea"
  },
  {
@@ -490,12 +331,6 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
-  "c": "Obra de tal manera que los efectos de tus acciones sean compatibles con la permanencia de una vida humana auténtica sobre la Tierra.",
-  "a": "Jonas",
-  "o": "Principio de responsabilidad (1979)",
-  "e": "contemporanea"
- },
- {
   "c": "Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo.",
   "a": "José Ortega y Gasset",
   "o": "Meditaciones del Quijote",
@@ -520,12 +355,6 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
-  "c": "La fe es precisamente este paradoxo: que el individuo se sitúa en una relación absoluta con lo absoluto.",
-  "a": "Kierkegaard",
-  "o": "El salto de fe (Temor y temblor)",
-  "e": "contemporanea"
- },
- {
   "c": "De lo que no se puede hablar, hay que callar.",
   "a": "Ludwig Wittgenstein",
   "o": "Tractatus logico-philosophicus",
@@ -544,12 +373,6 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
-  "c": "Simplifiquemos al extremo: lo “posmoderno” es la incredulidad hacia los metarrelatos.",
-  "a": "Lyotard",
-  "o": "Incredulidad hacia los metarrelatos (La condición posmoderna)",
-  "e": "contemporanea"
- },
- {
   "c": "La riqueza de las sociedades en que domina el modo de producción capitalista se presenta como una “inmensa acumulación de mercancías”.",
   "a": "Marx",
   "o": "La mercancía y la plusvalía (El Capital I)",
@@ -559,12 +382,6 @@ const CITAS = [
   "c": "¡Dios ha muerto! ¡Dios permanece muerto! ¡Y nosotros lo hemos matado!",
   "a": "Nietzsche",
   "o": "La muerte de Dios (La gaya ciencia §125)",
-  "e": "contemporanea"
- },
- {
-  "c": "Todo arte es completamente inútil.",
-  "a": "Oscar Wilde",
-  "o": "El retrato de Dorian Gray (prefacio)",
   "e": "contemporanea"
  },
  {
@@ -583,18 +400,6 @@ const CITAS = [
   "c": "Cuando cambian los paradigmas, el mundo mismo cambia con ellos.",
   "a": "Thomas Kuhn",
   "o": "La estructura de las revoluciones científicas",
-  "e": "contemporanea"
- },
- {
-  "c": "El verdadero sujeto de la filosofía es el hombre concreto, de carne y hueso, con su angustia ante la muerte y su ansia de inmortalidad.",
-  "a": "Unamuno",
-  "o": "El ansia de inmortalidad (Del sentimiento trágico de la vida)",
-  "e": "contemporanea"
- },
- {
-  "c": "Líquido es lo que no conserva su forma por mucho tiempo.",
-  "a": "Zygmunt Bauman",
-  "o": "Modernidad líquida",
   "e": "contemporanea"
  }
 ];

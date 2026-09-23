@@ -85,5 +85,26 @@ const ESQUEMAS_FIL = {
   "tema": "Filosofía · Taller de argumentación",
   "title": "Las falacias",
   "mermaid": "flowchart TD\n  fal[\"LAS FALACIAS\"]:::axis\n  def[\"argumentos que parecen válidos pero no lo son\"]\n  formal[\"formales: fallo en la estructura lógica\"]:::key\n  inf[\"informales: fallo en el contenido o el lenguaje\"]:::key\n  ah[\"ad hominem: atacar a la persona\"]\n  ap[\"ad populum: apelar a la mayoría\"]\n  aver[\"ad verecundiam: apelar a la autoridad\"]\n  fc[\"falsa causa: confundir correlación con causa\"]\n  hp[\"hombre de paja: deformar la tesis rival\"]\n  fal --> def\n  fal --> formal\n  fal --> inf\n  inf --> ah\n  inf --> ap\n  inf --> aver\n  inf --> fc\n  inf --> hp\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
+  "FIL-T6-01": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · Tema 6",
+  "title": "El origen del Estado: ¿naturaleza o contrato?",
+  "mermaid": "flowchart TD\n  est[\"EL ORIGEN DEL ESTADO\"]:::axis\n  nat[\"¿Naturaleza? (Aristóteles)\"]:::key\n  n1[\"el humano es zoon politikón: la polis es natural\"]\n  con[\"¿Contrato? (los modernos)\"]:::key\n  c1[\"el Estado es un artificio: un pacto para salir del estado de naturaleza\"]\n  ho[\"Hobbes\"]:::key\n  h1[\"guerra de todos contra todos → soberano absoluto (Leviatán)\"]\n  lo[\"Locke\"]:::key\n  l1[\"derechos naturales → Estado liberal y división de poderes\"]\n  ro[\"Rousseau\"]:::key\n  r1[\"voluntad general → soberanía popular\"]\n  est --> nat --> n1\n  est --> con --> c1\n  con --> ho --> h1\n  con --> lo --> l1\n  con --> ro --> r1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
+  "FIL-T6-02": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · Tema 6",
+  "title": "Justicia, poder y formas de gobierno",
+  "mermaid": "flowchart TD\n  pol[\"LA VIDA POLÍTICA\"]:::axis\n  jus[\"Justicia\"]:::key\n  j1[\"Platón: cada parte cumple su función · Rawls: el velo de ignorancia\"]\n  leg[\"Poder y legitimidad (Weber)\"]:::key\n  le1[\"tradición · carisma · legalidad racional\"]\n  gob[\"Formas de gobierno\"]:::key\n  g1[\"uno (monarquía) · pocos (aristocracia) · muchos (democracia)\"]\n  dem[\"Democracia\"]:::key\n  d1[\"soberanía popular, libertades y división de poderes; enemigos: manipulación y desigualdad\"]\n  dh[\"Derechos humanos y Estado de derecho\"]:::key\n  dh1[\"límite que ningún poder puede traspasar (Arendt: contra el totalitarismo)\"]\n  pol --> jus --> j1\n  pol --> leg --> le1\n  pol --> gob --> g1\n  gob --> dem --> d1\n  pol --> dh --> dh1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
+  "FIL-T4-01": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · Tema 4",
+  "title": "Lógica formal: conectivas, tablas de verdad y Boole",
+  "mermaid": "flowchart TD\n  log[\"LÓGICA FORMAL\"]:::axis\n  con[\"Conectivas\"]:::key\n  c1[\"¬ no · ∧ y · ∨ o · → si...entonces · ↔ si y solo si\"]\n  tv[\"Tablas de verdad\"]:::key\n  t1[\"evalúan si una fórmula es verdadera o falsa según sus partes\"]\n  bo[\"Álgebra de Boole\"]:::key\n  b1[\"lo verdadero y lo falso como 1 y 0\"]\n  pu[\"Puertas lógicas (Shannon)\"]:::key\n  p1[\"AND (∧), OR (∨), NOT (¬): la lógica hecha electricidad → el ordenador\"]\n  log --> con --> c1\n  log --> tv --> t1\n  log --> bo --> b1\n  bo --> pu --> p1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  }
 };

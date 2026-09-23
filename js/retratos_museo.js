@@ -1,6 +1,4 @@
-"use strict";
-/* ===== Retratos de museo (dominio público) ===== generado desde imagenes_museos/manifest.csv
-   Se inyectan en la teoría (retratosview.js) segun los autores citados en cada unidad. */
+// Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
 const RETRATOS = [
  {
   "slug": "socrates",
@@ -49,30 +47,6 @@ const RETRATOS = [
   "artist": "Charles William Mitchell",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Hypatia_(Charles_William_Mitchell).jpg"
- },
- {
-  "slug": "aspasia",
-  "name": "Aspasia",
-  "aliases": [
-   "Aspasia"
-  ],
-  "file": "media/retratos/museo/aspasia.jpg",
-  "title": "Aspasia Canini",
-  "artist": "Giovanni Angelo Canini",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Aspasia_Canini.png"
- },
- {
-  "slug": "alcibiades",
-  "name": "Alcibíades",
-  "aliases": [
-   "Alcibíades"
-  ],
-  "file": "media/retratos/museo/alcibiades.jpg",
-  "title": "Academische studie naar prent buste van Alcibiades 1806 Dominique Cool",
-  "artist": "Dominique Cools / After Alexandre Chaponnier",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Academische_studie_naar_prent,_buste_van_Alcibiades,_1806,_Dominique_Cools,_Musea_Brugge,_0014.GRO0007.27.II.jpg"
  },
  {
   "slug": "alejandro",
@@ -163,18 +137,6 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg"
  },
  {
-  "slug": "averroes",
-  "name": "Averroes",
-  "aliases": [
-   "Averroes"
-  ],
-  "file": "media/retratos/museo/averroes.jpg",
-  "title": "The Disgrace of Averroes Vies Des Savants Illustr s",
-  "artist": "Louis Figuier (15 February 1819 – 8 November 1894)",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File:The_Disgrace_of_Averroes_-_Vies_Des_Savants_Illustr%C3%A9s.jpg"
- },
- {
   "slug": "descartes",
   "name": "Descartes",
   "aliases": [
@@ -186,18 +148,6 @@ const RETRATOS = [
   "artist": "After Frans Hals",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
- },
- {
-  "slug": "spinoza",
-  "name": "Spinoza",
-  "aliases": [
-   "Spinoza"
-  ],
-  "file": "media/retratos/museo/spinoza.jpg",
-  "title": "Spinoza",
-  "artist": "Desconocido",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
  },
  {
   "slug": "locke",
@@ -283,18 +233,6 @@ const RETRATOS = [
   "artist": "Gustav-Adolf Schultze (d. 1897)",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg"
- },
- {
-  "slug": "schopenhauer",
-  "name": "Schopenhauer",
-  "aliases": [
-   "Schopenhauer"
-  ],
-  "file": "media/retratos/museo/schopenhauer.jpg",
-  "title": "Arthur Schopenhauer by J Sch fer 1859b",
-  "artist": "Johann Schäfer",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
  },
  {
   "slug": "mill",
@@ -420,19 +358,6 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:Platon_Cave_Sanraedam_1604.jpg"
  },
  {
-  "slug": "delfos",
-  "name": "El oráculo de Delfos",
-  "aliases": [
-   "oráculo de Delfos",
-   "Delfos"
-  ],
-  "file": "media/retratos/museo/delfos.jpg",
-  "title": "Voorbereiding tot het raadplegen van het orakel van Delphi Voorbereydi",
-  "artist": "Rijksmuseum",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Voorbereiding_tot_het_raadplegen_van_het_orakel_van_Delphi_Voorbereyding_tot_het_Orakel-vragen_(titel_op_object),_RP-P-1907-5698.jpg"
- },
- {
   "slug": "darwin",
   "name": "Charles Darwin",
   "aliases": [
@@ -444,31 +369,6 @@ const RETRATOS = [
   "artist": "Henry Maull",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3ACharles_Darwin_seated_crop.jpg"
- },
- {
-  "slug": "wollstonecraft",
-  "name": "Mary Wollstonecraft",
-  "aliases": [
-   "Mary Wollstonecraft",
-   "Wollstonecraft"
-  ],
-  "file": "media/retratos/museo/wollstonecraft.jpg",
-  "title": "Mary Wollstonecraft by John Opie (c. 1797)",
-  "artist": "John Opie",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AMary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg"
- },
- {
-  "slug": "gouges",
-  "name": "Olympe de Gouges",
-  "aliases": [
-   "Olympe de Gouges"
-  ],
-  "file": "media/retratos/museo/gouges.jpg",
-  "title": "Olympe de Gouges",
-  "artist": "Anónimo",
-  "license": "Public Domain",
-  "page": "https://commons.wikimedia.org/wiki/File%3AOlympe_de_Gouges.jpg"
  },
  {
   "slug": "curie",

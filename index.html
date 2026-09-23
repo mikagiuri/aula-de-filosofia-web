@@ -56,12 +56,7 @@
           <button data-view="esquemas">Esquemas</button>
         </div>
       </div>
-      <div class="navsec">
-        <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Repasar</span>
-        <div class="navmenu">
-          <button data-view="unidad">Banco por unidad</button>
-        </div>
-      </div>
+      
     </nav>
     <button class="navtoggle" id="navtoggle" aria-label="Abrir menú de secciones" aria-expanded="false">☰</button>
     <button class="theme" id="theme" title="Cambiar tema" aria-label="Cambiar tema">◐</button>
@@ -137,17 +132,7 @@
   
 
   <!-- UNIDAD (banco por tema) -->
-  <section class="view" id="unidad">
-    <p class="eyebrow">Filosofía 1.º</p>
-    <h1 class="title">Banco por unidad</h1>
-    <p class="lead">Cada unidad (tema) en una página: la <strong>teoría</strong>, el <strong>texto</strong>, los <strong>recursos multimedia</strong> y un <strong>test de repaso</strong>. Toda la web organizada por tema para estudiar de un vistazo.</p>
-    <div class="filterbar" id="unidadfilter" role="group" aria-label="Filtrar por bloque"></div>
-    <div class="chips" id="unidadchips" role="group" aria-label="Elegir unidad"></div>
-    <div class="theory-layout">
-      <nav class="toc" id="unidadtoc" aria-label="Índice de la unidad"></nav>
-      <article class="theory" id="unidadbody"></article>
-    </div>
-  </section>
+  
 
   <!-- DIAPOSITIVAS -->
   
@@ -198,7 +183,7 @@
   <section class="view" id="galeria">
     <p class="eyebrow">Visual</p>
     <h1 class="title">Galería</h1>
-    <p class="lead"><strong>49 ilustraciones</strong> generadas para el libro del departamento —escenas didácticas por autor y tema—, para proyectar en clase o ilustrar los apuntes, más una selección de imágenes de <strong>dominio público</strong> para <strong>Filosofía 1.º</strong>. Pulsa una para verla a pantalla completa; usa ‹ › para pasar. Filtra por bloque o materia.</p>
+    <p class="lead">Una selección de imágenes de <strong>dominio público</strong> (Wikimedia Commons) para ilustrar los temas de <strong>Filosofía 1.º</strong>: obras de arte, retratos y escenas. Pulsa una para verla a pantalla completa; usa ‹ › para pasar.</p>
     <div class="filterbar" id="galfilter" role="group" aria-label="Filtrar galería"></div>
     <div class="galcount" id="galcount"></div>
     <div class="galgrid" id="galgrid"></div>
@@ -326,7 +311,6 @@
 <script src="js/diapositivasview.js"></script>
 <script src="js/media.js"></script>
 <script src="js/mediaview.js"></script>
-<script src="js/unidadview.js"></script>
 <script>window.markmap = { autoLoader: { manual: true } };</script>
 <!-- markmap-autoloader se carga bajo demanda al abrir Mapas (js/lazy_libs.js) -->
 <script src="js/maps.js"></script>
@@ -347,11 +331,6 @@
 <script src="js/sesionesview.js"></script>
 <script src="js/calendarioview.js"></script>
 <script src="js/galeria.js"></script>
-<script src="js/galeria_museo.js"></script>
-<script src="js/galeria_epocas.js"></script>
-<script src="js/galeria_temas2.js"></script>
-<script src="js/galeria_retratos2.js"></script>
-<script src="js/galeria_extra3.js"></script>
 <script src="js/galeriaview.js"></script>
 <script src="js/galeria_extra.js"></script>
 <script src="js/mobile.js"></script>
