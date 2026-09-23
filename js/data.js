@@ -1045,6 +1045,62 @@ const DECKS = {
     "Shannon (1938): circuitos que realizan AND, OR y NOT. La base del ordenador."
    ]
   ]
+ },
+ "fil-politica": {
+  "name": "Filosofía 1.º · La vida en sociedad: política (T6)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🏛️",
+    "El animal político",
+    "Aristóteles: el humano es zoon politikón; vivimos y nos hacemos personas en la polis (la comunidad)."
+   ],
+   [
+    "📜",
+    "El contrato social",
+    "Para los modernos el Estado no es natural, sino un pacto para salir del «estado de naturaleza»."
+   ],
+   [
+    "🐉",
+    "Hobbes y el Leviatán",
+    "Ante la «guerra de todos contra todos», cedemos el poder a un soberano absoluto que trae la paz."
+   ],
+   [
+    "⚖️",
+    "Locke y el Estado liberal",
+    "Pacto limitado: derechos naturales (vida, libertad, propiedad), división de poderes y derecho a rebelión."
+   ],
+   [
+    "🙋",
+    "Rousseau y la voluntad general",
+    "El pueblo se gobierna a sí mismo por la voluntad general: soberanía popular, raíz de la democracia."
+   ],
+   [
+    "🎯",
+    "La justicia (Rawls)",
+    "El «velo de ignorancia»: elegir las reglas sin saber qué lugar ocuparás; solo así son justas para todos."
+   ],
+   [
+    "👑",
+    "Formas de gobierno",
+    "Según quién manda: uno (monarquía), pocos (aristocracia) o muchos (democracia), cada una con su degeneración."
+   ],
+   [
+    "🗳️",
+    "La democracia",
+    "Soberanía popular, libertades, igualdad ante la ley y división de poderes; sus enemigos: los bulos y la desigualdad."
+   ],
+   [
+    "🕊️",
+    "Derechos humanos",
+    "Exigencias mínimas de toda persona (Declaración de 1948): un límite que ningún poder puede traspasar."
+   ],
+   [
+    "🛡️",
+    "Estado de derecho",
+    "También el gobierno está sometido a la ley; frente a él, el totalitarismo (Arendt) anula la libertad."
+   ]
+  ]
  }
 };
 const QUIZZES = {
@@ -2183,6 +2239,89 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Tautología: siempre verdadera. Si fuera siempre falsa, sería una contradicción."
+   }
+  ]
+ },
+ "fil-politica-q": {
+  "name": "Filosofía 1.º · La vida en sociedad: política (T6)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué quiere decir que el ser humano es un «animal político» (Aristóteles)?",
+    "o": [
+     "Que le interesan los partidos políticos.",
+     "Que solo vive en sociedad por obligación.",
+     "Que se realiza como persona viviendo en comunidad (la polis).",
+     "Que la política es un invento moderno."
+    ],
+    "a": 2,
+    "fb": "Zoon politikón: la vida en común (la polis) es natural y nos hace personas."
+   },
+   {
+    "q": "Según los contractualistas, ¿de dónde saca su poder el Estado?",
+    "o": [
+     "De la naturaleza, como en Aristóteles.",
+     "De un pacto o contrato social entre los individuos.",
+     "Solo de la fuerza militar.",
+     "De la tradición religiosa."
+    ],
+    "a": 1,
+    "fb": "El Estado es un artificio: un pacto para salir del «estado de naturaleza»."
+   },
+   {
+    "q": "¿Qué defiende Hobbes?",
+    "o": [
+     "Un soberano absoluto que garantice la paz y evite la «guerra de todos contra todos».",
+     "La división de poderes y el derecho a rebelión.",
+     "La soberanía popular directa.",
+     "La abolición del Estado."
+    ],
+    "a": 0,
+    "fb": "Por miedo a la inseguridad, todos ceden el poder al Leviatán."
+   },
+   {
+    "q": "¿Qué aporta Locke frente a Hobbes?",
+    "o": [
+     "Un poder aún más absoluto.",
+     "Derechos naturales, división de poderes y límites al poder (Estado liberal).",
+     "La voluntad general.",
+     "El gobierno de los filósofos."
+    ],
+    "a": 1,
+    "fb": "Locke: pacto limitado y con consentimiento; raíz del liberalismo."
+   },
+   {
+    "q": "El «velo de ignorancia» de Rawls sirve para…",
+    "o": [
+     "Ocultar las leyes a los ciudadanos.",
+     "Elegir reglas justas sin saber qué lugar ocuparás en la sociedad.",
+     "Defender la desigualdad como natural.",
+     "Eliminar la democracia."
+    ],
+    "a": 1,
+    "fb": "Sin saber si serás rico o pobre, solo eliges reglas justas para todos."
+   },
+   {
+    "q": "¿Qué NO es propio de la democracia?",
+    "o": [
+     "La soberanía popular.",
+     "La división de poderes.",
+     "Concentrar todo el poder en un líder sin control.",
+     "El respeto a las minorías."
+    ],
+    "a": 2,
+    "fb": "La democracia controla el poder; concentrarlo sin límite es su degeneración."
+   },
+   {
+    "q": "¿Qué es un «Estado de derecho»?",
+    "o": [
+     "Aquel en que también el gobierno está sometido a la ley y garantiza los derechos.",
+     "Aquel en que manda quien tiene más dinero.",
+     "Un Estado sin leyes.",
+     "Un Estado gobernado por militares."
+    ],
+    "a": 0,
+    "fb": "En el Estado de derecho la ley limita también al poder; lo opuesto al totalitarismo (Arendt)."
    }
   ]
  }
