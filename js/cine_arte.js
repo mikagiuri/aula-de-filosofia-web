@@ -87,5 +87,77 @@ const CINE = [
   "year": 1956,
   "autor": "Henri-Georges Clouzot",
   "q": "El proceso creativo en vivo: ¿qué es crear y qué es la belleza?"
+ },
+ {
+  "tema": "fil-t4",
+  "kind": "cine",
+  "t": "Descifrando Enigma",
+  "year": 2014,
+  "autor": "Morten Tyldum",
+  "q": "Turing y la lógica hecha máquina: ¿puede una máquina razonar y pensar?"
+ },
+ {
+  "tema": "fil-t4",
+  "kind": "cine",
+  "t": "12 hombres sin piedad",
+  "year": 1957,
+  "autor": "Sidney Lumet",
+  "q": "Argumentar bien: distinguir la prueba del prejuicio y detectar las falacias."
+ },
+ {
+  "tema": "fil-t4",
+  "kind": "arte",
+  "t": "Relatividad",
+  "year": 1953,
+  "autor": "M. C. Escher",
+  "q": "Paradojas y autorreferencia: cuando la lógica del espacio se enreda consigo misma."
+ },
+ {
+  "tema": "fil-t5",
+  "kind": "cine",
+  "t": "Gattaca",
+  "year": 1997,
+  "autor": "Andrew Niccol",
+  "q": "Bioética y eugenesia: ¿es lícito diseñar a las personas antes de nacer?"
+ },
+ {
+  "tema": "fil-t5",
+  "kind": "cine",
+  "t": "Intocable",
+  "year": 2011,
+  "autor": "Olivier Nakache y Éric Toledano",
+  "q": "La dignidad y el cuidado del otro: ¿qué debemos a los demás?"
+ },
+ {
+  "tema": "fil-t5",
+  "kind": "arte",
+  "t": "El 3 de mayo de 1808",
+  "year": 1814,
+  "autor": "Francisco de Goya",
+  "q": "El mal y la violencia: ¿puede alguna razón justificar quitar una vida?"
+ },
+ {
+  "tema": "fil-t6",
+  "kind": "cine",
+  "t": "El gran dictador",
+  "year": 1940,
+  "autor": "Charles Chaplin",
+  "q": "Tiranía frente a democracia: el poder que oprime y la defensa de la libertad."
+ },
+ {
+  "tema": "fil-t6",
+  "kind": "cine",
+  "t": "La ola",
+  "year": 2008,
+  "autor": "Dennis Gansel",
+  "q": "¿Cómo puede nacer un régimen totalitario, incluso en un aula?"
+ },
+ {
+  "tema": "fil-t6",
+  "kind": "arte",
+  "t": "La libertad guiando al pueblo",
+  "year": 1830,
+  "autor": "Eugène Delacroix",
+  "q": "Revolución y derechos: ¿cuándo es legítimo rebelarse contra el poder?"
  }
 ];
