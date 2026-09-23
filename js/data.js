@@ -1101,6 +1101,113 @@ const DECKS = {
     "También el gobierno está sometido a la ley; frente a él, el totalitarismo (Arendt) anula la libertad."
    ]
   ]
+ },
+ "fil-presocraticos": {
+  "name": "Filosofía 1.º · Los presocráticos: la búsqueda del arché",
+  "subject": "fil",
+  "cards": [
+   [
+    "🌅",
+    "Del mito al logos",
+    "El paso de explicar el mundo con dioses (mito) a buscar sus causas con la razón (logos): nace la filosofía."
+   ],
+   [
+    "💧",
+    "El arché",
+    "Los primeros filósofos buscan el arché: el principio o realidad primera de la que todo procede."
+   ],
+   [
+    "🌊",
+    "Tales de Mileto",
+    "El agua es el principio de todo. El primer filósofo: busca una causa natural, no divina."
+   ],
+   [
+    "♾️",
+    "Anaximandro",
+    "El arché es el ápeiron: lo indefinido e ilimitado, de lo que surgen y a lo que vuelven las cosas."
+   ],
+   [
+    "🌬️",
+    "Anaxímenes",
+    "El aire es el principio: por condensación y rarefacción da lugar a todas las cosas."
+   ],
+   [
+    "🎭",
+    "Jenófanes de Colofón",
+    "Critica a los dioses antropomórficos: «si los caballos tuvieran dioses, serían caballos». Hacia un dios único."
+   ],
+   [
+    "🔢",
+    "Pitágoras de Samos",
+    "El número es la clave de la realidad: todo se ordena según proporciones matemáticas."
+   ],
+   [
+    "🟢",
+    "Parménides de Elea",
+    "El ser es, el no-ser no es: la realidad es una, eterna e inmóvil; el cambio es una ilusión de los sentidos."
+   ],
+   [
+    "🔥",
+    "Heráclito de Éfeso",
+    "Todo fluye (panta rhei): cambio permanente regido por el logos. «No te bañas dos veces en el mismo río»."
+   ],
+   [
+    "🔬",
+    "Los «físicos»",
+    "Se les llama físicos porque estudian la physis (la naturaleza) buscando su principio y su orden."
+   ]
+  ]
+ },
+ "fil-helenismo": {
+  "name": "Filosofía 1.º · Las escuelas helenísticas: caminos a la felicidad",
+  "subject": "fil",
+  "cards": [
+   [
+    "🎯",
+    "La pregunta helenística",
+    "Tras Alejandro, en un mundo inestable, la filosofía busca sobre todo cómo alcanzar la felicidad y la serenidad."
+   ],
+   [
+    "🌿",
+    "Epicúreos",
+    "Epicuro: la felicidad es el placer sereno y la ausencia de dolor y turbación (ataraxia); satisfacer solo los deseos naturales y necesarios."
+   ],
+   [
+    "💊",
+    "El tetrafármaco",
+    "El «cuádruple remedio» de Epicuro: no temas a los dioses ni a la muerte; el placer es fácil de lograr y el dolor, soportable."
+   ],
+   [
+    "🏛️",
+    "Estoicos",
+    "Zenón, Séneca: vivir según la naturaleza y la razón; aceptar con serenidad lo que no depende de nosotros (apatheia)."
+   ],
+   [
+    "🪵",
+    "Cínicos",
+    "Diógenes: la felicidad es la autarquía (bastarse a sí mismo), viviendo según la naturaleza y despreciando lujos y convenciones."
+   ],
+   [
+    "❓",
+    "Escépticos",
+    "Pirrón: como no podemos estar seguros de nada, hay que suspender el juicio (epojé); así se alcanza la tranquilidad."
+   ],
+   [
+    "😌",
+    "Ataraxia",
+    "La meta común: la ausencia de perturbación, la serenidad del alma. Cada escuela propone un camino distinto."
+   ],
+   [
+    "🌍",
+    "Cosmopolitismo",
+    "Ya no se es solo ciudadano de una polis: el sabio se siente «ciudadano del mundo» (sobre todo estoicos y cínicos)."
+   ],
+   [
+    "⚖️",
+    "Lo que depende de mí",
+    "Estoicismo: distinguir lo que está en mi mano (mis juicios y actos) de lo que no, para no sufrir por lo que no puedo cambiar."
+   ]
+  ]
  }
 };
 const QUIZZES = {
@@ -2322,6 +2429,161 @@ const QUIZZES = {
     ],
     "a": 0,
     "fb": "En el Estado de derecho la ley limita también al poder; lo opuesto al totalitarismo (Arendt)."
+   }
+  ]
+ },
+ "fil-presocraticos-q": {
+  "name": "Filosofía 1.º · Los presocráticos",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué expresa el paso «del mito al logos»?",
+    "o": [
+     "Que se dejan de contar historias.",
+     "Que la religión desaparece por completo.",
+     "Que se pasa de explicar el mundo con dioses a buscar sus causas con la razón.",
+     "Que la filosofía nace en Roma."
+    ],
+    "a": 2,
+    "fb": "El logos (la razón) sustituye al mito como forma de explicar la naturaleza: nace la filosofía."
+   },
+   {
+    "q": "¿Qué buscaban los presocráticos con el «arché»?",
+    "o": [
+     "El principio o realidad primera de la que todo procede.",
+     "El nombre de los dioses.",
+     "Las reglas de la política.",
+     "La forma de ser feliz."
+    ],
+    "a": 0,
+    "fb": "El arché es el principio originario de la physis (la naturaleza)."
+   },
+   {
+    "q": "Para Tales de Mileto, el principio de todas las cosas es…",
+    "o": [
+     "El fuego.",
+     "El número.",
+     "El ápeiron.",
+     "El agua."
+    ],
+    "a": 3,
+    "fb": "Tales, el primer filósofo, propone el agua: una causa natural, no divina."
+   },
+   {
+    "q": "El «ápeiron» de Anaximandro es…",
+    "o": [
+     "El aire que respiramos.",
+     "Lo indefinido e ilimitado, de lo que surge todo.",
+     "Una divinidad con forma humana.",
+     "Un número sagrado."
+    ],
+    "a": 1,
+    "fb": "Ápeiron: lo indeterminado e infinito como origen de todo."
+   },
+   {
+    "q": "¿Qué critica Jenófanes de Colofón?",
+    "o": [
+     "El uso de la razón.",
+     "La existencia del agua.",
+     "Los dioses antropomórficos, hechos a imagen de los humanos.",
+     "La geometría."
+    ],
+    "a": 2,
+    "fb": "«Si los caballos tuvieran dioses, serían caballos»: crítica a los dioses a nuestra imagen."
+   },
+   {
+    "q": "Según Parménides de Elea, el cambio…",
+    "o": [
+     "Es una ilusión de los sentidos: el ser es uno e inmóvil.",
+     "Es la única realidad.",
+     "Lo explica el número.",
+     "Depende del aire."
+    ],
+    "a": 0,
+    "fb": "Para Parménides «el ser es y el no-ser no es»: la realidad es una, eterna e inmóvil."
+   },
+   {
+    "q": "¿Por qué se llama «físicos» a los presocráticos?",
+    "o": [
+     "Porque hacían experimentos de laboratorio.",
+     "Porque eran atletas.",
+     "Porque escribían en verso.",
+     "Porque estudian la physis (la naturaleza) buscando su principio."
+    ],
+    "a": 3,
+    "fb": "Physis = naturaleza: buscan su arché y su orden con la razón."
+   }
+  ]
+ },
+ "fil-helenismo-q": {
+  "name": "Filosofía 1.º · Las escuelas helenísticas",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué preocupa sobre todo a las escuelas helenísticas?",
+    "o": [
+     "La estructura del átomo.",
+     "La organización del Estado ideal.",
+     "Cómo alcanzar la felicidad y la serenidad en un mundo inestable.",
+     "El origen del universo."
+    ],
+    "a": 2,
+    "fb": "Tras Alejandro, la filosofía se centra en cómo vivir bien y sin turbación."
+   },
+   {
+    "q": "Para Epicuro, la felicidad consiste en…",
+    "o": [
+     "El placer sereno y la ausencia de dolor y turbación (ataraxia).",
+     "El poder y la riqueza.",
+     "Suspender todo juicio.",
+     "Cumplir con el destino."
+    ],
+    "a": 0,
+    "fb": "Epicureísmo: placer moderado, satisfacer solo los deseos naturales y necesarios."
+   },
+   {
+    "q": "¿Qué defienden los estoicos (Zenón, Séneca)?",
+    "o": [
+     "Buscar el máximo placer posible.",
+     "Dudar de todo.",
+     "Renunciar a la vida en sociedad.",
+     "Vivir según la razón y aceptar con serenidad lo que no depende de nosotros."
+    ],
+    "a": 3,
+    "fb": "Estoicismo: apatheia; distinguir lo que está en mi mano de lo que no."
+   },
+   {
+    "q": "La «autarquía» de los cínicos (Diógenes) es…",
+    "o": [
+     "El gobierno de uno solo.",
+     "Bastarse a sí mismo, viviendo según la naturaleza sin lujos ni convenciones.",
+     "La suspensión del juicio.",
+     "El miedo a los dioses."
+    ],
+    "a": 1,
+    "fb": "Autarquía: autosuficiencia; Diógenes desprecia las convenciones sociales."
+   },
+   {
+    "q": "¿Qué proponen los escépticos (Pirrón)?",
+    "o": [
+     "Que ya conocemos toda la verdad.",
+     "Vivir según la voluntad general.",
+     "Suspender el juicio (epojé), pues no podemos estar seguros de nada, para lograr la tranquilidad.",
+     "Adorar el número."
+    ],
+    "a": 2,
+    "fb": "Escepticismo: la epojé conduce a la ataraxia."
+   },
+   {
+    "q": "¿Qué es la «ataraxia»?",
+    "o": [
+     "La ausencia de perturbación, la serenidad del alma.",
+     "Una escuela política.",
+     "Un tipo de placer intenso.",
+     "El principio de todas las cosas."
+    ],
+    "a": 0,
+    "fb": "Ataraxia: la meta común de las escuelas helenísticas, por caminos distintos."
    }
   ]
  }

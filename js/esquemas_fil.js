@@ -106,5 +106,19 @@ const ESQUEMAS_FIL = {
   "tema": "Filosofía · Tema 4",
   "title": "Lógica formal: conectivas, tablas de verdad y Boole",
   "mermaid": "flowchart TD\n  log[\"LÓGICA FORMAL\"]:::axis\n  con[\"Conectivas\"]:::key\n  c1[\"¬ no · ∧ y · ∨ o · → si...entonces · ↔ si y solo si\"]\n  tv[\"Tablas de verdad\"]:::key\n  t1[\"evalúan si una fórmula es verdadera o falsa según sus partes\"]\n  bo[\"Álgebra de Boole\"]:::key\n  b1[\"lo verdadero y lo falso como 1 y 0\"]\n  pu[\"Puertas lógicas (Shannon)\"]:::key\n  p1[\"AND (∧), OR (∨), NOT (¬): la lógica hecha electricidad → el ordenador\"]\n  log --> con --> c1\n  log --> tv --> t1\n  log --> bo --> b1\n  bo --> pu --> p1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
+  "FIL-PRE-01": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · Los presocráticos",
+  "title": "Los presocráticos: la búsqueda del arché",
+  "mermaid": "flowchart TD\n  pre[\"LOS PRESOCRÁTICOS\"]:::axis\n  ml[\"Del mito al logos: explicar la naturaleza con la razón\"]\n  arc[\"Buscan el ARCHÉ: el principio de todo\"]:::key\n  mil[\"Los milesios\"]:::key\n  ta[\"Tales: el agua\"]\n  an[\"Anaximandro: el ápeiron (lo indefinido)\"]\n  ax[\"Anaxímenes: el aire\"]\n  je[\"Jenófanes: crítica a los dioses antropomórficos\"]:::key\n  pi[\"Pitágoras: el número\"]:::key\n  par[\"Parménides: el ser es uno e inmóvil (el cambio, ilusión)\"]:::key\n  her[\"Heráclito: todo fluye, regido por el logos\"]:::key\n  pre --> ml\n  pre --> arc\n  arc --> mil\n  mil --> ta\n  mil --> an\n  mil --> ax\n  arc --> pi\n  pre --> je\n  pre --> par\n  pre --> her\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
+  "FIL-HEL-01": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · El helenismo",
+  "title": "Las escuelas helenísticas: caminos a la felicidad",
+  "mermaid": "flowchart TD\n  hel[\"¿CÓMO ALCANZAR LA FELICIDAD?\"]:::axis\n  ep[\"Epicúreos (Epicuro)\"]:::key\n  e1[\"placer sereno y ausencia de dolor: ataraxia\"]\n  es[\"Estoicos (Zenón, Séneca)\"]:::key\n  s1[\"vivir según la razón; aceptar lo que no depende de mí (apatheia)\"]\n  ci[\"Cínicos (Diógenes)\"]:::key\n  c1[\"autarquía: bastarse a sí mismo, sin convenciones\"]\n  esc[\"Escépticos (Pirrón)\"]:::key\n  x1[\"suspender el juicio (epojé): tranquilidad\"]\n  hel --> ep --> e1\n  hel --> es --> s1\n  hel --> ci --> c1\n  hel --> esc --> x1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  }
 };

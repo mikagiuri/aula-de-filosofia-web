@@ -43,6 +43,12 @@ const CITAS = [
   "e": "antigua"
  },
  {
+  "c": "En los mismos ríos entramos y no entramos, somos y no somos.",
+  "a": "Heráclito",
+  "o": "Flujo y cambio (DK B12)",
+  "e": "antigua"
+ },
+ {
   "c": "Conócete a ti mismo.",
   "a": "Inscripción del templo de Delfos",
   "o": "hecha suya por Sócrates",
