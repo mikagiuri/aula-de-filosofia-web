@@ -423,7 +423,9 @@ const CITAS = [
   "c": "La Ilustración es totalitaria.",
   "a": "Adorno & Horkheimer",
   "o": "Razón instrumental (Dialéctica de la Ilustración)",
-  "e": "contemporanea"
+  "e": "contemporanea",
+  "id": "adorno",
+  "img": "media/retratos/ilustres/adorno.jpg"
  },
  {
   "c": "Lo eternamente incomprensible del mundo es su comprensibilidad.",
