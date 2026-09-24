@@ -82,44 +82,7 @@ const SUBJECTS = {
   "kick": "1.º de Bachillerato · Temas 1-3",
   "color": "var(--fil)",
   "intro": "«¿Qué es la filosofía?»: el asombro, del mito al logos, características, ramas, la filosofía y otros saberes, y el método (leer y argumentar). Tres sesiones que reciben igual los grupos C, D y G.",
-  "mats": [
-   [
-    "Apunte teórico T1",
-    "Texto completo del Tema 1: qué es la filosofía, del mito al logos, tipos de saber, características, ramas, otros saberes, historia y funciones.",
-    "fil\\T01_teoria…"
-   ],
-   [
-    "Hoja de ejercicios T1 (alumnado)",
-    "«¿Qué es la filosofía?»: las preguntas con espacio para responder, para imprimir y repartir.",
-    "fil\\T01_hoja…"
-   ],
-   [
-    "Apunte teórico T2",
-    "Texto completo del Tema 2: naturaleza y cultura, cuerpo y mente, concepciones del ser humano, identidad y sentido de la existencia.",
-    "fil\\T02_teoria…"
-   ],
-   [
-    "Hoja de ejercicios T2 (alumnado)",
-    "«¿Qué es el ser humano?»: 14 ejercicios con tablas y líneas para rellenar, para imprimir y repartir.",
-    "fil\\T02_hoja…"
-   ],
-   [
-    "Apunte teórico T3",
-    "Texto completo del Tema 3: el conocimiento, las fuentes (racionalismo, empirismo, criticismo), la verdad y la posverdad, y el saber científico.",
-    "fil\\T03_teoria…"
-   ],
-   [
-    "Textos del libro",
-    "Selección de las unidades del McGraw Hill del alumnado que indique el profesor.",
-    "libro"
-   ],
-   [
-    "Presentación de la asignatura",
-    "Qué se estudia, cómo se trabaja y cómo se evalúa (para el primer día), con la tabla de calificación.",
-    "fil\\T00_presentacion…",
-    "fil-presentacion"
-   ]
-  ],
+  "mats": [],
   "tools": [
    [
     "Teoría: ¿qué es la filosofía?",
