@@ -157,6 +157,12 @@ const CITAS = [
   "e": "moderna"
  },
  {
+  "c": "El fin de una enciclopedia es reunir los conocimientos dispersos sobre la superficie de la tierra.",
+  "a": "Diderot",
+  "o": "El proyecto enciclopédico (Encyclopédie, Prólogo)",
+  "e": "moderna"
+ },
+ {
   "c": "El hombre más oprimido puede oprimir a un ser: su mujer. Ella es la proletaria del propio proletario.",
   "a": "Flora Tristán",
   "o": "Emancipación obrera y femenina (Unión obrera)",
@@ -268,6 +274,12 @@ const CITAS = [
   "c": "Todos los movimientos de los cuerpos en espacios libres se realizan en líneas rectas, salvo en la medida en que son desviados por fuerzas aplicadas.",
   "a": "Newton",
   "o": "Ley de gravitación universal (Principia Mathematica)",
+  "e": "moderna"
+ },
+ {
+  "c": "No te he dado, oh Adán, un lugar fijo, ni un rostro propio, ni un don particular, para que aquel lugar, aquel rostro y aquellos dones que tú elijas, sean tuyos según tu voluntad y tu decisión.",
+  "a": "Pico della Mirandola",
+  "o": "La dignidad del hombre (Oratio)",
   "e": "moderna"
  },
  {
