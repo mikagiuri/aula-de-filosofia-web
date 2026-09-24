@@ -382,6 +382,19 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:Platon_Cave_Sanraedam_1604.jpg"
  },
  {
+  "slug": "delfos",
+  "name": "El oráculo de Delfos",
+  "aliases": [
+   "oráculo de Delfos",
+   "Delfos"
+  ],
+  "file": "media/retratos/museo/delfos.jpg",
+  "title": "Voorbereiding tot het raadplegen van het orakel van Delphi Voorbereydi",
+  "artist": "Rijksmuseum",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Voorbereiding_tot_het_raadplegen_van_het_orakel_van_Delphi_Voorbereyding_tot_het_Orakel-vragen_(titel_op_object),_RP-P-1907-5698.jpg"
+ },
+ {
   "slug": "darwin",
   "name": "Charles Darwin",
   "aliases": [
