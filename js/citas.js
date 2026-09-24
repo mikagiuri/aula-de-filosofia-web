@@ -31,6 +31,12 @@ const CITAS = [
   "e": "antigua"
  },
  {
+  "c": "De las cosas que existen, unas dependen de nosotros y otras no dependen de nosotros.",
+  "a": "Epicteto",
+  "o": "En nuestro poder (Enquiridión 1)",
+  "e": "antigua"
+ },
+ {
   "c": "La muerte no es nada para nosotros: mientras existimos, la muerte no está; y cuando la muerte está, nosotros ya no existimos.",
   "a": "Epicuro",
   "o": "Carta a Meneceo",
@@ -109,6 +115,18 @@ const CITAS = [
   "e": "antigua"
  },
  {
+  "c": "La razón y la fe, ambas, conducen a la verdad; no puede haber oposición entre lo verdadero revelado y lo verdadero demostrado.",
+  "a": "Averroes",
+  "o": "La doble verdad (Tahafut al-Tahafut I)",
+  "e": "medieval"
+ },
+ {
+  "c": "Es inútil hacer con más lo que puede hacerse con menos.",
+  "a": "Guillermo de Ockham",
+  "o": "La navaja de Ockham (Summa Logicae I, 12)",
+  "e": "medieval"
+ },
+ {
   "c": "¿Qué es, pues, el tiempo? Si nadie me lo pregunta, lo sé; si quiero explicarlo a quien me lo pide, no lo sé.",
   "a": "San Agustín",
   "o": "El tiempo en el alma (Confesiones XI, 26)",
@@ -121,6 +139,12 @@ const CITAS = [
   "e": "medieval"
  },
  {
+  "c": "Al perseguir su propio interés, el individuo promueve con frecuencia el de la sociedad de manera más eficaz que cuando realmente intenta promoverlo.",
+  "a": "Adam Smith",
+  "o": "La mano invisible (La riqueza de las naciones IV, II)",
+  "e": "moderna"
+ },
+ {
   "c": "La razón es, y solo debe ser, esclava de las pasiones.",
   "a": "David Hume",
   "o": "Tratado de la naturaleza humana",
@@ -130,6 +154,18 @@ const CITAS = [
   "c": "La belleza no es una cualidad de las cosas mismas: existe únicamente en la mente que las contempla.",
   "a": "David Hume",
   "o": "La norma del gusto",
+  "e": "moderna"
+ },
+ {
+  "c": "El hombre más oprimido puede oprimir a un ser: su mujer. Ella es la proletaria del propio proletario.",
+  "a": "Flora Tristán",
+  "o": "Emancipación obrera y femenina (Unión obrera)",
+  "e": "moderna"
+ },
+ {
+  "c": "Saber es poder.",
+  "a": "Francis Bacon",
+  "o": "Ciencia y dominio de la naturaleza (Meditationes sacrae)",
   "e": "moderna"
  },
  {
@@ -205,6 +241,12 @@ const CITAS = [
   "e": "moderna"
  },
  {
+  "c": "El alma no es más que el resultado del funcionamiento de los órganos del cuerpo.",
+  "a": "La Mettrie",
+  "o": "El hombre máquina",
+  "e": "moderna"
+ },
+ {
   "c": "El estado de naturaleza tiene una ley de naturaleza que lo gobierna y obliga a todos: la razón, que es esa ley, enseña a toda la humanidad, si se digna consultarla, que siendo todos iguales e independientes, ninguno debe dañar a otro en su vida, salud, libertad o posesiones.",
   "a": "Locke",
   "o": "Derechos naturales (Segundo tratado, cap. II)",
@@ -214,6 +256,12 @@ const CITAS = [
   "c": "El cristiano es señor de todas las cosas y no está sujeto a nadie. El cristiano es siervo de todas las cosas y está sujeto a todos.",
   "a": "Martín Lutero",
   "o": "La libertad del cristiano (De libertate christiana)",
+  "e": "moderna"
+ },
+ {
+  "c": "No deseo que las mujeres tengan poder sobre los hombres, sino sobre sí mismas.",
+  "a": "Mary Wollstonecraft",
+  "o": "Vindicación de los derechos de la mujer",
   "e": "moderna"
  },
  {
@@ -253,6 +301,12 @@ const CITAS = [
   "e": "moderna"
  },
  {
+  "c": "No deseo que ellas [las mujeres] tengan poder sobre los hombres, sino sobre sí mismas.",
+  "a": "Wollstonecraft",
+  "o": "Educación e igualdad (Vindicación de los derechos de la mujer IV)",
+  "e": "moderna"
+ },
+ {
   "c": "La Ilustración es totalitaria.",
   "a": "Adorno & Horkheimer",
   "o": "Razón instrumental (Dialéctica de la Ilustración)",
@@ -277,15 +331,39 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
+  "c": "El género es la estilización repetida del cuerpo, un conjunto de actos reiterados dentro de un marco regulador muy rígido que, con el tiempo, se consolidan hasta producir la apariencia de una sustancia.",
+  "a": "Butler",
+  "o": "Género performativo (Gender Trouble)",
+  "e": "contemporanea"
+ },
+ {
   "c": "El hombre lleva aún en su cuerpo el sello indeleble de su origen.",
   "a": "Charles Darwin",
   "o": "El origen del hombre",
   "e": "contemporanea"
  },
  {
+  "c": "No hay nada fuera del texto.",
+  "a": "Derrida",
+  "o": "La différance (De la gramatología)",
+  "e": "contemporanea"
+ },
+ {
   "c": "El ser humano es un animal simbólico.",
   "a": "Ernst Cassirer",
   "o": "Antropología filosófica",
+  "e": "contemporanea"
+ },
+ {
+  "c": "El saber no está hecho para comprender, sino para cortar.",
+  "a": "Foucault",
+  "o": "Saber y poder (Vigilar y castigar)",
+  "e": "contemporanea"
+ },
+ {
+  "c": "Lo inconsciente es lo verdaderamente real en la vida psíquica.",
+  "a": "Freud",
+  "o": "El inconsciente (La interpretación de los sueños VII)",
   "e": "contemporanea"
  },
  {
@@ -379,6 +457,12 @@ const CITAS = [
   "e": "contemporanea"
  },
  {
+  "c": "Simplifiquemos al extremo: lo “posmoderno” es la incredulidad hacia los metarrelatos.",
+  "a": "Lyotard",
+  "o": "Incredulidad hacia los metarrelatos (La condición posmoderna)",
+  "e": "contemporanea"
+ },
+ {
   "c": "La riqueza de las sociedades en que domina el modo de producción capitalista se presenta como una “inmensa acumulación de mercancías”.",
   "a": "Marx",
   "o": "La mercancía y la plusvalía (El Capital I)",
@@ -406,6 +490,12 @@ const CITAS = [
   "c": "Cuando cambian los paradigmas, el mundo mismo cambia con ellos.",
   "a": "Thomas Kuhn",
   "o": "La estructura de las revoluciones científicas",
+  "e": "contemporanea"
+ },
+ {
+  "c": "El verdadero sujeto de la filosofía es el hombre concreto, de carne y hueso, con su angustia ante la muerte y su ansia de inmortalidad.",
+  "a": "Unamuno",
+  "o": "El ansia de inmortalidad (Del sentimiento trágico de la vida)",
   "e": "contemporanea"
  }
 ];

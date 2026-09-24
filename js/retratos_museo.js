@@ -137,6 +137,18 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg"
  },
  {
+  "slug": "averroes",
+  "name": "Averroes",
+  "aliases": [
+   "Averroes"
+  ],
+  "file": "media/retratos/museo/averroes.jpg",
+  "title": "The Disgrace of Averroes Vies Des Savants Illustr s",
+  "artist": "Louis Figuier (15 February 1819 – 8 November 1894)",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Disgrace_of_Averroes_-_Vies_Des_Savants_Illustr%C3%A9s.jpg"
+ },
+ {
   "slug": "descartes",
   "name": "Descartes",
   "aliases": [
@@ -148,6 +160,18 @@ const RETRATOS = [
   "artist": "After Frans Hals",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+ },
+ {
+  "slug": "spinoza",
+  "name": "Spinoza",
+  "aliases": [
+   "Spinoza"
+  ],
+  "file": "media/retratos/museo/spinoza.jpg",
+  "title": "Spinoza",
+  "artist": "Desconocido",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
  },
  {
   "slug": "locke",
@@ -369,6 +393,19 @@ const RETRATOS = [
   "artist": "Henry Maull",
   "license": "Public Domain",
   "page": "https://commons.wikimedia.org/wiki/File%3ACharles_Darwin_seated_crop.jpg"
+ },
+ {
+  "slug": "wollstonecraft",
+  "name": "Mary Wollstonecraft",
+  "aliases": [
+   "Mary Wollstonecraft",
+   "Wollstonecraft"
+  ],
+  "file": "media/retratos/museo/wollstonecraft.jpg",
+  "title": "Mary Wollstonecraft by John Opie (c. 1797)",
+  "artist": "John Opie",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg"
  },
  {
   "slug": "curie",

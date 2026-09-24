@@ -407,5 +407,230 @@ const ILUSTRACIONES = [
   "license": "Public domain",
   "artist": "ancient Roman mosaic artist from the early third century AD",
   "page": "https://commons.wikimedia.org/wiki/File:Anaximander_Mosaic.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_rembrandt_filosofo.jpg",
+  "t": "Filósofo en meditación (Rembrandt, 1632)",
+  "pie": "Pensar requiere detenerse: la luz que entra y la escalera que sube hacia dentro.",
+  "tema": "fil-t1",
+  "license": "Public domain",
+  "artist": "Rembrandt",
+  "page": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Philosopher_in_Meditation.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_pensador_rodin.jpg",
+  "t": "El pensador (Rodin)",
+  "pie": "El gesto universal de quien se hace preguntas.",
+  "tema": "fil-t1",
+  "license": "CC0",
+  "artist": "Auguste Rodin",
+  "page": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin,_The_Thinker_(Le_Penseur),_model_1880,_cast_1901,_NGA_1005.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_vitruvio.jpg",
+  "t": "El hombre de Vitruvio (Leonardo)",
+  "pie": "El ser humano como medida de todas las cosas (Renacimiento).",
+  "tema": "fil-t2",
+  "license": "Public domain",
+  "artist": "Leonardo da Vinci",
+  "page": "https://commons.wikimedia.org/wiki/File:Uomo_Vitruviano.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_gauguin.jpg",
+  "t": "¿De dónde venimos? ¿Qué somos? ¿Adónde vamos? (Gauguin)",
+  "pie": "Las tres preguntas de la antropología filosófica, pintadas en 1897.",
+  "tema": "fil-t2",
+  "license": "Public domain",
+  "artist": "Paul Gauguin",
+  "page": "https://commons.wikimedia.org/wiki/File:Gauguin_-_Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F_(1897-98).jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_darwin_caricatura.jpg",
+  "t": "Caricatura de Darwin (1871)",
+  "pie": "La teoría de la evolución sacudió la idea de lo que es el ser humano.",
+  "tema": "fil-t2",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Editorial_cartoon_depicting_Charles_Darwin_as_an_ape_(1871).jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_caverna.jpg",
+  "t": "La caverna de Platón (Saenredam, 1604)",
+  "pie": "Sombras frente a realidad: el mito central de la teoría del conocimiento.",
+  "tema": "fil-t3",
+  "license": "CC0",
+  "artist": "After Cornelis van Haarlem / Jan Saenredam",
+  "page": "https://commons.wikimedia.org/wiki/File:Jan_Pietersz_Saenredam_after_Cornelis_Cornelisz_van_Haarlem,_Plato%27s_Cave,_1604,_NGA_62542.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_flammarion.jpg",
+  "t": "El grabado Flammarion (1888)",
+  "pie": "Asomarse más allá de lo que creemos saber del mundo.",
+  "tema": "fil-t3",
+  "license": "Public domain",
+  "artist": "AnonymousUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Flammarion.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_descartes.jpg",
+  "t": "René Descartes (grabado del s. XVII)",
+  "pie": "La duda metódica: «pienso, luego existo».",
+  "tema": "fil-t3",
+  "license": "CC0",
+  "artist": "Rijksmuseum",
+  "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Ren%C3%A9_Descartes,_RP-P-OB-59.060.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hume.jpg",
+  "t": "David Hume (Allan Ramsay)",
+  "pie": "Todo conocimiento viene de la experiencia… y la causalidad es un hábito.",
+  "tema": "fil-t3",
+  "license": "Public domain",
+  "artist": "Allan Ramsay",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_arbol_porfirio.jpg",
+  "t": "El árbol de Porfirio",
+  "pie": "Género, especie y diferencia: clasificar para definir.",
+  "tema": "fil-t4",
+  "license": "Public domain",
+  "artist": "Purchotius",
+  "page": "https://commons.wikimedia.org/wiki/File:Arbor_porphyrii_(from_Purchotius%27_Institutiones_philosophicae_I,_1730).png"
+ },
+ {
+  "f": "media/ilustraciones/fil_hercules_encrucijada.jpg",
+  "t": "Hércules en la encrucijada (Annibale Carracci)",
+  "pie": "Elegir entre el camino fácil del placer y el difícil de la virtud.",
+  "tema": "fil-t5",
+  "license": "Public domain",
+  "artist": "Annibale Carracci",
+  "page": "https://commons.wikimedia.org/wiki/File:Annibale_Carracci_-_The_Choice_of_Heracles_-_WGA4416.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_buen_samaritano.jpg",
+  "t": "El buen samaritano (Van Gogh, 1890)",
+  "pie": "Ayudar al desconocido: la ética como cuidado del otro.",
+  "tema": "fil-t5",
+  "license": "Public domain",
+  "artist": "After Eugène Delacroix / Vincent van Gogh",
+  "page": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Good_Samaritan,_1890_-_Google_Art_Project.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_bentham.jpg",
+  "t": "Jeremy Bentham",
+  "pie": "Fundador del utilitarismo: medir las acciones por sus consecuencias.",
+  "tema": "fil-t5",
+  "license": "Public domain",
+  "artist": "Henry William Pickersgill",
+  "page": "https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_buen_gobierno.jpg",
+  "t": "Efectos del buen gobierno (Lorenzetti, Siena)",
+  "pie": "Una ciudad justa y en paz: la política pintada en 1338.",
+  "tema": "fil-t6",
+  "license": "Public domain",
+  "artist": "Ambrogio Lorenzetti",
+  "page": "https://commons.wikimedia.org/wiki/File:Ambrogio_Lorenzetti_-_Effects_of_Good_Government_in_the_city_-_Google_Art_Project.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_libertad_pueblo.jpg",
+  "t": "La Libertad guiando al pueblo (Delacroix, 1830)",
+  "pie": "La soberanía popular como ideal revolucionario.",
+  "tema": "fil-t6",
+  "license": "Public domain",
+  "artist": "Eugène Delacroix",
+  "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_wollstonecraft.jpg",
+  "t": "Mary Wollstonecraft (John Opie)",
+  "pie": "Vindicación de los derechos de la mujer (1792).",
+  "tema": "fil-t6",
+  "license": "Public domain",
+  "artist": "John Opie",
+  "page": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hokusai.jpg",
+  "t": "La gran ola de Kanagawa (Hokusai)",
+  "pie": "Lo bello y lo sublime en una estampa japonesa.",
+  "tema": "fil-t7",
+  "license": "Public domain",
+  "artist": "After Katsushika Hokusai",
+  "page": "https://commons.wikimedia.org/wiki/File:Great_Wave_off_Kanagawa2.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_vermeer_arte.jpg",
+  "t": "El arte de la pintura (Vermeer)",
+  "pie": "Un cuadro sobre el propio arte de pintar.",
+  "tema": "fil-t7",
+  "license": "Public domain",
+  "artist": "Johannes Vermeer",
+  "page": "https://commons.wikimedia.org/wiki/File:Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_noche_estrellada.jpg",
+  "t": "La noche estrellada (Van Gogh, 1889)",
+  "pie": "El arte como expresión de un mundo interior.",
+  "tema": "fil-t7",
+  "license": "Public domain",
+  "artist": "Vincent van Gogh",
+  "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_empedocles.jpg",
+  "t": "Empédocles (Signorelli, Orvieto)",
+  "pie": "Cuatro elementos movidos por el Amor y el Odio.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Luca Signorelli",
+  "page": "https://commons.wikimedia.org/wiki/File:Luca_Signorelli_-_Empedocles_-_WGA21238.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_anaximenes.jpg",
+  "t": "Anaximandro y Anaxímenes (Crónica de Núremberg, 1493)",
+  "pie": "Los milesios buscan el principio (arjé): lo indefinido y el aire.",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Michel Wolgemut, Wilhelm Pleydenwurff (Text: Hartmann Schedel)",
+  "page": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_f_68v_2.png"
+ },
+ {
+  "f": "media/ilustraciones/fil_pirron.jpg",
+  "t": "Pirrón de Elis",
+  "pie": "El escéptico: suspender el juicio para vivir en calma.",
+  "tema": "fil-helenismo",
+  "license": "Public domain",
+  "artist": "Girolamo Olgiati",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyrrho_Heliensis_-_Illustrium_philosophorum_et_sapientum_effigies_ab_eorum_numistatibus_extractae.png"
+ },
+ {
+  "f": "media/ilustraciones/fil_lechuza_atenea.jpg",
+  "t": "La lechuza de Atenea en una moneda de Atenas",
+  "pie": "Símbolo de la sabiduría y, desde Hegel, de la filosofía.",
+  "tema": "fil-t1",
+  "license": "Public domain",
+  "artist": "Hermann Weber 1823-1918",
+  "page": "https://commons.wikimedia.org/wiki/File:Athens,_tetradrachm,_86-84_BC,_Weber_3526.png"
+ },
+ {
+  "f": "media/ilustraciones/fil_zenon_elea.jpg",
+  "t": "Zenón de Elea muestra las puertas de la verdad y la falsedad",
+  "pie": "Las paradojas contra el movimiento (fresco de El Escorial).",
+  "tema": "fil-presocraticos",
+  "license": "Public domain",
+  "artist": "Pellegrini Tiballdi",
+  "page": "https://commons.wikimedia.org/wiki/File:Zeno_of_Elea_Tibaldi_or_Carducci_Escorial.jpg"
+ },
+ {
+  "f": "media/ilustraciones/fil_hiparquia_crates.jpg",
+  "t": "Crates e Hiparquía (fresco romano)",
+  "pie": "La pareja cínica que vivió según la naturaleza, sin convenciones.",
+  "tema": "fil-helenismo",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Crates_and_Hipparchia_Villa_Farnesina.jpg"
  }
 ];
