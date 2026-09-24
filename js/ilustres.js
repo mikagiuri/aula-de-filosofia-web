@@ -219,8 +219,7 @@ const ILUSTRES = {
    "fil-t3",
    "fil-t5",
    "fil-presocraticos"
-  ],
-  "slug": "socrates"
+  ]
  },
  "democrito": {
   "name": "Demócrito de Abdera",
@@ -284,8 +283,7 @@ const ILUSTRES = {
    "fil-t6",
    "fil-t7",
    "fil-presocraticos"
-  ],
-  "slug": "platon"
+  ]
  },
  "diogenes": {
   "name": "Diógenes de Sinope",
@@ -303,8 +301,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-helenismo"
-  ],
-  "slug": "diogenes"
+  ]
  },
  "aristoteles": {
   "name": "Aristóteles",
@@ -334,8 +331,7 @@ const ILUSTRES = {
    "fil-t6",
    "fil-t7",
    "fil-helenismo"
-  ],
-  "slug": "aristoteles"
+  ]
  },
  "pirron": {
   "name": "Pirrón de Elis",
@@ -376,8 +372,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t5",
    "fil-helenismo"
-  ],
-  "slug": "epicuro"
+  ]
  },
  "zenon": {
   "name": "Zenón de Citio",
@@ -418,8 +413,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-helenismo"
-  ],
-  "slug": "seneca"
+  ]
  },
  "agustin": {
   "name": "Agustín de Hipona",
@@ -444,8 +438,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t7"
-  ],
-  "slug": "agustin"
+  ]
  },
  "hipatia": {
   "name": "Hipatia de Alejandría",
@@ -463,8 +456,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "hipatia"
+  ]
  },
  "tomas": {
   "name": "Tomás de Aquino",
@@ -488,8 +480,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t7"
-  ],
-  "slug": "aquino"
+  ]
  },
  "galileo": {
   "name": "Galileo Galilei",
@@ -511,8 +502,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "galileo"
+  ]
  },
  "hobbes": {
   "name": "Thomas Hobbes",
@@ -560,8 +550,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t3"
-  ],
-  "slug": "descartes"
+  ]
  },
  "locke": {
   "name": "John Locke",
@@ -586,8 +575,7 @@ const ILUSTRES = {
    "fil-t2",
    "fil-t3",
    "fil-t6"
-  ],
-  "slug": "locke"
+  ]
  },
  "newton": {
   "name": "Isaac Newton",
@@ -608,8 +596,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "newton"
+  ]
  },
  "hume": {
   "name": "David Hume",
@@ -636,8 +623,7 @@ const ILUSTRES = {
    "fil-t3",
    "fil-t5",
    "fil-t7"
-  ],
-  "slug": "hume"
+  ]
  },
  "rousseau": {
   "name": "Jean-Jacques Rousseau",
@@ -659,8 +645,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t6"
-  ],
-  "slug": "rousseau"
+  ]
  },
  "baumgarten": {
   "name": "Alexander Baumgarten",
@@ -709,8 +694,7 @@ const ILUSTRES = {
    "fil-t3",
    "fil-t5",
    "fil-t7"
-  ],
-  "slug": "kant"
+  ]
  },
  "lamarck": {
   "name": "Jean-Baptiste Lamarck",
@@ -776,8 +760,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t7"
-  ],
-  "slug": "hegel"
+  ]
  },
  "mill": {
   "name": "John Stuart Mill",
@@ -800,8 +783,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t5"
-  ],
-  "slug": "mill"
+  ]
  },
  "darwin": {
   "name": "Charles Darwin",
@@ -823,8 +805,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t2"
-  ],
-  "slug": "darwin"
+  ]
  },
  "boole": {
   "name": "George Boole",
@@ -869,8 +850,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t2"
-  ],
-  "slug": "marx"
+  ]
  },
  "mendel": {
   "name": "Gregor Mendel",
@@ -956,8 +936,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "james"
+  ]
  },
  "nietzsche": {
   "name": "Friedrich Nietzsche",
@@ -981,8 +960,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t2"
-  ],
-  "slug": "nietzsche"
+  ]
  },
  "frege": {
   "name": "Gottlob Frege",
@@ -1070,8 +1048,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "curie"
+  ]
  },
  "russell": {
   "name": "Bertrand Russell",
@@ -1135,8 +1112,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "einstein"
+  ]
  },
  "ortega": {
   "name": "José Ortega y Gasset",
@@ -1158,8 +1134,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t2"
-  ],
-  "slug": "ortega"
+  ]
  },
  "duchamp": {
   "name": "Marcel Duchamp",
@@ -1203,8 +1178,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t1"
-  ],
-  "slug": "wittgenstein"
+  ]
  },
  "heidegger": {
   "name": "Martin Heidegger",
@@ -1294,8 +1268,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "popper"
+  ]
  },
  "adorno": {
   "name": "Theodor W. Adorno",
@@ -1341,8 +1314,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t1"
-  ],
-  "slug": "zambrano"
+  ]
  },
  "sartre": {
   "name": "Jean-Paul Sartre",
@@ -1391,8 +1363,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t3",
    "fil-t6"
-  ],
-  "slug": "arendt"
+  ]
  },
  "beauvoir": {
   "name": "Simone de Beauvoir",
@@ -1416,8 +1387,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t2"
-  ],
-  "slug": "beauvoir"
+  ]
  },
  "camus": {
   "name": "Albert Camus",
@@ -1482,8 +1452,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "franklin"
+  ]
  },
  "rawls": {
   "name": "John Rawls",
@@ -1528,8 +1497,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3"
-  ],
-  "slug": "kuhn"
+  ]
  },
  "danto": {
   "name": "Arthur Danto",
