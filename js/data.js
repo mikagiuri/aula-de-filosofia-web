@@ -85,6 +85,11 @@ const SUBJECTS = {
   "mats": [],
   "tools": [
    [
+    "Dilemas éticos",
+    "dilemas",
+    ""
+   ],
+   [
     "Teoría: ¿qué es la filosofía?",
     "teoria",
     "fil-t1"
