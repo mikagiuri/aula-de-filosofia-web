@@ -697,7 +697,7 @@ const ILUSTRES = {
   "anecdota": "<p>Se cuenta que Hume, ya corpulento y famoso por su escepticismo religioso, se cayó en una zanja cenagosa al atajar por una zona en obras de Edimburgo. Una vecina que pasaba lo reconoció como «Hume el ateo» y se negó a sacarlo de allí hasta que rezase el padrenuestro y el credo. Él, con su buen humor habitual, los recitó sin protestar, y ella le tendió la mano. La escena resume bien su carácter: tenía ideas incómodas para su época, pero todos sus contemporáneos destacaban su trato afable y su falta de rencor.</p>",
   "fuente": "Tradición de Edimburgo, recogida en biografías de Hume (E. C. Mossner, The Life of David Hume)",
   "tradicion": true,
-  "block": "ren",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
@@ -726,7 +726,7 @@ const ILUSTRES = {
   "anecdota": "<p>En el verano de 1749, Rousseau caminaba desde París hasta el castillo de Vincennes para visitar a su amigo Diderot, que estaba allí preso. Para descansar, hojeaba el <em>Mercure de France</em>, y en él leyó la pregunta de un concurso de la Academia de Dijon: si el progreso de las ciencias y las artes había mejorado las costumbres. Según contó él mismo, sintió una especie de iluminación repentina, tuvo que sentarse bajo un árbol y se encontró llorando. De aquel momento nació su primer <em>Discurso</em> y, con él, la idea que recorre toda su obra.</p>",
   "fuente": "Rousseau, Confesiones, libro VIII; Segunda carta a Malesherbes (1762)",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
@@ -748,7 +748,7 @@ const ILUSTRES = {
    "Metafísica (1739)",
    "Estética (1750-1758)"
   ],
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
@@ -774,7 +774,7 @@ const ILUSTRES = {
   "anecdota": "<p>Según la tradición, los vecinos de Königsberg ponían en hora sus relojes cuando veían pasar a Kant en su paseo diario de la tarde, siempre a la misma hora y por el mismo recorrido. Solo una vez, se cuenta, faltó a la cita: los días en que se quedó en casa absorto leyendo el <em>Emilio</em> de Rousseau, recién publicado. La anécdota quizá esté adornada, pero la admiración era real: Kant tenía en su estudio un único retrato, el de Rousseau, y reconocía que él le había enseñado a respetar la dignidad de cualquier ser humano.</p>",
   "fuente": "Tradición biográfica; sobre sus costumbres, biografías de Borowski, Jachmann y Wasianski",
   "tradicion": true,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
@@ -827,7 +827,7 @@ const ILUSTRES = {
   "anecdota": "<p>Bentham quiso ser útil incluso después de morir. En su testamento dispuso que su cuerpo se usara para la enseñanza de la anatomía y que después su esqueleto, vestido con su ropa y sentado en su silla, se conservara como un «autoicono». Así se hizo: hoy puede verse en una vitrina del University College de Londres, aunque la cabeza es de cera. Circula la leyenda de que asiste a las reuniones del consejo de la universidad con la anotación «presente, pero sin voto». Detrás de la excentricidad había una idea utilitarista: un cadáver también puede servir al bien común.</p>",
   "fuente": "Testamento de Bentham; University College London",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
@@ -879,7 +879,7 @@ const ILUSTRES = {
   "anecdota": "<p>En 1865, durante su campaña para el Parlamento, Mill se reunió con un público de trabajadores. Un adversario había difundido un cartel con una frase de uno de sus libros, donde decía que las clases trabajadoras, aunque se avergonzaban de mentir, solían ser mentirosas. Le preguntaron si la había escrito, y Mill respondió sin dudar: «Sí, la escribí». Según su <em>Autobiografía</em>, el público estalló en aplausos, porque valoraba que un candidato no intentara esquivar la pregunta. Mill ganó el escaño y lo usó para defender, entre otras causas, el voto de las mujeres.</p>",
   "fuente": "John Stuart Mill, Autobiografía",
   "tradicion": false,
-  "block": "mod",
+  "block": "ilu",
   "subjects": [
    "fil"
   ],
