@@ -120,14 +120,6 @@ const CITAS = [
   "img": "media/retratos/museo/platon.jpg"
  },
  {
-  "c": "El hombre es la medida de todas las cosas.",
-  "a": "Protágoras",
-  "o": "fragmento DK 80 B1 (citado por Platón, Teeteto 152a)",
-  "e": "antigua",
-  "id": "protagoras",
-  "img": "media/retratos/museo2/protagoras.jpg"
- },
- {
   "c": "El hombre es la medida de todas las cosas: de las que son, que son; de las que no son, que no son.",
   "a": "Protágoras",
   "o": "fragmento DK 80 B1 (citado por Platón, Teeteto 152a)",
@@ -273,7 +265,7 @@ const CITAS = [
  },
  {
   "c": "La guerra de todos contra todos.",
-  "a": "Hobbes",
+  "a": "Thomas Hobbes",
   "o": "Leviatán (1651) I, 13",
   "e": "moderna",
   "id": "hobbes",
@@ -281,7 +273,7 @@ const CITAS = [
  },
  {
   "c": "Todos los razonamientos acerca de cuestiones de hecho parecen fundarse en la relación de causa y efecto.",
-  "a": "Hume",
+  "a": "David Hume",
   "o": "Investigación sobre el entendimiento humano (1748), sección IV, parte 1",
   "e": "moderna",
   "id": "hume",
@@ -289,7 +281,7 @@ const CITAS = [
  },
  {
   "c": "Todo el marco de la naturaleza habla de un autor inteligente; y ningún investigador racional puede, tras una reflexión seria, suspender ni por un instante su creencia respecto a los principios primarios del verdadero teísmo.",
-  "a": "Hume",
+  "a": "David Hume",
   "o": "Historia natural de la religión (1757), Introducción",
   "e": "moderna",
   "id": "hume",
@@ -337,7 +329,7 @@ const CITAS = [
  },
  {
   "c": "Obra solo según aquella máxima por la cual puedas querer al mismo tiempo que se convierta en ley universal.",
-  "a": "Kant",
+  "a": "Immanuel Kant",
   "o": "Fundamentación de la metafísica de las costumbres (1785) II (Ak IV, 421)",
   "e": "moderna",
   "id": "kant",
@@ -353,7 +345,7 @@ const CITAS = [
  },
  {
   "c": "El estado de naturaleza tiene una ley de naturaleza que lo gobierna y obliga a todos: la razón, que es esa ley, enseña a toda la humanidad, si se digna consultarla, que siendo todos iguales e independientes, ninguno debe dañar a otro en su vida, salud, libertad o posesiones.",
-  "a": "Locke",
+  "a": "John Locke",
   "o": "Segundo tratado sobre el gobierno civil (1690) II, § 6",
   "e": "moderna",
   "id": "locke",
@@ -430,14 +422,6 @@ const CITAS = [
   "e": "moderna",
   "id": "hobbes",
   "img": "media/retratos/museo2/hobbes.jpg"
- },
- {
-  "c": "No deseo que ellas [las mujeres] tengan poder sobre los hombres, sino sobre sí mismas.",
-  "a": "Wollstonecraft",
-  "o": "Vindicación de los derechos de la mujer (1792), cap. IV",
-  "e": "moderna",
-  "id": "wollstonecraft",
-  "img": "media/retratos/museo/wollstonecraft.jpg"
  },
  {
   "c": "La Ilustración es totalitaria.",
@@ -517,14 +501,6 @@ const CITAS = [
   "e": "contemporanea",
   "id": "freud",
   "img": "media/retratos/museo2/freud.jpg"
- },
- {
-  "c": "Dios ha muerto.",
-  "a": "Friedrich Nietzsche",
-  "o": "La gaya ciencia (1882) III, § 108",
-  "e": "contemporanea",
-  "id": "nietzsche",
-  "img": "media/retratos/museo/nietzsche.jpg"
  },
  {
   "c": "Hay que tener caos dentro de sí para dar a luz una estrella danzarina.",
@@ -647,7 +623,7 @@ const CITAS = [
  },
  {
   "c": "La riqueza de las sociedades en que domina el modo de producción capitalista se presenta como una “inmensa acumulación de mercancías”.",
-  "a": "Marx",
+  "a": "Karl Marx",
   "o": "El capital (1867), libro I, cap. 1",
   "e": "contemporanea",
   "id": "marx",
@@ -655,7 +631,7 @@ const CITAS = [
  },
  {
   "c": "¡Dios ha muerto! ¡Dios permanece muerto! ¡Y nosotros lo hemos matado!",
-  "a": "Nietzsche",
+  "a": "Friedrich Nietzsche",
   "o": "La gaya ciencia (1882) III, § 125",
   "e": "contemporanea",
   "id": "nietzsche",
