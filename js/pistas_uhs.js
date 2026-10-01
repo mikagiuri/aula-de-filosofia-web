@@ -17,10 +17,10 @@ const PISTAS = [
      "Intenta explicarlo antes de pedir ayuda. Una pista para empezar a pensar: ¿la validez depende de <em>lo que</em> dice el argumento o de <em>cómo</em> razona?"
     ],
     "pistas": [
-     "La validez es una propiedad de la <em>forma</em> del argumento, no de su contenido.",
-     "Un argumento tiene premisas y una conclusión. La pregunta es qué relación hay entre ellas.",
-     "Si el argumento es válido, <strong>no puede ocurrir</strong> que las premisas sean verdaderas y la conclusión falsa.",
-     "Es válido cuando la conclusión se sigue necesariamente de las premisas, sean estas verdaderas o no."
+     "Para aterrizar: un argumento tiene <strong>premisas</strong> (de las que se parte) y una <strong>conclusión</strong> (a la que se llega). La validez se pregunta por la relación entre ellas.",
+     "Esa relación es lo que nos deja juzgar el <em>razonamiento</em> en sí, aparte de los hechos: nos dice si el paso de las premisas a la conclusión está bien dado.",
+     "Por eso es cuestión de la <em>forma</em>, no del contenido: no mira si las premisas son verdaderas, sino si, dándolas por buenas, la conclusión tendría que serlo también.",
+     "En un argumento válido <strong>no puede pasar</strong> que las premisas sean verdaderas y la conclusión falsa: la conclusión se sigue necesariamente de ellas, sean estas verdaderas o no."
     ],
     "comprobacion": {
      "pregunta": "¿Cuál de estas definiciones de «argumento válido» es la correcta?",
@@ -137,10 +137,10 @@ const PISTAS = [
      "Ya sabes qué es la validez. Ahora piensa en el argumento del salmón: era válido… y su conclusión era falsa. ¿Qué le falta a un argumento para <em>garantizar</em> su conclusión?"
     ],
     "pistas": [
-     "Un argumento válido funciona como una máquina: si entra verdad por las premisas, sale verdad por la conclusión.",
-     "Pero si entra algo falso, la máquina no garantiza nada.",
-     "Hay un nombre para el argumento que es válido <em>y además</em> tiene todas las premisas verdaderas.",
-     "Ese argumento se llama <strong>sólido</strong>: es el único que garantiza que la conclusión es verdadera."
+     "Recuerda la distinción del tema: la validez mira la <em>forma</em>; la verdad mira si las premisas describen bien cómo son las cosas. Son dos cosas distintas.",
+     "Por eso la validez sola no basta: asegura el paso de las premisas a la conclusión, pero no que hayamos partido de premisas ciertas.",
+     "Para <em>garantizar</em> la conclusión hacen falta las dos cosas a la vez: que el argumento sea válido y que todas sus premisas sean verdaderas. A eso se le da un nombre propio.",
+     "Imagínalo como una máquina: si entra verdad por las premisas y la forma es válida, sale verdad por la conclusión; si entra algo falso, ya no garantiza nada. Al argumento que junta validez y premisas verdaderas se le llama <strong>sólido</strong>."
     ],
     "comprobacion": {
      "pregunta": "¿Qué argumento garantiza que su conclusión es verdadera?",
@@ -235,10 +235,10 @@ const PISTAS = [
      "Piensa en una persona valiente. ¿Qué la distingue de alguien cobarde… y de alguien temerario?"
     ],
     "pistas": [
-     "Para Aristóteles, la meta de la vida humana es la felicidad (<em>eudaimonía</em>): una vida lograda en su conjunto.",
-     "La felicidad se alcanza desarrollando la <em>virtud</em>, que no es un don, sino algo que se aprende.",
-     "El valor está entre dos vicios: uno por defecto (la cobardía) y otro por exceso (la temeridad).",
-     "La virtud es un <strong>término medio</strong> entre dos extremos, guiado por la razón y adquirido por el hábito."
+     "Para aterrizar: la meta de la vida humana es, para Aristóteles, la felicidad (<em>eudaimonía</em>); no un rato de placer, sino una vida lograda en su conjunto.",
+     "A esa vida lograda se llega desarrollando la <em>virtud</em>; y la virtud no es un don con el que se nace, sino algo que se aprende.",
+     "¿Cómo es esa virtud? No consiste en reprimirse ni en obedecer normas: en cada rasgo hay un vicio por <em>defecto</em> y otro por <em>exceso</em>, y acertar es no pasarse ni quedarse corto.",
+     "La virtud es el <strong>término medio</strong> entre esos dos extremos, señalado por la razón y fijado por el hábito: ni de menos ni de más, sino la medida adecuada."
     ],
     "comprobacion": {
      "pregunta": "¿Cuál de estas definiciones se acerca más a la virtud aristotélica?",
@@ -355,10 +355,10 @@ const PISTAS = [
      "Ya sabes qué es la virtud. Ahora piensa: ¿para qué sirve ser virtuoso? ¿Es la felicidad un premio que llega después?"
     ],
     "pistas": [
-     "Para Aristóteles, todo lo que hacemos busca algún fin; la felicidad es el fin último, el que buscamos por sí mismo.",
-     "La felicidad no es un instante de placer, sino una vida entera bien vivida.",
-     "Cada ser es feliz cuando realiza bien su función propia. La función propia del ser humano es vivir según la razón.",
-     "La felicidad <strong>consiste</strong> en vivir de forma virtuosa: no es un premio externo, sino la propia vida lograda."
+     "Para aterrizar: todo lo que hacemos busca algún fin, y la felicidad es el <em>fin último</em>, el que queremos por sí mismo y no como medio para otra cosa.",
+     "Eso cambia la pregunta: no se trata de ser virtuoso <em>para</em> ganar aparte un premio llamado felicidad, sino de ver en qué consiste esa felicidad.",
+     "¿Cómo se responde? Cada ser cumple lo suyo cuando realiza bien su función propia; la del ser humano es vivir según la razón, y vivir así es vivir con virtud.",
+     "Por eso la virtud no es el camino hacia la felicidad, sino la felicidad misma en marcha: ser feliz <strong>consiste</strong> en vivir de forma virtuosa, no es un premio que llega después."
     ],
     "comprobacion": {
      "pregunta": "¿Qué relación hay entre virtud y felicidad para Aristóteles?",
@@ -452,10 +452,10 @@ const PISTAS = [
      "Imagina que no existiera ningún gobierno, ni leyes, ni policía. ¿Por qué aceptaríamos que alguien nos mandara?"
     ],
     "pistas": [
-     "Para los contractualistas, el Estado no es algo natural, sino un <em>artificio</em> que creamos los seres humanos.",
-     "Lo creamos mediante un acuerdo entre todos.",
-     "Para justificarlo, imaginan cómo sería la vida sin poder político: el <em>estado de naturaleza</em>.",
-     "El contrato social es el <strong>acuerdo</strong> por el que las personas salen del estado de naturaleza y crean el poder político."
+     "Para aterrizar: los contractualistas no ven el Estado como algo natural ni eterno, sino como un <em>artificio</em>, algo que los seres humanos hemos fabricado.",
+     "Eso cambia la pregunta: si lo hemos hecho nosotros, su poder no manda porque sí; necesita justificarse ante quienes obedecen.",
+     "¿Cómo lo justifican? No apelando a un documento firmado un día de la historia, sino imaginando cómo sería la vida sin poder político (el <em>estado de naturaleza</em>) y un <strong>acuerdo</strong> para salir de ahí.",
+     "El contrato social es ese pacto imaginado: como si todos nos pusiéramos de acuerdo para crear, entre todos, el poder que luego nos manda."
     ],
     "comprobacion": {
      "pregunta": "¿Qué es el contrato social?",
@@ -572,10 +572,10 @@ const PISTAS = [
      "Los dos son contractualistas, pero Hobbes defiende un poder absoluto y Locke un poder limitado. La clave está en cómo imaginan el punto de partida."
     ],
     "pistas": [
-     "Compara cómo imagina cada uno el estado de naturaleza.",
-     "Para Hobbes es una «guerra de todos contra todos»: «el hombre es un lobo para el hombre». Para Locke es relativamente pacífico, aunque inseguro.",
-     "Cuanto peor es el punto de partida, más cosas estamos dispuestos a ceder para salir de él.",
-     "Hobbes, por miedo a morir, lo cede todo a un soberano absoluto; Locke solo cede el poder de juzgar y castigar, y conserva sus derechos naturales."
+     "Para aterrizar: los dos parten de un estado de naturaleza imaginado y de un pacto para salir de él. La diferencia no está en el país ni en la época, sino en ese punto de partida.",
+     "Lo que buscas es una palanca: cuanto peor pintan la vida sin Estado, más poder estamos dispuestos a ceder para escapar de ella.",
+     "Así, quien imagina el punto de partida como un peligro insoportable justifica entregar <em>todo</em> el poder; quien lo imagina soportable pero inseguro justifica ceder solo una parte y guardarse derechos.",
+     "Por eso del mismo pacto salen Estados opuestos: un poder absoluto si el miedo lo tiñe todo, un poder limitado si solo falta un árbitro de confianza."
     ],
     "comprobacion": {
      "pregunta": "¿Qué explica mejor la diferencia entre Hobbes y Locke?",
@@ -609,7 +609,7 @@ const PISTAS = [
       "etiqueta": "Tres contractualistas",
       "titulo": "Del estado de naturaleza al Estado",
       "definicion": [
-       "<strong>Hobbes</strong>: guerra de todos contra todos → por miedo, todos ceden su poder a un soberano → monarquía absoluta (el Leviatán).",
+       "<strong>Hobbes</strong>: «guerra de todos contra todos» («el hombre es un lobo para el hombre») → por miedo, todos ceden su poder a un soberano → monarquía absoluta (el Leviatán).",
        "<strong>Locke</strong>: paz insegura, con derechos naturales (vida, libertad, propiedad) → pacto limitado → Estado liberal, con división de poderes y derecho a rebelarse contra el tirano.",
        "<strong>Rousseau</strong>: el «buen salvaje» es libre e igual; la sociedad lo corrompe → pacto en el que cada uno se somete a la voluntad general → democracia."
       ],
