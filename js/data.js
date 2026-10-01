@@ -2846,7 +2846,7 @@ const QUIZZES = {
     "fb": "El animismo cree que en la naturaleza (un río, un bosque, un árbol) habitan espíritus con sentimientos e intenciones."
    },
    {
-    "q": "La abuela de Carlos le cuenta que los terremotos ocurren porque un gigante se revuelve bajo la tierra, y él lo cree porque siempre se ha contado así. ¿Qué describe mejor esa explicación?",
+    "q": "A una persona su abuela le cuenta que los terremotos ocurren porque un gigante se revuelve bajo la tierra, y lo cree porque siempre se ha contado así. ¿Qué describe mejor esa explicación?",
     "o": [
      "Una explicación con autor conocido y abierta a debate.",
      "Un saber común, espontáneo pero basado en la experiencia.",
@@ -2868,7 +2868,7 @@ const QUIZZES = {
     "fb": "El saber científico investiga las causas próximas de los hechos en una parcela observable y experimentable."
    },
    {
-    "q": "Pablo oye que «todo el mundo sabe» que cierta dieta es la mejor y, antes de aceptarlo, decide examinar las razones. ¿Qué rasgo del saber filosófico muestra?",
+    "q": "Alguien oye que «todo el mundo sabe» que cierta dieta es la mejor y, antes de aceptarlo, decide examinar las razones. ¿Qué rasgo del saber filosófico muestra?",
     "o": [
      "Que es sistemático: relaciona todos los campos.",
      "Que es crítico: no admite creencias «porque sí».",
@@ -2901,7 +2901,7 @@ const QUIZZES = {
     "fb": "Según la tabla del tema, la religión entiende al ser humano como criatura con destino trascendente y responde desde la revelación y la fe."
    },
    {
-    "q": "Laura analiza un anuncio y descubre que usa promesas falsas para que el público compre sin pensar. ¿Qué función de la filosofía está ejerciendo?",
+    "q": "Una persona analiza un anuncio y descubre que usa promesas falsas para que el público compre sin pensar. ¿Qué función de la filosofía está ejerciendo?",
     "o": [
      "La función crítica.",
      "La función de orientación.",
@@ -2912,7 +2912,7 @@ const QUIZZES = {
     "fb": "La función crítica enseña a analizar discursos, también publicitarios, y a detectar prejuicios y promesas falsas."
    },
    {
-    "q": "En un debate de clase, Hugo sube el tono e interrumpe a los demás para que gane su idea. Según el tema, ¿qué está haciendo mal?",
+    "q": "En un debate de clase, alguien sube el tono e interrumpe a los demás para que gane su idea. Según el tema, ¿qué está haciendo mal?",
     "o": [
      "Olvida que en filosofía todas las opiniones valen igual y no hay que defenderlas.",
      "Olvida que en un debate conviene esperar a que el profesor dé la respuesta final.",
@@ -3171,7 +3171,7 @@ const QUIZZES = {
     "fb": "Con este ejemplo Jenófanes critica los dioses antropomórficos: cada pueblo los imagina a su semejanza."
    },
    {
-    "q": "Lucía se da cuenta de que en casi todas las películas los extraterrestres tienen cabeza, dos brazos y dos piernas, como nosotros. ¿Qué autor hizo una crítica parecida referida a los dioses?",
+    "q": "Una persona se da cuenta de que en casi todas las películas los extraterrestres tienen cabeza, dos brazos y dos piernas, como nosotros. ¿Qué autor hizo una crítica parecida referida a los dioses?",
     "o": [
      "Anaxímenes de Mileto",
      "Parménides de Elea",
@@ -3336,7 +3336,7 @@ const QUIZZES = {
     "fb": "El ser es la esencia ideal y fija, como los objetos matemáticos; el haber son las cosas cambiantes de la realidad."
    },
    {
-    "q": "Iker le dice a su hermano: «No te fíes de lo que ves; fíate solo de lo que puedas demostrar razonando». ¿Qué vía de Parménides está recomendando?",
+    "q": "Alguien le dice a su hermano: «No te fíes de lo que ves; fíate solo de lo que puedas demostrar razonando». ¿Qué vía de Parménides está recomendando?",
     "o": [
      "La vía del mito, la de los poetas.",
      "La vía del no ser, la de la nada.",
@@ -3749,7 +3749,7 @@ const QUIZZES = {
     "fb": "Kant afirma que a las personas nunca debemos tratarlas solo como medios o instrumentos, porque tienen dignidad."
    },
    {
-    "q": "Laura dice: «Nadie nace valiente o cobarde; cada uno se va haciendo con lo que decide». ¿Con qué corriente encaja mejor?",
+    "q": "Alguien dice: «Nadie nace valiente o cobarde; cada uno se va haciendo con lo que decide». ¿Con qué corriente encaja mejor?",
     "o": [
      "Con el dualismo de Platón y Descartes",
      "Con el innatismo, que da peso a lo heredado",
@@ -3760,7 +3760,7 @@ const QUIZZES = {
     "fb": "El existencialismo sostiene que no tenemos una esencia fijada de antemano: primero existimos y luego nos hacemos con nuestras decisiones."
    },
    {
-    "q": "Sara dice que sigue siendo la misma persona que a los cinco años porque recuerda aquel verano en la playa y se reconoce en él. ¿Qué criterio de identidad usa?",
+    "q": "Alguien dice que sigue siendo la misma persona que a los cinco años porque recuerda aquel verano en la playa y se reconoce en él. ¿Qué criterio de identidad usa?",
     "o": [
      "El de la memoria (Locke)",
      "El de la continuidad corporal",
@@ -3865,7 +3865,7 @@ const QUIZZES = {
     "fb": "La percepción no es una suma de sensaciones: es un resultado organizado en el que intervienen expectativas, emociones y experiencia previa."
    },
    {
-    "q": "Al ver algo rojo y redondo en el frutero, Leire reconoce enseguida que es una manzana. ¿Qué nivel de conocimiento describe el ejemplo?",
+    "q": "Al ver algo rojo y redondo en el frutero, una persona reconoce enseguida que es una manzana. ¿Qué nivel de conocimiento describe el ejemplo?",
     "o": [
      "La percepción, que organiza lo captado",
      "El razonamiento, que enlaza varios juicios",
@@ -3986,7 +3986,7 @@ const QUIZZES = {
     "fb": "Ambos son empiristas: rechazan las ideas innatas que defendía el racionalista Descartes y hacen de la experiencia el origen y límite del saber."
    },
    {
-    "q": "Iker dice que no puede hablar de nada que no haya visto, oído o tocado de algún modo: todo lo que sabe le ha llegado por los sentidos. ¿Con qué corriente encaja?",
+    "q": "Alguien dice que no puede hablar de nada que no haya visto, oído o tocado de algún modo: todo lo que sabe le ha llegado por los sentidos. ¿Con qué corriente encaja?",
     "o": [
      "Con el racionalismo",
      "Con el dogmatismo",
@@ -4030,7 +4030,7 @@ const QUIZZES = {
     "fb": "El sofista Protágoras fue el primer defensor del relativismo: la verdad dependería del sujeto que la sostiene."
    },
    {
-    "q": "En un debate, Hugo zanja cualquier discusión: «Cada uno tiene su verdad y todas valen lo mismo». ¿Qué problema le señalaría la teoría?",
+    "q": "En un debate, alguien zanja cualquier discusión: «Cada uno tiene su verdad y todas valen lo mismo». ¿Qué problema le señalaría la teoría?",
     "o": [
      "Que olvida que los sentidos son la única fuente fiable",
      "Que confía demasiado en las ideas innatas de la razón",
@@ -4038,7 +4038,7 @@ const QUIZZES = {
      "Que así no podría criticar ninguna mentira o injusticia"
     ],
     "a": 3,
-    "fb": "Hugo es relativista; llevado al extremo, si todo vale por igual, se hace imposible criticar una mentira o una injusticia."
+    "fb": "Alguien es relativista; llevado al extremo, si todo vale por igual, se hace imposible criticar una mentira o una injusticia."
    },
    {
     "q": "¿Qué diferencia al escepticismo del relativismo?",
@@ -4410,7 +4410,7 @@ const QUIZZES = {
     "fb": "En las falacias formales la forma lógica es incorrecta; en las informales el fallo está en el contenido o en el uso del lenguaje, como en el ad hominem."
    },
    {
-    "q": "En un debate, Sara responde: «¿Cómo va a tener razón Jorge sobre el horario del instituto, si siempre llega tarde a todo?». ¿Qué falacia comete?",
+    "q": "En un debate, alguien responde: «¿Cómo va a tener razón esa persona sobre el horario del instituto, si siempre llega tarde a todo?». ¿Qué falacia comete?",
     "o": [
      "Hombre de paja.",
      "Ad verecundiam.",
@@ -4418,7 +4418,7 @@ const QUIZZES = {
      "Ad hominem."
     ],
     "a": 3,
-    "fb": "Sara ataca a Jorge como persona (su impuntualidad) en vez de rebatir su argumento sobre el horario: es un ad hominem."
+    "fb": "Ataca a la otra persona (su impuntualidad) en vez de rebatir su argumento sobre el horario: es un ad hominem."
    },
    {
     "q": "«Esta serie tiene que ser buenísima: la está viendo todo el mundo.» ¿Qué falacia es?",
@@ -4608,7 +4608,7 @@ const QUIZZES = {
     "fb": "Las falacias parecen argumentos válidos sin serlo; reconocerlas es defenderse del engaño y de la manipulación."
    },
    {
-    "q": "«Todos los madrileños son españoles. Lucía es española. Por tanto, Lucía es madrileña.» Si las premisas son verdaderas, ¿qué podemos decir?",
+    "q": "«Todos los madrileños son españoles. Esta persona es española. Por tanto, esta persona es madrileña.» Si las premisas son verdaderas, ¿qué podemos decir?",
     "o": [
      "Es inválido: con esas premisas verdaderas, la conclusión no queda garantizada.",
      "Es sólido: tiene premisas verdaderas y la conclusión se sigue de ellas.",
@@ -4616,7 +4616,7 @@ const QUIZZES = {
      "Es una inducción correcta, porque va de lo general a lo particular."
     ],
     "a": 0,
-    "fb": "Lucía puede ser española sin ser madrileña: la conclusión no se sigue de las premisas, así que el argumento es inválido aunque las premisas sean verdaderas."
+    "fb": "Esta persona puede ser española sin ser madrileña: la conclusión no se sigue de las premisas, así que el argumento es inválido aunque las premisas sean verdaderas."
    }
   ]
  },
@@ -4647,7 +4647,7 @@ const QUIZZES = {
     "fb": "Solo tiene sentido hablar de responsabilidad si podemos elegir: si estuviéramos del todo determinados, no podríamos elogiar ni reprochar a nadie."
    },
    {
-    "q": "Lucía no copia en el examen solo porque teme que la pillen y la castiguen. Según Kant, su conducta es…",
+    "q": "Alguien no copia en el examen solo porque teme que lo pillen y lo castiguen. Según Kant, su conducta es…",
     "o": [
      "Heterónoma, porque la norma le viene de fuera: del miedo al castigo",
      "Autónoma, porque es ella misma quien decide no copiar en el examen",
@@ -4655,7 +4655,7 @@ const QUIZZES = {
      "Emotivista, porque su decisión expresa un sentimiento de rechazo"
     ],
     "a": 0,
-    "fb": "Kant llama heteronomía a recibir la norma desde fuera (el miedo, la costumbre, la autoridad). Lucía no se da la ley con su propia razón."
+    "fb": "Kant llama heteronomía a recibir la norma desde fuera (el miedo, la costumbre, la autoridad). Esa persona no se da la ley con su propia razón."
    },
    {
     "q": "¿Qué significa la autonomía moral en Kant?",
@@ -4746,7 +4746,7 @@ const QUIZZES = {
     "fb": "La virtud aristotélica se alcanza guiada por la razón y el hábito: se aprende a ser virtuoso practicando."
    },
    {
-    "q": "Nerea evita los excesos, cultiva a sus amigos y procura no angustiarse pensando en la muerte. ¿Qué ética encaja mejor con su forma de vida?",
+    "q": "Alguien evita los excesos, cultiva a sus amigos y procura no angustiarse pensando en la muerte. ¿Qué ética encaja mejor con su forma de vida?",
     "o": [
      "El utilitarismo de Bentham",
      "La ética formal de Kant",
@@ -4845,7 +4845,7 @@ const QUIZZES = {
     "fb": "El imperativo categórico manda sin condiciones: no depende de ningún fin y es la razón la que se lo da a sí misma."
    },
    {
-    "q": "Pablo piensa mentir para salir de un apuro, pero se pregunta: «¿y si todo el mundo mintiera cuando le conviene?». ¿Qué está aplicando?",
+    "q": "Alguien piensa mentir para salir de un apuro, pero se pregunta: «¿y si todo el mundo mintiera cuando le conviene?». ¿Qué está aplicando?",
     "o": [
      "El cálculo utilitarista de consecuencias",
      "La fórmula de la ley universal de Kant",
@@ -4853,7 +4853,7 @@ const QUIZZES = {
      "La búsqueda epicúrea de la ataraxia"
     ],
     "a": 1,
-    "fb": "Pablo comprueba si su máxima podría convertirse en ley universal, como pide la primera fórmula del imperativo categórico."
+    "fb": "Esa persona comprueba si su máxima podría convertirse en ley universal, como pide la primera fórmula del imperativo categórico."
    },
    {
     "q": "Una empresa contrata a trabajadores solo para aprovecharse de ellos, sin importarle su dignidad. Según Kant, ¿qué hace mal?",
@@ -4933,7 +4933,7 @@ const QUIZZES = {
     "fb": "Es un problema concreto de ética de la tecnología y la inteligencia artificial, una de las áreas de la ética aplicada."
    },
    {
-    "q": "En un pueblo es costumbre que el hijo mayor herede todas las tierras. Carmen se pregunta si esa costumbre es buena de verdad. ¿Qué está haciendo?",
+    "q": "En un pueblo es costumbre que el hijo mayor herede todas las tierras. Alguien se pregunta si esa costumbre es buena de verdad. ¿Qué está haciendo?",
     "o": [
      "Seguir la moral vigente en su pueblo sin cuestionarla nunca",
      "Expresar solo un sentimiento de rechazo hacia la costumbre",
@@ -5027,7 +5027,7 @@ const QUIZZES = {
     "fb": "Para Epicuro, la ataraxia exige evitar el dolor y librarse de los dos grandes miedos que turban el alma: a la muerte y a los dioses."
    },
    {
-    "q": "Lucía pasa la tarde con sus amigos compartiendo una comida sencilla, sin prisas ni preocupaciones, y la disfruta con calma, sin excesos. ¿Con qué escuela encaja mejor?",
+    "q": "Alguien pasa la tarde con sus amigos compartiendo una comida sencilla, sin prisas ni preocupaciones, y la disfruta con calma, sin excesos. ¿Con qué escuela encaja mejor?",
     "o": [
      "Con el hedonismo de Aristipo",
      "Con el epicureísmo de Epicuro",
@@ -5038,7 +5038,7 @@ const QUIZZES = {
     "fb": "Es el ejemplo típico del epicureísmo: un placer moderado, compartido con amigos y sin preocupaciones, que da paz al alma."
    },
    {
-    "q": "Pablo suspende el examen de conducir. En vez de enfadarse, piensa: «El resultado ya no depende de mí; lo que sí depende de mí es cómo me lo tomo». ¿Qué escuela refleja su actitud?",
+    "q": "Alguien suspende el examen de conducir. En vez de enfadarse, piensa: «El resultado ya no depende de mí; lo que sí depende de mí es cómo me lo tomo». ¿Qué escuela refleja su actitud?",
     "o": [
      "El hedonismo, porque busca sentirse bien enseguida",
      "El cinismo, porque desprecia las normas del examen",
@@ -5049,7 +5049,7 @@ const QUIZZES = {
     "fb": "Los estoicos sostienen que no controlamos lo que ocurre, pero sí nuestra reacción: mantener la calma ante un fracaso es su ejemplo típico."
    },
    {
-    "q": "Iker, un sábado por la noche: «Hay que disfrutar ahora, que mañana ya veremos». Y come y bebe todo lo que le apetece. ¿Qué postura defiende?",
+    "q": "Alguien, un sábado por la noche: «Hay que disfrutar ahora, que mañana ya veremos». Y come y bebe todo lo que le apetece. ¿Qué postura defiende?",
     "o": [
      "El hedonismo de Aristipo, que busca el placer inmediato",
      "El epicureísmo, que busca placeres moderados y serenos",
@@ -5567,7 +5567,7 @@ const QUIZZES = {
     "fb": "Desde la concepción objetiva, la belleza consiste en proporción y medida; por eso puede medirse y enseñarse."
    },
    {
-    "q": "Iker dice: «A mí esa canción me parece preciosa, a ti horrible, y los dos tenemos razón: sobre gustos no hay nada escrito». ¿Con qué concepción encaja?",
+    "q": "Alguien dice: «A mí esa canción me parece preciosa, a ti horrible, y los dos tenemos razón: sobre gustos no hay nada escrito». ¿Con qué concepción encaja?",
     "o": [
      "Con la belleza objetiva de los griegos",
      "Con la teoría de la belleza como número",
@@ -5622,7 +5622,7 @@ const QUIZZES = {
     "fb": "La obra parece hecha con un propósito, por su orden, pero no sirve a ningún fin práctico: por eso tiene finalidad sin fin."
    },
    {
-    "q": "Nerea juzga bello un hospital pensando en lo bien que su diseño sirve para atender a los enfermos. Según Kant, ¿qué belleza aprecia?",
+    "q": "Alguien juzga bello un hospital pensando en lo bien que su diseño sirve para atender a los enfermos. Según Kant, ¿qué belleza aprecia?",
     "o": [
      "Una belleza libre, que gusta solo por su pura forma",
      "Una belleza adherente, que depende de para qué es",
@@ -5677,7 +5677,7 @@ const QUIZZES = {
     "fb": "El formalismo sitúa lo artístico en la forma: composición, color, ritmo y estructura; por eso admite el arte abstracto."
    },
    {
-    "q": "Pablo opina que un retrato es mejor cuanto más se parece a la persona retratada. ¿Qué teoría del arte está aplicando?",
+    "q": "Alguien opina que un retrato es mejor cuanto más se parece a la persona retratada. ¿Qué teoría del arte está aplicando?",
     "o": [
      "La del arte como imitación o mímesis",
      "La del arte como expresión",
@@ -5919,7 +5919,7 @@ const QUIZZES = {
     "fb": "El arte puede cambiar la mirada de la gente; por eso lo temen y censuran las dictaduras, aunque también lo usen como propaganda."
    },
    {
-    "q": "Leire pasa el día publicando y mirando fotos y vídeos; siente que su vida y sus amistades existen sobre todo como imágenes que se consumen. ¿Qué concepto lo describe mejor?",
+    "q": "Alguien pasa el día publicando y mirando fotos y vídeos; siente que su vida y sus amistades existen sobre todo como imágenes que se consumen. ¿Qué concepto lo describe mejor?",
     "o": [
      "El aura de la obra de arte",
      "La catarsis de Aristóteles",
