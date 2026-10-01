@@ -217,5 +217,222 @@ const PISTAS = [
     "Para seguir: busca en la lista de falacias del tema un argumento que convenza sin ser válido."
    ]
   }
+ },
+ {
+  "id": "fil-virtud",
+  "subject": "fil",
+  "tema": "Tema 5 · Las preguntas de la ética",
+  "unidad": "fil-t5",
+  "materia": "Filosofía 1.º · Ética",
+  "titulo": "¿Qué es la virtud para Aristóteles?",
+  "lede": "La ética de la felicidad y del término medio. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué es la virtud para Aristóteles?",
+    "intro": [
+     "Piensa en una persona valiente. ¿Qué la distingue de alguien cobarde… y de alguien temerario?"
+    ],
+    "pistas": [
+     "Para Aristóteles, la meta de la vida humana es la felicidad (<em>eudaimonía</em>): una vida lograda en su conjunto.",
+     "La felicidad se alcanza desarrollando la <em>virtud</em>, que no es un don, sino algo que se aprende.",
+     "El valor está entre dos vicios: uno por defecto (la cobardía) y otro por exceso (la temeridad).",
+     "La virtud es un <strong>término medio</strong> entre dos extremos, guiado por la razón y adquirido por el hábito."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Cuál de estas definiciones se acerca más a la virtud aristotélica?",
+     "opciones": [
+      [
+       "Un hábito de elegir el término medio entre dos extremos, guiado por la razón.",
+       true
+      ],
+      [
+       "Un talento con el que se nace.",
+       false,
+       "Para Aristóteles la virtud se adquiere con la práctica: nadie nace virtuoso."
+      ],
+      [
+       "Hacer siempre lo contrario de lo que nos apetece.",
+       false,
+       "No se trata de reprimirse, sino de encontrar la medida justa."
+      ],
+      [
+       "Cumplir las normas de la ciudad, sean cuales sean.",
+       false,
+       "La virtud la guía la razón práctica, no la obediencia sin más."
+      ]
+     ],
+     "ok": "Bien: hábito, término medio y razón son las tres claves.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Defecto, término medio y exceso",
+      "definicion": [
+       "Cobardía ← <strong>valor</strong> → temeridad",
+       "Tacañería ← <strong>generosidad</strong> → derroche",
+       "Insensibilidad ← <strong>moderación</strong> → desenfreno"
+      ],
+      "parrafos": [
+       "Fíjate en que la virtud no es la mitad exacta: es lo adecuado en cada situación, según lo decidiría una persona prudente."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Cuál es el término medio entre la tacañería y el derroche?",
+       "opciones": [
+        [
+         "La generosidad.",
+         true
+        ],
+        [
+         "La riqueza.",
+         false,
+         "La riqueza no es una virtud, sino un bien externo."
+        ],
+        [
+         "Gastar exactamente la mitad de lo que se tiene.",
+         false,
+         "El término medio no es una cuenta matemática: es lo adecuado en cada caso."
+        ],
+        [
+         "No gastar nunca.",
+         false,
+         "Eso sería el extremo de la tacañería."
+        ]
+       ],
+       "ok": "Correcto. Ni dar de menos ni de más: dar como conviene.",
+       "mal": "Vuelve a mirar la tabla.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "La virtud aristotélica",
+      "definicion": [
+       "La <strong>virtud</strong> (<em>areté</em>) es una disposición estable a elegir el término medio entre dos vicios, uno por defecto y otro por exceso.",
+       "Ese término medio no es matemático: lo determina la <strong>razón práctica</strong> (la prudencia) en cada situación.",
+       "Se adquiere por <strong>hábito</strong>: nos hacemos valientes haciendo actos valientes. Y practicar la virtud es el camino a la felicidad."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Cómo se llega a ser virtuoso, según Aristóteles?",
+       "opciones": [
+        [
+         "Practicando actos virtuosos hasta que se convierten en hábito.",
+         true
+        ],
+        [
+         "Leyendo mucho sobre ética.",
+         false,
+         "Saber qué es el valor no basta: hay que practicarlo."
+        ],
+        [
+         "Naciendo en una buena familia.",
+         false,
+         "La virtud no se hereda: se adquiere."
+        ],
+        [
+         "Siguiendo siempre el placer.",
+         false,
+         "Eso se acerca más al hedonismo, y el placer sin medida es un vicio."
+        ]
+       ],
+       "ok": "Correcto: la virtud se aprende practicándola.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Qué relación hay entre la virtud y la felicidad?",
+    "intro": [
+     "Ya sabes qué es la virtud. Ahora piensa: ¿para qué sirve ser virtuoso? ¿Es la felicidad un premio que llega después?"
+    ],
+    "pistas": [
+     "Para Aristóteles, todo lo que hacemos busca algún fin; la felicidad es el fin último, el que buscamos por sí mismo.",
+     "La felicidad no es un instante de placer, sino una vida entera bien vivida.",
+     "Cada ser es feliz cuando realiza bien su función propia. La función propia del ser humano es vivir según la razón.",
+     "La felicidad <strong>consiste</strong> en vivir de forma virtuosa: no es un premio externo, sino la propia vida lograda."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué relación hay entre virtud y felicidad para Aristóteles?",
+     "opciones": [
+      [
+       "La felicidad consiste en una vida conforme a la virtud.",
+       true
+      ],
+      [
+       "La virtud es un sacrificio que se recompensa después de la muerte.",
+       false,
+       "Aristóteles habla de la felicidad en esta vida, no de un premio en otra."
+      ],
+      [
+       "No tienen relación: la felicidad depende solo de la suerte.",
+       false,
+       "La suerte influye, pero la clave es la actividad virtuosa."
+      ],
+      [
+       "La felicidad es acumular placeres.",
+       false,
+       "Eso es una vida de placer, no la vida lograda en su conjunto."
+      ]
+     ],
+     "ok": "Exacto. Ser feliz es vivir bien, y vivir bien es vivir con virtud.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Ética de la felicidad",
+      "titulo": "Una vida lograda",
+      "definicion": [
+       "La ética de Aristóteles es una <strong>ética de la felicidad</strong> (eudemonista): pregunta cómo vivir una buena vida.",
+       "La felicidad (<em>eudaimonía</em>) es el fin último y consiste en realizar bien la función propia del ser humano: vivir según la razón.",
+       "Por eso la virtud no es un medio para obtener la felicidad como premio: vivir virtuosamente <strong>es</strong> ya ser feliz, aunque también ayudan los bienes externos (salud, amigos, recursos)."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Por qué se dice que la ética de Aristóteles es eudemonista?",
+       "opciones": [
+        [
+         "Porque gira en torno a la felicidad como fin último.",
+         true
+        ],
+        [
+         "Porque se basa en el deber por el deber.",
+         false,
+         "Esa es la ética de Kant, no la de Aristóteles."
+        ],
+        [
+         "Porque mide lo bueno por las consecuencias para la mayoría.",
+         false,
+         "Eso es el utilitarismo."
+        ],
+        [
+         "Porque obedece los mandatos de los dioses.",
+         false,
+         "Aristóteles funda la ética en la razón humana."
+        ]
+       ],
+       "ok": "Correcto: <em>eudaimonía</em> significa felicidad.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces la ética de Aristóteles",
+   "parrafos": [
+    "La virtud es un hábito de elegir el término medio entre dos vicios, guiado por la razón práctica. Vivir así es la felicidad: una vida lograda en su conjunto.",
+    "Para seguir: compárala con Epicuro (el placer como ausencia de dolor) y con Kant (el deber)."
+   ]
+  }
  }
 ];
