@@ -434,5 +434,222 @@ const PISTAS = [
     "Para seguir: compárala con Epicuro (el placer como ausencia de dolor) y con Kant (el deber)."
    ]
   }
+ },
+ {
+  "id": "fil-contrato",
+  "subject": "fil",
+  "tema": "Tema 6 · La vida en sociedad",
+  "unidad": "fil-t6",
+  "materia": "Filosofía 1.º · Política",
+  "titulo": "¿Qué es el contrato social?",
+  "lede": "¿Por qué obedecemos al Estado? Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué es el contrato social?",
+    "intro": [
+     "Imagina que no existiera ningún gobierno, ni leyes, ni policía. ¿Por qué aceptaríamos que alguien nos mandara?"
+    ],
+    "pistas": [
+     "Para los contractualistas, el Estado no es algo natural, sino un <em>artificio</em> que creamos los seres humanos.",
+     "Lo creamos mediante un acuerdo entre todos.",
+     "Para justificarlo, imaginan cómo sería la vida sin poder político: el <em>estado de naturaleza</em>.",
+     "El contrato social es el <strong>acuerdo</strong> por el que las personas salen del estado de naturaleza y crean el poder político."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué es el contrato social?",
+     "opciones": [
+      [
+       "Un acuerdo imaginado por el que las personas crean el poder político para salir del estado de naturaleza.",
+       true
+      ],
+      [
+       "Un documento firmado en una fecha concreta de la historia.",
+       false,
+       "No es un hecho histórico: es una hipótesis para pensar por qué es legítimo el poder."
+      ],
+      [
+       "Un contrato de trabajo entre empresas y trabajadores.",
+       false,
+       "Aquí «contrato» se refiere al origen del Estado, no a un acuerdo laboral."
+      ],
+      [
+       "La idea de que el poder viene de Dios.",
+       false,
+       "Justo lo contrario: el contrato funda el poder en el acuerdo humano."
+      ]
+     ],
+     "ok": "Bien. El poder político nace de un acuerdo, no de la naturaleza ni de Dios.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito una explicación",
+      "etiqueta": "Las piezas de la teoría",
+      "titulo": "Estado de naturaleza, pacto y Estado",
+      "definicion": [
+       "<strong>Estado de naturaleza</strong>: cómo sería la vida humana sin poder político.",
+       "<strong>Pacto</strong>: el acuerdo por el que se sale de ese estado y se cede algo (poder, derechos) a cambio de algo (seguridad, protección, libertad).",
+       "<strong>Estado</strong>: el poder político que resulta del pacto, y que es legítimo porque nace del consentimiento."
+      ],
+      "parrafos": [
+       "Ojo: nadie piensa que esto ocurriera de verdad. Es una hipótesis para pensar los fundamentos del poder."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación",
+       "pregunta": "¿Por qué los contractualistas imaginan un estado de naturaleza?",
+       "opciones": [
+        [
+         "Para justificar por qué conviene salir de él y crear el Estado.",
+         true
+        ],
+        [
+         "Porque creen que existió tal cual en la prehistoria.",
+         false,
+         "No es un hecho histórico, sino un experimento mental."
+        ],
+        [
+         "Para defender que vivamos sin leyes.",
+         false,
+         "Al contrario: sirve para mostrar por qué necesitamos un poder político."
+        ],
+        [
+         "Para estudiar la vida de los animales.",
+         false,
+         "Habla de seres humanos sin gobierno, no de biología."
+        ]
+       ],
+       "ok": "Correcto. El estado de naturaleza es el punto de partida del argumento.",
+       "mal": "Vuelve a leerlo.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición",
+      "titulo": "Contrato social",
+      "definicion": [
+       "El <strong>contrato social</strong> es el acuerdo, hipotético, por el que los seres humanos crean el poder político.",
+       "El Estado es así un <strong>artificio</strong>: su legitimidad no viene de la naturaleza ni de Dios, sino del <strong>consentimiento</strong> de quienes lo forman.",
+       "Cada autor imagina un estado de naturaleza distinto, y por eso llega a un Estado distinto."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "Según el contractualismo, ¿de dónde viene la legitimidad del Estado?",
+       "opciones": [
+        [
+         "Del consentimiento de quienes lo forman.",
+         true
+        ],
+        [
+         "De la fuerza de quien gobierna.",
+         false,
+         "La fuerza no da legitimidad: el contrato busca justificar el poder."
+        ],
+        [
+         "De la voluntad de Dios.",
+         false,
+         "Esa es la teoría del derecho divino, que el contractualismo sustituye."
+        ],
+        [
+         "De la tradición: siempre ha sido así.",
+         false,
+         "Que algo sea antiguo no lo hace legítimo."
+        ]
+       ],
+       "ok": "Correcto: el poder es legítimo porque lo hemos acordado.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Por qué Hobbes y Locke llegan a Estados tan distintos?",
+    "intro": [
+     "Los dos son contractualistas, pero Hobbes defiende un poder absoluto y Locke un poder limitado. La clave está en cómo imaginan el punto de partida."
+    ],
+    "pistas": [
+     "Compara cómo imagina cada uno el estado de naturaleza.",
+     "Para Hobbes es una «guerra de todos contra todos»: «el hombre es un lobo para el hombre». Para Locke es relativamente pacífico, aunque inseguro.",
+     "Cuanto peor es el punto de partida, más cosas estamos dispuestos a ceder para salir de él.",
+     "Hobbes, por miedo a morir, lo cede todo a un soberano absoluto; Locke solo cede el poder de juzgar y castigar, y conserva sus derechos naturales."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué explica mejor la diferencia entre Hobbes y Locke?",
+     "opciones": [
+      [
+       "Imaginan estados de naturaleza distintos, y por eso pactan cosas distintas.",
+       true
+      ],
+      [
+       "Hobbes no es contractualista.",
+       false,
+       "Sí lo es: el Leviatán nace de un pacto."
+      ],
+      [
+       "Locke prefiere la monarquía absoluta.",
+       false,
+       "Es al revés: Locke defiende el poder limitado y la división de poderes."
+      ],
+      [
+       "Vivieron en países distintos.",
+       false,
+       "El contexto influye, pero la razón filosófica está en su idea del estado de naturaleza."
+      ]
+     ],
+     "ok": "Exacto. El punto de partida decide el tipo de Estado.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la tabla",
+      "etiqueta": "Tres contractualistas",
+      "titulo": "Del estado de naturaleza al Estado",
+      "definicion": [
+       "<strong>Hobbes</strong>: guerra de todos contra todos → por miedo, todos ceden su poder a un soberano → monarquía absoluta (el Leviatán).",
+       "<strong>Locke</strong>: paz insegura, con derechos naturales (vida, libertad, propiedad) → pacto limitado → Estado liberal, con división de poderes y derecho a rebelarse contra el tirano.",
+       "<strong>Rousseau</strong>: el «buen salvaje» es libre e igual; la sociedad lo corrompe → pacto en el que cada uno se somete a la voluntad general → democracia."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué autor defiende el derecho a rebelarse contra un gobierno tirano?",
+       "opciones": [
+        [
+         "Locke.",
+         true
+        ],
+        [
+         "Hobbes.",
+         false,
+         "Hobbes da al soberano un poder absoluto, precisamente para evitar el caos."
+        ],
+        [
+         "Ninguno de ellos.",
+         false,
+         "Uno sí: relee la fila del Estado liberal."
+        ],
+        [
+         "Todos los contractualistas por igual.",
+         false,
+         "No: depende de lo que se haya cedido en el pacto."
+        ]
+       ],
+       "ok": "Correcto: si el gobierno rompe el pacto, el pueblo puede retirarle su consentimiento.",
+       "mal": "Relee la tabla."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya entiendes el contrato social",
+   "parrafos": [
+    "El contrato social es el acuerdo hipotético por el que creamos el Estado: su legitimidad viene del consentimiento. Según cómo se imagine el estado de naturaleza, el pacto da un Estado absoluto (Hobbes), liberal (Locke) o democrático (Rousseau).",
+    "Para pensar: ¿qué cederías tú para vivir seguro? ¿Hay algo que nunca cederías?"
+   ]
+  }
  }
 ];
