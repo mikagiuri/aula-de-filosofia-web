@@ -118,6 +118,11 @@ const SUBJECTS = {
     "Tarjetas: teorías de la verdad",
     "tarjetas",
     "fil-verdad"
+   ],
+   [
+    "Rincón de lógica: tablas de verdad, silogismos y puertas",
+    "logica",
+    ""
    ]
   ]
  }
