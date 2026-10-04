@@ -55,3 +55,13 @@
 #logica .lg-lamp{ fill:var(--surface-2); stroke:var(--ink); stroke-width:2 }
 #logica .lg-lamp.on{ fill:#F5C542; stroke:#C99A12; filter:drop-shadow(0 0 6px #F5C542) }
 #logica .lg-mini{ font-size:.9rem }
+/* Euler (01-10): una figura por proposición */
+#logica .lg-diag{ margin:0 0 .6rem }
+#logica .lg-euler-fila{ display:grid; grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr)); gap:.6rem }
+#logica .lg-euler{ margin:0; text-align:center }
+#logica .lg-euler svg{ width:100%; max-width:14rem }
+#logica .lg-euler figcaption{ font-size:.85rem; color:var(--muted) }
+#logica .lg-circ.lg-e1{ fill:var(--r-log, var(--accent)); fill-opacity:.12 }
+#logica .lg-circ.lg-e2{ fill:var(--ink); fill-opacity:.05 }
+#logica .lg-euler-junto svg{ max-width:20rem }
+#logica .lg-circ.lg-e3{ fill:var(--ok); fill-opacity:.08 }
