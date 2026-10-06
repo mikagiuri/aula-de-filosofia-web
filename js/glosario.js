@@ -771,3 +771,111 @@ const GLOSARIO = [
   "def": "Texto argumentativo que defiende una tesis con razones, estructura (introducción, desarrollo, conclusión) y valoración personal."
  }
 ];
+const GLOSARIO_TRAMPAS = {
+ "fil": [
+  [
+   "Mito",
+   "Logos"
+  ],
+  [
+   "Saber común",
+   "Saber científico"
+  ],
+  [
+   "Saber científico",
+   "Saber filosófico"
+  ],
+  [
+   "Metafísica",
+   "Epistemología"
+  ],
+  [
+   "Actitud crítica",
+   "Dogmatismo"
+  ],
+  [
+   "Hominización",
+   "Humanización"
+  ],
+  [
+   "Identidad personal",
+   "Identidad colectiva"
+  ],
+  [
+   "Etnocentrismo",
+   "Relativismo cultural"
+  ],
+  [
+   "Dualismo",
+   "Monismo"
+  ],
+  [
+   "Conciencia",
+   "Autoconciencia"
+  ],
+  [
+   "Cultura",
+   "Socialización"
+  ],
+  [
+   "Realismo",
+   "Idealismo"
+  ],
+  [
+   "Empirismo",
+   "Racionalismo"
+  ],
+  [
+   "Deducción",
+   "Inducción"
+  ],
+  [
+   "Creencia",
+   "Conocimiento"
+  ],
+  [
+   "Escepticismo",
+   "Relativismo"
+  ],
+  [
+   "Argumento deductivo",
+   "Argumento inductivo"
+  ],
+  [
+   "Ad hominem",
+   "Hombre de paja"
+  ],
+  [
+   "Apelación a la autoridad",
+   "Apelación a la mayoría"
+  ],
+  [
+   "Causa falsa",
+   "Generalización apresurada"
+  ],
+  [
+   "Falso dilema",
+   "Pendiente resbaladiza"
+  ],
+  [
+   "Autonomía",
+   "Heteronomía"
+  ],
+  [
+   "Eudemonismo",
+   "Hedonismo"
+  ],
+  [
+   "Ética del deber",
+   "Utilitarismo"
+  ],
+  [
+   "Valor",
+   "Norma"
+  ],
+  [
+   "Belleza",
+   "Sublime"
+  ]
+ ]
+};
