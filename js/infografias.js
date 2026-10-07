@@ -738,6 +738,664 @@ const INFOGRAFIAS = {
   ],
   "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
  },
+ "fil-t4": {
+  "subject": "fil",
+  "label": "Lógica y argumentación",
+  "accent": "#e8c547",
+  "burstInk": "#2a2304",
+  "title": "LÓGICA Y<br><em>ARGUMENTACIÓN</em>",
+  "kicker": "Filosofía · 1.º Bach · Tema 4",
+  "subtitle": "El arte de razonar bien",
+  "tagline": "P1 + P2, luego C",
+  "author": "«el esquema de todo argumento»",
+  "ghost": "validez",
+  "portrait": null,
+  "blocks": [
+   {
+    "type": "tiles",
+    "n": "01",
+    "title": "Tres modos de razonar",
+    "items": [
+     {
+      "emoji": "🔒",
+      "t": "Deducción",
+      "p": "La conclusión se sigue <b>con necesidad</b>: si las premisas son verdaderas, no puede ser falsa."
+     },
+     {
+      "emoji": "🦢",
+      "t": "Inducción",
+      "p": "De casos particulares a una conclusión general solo <b>probable</b>."
+     },
+     {
+      "emoji": "🕵️",
+      "t": "Abducción",
+      "p": "Elegir la hipótesis que <b>mejor explica</b> los hechos, como un detective."
+     }
+    ]
+   },
+   {
+    "type": "quote",
+    "label": "La distinción clave",
+    "big": "Válido no es verdadero",
+    "text": "La <b>validez</b> es cosa de la forma; la <b>verdad</b>, del contenido. Hay argumentos válidos con premisas falsas. Solo es <b>sólido</b> el que es válido y además tiene las premisas verdaderas."
+   },
+   {
+    "type": "columns",
+    "n": "02",
+    "title": "Falacias frecuentes",
+    "items": [
+     {
+      "h": "Ad hominem",
+      "tag": "la persona",
+      "p": "Atacar a quien argumenta en vez de a su <b>argumento</b>."
+     },
+     {
+      "h": "Hombre de paja",
+      "tag": "caricatura",
+      "p": "Deformar la tesis del rival para rebatirla más fácil."
+     },
+     {
+      "h": "Falsa causa",
+      "tag": "correlación",
+      "p": "Confundir que dos cosas vayan juntas con que una cause la otra."
+     },
+     {
+      "h": "Ad populum",
+      "tag": "la mayoría",
+      "p": "Dar algo por cierto porque «todo el mundo lo piensa»."
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "n": "03",
+    "title": "Las herramientas del filósofo",
+    "panes": [
+     {
+      "emoji": "🧩",
+      "h": "Analizar",
+      "rows": [
+       {
+        "t": "Premisas implícitas",
+        "p": "Sacar a la luz lo que se da por supuesto: a menudo ahí está el punto débil."
+       },
+       {
+        "t": "Definir y distinguir",
+        "p": "Condiciones <b>necesarias</b> y <b>suficientes</b>, puestas a prueba con contraejemplos."
+       }
+      ]
+     },
+     {
+      "emoji": "💬",
+      "h": "Dialogar",
+      "rows": [
+       {
+        "t": "Principio de caridad",
+        "p": "Interpretar al otro en su versión <b>más fuerte</b>: lo contrario del hombre de paja."
+       },
+       {
+        "t": "Contraejemplo",
+        "p": "Un solo cisne negro basta para refutar «todos los cisnes son blancos»."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "tiles",
+    "n": "04",
+    "title": "De la lógica al ordenador",
+    "items": [
+     {
+      "emoji": "🔣",
+      "t": "Frege",
+      "p": "La lógica simbólica: un lenguaje formal sin las ambigüedades del corriente."
+     },
+     {
+      "emoji": "➕",
+      "t": "Boole (1854)",
+      "p": "1 = verdadero, 0 = falso: la lógica se vuelve <b>álgebra</b>."
+     },
+     {
+      "emoji": "💡",
+      "t": "Shannon (1938)",
+      "p": "Las <b>puertas lógicas</b> (AND, OR, NOT): la lógica hecha circuito."
+     }
+    ]
+   }
+  ],
+  "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
+ },
+ "fil-t5": {
+  "subject": "fil",
+  "label": "Las preguntas de la ética",
+  "accent": "#e0607e",
+  "burstInk": "#2a0812",
+  "title": "LAS PREGUNTAS<br><em>DE LA ÉTICA</em>",
+  "kicker": "Filosofía · 1.º Bach · Tema 5",
+  "subtitle": "Fines, deberes y cuidado",
+  "tagline": "eudaimonía",
+  "author": "«una vida lograda en su conjunto»",
+  "ghost": "deber",
+  "portrait": null,
+  "blocks": [
+   {
+    "type": "quote",
+    "label": "La pregunta de Sócrates",
+    "big": "¿Cómo debemos vivir?",
+    "text": "La <b>moral</b> son las normas que de hecho rigen en una comunidad; la <b>ética</b> pregunta por qué son buenas y si están justificadas. Y todo descansa en la <b>libertad</b>: sin ella no hay responsabilidad."
+   },
+   {
+    "type": "split",
+    "n": "01",
+    "title": "¿Qué hace buena una acción?",
+    "panes": [
+     {
+      "emoji": "🎯",
+      "h": "Éticas materiales",
+      "rows": [
+       {
+        "t": "Aristóteles",
+        "p": "La <b>eudaimonía</b>: la virtud como término medio, guiada por la razón y el hábito."
+       },
+       {
+        "t": "Epicuro y el utilitarismo",
+        "p": "El placer como <b>ataraxia</b>; «la mayor felicidad para el mayor número»."
+       }
+      ]
+     },
+     {
+      "emoji": "⚖️",
+      "h": "Ética formal",
+      "rows": [
+       {
+        "t": "Kant",
+        "p": "Una acción es moral cuando se hace <b>por deber</b>, no por sus consecuencias."
+       },
+       {
+        "t": "Imperativo categórico",
+        "p": "Que tu máxima pueda ser <b>ley universal</b>; la humanidad, siempre como fin."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "columns",
+    "n": "02",
+    "title": "¿Hay verdades morales?",
+    "items": [
+     {
+      "h": "Objetivismo",
+      "tag": "para todos",
+      "p": "Hay hechos morales que valen los acepte o no una sociedad."
+     },
+     {
+      "h": "Relativismo cultural",
+      "tag": "cada sociedad",
+      "p": "Es correcto lo que aprueba cada sociedad; así no cabe hablar de <b>progreso moral</b>."
+     },
+     {
+      "h": "Subjetivismo",
+      "tag": "cada persona",
+      "p": "«Está mal» significaría solo «yo lo desapruebo»."
+     },
+     {
+      "h": "No cognitivismo",
+      "tag": "emociones",
+      "p": "Los juicios morales expresan actitudes, no verdades (Hume, Ayer)."
+     }
+    ]
+   },
+   {
+    "type": "tiles",
+    "n": "03",
+    "title": "Cómo madura el juicio moral",
+    "items": [
+     {
+      "emoji": "🧒",
+      "t": "Piaget",
+      "p": "De la moral <b>heterónoma</b>, impuesta por los adultos, a la <b>autónoma</b>."
+     },
+     {
+      "emoji": "🪜",
+      "t": "Kohlberg",
+      "p": "Tres niveles: preconvencional, convencional y posconvencional (el dilema de Heinz)."
+     },
+     {
+      "emoji": "🤝",
+      "t": "Gilligan",
+      "p": "Otra voz igual de madura: la de las relaciones y el <b>cuidado</b>."
+     }
+    ]
+   },
+   {
+    "type": "columns",
+    "n": "04",
+    "title": "Cuatro maneras de juzgar",
+    "items": [
+     {
+      "h": "Virtud",
+      "tag": "Aristóteles",
+      "p": "¿Qué haría una <b>persona buena</b>?"
+     },
+     {
+      "h": "Deber",
+      "tag": "Kant",
+      "p": "¿Cuál es mi <b>obligación</b>?"
+     },
+     {
+      "h": "Consecuencias",
+      "tag": "Bentham, Mill",
+      "p": "¿Qué produce más <b>bienestar</b>?"
+     },
+     {
+      "h": "Cuidado",
+      "tag": "Gilligan, Noddings",
+      "p": "¿Qué necesita quien <b>depende de mí</b>?"
+     }
+    ]
+   }
+  ],
+  "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
+ },
+ "fil-t6": {
+  "subject": "fil",
+  "label": "La vida en sociedad",
+  "accent": "#3f8fd6",
+  "burstInk": "#ffffff",
+  "title": "LA VIDA<br><em>EN SOCIEDAD</em>",
+  "kicker": "Filosofía · 1.º Bach · Tema 6",
+  "subtitle": "Poder, justicia y democracia",
+  "tagline": "zoon politikón",
+  "author": "«animal político»",
+  "ghost": "pólis",
+  "portrait": null,
+  "blocks": [
+   {
+    "type": "columns",
+    "n": "01",
+    "title": "El contrato social",
+    "items": [
+     {
+      "h": "Hobbes",
+      "tag": "Leviatán",
+      "p": "Por miedo a la guerra de todos contra todos, se cede el poder a un <b>soberano</b> único."
+     },
+     {
+      "h": "Locke",
+      "tag": "Estado liberal",
+      "p": "Se protegen la vida, la libertad y la propiedad; cabe el <b>derecho de resistencia</b>."
+     },
+     {
+      "h": "Rousseau",
+      "tag": "soberanía popular",
+      "p": "Cada uno obedece a la <b>voluntad general</b>: el pueblo se gobierna a sí mismo."
+     }
+    ]
+   },
+   {
+    "type": "quote",
+    "label": "Poder y legitimidad",
+    "big": "¿Por qué obedecer?",
+    "text": "El <b>poder</b> hace que otros obedezcan; la <b>legitimidad</b> es el derecho a mandar, y logra que se obedezca por convicción y no solo por miedo. Weber: tradición, carisma y <b>legalidad racional</b>."
+   },
+   {
+    "type": "split",
+    "n": "02",
+    "title": "¿Qué es una sociedad justa?",
+    "panes": [
+     {
+      "emoji": "🎭",
+      "h": "Rawls",
+      "rows": [
+       {
+        "t": "Velo de ignorancia",
+        "p": "Elegir las reglas sin saber qué lugar ocuparás en la sociedad."
+       },
+       {
+        "t": "Principio de diferencia",
+        "p": "Las desigualdades solo valen si benefician a los <b>menos aventajados</b>."
+       }
+      ]
+     },
+     {
+      "emoji": "📜",
+      "h": "Nozick",
+      "rows": [
+       {
+        "t": "Titularidad",
+        "p": "Es justo lo adquirido legítimamente o recibido en intercambios libres."
+       },
+       {
+        "t": "Estado mínimo",
+        "p": "Proteger derechos y contratos, no corregir el reparto."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "tiles",
+    "n": "03",
+    "title": "La democracia y sus amenazas",
+    "items": [
+     {
+      "emoji": "🗳️",
+      "t": "No es solo votar",
+      "p": "Exige libertades, pluralismo, división de poderes y <b>control del poder</b>."
+     },
+     {
+      "emoji": "👥",
+      "t": "Tiranía de la mayoría",
+      "p": "Oprimir a una minoría con todas las formalidades legales."
+     },
+     {
+      "emoji": "📢",
+      "t": "Populismo",
+      "p": "«Pueblo puro» contra «élite corrupta»: quien discrepa pasa a ser un <b>enemigo</b>."
+     }
+    ]
+   },
+   {
+    "type": "columns",
+    "n": "04",
+    "title": "Libertad y derechos",
+    "items": [
+     {
+      "h": "Derechos humanos",
+      "tag": "1948",
+      "p": "Exigencias mínimas de toda persona: un <b>límite</b> que ningún poder puede traspasar."
+     },
+     {
+      "h": "Libertad negativa",
+      "tag": "Berlin",
+      "p": "Ausencia de interferencias: que nadie me impida actuar."
+     },
+     {
+      "h": "Libertad positiva",
+      "tag": "Berlin",
+      "p": "Ser dueño de uno mismo y participar en las decisiones."
+     },
+     {
+      "h": "Feminismo",
+      "tag": "¿quién queda fuera?",
+      "p": "La desigualdad entre sexos no es natural, sino histórica y <b>modificable</b>."
+     }
+    ]
+   }
+  ],
+  "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
+ },
+ "fil-t7": {
+  "subject": "fil",
+  "label": "¿Qué es el arte?",
+  "accent": "#e07fc0",
+  "burstInk": "#2a0a20",
+  "title": "¿QUÉ ES<br><em>EL ARTE?</em>",
+  "kicker": "Filosofía · 1.º Bach · Tema 7",
+  "subtitle": "Belleza, arte e imagen",
+  "tagline": "aísthesis",
+  "author": "«sensación, percepción»",
+  "ghost": "mímesis",
+  "portrait": null,
+  "blocks": [
+   {
+    "type": "split",
+    "n": "01",
+    "title": "¿Dónde está la belleza?",
+    "panes": [
+     {
+      "emoji": "🏛️",
+      "h": "En el objeto",
+      "rows": [
+       {
+        "t": "Concepción clásica",
+        "p": "Proporción, armonía, orden y medida: los pitagóricos, el <b>Canon</b> de Policleto."
+       },
+       {
+        "t": "Se puede medir",
+        "p": "Si está en las cosas, la belleza puede medirse y enseñarse."
+       }
+      ]
+     },
+     {
+      "emoji": "👁️",
+      "h": "En el sujeto",
+      "rows": [
+       {
+        "t": "Concepción moderna",
+        "p": "Lo bello es el <b>placer</b> que sentimos ante algo."
+       },
+       {
+        "t": "Sin relativismo total",
+        "p": "Hume (el crítico competente) y Kant salvan que unos juicios valen más que otros."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "quote",
+    "label": "Kant y el juicio del gusto",
+    "big": "Universal sin concepto",
+    "text": "Juzgo bello algo de forma <b>desinteresada</b>, sin querer poseerlo ni usarlo, y pretendo que los demás lo vean igual, aunque no pueda demostrarlo con reglas. La obra tiene <b>finalidad sin fin</b>."
+   },
+   {
+    "type": "columns",
+    "n": "02",
+    "title": "¿Qué es el arte?",
+    "items": [
+     {
+      "h": "Imitación",
+      "tag": "mímesis",
+      "p": "Representar la realidad. Le cuesta explicar la música o el arte abstracto."
+     },
+     {
+      "h": "Expresión",
+      "tag": "Romanticismo",
+      "p": "Comunicar la emoción del autor. ¿Es arte cualquier desahogo?"
+     },
+     {
+      "h": "Forma",
+      "tag": "formalismo",
+      "p": "Una estructura bella en sí. Deja fuera el significado."
+     },
+     {
+      "h": "Institucional",
+      "tag": "Danto, Dickie",
+      "p": "Lo que reconoce el mundo del arte. ¿Arte = lo que digan los expertos?"
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "n": "03",
+    "title": "¿El arte conoce?",
+    "panes": [
+     {
+      "emoji": "🕳️",
+      "h": "Platón",
+      "rows": [
+       {
+        "t": "Copia de una copia",
+        "p": "El arte imita lo sensible, que ya imita las Ideas: <b>engaña</b>."
+       },
+       {
+        "t": "Desconfianza",
+        "p": "Apela a la parte irracional del alma; por eso vigila e incluso expulsa a ciertos poetas."
+       }
+      ]
+     },
+     {
+      "emoji": "🎭",
+      "h": "Aristóteles",
+      "rows": [
+       {
+        "t": "Catarsis",
+        "p": "La tragedia <b>descarga y purifica</b> la compasión y el miedo del espectador."
+       },
+       {
+        "t": "Lo universal",
+        "p": "La poesía es «más filosófica» que la historia."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "tiles",
+    "n": "04",
+    "title": "La imagen hoy",
+    "items": [
+     {
+      "emoji": "🖼️",
+      "t": "Ready-made",
+      "p": "Duchamp expone un objeto corriente como obra: el arte se vuelve <b>pregunta</b>."
+     },
+     {
+      "emoji": "📸",
+      "t": "Aura",
+      "p": "Benjamin: al reproducirse, la obra pierde su carácter único, pero llega a las masas."
+     },
+     {
+      "emoji": "👓",
+      "t": "Alfabetización visual",
+      "p": "Mirar críticamente: quién hace la imagen, para qué y qué nos quiere hacer <b>sentir o comprar</b>."
+     }
+    ]
+   }
+  ],
+  "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
+ },
+ "fil-metafisica": {
+  "subject": "fil",
+  "label": "La realidad: ¿qué hay y cómo es?",
+  "accent": "#a3b23c",
+  "burstInk": "#1c2104",
+  "title": "¿QUÉ HAY<br><em>REALMENTE?</em>",
+  "kicker": "Filosofía · 1.º Bach · Tema M",
+  "subtitle": "Las grandes preguntas de la metafísica",
+  "tagline": "ta meta ta physika",
+  "author": "«los que van después de la física»",
+  "ghost": "ousía",
+  "portrait": null,
+  "blocks": [
+   {
+    "type": "tiles",
+    "n": "01",
+    "title": "¿Qué existe y de qué está hecho?",
+    "items": [
+     {
+      "emoji": "🌫️",
+      "t": "Apariencia y realidad",
+      "p": "Parménides: el cambio es apariencia. Platón: las <b>Ideas</b> son más reales que lo sensible."
+     },
+     {
+      "emoji": "⚛️",
+      "t": "Materialismo",
+      "p": "Todo lo que existe es materia o depende de ella (Demócrito, Hobbes, el fisicalismo)."
+     },
+     {
+      "emoji": "👁️",
+      "t": "Idealismo",
+      "p": "«Ser es ser percibido» (Berkeley): la realidad es, en último término, <b>mental</b>."
+     }
+    ]
+   },
+   {
+    "type": "columns",
+    "n": "02",
+    "title": "Mente, cuerpo e IA",
+    "items": [
+     {
+      "h": "Dualismo",
+      "tag": "Descartes",
+      "p": "La mente es una realidad no física. ¿Cómo mueve entonces el brazo?"
+     },
+     {
+      "h": "Identidad",
+      "tag": "Place, Smart",
+      "p": "Los estados mentales son estados del <b>cerebro</b>."
+     },
+     {
+      "h": "Funcionalismo",
+      "tag": "Putnam",
+      "p": "La mente se define por su <b>función</b>: podría darse incluso en silicio."
+     }
+    ]
+   },
+   {
+    "type": "quote",
+    "label": "La habitación china",
+    "big": "¿Puede pensar una máquina?",
+    "text": "Para Turing, si al conversar no la distinguimos de una persona, no hay motivo para negarle la inteligencia. Searle replica: manejar símbolos según reglas (<b>sintaxis</b>) no es comprender su significado (<b>semántica</b>)."
+   },
+   {
+    "type": "split",
+    "n": "03",
+    "title": "¿Somos libres?",
+    "panes": [
+     {
+      "emoji": "⛓️",
+      "h": "Determinismo",
+      "rows": [
+       {
+        "t": "Un solo futuro posible",
+        "p": "El demonio de Laplace, conociendo todas las partículas, calcularía todo el futuro."
+       },
+       {
+        "t": "Determinismo duro",
+        "p": "Si todo está determinado, la libertad es una <b>ilusión</b>."
+       }
+      ]
+     },
+     {
+      "emoji": "🕊️",
+      "h": "Libertad",
+      "rows": [
+       {
+        "t": "Libertarismo",
+        "p": "Al elegir, podríamos haber hecho otra cosa (Sartre)."
+       },
+       {
+        "t": "Compatibilismo",
+        "p": "Ser libre es actuar sin <b>coacción</b>, aunque haya causas (Hobbes, Hume)."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "columns",
+    "n": "04",
+    "title": "¿Existe Dios?",
+    "items": [
+     {
+      "h": "Ontológico",
+      "tag": "Anselmo",
+      "p": "El concepto de un ser perfectísimo implicaría su existencia."
+     },
+     {
+      "h": "Cosmológico",
+      "tag": "Tomás de Aquino",
+      "p": "La cadena de causas exigiría un primer ser <b>necesario</b>."
+     },
+     {
+      "h": "Del diseño",
+      "tag": "Paley",
+      "p": "El orden de la naturaleza exigiría un diseñador."
+     },
+     {
+      "h": "Problema del mal",
+      "tag": "en contra",
+      "p": "¿Cómo encaja el sufrimiento con un Dios bueno y todopoderoso?"
+     }
+    ]
+   }
+  ],
+  "foot": "AULA DE FILOSOFÍA · IES MARTÍN DE BERTENDONA · Filosofía 1.º Bachillerato"
+ },
  "fil-conocer": {
   "subject": "fil",
   "label": "Sentidos y razón",

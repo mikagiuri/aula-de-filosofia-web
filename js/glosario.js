@@ -769,6 +769,146 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Taller de argumentación",
   "def": "Texto argumentativo que defiende una tesis con razones, estructura (introducción, desarrollo, conclusión) y valoración personal."
+ },
+ {
+  "subject": "fil",
+  "t": "Ontología",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Parte de la metafísica que estudia qué tipos de cosas existen."
+ },
+ {
+  "subject": "fil",
+  "t": "Apariencia",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Lo que las cosas parecen ser, frente a lo que realmente son. Para Parménides, el cambio y la multiplicidad que vemos son mera apariencia."
+ },
+ {
+  "subject": "fil",
+  "t": "Fisicalismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Forma actual del materialismo: lo real es lo que describe, o podría describir, la física."
+ },
+ {
+  "subject": "fil",
+  "t": "Accidente",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Para Aristóteles, cualidad que solo existe en una sustancia y puede cambiar, como el color, el tamaño o el lugar."
+ },
+ {
+  "subject": "fil",
+  "t": "Esencia",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Lo que una cosa es, lo que responde a la pregunta «¿qué es?»: aquello que no puede perder sin dejar de ser lo que es."
+ },
+ {
+  "subject": "fil",
+  "t": "Teoría de la identidad",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura de U. T. Place y J. J. C. Smart: los estados mentales son estados del cerebro, igual que un rayo es una descarga eléctrica."
+ },
+ {
+  "subject": "fil",
+  "t": "Funcionalismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura de Hilary Putnam: un estado mental se define por lo que hace, por su función, y no por el material en que se da; una mente podría funcionar en neuronas o en silicio."
+ },
+ {
+  "subject": "fil",
+  "t": "Test de Turing",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Prueba propuesta por Alan Turing en 1950: si, conversando por escrito, no distinguimos a una máquina de una persona, no tendríamos motivo para negarle la inteligencia."
+ },
+ {
+  "subject": "fil",
+  "t": "Habitación china",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Experimento mental de John Searle (1980): quien sigue un manual para devolver símbolos chinos parece entender chino sin entenderlo; manejar símbolos (sintaxis) no basta para comprender su significado (semántica)."
+ },
+ {
+  "subject": "fil",
+  "t": "Problema difícil de la conciencia",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Expresión de David Chalmers (1995): explicar por qué existe la experiencia subjetiva, lo que se siente al ver el rojo."
+ },
+ {
+  "subject": "fil",
+  "t": "Determinismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Tesis según la cual todo lo que ocurre es el resultado necesario de lo anterior y de las leyes de la naturaleza: dado el estado del mundo en un momento, solo hay un futuro posible."
+ },
+ {
+  "subject": "fil",
+  "t": "Indeterminismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Tesis según la cual hay sucesos que no se siguen necesariamente de los anteriores. Que algo ocurra al azar no lo hace libre."
+ },
+ {
+  "subject": "fil",
+  "t": "Libertarismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura según la cual somos realmente libres y el determinismo es falso al menos en nuestras decisiones: al elegir, podríamos haber hecho otra cosa. No es la ideología política del mismo nombre."
+ },
+ {
+  "subject": "fil",
+  "t": "Compatibilismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura de Hobbes y Hume: libertad y determinismo pueden darse juntos, porque ser libre no es actuar sin causas, sino actuar según los propios deseos y razones, sin coacción."
+ },
+ {
+  "subject": "fil",
+  "t": "Argumento cosmológico",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Razonamiento que parte del mundo: la cadena de motores y de causas no puede prolongarse sin fin, así que exige un primer motor, una primera causa, un ser necesario (cinco vías de Tomás de Aquino)."
+ },
+ {
+  "subject": "fil",
+  "t": "Argumento del diseño",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Razonamiento teleológico: el orden de la naturaleza, como el de un reloj, exige un diseñador (Paley). Lo criticaron Hume y, con la selección natural, Darwin."
+ },
+ {
+  "subject": "fil",
+  "t": "Problema del mal",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Objeción a la existencia de Dios: si es todopoderoso, lo sabe todo y es completamente bueno, ¿por qué existe el sufrimiento de los inocentes?"
+ },
+ {
+  "subject": "fil",
+  "t": "Teodicea",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Nombre que dio Leibniz (1710) a las respuestas del creyente al problema del mal; una de las más conocidas sostiene que el mal es el precio de la libertad humana."
+ },
+ {
+  "subject": "fil",
+  "t": "Agnosticismo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura según la cual no podemos saber si Dios existe; el término lo acuñó T. H. Huxley en 1869."
+ },
+ {
+  "subject": "fil",
+  "t": "Fideísmo",
+  "area": "Metafísica",
+  "tema": "Filosofía · M",
+  "def": "Postura según la cual a Dios se llega por la fe y no por la razón, de modo que los argumentos no son el camino; suele citarse a Kierkegaard."
  }
 ];
 const GLOSARIO_TRAMPAS = {

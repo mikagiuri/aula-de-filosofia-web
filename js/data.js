@@ -286,6 +286,132 @@ const DECKS = {
    ]
   ]
  },
+ "fil-metafisica": {
+  "name": "Filosofía 1.º · La realidad: metafísica (M)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🌌",
+    "Metafísica",
+    "Parte de la filosofía que pregunta qué existe realmente y cómo es en último término; Aristóteles la llamó «filosofía primera», el estudio del ser en cuanto ser."
+   ],
+   [
+    "🎭",
+    "Apariencia y realidad",
+    "Distinción entre lo que las cosas parecen y lo que realmente son. Para Parménides, el cambio es apariencia; para Platón, las Ideas son más reales que las cosas sensibles."
+   ],
+   [
+    "🔢",
+    "Monismo, dualismo y pluralismo",
+    "Responden a cuántas realidades básicas hay: una (Spinoza: una única sustancia, «Dios o la Naturaleza»), dos (Descartes: la sustancia pensante y la extensa) o muchas (Empédocles, Leibniz)."
+   ],
+   [
+    "⚛️",
+    "Idealismo y materialismo",
+    "Responden a qué tipo de realidad es la fundamental: la materia (Demócrito, Hobbes y hoy el fisicalismo) o la mente (Berkeley: «ser es ser percibido»)."
+   ],
+   [
+    "🐴",
+    "Sustancia y accidente",
+    "Sustancia: lo que existe por sí mismo y sostiene sus cualidades (este caballo). Accidente: cualidad que solo existe en una sustancia y puede cambiar (su color)."
+   ],
+   [
+    "🌳",
+    "Acto y potencia",
+    "Acto: lo que algo ya es; potencia: lo que puede llegar a ser (la bellota es roble en potencia). Para Aristóteles, cambiar es hacer real una potencia."
+   ],
+   [
+    "🐉",
+    "Esencia y existencia",
+    "Esencia: qué es una cosa; existencia: el hecho de que sea. Puedes saber qué es un dragón aunque no exista ninguno (Avicena, Tomás de Aquino)."
+   ],
+   [
+    "🧩",
+    "Dualismo de sustancias",
+    "Para Descartes, la mente es una realidad no física, distinta del cuerpo. Su gran dificultad es la interacción: ¿cómo mueve el brazo algo que no ocupa espacio?"
+   ],
+   [
+    "🧠",
+    "Teoría de la identidad",
+    "Los estados mentales son estados del cerebro, igual que un rayo es una descarga eléctrica (Place, Smart). Problema: un pulpo, con otro sistema nervioso, también parece sentir dolor."
+   ],
+   [
+    "⚙️",
+    "Funcionalismo",
+    "Un estado mental se define por lo que hace, por su función, y no por su material: una mente podría funcionar en neuronas o, en principio, en silicio (Putnam)."
+   ],
+   [
+    "💬",
+    "Test de Turing",
+    "Turing (1950): si, conversando por escrito, no distinguimos a una máquina de una persona, no tendríamos motivo para negarle la inteligencia."
+   ],
+   [
+    "🀄",
+    "Habitación china",
+    "Objeción de Searle (1980) al test de Turing: manejar símbolos según reglas (sintaxis) no basta para comprender su significado (semántica)."
+   ],
+   [
+    "🔴",
+    "Problema difícil de la conciencia",
+    "Chalmers (1995): explicar por qué existe la experiencia subjetiva, lo que se siente al ver el rojo."
+   ],
+   [
+    "🌊",
+    "Heráclito y Parménides",
+    "Heráclito: el cambio es la clave de lo real (la imagen del río). Parménides: el ser es uno, eterno e inmóvil, y el cambio es apariencia."
+   ],
+   [
+    "🐢",
+    "Paradojas de Zenón",
+    "Zenón de Elea defendió a Parménides con paradojas como la de Aquiles y la tortuga: el corredor nunca alcanza a la tortuga que sale con ventaja."
+   ],
+   [
+    "🎲",
+    "Determinismo",
+    "Todo lo que ocurre es el resultado necesario de lo anterior y de las leyes de la naturaleza: solo hay un futuro posible (el «demonio de Laplace»)."
+   ],
+   [
+    "🕊️",
+    "Libertarismo",
+    "Somos realmente libres: el determinismo es falso al menos en nuestras decisiones (Sartre). No hay que confundirlo con la ideología política del mismo nombre."
+   ],
+   [
+    "🤝",
+    "Compatibilismo",
+    "Ser libre no es actuar sin causas, sino actuar según tus propios deseos y razones, sin que nadie te obligue (Hobbes, Hume)."
+   ],
+   [
+    "💭",
+    "Argumento ontológico",
+    "Anselmo: Dios es aquello mayor que lo cual nada puede pensarse, así que debe existir también en la realidad. Kant: la existencia no es una propiedad del concepto."
+   ],
+   [
+    "🔗",
+    "Argumento cosmológico",
+    "Parte del mundo: la cadena de causas no puede prolongarse sin fin y exige un primer motor, una primera causa, un ser necesario (cinco vías de Tomás de Aquino)."
+   ],
+   [
+    "⌚",
+    "Argumento del diseño",
+    "El orden de la naturaleza, como el de un reloj, exige un diseñador (Paley). Hume criticó la analogía y Darwin explicó el orden por la selección natural."
+   ],
+   [
+    "⚖️",
+    "Problema del mal",
+    "Si Dios es todopoderoso, lo sabe todo y es completamente bueno, ¿por qué existe el sufrimiento de los inocentes? Las respuestas del creyente se llaman teodicea."
+   ],
+   [
+    "🎰",
+    "Apuesta de Pascal",
+    "No prueba que Dios exista, sino que conviene creer: si existe, se gana una felicidad infinita; si no existe, se pierde poco."
+   ],
+   [
+    "❔",
+    "Agnosticismo y fideísmo",
+    "Agnosticismo: no podemos saber si Dios existe (Huxley). Fideísmo: a Dios se llega por la fe y no por la razón (suele citarse a Kierkegaard)."
+   ]
+  ]
+ },
  "fil-conocer": {
   "name": "Filosofía 1.º · Conocimiento, verdad y ciencia (T3)",
   "subject": "fil",
@@ -6352,6 +6478,287 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "El fijismo es la idea de que las especies son fijas e inmutables, contra la que se opuso Lamarck con su transformismo."
+   }
+  ]
+ },
+ "fil-metafisica": {
+  "name": "La realidad: ¿qué hay y cómo es? (Filosofía 1.º · M)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué estudia la metafísica?",
+    "o": [
+     "Qué existe realmente y cómo es en último término",
+     "Cómo debemos actuar para obrar bien",
+     "Cómo razonar correctamente a partir de unas premisas",
+     "Cuál es la fuente de nuestro conocimiento"
+    ],
+    "a": 0,
+    "fb": "La metafísica pregunta qué existe y cómo es en último término: el ser, la sustancia, el tiempo, la libertad o Dios. De cómo actuar se ocupa la ética; de cómo razonar, la lógica; y de la fuente del conocimiento, la teoría del conocimiento."
+   },
+   {
+    "q": "¿Qué crítica hizo Kant a la metafísica en la Crítica de la razón pura (1781)?",
+    "o": [
+     "Que solo la razón, sin ninguna experiencia, puede conocer con certeza a Dios",
+     "Que solo conocemos lo que puede darse en la experiencia, así que sobre el alma, el mundo como totalidad o Dios no cabe conocimiento científico",
+     "Que las afirmaciones metafísicas carecen de sentido porque ni se comprueban con la experiencia ni son verdades lógicas",
+     "Que la metafísica es inútil porque la física ya ha respondido a todas sus preguntas"
+    ],
+    "a": 1,
+    "fb": "Caso trampa: decir que las afirmaciones metafísicas carecen de sentido es la tesis del Círculo de Viena, en el siglo XX, que fue más lejos que Kant. Kant limitó el conocimiento científico a lo que puede darse en la experiencia."
+   },
+   {
+    "q": "¿Por qué concluyó Parménides que el cambio es mera apariencia?",
+    "o": [
+     "Porque los sentidos muestran que todo cambia sin cesar",
+     "Porque las cosas sensibles son copias imperfectas de las Ideas",
+     "Porque el orden del mundo es una tensión constante entre contrarios",
+     "Porque cambiar supone pasar del no-ser al ser, y el no-ser ni siquiera puede pensarse"
+    ],
+    "a": 3,
+    "fb": "Para Parménides, lo que es, es, y lo que no es, no es. Como cambiar y moverse suponen un «no-ser», el ser es uno, eterno, inmóvil e inmutable. Si razón y sentidos chocan, manda la razón."
+   },
+   {
+    "q": "Para Platón, ¿qué es más real?",
+    "o": [
+     "Las Ideas, modelos eternos e inmutables de las cosas",
+     "Las cosas sensibles, porque las vemos y las tocamos",
+     "Las sombras de la caverna, porque son lo primero que conocemos",
+     "Las cosas sensibles y las Ideas son igual de reales"
+    ],
+    "a": 0,
+    "fb": "Platón distingue dos niveles de realidad: el mundo sensible, que cambia sin cesar y es una copia imperfecta, y el mundo inteligible de las Ideas (la Belleza, la Justicia, la Igualdad), que son más reales que las cosas sensibles."
+   },
+   {
+    "q": "Spinoza sostuvo que el pensamiento y la extensión son dos atributos de una única sustancia, «Dios o la Naturaleza». ¿Qué postura es esta?",
+    "o": [
+     "Pluralismo",
+     "Materialismo",
+     "Monismo",
+     "Dualismo, porque habla de pensamiento y de extensión"
+    ],
+    "a": 2,
+    "fb": "Caso trampa: aunque nombra dos cosas, para Spinoza no son dos sustancias, sino dos atributos de una sola; por eso es monismo. El dualismo de Descartes sí habla de dos sustancias: la pensante (res cogitans) y la extensa (res extensa)."
+   },
+   {
+    "q": "Monismo, dualismo y pluralismo responden a cuántas realidades básicas hay. ¿A qué responden el materialismo y el idealismo?",
+    "o": [
+     "A si el cambio es real o solo aparente",
+     "A qué tipo de realidad es la fundamental",
+     "También a cuántas realidades básicas hay",
+     "A si podemos conocer la realidad tal como es"
+    ],
+    "a": 1,
+    "fb": "Caso trampa: son dos preguntas distintas y se combinan. El número (monismo, dualismo, pluralismo) y la naturaleza (materialismo, idealismo) dan, por ejemplo, un monismo materialista (Demócrito, Hobbes) y un monismo idealista (Berkeley)."
+   },
+   {
+    "q": "Tu móvil concreto es una sustancia. ¿Qué son, para Aristóteles, su color, su funda o la batería que le queda?",
+    "o": [
+     "Su materia",
+     "Su potencia",
+     "Accidentes",
+     "Su esencia"
+    ],
+    "a": 2,
+    "fb": "Los accidentes son cualidades que solo existen en una sustancia y pueden cambiar. La sustancia es lo que existe por sí mismo y sostiene sus cualidades; la esencia es lo que hace que el móvil sea un teléfono."
+   },
+   {
+    "q": "En una estatua de bronce, ¿qué es la forma según Aristóteles?",
+    "o": [
+     "La figura, lo que la hace ser lo que es",
+     "El bronce, aquello de lo que está hecha",
+     "El color que tiene ahora",
+     "El lugar en el que se encuentra"
+    ],
+    "a": 0,
+    "fb": "Caso trampa: el bronce es la materia, y la figura, la forma. Toda sustancia física se compone de materia y forma (hilemorfismo), y la forma corresponde, a grandes rasgos, a la esencia. El color y el lugar son accidentes."
+   },
+   {
+    "q": "¿Cómo respondió Aristóteles a Parménides sobre el cambio?",
+    "o": [
+     "Situando lo que no cambia en un mundo de Ideas aparte",
+     "Cambiar no es pasar de la nada al ser, sino hacer real una potencia",
+     "Negando, como él, que el cambio exista",
+     "Afirmando que todo está en cambio constante, como el agua de un río"
+    ],
+    "a": 1,
+    "fb": "Aristóteles distinguió el acto (lo que algo ya es) y la potencia (lo que puede llegar a ser): la bellota es roble en potencia. Así el cambio no exige un «no-ser» absoluto."
+   },
+   {
+    "q": "«Puedes saber qué es un dragón sin que exista ninguno.» ¿Qué distinción ilustra este ejemplo?",
+    "o": [
+     "Entre sustancia y accidente",
+     "Entre acto y potencia",
+     "Entre materia y forma",
+     "Entre esencia y existencia"
+    ],
+    "a": 3,
+    "fb": "La esencia dice qué es una cosa; la existencia, que es. Subrayaron esta distinción filósofos medievales como Avicena y Tomás de Aquino. Sartre la invirtió en el caso humano: «la existencia precede a la esencia»."
+   },
+   {
+    "q": "¿Cuál es la gran dificultad del dualismo de sustancias de Descartes?",
+    "o": [
+     "Explicar cómo una mente que no ocupa espacio puede mover el cuerpo",
+     "Explicar por qué un pulpo también parece sentir dolor",
+     "Explicar cómo una máquina podría comprender un idioma",
+     "Explicar por qué existen el pasado y el futuro"
+    ],
+    "a": 0,
+    "fb": "Es el problema de la interacción, que Isabel de Bohemia ya le objetó a Descartes en sus cartas de 1643. El caso del pulpo es una objeción a la teoría de la identidad, no al dualismo."
+   },
+   {
+    "q": "Un pulpo, con un sistema nervioso muy distinto del nuestro, también parece sentir dolor. ¿Qué teoría pone en apuros este caso?",
+    "o": [
+     "El dualismo de sustancias",
+     "El idealismo de Berkeley",
+     "La teoría de la identidad",
+     "El funcionalismo"
+    ],
+    "a": 2,
+    "fb": "Caso trampa: la teoría de la identidad (Place, Smart) dice que los estados mentales son estados de nuestro cerebro; si el dolor fuera solo eso, el pulpo no podría sentirlo. El funcionalismo nace precisamente para resolverlo: el dolor se define por su función, sea cual sea el material."
+   },
+   {
+    "q": "Una máquina conversa por escrito y no la distinguimos de una persona. ¿Qué respondería Searle con el argumento de la habitación china?",
+    "o": [
+     "Que la máquina es una sustancia pensante, como la mente",
+     "Que manejar símbolos según reglas no basta para comprender su significado",
+     "Que la máquina entiende, porque ha superado el test de Turing",
+     "Que la máquina tiene experiencia subjetiva, como nosotros"
+    ],
+    "a": 1,
+    "fb": "Caso trampa: concluir que la máquina entiende porque no la distinguimos de una persona es la idea del test de Turing (1950). Searle (1980) objeta que se pueden manejar los símbolos por su forma (sintaxis) sin comprender su significado (semántica)."
+   },
+   {
+    "q": "¿Qué es el «problema difícil de la conciencia», según David Chalmers?",
+    "o": [
+     "Explicar cómo hace cálculos el cerebro",
+     "Construir una máquina que supere el test de Turing",
+     "Demostrar que la mente es una sustancia no física",
+     "Explicar por qué existe la experiencia subjetiva, lo que se siente al ver el rojo"
+    ],
+    "a": 3,
+    "fb": "Aun si una máquina superara todas las pruebas, quedaría por explicar por qué existe la experiencia subjetiva: lo que se siente al ver el rojo. Chalmers lo llamó así en 1995."
+   },
+   {
+    "q": "¿Para qué formuló Zenón de Elea paradojas como la de Aquiles y la tortuga?",
+    "o": [
+     "Para plantear la identidad del barco de Teseo",
+     "Para defender a Parménides: el cambio y el movimiento son apariencia",
+     "Para defender a Heráclito: todo está en cambio constante",
+     "Para probar que el tiempo es relativo y no absoluto"
+    ],
+    "a": 1,
+    "fb": "Zenón, discípulo de Parménides, defendió a su maestro con sus paradojas: Aquiles nunca alcanzaría a la tortuga que sale con ventaja. Heráclito sostenía lo contrario: el cambio es la clave de lo real."
+   },
+   {
+    "q": "¿Qué diferencia a Newton de Leibniz en su idea del tiempo?",
+    "o": [
+     "Para Newton, el tiempo es absoluto y transcurre igual para todo; para Leibniz, es relativo: el orden en que suceden las cosas",
+     "Para Newton, solo existe el presente; para Leibniz, también el pasado y el futuro",
+     "Para Newton, el tiempo depende del observador; para Leibniz, es un reloj universal",
+     "No se diferencian: los dos pensaban que el tiempo es una ilusión"
+    ],
+    "a": 0,
+    "fb": "Newton concibió un tiempo absoluto, como un reloj universal; Leibniz lo entendía como el orden de los sucesos, no como un recipiente. Presentismo y eternalismo son otra discusión: qué existe del tiempo."
+   },
+   {
+    "q": "¿Qué sostiene el determinismo?",
+    "o": [
+     "Que somos libres siempre que actuemos sin coacción",
+     "Que el futuro depende solo de nuestras decisiones",
+     "Que todo lo que ocurre es el resultado necesario de lo anterior y de las leyes de la naturaleza",
+     "Que hay sucesos que no se siguen necesariamente de los anteriores"
+    ],
+    "a": 2,
+    "fb": "Para el determinismo, dado el estado del mundo en un momento, solo hay un futuro posible. Laplace lo ilustró con una inteligencia imaginaria, el «demonio de Laplace», capaz de calcular todo el futuro."
+   },
+   {
+    "q": "Si la física cuántica describe procesos que solo pueden predecirse en términos de probabilidad, ¿queda probado que somos libres?",
+    "o": [
+     "No, porque la física cuántica demuestra el determinismo duro",
+     "No: que algo ocurra al azar no lo hace libre; una decisión que dependiera de un sorteo entre partículas no sería más tuya",
+     "Sí: si hay azar, nuestras decisiones son libres",
+     "Sí, porque indeterminismo y libertarismo significan lo mismo"
+    ],
+    "a": 1,
+    "fb": "Caso trampa: el indeterminismo (hay sucesos que no se siguen necesariamente de los anteriores) no equivale al libertarismo (somos realmente libres). El azar no hace que una decisión sea más tuya."
+   },
+   {
+    "q": "Hobbes y Hume dicen que ser libre es actuar según tus propios deseos y razones, sin que nadie te obligue, aunque tus actos tengan causas. ¿Qué postura es esta?",
+    "o": [
+     "Determinismo duro",
+     "Indeterminismo",
+     "Compatibilismo",
+     "Libertarismo"
+    ],
+    "a": 2,
+    "fb": "Caso trampa: el libertarismo (Sartre) sostiene que el determinismo es falso al menos en nuestras decisiones; el compatibilismo acepta que puede que todo esté determinado y entiende la libertad como ausencia de coacción, no de causas. El determinismo duro (d’Holbach) concluye que la libertad es una ilusión."
+   },
+   {
+    "q": "¿De dónde parte el argumento ontológico de Anselmo de Canterbury?",
+    "o": [
+     "Del orden de la naturaleza, como el de un reloj",
+     "De la cadena de causas que observamos en el mundo",
+     "De lo que conviene creer para ganar una felicidad infinita",
+     "Solo del concepto de Dios: aquello mayor que lo cual nada puede pensarse"
+    ],
+    "a": 3,
+    "fb": "El argumento ontológico parte solo del concepto: si ese ser existiera solo en el pensamiento, podríamos pensar algo mayor. Gaunilón replicó con la isla más perfecta, y Kant objetó que la existencia no es una propiedad que se añada a un concepto."
+   },
+   {
+    "q": "¿Cuál es la objeción más seria al argumento cosmológico?",
+    "o": [
+     "De un mundo imperfecto no se deduce un creador perfecto",
+     "¿Por qué detener la cadena de causas en Dios y no en el propio universo?",
+     "¿Y quién causó a Dios?",
+     "La existencia no es una propiedad que se añada a un concepto"
+    ],
+    "a": 1,
+    "fb": "Caso trampa: la objeción más seria no es «¿y quién causó a Dios?», sino por qué detener la cadena en Dios y no en el universo. Que la existencia no es una propiedad del concepto es la objeción de Kant al argumento ontológico, y lo del mundo imperfecto, la crítica de Hume al argumento del diseño."
+   },
+   {
+    "q": "¿Qué mostró Darwin en relación con el argumento del diseño?",
+    "o": [
+     "Que la selección natural produce apariencia de diseño sin diseñador",
+     "Que un ojo es más complejo que un reloj",
+     "Que la cadena de causas exige un primer motor",
+     "Que el mal es el precio de la libertad humana"
+    ],
+    "a": 0,
+    "fb": "Paley comparaba la naturaleza con un reloj que exige un relojero. Hume ya había criticado la analogía (1779), y Darwin (1859) mostró que la selección natural explica el orden sin necesidad de diseñador."
+   },
+   {
+    "q": "¿Qué plantea el problema del mal?",
+    "o": [
+     "Que conviene creer en Dios aunque no pueda probarse",
+     "Que de un mundo ordenado se deduce un diseñador",
+     "Que, si Dios es todopoderoso, lo sabe todo y es completamente bueno, no se entiende por qué existe el sufrimiento de los inocentes",
+     "Que el mal es el precio de la libertad humana"
+    ],
+    "a": 2,
+    "fb": "Es el argumento más fuerte contra la existencia de Dios: o no puede evitar el mal, o no quiere. Las respuestas del creyente se llaman teodicea (Leibniz, 1710); decir que el mal es el precio de la libertad es una de ellas, no el problema."
+   },
+   {
+    "q": "¿Qué pretende la apuesta de Pascal?",
+    "o": [
+     "Probar que Dios existe a partir de su concepto",
+     "Demostrar que no podemos saber si Dios existe",
+     "Explicar el orden de la naturaleza",
+     "Mostrar que conviene creer: si Dios existe se gana una felicidad infinita, y si no existe se pierde poco"
+    ],
+    "a": 3,
+    "fb": "Pascal no pretende probar que Dios existe, sino que conviene creer. Sus críticos señalan que el cálculo valdría para cualquier dios que prometa premios infinitos, y se preguntan si se puede creer por conveniencia."
+   },
+   {
+    "q": "¿En qué se diferencian el agnosticismo y el fideísmo?",
+    "o": [
+     "El agnosticismo afirma que Dios existe; el fideísmo, que no existe",
+     "El fideísmo sostiene que no podemos saberlo; el agnosticismo, que a Dios se llega por la fe",
+     "El agnosticismo sostiene que no podemos saber si Dios existe; el fideísmo, que a Dios se llega por la fe y no por la razón",
+     "Son lo mismo: los dos niegan que Dios exista"
+    ],
+    "a": 2,
+    "fb": "Caso trampa: el agnosticismo (término de T. H. Huxley, 1869) dice que no podemos saberlo; el fideísmo (suele citarse a Kierkegaard) dice que el camino hacia Dios es la fe, no los argumentos. Negar que Dios exista es el ateísmo."
    }
   ]
  },

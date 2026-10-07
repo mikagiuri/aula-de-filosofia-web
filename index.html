@@ -71,6 +71,7 @@
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Ejercicios</span>
         <div class="navmenu">
+          <button data-view="disertaciones">Disertaciones</button>
           <button data-view="lecturas">Lecturas</button>
           <button data-view="dilemas">Dilemas éticos</button>
           <button data-view="pistas">Pistas</button>
@@ -138,7 +139,17 @@
   </section>
 
   <!-- DISERTACIONES -->
-  
+  <section class="view" id="disertaciones">
+    <p class="eyebrow">PAU</p>
+    <h1 class="title">Disertaciones</h1>
+    <p class="lead">El ejercicio que <strong>vale 3 puntos</strong> en la PAU. Aquí tienes la metodología y la rúbrica, modelos completos resueltos (Platón, Kant, Nietzsche y un modelo medieval) y modelos comparativos por parejas para practicar la argumentación.</p>
+    <div class="filterbar" id="disertfilter" role="group" aria-label="Filtrar disertaciones"></div>
+    <div class="chips" id="disertchips" role="group" aria-label="Elegir disertación"></div>
+    <div class="theory-layout">
+      <nav class="toc" id="diserttoc" aria-label="Índice de la disertación"></nav>
+      <article class="theory" id="disertbody"></article>
+    </div>
+  </section>
 
   <!-- PAU -->
   

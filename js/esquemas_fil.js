@@ -37,6 +37,13 @@ const ESQUEMAS_FIL = {
   "title": "Racionalismo, empirismo y Kant",
   "mermaid": "flowchart TD\n  con[\"EL CONOCIMIENTO\"]:::axis\n  fuente[\"¿cuál es su fuente?\"]:::key\n  rac[\"Racionalismo\"]:::key\n  r1[\"la razón; ideas innatas (Descartes)\"]\n  emp[\"Empirismo\"]:::key\n  e1[\"la experiencia; mente como tabula rasa (Locke, Hume)\"]\n  kant[\"Kant: síntesis crítica\"]:::key\n  k1[\"conocemos fenómenos: experiencia + formas a priori\"]\n  con --> fuente\n  fuente --> rac --> r1\n  fuente --> emp --> e1\n  rac -->|\"los reúne\"| kant\n  emp -->|\"los reúne\"| kant\n  kant --> k1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
  },
+ "FIL-M-01": {
+  "subject": "fil",
+  "block": "F1",
+  "tema": "Filosofía · M",
+  "title": "La realidad: ¿qué hay y cómo es?",
+  "mermaid": "flowchart TD\n  center[\"LA METAFÍSICA: ¿QUÉ HAY Y CÓMO ES?\"]:::axis\n  apa[\"apariencia y realidad\"]:::key\n  a1[\"Parménides: el cambio es apariencia\"]\n  a2[\"Platón: las Ideas, más reales que lo sensible\"]\n  sus[\"¿de qué está hecho todo?\"]:::key\n  s1[\"cuántas realidades: monismo, dualismo, pluralismo\"]\n  s2[\"de qué tipo: materialismo o idealismo\"]\n  ari[\"Aristóteles: la sustancia\"]:::key\n  r1[\"sustancia y accidentes; materia y forma\"]\n  r2[\"acto y potencia: explican el cambio\"]\n  r3[\"esencia (qué es) y existencia (que es)\"]\n  men[\"mente y cuerpo\"]:::key\n  m1[\"dualismo, teoría de la identidad, funcionalismo\"]\n  m2[\"test de Turing frente a habitación china\"]\n  tie[\"tiempo y cambio\"]:::key\n  t1[\"Heráclito frente a Parménides y Zenón\"]\n  t2[\"tiempo absoluto (Newton) o relativo (Leibniz)\"]\n  lib[\"¿somos libres?\"]:::key\n  l1[\"determinismo duro, libertarismo, compatibilismo\"]\n  dios[\"¿existe Dios?\"]:::key\n  d1[\"a favor: ontológico, cosmológico, del diseño\"]\n  d2[\"en contra: el problema del mal\"]\n  d3[\"teísmo, ateísmo, agnosticismo, fideísmo\"]\n  center --> apa\n  apa --> a1\n  apa --> a2\n  center --> sus\n  sus --> s1\n  sus --> s2\n  center --> ari\n  ari --> r1\n  ari --> r2\n  ari --> r3\n  center --> men\n  men --> m1\n  men -->|\"¿puede pensar una máquina?\"| m2\n  center --> tie\n  tie --> t1\n  tie --> t2\n  center --> lib\n  lib --> l1\n  center --> dios\n  dios --> d1\n  dios --> d2\n  dios --> d3\n  r2 -->|\"responde a\"| a1\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
+ },
  "FIL-T3-02": {
   "subject": "fil",
   "block": "F1",
