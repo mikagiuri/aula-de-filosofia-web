@@ -70,6 +70,7 @@
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Ejercicios</span>
         <div class="navmenu">
+          <button data-view="lecturas">Lecturas</button>
           <button data-view="dilemas">Dilemas éticos</button>
           <button data-view="pistas">Pistas</button>
           <button data-view="logica">Rincón de lógica</button>
@@ -120,7 +121,20 @@
   
 
   <!-- LECTURAS -->
-  
+  <section class="view" id="lecturas">
+    <p class="eyebrow">Lecturas</p>
+    <h1 class="title">Lecturas</h1>
+    <p class="lead">Los textos originales de la PAU —Platón, Descartes, Kant, Nietzsche y Beauvoir— con su guía de lectura, los fragmentos, los modelos de respuesta y el glosario. Para leer en clase o en casa y preparar el Ejercicio 1.</p>
+    <div class="filterbar" id="lecturafilter" role="group" aria-label="Filtrar lecturas"></div>
+    <div class="chips" id="lecturachips" role="group" aria-label="Elegir lectura"></div>
+    <div class="toolrow" id="comentariolink" style="display:none">
+      <button class="btn" data-go="comentario">✍️ Comentar este texto (método guiado) →</button>
+    </div>
+    <div class="theory-layout">
+      <nav class="toc" id="ltoc" aria-label="Índice de la lectura"></nav>
+      <article class="theory" id="lecturabody"></article>
+    </div>
+  </section>
 
   <!-- DISERTACIONES -->
   
