@@ -421,6 +421,18 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File%3AMary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg"
  },
  {
+  "slug": "gouges",
+  "name": "Olympe de Gouges",
+  "aliases": [
+   "Olympe de Gouges"
+  ],
+  "file": "media/retratos/museo/gouges.jpg",
+  "title": "Olympe de Gouges",
+  "artist": "Anónimo",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AOlympe_de_Gouges.jpg"
+ },
+ {
   "slug": "curie",
   "name": "Marie Curie",
   "aliases": [

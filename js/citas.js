@@ -192,6 +192,13 @@ const CITAS = [
   "img": "media/retratos/museo2/adam-smith.jpg"
  },
  {
+  "c": "El hombre no es más que una caña, la más débil de la naturaleza, pero es una caña que piensa.",
+  "a": "Blaise Pascal",
+  "o": "Pensamientos, fr. 200 (ed. Lafuma) / 347 (ed. Brunschvicg)",
+  "e": "moderna",
+  "img": "media/retratos/museo2/pascal.jpg"
+ },
+ {
   "c": "La razón es, y solo debe ser, esclava de las pasiones.",
   "a": "David Hume",
   "o": "Tratado de la naturaleza humana II, 3, 3",
@@ -368,12 +375,28 @@ const CITAS = [
   "img": "media/retratos/museo/wollstonecraft.jpg"
  },
  {
+  "c": "Para que no se pueda abusar del poder, es preciso que, por la disposición de las cosas, el poder frene al poder.",
+  "a": "Montesquieu",
+  "o": "Del espíritu de las leyes (1748) XI, 4",
+  "e": "moderna",
+  "id": "montesquieu",
+  "img": "media/retratos/museo2/montesquieu.jpg"
+ },
+ {
   "c": "Todo cuerpo persevera en su estado de reposo o de movimiento uniforme en línea recta, a no ser que sea obligado a cambiar ese estado por fuerzas impresas.",
   "a": "Newton",
   "o": "Principios matemáticos de la filosofía natural (1687), «Axiomas o leyes del movimiento», ley I",
   "e": "moderna",
   "id": "newton",
   "img": "media/retratos/museo/newton.jpg"
+ },
+ {
+  "c": "La mujer nace libre y permanece igual al hombre en derechos.",
+  "a": "Olympe de Gouges",
+  "o": "Declaración de los derechos de la mujer y de la ciudadana (1791), art. 1",
+  "e": "moderna",
+  "id": "gouges",
+  "img": "media/retratos/museo/gouges.jpg"
  },
  {
   "c": "No te he dado, oh Adán, un lugar fijo, ni un rostro propio, ni un don particular, para que aquel lugar, aquel rostro y aquellos dones que tú elijas, sean tuyos según tu voluntad y tu decisión.",
@@ -438,6 +461,12 @@ const CITAS = [
   "e": "contemporanea",
   "id": "einstein",
   "img": "media/retratos/museo/einstein.jpg"
+ },
+ {
+  "c": "El feminismo es un hijo no querido de la Ilustración.",
+  "a": "Amelia Valcárcel",
+  "o": "«La memoria colectiva y los retos del feminismo» (2000)",
+  "e": "contemporanea"
  },
  {
   "c": "La triste verdad es que la mayor parte del mal la cometen personas que nunca deciden ser ni buenas ni malas.",
@@ -588,6 +617,13 @@ const CITAS = [
   "e": "contemporanea",
   "id": "popper",
   "img": "media/retratos/museo/popper.jpg"
+ },
+ {
+  "c": "La fe es precisamente este paradoxo: que el individuo se sitúa en una relación absoluta con lo absoluto.",
+  "a": "Kierkegaard",
+  "o": "Temor y temblor (1843), Problema I",
+  "e": "contemporanea",
+  "img": "media/retratos/museo2/kierkegaard.jpg"
  },
  {
   "c": "De lo que no se puede hablar, hay que callar.",
@@ -893,6 +929,12 @@ const CITAS = [
   "e": "antigua"
  },
  {
+  "c": "El discurso es un soberano poderoso que, con un cuerpo pequeñísimo y del todo invisible, lleva a cabo obras divinísimas: puede detener el miedo, quitar la pena, producir alegría y acrecentar la compasión.",
+  "a": "Gorgias",
+  "o": "Elogio de Helena, 8 (DK 82 B11)",
+  "e": "antigua"
+ },
+ {
   "c": "Que nadie, por joven, aplace el filosofar; ni, por viejo, se canse de filosofar. Para la salud del alma nadie llega ni pronto ni tarde.",
   "a": "Epicuro",
   "o": "Carta a Meneceo, 122 (en Diógenes Laercio, Vidas X)",
@@ -985,6 +1027,12 @@ const CITAS = [
   "c": "Somos todos retazos, y de una contextura tan informe y diversa que cada pieza, cada momento, hace su juego. Y hay tanta diferencia de nosotros a nosotros mismos como de nosotros a otro.",
   "a": "Montaigne",
   "o": "Ensayos (1580) II, 1",
+  "e": "moderna"
+ },
+ {
+  "c": "Nada hay justo ni injusto que no cambie de cualidad al cambiar de clima. […] ¡Graciosa justicia la que limita un río! Verdad de este lado de los Pirineos, error del otro.",
+  "a": "Blaise Pascal",
+  "o": "Pensamientos, fr. 60 (ed. Lafuma) / 294 (ed. Brunschvicg)",
   "e": "moderna"
  },
  {
