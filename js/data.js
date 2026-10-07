@@ -5957,5 +5957,1389 @@ const QUIZZES = {
     "fb": "La alfabetización visual es saber mirar críticamente las imágenes: quién las hace, para qué y qué nos quieren hacer sentir o comprar."
    }
   ]
+ },
+ "fil-t1-repaso": {
+  "name": "¿Qué es la filosofía? (Filosofía 1.º · T1 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "Según la matización de Hegel que recoge el tema, ¿qué cambia realmente al pasar del mito a la filosofía?",
+    "o": [
+     "Que cambia el contenido: la filosofía descubre verdades que el mito ignoraba",
+     "Que cambia el público: el mito era secreto y la filosofía, para todos",
+     "Que cambia la forma de decirlo: de relatos e imágenes a conceptos y razones",
+     "Que cambia la finalidad: el mito explicaba y la filosofía solo conmueve"
+    ],
+    "a": 2,
+    "fb": "Hegel insistió en que «el contenido del mito es el pensamiento»: lo que cambia no es tanto lo que se dice como la forma de decirlo, de relatos e imágenes a conceptos y razones, por eso es una superación que conserva lo valioso del mito."
+   },
+   {
+    "q": "¿Qué significa que el saber filosófico sea «sistemático»?",
+    "o": [
+     "Ordena y relaciona los distintos campos de la realidad y de la experiencia humana",
+     "Se divide en parcelas independientes que no se comunican entre sí",
+     "Parte de axiomas fijos que nadie puede discutir ni revisar",
+     "Acumula datos aislados sin pretender ordenarlos ni relacionarlos"
+    ],
+    "a": 0,
+    "fb": "La filosofía es sistemática porque trata de ordenar y relacionar entre sí los distintos campos de la realidad y de la experiencia humana, buscando una visión coherente y de conjunto."
+   },
+   {
+    "q": "Según el tema, ¿por qué todas las personas podemos, en principio, filosofar?",
+    "o": [
+     "Porque la filosofía no exige estudiar ni esforzarse para entenderla",
+     "Porque todos podemos razonar, y la filosofía se apoya en la razón",
+     "Porque basta con tener opiniones firmes sobre cualquier asunto",
+     "Porque la filosofía se transmite por tradición oral de generación en generación"
+    ],
+    "a": 1,
+    "fb": "La filosofía es racional: se apoya en la razón y en los argumentos, no en la fe, la emoción o la autoridad; como todos los seres humanos podemos razonar, todos podemos filosofar."
+   },
+   {
+    "q": "¿En qué se centran las escuelas helenísticas, como el epicureísmo y el estoicismo?",
+    "o": [
+     "En cómo vivir y alcanzar la felicidad",
+     "En el estudio de las reglas del lenguaje",
+     "En la demostración matemática de teoremas",
+     "En la búsqueda del principio material del cosmos"
+    ],
+    "a": 0,
+    "fb": "Las escuelas helenísticas (epicureísmo y estoicismo) están centradas en cómo vivir y alcanzar la felicidad, tras los grandes sistemas de Platón y Aristóteles."
+   },
+   {
+    "q": "¿Cuál de estas afirmaciones es correcta según el tema?",
+    "o": [
+     "Cada etapa nueva anula y sustituye por completo a las anteriores",
+     "La filosofía medieval dejó de interesarse por los problemas antiguos",
+     "La filosofía griega sigue estando en la base del pensamiento occidental",
+     "La filosofía contemporánea es independiente de la tradición griega"
+    ],
+    "a": 2,
+    "fb": "La aparición de una etapa no borra las anteriores: la filosofía griega sigue estando, de algún modo, en la base de todo el pensamiento occidental posterior."
+   },
+   {
+    "q": "¿Qué función de la filosofía consiste en pensar el mundo no solo tal como es, sino también tal como podría ser?",
+    "o": [
+     "Función crítica",
+     "Función de orientación",
+     "Función de búsqueda de sentido",
+     "Función histórica"
+    ],
+    "a": 1,
+    "fb": "La función de orientación no solo piensa el mundo tal como es, sino también el mundo tal como podría ser; ayuda a tomar decisiones y a participar en la construcción de una sociedad más justa y solidaria."
+   },
+   {
+    "q": "¿Cuándo se celebra el Día Mundial de la Filosofía declarado por la UNESCO?",
+    "o": [
+     "El primer lunes de enero",
+     "El último viernes de mayo",
+     "El segundo domingo de octubre",
+     "El tercer jueves de noviembre"
+    ],
+    "a": 3,
+    "fb": "La UNESCO declaró en 2008 el Día Mundial de la Filosofía, que se celebra el tercer jueves de noviembre, por considerar la filosofía una «escuela de libertad y de solidaridad»."
+   },
+   {
+    "q": "Que el pensamiento mítico sea «indeterminista o arbitrario» significa que…",
+    "o": [
+     "Cree que en la naturaleza habitan espíritus con intenciones",
+     "Se transmite por escrito y con autor conocido",
+     "Se acepta de forma crítica y abierta a la revisión",
+     "Las cosas ocurren por la voluntad caprichosa de los dioses"
+    ],
+    "a": 3,
+    "fb": "El mito es indeterminista o arbitrario porque piensa que las cosas ocurren según la voluntad caprichosa de los dioses, y no por causas y leyes regulares."
+   },
+   {
+    "q": "¿Cuál de las siguientes preguntas es, según el tema, personal o de opinión y no filosófica?",
+    "o": [
+     "¿Qué serie veo esta noche?",
+     "¿Qué es la justicia?",
+     "¿Existe el libre albedrío?",
+     "¿Tiene sentido la vida?"
+    ],
+    "a": 0,
+    "fb": "Las preguntas personales o de opinión dependen del gusto de cada uno y no admiten discusión racional (como «¿qué serie veo esta noche?»), mientras que las filosóficas buscan el fundamento último y admiten razones a favor y en contra."
+   },
+   {
+    "q": "Dos personas discrepan sobre si existe Dios y ninguna logra convencer a la otra. Según el tema, ¿qué se sigue de ese desacuerdo?",
+    "o": [
+     "Que la cuestión es un mero asunto de gusto personal",
+     "Que ambas posturas son igualmente verdaderas a la vez",
+     "Que no vale cualquier respuesta: cuentan las razones",
+     "Que la pregunta debe abandonarse por no tener respuesta"
+    ],
+    "a": 2,
+    "fb": "Las preguntas filosóficas no son mera preferencia: admiten razones a favor y en contra. Por eso el desacuerdo no convierte la cuestión en asunto de gusto ni hace que valga cualquier respuesta."
+   },
+   {
+    "q": "Según la tabla de los tipos de saber, ¿cómo procede el saber filosófico?",
+    "o": [
+     "De forma espontánea y no reflexiva",
+     "Mediante razonamiento y argumentación",
+     "Mediante observación y experimentación",
+     "A través de la revelación y la fe"
+    ],
+    "a": 1,
+    "fb": "A diferencia del saber común (espontáneo y no reflexivo) y del científico (observación y experimentación), el saber filosófico procede mediante razonamiento y argumentación."
+   },
+   {
+    "q": "Según el tema, ¿qué significa que filosofar sea «recuperar la mirada de extrañeza»?",
+    "o": [
+     "Aceptar sin discutir las creencias heredadas de la tradición",
+     "Dejar de hacerse preguntas al alcanzar la edad adulta",
+     "Memorizar las respuestas de los grandes filósofos",
+     "Volver a asombrarse ante lo que a los demás les parece obvio"
+    ],
+    "a": 3,
+    "fb": "La filosofía nace del asombro: la capacidad de extrañarse ante lo que a los demás les parece obvio. El adulto ha dejado de preguntar, y filosofar es, en parte, recuperar esa mirada de extrañeza."
+   },
+   {
+    "q": "¿Qué corriente de la filosofía moderna parte de la experiencia, con Locke y Hume como representantes?",
+    "o": [
+     "El racionalismo",
+     "El empirismo",
+     "El vitalismo",
+     "El existencialismo"
+    ],
+    "a": 1,
+    "fb": "En la filosofía moderna surgen el racionalismo (Descartes), que confía sobre todo en la razón, y el empirismo (Locke, Hume), que parte de la experiencia."
+   },
+   {
+    "q": "¿Qué realiza Kant en la filosofía moderna, según el tema?",
+    "o": [
+     "La síntesis del platonismo y el aristotelismo",
+     "La fundación de la escuela helenística estoica",
+     "La síntesis de racionalismo y empirismo con su «criticismo»",
+     "La crítica de los dioses antropomórficos"
+    ],
+    "a": 2,
+    "fb": "Tras el racionalismo y el empirismo, Kant realiza la gran síntesis de ambos con su «criticismo»."
+   },
+   {
+    "q": "¿A qué corriente de la filosofía contemporánea se asocia Nietzsche, según el tema?",
+    "o": [
+     "El marxismo",
+     "La filosofía analítica",
+     "La Escuela de Fráncfort",
+     "El vitalismo"
+    ],
+    "a": 3,
+    "fb": "La filosofía contemporánea es muy diversa: el marxismo (Marx), el vitalismo (Nietzsche), el existencialismo (Sartre, Simone de Beauvoir), la filosofía analítica (Wittgenstein) o la Escuela de Fráncfort (Habermas)."
+   },
+   {
+    "q": "Según el tema, ¿por qué aprender a distinguir las preguntas filosóficas de las demás es ya filosofar?",
+    "o": [
+     "Porque la filosofía no admite ninguna definición válida",
+     "Porque formular una buena pregunta filosófica es ya filosofar",
+     "Porque solo los profesores pueden definir la filosofía",
+     "Porque toda pregunta, sea cual sea, es ya filosófica"
+    ],
+    "a": 1,
+    "fb": "Aprender a reconocer y a formular una buena pregunta filosófica es ya, en sí mismo, un ejercicio de filosofía."
+   }
+  ]
+ },
+ "fil-t2-repaso": {
+  "name": "El ser humano (Filosofía 1.º · T2 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "Aristóteles rechazó separar el alma del cuerpo y distinguió en ella tres funciones. ¿Cuáles son?",
+    "o": [
+     "Vegetativa, sensitiva y racional",
+     "Racional, irascible y concupiscible",
+     "Vegetativa, irascible y concupiscible",
+     "Sensitiva, concupiscible y racional"
+    ],
+    "a": 0,
+    "fb": "Para Aristóteles el alma es la forma del cuerpo vivo y distingue una parte vegetativa, una sensitiva y una racional."
+   },
+   {
+    "q": "Además de la razón, ¿qué rasgo consideró Aristóteles esencial en el ser humano?",
+    "o": [
+     "La inmortalidad del alma",
+     "La naturaleza social",
+     "La libertad absoluta",
+     "El instinto de dominio"
+    ],
+    "a": 1,
+    "fb": "Aristóteles añadió a la razón nuestra naturaleza social: necesitamos vivir en comunidad para desarrollarnos y ser plenamente humanos."
+   },
+   {
+    "q": "En el mito platónico del carro alado, ¿qué representa el auriga que guía los dos caballos?",
+    "o": [
+     "Los deseos y las pasiones",
+     "El cuerpo mortal",
+     "La razón",
+     "El alma concupiscible"
+    ],
+    "a": 2,
+    "fb": "En el mito del carro alado el auriga es la razón, que debe dominar a los dos caballos, uno noble y otro rebelde."
+   },
+   {
+    "q": "En el dualismo de Descartes, ¿qué designa la res extensa?",
+    "o": [
+     "La sustancia pensante",
+     "El alma inmortal y separada",
+     "La voluntad libre",
+     "El cuerpo y la materia"
+    ],
+    "a": 3,
+    "fb": "Descartes distingue la res cogitans, la sustancia pensante, de la res extensa, que es el cuerpo y la materia."
+   },
+   {
+    "q": "Junto a Hume y Marx, ¿qué pensador antiguo sitúa el tema entre los representantes del monismo materialista?",
+    "o": [
+     "Demócrito",
+     "Platón",
+     "Descartes",
+     "Aristóteles"
+    ],
+    "a": 0,
+    "fb": "El tema sitúa en la línea del monismo materialista a Demócrito, Hume, Marx y gran parte de la ciencia actual."
+   },
+   {
+    "q": "¿Cómo se llama el proceso por el que aprendemos las normas, valores y modelos de nuestra comunidad?",
+    "o": [
+     "La hominización",
+     "La socialización",
+     "La introspección",
+     "La humanización"
+    ],
+    "a": 1,
+    "fb": "La socialización es el proceso por el que aprendemos las normas, valores y modelos de nuestra comunidad, empezando en la familia."
+   },
+   {
+    "q": "¿Qué cara de la identidad es la que comparto con quienes pertenecen a mi grupo, pueblo o cultura?",
+    "o": [
+     "La identidad personal",
+     "La autoconciencia",
+     "La identidad colectiva",
+     "La conciencia de uno mismo"
+    ],
+    "a": 2,
+    "fb": "La identidad colectiva es lo que comparto con quienes pertenecen a mi grupo, pueblo o cultura, frente a la personal, que me hace distinto."
+   },
+   {
+    "q": "Según el tema, ¿qué efecto tiene la cultura sobre las personas?",
+    "o": [
+     "Nos uniforma por completo en un solo modelo",
+     "Nos aísla de todo grupo y comunidad",
+     "Solo transmite lo que ya está en los genes",
+     "Nos hace a la vez iguales y diferentes"
+    ],
+    "a": 3,
+    "fb": "La cultura nos hace a la vez iguales, porque nos une a un grupo, y diferentes, porque cada uno la interpreta a su manera."
+   },
+   {
+    "q": "¿Qué designaba originalmente la palabra latina persona?",
+    "o": [
+     "La máscara del actor en el teatro",
+     "El alma inmortal y separada del cuerpo",
+     "El ciudadano con plenos derechos",
+     "La sustancia pensante del alma"
+    ],
+    "a": 0,
+    "fb": "La palabra persona viene del latín persona, que designaba la máscara del actor en el teatro, y luego adquirió un sentido más hondo."
+   },
+   {
+    "q": "¿Quién formuló con más fuerza que las personas son portadoras de una dignidad que no tiene precio?",
+    "o": [
+     "Platón",
+     "Kant",
+     "Descartes",
+     "Aristóteles"
+    ],
+    "a": 1,
+    "fb": "Fue Kant quien formuló con más fuerza que ser persona es portar una dignidad que no tiene precio."
+   },
+   {
+    "q": "¿Qué capacidad nos permite hablar de lo que no está presente, imaginar el futuro y pensar de forma abstracta?",
+    "o": [
+     "La memoria",
+     "La introspección",
+     "El lenguaje simbólico",
+     "La conciencia sensible"
+    ],
+    "a": 2,
+    "fb": "Gracias a la capacidad simbólica del lenguaje podemos hablar de lo ausente, imaginar el futuro, transmitir cultura y pensar de forma abstracta."
+   },
+   {
+    "q": "¿Qué filósofo comparó la vida absurda con el mito de Sísifo, condenado a empujar una roca sin fin?",
+    "o": [
+     "Ortega y Gasset",
+     "Nietzsche",
+     "Sartre",
+     "Camus"
+    ],
+    "a": 3,
+    "fb": "Camus comparó la vida sin sentido con el mito de Sísifo; el primer Sartre, en cambio, habló del ser humano arrojado al mundo."
+   },
+   {
+    "q": "¿Cómo han llamado algunos psicólogos, según el tema, a la sensación de sinsentido y aburrimiento profundo?",
+    "o": [
+     "Vacío existencial",
+     "Angustia existencial",
+     "Alienación social",
+     "Nihilismo vital"
+    ],
+    "a": 0,
+    "fb": "El vacío existencial es esa sensación de sinsentido y aburrimiento profundo que algunos psicólogos han descrito."
+   },
+   {
+    "q": "¿Qué propone la tercera respuesta ante la pregunta por el sentido de la vida?",
+    "o": [
+     "Que el sentido se encuentra solo en una vida futura",
+     "Que cada persona dé sentido a su propia vida",
+     "Que la vida carece de todo sentido",
+     "Que la naturaleza fija el sentido de antemano"
+    ],
+    "a": 1,
+    "fb": "La tercera respuesta invita a que sea cada persona quien dé sentido a su propia vida, construyéndolo con sus decisiones y compromisos."
+   },
+   {
+    "q": "En las tres imágenes del camino hacia el superhombre, ¿qué representa el niño de Nietzsche?",
+    "o": [
+     "El que carga con los deberes",
+     "El que se rebela contra lo establecido",
+     "El que crea y juega libremente",
+     "El que obedece sin preguntar"
+    ],
+    "a": 2,
+    "fb": "De las tres imágenes de Nietzsche, el niño es quien crea y juega libremente, tras el camello que carga deberes y el león que se rebela."
+   },
+   {
+    "q": "¿Qué dos dimensiones une, hoy, la persona entendida como un todo?",
+    "o": [
+     "La razón y los instintos",
+     "Lo innato y lo aprendido",
+     "Lo individual y lo social",
+     "Lo psíquico y lo corporal"
+    ],
+    "a": 3,
+    "fb": "Hoy tendemos a entender a la persona como un todo psicosomático, la unión de lo psíquico (psique) y lo corporal (soma)."
+   },
+   {
+    "q": "¿Qué criterio de identidad enlaza lo que fui, lo que soy y lo que quiero llegar a ser?",
+    "o": [
+     "La continuidad del cuerpo en el tiempo",
+     "El relato que hago de mí mismo",
+     "La memoria de los recuerdos",
+     "La conciencia de los propios actos"
+    ],
+    "a": 1,
+    "fb": "El relato que hago de mí mismo construye la identidad como una historia que enlaza lo que fui, lo que soy y lo que quiero llegar a ser."
+   },
+   {
+    "q": "¿Qué cambio de la hominización hizo posible fabricar herramientas?",
+    "o": [
+     "El dominio del fuego",
+     "La encefalización",
+     "El pulgar oponible",
+     "El desarrollo de la vida social"
+    ],
+    "a": 2,
+    "fb": "La liberación de las manos, con un pulgar oponible, fue lo que permitió fabricar herramientas, entre los cambios de la hominización."
+   },
+   {
+    "q": "¿Qué tesis sostiene que las especies no cambian a lo largo del tiempo?",
+    "o": [
+     "El transformismo",
+     "El neodarwinismo",
+     "La selección natural",
+     "El fijismo"
+    ],
+    "a": 3,
+    "fb": "El fijismo es la idea de que las especies son fijas e inmutables, contra la que se opuso Lamarck con su transformismo."
+   }
+  ]
+ },
+ "fil-t3-repaso": {
+  "name": "Conocimiento y verdad (Filosofía 1.º · T3 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "En el conocimiento sensible, ¿cuál es el primer escalón, la materia prima de todo lo demás?",
+    "o": [
+     "Un fenómeno psicofísico que surge cuando un estímulo excita un órgano sensorial",
+     "La captación organizada de un objeto que destaca sobre un fondo",
+     "La representación mental de lo que varias cosas tienen en común",
+     "Un juicio en el que se afirma o niega algo de la realidad"
+    ],
+    "a": 0,
+    "fb": "La sensación es el primer escalón del conocimiento sensible: un fenómeno psicofísico que se produce cuando un estímulo excita un órgano sensorial, la materia prima a partir de la cual se organiza el resto."
+   },
+   {
+    "q": "¿Qué conocimiento forma conceptos y comprende la realidad de manera universal, más allá de lo que ofrecen los sentidos?",
+    "o": [
+     "El conocimiento sensible, que capta los objetos concretos",
+     "El conocimiento racional o inteligible, propio de la razón",
+     "La sensación, que recoge los estímulos del entorno",
+     "La percepción, que organiza lo captado en una figura y un fondo"
+    ],
+    "a": 1,
+    "fb": "El conocimiento racional (o inteligible) va más allá de lo que los sentidos ofrecen: gracias a la razón formamos conceptos y comprendemos la realidad de manera universal y abstracta."
+   },
+   {
+    "q": "En el acto de conocer, ¿qué es el objeto?",
+    "o": [
+     "La persona capaz de darse cuenta de lo que ocurre",
+     "El razonamiento con el que justificamos una afirmación",
+     "Todo aquello a lo que podemos prestar atención",
+     "El recuerdo que conservamos de una experiencia pasada"
+    ],
+    "a": 2,
+    "fb": "Conocer es una relación entre un sujeto que conoce y un objeto conocido; el objeto es todo aquello a lo que podemos prestar atención: una cosa, una experiencia, una idea, un razonamiento."
+   },
+   {
+    "q": "Descartes puso en duda todo para hallar algo indudable. ¿Qué acabó reconociendo como punto de partida?",
+    "o": [
+     "Que los sentidos son siempre fiables",
+     "Que la experiencia es el origen de todo saber",
+     "Que la mente contiene ideas innatas",
+     "Que no podía negar que estaba pensando"
+    ],
+    "a": 3,
+    "fb": "Aun dudando de todo, Descartes no podía dudar de que estaba pensando, y en esa certeza («pienso, luego existo») cimentó su filosofía."
+   },
+   {
+    "q": "Para los escépticos como Pirrón de Elis, ¿a qué conduce suspender el juicio?",
+    "o": [
+     "A la serenidad o paz interior",
+     "A la certeza absoluta sobre las cosas",
+     "Al conocimiento de la esencia de lo real",
+     "A verdades válidas para toda cultura"
+    ],
+    "a": 0,
+    "fb": "Según los escépticos, como Pirrón de Elis, la razón solo alcanza opiniones probables; suspender el juicio sería el camino hacia la serenidad."
+   },
+   {
+    "q": "¿Qué aportación valiosa reconoce la teoría al relativismo?",
+    "o": [
+     "Que garantiza verdades absolutas e inmutables",
+     "Que invita a la tolerancia y a respetar otros puntos de vista",
+     "Que permite criticar con firmeza cualquier mentira",
+     "Que suspende el juicio para alcanzar la serenidad"
+    ],
+    "a": 1,
+    "fb": "El relativismo tiene un lado valioso: invita a la tolerancia y a respetar otros puntos de vista; su problema es que, si todo vale por igual, resulta imposible criticar ninguna mentira ni injusticia."
+   },
+   {
+    "q": "Cuando se afirma que algo es «verdadero» porque realmente existe, ¿en qué sentido se usa la palabra?",
+    "o": [
+     "En sentido moral, que alude a decir lo que se piensa",
+     "En sentido gnoseológico, que afecta a nuestros juicios",
+     "En sentido ontológico, que atañe a lo que las cosas son",
+     "En sentido práctico, que depende de su utilidad"
+    ],
+    "a": 2,
+    "fb": "La palabra «verdad» tiene varios sentidos: el ontológico se refiere a lo que realmente es; el moral, a decir lo que se piensa; y el gnoseológico, a la propiedad de nuestros juicios."
+   },
+   {
+    "q": "¿En qué consiste la desinformación?",
+    "o": [
+     "En rodearnos de mensajes parecidos a los nuestros",
+     "En aceptar solo lo que refuerza nuestras ideas",
+     "En dar más peso a las emociones que a los hechos",
+     "En difundir información falsa, a veces de forma deliberada"
+    ],
+    "a": 3,
+    "fb": "La desinformación consiste en difundir información falsa, a veces de forma deliberada; es uno de los fenómenos que prosperan en la posverdad, junto a los bulos."
+   },
+   {
+    "q": "¿Qué son los bulos o fake news?",
+    "o": [
+     "Noticias inventadas que se propagan a gran velocidad",
+     "Datos objetivos que confirman lo que ya creíamos",
+     "Mensajes que solo oímos en nuestra propia cámara de eco",
+     "Fuentes independientes que contrastan una información"
+    ],
+    "a": 0,
+    "fb": "Los bulos o fake news son noticias inventadas que se propagan a gran velocidad, sobre todo por las redes sociales."
+   },
+   {
+    "q": "Según los escépticos, ¿qué puede alcanzar la razón?",
+    "o": [
+     "Verdades absolutas e inmutables",
+     "Opiniones más o menos probables",
+     "La esencia de las cosas",
+     "El acuerdo de todos tras el diálogo"
+    ],
+    "a": 1,
+    "fb": "Para los escépticos la razón solo alcanza opiniones más o menos probables, nunca certezas absolutas; por eso proponen suspender el juicio."
+   },
+   {
+    "q": "De todos los tipos de conocimiento, ¿cuál ha alcanzado un prestigio especial, según el texto?",
+    "o": [
+     "El conocimiento sensible",
+     "El conocimiento racional",
+     "El conocimiento científico",
+     "El conocimiento artístico"
+    ],
+    "a": 2,
+    "fb": "De todos los tipos de conocimiento hay uno que ha alcanzado un prestigio especial: el conocimiento científico."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones sobre la ciencia es correcta?",
+    "o": [
+     "Se apoya en la tradición y en la autoridad de los expertos",
+     "Demuestra sus enunciados sin necesidad de contrastarlos",
+     "Estudia únicamente los fenómenos naturales",
+     "Ordena sus conocimientos en teorías coherentes"
+    ],
+    "a": 3,
+    "fb": "La ciencia es, entre otros rasgos, sistemática: ordena sus conocimientos en teorías coherentes; además es racional, objetiva, metódica y verificable."
+   },
+   {
+    "q": "El método hipotético-deductivo se sistematizó a partir de…",
+    "o": [
+     "Descartes",
+     "Galileo",
+     "Newton",
+     "Popper"
+    ],
+    "a": 1,
+    "fb": "Las ciencias empíricas emplean sobre todo el método hipotético-deductivo, sistematizado a partir de Galileo."
+   },
+   {
+    "q": "Según Popper, ¿cómo avanza la ciencia?",
+    "o": [
+     "Acumulando verdades definitivas e incuestionables",
+     "Sustituyendo paradigmas solo cuando aparecen anomalías",
+     "Por ensayo y error, mediante conjeturas y refutaciones",
+     "Verificando cada hipótesis con todos los casos posibles"
+    ],
+    "a": 2,
+    "fb": "Para Popper la ciencia avanza por ensayo y error, mediante conjeturas y refutaciones: una teoría solo puede resistir los intentos de refutarla, nunca demostrarse verdadera de manera definitiva."
+   },
+   {
+    "q": "¿Cuál de estas actividades existe desde que el ser humano talló la primera herramienta, mucho antes que la ciencia?",
+    "o": [
+     "La tecnología",
+     "La tecnociencia",
+     "La ciencia aplicada",
+     "La técnica"
+    ],
+    "a": 3,
+    "fb": "La técnica es la habilidad práctica para resolver problemas y fabricar objetos, y existe desde que el ser humano talla la primera herramienta, mucho antes que la ciencia."
+   },
+   {
+    "q": "¿Qué científica menciona el texto como única persona premiada con el Nobel en Física y en Química?",
+    "o": [
+     "Marie Curie",
+     "Hipatia de Alejandría",
+     "Rosalind Franklin",
+     "Ada Lovelace"
+    ],
+    "a": 0,
+    "fb": "Marie Curie fue pionera en el estudio de la radiactividad y única persona premiada con el Nobel en dos ciencias distintas, Física y Química."
+   },
+   {
+    "q": "¿Por qué conviene, según el texto, recuperar los nombres de las mujeres apartadas de la ciencia?",
+    "o": [
+     "Porque las mujeres investigaron más que los hombres",
+     "Porque es un modo de conocer mejor y con más justicia",
+     "Porque sus aportaciones fueron las únicas decisivas",
+     "Porque la ciencia necesita financiación adicional"
+    ],
+    "a": 1,
+    "fb": "Recuperar los nombres de las mujeres apartadas de la ciencia es también un modo de conocer mejor y con más justicia."
+   },
+   {
+    "q": "¿Qué se dice en el texto sobre una mentira que se repite muchas veces?",
+    "o": [
+     "Que acaba siendo desmentida por los hechos",
+     "Que se vuelve más fácil de detectar",
+     "Que empieza a parecer verdad",
+     "Que pierde fuerza con cada repetición"
+    ],
+    "a": 2,
+    "fb": "Una mentira repetida mil veces empieza a parecer verdad: por eso las cámaras de eco, que repiten mensajes parecidos a los nuestros, son tan peligrosas."
+   },
+   {
+    "q": "¿Cómo contrastan sus afirmaciones las ciencias empíricas?",
+    "o": [
+     "Mediante la pura coherencia lógica de sus enunciados",
+     "Por la autoridad de quienes las formulan",
+     "Sin necesidad de observación ni experimentos",
+     "Comprobándolas con la experiencia"
+    ],
+    "a": 3,
+    "fb": "Las ciencias empíricas estudian la realidad y necesitan contrastar sus afirmaciones con la experiencia, a diferencia de las formales, que se demuestran por coherencia lógica."
+   }
+  ]
+ },
+ "fil-t4-repaso": {
+  "name": "Lógica y argumentación (Filosofía 1.º · T4 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué es, en lógica, una proposición?",
+    "o": [
+     "Una pregunta abierta que no tiene una respuesta fija",
+     "Un enunciado que puede ser verdadero o falso",
+     "Una opinión personal defendida con insistencia",
+     "Un conjunto de frases que se apoyan entre ellas"
+    ],
+    "a": 1,
+    "fb": "Una proposición es un enunciado del que tiene sentido decir que es verdadero o falso, como «llueve» o «7 es primo»."
+   },
+   {
+    "q": "¿Qué es un argumento?",
+    "o": [
+     "Un enunciado aislado que describe un hecho",
+     "Una disputa en la que cada cual impone su postura",
+     "Varias proposiciones en las que unas apoyan a otra",
+     "Una conclusión que se acepta sin necesitar apoyo"
+    ],
+    "a": 2,
+    "fb": "En un argumento, unas proposiciones (las premisas) se ofrecen como apoyo de otra (la conclusión)."
+   },
+   {
+    "q": "Según la teoría, ¿qué significa argumentar?",
+    "o": [
+     "Dar razones, lo contrario de imponer o repetir",
+     "Repetir la propia idea hasta que los demás la acepten",
+     "Buscar solo datos que confirmen lo que ya creemos",
+     "Imponer una conclusión con autoridad"
+    ],
+    "a": 0,
+    "fb": "Argumentar es dar razones; es lo contrario de imponer o de repetir."
+   },
+   {
+    "q": "En «Todos los gatos maúllan; Félix es un gato; por tanto, Félix maúlla», ¿qué es «Félix maúlla»?",
+    "o": [
+     "Una premisa que apoya a las demás",
+     "La conclusión del razonamiento",
+     "Una proposición falsa",
+     "Un ejemplo sin relación con el resto"
+    ],
+    "a": 1,
+    "fb": "En un argumento, la conclusión es la proposición que se quiere sostener, y las premisas son las que la apoyan."
+   },
+   {
+    "q": "¿Qué es una falacia?",
+    "o": [
+     "Un razonamiento que parece válido sin serlo",
+     "Una afirmación que resulta ser falsa de hecho",
+     "Un argumento sólido con premisas dudosas",
+     "Una conclusión que nadie consigue refutar"
+    ],
+    "a": 0,
+    "fb": "Una falacia es un argumento que aparenta ser válido sin serlo; reconocerlas nos defiende del engaño y la manipulación."
+   },
+   {
+    "q": "Tras conocer a dos personas muy amables de una ciudad, alguien concluye: «La gente de esa ciudad es muy amable». ¿Qué falacia comete?",
+    "o": [
+     "Falsa causa",
+     "Pendiente resbaladiza",
+     "Generalización apresurada",
+     "Ad populum"
+    ],
+    "a": 2,
+    "fb": "Salta de unos pocos casos particulares a una regla general, que es justamente la generalización apresurada."
+   },
+   {
+    "q": "¿Qué convierte en falaz la apelación a la autoridad (ad verecundiam)?",
+    "o": [
+     "Que la persona citada sea muy famosa",
+     "Que su opinión coincida con la mayoría",
+     "Que se apoye también en datos objetivos",
+     "Que no sea especialista en ese asunto"
+    ],
+    "a": 3,
+    "fb": "La falacia ad verecundiam consiste en apoyarse en el prestigio de quien no es autoridad, o no lo es en el asunto tratado."
+   },
+   {
+    "q": "¿De qué se ocupa la lógica, según la teoría?",
+    "o": [
+     "De averiguar si nuestras creencias son verdaderas",
+     "De fijar las reglas morales del diálogo",
+     "De la corrección de los razonamientos",
+     "De estudiar los contenidos que pensamos"
+    ],
+    "a": 2,
+    "fb": "La lógica estudia la corrección de los razonamientos: no si lo dicho es verdad, sino si las conclusiones se siguen de las premisas."
+   },
+   {
+    "q": "La validez es una propiedad de la forma. ¿De qué es propiedad la verdad?",
+    "o": [
+     "Del contenido de las proposiciones",
+     "De la estructura del razonamiento",
+     "De las reglas de la lógica formal",
+     "De la solidez del argumento"
+    ],
+    "a": 0,
+    "fb": "La verdad es una propiedad del contenido: las premisas describen o no cómo son las cosas, con independencia de la forma."
+   },
+   {
+    "q": "Un argumento es inválido y, además, sus premisas son falsas. Según la tabla de validez y verdad, ¿cómo se califica?",
+    "o": [
+     "Sólido, porque al menos es coherente",
+     "Correcto en la forma, pero no prueba nada",
+     "Inválido, pero con conclusión garantizada",
+     "Doblemente fallido"
+    ],
+    "a": 3,
+    "fb": "Un argumento inválido con premisas falsas es, según la tabla, doblemente fallido: ni la forma ni el contenido sostienen la conclusión."
+   },
+   {
+    "q": "¿Qué caracteriza a la deducción frente a la inducción?",
+    "o": [
+     "Parte de casos particulares hacia una regla general",
+     "Conjetura una explicación para un hecho sorprendente",
+     "La conclusión se sigue de las premisas con necesidad",
+     "La conclusión es solo probable pese a premisas ciertas"
+    ],
+    "a": 2,
+    "fb": "La deducción es el razonamiento en el que la conclusión se sigue de las premisas con necesidad: si estas son verdaderas, aquella no puede ser falsa."
+   },
+   {
+    "q": "En «Todos los mamíferos respiran; la ballena es un mamífero; por tanto, la ballena respira», ¿por qué es una deducción?",
+    "o": [
+     "Porque generaliza a partir de un solo caso",
+     "Porque la conclusión se sigue con necesidad",
+     "Porque se apoya en la observación de ballenas",
+     "Porque conjetura una causa probable"
+    ],
+    "a": 1,
+    "fb": "Es una deducción porque la conclusión se sigue de las premisas con necesidad: si las premisas son verdaderas, la conclusión no puede ser falsa."
+   },
+   {
+    "q": "En el condicional «p → q», ¿cómo se denomina la proposición q?",
+    "o": [
+     "El consecuente",
+     "El antecedente",
+     "La negación",
+     "La conjunción"
+    ],
+    "a": 0,
+    "fb": "En el condicional, p es el antecedente y q el consecuente; el condicional solo es falso cuando el antecedente es verdadero y el consecuente falso."
+   },
+   {
+    "q": "¿Cuál es la función de las conectivas lógicas?",
+    "o": [
+     "Determinar si una proposición es verdadera o falsa",
+     "Clasificar los argumentos en válidos e inválidos",
+     "Eliminar las ambigüedades del lenguaje corriente",
+     "Combinar proposiciones para formar otras nuevas"
+    ],
+    "a": 3,
+    "fb": "Las conectivas combinan proposiciones y forman otras, cuyo valor de verdad depende solo del de las partes."
+   },
+   {
+    "q": "¿A qué conectiva corresponde la puerta lógica OR?",
+    "o": [
+     "A la conjunción",
+     "A la disyunción",
+     "A la negación",
+     "Al condicional"
+    ],
+    "a": 1,
+    "fb": "La puerta OR se corresponde con la disyunción (∨), igual que la AND con la conjunción y la NOT con la negación."
+   },
+   {
+    "q": "¿Quién mostró, a mediados del siglo XIX, que la lógica podía tratarse como un álgebra?",
+    "o": [
+     "Claude Shannon",
+     "Gottlob Frege",
+     "Bertrand Russell",
+     "George Boole"
+    ],
+    "a": 3,
+    "fb": "En 1854, George Boole mostró que la lógica podía tratarse como un álgebra, con 1 para «verdadero» y 0 para «falso»."
+   }
+  ]
+ },
+ "fil-t5-repaso": {
+  "name": "Ética (Filosofía 1.º · T5 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "Según la introducción del tema, ¿qué pretende la ética?",
+    "o": [
+     "Enseñar a razonar sobre cómo debemos vivir, sin dar una respuesta cerrada.",
+     "Dar a cada persona la respuesta moral correcta y definitiva.",
+     "Describir las normas que de hecho rigen en una comunidad.",
+     "Fijar la lista de deberes que obligan a todos por igual."
+    ],
+    "a": 0,
+    "fb": "La ética no entrega «la» respuesta, sino que enseña a razonar sobre cómo vivir."
+   },
+   {
+    "q": "Kant denomina heteronomía a…",
+    "o": [
+     "Darse uno mismo la ley moral mediante la propia razón.",
+     "Recibir la norma desde fuera: el miedo, la costumbre o la autoridad.",
+     "Obrar siguiendo una máxima que pueda valer como ley universal.",
+     "Actuar por respeto a la ley sin esperar recompensa."
+    ],
+    "a": 1,
+    "fb": "La heteronomía es recibir la norma desde fuera, frente a la autonomía."
+   },
+   {
+    "q": "Un conductor respeta los límites de velocidad solo porque teme la multa. Para Kant, su conducta se apoya en…",
+    "o": [
+     "La autonomía de su propia razón.",
+     "El respeto incondicional a la ley moral.",
+     "Una motivación heterónoma, fundada en el miedo.",
+     "Una máxima que todos podrían querer como ley universal."
+    ],
+    "a": 2,
+    "fb": "El miedo y la autoridad son fuentes heterónomas de la norma."
+   },
+   {
+    "q": "Según la clasificación del tema, ¿cuál de estas es una ética formal o deontológica?",
+    "o": [
+     "El eudaimonismo de Aristóteles.",
+     "El hedonismo de Epicuro.",
+     "El utilitarismo de Bentham y Mill.",
+     "La ética de Kant."
+    ],
+    "a": 3,
+    "fb": "La tabla del tema sitúa a Kant entre las éticas formales o deontológicas."
+   },
+   {
+    "q": "Según la tabla del tema, ¿qué juzgan las éticas formales?",
+    "o": [
+     "La intención y el deber.",
+     "Las consecuencias y el fin logrado.",
+     "La utilidad social del resultado.",
+     "El placer que produce la acción."
+    ],
+    "a": 0,
+    "fb": "Las éticas formales miran a la intención y al deber, no a los resultados."
+   },
+   {
+    "q": "Para Aristóteles, ¿qué carácter tienen las acciones y las cosas humanas?",
+    "o": [
+     "Son el resultado del azar, sin dirección alguna.",
+     "Todo tiende a un fin.",
+     "Carecen de propósito alguno.",
+     "Solo buscan evitar el dolor y el esfuerzo."
+    ],
+    "a": 1,
+    "fb": "«Todo tiende a un fin» es el punto de partida del eudaimonismo."
+   },
+   {
+    "q": "Según John Stuart Mill, ¿cuáles son los placeres superiores?",
+    "o": [
+     "Los del cuerpo, la comida y el descanso.",
+     "Los de la riqueza y el poder.",
+     "Los del intelecto y los sentimientos.",
+     "Los de la fama y la opinión ajena."
+    ],
+    "a": 2,
+    "fb": "Mill distingue los placeres del intelecto y los sentimientos como superiores."
+   },
+   {
+    "q": "¿Cuáles de los siguientes ámbitos pertenecen, según el tema, a la ética aplicada?",
+    "o": [
+     "La lógica y la teoría del conocimiento.",
+     "La metafísica y la ontología.",
+     "La estética y la filosofía del lenguaje.",
+     "La bioética, la ética ambiental y la ética de la IA."
+    ],
+    "a": 3,
+    "fb": "El tema cita la bioética, la ambiental, la de la tecnología/IA y la justicia global."
+   },
+   {
+    "q": "Según el tema, ¿qué preguntas reaparecen en todos los ámbitos de la ética aplicada?",
+    "o": [
+     "Qué fines merecen la pena, qué deberes obligan y cómo tratar a los demás.",
+     "Qué es la belleza y cómo se percibe en las obras de arte.",
+     "Cómo se originó el universo y de qué está compuesto.",
+     "Qué métodos emplea la ciencia natural moderna."
+    ],
+    "a": 0,
+    "fb": "Fines, deberes y trato a los demás reaparecen en toda la ética aplicada."
+   },
+   {
+    "q": "Según la tabla del tema, para las éticas formales ¿qué es «lo bueno»?",
+    "o": [
+     "Lo que conduce al fin, como la felicidad o el placer.",
+     "Lo que se hace por respeto a la ley moral.",
+     "Lo que produce utilidad para la mayoría.",
+     "Lo que satisface un deseo inmediato."
+    ],
+    "a": 1,
+    "fb": "Para las formales, lo bueno es lo que se hace por respeto a la ley moral."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "o": [
+     "Epicuro identifica el bien con el placer desenfrenado.",
+     "Aristóteles cree que la felicidad es un instante de placer.",
+     "Bentham propone la mayor felicidad para el mayor número.",
+     "Mill niega que existan placeres superiores."
+    ],
+    "a": 2,
+    "fb": "El principio de la mayor felicidad para el mayor número es de Bentham."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones es correcta sobre la ética de Kant?",
+    "o": [
+     "Juzga la acción por sus consecuencias.",
+     "Reduce la moral a los sentimientos.",
+     "Propone un imperativo que depende de los deseos.",
+     "Manda tratar a la humanidad siempre como un fin."
+    ],
+    "a": 3,
+    "fb": "Tratar a la humanidad como fin, nunca solo como medio, es de Kant."
+   },
+   {
+    "q": "¿Qué diferencia hay entre la eudaimonía de Aristóteles y la ataraxia de Epicuro?",
+    "o": [
+     "La primera es una vida lograda en su conjunto; la segunda, la ausencia de dolor y de perturbación.",
+     "La primera es la ausencia de dolor y de perturbación; la segunda, una vida lograda en su conjunto.",
+     "Ambas designan el placer desenfrenado del cuerpo.",
+     "La primera es un deber incondicional; la segunda, un placer de los sentidos."
+    ],
+    "a": 0,
+    "fb": "La eudaimonía es la vida lograda en su conjunto; la ataraxia, la ausencia de dolor y perturbación."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones es correcta sobre las escuelas helenísticas?",
+    "o": [
+     "Aristipo propone el placer moderado y la paz del alma.",
+     "Diógenes vive con lo mínimo y rechaza las convenciones.",
+     "Epicuro defiende el placer inmediato del carpe diem.",
+     "Los estoicos enseñan que no controlamos ni siquiera nuestra reacción."
+    ],
+    "a": 1,
+    "fb": "El cinismo de Diógenes es autosuficiencia y rechazo de normas y bienes."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones sobre el estoicismo es correcta?",
+    "o": [
+     "Afirma que controlamos todo lo que ocurre.",
+     "Defiende el placer inmediato como bien supremo.",
+     "Enseña a aceptar lo que no se puede cambiar.",
+     "Rechaza por completo la vida en sociedad."
+    ],
+    "a": 2,
+    "fb": "El autodominio estoico consiste en aceptar lo que no se puede cambiar."
+   },
+   {
+    "q": "¿Cuál es la pregunta central que ordena las teorías éticas del tema?",
+    "o": [
+     "¿Existe el mundo exterior?",
+     "¿Cómo se originó el lenguaje?",
+     "¿Qué es la belleza?",
+     "¿Qué hace buena a una acción?"
+    ],
+    "a": 3,
+    "fb": "El tema ordena las teorías ante la pregunta de qué hace buena a una acción."
+   },
+   {
+    "q": "¿Por qué se llama a la ética también «filosofía moral»?",
+    "o": [
+     "Porque reflexiona sobre la moral y examina si sus normas están justificadas.",
+     "Porque es el conjunto de normas y valores que rigen en una comunidad.",
+     "Porque estudia solo las costumbres de los pueblos antiguos.",
+     "Porque prescribe a cada persona qué debe hacer en cada caso."
+    ],
+    "a": 0,
+    "fb": "La ética es la reflexión filosófica sobre la moral; por eso se llama filosofía moral."
+   },
+   {
+    "q": "Una persona decide no mentir tras juzgar por sí misma, con su razón, que esa norma es correcta, sin presión externa. Kant diría que su norma es…",
+    "o": [
+     "Heterónoma, porque sigue una costumbre.",
+     "Autónoma, porque se la da su propia razón.",
+     "Impuesta por la autoridad.",
+     "Contradictoria, porque no puede universalizarse."
+    ],
+    "a": 1,
+    "fb": "La autonomía consiste en darse uno mismo la ley con la propia razón."
+   },
+   {
+    "q": "Aristóteles ilustra la virtud del valor (valentía) como un término medio entre…",
+    "o": [
+     "La prudencia y la astucia.",
+     "La generosidad y la avaricia.",
+     "La audacia y la paciencia.",
+     "La cobardía y la temeridad."
+    ],
+    "a": 3,
+    "fb": "El valor es el medio entre la cobardía (defecto) y la temeridad (exceso)."
+   }
+  ]
+ },
+ "fil-t6-repaso": {
+  "name": "La vida en sociedad: política (Filosofía 1.º · T6 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "Según Aristóteles, una persona capaz de vivir del todo aislada, sin necesitar de ninguna comunidad, sería...",
+    "o": [
+     "un sabio que se basta a sí mismo",
+     "un ciudadano modélico",
+     "un esclavo de sus pasiones",
+     "o una bestia o un dios"
+    ],
+    "a": 3,
+    "fb": "Aristóteles sostiene que la vida propiamente humana solo es posible dentro de la pólis; quien pudiera prescindir por completo de ella quedaría fuera de lo humano, de ahí «o es una bestia o es un dios»."
+   },
+   {
+    "q": "Dentro de las ramas de la filosofía, la filosofía política se sitúa como...",
+    "o": [
+     "una rama de la filosofía práctica, hermana de la ética",
+     "una ciencia empírica como la sociología",
+     "una parte de la metafísica",
+     "un capítulo de la lógica formal"
+    ],
+    "a": 0,
+    "fb": "La teoría la presenta como filosofía práctica porque no describe lo que hay sino lo que debería haber, y por eso es hermana de la ética."
+   },
+   {
+    "q": "El «estado de naturaleza» que imaginan los contractualistas no es un hecho histórico, sino...",
+    "o": [
+     "un retrato veraz de cómo vivían los primeros humanos",
+     "una hipótesis para pensar los fundamentos del poder",
+     "un mito que explica el origen sagrado del mundo",
+     "una crónica detallada de las sociedades antiguas"
+    ],
+    "a": 1,
+    "fb": "Los contractualistas lo emplean como herramienta teórica: sirve para justificar por qué conviene salir de él y crear el Estado, no para narrar lo que realmente ocurrió."
+   },
+   {
+    "q": "El pacto que describe Hobbes desemboca en un Estado que adopta la forma de...",
+    "o": [
+     "un gobierno limitado que respeta la división de poderes",
+     "una república democrática donde manda el pueblo libre",
+     "una monarquía absoluta, un poder fuerte para asegurar el orden",
+     "una asamblea de iguales que sigue la voluntad general"
+    ],
+    "a": 2,
+    "fb": "Para Hobbes, el miedo a la muerte lleva a ceder todo el poder a un soberano único (el Leviatán), cuyo valor principal es asegurar el orden y la paz."
+   },
+   {
+    "q": "Un gobernante se mantiene en el poder solo por la atracción y la fuerza personal que despierta en sus seguidores. Según Weber, su legitimidad es de tipo...",
+    "o": [
+     "tradicional",
+     "legal-racional",
+     "contractual",
+     "carismático"
+    ],
+    "a": 3,
+    "fb": "Weber llama carisma a la legitimidad que descansa en la fuerza personal de un líder, que arrastra a la gente por sus cualidades, no por la costumbre ni por las leyes."
+   },
+   {
+    "q": "Uno de los dos principios que Rawls deduce tras el «velo de ignorancia» exige que...",
+    "o": [
+     "el Estado reparta la riqueza a partes iguales",
+     "todos disfruten de iguales libertades",
+     "la mayoría decida sin ningún límite",
+     "desaparezcan todas las diferencias sociales"
+    ],
+    "a": 1,
+    "fb": "El primer principio de Rawls es el de las libertades: un sistema de iguales libertades básicas compatible con la libertad de todos."
+   },
+   {
+    "q": "En la clasificación griega, cada forma recta de gobierno tiene su versión corrupta. La que corresponde a la democracia es...",
+    "o": [
+     "la tiranía",
+     "la oligarquía",
+     "la demagogia",
+     "la aristocracia"
+    ],
+    "a": 2,
+    "fb": "Los griegos emparejaban cada forma recta con su degeneración: a la democracia (gobierno de muchos) le corresponde la demagogia."
+   },
+   {
+    "q": "Según la teoría, una ideología es...",
+    "o": [
+     "un conjunto de ideas sobre cómo organizar la sociedad",
+     "una doctrina científica comprobada empíricamente",
+     "una religión revelada por un libro sagrado",
+     "el programa electoral de un partido concreto"
+    ],
+    "a": 0,
+    "fb": "La ideología reúne ideas acerca de cómo debe organizarse la sociedad; por eso liberalismo y socialismo son dos ideologías distintas."
+   },
+   {
+    "q": "Entre los problemas nuevos que la filosofía política afronta hoy, la teoría menciona...",
+    "o": [
+     "la sucesión hereditaria de los monarcas",
+     "la invención de la escritura alfabética",
+     "la unción de los reyes medievales",
+     "el poder de las grandes tecnológicas"
+    ],
+    "a": 3,
+    "fb": "La teoría cita, junto a la globalización o la crisis ecológica, el poder creciente de las grandes tecnológicas como uno de los retos actuales."
+   },
+   {
+    "q": "La teoría advierte que la política no se reduce a la actividad de los partidos; en realidad es...",
+    "o": [
+     "la lucha por acumular el mayor poder económico",
+     "la pregunta por cómo organizar la vida en común",
+     "el conjunto de trámites de la administración",
+     "la técnica para ganar unas elecciones"
+    ],
+    "a": 1,
+    "fb": "La política, en sentido filosófico, es la reflexión sobre cómo debemos organizar la vida en común: el poder, las leyes y la justicia, no solo la acción de los partidos."
+   },
+   {
+    "q": "En el pacto que propone Locke, la creación del Estado se apoya en...",
+    "o": [
+     "el miedo a una muerte violenta",
+     "la imposición del más fuerte",
+     "el consentimiento de los gobernados",
+     "el mandato de la divinidad"
+    ],
+    "a": 2,
+    "fb": "Locke describe un pacto limitado que descansa en el consentimiento de quienes serán gobernados, no en la entrega total de poder por miedo."
+   },
+   {
+    "q": "Según la teoría, la democracia no se limita a votar, sino que exige además...",
+    "o": [
+     "un único partido que unifique todas las opiniones",
+     "la concentración del poder en un solo órgano",
+     "la ausencia de toda crítica a los gobernantes",
+     "libertades, pluralismo y control del poder"
+    ],
+    "a": 3,
+    "fb": "Votar es solo una parte: la democracia requiere libertades, pluralismo, división de poderes y mecanismos de control, que son los que la hacen real."
+   },
+   {
+    "q": "Según la teoría, el liberalismo pone el acento principalmente en...",
+    "o": [
+     "la libertad individual y los límites al poder",
+     "la igualdad absoluta de todas las rentas",
+     "la supresión de toda institución política",
+     "el predominio de una sola religión"
+    ],
+    "a": 0,
+    "fb": "El liberalismo subraya la libertad del individuo y la necesidad de poner límites al poder, frente al socialismo, que acentúa la igualdad y la justicia social."
+   },
+   {
+    "q": "¿Cuál de las siguientes afirmaciones sobre los tres contractualistas es correcta?",
+    "o": [
+     "Hobbes defiende un gobierno limitado con división de poderes",
+     "Rousseau inspira la democracia moderna con su soberanía popular",
+     "Locke describe un estado de naturaleza en guerra permanente",
+     "Rousseau firma el pacto movido por el miedo a morir"
+    ],
+    "a": 1,
+    "fb": "La teoría sitúa en Rousseau la raíz de la democracia moderna: el pueblo se gobierna a sí mismo mediante la voluntad general; las otras opciones mezclan autores."
+   },
+   {
+    "q": "Según la teoría, un poder es legítimo cuando...",
+    "o": [
+     "consigue imponerse por la fuerza bruta",
+     "lleva mucho tiempo en el cargo",
+     "quienes obedecen lo reconocen como justo",
+     "ha sido elegido una sola vez"
+    ],
+    "a": 2,
+    "fb": "La legitimidad no es solo fuerza: un poder es legítimo cuando los que lo obedecen lo aceptan por convicción, reconociéndolo como justo, y no únicamente por miedo."
+   },
+   {
+    "q": "En todos los retos que la filosofía política afronta hoy, reaparece según la teoría una misma pregunta...",
+    "o": [
+     "cómo queremos vivir juntos",
+     "quién debe heredar el trono",
+     "cuál es la lengua oficial",
+     "cómo aumentar la producción"
+    ],
+    "a": 0,
+    "fb": "Sea la crisis ecológica, la desinformación o el poder tecnológico, la teoría señala que detrás reaparece la pregunta de fondo: cómo queremos organizar la vida en común."
+   }
+  ]
+ },
+ "fil-t7-repaso": {
+  "name": "Estética: ¿qué es el arte? (Filosofía 1.º · T7 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Cuáles son las dos grandes preguntas que, según el tema, ordenan todo el estudio de la estética?",
+    "o": [
+     "Qué es lo bello y qué es el arte",
+     "Qué es la verdad y qué es el bien",
+     "Qué es la moral y qué es la política",
+     "Qué es la técnica y qué es la artesanía"
+    ],
+    "a": 0,
+    "fb": "El tema se articula en torno a esas dos cuestiones: si existe la belleza y dónde está, y qué convierte algo en una obra de arte."
+   },
+   {
+    "q": "¿Cuál de estas afirmaciones es correcta sobre la fealdad en estética?",
+    "o": [
+     "Es un defecto que elimina todo valor de una obra",
+     "Es una categoría que podemos valorar, junto a lo trágico o lo grotesco",
+     "Es simplemente la ausencia de belleza, sin valor propio",
+     "Es un sinónimo de lo agradable que no sacia ningún deseo"
+    ],
+    "a": 1,
+    "fb": "Lo bello no es lo único que valoramos: también están lo sublime, lo feo, lo trágico, lo cómico o lo grotesco, de modo que la fealdad tiene su lugar propio."
+   },
+   {
+    "q": "Cuando alguien dice «esta obra es bella» y no solo «a mí me gusta», ¿qué está reclamando?",
+    "o": [
+     "Que se le reconozca que posee mejor gusto que nadie",
+     "Que solo él puede decidir lo que vale la obra",
+     "Que los demás deberían estar de acuerdo con su juicio",
+     "Que la obra le resulte agradable en ese momento"
+    ],
+    "a": 2,
+    "fb": "Al emitir un juicio del gusto no se habla solo de uno mismo: se reclama que los demás también lo vean así, y eso es lo que lo distingue del mero «a mí me gusta»."
+   },
+   {
+    "q": "Kant llama «adherente» a la belleza de un edificio porque depende de para qué sirve. ¿Cómo llama a la de una flor, que gusta por su pura forma?",
+    "o": [
+     "Belleza sublime",
+     "Belleza interesada",
+     "Belleza desinteresada",
+     "Belleza libre"
+    ],
+    "a": 3,
+    "fb": "Kant distingue la belleza libre, que gusta por su pura forma (como una flor), de la adherente, que depende del fin para el que algo sirve."
+   },
+   {
+    "q": "¿Qué crítica se le hace a la teoría institucional del arte (Danto, Dickie)?",
+    "o": [
+     "Que no explica la música ni el arte abstracto",
+     "Que convierte el arte en lo que decidan los expertos",
+     "Que confunde el arte con la artesanía útil",
+     "Que exige que la obra represente la realidad"
+    ],
+    "a": 1,
+    "fb": "El problema señalado es que, si el arte depende solo del reconocimiento del mundo del arte, acaba siendo «lo que los expertos digan»."
+   },
+   {
+    "q": "Para Platón, la obra de arte es una «copia de una copia» porque…",
+    "o": [
+     "imita el mundo sensible, que ya es copia de las Ideas",
+     "copia directamente la Idea y la deforma al plasmarla",
+     "reproduce con fidelidad la verdad del mundo sensible",
+     "imita a otros artistas sin aportar nada nuevo a la obra"
+    ],
+    "a": 0,
+    "fb": "Como el mundo sensible ya es copia de las Ideas y el arte imita ese mundo sensible, la obra nos aleja dos veces de la verdad."
+   },
+   {
+    "q": "¿Cómo define Hegel el arte?",
+    "o": [
+     "Como la imitación exacta de la naturaleza",
+     "Como la expresión de las emociones del artista",
+     "Como lo que reconoce el mundo del arte",
+     "Como la manifestación sensible de la verdad"
+    ],
+    "a": 3,
+    "fb": "Para Hegel, el arte es la manifestación sensible de la verdad (de la Idea), aunque en el mundo moderno ha dejado de ser la vía principal para ello."
+   },
+   {
+    "q": "¿Quién ve en el arte auténtico una forma de conocimiento crítico?",
+    "o": [
+     "Platón",
+     "Aristóteles",
+     "Adorno",
+     "Duchamp"
+    ],
+    "a": 2,
+    "fb": "Adorno ve en el arte auténtico una forma de conocimiento crítico, frente a quienes lo asocian solo a entretenimiento o imitación."
+   },
+   {
+    "q": "¿Qué riesgo se atribuye al autonomismo («arte por el arte»)?",
+    "o": [
+     "Convertir el arte en sermón o en censura",
+     "Justificar cualquier contenido, por dañino que sea",
+     "Confundir el arte con la propaganda del poder",
+     "Reducir el arte a simple entretenimiento de masas"
+    ],
+    "a": 1,
+    "fb": "El riesgo del autonomismo es que, al declarar el arte independiente de la moral, acabe justificando cualquier contenido."
+   },
+   {
+    "q": "Según el tema, ¿por qué el arte nunca es del todo inocente?",
+    "o": [
+     "porque quien encarga, financia y expone una obra tiene intereses",
+     "porque toda obra exige una gran habilidad técnica del artista",
+     "porque el arte siempre imita o representa la naturaleza",
+     "porque el arte es un lujo reservado a muy pocos espectadores"
+    ],
+    "a": 0,
+    "fb": "Quien encarga, financia y expone una obra tiene intereses, y la obra transmite o discute los valores de su época, de modo que nunca es del todo inocente."
+   },
+   {
+    "q": "¿Qué concepto emplea Adorno para el entretenimiento de masas que adormece?",
+    "o": [
+     "sociedad del espectáculo",
+     "cultura de masas estética",
+     "arte comprometido",
+     "industria cultural"
+    ],
+    "a": 3,
+    "fb": "Adorno desconfiaba de la industria cultural, el entretenimiento de masas que adormece, y veía en el arte difícil y autónomo la última forma de resistencia."
+   },
+   {
+    "q": "Según el tema, ¿qué es la propaganda?",
+    "o": [
+     "El arte que toma partido para denunciar la injusticia social",
+     "El arte que no sirve a ninguna causa exterior a él",
+     "El uso del arte y la imagen por el poder para fabricar consenso",
+     "La reproducción masiva de una obra que con ello pierde su aura"
+    ],
+    "a": 2,
+    "fb": "La propaganda es el caso extremo del uso del arte y la imagen por el poder para fabricar consenso."
+   },
+   {
+    "q": "¿Qué hicieron las vanguardias del siglo XX (cubismo, dadaísmo, surrealismo, arte abstracto)?",
+    "o": [
+     "Perfeccionaron la imitación de la realidad",
+     "Abandonaron la imitación y la belleza tradicional",
+     "Recuperaron el canon de proporciones griego",
+     "Convirtieron el arte en puro entretenimiento"
+    ],
+    "a": 1,
+    "fb": "Las vanguardias abandonaron la imitación y la belleza tradicional, rompiendo casi todas las certezas heredadas sobre el arte."
+   },
+   {
+    "q": "Además de perder su aura, ¿qué le ocurrió al arte en la sociedad contemporánea según el tema?",
+    "o": [
+     "el mercado lo convirtió en inversión",
+     "dejó de producirse en las sociedades modernas",
+     "pasó a imitar con más exactitud la realidad",
+     "se volvió completamente inaccesible al público"
+    ],
+    "a": 0,
+    "fb": "El mercado convirtió el arte en inversión, un rasgo más de la estética contemporánea junto a la pérdida del aura y la ubicuidad de la imagen."
+   },
+   {
+    "q": "Según el tema, ¿qué efecto tiene la inteligencia artificial sobre la reflexión acerca del arte?",
+    "o": [
+     "Confirma que el arte se reduce a la habilidad técnica",
+     "Demuestra que solo el ser humano puede crear",
+     "Reabre las preguntas sobre qué es arte, autoría y originalidad",
+     "Hace innecesaria la alfabetización visual"
+    ],
+    "a": 2,
+    "fb": "La IA genera obras que reabren las viejas preguntas: ¿es arte?, ¿quién es el autor?, ¿qué es original?"
+   },
+   {
+    "q": "¿Qué rasgo caracteriza hoy a la imagen, según el tema?",
+    "o": [
+     "Es rara, única y casi sagrada",
+     "Es un acontecimiento de la verdad que abre el mundo",
+     "Imita fielmente la naturaleza visible",
+     "Es digital, interactiva y participativa"
+    ],
+    "a": 3,
+    "fb": "Hoy la imagen es digital, interactiva y participativa: cualquiera crea y difunde imágenes."
+   },
+   {
+    "q": "La pregunta «¿qué tienen en común una catedral, una sinfonía, un poema y un urinario firmado por Duchamp?» sirve para ilustrar…",
+    "o": [
+     "lo difícil que es definir qué es el arte",
+     "que solo la arquitectura es verdadero arte",
+     "que el arte se reduce a la habilidad manual",
+     "que toda obra debe representar la realidad"
+    ],
+    "a": 0,
+    "fb": "Esa pregunta muestra que definir el arte es más difícil de lo que parece, porque objetos muy distintos se consideran arte."
+   }
+  ]
  }
 };

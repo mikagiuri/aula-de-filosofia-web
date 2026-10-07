@@ -1,5 +1,11 @@
 // Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
 const MAPS = {
+ "map-fil-que-es": {
+  "subject": "fil",
+  "tema": "Filosofía · Tema 1",
+  "title": "¿Qué es la filosofía?",
+  "md": "# ¿Qué es la filosofía?\n## Amor a la sabiduría\n- *Philía* (amor) + *sophía* (sabiduría)\n- El filósofo **busca** la verdad, no la posee\n- Nace del **asombro**, la curiosidad y la duda\n- «Solo sé que no sé nada» (**Sócrates**)\n## Del mito al logos\n- Grecia, **s. VI a. C.**\n- **Mito**: relato de dioses; antropomórfico, arbitrario, **dogmático**\n- **Logos**: causas naturales y **argumentos**; **crítico**\n- **Tales de Mileto** busca el **arché**\n## Los tipos de saber\n- **Común**: espontáneo, no reflexivo\n- **Científico**: causas próximas; **parcial**\n- **Filosófico**: causas últimas; la realidad **en su conjunto**\n## Rasgos del saber filosófico\n- **Racional** y **crítico**\n- **Radical**: va a la raíz\n- **Universal** y **sistemático**\n- **Práctico**: ética y política\n- **Abierto** e **histórico**\n## Las ramas\n- **Metafísica**: qué es ser, qué existe\n- **Teoría del conocimiento**: qué podemos conocer\n- **Ética** y **filosofía política**\n- **Estética**, **lógica** y **antropología**\n## Con los otros saberes\n- **Ciencia**: datos y experimentos\n- **Religión**: fe y revelación\n- **Arte**: obras que hacen sentir\n- **Filosofía**: conceptos y argumentos\n## Para qué sirve\n- Pensar por uno mismo\n- Leer y comentar **textos**"
+ },
  "map-filosofia-ciencia": {
   "subject": "fil",
   "tema": "Filosofía · Filosofía de la ciencia",
