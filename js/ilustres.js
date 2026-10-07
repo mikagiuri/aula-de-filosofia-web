@@ -248,6 +248,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t3",
    "fil-t5",
+   "fil-t7",
    "fil-presocraticos"
   ]
  },
@@ -512,6 +513,29 @@ const ILUSTRES = {
    "fil-helenismo"
   ]
  },
+ "plotino": {
+  "name": "Plotino",
+  "dates": "205 – 270",
+  "born": 205,
+  "died": 270,
+  "place": "Licópolis (Egipto)",
+  "role": "filósofo neoplatónico",
+  "idea": "Toda la realidad procede del Uno por emanación necesaria, en grados decrecientes de perfección, y el alma puede volver a él mediante la contemplación y la purificación.",
+  "bio": "<p>Plotino nació en Egipto hacia el año 205; según su biógrafo Porfirio, prefería no hablar de su origen. Estudió filosofía en Alejandría con Amonio Saccas durante once años. Después acompañó una expedición militar a Persia para conocer la sabiduría oriental y, hacia el año 244, se instaló en Roma, donde fundó una escuela muy prestigiosa. Murió en Campania en el año 270. Su discípulo Porfirio ordenó sus escritos en seis grupos de nueve tratados: las <em>Enéadas</em>.</p>\n<p>Plotino es el fundador del <strong>neoplatonismo</strong>, una reinterpretación de Platón que une filosofía y experiencia religiosa. En la cima de la realidad sitúa al <strong>Uno</strong>, principio impersonal, perfecto e indescriptible. Del Uno surge, por <strong>emanación</strong>, la Inteligencia (<em>Nous</em>), donde residen las Ideas; de ella, el Alma del mundo; y, en el último grado, la materia. La emanación no es un acto libre, sino un desbordamiento necesario y eterno, como la luz que irradia del sol. La materia, lo más alejado del Uno, es privación de ser y origen del mal. El alma humana puede recorrer el camino inverso y unirse al Uno mediante la contemplación.</p>\n<p>Su influencia fue enorme. Agustín de Hipona leyó a los neoplatónicos antes de su conversión y tomó de ellos la idea del mal como privación, aunque sustituyó la emanación por una creación libre de un Dios personal. Hipatia de Alejandría enseñó dentro de esta corriente, que marcó también la filosofía islámica y el Renacimiento.</p>",
+  "obras": [
+   "Enéadas"
+  ],
+  "anecdota": "<p>Porfirio cuenta que Plotino parecía avergonzarse de tener cuerpo, y por eso se negó siempre a posar para un retrato. Cuando su discípulo Amelio se lo pidió, respondió: ¿no basta con cargar la imagen con que la naturaleza nos ha envuelto, para encima dejar una imagen de esa imagen? Amelio no se rindió: llevó a sus clases a un pintor, Carterio, que lo observó durante varias sesiones y lo pintó de memoria. La negativa encaja con su filosofía: lo sensible es solo un reflejo pálido de la verdadera realidad.</p>",
+  "fuente": "Porfirio, Vida de Plotino",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t7"
+  ]
+ },
  "agustin": {
   "name": "Agustín de Hipona",
   "dates": "354 – 430",
@@ -763,6 +787,32 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
+   "fil-t1",
+   "fil-t3"
+  ]
+ },
+ "berkeley": {
+  "name": "George Berkeley",
+  "dates": "1685 – 1753",
+  "born": 1685,
+  "died": 1753,
+  "place": "Condado de Kilkenny (Irlanda)",
+  "role": "filósofo empirista y obispo",
+  "idea": "Ser es ser percibido: las cosas materiales no existen fuera de la mente, sino que son conjuntos de ideas percibidas, sostenidas en último término por Dios.",
+  "bio": "<p>George Berkeley nació en Irlanda y estudió en el Trinity College de Dublín, donde escribió muy joven sus obras principales. Fue clérigo anglicano, viajó a América para intentar fundar un colegio en las Bermudas y, finalmente, fue nombrado obispo de Cloyne, en Irlanda.</p>\n<p>Berkeley es, junto con Locke y Hume, uno de los principales representantes del <strong>empirismo</strong> británico. Lleva el principio de que todo conocimiento procede de la experiencia hasta una conclusión radical, el <strong>inmaterialismo</strong>: solo conocemos nuestras percepciones, de modo que no hay razones para afirmar una materia que exista fuera de ellas. Su lema es que ser es ser percibido (<em>esse est percipi</em>). Las cosas siguen existiendo cuando nadie las mira porque Dios las percibe siempre. Su crítica de la sustancia material preparó el camino a Hume.</p>",
+  "obras": [
+   "Ensayo sobre una nueva teoría de la visión (1709)",
+   "Tratado sobre los principios del conocimiento humano (1710)",
+   "Tres diálogos entre Hilas y Filonús (1713)"
+  ],
+  "anecdota": "<p>James Boswell cuenta que en 1763, al salir de la iglesia, conversaba con el escritor Samuel Johnson sobre el ingenioso argumento de Berkeley para negar la existencia de la materia. Boswell comentó que era imposible refutarlo. Johnson dio entonces una fuerte patada a una piedra grande y exclamó: «¡Así lo refuto!». La respuesta se hizo célebre, aunque en realidad no refuta nada: Berkeley nunca negó que sintamos la dureza de la piedra, sino que exista algo material más allá de esas percepciones.</p>",
+  "fuente": "James Boswell, Vida de Samuel Johnson",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
    "fil-t3"
   ]
  },
@@ -800,6 +850,7 @@ const ILUSTRES = {
    "fil-t2",
    "fil-t3",
    "fil-t5",
+   "fil-t6",
    "fil-t7"
   ]
  },
@@ -877,6 +928,7 @@ const ILUSTRES = {
    "fil-t2",
    "fil-t3",
    "fil-t5",
+   "fil-t6",
    "fil-t7"
   ]
  },
@@ -926,7 +978,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t5"
+   "fil-t5",
+   "fil-t6"
   ]
  },
  "hegel": {
@@ -1326,6 +1379,7 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
+   "fil-t1",
    "fil-t3"
   ]
  },
@@ -1910,6 +1964,30 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t7"
+  ]
+ },
+ "chalmers": {
+  "name": "David Chalmers",
+  "dates": "n. 1966",
+  "born": 1966,
+  "died": null,
+  "place": "Sídney (Australia)",
+  "role": "filósofo de la mente australiano",
+  "idea": "Explicar las funciones del cerebro no basta para explicar la experiencia subjetiva: por qué sentimos algo es el problema difícil de la conciencia.",
+  "bio": "<p>David Chalmers nació en Sídney en 1966. Estudió matemáticas y después se doctoró en Filosofía y Ciencia Cognitiva en la Universidad de Indiana. Ha enseñado en Australia y en Estados Unidos, sobre todo en la Universidad de Nueva York. Es uno de los filósofos de la mente más citados de la actualidad.</p>\n<p>En los años noventa formuló el <strong>problema difícil de la conciencia</strong>. La ciencia puede explicar cómo el cerebro procesa información, pero no por qué esos procesos van acompañados de experiencia subjetiva: qué se siente al ver un color o sentir dolor. Chalmers defiende un <strong>dualismo</strong> de propiedades: la conciencia no se reduce a lo físico. Por eso aparece en el temario junto a Descartes, cuyo dualismo de alma y cuerpo reabre en un lenguaje contemporáneo.</p>",
+  "obras": [
+   "La mente consciente (1996)",
+   "Reality+ (2022)"
+  ],
+  "anecdota": "<p>En 1998, tras un congreso en Bremen, el neurocientífico Christof Koch apostó con Chalmers una caja de buen vino: Koch creía que en veinticinco años se habría encontrado en el cerebro la señal neuronal que explica la conciencia; Chalmers, que no. En 2023, en un congreso sobre la conciencia celebrado en Nueva York, se revisó la apuesta. Los experimentos no habían resuelto la cuestión, así que Koch reconoció la derrota y pagó. Chalmers no ganó por demostrar su dualismo, sino porque el problema difícil seguía abierto.</p>",
+  "fuente": "Crónicas del congreso de la Association for the Scientific Study of Consciousness (Nueva York, 2023), entre ellas la de Nature",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2"
   ]
  }
 };
