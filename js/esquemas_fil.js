@@ -396,7 +396,7 @@ Object.assign(ESQUEMAS_FIL["FIL-T2-02"], { v2: {
       "rel": "una sola realidad",
       "t": "Monismo materialista",
       "k": true,
-      "a": "Demócrito, Hume, Marx",
+      "a": "Demócrito, Hobbes, La Mettrie; hoy, Dennett y los Churchland",
       "d": "Somos cuerpo: la mente no es una sustancia aparte, sino actividad del cuerpo, sobre todo del cerebro.",
       "c": [
         {

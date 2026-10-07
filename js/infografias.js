@@ -709,8 +709,8 @@ const INFOGRAFIAS = {
         "p": "Solo hay <b>cuerpo</b>: la mente es su <b>actividad</b>, sobre todo del cerebro."
        },
        {
-        "t": "Hume",
-        "p": "Critica la idea de un <b>alma-sustancia</b> aparte del cuerpo."
+        "t": "Demócrito, Hobbes, La Mettrie",
+        "p": "Todo es <b>materia</b>; el ser humano, una «máquina» (La Mettrie). Hoy, Dennett y los Churchland."
        }
       ]
      }

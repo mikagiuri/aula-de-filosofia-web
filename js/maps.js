@@ -70,6 +70,6 @@ const MAPS = {
   "subject": "fil",
   "tema": "Filosofía · Tema 2",
   "title": "El cuerpo y la mente",
-  "md": "# El cuerpo y la mente\n## El problema mente-cuerpo\n- ¿Somos **una** cosa o **dos**?\n## Dualismo (dos realidades)\n- Cuerpo **material** + alma **inmaterial** (lo esencial)\n- **Platón** — alma inmortal, cuerpo «cárcel»; carro alado; alma en 3 partes (racional, irascible, concupiscible)\n- **Descartes** — res cogitans (mente) vs res extensa (cuerpo-máquina)\n## Monismo materialista (una realidad)\n- Solo hay **cuerpo**; la mente es su **actividad** (el cerebro)\n- **Hume** — critica el alma-sustancia\n## Los problemas\n- Dualismo: ¿cómo se comunican mente y cuerpo?\n- Monismo: ¿somos **libres** o solo química?"
+  "md": "# El cuerpo y la mente\n## El problema mente-cuerpo\n- ¿Somos **una** cosa o **dos**?\n## Dualismo (dos realidades)\n- Cuerpo **material** + alma **inmaterial** (lo esencial)\n- **Platón** — alma inmortal, cuerpo «cárcel»; carro alado; alma en 3 partes (racional, irascible, concupiscible)\n- **Descartes** — res cogitans (mente) vs res extensa (cuerpo-máquina)\n## Monismo materialista (una realidad)\n- Solo hay **cuerpo**; la mente es su **actividad** (el cerebro)\n- **Demócrito**, **Hobbes**, **La Mettrie** (el hombre máquina); hoy, **Dennett** y los **Churchland**\n## Los problemas\n- Dualismo: ¿cómo se comunican mente y cuerpo?\n- Monismo: ¿somos **libres** o solo química?"
  }
 };

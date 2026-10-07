@@ -277,7 +277,7 @@ const DECKS = {
    [
     "🧠",
     "Monismo materialista",
-    "Solo existe el cuerpo: la mente es actividad del cerebro. No hay un «alma» separada (Hume)."
+    "Solo existe el cuerpo: la mente es actividad del cerebro. No hay un «alma» separada (Demócrito, Hobbes, La Mettrie)."
    ],
    [
     "🪞",
@@ -3564,12 +3564,12 @@ const QUIZZES = {
     "q": "¿Qué quiere decir la frase «el hombre es la medida de todas las cosas»?",
     "o": [
      "Que el ser humano es el ser vivo más grande y perfecto de toda la naturaleza",
-     "Que somos nosotros quienes valoramos, medimos e interpretamos la realidad",
+     "Que no hay un criterio absoluto de verdad: las cosas son como a cada uno, o a cada comunidad, le parecen",
      "Que las medidas de longitud se tomaron del cuerpo humano (el pie, el codo…)",
      "Que la realidad existe tal como es, sin depender de quién la mire"
     ],
     "a": 1,
-    "fb": "Protágoras quería decir que es el ser humano quien valora, mide e interpreta la realidad."
+    "fb": "Protágoras hablaba de la verdad, no del lugar del ser humano en el cosmos: es una tesis relativista. Leerla como «el ser humano es el centro» es una interpretación moderna."
    },
    {
     "q": "¿Qué añadió Darwin a la idea de que las especies cambian, que ya había defendido Lamarck?",
@@ -6315,7 +6315,7 @@ const QUIZZES = {
     "fb": "Descartes distingue la res cogitans, la sustancia pensante, de la res extensa, que es el cuerpo y la materia."
    },
    {
-    "q": "Junto a Hume y Marx, ¿qué pensador antiguo sitúa el tema entre los representantes del monismo materialista?",
+    "q": "Junto a Hobbes y La Mettrie, ¿qué pensador antiguo sitúa el tema entre los representantes del monismo materialista?",
     "o": [
      "Demócrito",
      "Platón",
@@ -6323,7 +6323,7 @@ const QUIZZES = {
      "Aristóteles"
     ],
     "a": 0,
-    "fb": "El tema sitúa en la línea del monismo materialista a Demócrito, Hume, Marx y gran parte de la ciencia actual."
+    "fb": "El tema sitúa en la línea del monismo materialista a Demócrito, Hobbes, La Mettrie y, hoy, a Dennett, los Churchland y gran parte de la neurociencia."
    },
    {
     "q": "¿Cómo se llama el proceso por el que aprendemos las normas, valores y modelos de nuestra comunidad?",
