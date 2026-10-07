@@ -411,7 +411,8 @@ function logRenderParadojas(){
   const tarjeta = p => '<article class="lg-panel lg-par" id="par-' + p.id + '"><h3>' + p.titulo + '</h3><p class="lg-nota">' + p.origen + '</p><p class="lg-enun">' + p.enunciado + "</p>" +
     '<details><summary>' + logT(p.grupo === "ejercicios" ? "parForma" : "parProblema") + "</summary><p>" + p.problema + "</p>" +
     (LOG_PAR_F[p.id] ? '<p><button type="button" class="btn ghost" data-parf="' + logEsc(LOG_PAR_F[p.id]) + '">' + logT("parTabla") + " · " + logEsc(LOG_PAR_F[p.id]) + " →</button></p>" : "") +
-    (p.euler ? '<p class="lg-label">' + logT("parEuler") + "</p>" + logParEuler(p.euler) : "") +
+    (p.euler ? '<p class="lg-label">' + (p.euler.titulo || logT("parEuler")) + "</p>" + logParEuler(p.euler) : "") +
+    (p.euler2 ? '<p class="lg-label">' + (p.euler2.titulo || logT("parEuler")) + "</p>" + logParEuler(p.euler2) : "") +
     (p.escala ? '<p class="lg-label">' + logT("parEscala") + "</p>" + logParEscala(p.escala) : "") + "</details>" +
     '<details><summary>' + logT(p.grupo === "ejercicios" ? "parDice" : "parSalidas") + "</summary>" + p.salidas + "</details>" +
     '<p class="lg-pensar"><strong>' + logT("parPensar") + "</strong> " + p.pensar + "</p></article>";
