@@ -5971,7 +5971,7 @@ const QUIZZES = {
      "Que cambia la finalidad: el mito explicaba y la filosofía solo conmueve"
     ],
     "a": 2,
-    "fb": "Hegel insistió en que «el contenido del mito es el pensamiento»: lo que cambia no es tanto lo que se dice como la forma de decirlo, de relatos e imágenes a conceptos y razones, por eso es una superación que conserva lo valioso del mito."
+    "fb": "Hegel insistió en que el contenido del mito es ya pensamiento (paráfrasis de la Introducción a sus Lecciones sobre la historia de la filosofía): lo que cambia no es tanto lo que se dice como la forma de decirlo, de relatos e imágenes a conceptos y razones, por eso es una superación que conserva lo valioso del mito."
    },
    {
     "q": "¿Qué significa que el saber filosófico sea «sistemático»?",
