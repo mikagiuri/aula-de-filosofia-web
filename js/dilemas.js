@@ -327,7 +327,7 @@ const DILEMAS = [
   "debate": {
    "epoca": "Siglo XX",
    "texto": "«Obra de tal modo que trates a la humanidad, tanto en tu persona como en la de cualquier otro, siempre como un fin y nunca solamente como un medio.»",
-   "fuente": "Kant, Fundamentación de la metafísica de las costumbres (1785). El dilema lo formuló Philippa Foot en 1967; la variante del puente es de Judith Jarvis Thomson (1985).",
+   "fuente": "Kant, Fundamentación de la metafísica de las costumbres (1785). El dilema lo formuló Philippa Foot en 1967; la variante del puente la planteó Judith Jarvis Thomson en 1976, y en 1985 dio nombre al «problema del tranvía».",
    "unidad": "fil-t5"
   },
   "preguntas": [
@@ -592,5 +592,210 @@ const DILEMAS = [
   ],
   "ysi": "¿Y si el falsificador confesara que pintó el cuadro por amor al maestro, sin intención de engañar, y que fue un marchante quien le puso la firma? ¿Cambia el valor de la obra la intención de quien la hizo?",
   "dato": "Cuando van Meegeren fue detenido en 1945 acusado de vender un Vermeer a Göring, tuvo que pintar otro «Vermeer» en la cárcel, ante testigos, para demostrar que los cuadros eran falsos y librarse de la acusación de colaboracionismo. Lo consiguió."
+ },
+ {
+  "subject": "fil",
+  "grupo": "fil-humano",
+  "id": "fil-fision",
+  "emoji": "👥",
+  "etiqueta": "Identidad y supervivencia",
+  "titulo": "Los dos que despiertan",
+  "situacion": "Tras un accidente, tu cuerpo ya no tiene arreglo, pero tu cerebro sí. Los cirujanos solo pueden salvarte de una manera: separar los dos hemisferios y trasplantar cada uno a un cuerpo distinto. La operación es imaginaria, aunque parte de algo real: hay personas que viven con un solo hemisferio y otras a las que se les ha cortado la conexión entre los dos. Supón que cada mitad conserva toda tu vida mental. Los dos cuerpos despiertan. Los dos recuerdan tu infancia, reconocen a tu familia, tienen tus manías y tus planes, y los dos dicen ser tú con la misma convicción. Antes de firmar la autorización, te preguntan qué esperas que pase.",
+  "a": "Sobreviviré, aunque sea en dos: lo que me importa —mis recuerdos, mi carácter, mis proyectos— seguirá vivo en los dos, y eso es todo lo que le pedía a sobrevivir.",
+  "b": "No sobreviviré: una persona no puede ser dos; si los dos tienen el mismo derecho a ser yo, no lo es ninguno, y lo que despierta son dos personas nuevas que se parecen a mí.",
+  "pregunta": "¿Qué hace que una persona siga siendo la misma a lo largo del tiempo? Y si la identidad puede romperse en dos, ¿es la identidad lo que de verdad nos importa al sobrevivir?",
+  "enjuego": "Los criterios de la identidad personal (la memoria, el cuerpo, el relato) llevados al límite, y la diferencia entre ser el mismo individuo (identidad numérica) y ser igual (identidad cualitativa).",
+  "escuelas": [
+   {
+    "quien": "Locke (empirismo)",
+    "elige": "A",
+    "porque": "Sí, pero con un problema: la identidad personal es la continuidad de la conciencia y de la memoria, y los dos cuerpos conservan tu conciencia. Su criterio dice que los dos son tú, y una persona no puede ser dos: es un caso que Locke no se planteó.",
+    "ilustre": "locke"
+   },
+   {
+    "quien": "Parfit (siglo XX)",
+    "elige": "A",
+    "porque": "De la fisión sacó una conclusión sorprendente: lo que nos importa al sobrevivir no es la identidad, sino la continuidad psicológica (recuerdos, carácter, proyectos). Duplicarse no se parece a morir: se parece mucho a sobrevivir."
+   },
+   {
+    "quien": "Thomas Reid",
+    "elige": "B",
+    "porque": "Una persona es algo indivisible: no se puede ser media persona ni dos a la vez. La memoria muestra la identidad, pero no la crea; que los dos tengan tus recuerdos no los convierte en ti."
+   },
+   {
+    "quien": "Descartes (racionalismo)",
+    "elige": "B",
+    "porque": "Por otra razón: la mente, la cosa que piensa, es indivisible, a diferencia del cuerpo; no se puede partir por la mitad junto con los hemisferios. Lo que divide el cirujano es el cuerpo, no el yo.",
+    "ilustre": "descartes"
+   }
+  ],
+  "debate": {
+   "epoca": "Siglos XVII y XX",
+   "texto": "«Hasta donde esa conciencia pueda extenderse hacia atrás, a cualquier acción o pensamiento pasados, hasta ahí alcanza la identidad de esa persona.»",
+   "fuente": "Locke, Ensayo sobre el entendimiento humano, II, 27, 9 (capítulo añadido en la 2.ª edición, 1694). El caso de la fisión lo hizo famoso Derek Parfit («Personal Identity», 1971; Razones y personas, 1984).",
+   "unidad": "fil-t2"
+  },
+  "preguntas": [
+   "Si los dos son tú, ¿de quién es tu casa, tu móvil, tu plaza en el instituto? Y si uno comete un delito, ¿castigamos también al otro?",
+   "Thomas Reid decía que la memoria no crea la identidad, solo la muestra: el bebé que fuiste eras tú aunque no lo recuerdes. ¿Qué hay entonces, además de la memoria, que te haga ser tú?",
+   "Si te dijeran que solo uno de los dos va a despertar, ¿te parecería mejor o peor noticia? ¿Por qué es raro que «uno» suene mejor que «dos»?"
+  ],
+  "ysi": "¿Y si uno de los dos cuerpos no despertara nunca? Casi todo el mundo diría que has sobrevivido en el otro. Pero entonces que el segundo despierte no puede convertir tu supervivencia en tu muerte. Si lo hace, tu identidad depende de algo que ni siquiera te pasa a ti.",
+  "dato": "Las operaciones que inspiran el caso existen: a algunas personas con epilepsia grave se les ha cortado la conexión entre los hemisferios (el cuerpo calloso), y a algunos niños se les ha extirpado o desconectado un hemisferio entero; muchos siguen haciendo una vida normal. Roger Sperry recibió el Nobel en 1981 por estudiar a pacientes con el cerebro dividido. Lo que no existe es el trasplante: esa parte es el experimento mental."
+ },
+ {
+  "subject": "fil",
+  "grupo": "fil-conocer",
+  "id": "fil-jersey",
+  "emoji": "🧶",
+  "etiqueta": "Creencia y razón",
+  "titulo": "El jersey del asesino",
+  "situacion": "En una tienda de segunda mano encuentras un jersey de buena lana, limpio, de tu talla y a muy buen precio. La dependienta, que es sincera, te cuenta de dónde viene: perteneció a un hombre condenado por varios asesinatos, que lo llevaba a menudo. Ha pasado por una lavandería industrial y nadie más lo sabe. Sabes que la lana no guarda nada y que la maldad no es una sustancia que se pegue a la ropa. Aun así, dudas. Tienes que decidir si te lo llevas o lo dejas en la percha.",
+  "a": "Me lo llevo: sé que la tela no guarda nada, y una creencia que no puedo defender no debería decidir por mí.",
+  "b": "Lo dejo: aunque no sepa explicarlo, ese rechazo dice algo de mí, y no todo lo que siento tiene que aprobar un examen de la razón para tener derecho a existir.",
+  "pregunta": "¿Hay que creer solo lo que se puede justificar? ¿Qué hacemos con las creencias que sabemos sin fundamento pero no conseguimos dejar de sentir?",
+  "enjuego": "La diferencia entre saber y creer, el paso del mito al logos en pequeño (dentro de cada uno) y una sospecha incómoda: cuántas creencias tuyas funcionan como el jersey sin que lo notes.",
+  "escuelas": [
+   {
+    "quien": "Kant (Ilustración)",
+    "elige": "A",
+    "porque": "Ilustrarse es atreverse a servirse del propio entendimiento. Un miedo heredado que no resiste el examen de la razón no debe guiarte: dejarle decidir es seguir en la minoría de edad.",
+    "ilustre": "kant"
+   },
+   {
+    "quien": "Descartes (racionalismo)",
+    "elige": "A",
+    "porque": "Su primera regla del método: no admitir nunca como verdadero nada que no se conozca con evidencia. Un prejuicio no gana autoridad por estar muy arraigado.",
+    "ilustre": "descartes"
+   },
+   {
+    "quien": "Epicuro",
+    "elige": "A",
+    "porque": "Conocer cómo funciona la naturaleza sirve para librarse de miedos sin fundamento. La tela son átomos, como todo lo demás; temerla es dejar que un miedo vacío te quite la serenidad.",
+    "ilustre": "epicuro"
+   },
+   {
+    "quien": "Hume (empirismo)",
+    "elige": "B",
+    "porque": "Con matices: la razón sola no mueve a actuar; los sentimientos y la costumbre deciden casi todo lo que hacemos, y un rechazo sin argumento no es una locura, es algo humano. Lo que no debe hacer es convertirse en una creencia sobre la lana.",
+    "ilustre": "hume"
+   }
+  ],
+  "debate": {
+   "epoca": "Siglo XVIII (Ilustración)",
+   "texto": "«¡Ten el valor de servirte de tu propio entendimiento! He aquí el lema de la Ilustración.»",
+   "fuente": "Kant, Respuesta a la pregunta: ¿Qué es la Ilustración? (1784). La regla de no aceptar nada sin evidencia es la primera del Discurso del método de Descartes (1637).",
+   "unidad": "fil-t3"
+  },
+  "preguntas": [
+   "Intenta escribir la razón por la que no te lo pondrías. ¿Es una razón o un sentimiento con forma de razón?",
+   "¿Te pondrías una sudadera que llevó tu cantante favorito en un concierto? Si es que sí, ¿no estás creyendo lo mismo, pero al revés?",
+   "¿Cómo distingues, desde dentro, una creencia que podrías defender de una que no? ¿Se notan distintas?"
+  ],
+  "ysi": "¿Y si nadie te hubiera contado de quién era? Te lo pondrías sin pensarlo. Lo único que ha cambiado es una frase que has oído: ¿qué te toca la piel, la lana o la historia?",
+  "dato": "El psicólogo Paul Rozin y sus colaboradores estudian desde los años ochenta este «contagio mágico»: la creencia de que las cosas conservan algo de quien las tocó. Mucha gente se niega a ponerse un jersey limpio que llevó alguien malvado o enfermo, aunque reconozca que no hay ningún riesgo."
+ },
+ {
+  "subject": "fil",
+  "grupo": "fil-conocer",
+  "id": "fil-existir",
+  "emoji": "🕸️",
+  "etiqueta": "Ser y existir",
+  "titulo": "La aldea y el superhéroe",
+  "situacion": "Piensa en una aldea de Uganda: unas trescientas personas que cultivan, cuidan ganado, se conocen y se ayudan; cada una tiene nombre, cara e historia, y se despierta cada mañana igual que tú. Hace un momento no sabías que existían, y dentro de un rato las habrás olvidado. Piensa ahora en Spiderman: sabes quién hay bajo la máscara, por qué murió su tío y podrías discutir una tarde entera si acertó o no en una decisión. Spiderman no existe; las trescientas personas, sí. Un amigo te pregunta cuál de los dos es más real para ti.",
+  "a": "La aldea: existir no depende de que yo lo sepa ni de que me importe; esas personas son reales aunque nadie piense en ellas, y Spiderman no lo es aunque piense en él medio mundo.",
+  "b": "En algún sentido, Spiderman: actúa en mis ideas, en mis decisiones y en mis conversaciones; lo que existe pero no me toca en nada es, para mí, casi como si no existiera.",
+  "pregunta": "¿Qué es ser real? ¿Es lo mismo existir que estar presente en la vida de alguien? ¿De qué modo «son» las cosas que solo existen en la imaginación?",
+  "enjuego": "La distinción entre esencia y existencia (saber qué es algo no garantiza que exista), los distintos modos de ser y la vieja pregunta de la metafísica: qué hay de verdad, con independencia de cómo nos afecte.",
+  "escuelas": [
+   {
+    "quien": "Aristóteles",
+    "elige": "A",
+    "porque": "Lo real en primer lugar son las sustancias concretas, que existen por sí mismas: estas personas. Spiderman solo existe en otra cosa, en los cómics y en las mentes: es, pero de un modo derivado. El ser se dice de muchas maneras.",
+    "ilustre": "aristoteles"
+   },
+   {
+    "quien": "Tomás de Aquino",
+    "elige": "A",
+    "porque": "Puedes saber muy bien qué es Spiderman, su esencia, sin que exista. Conocer la esencia de algo no le da existencia, y la aldea tiene justo lo que a Spiderman le falta: existe.",
+    "ilustre": "tomas"
+   },
+   {
+    "quien": "Berkeley (idealismo)",
+    "elige": "A",
+    "porque": "Ser es ser percibido, pero no todo lo percibido vale igual: las ideas de los sentidos, vivas y ordenadas, que no dependen de mi voluntad, son las cosas reales; las que fabrica la imaginación, como Spiderman, son más débiles y dependen de mí.",
+    "ilustre": "berkeley"
+   },
+   {
+    "quien": "Nietzsche",
+    "elige": "B",
+    "porque": "Desconfía de quien separa un «mundo verdadero» del mundo que vivimos: en Crepúsculo de los ídolos cuenta cómo ese «mundo verdadero» acabó convirtiéndose en una fábula. Lo que cuenta es lo que actúa en una vida, y lo que Spiderman hace en la tuya es real.",
+    "ilustre": "nietzsche"
+   }
+  ],
+  "debate": {
+   "epoca": "Siglo IV a. C. y siglo XIII",
+   "texto": "«Lo que es se dice de muchas maneras, pero en relación con una sola cosa y una sola naturaleza.»",
+   "fuente": "Aristóteles, Metafísica, IV, 2, 1003a33. Siglos después, Tomás de Aquino distinguió entre la esencia de una cosa y su existencia en Sobre el ente y la esencia (hacia 1252-1256).",
+   "unidad": "fil-metafisica"
+  },
+  "preguntas": [
+   "¿Qué hace hoy en tu vida la existencia de esas trescientas personas que no haga Spiderman? Si la respuesta es «nada», ¿significa eso que existir no importa?",
+   "Los números, las leyes o las promesas tampoco se pueden tocar. ¿Existen como la aldea, como Spiderman o de una tercera manera?",
+   "Si un día viajaras a esa aldea y conocieras a sus habitantes, ¿qué cambiaría: ellos o tu relación con ellos?"
+  ],
+  "ysi": "¿Y si supieras que en esa aldea hay una niña que puede morir de una enfermedad que se cura con muy poco dinero, y que tú podrías pagarlo? ¿Seguiría pesando más Spiderman? Si cambia tu respuesta, lo real no era lo que te importaba, sino lo que te puede pedir algo.",
+  "dato": "«Existir» viene del latín exsistere, «salir, aparecer, sobresalir»: existe lo que está ahí fuera, no solo en una mente. La distinción entre saber qué es algo y saber que existe la desarrollaron Avicena y Tomás de Aquino: puedes saber perfectamente qué es un dragón sin que exista ninguno."
+ },
+ {
+  "subject": "fil",
+  "grupo": "fil-etica",
+  "id": "fil-medicamento",
+  "emoji": "🧪",
+  "etiqueta": "Motivos y razones",
+  "titulo": "El medicamento robado",
+  "situacion": "Tu abuela tiene una enfermedad grave y hay un medicamento nuevo que podría salvarla. Lo ha descubierto un pequeño laboratorio de tu ciudad: fabricar cada dosis le cuesta doscientos euros y la vende a dos mil. La sanidad pública todavía no lo cubre. Entre toda la familia habéis reunido mil euros. Le pides al dueño que os lo deje a mitad de precio o que os deje pagar el resto más adelante, y se niega: lo descubrió él y quiere ganar dinero con ello. Esa noche sabes cómo entrar en el laboratorio sin que te vean.",
+  "a": "Entrar y llevármelo: una vida vale más que el beneficio de un laboratorio, y esa razón valdría igual si la enferma fuera una desconocida.",
+  "b": "No robarlo: si cada uno se salta la ley cuando cree tener un buen motivo, la ley no protege a nadie; hay que buscar otras salidas, aunque sean más lentas.",
+  "pregunta": "¿Qué hace correcta una acción: sus consecuencias, el deber, el carácter de quien actúa o el cuidado de quienes dependen de nosotros? ¿Y qué diferencia hay entre un motivo («es mi abuela») y una razón que valga para cualquiera?",
+  "enjuego": "La vida frente a la propiedad y la ley, la diferencia entre motivo y razón, y la universalidad de la ética: una razón moral tiene que servir también cuando el enfermo no es de los tuyos.",
+  "escuelas": [
+   {
+    "quien": "Tomás de Aquino",
+    "elige": "A",
+    "porque": "En caso de necesidad extrema, todas las cosas son comunes: tomar lo ajeno para salvar una vida, la propia o la de otro, no es propiamente robar. La propiedad existe para servir a la vida, no al revés.",
+    "ilustre": "tomas"
+   },
+   {
+    "quien": "Mill (utilitarismo)",
+    "elige": "A",
+    "porque": "Cuenta las consecuencias: una vida salvada pesa mucho más que el perjuicio a un laboratorio que seguirá ganando dinero. Aunque añadiría una advertencia: una costumbre general de robar cuando uno se cree con razón tendría malas consecuencias para todos.",
+    "ilustre": "mill"
+   },
+   {
+    "quien": "Kant (ética del deber)",
+    "elige": "B",
+    "porque": "Prueba tu máxima: «robaré cuando crea que lo necesito»; convertida en ley universal, destruye la propiedad y la confianza. El deber de ayudar existe, pero no autoriza a violar el derecho de otro; Kant llegó a decir que en un caso de necesidad el acto puede quedar sin castigo, pero no por eso es justo.",
+    "ilustre": "kant"
+   },
+   {
+    "quien": "Gilligan (ética del cuidado)",
+    "elige": "B",
+    "porque": "Como Amy, la niña de su estudio: robar puede romper las relaciones de las que depende la enferma (si te detienen, ¿quién la cuida?). Hay que seguir hablando con el farmacéutico y buscar ayuda; el problema no es de matemáticas, es de vínculos."
+   }
+  ],
+  "debate": {
+   "epoca": "Siglo XVIII y siglo XX",
+   "texto": "«Obra solo según aquella máxima por la cual puedas querer al mismo tiempo que se convierta en ley universal.»",
+   "fuente": "Kant, Fundamentación de la metafísica de las costumbres (1785). Lawrence Kohlberg usó un caso como este, el dilema de Heinz, desde su tesis doctoral (1958) para estudiar cómo razonamos; Carol Gilligan le respondió en La moral y la teoría (In a Different Voice, 1982).",
+   "unidad": "fil-t5"
+  },
+  "preguntas": [
+   "Escribe tu razón sin usar «porque es mi abuela». ¿Sigue valiendo si la enferma es una desconocida? ¿Y si es alguien que te cae mal?",
+   "¿Hizo algo malo el dueño del laboratorio, o solo algo legal? ¿Puede algo ser legal e injusto a la vez?",
+   "Kohlberg decía que importa más el porqué que el sí o el no. Mira tu razón: ¿es miedo al castigo, lo que pensarían los demás, la ley o un principio que valga para todos?"
+  ],
+  "ysi": "¿Y si esa fuera la única dosis y el laboratorio la tuviera reservada para otro enfermo que ya la había pagado? Ahora robar no le quita dinero a un empresario: le quita la vida a otra persona. Si cambias de respuesta, tu razón no era «la vida vale más que la propiedad». ¿Cuál era?",
+  "dato": "El caso tiene versiones reales: hay medicamentos que cuesta poco fabricar y se venden muy caros porque la patente da a una empresa el derecho exclusivo a venderlos durante unos veinte años. Por eso las normas de la Organización Mundial del Comercio permiten a los países, en una emergencia de salud, autorizar copias sin permiso del dueño de la patente (las «licencias obligatorias»)."
  }
 ];
