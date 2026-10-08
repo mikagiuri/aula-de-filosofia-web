@@ -6819,7 +6819,7 @@ const QUIZZES = {
      "A verdades válidas para toda cultura"
     ],
     "a": 0,
-    "fb": "Según los escépticos, como Pirrón de Elis, la razón solo alcanza opiniones probables; suspender el juicio sería el camino hacia la serenidad."
+    "fb": "Pirrón de Elis no afirmaba que no se pueda conocer: ante razones igualmente fuertes suspendía el juicio (epojé), y de ahí esperaba la serenidad o paz interior (ataraxia)."
    },
    {
     "q": "¿Qué aportación valiosa reconoce la teoría al relativismo?",
