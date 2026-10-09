@@ -49,6 +49,7 @@
           <button data-view="glosario">Glosario</button>
           <button data-view="ilustres">Ilustres</button>
           <button data-view="citas">Frases</button>
+          <button data-view="adagios">Adagios</button>
         </div>
       </div>
       <div class="navsec">
@@ -257,6 +258,16 @@
     <div id="citasbody"></div>
   </section>
 
+  <section class="view" id="adagios">
+    <!-- (09-10) Adagios: lemas clásicos como lenguaje común, al modo de los lugares comunes del Renacimiento
+         (adagios.js + adagiosview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Referencia</p>
+    <h1 class="title">Adagios: el lenguaje común de la filosofía</h1>
+    <p class="lead">Lemas latinos y griegos que los filósofos llevan siglos citando: qué dicen, de dónde vienen y cuándo usarlos. Apréndetelos como un estudiante del Renacimiento.</p>
+    <div class="filterbar" id="adagiosfilter" role="group" aria-label="Filtrar adagios"></div>
+    <div id="adagiosbox"></div>
+  </section>
+
   <!-- TARJETAS -->
   <section class="view" id="tarjetas">
     <p class="eyebrow">Herramienta</p>
@@ -395,6 +406,7 @@
       <h2>Textos clásicos y traducciones</h2>
       <ul>
         <li>Las demás citas y lecturas breves proceden de traducciones de dominio público, adaptadas.</li>
+        <li>Adagios: textos latinos y griegos de dominio público; traducciones y comentarios propios. La selección y los números de referencia siguen los <em>Adagia</em> de Erasmo de Róterdam (ediciones de 1500 a 1536) y la traducción inglesa anotada de los <em>Collected Works of Erasmus</em> (University of Toronto Press, vols. 31-36).</li>
         <li>Nudos y fichas de cine (escena, preguntas y lectura trampa): elaboración propia. La idea de señalar las tensiones entre las respuestas de quien contesta procede de <em>Philosophy Experiments</em> (philosophyexperiments.com, Jeremy Stangroom).</li>
         <li>Rescritura: los fragmentos de Platón, Aristóteles, Epicuro, Hobbes, Descartes, Hume, Rousseau, Kant, Mill y Marx son versiones propias a partir de los originales, de dominio público; las cuatro versiones de cada uno son de elaboración propia.</li>
       </ul>
@@ -810,6 +822,7 @@
       <h2>Imágenes</h2>
       <ul>
         <li>Obras de arte y retratos de Wikimedia Commons y de museos y bibliotecas (Metropolitan Museum, Rijksmuseum, LACMA, Wellcome Collection, New York Public Library, Library of Congress, Walters Art Museum), en dominio público o con licencias CC0, CC BY y CC BY-SA. Cada imagen lleva su crédito.</li>
+        <li>Adagios: cuadros, grabados, portadas y mosaicos de Wikimedia Commons en dominio público o CC0 (Museo del Prado, National Gallery de Londres, British Library, British Museum, Rijksmuseum, Walters Art Museum, Biblioteca Nacional de Francia, entre otros); la divisa y una medalla de Montaigne.</li>
         <li>Ilustraciones generadas con inteligencia artificial (Gemini y Nano Banana, de Google, y FLUX).</li>
       </ul>
       <h2>Cine, series y vídeos</h2>
@@ -884,6 +897,8 @@
 <script src="js/rescrituraview.js"></script>
 <script src="js/nudos.js"></script>
 <script src="js/nudosview.js"></script>
+<script src="js/adagios.js"></script>
+<script src="js/adagiosview.js"></script>
 <!-- mermaid se carga bajo demanda al abrir Esquemas (js/lazy_libs.js) -->
 <script src="js/esquemas.js"></script>
 <script src="js/esquemas_fil.js"></script>
