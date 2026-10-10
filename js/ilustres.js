@@ -180,6 +180,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-metafisica",
+   "fil-presocraticos",
    "fil-grandes-preguntas"
   ]
  },
@@ -208,6 +209,29 @@ const ILUSTRES = {
    "fil-grandes-preguntas"
   ]
  },
+ "anaxagoras": {
+  "name": "Anaxágoras de Clazómenas",
+  "dates": "c. 500 – 428 a. C.",
+  "born": -500,
+  "died": -428,
+  "place": "Clazómenas (Jonia, actual Turquía)",
+  "role": "filósofo presocrático",
+  "idea": "Todo está formado por infinitas semillas mezcladas, y una inteligencia, el Nous, puso en marcha el torbellino que separó y ordenó el cosmos.",
+  "bio": "<p>Anaxágoras nació en Clazómenas, en Jonia, hacia el 500 a. C. Hacia mediados del siglo V se instaló en Atenas, adonde llevó la filosofía jonia, y fue amigo y consejero de Pericles. Sostenía que el Sol era una piedra incandescente, y por ello fue acusado de impiedad; tuvo que abandonar Atenas y murió en Lámpsaco hacia el 428 a. C. De su libro <em>Sobre la naturaleza</em> se conservan algunos fragmentos.</p>\n<p>Aceptó el principio de Parménides de que nada nace de la nada ni desaparece en la nada. Por eso explicó el cambio como mezcla y separación de infinitas <strong>semillas</strong> (spérmata), llamadas más tarde <strong>homeomerías</strong>: partículas diminutas de todas las cualidades. En cada cosa hay partes de todas las demás, y cada una parece lo que es por la porción que predomina. Así, el pan puede convertirse en carne y hueso porque ya los contiene. Lo que pone en marcha este proceso es el <strong>Nous</strong>, una mente o inteligencia que no se mezcla con nada y que imprimió al conjunto un movimiento de torbellino que lo ordenó.</p>\n<p>Anaxágoras es uno de los <strong>pluralistas</strong>, junto con Empédocles y Demócrito. Con el Nous, un principio inteligente aparece por primera vez como causa del orden del cosmos. Según cuenta Platón en el <em>Fedón</em>, Sócrates se entusiasmó con esta idea, aunque se decepcionó al ver que Anaxágoras apenas la usaba y explicaba casi todo con causas mecánicas.</p>",
+  "obras": [
+   "Sobre la naturaleza (fragmentos)"
+  ],
+  "anecdota": "<p>Se cuenta que Anaxágoras descuidó la fortuna de su familia para dedicarse a estudiar la naturaleza, y dejó que sus tierras se convirtieran en pasto de ovejas. Cuando alguien le reprochó que no se preocupara por su patria, señaló el cielo y respondió: «Me preocupo muchísimo por mi patria». En otra ocasión le preguntaron para qué merecía la pena haber nacido, y contestó: «Para contemplar el cielo y el orden de todo el universo». Aristóteles recoge esta última respuesta como ejemplo de una vida entregada al conocimiento.</p>",
+  "fuente": "Diógenes Laercio, Vidas II; Aristóteles, Ética eudemia I",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-presocraticos"
+  ]
+ },
  "empedocles": {
   "name": "Empédocles de Agrigento",
   "dates": "c. 495 – c. 435 a. C.",
@@ -229,7 +253,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-metafisica"
+   "fil-metafisica",
+   "fil-presocraticos"
   ]
  },
  "zenon_elea": {
@@ -247,7 +272,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-metafisica"
+   "fil-metafisica",
+   "fil-presocraticos"
   ]
  },
  "protagoras": {
@@ -299,6 +325,27 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t4"
+  ]
+ },
+ "leucipo": {
+  "name": "Leucipo",
+  "dates": "fl. c. 440 a. C.",
+  "born": -480,
+  "died": null,
+  "place": "Mileto o Abdera (no se sabe con seguridad)",
+  "role": "filósofo atomista",
+  "idea": "Todo está hecho de átomos indivisibles que se mueven en el vacío, y nada sucede al azar: todo ocurre por una razón y por necesidad.",
+  "bio": "<p>Leucipo es el fundador del <strong>atomismo</strong> y el maestro de <strong>Demócrito</strong>, pero es una figura tan oscura que ya en la Antigüedad Epicuro llegó a dudar de que hubiera existido. No sabemos con certeza ni dónde nació ni cuándo murió; solo que estuvo activo hacia mediados del siglo V a. C. Sus obras se confundieron pronto con las de Demócrito.</p>\n<p>Leucipo respondió a los eleatas, que negaban el movimiento: aceptó que el ser no nace ni se destruye, pero lo dividió en infinitas partículas diminutas e indivisibles, los <strong>átomos</strong>, y admitió que existe el <strong>vacío</strong> por el que se mueven. Todo lo que vemos nace de cómo se juntan y se separan. De él se conserva una sola frase segura: «nada sucede al azar, sino que todo ocurre por una razón y por necesidad», una de las primeras afirmaciones del <strong>determinismo</strong>.</p>",
+  "obras": [
+   "La gran cosmología (atribuida)",
+   "Sobre el intelecto"
+  ],
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-presocraticos"
   ]
  },
  "policleto": {
@@ -375,6 +422,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t2",
    "fil-metafisica",
+   "fil-presocraticos",
    "fil-grandes-preguntas"
   ]
  },
@@ -474,6 +522,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t1",
+   "fil-presocraticos",
    "fil-helenismo"
   ]
  },
@@ -528,6 +577,7 @@ const ILUSTRES = {
    "fil-t5",
    "fil-t6",
    "fil-t7",
+   "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas"
   ]
@@ -577,6 +627,7 @@ const ILUSTRES = {
   "temas": [
    "fil-metafisica",
    "fil-t5",
+   "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas"
   ]
