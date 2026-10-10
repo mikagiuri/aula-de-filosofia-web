@@ -168,6 +168,22 @@ const CITAS = [
   "img": "media/retratos/museo2/ockham.jpg"
  },
  {
+  "c": "Y vi como un espejo de la luz viviente, en el que una claridad resplandeciente fluía sobre toda criatura.",
+  "a": "Hildegard von Bingen",
+  "o": "paráfrasis no localizada en Scivias; la «luz viviente» procede de su carta a Guibert de Gembloux (1175)",
+  "e": "medieval",
+  "id": "hildegarda",
+  "img": "media/retratos/ilustres/hildegarda.jpg"
+ },
+ {
+  "c": "La revelación debe entenderse según la capacidad humana, recurriendo a metáforas y símbolos para expresar lo inefable.",
+  "a": "Maimónides",
+  "o": "paráfrasis del principio «la Torá habla según el lenguaje de los hombres», Guía de perplejos I, 26",
+  "e": "medieval",
+  "id": "maimonides",
+  "img": "media/retratos/museo2/maimonides.jpg"
+ },
+ {
   "c": "¿Qué es, pues, el tiempo? Si nadie me lo pregunta, lo sé; si quiero explicarlo a quien me lo pide, no lo sé.",
   "a": "San Agustín",
   "o": "Confesiones XI, 14, 17",
