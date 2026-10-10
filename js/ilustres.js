@@ -702,6 +702,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-metafisica",
+   "fil-t6",
    "fil-t7",
    "fil-grandes-preguntas"
   ]
@@ -1046,6 +1047,29 @@ const ILUSTRES = {
    "fil-t3"
   ]
  },
+ "harvey": {
+  "name": "William Harvey",
+  "dates": "1578 – 1657",
+  "born": 1578,
+  "died": 1657,
+  "place": "Folkestone (Inglaterra)",
+  "role": "médico y fisiólogo",
+  "idea": "La sangre circula continuamente por el cuerpo impulsada por el corazón, que actúa como una bomba, y así lo demuestran la observación y el experimento.",
+  "bio": "<p>William Harvey nació en Inglaterra, estudió en Cambridge y se formó como médico en la Universidad de Padua, entonces uno de los grandes centros de la medicina europea. De vuelta en Londres, trabajó en el hospital de San Bartolomé y fue médico de los reyes Jacobo I y Carlos I.</p>\n<p>En 1628 publicó su descubrimiento de la <strong>circulación de la sangre</strong>: el corazón funciona como una bomba que impulsa la sangre, que recorre el cuerpo en un circuito cerrado. Lo demostró con disecciones, experimentos y cálculos, frente a la medicina tradicional heredada de Galeno. Aparece en el temario como parte de la <strong>revolución científica</strong> de la época de Descartes, quien conoció su obra y la utilizó en su visión del cuerpo como una <strong>máquina</strong>, aunque discrepaba de Harvey sobre la causa del movimiento del corazón.</p>",
+  "obras": [
+   "Sobre el movimiento del corazón y de la sangre en los animales (1628)"
+  ],
+  "anecdota": "<p>John Aubrey cuenta que, en la batalla de Edgehill (1642), la primera de la guerra civil inglesa, Harvey tenía a su cargo a los hijos del rey Carlos I. Para protegerlos se retiró con ellos junto a un seto y, mientras a su alrededor se combatía, sacó un libro del bolsillo y se puso a leer tranquilamente. Solo cambió de sitio cuando una bala de cañón cayó demasiado cerca. La anécdota, tal vez exagerada, retrata al investigador absorto en el estudio incluso en medio del caos.</p>",
+  "fuente": "John Aubrey, Vidas breves",
+  "tradicion": true,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-marxismos"
+  ]
+ },
  "hobbes": {
   "name": "Thomas Hobbes",
   "dates": "1588 – 1679",
@@ -1284,7 +1308,8 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t3",
-   "fil-metafisica"
+   "fil-metafisica",
+   "fil-marxismos"
   ]
  },
  "leibniz": {
@@ -1682,8 +1707,59 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t3",
+   "fil-t6",
    "fil-t7",
    "fil-grandes-preguntas"
+  ]
+ },
+ "thompson": {
+  "name": "William Thompson",
+  "dates": "1775 – 1833",
+  "born": 1775,
+  "died": 1833,
+  "place": "Cork (Irlanda)",
+  "role": "economista y pensador socialista irlandés",
+  "idea": "Quien trabaja tiene derecho a todo lo que produce; la riqueza que se quedan los propietarios sin trabajar es una injusticia.",
+  "bio": "<p>William Thompson nació en Cork, en Irlanda, en 1775, en una rica familia de comerciantes. Al morir su padre heredó una flota mercante y unas tierras en el oeste del condado de Cork, donde vivió entre sus arrendatarios, a los que intentó mejorar la educación y los métodos de cultivo. Fue amigo de Jeremy Bentham, en cuya casa de Londres vivió una temporada. Nunca se casó. Murió en Rosscarbery, cerca de Cork, en 1833.</p>\n<p>Thompson empezó como utilitarista, pero llegó a la conclusión de que la mayor felicidad para el mayor número era imposible mientras los trabajadores no recibieran el <strong>producto íntegro de su trabajo</strong>. Analizó cómo los dueños del capital se apropian de una parte de lo que producen otros, y propuso sustituir la competencia por <strong>comunidades cooperativas</strong>. Con su amiga Anna Wheeler escribió un alegato a favor de los <strong>derechos políticos de las mujeres</strong>, contra James Mill, que quería reservar el voto a los hombres. Es uno de los economistas socialistas ingleses que Marx leyó y citó en <em>Miseria de la filosofía</em> (1847) y en <em>El capital</em>.</p>",
+  "obras": [
+   "Investigación sobre los principios de la distribución de la riqueza (1824)",
+   "Llamamiento de una mitad de la raza humana, las mujeres, contra las pretensiones de la otra mitad, los hombres (1825)",
+   "El trabajo recompensado (1827)"
+  ],
+  "anecdota": "<p>Thompson quiso que su muerte también sirviera a sus ideas. En su testamento dejó la mayor parte de su fortuna al movimiento cooperativo y pidió que su cuerpo se entregara a la ciencia. Un sobrino, en cambio, lo enterró con un funeral cristiano, lo que escandalizó a quienes lo conocían como ateo, y sus restos tuvieron que ser desenterrados para cumplir su voluntad. Sus hermanos impugnaron el testamento alegando que estaba loco. El pleito duró unos veinticinco años y los gastos del juicio se comieron la herencia: ni la familia ni las cooperativas recibieron nada.</p>",
+  "fuente": "Testamento de Thompson y pleito posterior; prensa local de Cork",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-marxismos"
+  ]
+ },
+ "feuerbach": {
+  "name": "Ludwig Feuerbach",
+  "dates": "1804 – 1872",
+  "born": 1804,
+  "died": 1872,
+  "place": "Landshut (Baviera)",
+  "role": "filósofo materialista alemán",
+  "idea": "Dios no es más que la proyección de las cualidades humanas idealizadas; al adorarlo, el ser humano se aliena y se separa de su propia esencia.",
+  "bio": "<p>Ludwig Feuerbach nació en Baviera y estudió teología y después filosofía en Berlín, donde fue alumno de Hegel. Formó parte de los llamados jóvenes hegelianos o hegelianos de izquierda. Sus ideas sobre la religión le cerraron la carrera universitaria, y vivió la mayor parte de su vida retirado, dedicado a escribir.</p>\n<p>En <em>La esencia del cristianismo</em> sostiene que la religión es una <strong>proyección</strong>: el ser humano atribuye a Dios sus propias cualidades (bondad, sabiduría, amor) y, al hacerlo, se empobrece a sí mismo. Es una forma de <strong>alienación</strong>. Frente al idealismo de Hegel, defiende un <strong>materialismo</strong> centrado en el ser humano concreto y sensible. Aparece en el temario porque influyó decisivamente en el joven Marx, que tomó de él la idea de alienación y la criticó en sus <em>Tesis sobre Feuerbach</em>.</p>",
+  "obras": [
+   "La esencia del cristianismo (1841)",
+   "Tesis provisionales para la reforma de la filosofía (1842)",
+   "Principios de la filosofía del futuro (1843)"
+  ],
+  "anecdota": "<p>En 1850, Feuerbach escribió una reseña de un libro de divulgación sobre la alimentación del fisiólogo Jacob Moleschott. En ella dejó una frase que se haría célebre gracias a un juego de palabras alemán: <em>Der Mensch ist, was er isst</em>, «el hombre es lo que come» (en alemán, «es» y «come» suenan casi igual). Con ese chiste serio resumía su materialismo: el ser humano no es un espíritu desencarnado, sino un ser concreto, sensible y dependiente de sus condiciones materiales. Sus críticos vieron en ello una vulgarización; él, una defensa del cuerpo frente al idealismo.</p>",
+  "fuente": "Feuerbach, reseña de la obra de Moleschott sobre la alimentación (1850)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
   ]
  },
  "mill": {
@@ -1790,7 +1866,9 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t5",
-   "fil-grandes-preguntas"
+   "fil-t6",
+   "fil-grandes-preguntas",
+   "fil-marxismos"
   ]
  },
  "mendel": {
@@ -1813,7 +1891,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t2"
+   "fil-t2",
+   "fil-marxismos"
   ]
  },
  "wallace": {
@@ -1997,6 +2076,32 @@ const ILUSTRES = {
    "fil-t4"
   ]
  },
+ "unamuno": {
+  "name": "Miguel de Unamuno",
+  "dates": "1864 – 1936",
+  "born": 1864,
+  "died": 1936,
+  "place": "Bilbao",
+  "role": "filósofo, novelista y poeta",
+  "idea": "El ser humano de carne y hueso vive en agonía, en lucha permanente entre la razón, que niega la inmortalidad, y el corazón, que la anhela.",
+  "bio": "<p>Miguel de Unamuno nació en Bilbao y estudió Filosofía y Letras en Madrid. Desde 1891 fue catedrático de griego en la Universidad de Salamanca, de la que llegó a ser rector. Es una de las grandes figuras de la Generación del 98. Por sus críticas a la dictadura de Primo de Rivera fue desterrado a Fuerteventura en 1924 y después vivió exiliado en Francia hasta 1930. En 1936 se enfrentó públicamente a los sublevados en Salamanca; fue destituido y murió poco después, bajo arresto domiciliario.</p>\n<p>Unamuno representa un <strong>existencialismo cristiano</strong>. Le interesa el «hombre de carne y hueso», el individuo concreto, no las abstracciones. En <em>Del sentimiento trágico de la vida</em> describe al ser humano como un ser en <strong>agonía</strong>, palabra que usa en su sentido griego de lucha: la razón le dice que no hay inmortalidad, pero el corazón la desea con todas sus fuerzas. De ese conflicto sin solución nace el <strong>sentimiento trágico de la vida</strong>. Su fe no es una certeza tranquila, sino una fe que duda. Frente al «pienso, luego existo» de Descartes, sitúa el sentimiento y la voluntad en el centro del ser humano.</p>\n<p>Expresó su pensamiento también en novelas como <em>Niebla</em> y <em>San Manuel Bueno, mártir</em>. Se le considera un precursor del existencialismo del siglo XX, con afinidades con Kierkegaard, y es, junto con Ortega y Gasset y María Zambrano, una de las voces principales de la filosofía española contemporánea.</p>",
+  "obras": [
+   "Del sentimiento trágico de la vida (1913)",
+   "Niebla (1914)",
+   "La agonía del cristianismo (1925)",
+   "San Manuel Bueno, mártir (1931)"
+  ],
+  "anecdota": "<p>Unamuno tenía una afición inesperada: hacer pajaritas de papel. Las doblaba en tertulias, en cafés y en casa, y llegó a tomárselas tan en serio como para inventar una disciplina, la <strong>cocotología</strong>, a la que dedicó un tratado burlesco al final de su novela <em>Amor y pedagogía</em> (1902). Con falsa solemnidad científica clasificaba y analizaba las pajaritas, como si fueran especies animales. Era una forma de reírse de la pedantería de quienes creen que todo puede reducirse a sistema, algo muy propio de un pensador que desconfiaba de las abstracciones.</p>",
+  "fuente": "Unamuno, Amor y pedagogía (1902), «Apuntes para un tratado de cocotología»",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "weber": {
   "name": "Max Weber",
   "dates": "1864 – 1920",
@@ -2020,7 +2125,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t6"
+   "fil-t6",
+   "fil-marxismos"
   ]
  },
  "curie": {
@@ -2142,7 +2248,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t2"
+   "fil-t2",
+   "fil-t6"
   ]
  },
  "duchamp": {
@@ -2245,7 +2352,33 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t7"
+   "fil-t7",
+   "fil-marxismos"
+  ]
+ },
+ "horkheimer": {
+  "name": "Max Horkheimer",
+  "dates": "1895 – 1973",
+  "born": 1895,
+  "died": 1973,
+  "place": "Stuttgart (Alemania)",
+  "role": "filósofo y sociólogo alemán",
+  "idea": "La razón ilustrada se ha degradado en razón instrumental, que calcula los medios más eficaces sin preguntarse por los fines, y se ha convertido así en instrumento de dominación.",
+  "bio": "<p>Max Horkheimer nació en Stuttgart en 1895, en una familia judía de industriales. Estudió filosofía y psicología y en 1930 pasó a dirigir el Instituto de Investigación Social de Fráncfort, núcleo de la llamada <strong>Escuela de Fráncfort</strong>. Con la llegada de Hitler al poder, el Instituto se trasladó al exilio, primero a Ginebra y después a Nueva York, vinculado a la Universidad de Columbia. En 1949 Horkheimer regresó a Fráncfort, donde reabrió el Instituto y llegó a ser rector de la universidad.</p>\n<p>Horkheimer definió la <strong>teoría crítica</strong>: una filosofía que no se limita a describir la sociedad, sino que busca desenmascarar la dominación y contribuir a la emancipación. Junto con Adorno escribió <em>Dialéctica de la Ilustración</em> (1944), donde sostienen que la razón ilustrada, nacida para liberar al ser humano de los mitos, ha acabado convirtiéndose en instrumento de dominio. Es la <strong>razón instrumental</strong>: una racionalidad que solo calcula los medios más eficaces y renuncia a preguntar si los fines son justos. La técnica, la economía y la <strong>industria cultural</strong> extienden así el control a toda la vida social.</p>\n<p>Su obra amplió la crítica de Marx más allá de la economía, hacia la cultura y la propia idea de razón. Influyó en Habermas, que renovó la teoría crítica desde la acción comunicativa, y en los movimientos estudiantiles de los años sesenta, aunque él se mantuvo distante de ellos. Murió en Núremberg en 1973.</p>",
+  "obras": [
+   "Teoría tradicional y teoría crítica (1937)",
+   "Dialéctica de la Ilustración (1944, con Adorno)",
+   "Crítica de la razón instrumental (1947)"
+  ],
+  "anecdota": "<p>El filósofo marxista Georg Lukács dedicó a Horkheimer, Adorno y sus colegas de Fráncfort una pulla que se hizo célebre. En 1962 escribió que se habían instalado en el «Gran Hotel Abismo»: un hotel lujoso, con todas las comodidades, asomado al borde del precipicio, desde el que contemplaban la catástrofe del mundo entre buenas comidas y obras de arte. Lukács les reprochaba criticar la sociedad sin comprometerse con la acción política. La broma resume un debate de fondo sobre la <strong>teoría crítica</strong>: si basta con pensar críticamente o hace falta transformar la realidad.</p>",
+  "fuente": "Lukács, prólogo de 1962 a Teoría de la novela",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-marxismos"
   ]
  },
  "gadamer": {
@@ -2342,7 +2475,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t7"
+   "fil-t7",
+   "fil-marxismos"
   ]
  },
  "zambrano": {
@@ -2368,7 +2502,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t1"
+   "fil-t1",
+   "fil-t6"
   ]
  },
  "sartre": {
@@ -2397,7 +2532,8 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-metafisica",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-marxismos"
   ]
  },
  "arendt": {
@@ -2710,7 +2846,8 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t3",
-   "fil-t6"
+   "fil-t6",
+   "fil-marxismos"
   ]
  },
  "baudrillard": {
