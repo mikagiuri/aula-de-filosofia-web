@@ -6977,6 +6977,155 @@ const QUIZZES = {
    }
   ]
  },
+ "fil-venn-q": {
+  "name": "Proposiciones, clases y diagramas de Euler y de Venn (Filosofía 1.º · T4)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Cuál de estas frases expresa una proposición?",
+    "o": [
+     "¡Cierra la puerta!",
+     "¿Qué hora es?",
+     "Ojalá llueva mañana.",
+     "Hoy llueve en Bilbao."
+    ],
+    "a": 3,
+    "fb": "Solo la última afirma algo que puede ser verdadero o falso. Una orden, una pregunta o un deseo no son proposiciones."
+   },
+   {
+    "q": "«Algún deportista no es zurdo» es una proposición de tipo…",
+    "o": [
+     "A",
+     "E",
+     "I",
+     "O"
+    ],
+    "a": 3,
+    "fb": "Particular (algún) y negativa (no): O. Las vocales vienen de affIrmo (A, I) y nEgO (E, O)."
+   },
+   {
+    "q": "«No todo lo que brilla es oro» equivale a…",
+    "o": [
+     "Nada de lo que brilla es oro (E).",
+     "Algo de lo que brilla no es oro (O).",
+     "Todo lo que brilla es oro (A).",
+     "Algo de lo que brilla es oro (I)."
+    ],
+    "a": 1,
+    "fb": "Negar una universal afirmativa (A) es afirmar su contradictoria, la O: basta un caso que brille y no sea oro."
+   },
+   {
+    "q": "Si «todos los exámenes del curso son escritos» es falsa, ¿qué sabemos con seguridad?",
+    "o": [
+     "Que ningún examen es escrito.",
+     "Que algún examen no es escrito.",
+     "Que algún examen es escrito.",
+     "Nada en absoluto."
+    ],
+    "a": 1,
+    "fb": "A y O son contradictorias: si una es falsa, la otra es verdadera. De la E no sabemos nada, porque las contrarias pueden ser falsas las dos."
+   },
+   {
+    "q": "Caso trampa: «Algunos alumnos han aprobado». ¿Se sigue lógicamente que algunos alumnos no han aprobado?",
+    "o": [
+     "Sí: «algunos» significa «no todos».",
+     "No: la I es compatible con que hayan aprobado todos.",
+     "Sí, por la ley de las contrarias.",
+     "Solo si hay alumnos."
+    ],
+    "a": 1,
+    "fb": "En la conversación «algunos» sugiere «no todos», pero la lógica no lo dice: I y O (subcontrarias) pueden ser verdaderas las dos, y la I es verdadera también si aprueban todos."
+   },
+   {
+    "q": "¿Qué diferencia hay entre «Sócrates ∈ humanos» y «humanos ⊆ mortales»?",
+    "o": [
+     "Ninguna: las dos dicen «es».",
+     "La primera es pertenencia de un individuo a una clase; la segunda, inclusión de una clase en otra.",
+     "La primera es inclusión y la segunda pertenencia.",
+     "Las dos son pertenencia."
+    ],
+    "a": 1,
+    "fb": "La inclusión se encadena (humanos ⊆ mortales ⊆ seres vivos); la pertenencia no: Sócrates es miembro de los humanos, pero no es una especie."
+   },
+   {
+    "q": "La unión de dos clases (A ∪ B) corresponde a la conectiva…",
+    "o": [
+     "«y» (∧)",
+     "«no» (¬)",
+     "«o» (∨)",
+     "«si…, entonces» (→)"
+    ],
+    "a": 2,
+    "fb": "x ∈ A ∪ B quiere decir x ∈ A o x ∈ B. La intersección corresponde a «y», y el complemento a «no»."
+   },
+   {
+    "q": "Según las leyes de De Morgan, (A ∪ B)ᶜ es igual a…",
+    "o": [
+     "Aᶜ ∪ Bᶜ",
+     "Aᶜ ∩ Bᶜ",
+     "A ∩ B",
+     "(A ∩ B)ᶜ"
+    ],
+    "a": 1,
+    "fb": "Fuera de la unión es estar fuera de A y, a la vez, fuera de B. Confundirlo con Aᶜ ∪ Bᶜ es el error más frecuente: compruébalo en «Leyes de conjuntos» del Rincón de lógica."
+   },
+   {
+    "q": "En un diagrama de Venn de proposiciones, una región gris significa…",
+    "o": [
+     "Que hay al menos uno.",
+     "Que no sabemos nada.",
+     "Que está vacía.",
+     "Que es la conclusión."
+    ],
+    "a": 2,
+    "fb": "Gris = vacía; ✕ = hay al menos uno; blanco = no se sabe. (En los dibujos de operaciones, en cambio, el color marca la región que resulta.)"
+   },
+   {
+    "q": "¿Qué inconveniente de los diagramas de Euler resolvió Venn?",
+    "o": [
+     "Euler no podía dibujar más de dos clases.",
+     "Con Euler hay que saber cómo están colocadas las clases; si no se sabe, hacen falta varios dibujos.",
+     "Euler usaba cuadrados en vez de círculos.",
+     "Los de Euler no servían para el silogismo."
+    ],
+    "a": 1,
+    "fb": "Entre dos clases caben cinco situaciones (Gergonne) y «algún S es P» es compatible con cuatro. Venn dibuja siempre todas las regiones y marca qué sabemos de cada una."
+   },
+   {
+    "q": "Caso trampa: «Todos los unicornios tienen un cuerno». Para la lógica actual, si no existe ningún unicornio, esta proposición es…",
+    "o": [
+     "Falsa, porque no hay unicornios.",
+     "Verdadera, porque no hay ningún unicornio que la haga falsa.",
+     "Ni verdadera ni falsa.",
+     "Contradictoria."
+    ],
+    "a": 1,
+    "fb": "La A se lee «para cualquier cosa, si es un unicornio, tiene un cuerno»: no afirma que existan unicornios. Aristóteles, en cambio, suponía que las afirmativas hablan de algo que existe."
+   },
+   {
+    "q": "El silogismo Darapti (todo M es P; todo M es S; luego algún S es P)…",
+    "o": [
+     "Es válido en cualquier lógica.",
+     "No es válido en ninguna.",
+     "Es válido para Aristóteles, pero no para la lógica actual si no hay ningún M.",
+     "Es válido solo si no hay ningún M."
+    ],
+    "a": 2,
+    "fb": "Las dos premisas universales no ponen ninguna ✕ en el diagrama de Venn. Hace falta añadir que existe al menos un M para que la conclusión aparezca."
+   },
+   {
+    "q": "¿Qué mostró la paradoja de Russell (1901-1902)?",
+    "o": [
+     "Que la lógica de Aristóteles es incoherente.",
+     "Que no toda propiedad puede definir una clase.",
+     "Que los diagramas de Venn no sirven para tres clases.",
+     "Que no existe la clase vacía."
+    ],
+    "a": 1,
+    "fb": "La clase de todas las clases que no se contienen a sí mismas se contiene a sí misma si y solo si no se contiene. Russell se lo escribió a Frege en 1902; la salida fue fijar con axiomas qué colecciones son conjuntos."
+   }
+  ]
+ },
  "fil-t4-repaso": {
   "name": "Lógica y argumentación (Filosofía 1.º · T4 · repaso)",
   "subject": "fil",

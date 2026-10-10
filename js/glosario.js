@@ -937,6 +937,114 @@ const GLOSARIO = [
  },
  {
   "subject": "fil",
+  "t": "Proposición",
+  "et": "Del latín *propositio*, de *proponere*, «poner delante».",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Lo que dice una frase que afirma o niega algo, y que por eso puede ser verdadero o falso. «Llueve» y «Euria ari du» son frases distintas que expresan la misma proposición. Una orden o una pregunta no son proposiciones."
+ },
+ {
+  "subject": "fil",
+  "t": "Juicio",
+  "et": "Del latín *iudicium*, «decisión, sentencia», de *iudex*, «juez».",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "En la lógica tradicional, el acto de la mente que afirma o niega algo de algo. La proposición es lo que queda pensado en ese acto: el juicio lo hace alguien en un momento; la proposición es la misma la piense quien la piense."
+ },
+ {
+  "subject": "fil",
+  "t": "Proposición categórica",
+  "et": "*Categórico*, del griego κατηγορικός (*kategorikós*), de κατηγορεῖν (*kategoreîn*), «afirmar algo de algo».",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "La que relaciona dos clases, un sujeto (S) y un predicado (P). Según la cantidad (universal o particular) y la cualidad (afirmativa o negativa) hay cuatro tipos: A «todo S es P», E «ningún S es P», I «algún S es P» y O «algún S no es P»."
+ },
+ {
+  "subject": "fil",
+  "t": "Cuadrado de oposición",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Esquema tradicional que ordena las proposiciones A, E, I y O en las esquinas de un cuadrado y muestra sus relaciones: contradictorias (A-O, E-I: valores siempre opuestos), contrarias (A-E: no pueden ser las dos verdaderas), subcontrarias (I-O: no pueden ser las dos falsas) y subalternas (de A se sigue I, y de E se sigue O). En la lógica actual solo se mantienen las contradictorias."
+ },
+ {
+  "subject": "fil",
+  "t": "Compromiso existencial",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Que una proposición dé por supuesto que existe aquello de lo que habla. Para Aristóteles, las afirmativas lo suponen; para la lógica actual, las universales no: «todos los unicornios tienen un cuerno» es verdadera aunque no haya unicornios. Por eso silogismos como Darapti dejan de ser válidos.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "fil",
+  "t": "Clase",
+  "et": "Del latín *classis*, «grupo, división» (originalmente, cada uno de los grupos en que se dividía a los ciudadanos romanos).",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Conjunto de todas las cosas que tienen una propiedad: la clase de los mamíferos, la de los números pares. Puede darse por extensión, enumerando sus miembros, o por comprensión, diciendo qué propiedad comparten. La clase sin miembros es la clase vacía (∅)."
+ },
+ {
+  "subject": "fil",
+  "t": "Pertenencia e inclusión",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Dos relaciones que en castellano se dicen con «es». La pertenencia (∈) une un individuo con una clase: «Sócrates ∈ humanos». La inclusión (⊆) une dos clases: «humanos ⊆ mortales». La inclusión se encadena; la pertenencia, no.",
+  "ilustre": [
+   "socrates"
+  ]
+ },
+ {
+  "subject": "fil",
+  "t": "Unión, intersección y complemento",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Las operaciones básicas con clases. La unión (A ∪ B) reúne lo que está en A o en B; la intersección (A ∩ B), lo que está en las dos; el complemento (Aᶜ), todo lo que no está en A. Corresponden a las conectivas «o», «y» y «no»."
+ },
+ {
+  "subject": "fil",
+  "t": "Leyes de De Morgan",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Negar una disyunción equivale a negar sus dos partes: ¬(p ∨ q) = ¬p ∧ ¬q («ni lo uno ni lo otro»). Negar una conjunción equivale a negar al menos una parte: ¬(p ∧ q) = ¬p ∨ ¬q. Con clases: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ y (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ. Las formuló Augustus De Morgan en el siglo XIX.",
+  "ilustre": [
+   "de_morgan"
+  ]
+ },
+ {
+  "subject": "fil",
+  "t": "Diagrama de Euler",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Dibujo que representa cada clase con un círculo colocado según la relación que se afirma: uno dentro de otro (todo), separados (ninguno) o cruzados (algunos). Lo difundió Leonhard Euler en sus cartas de 1761. Si no sabemos cómo están colocadas las clases, hay que dibujar varias situaciones.",
+  "ilustre": [
+   "euler"
+  ]
+ },
+ {
+  "subject": "fil",
+  "t": "Diagrama de Venn",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "Dibujo que representa las clases con círculos siempre cruzados, de modo que aparecen todas las regiones posibles. Se sombrean las vacías y se marca con ✕ aquella en que hay al menos uno. Lo propuso John Venn en 1880; con tres círculos permite comprobar si un silogismo es válido.",
+  "ilustre": [
+   "venn"
+  ]
+ },
+ {
+  "subject": "fil",
+  "t": "Paradoja de Russell",
+  "et": "*Paradoja*, del griego παράδοξος (*parádoxos*): παρά (*pará*) «contra» + δόξα (*dóxa*) «opinión».",
+  "area": "Lógica",
+  "tema": "Filosofía · Tema 4",
+  "def": "La clase de todas las clases que no son miembros de sí mismas, ¿es miembro de sí misma? Si lo es, no lo es; si no lo es, lo es. Bertrand Russell la comunicó a Frege en 1902 y mostró que no toda propiedad puede definir una clase.",
+  "ilustre": [
+   "frege",
+   "russell"
+  ]
+ },
+ {
+  "subject": "fil",
   "t": "Ontología",
   "et": "Del griego ὄν, ὄντος (*on, óntos*), «lo que es», y λόγος (*lógos*), «estudio».",
   "area": "Metafísica",

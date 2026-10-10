@@ -1438,6 +1438,28 @@ const ILUSTRES = {
    "fil-t6"
   ]
  },
+ "euler": {
+  "name": "Leonhard Euler",
+  "dates": "1707 – 1783",
+  "born": 1707,
+  "died": 1783,
+  "place": "Basilea (Suiza)",
+  "role": "matemático suizo",
+  "idea": "Las relaciones entre clases pueden verse como relaciones entre círculos: uno dentro de otro, separados o cruzados.",
+  "bio": "<p>Leonhard Euler nació en Basilea y estudió con el matemático Johann Bernoulli. Pasó casi toda su vida al servicio de dos academias de ciencias: la de San Petersburgo (1727-1741 y, de nuevo, desde 1766 hasta su muerte) y la de Berlín (1741-1766). Es uno de los matemáticos más productivos de la historia: escribió sobre análisis, números, mecánica, óptica y astronomía. Perdió la vista de un ojo hacia 1740 y, tras volver a San Petersburgo, quedó casi ciego; siguió trabajando dictando sus cálculos.</p>\n<p>Para la filosofía cuenta sobre todo por sus <em>Cartas a una princesa de Alemania</em>, escritas en Berlín para explicar la ciencia de su tiempo a una joven alumna y publicadas en tres volúmenes (1768-1772). En las cartas dedicadas a la lógica (de la 102 a la 108, de 1761) representó las proposiciones con <strong>círculos</strong>: un círculo dentro de otro para «todo», separados para «ninguno», cruzados para «algunos».</p>\n<p>Esos dibujos, los <strong>diagramas de Euler</strong>, se hicieron tan populares que se usan todavía para enseñar el silogismo. Un siglo después, John Venn los transformó para que sirvieran también cuando no sabemos cómo están colocadas las clases.</p>",
+  "obras": [
+   "Introducción al análisis de los infinitos (1748)",
+   "Cartas a una princesa de Alemania (1768-1772)"
+  ],
+  "fuente": "J. J. O'Connor y E. F. Robertson, «Leonhard Euler», MacTutor History of Mathematics",
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t4"
+  ]
+ },
  "lamettrie": {
   "name": "Julien Offray de La Mettrie",
   "dates": "1709 – 1751",
@@ -1840,6 +1862,28 @@ const ILUSTRES = {
    "fil-t6"
   ]
  },
+ "de_morgan": {
+  "name": "Augustus De Morgan",
+  "dates": "1806 – 1871",
+  "born": 1806,
+  "died": 1871,
+  "place": "Madurai (India)",
+  "role": "matemático y lógico británico",
+  "idea": "Negar «A o B» es afirmar «ni A ni B», y negar «A y B» es afirmar «no A, o no B»: las leyes que llevan su nombre.",
+  "bio": "<p>Augustus De Morgan nació en Madurai, en la India, donde su padre servía en el ejército británico. Estudió en el Trinity College de Cambridge y se graduó en 1827 con uno de los mejores resultados de su promoción, pero no pudo seguir en la universidad: para obtener el título superior había que superar una prueba religiosa, y se negó a hacerla por principio. En 1828 fue el primer profesor de matemáticas del nuevo University College de Londres, que no exigía esas pruebas. Dimitió dos veces por defender lo que consideraba justo.</p>\n<p>Fue uno de los grandes renovadores de la lógica en el siglo XIX, al mismo tiempo que su amigo George Boole. En <em>Lógica formal</em> (1847) estudió razonamientos que el silogismo clásico no podía tratar y formuló las leyes que hoy llevan su nombre: la negación de una disyunción equivale a la conjunción de las negaciones, y al revés.</p>\n<p>Las <strong>leyes de De Morgan</strong> valen igual para las proposiciones, para las clases y para los circuitos electrónicos. Fue también cofundador y primer presidente de la Sociedad Matemática de Londres (1865-1866).</p>",
+  "obras": [
+   "Lógica formal (1847)",
+   "Un presupuesto de paradojas (1872, póstumo)"
+  ],
+  "fuente": "J. J. O'Connor y E. F. Robertson, «Augustus De Morgan», MacTutor History of Mathematics",
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t4"
+  ]
+ },
  "darwin": {
   "name": "Charles Darwin",
   "dates": "1809 – 1882",
@@ -1993,6 +2037,31 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t2"
+  ]
+ },
+ "venn": {
+  "name": "John Venn",
+  "dates": "1834 – 1923",
+  "born": 1834,
+  "died": 1923,
+  "place": "Hull (Inglaterra)",
+  "role": "lógico y filósofo británico",
+  "idea": "Para comprobar un razonamiento hay que dibujar todas las regiones posibles y marcar cuáles están vacías.",
+  "bio": "<p>John Venn nació en Hull, en una familia de clérigos anglicanos, y estudió en el Gonville and Caius College de Cambridge, del que fue profesor el resto de su vida. Se ordenó sacerdote hacia 1859, pero en 1883 dejó el sacerdocio porque sus ideas ya no encajaban con la doctrina de la Iglesia.</p>\n<p>En <em>La lógica del azar</em> (1866) defendió que la probabilidad de un suceso es la frecuencia con que ocurre en una serie larga de casos, una idea que sigue discutiéndose hoy. En 1880 publicó en la revista <em>Philosophical Magazine</em> un artículo sobre la representación de las proposiciones con diagramas, y en 1881 su <em>Lógica simbólica</em>.</p>\n<p>Los <strong>diagramas de Venn</strong> mejoraron los de Euler: los círculos se dibujan siempre cruzados, de modo que aparecen todas las regiones posibles, y se sombrean las que están vacías. Así un solo dibujo basta para comprobar si un silogismo es válido. Hoy se usan en matemáticas, en estadística y en cualquier materia que compare grupos.</p>",
+  "obras": [
+   "La lógica del azar (1866)",
+   "Lógica simbólica (1881)",
+   "Los principios de la lógica empírica o inductiva (1889)"
+  ],
+  "anecdota": "<p>Venn era aficionado a construir máquinas. Una de ellas lanzaba pelotas de críquet, y cuando el equipo de Australia visitó Cambridge en 1909, la máquina eliminó cuatro veces a una de sus grandes figuras. Con su hijo John Archibald preparó además una lista de todos los estudiantes conocidos de la Universidad de Cambridge, que en su primera parte reúne unos 76.000 nombres.</p>",
+  "fuente": "J. J. O'Connor y E. F. Robertson, «John Venn», MacTutor History of Mathematics",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t4"
   ]
  },
  "james": {
