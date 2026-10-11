@@ -1225,7 +1225,10 @@ const GLOSARIO = [
   "et": "Del latín *fides*, «fe, confianza».",
   "area": "Metafísica",
   "tema": "Filosofía · M",
-  "def": "Postura según la cual a Dios se llega por la fe y no por la razón, de modo que los argumentos no son el camino; suele citarse a Kierkegaard."
+  "def": "Postura según la cual a Dios se llega por la fe y no por la razón, de modo que los argumentos no son el camino; suele citarse a Kierkegaard.",
+  "ilustre": [
+   "kierkegaard"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {
