@@ -45,6 +45,7 @@
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Estudiar</span>
         <div class="navmenu">
           <button data-view="teoria">Teoría</button>
+          <button data-view="esqautor">Resúmenes</button>
           <button data-view="tarjetas">Tarjetas</button>
           <button data-view="reto">Reto</button>
           <button data-view="parejas">Parejas</button>
@@ -216,8 +217,14 @@
     </div>
   </section>
 
-  <!-- ESQUEMAS DE AUTOR -->
-  
+  <!-- RESÚMENES (antes «Esquemas de autor») -->
+  <section class="view" id="esqautor">
+    <p class="eyebrow">Estudiar</p>
+    <h1 class="title">Resúmenes</h1>
+    <p class="lead"><strong>Un resumen por tema</strong> del curso, en formato textual limpio: la pregunta del tema, sus apartados con los conceptos y los autores, y la idea clave, en una página de repaso. Complementan los grafos de <strong>Esquemas</strong>.</p>
+    <div class="filterbar" id="eafilter" role="group" aria-label="Filtrar resúmenes"></div>
+    <div id="eabody"></div>
+  </section>
 
   <!-- GALERÍA -->
   <section class="view" id="galeria">
@@ -934,6 +941,8 @@
 <script src="js/esquemas_fil.js"></script>
 <script src="js/esq_grid.js"></script>
 <script src="js/esquemasview.js"></script>
+<script src="js/resumenes_fil.js"></script>
+<script src="js/esquemas_autorview.js"></script>
 <script src="js/sesiones.js"></script>
 <script src="js/sesionesview.js"></script>
 <script src="js/calendarioview.js"></script>
