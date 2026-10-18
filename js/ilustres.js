@@ -1590,6 +1590,30 @@ const ILUSTRES = {
    "fil-t6"
   ]
  },
+ "voltaire": {
+  "name": "Voltaire",
+  "dates": "1694 – 1778",
+  "born": 1694,
+  "died": 1778,
+  "place": "París (Francia)",
+  "role": "escritor y filósofo ilustrado",
+  "idea": "La razón debe combatir el fanatismo y la superstición; la tolerancia religiosa y la libertad de expresión son condiciones de una sociedad civilizada.",
+  "bio": "<p>François-Marie Arouet, conocido como Voltaire, nació en París en una familia burguesa y se educó con los jesuitas. Sus escritos satíricos le llevaron dos veces a la Bastilla y al exilio en Inglaterra, donde admiró la libertad política, la física de Newton y la filosofía de Locke. Pasó sus últimos años en Ferney, cerca de Ginebra, y fue el escritor más célebre de la Ilustración.</p>\n<p>Voltaire aparece en el temario como defensor de la <strong>tolerancia religiosa</strong> frente al <strong>fanatismo</strong>. Intervino en casos de injusticia como el del comerciante protestante Jean Calas, ejecutado en 1762, y criticó con ironía la intolerancia de la Iglesia. En <em>Cándido</em> se burló del optimismo de Leibniz. Sin embargo, como la mayoría de los ilustrados, no extendió la igualdad a las mujeres.</p>",
+  "obras": [
+   "Cartas filosóficas (1734)",
+   "Cándido (1759)",
+   "Tratado sobre la tolerancia (1763)",
+   "Diccionario filosófico (1764)"
+  ],
+  "anecdota": "<p>En 1729, el matemático La Condamine descubrió un fallo en una lotería organizada por el gobierno francés: los premios superaban lo que costaba comprar todos los billetes. Voltaire se unió a él y a otros socios, compraron billetes en masa durante meses y ganaron una fortuna. Con ese dinero, bien invertido después, Voltaire se hizo rico e independiente. No necesitó protectores ni pensiones, y esa independencia económica le permitió escribir con una libertad que pocos autores de su tiempo podían permitirse.</p>",
+  "fuente": "Biografías de Voltaire, a partir de testimonios de la época",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": []
+ },
  "euler": {
   "name": "Leonhard Euler",
   "dates": "1707 – 1783",
