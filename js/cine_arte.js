@@ -287,5 +287,128 @@ const CINE = [
    "Clasifica los deseos de Joe según Epicuro (naturales y necesarios, naturales y no necesarios, ni naturales ni necesarios). ¿Qué diría un estoico del concierto?"
   ],
   "trampa": "Confundir el epicureísmo con «disfruta el momento»: Epicuro pide calcular los placeres y prefiere la serenidad (ataraxia) a la intensidad."
+ },
+ {
+  "tema": "fil-t5",
+  "kind": "cine",
+  "t": "After the Dark",
+  "year": 2013,
+  "autor": "John Huddles",
+  "q": "Diez personas en un búnker y plazas solo para algunas: ¿quién merece sobrevivir y, sobre todo, quién decide?",
+  "esc": "El profesor plantea el juego: tras un apocalipsis nuclear hay un búnker con plazas limitadas; cada alumno recibe una profesión y entre todos deben decidir a quién dejan fuera. En una segunda partida, el propio profesor se cuela en el búnker y cambia las reglas.",
+  "pregs": [
+   "¿Con qué criterio eligen a quién salvar: por la utilidad de su oficio, por sus cualidades, por sorteo? Defiende un criterio y di a quién deja fuera.",
+   "El profesor manipula el juego para ganar. ¿Invalida eso el ejercicio o enseña algo sobre quién pone las reglas de un dilema? Argumenta.",
+   "¿Vale una persona por lo que aporta al grupo (criterio utilitarista) o por sí misma (dignidad, Kant)? Aplica las dos respuestas al reparto del búnker."
+  ],
+  "trampa": "Creer que el dilema «demuestra» qué vida vale más: el juego está amañado por quien reparte los papeles y cambia las reglas. La película enseña a desconfiar de quien plantea el dilema, no a resolverlo.",
+  "aviso": "Violencia en las simulaciones."
+ },
+ {
+  "tema": "fil-t6",
+  "kind": "cine",
+  "t": "Good Bye, Lenin!",
+  "year": 2003,
+  "autor": "Wolfgang Becker",
+  "q": "Un hijo finge que la RDA sigue viva para no matar del disgusto a su madre: verdad, mentira piadosa e ideología.",
+  "esc": "La madre, comunista convencida, despierta de un coma sin saber que el Muro ha caído (noviembre de 1989). El médico avisa de que otro sobresalto la mataría, y Alex reconstruye en el piso una RDA que ya no existe: productos, noticias y hasta un telediario inventado.",
+  "pregs": [
+   "¿Está justificado que Alex mienta a su madre para protegerla? ¿Hasta dónde? Pon el límite y razónalo.",
+   "La RDA que Alex recrea es más amable que la real. ¿Miente solo sobre los hechos o también idealiza un sistema? ¿Es lo mismo recordar con nostalgia que defender?",
+   "¿Fue la RDA sobre todo un Estado que cuidaba (sanidad, empleo, igualdad) o sobre todo un Estado que vigilaba y reprimía (Stasi, Muro, falta de libertades)? Reúne argumentos de los dos lados, sin dar un veredicto cerrado."
+  ],
+  "trampa": "Quedarse solo con la «Ostalgie» (la nostalgia amable de la RDA) o solo con su rechazo total, como si cupiera una única lectura: la película juega con las dos y no cierra el debate. Confundir el cariño por una época de la propia vida con la valoración política de un régimen es un salto que conviene vigilar."
+ },
+ {
+  "tema": "fil-t4",
+  "kind": "cine",
+  "t": "Contra",
+  "year": 2021,
+  "autor": "Sönke Wortmann",
+  "q": "Un profesor cínico enseña a una estudiante a ganar debates: ¿es lo mismo convencer que tener razón?",
+  "esc": "Una joven del extrarradio que sueña con ser abogada se enfrenta el primer día a un profesor provocador; obligado a prepararla para un concurso nacional de debate, él le enseña trucos de retórica para desmontar al rival.",
+  "pregs": [
+   "¿Qué le enseña el profesor: a razonar mejor o a «ganar»? ¿Son lo mismo? Pon un ejemplo de cada cosa sacado de la película.",
+   "Ella aprende a vencer en el debate. ¿La hace eso tener razón? Distingue entre persuadir, convencer y demostrar.",
+   "Localiza en sus «trucos» al menos una falacia (ataque a la persona, hombre de paja, apelación a la emoción) y explica por qué funciona aunque sea tramposa."
+  ],
+  "trampa": "Confundir ganar un debate con tener razón: la retórica mueve al público, pero un argumento válido no depende de quién aplauda. Y el error contrario: creer que toda retórica es trampa, cuando persuadir con buenas razones es legítimo."
+ },
+ {
+  "tema": "fil-t6",
+  "kind": "cine",
+  "t": "La ola",
+  "year": 2008,
+  "autor": "Dennis Gansel",
+  "q": "Un experimento de aula sobre la autocracia se va de las manos: ¿cómo nace un régimen totalitario, incluso en un instituto?",
+  "esc": "El profesor Wenger monta en clase un movimiento con nombre, saludo y disciplina, «La Ola», para explicar la autocracia; en pocos días el grupo se cohesiona, señala a los de fuera y la cosa se le escapa de las manos.",
+  "pregs": [
+   "¿Qué ofrece «La Ola» a los alumnos que los engancha: pertenencia, igualdad, un líder? ¿Qué necesidad humana aprovecha?",
+   "¿Es Wenger responsable de lo que pasa, aunque empezara con buena intención? ¿Dónde estaba el punto en que debió parar? Argumenta.",
+   "¿Confirma la película que «cualquiera caería» o muestra que algunos resisten, y por qué? ¿Qué hace falta para no seguir a la masa?"
+  ],
+  "trampa": "Sacar la lección cómoda de «esto solo pasaba en la Alemania nazi» o «a mí no me pasaría»: el experimento se inspira en un caso real (la «Tercera Ola» de Ron Jones, Palo Alto, 1967) y apunta a mecanismos de grupo que operan en cualquier parte.",
+  "aviso": "Un suicidio al final."
+ },
+ {
+  "tema": "fil-t2",
+  "kind": "cine",
+  "t": "Los dioses deben de estar locos",
+  "year": 1980,
+  "autor": "Jamie Uys",
+  "q": "Una botella de refresco caída del cielo trastorna a un pueblo del Kalahari: ¿qué es «natural» y qué es cultural en nosotros?",
+  "esc": "Una botella de cristal cae de una avioneta en manos de un grupo san del Kalahari; al principio es un regalo útil, pero al haber una sola empieza a provocar envidia y disputas, y deciden «devolverla» arrojándola al fin del mundo.",
+  "pregs": [
+   "El objeto no cambia; cambia lo que provoca en el grupo. ¿Qué dice eso sobre si nuestros deseos y conflictos son «naturales» o aprendidos?",
+   "La película mira a los san como «inocentes» y a la ciudad como «loca». ¿Es una crítica a nuestra cultura o un retrato paternalista de la suya? Toma partido con razones.",
+   "¿Qué tenemos «por naturaleza» y qué «por cultura»? Usa el ejemplo de la botella para separar las dos cosas, o para mostrar que no se dejan separar del todo."
+  ],
+  "trampa": "Tomar el retrato de los san como realidad etnográfica: es una comedia de 1980 que idealiza y simplifica (el mito del «buen salvaje»). Verla es también un ejercicio de preguntarse quién cuenta la historia y desde dónde."
+ },
+ {
+  "tema": "fil-t5",
+  "kind": "cine",
+  "t": "Criadas y señoras",
+  "year": 2011,
+  "autor": "Tate Taylor",
+  "q": "Empleadas negras del hogar en el Misisipi de los años 60 cuentan su versión: dignidad, reconocimiento y quién tiene voz.",
+  "esc": "En Jackson (Misisipi), hacia 1963, una joven blanca recién licenciada recoge en secreto los testimonios de las empleadas negras del servicio doméstico, que sufren la segregación hasta en el uso del baño.",
+  "pregs": [
+   "¿Qué se les niega a las empleadas además de derechos: también reconocimiento, voz, dignidad? Distingue las distintas cosas que están en juego.",
+   "Obedecen unas normas que consideran injustas. ¿Cuándo deja de obligar una norma? Heteronomía frente a autonomía (Kant): ¿quién actúa de forma autónoma en la película?",
+   "La historia la pone en marcha una mujer blanca. ¿Les da voz a las empleadas o se la quita? ¿Se puede contar la historia de otro sin apropiársela? Argumenta."
+  ],
+  "trampa": "La crítica del «salvador blanco»: la película corre el riesgo de que la heroína sea quien «concede» voz a las protagonistas. Detectar ese sesgo en el propio relato es parte del ejercicio; que el tema sea justo no basta para que la forma de contarlo lo sea."
+ },
+ {
+  "tema": "fil-t3",
+  "kind": "cine",
+  "t": "Lucy",
+  "year": 2014,
+  "autor": "Luc Besson",
+  "q": "Una mujer que «usa el 100 % de su cerebro» acaba sabiéndolo todo: ¿qué es saber y qué cuenta como conocimiento?",
+  "esc": "Tras romperse dentro de su cuerpo una dosis de droga, Lucy empieza a «usar» porcentajes crecientes de su cerebro y gana poderes: memoria total, control de la materia, acceso a todo el conocimiento.",
+  "pregs": [
+   "La película parte de que «solo usamos el 10 % del cerebro». ¿Es verdad? Comprueba el dato: ¿cambia eso cómo lees toda la trama?",
+   "Lucy acumula información sin límite. ¿Es eso lo mismo que comprender, o que ser sabia? Distingue datos, conocimiento y sabiduría.",
+   "Si alguien lo supiera «todo», ¿seguiría teniendo algo que aprender o que decidir? ¿Qué le pasa a la libertad cuando desaparece la ignorancia?"
+  ],
+  "trampa": "El «mito del 10 % del cerebro» es falso: usamos prácticamente todo el cerebro, aunque no todo a la vez. La película levanta toda su trama sobre ese error muy extendido; reconocerlo es el ejercicio, no creérselo.",
+  "aviso": "Violencia de acción."
+ },
+ {
+  "tema": "fil-metafisica",
+  "kind": "cine",
+  "t": "¡Olvídate de mí!",
+  "year": 2004,
+  "autor": "Michel Gondry",
+  "q": "Una pareja borra de su memoria su relación: si pierdes tus recuerdos, ¿sigues siendo el mismo? Identidad personal.",
+  "esc": "Tras una ruptura, Joel descubre que su ex ha borrado de su memoria todo recuerdo de él y decide hacer lo mismo; durante el borrado, dentro de su propia mente, se arrepiente e intenta esconder los recuerdos para conservarlos.",
+  "pregs": [
+   "Si borras los recuerdos de una persona, ¿sigue siendo la misma? ¿Qué nos hace ser quienes somos: la memoria, el cuerpo, algo más?",
+   "Joel quiere conservar incluso los recuerdos dolorosos. ¿Tiene sentido querer recordar lo que duele? ¿Qué se pierde al borrarlo?",
+   "Al final vuelven a empezar sabiendo que puede salir mal. ¿Es libre quien repite un patrón, o solo lo parece? Relaciónalo con la identidad a lo largo del tiempo."
+  ],
+  "trampa": "Pensar que «somos solo nuestros recuerdos»: si así fuera, perder la memoria sería dejar de existir. El caso sirve para poner a prueba esa idea (Locke) frente a otras: el cuerpo, los hábitos, los vínculos con los demás."
  }
 ];

@@ -524,6 +524,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t1",
+   "fil-utilidad",
    "fil-presocraticos",
    "fil-helenismo"
   ]
@@ -781,6 +782,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t3",
+   "fil-t1-filosofia-mujer",
    "fil-comunidades-perseguidos"
   ]
  },
@@ -1027,6 +1029,32 @@ const ILUSTRES = {
    "fil-grandes-preguntas"
   ]
  },
+ "pizan": {
+  "name": "Christine de Pizan",
+  "dates": "1364 – c. 1430",
+  "born": 1364,
+  "died": 1430,
+  "place": "Venecia; vivió en la corte de Francia",
+  "role": "escritora y pensadora",
+  "idea": "Primera mujer de Europa que vivió de su pluma; en *La ciudad de las damas* rebatió con argumentos la misoginia de su época y defendió la dignidad y la capacidad intelectual de las mujeres.",
+  "bio": "<p>De origen veneciano, Christine de Pizan pasó su infancia en la corte de Carlos V de Francia, donde su padre era médico y astrólogo. Gracias a él recibió una formación que no era habitual en las mujeres. Al enviudar a los 25 años con hijos a su cargo, en lugar de volver a casarse o entrar en un convento, eligió un camino casi inédito: mantenerse como <strong>escritora profesional</strong>.</p>\n<p>Su obra más conocida, <em>La ciudad de las damas</em> (1405), es una alegoría en la que tres figuras —la Razón, la Derechura y la Justicia— ayudan a la autora a construir una ciudad simbólica poblada por mujeres ilustres de la historia, a salvo de las calumnias. Con ella responde, punto por punto y con argumentos, a los textos que presentaban a la mujer como un ser inferior. Antes había protagonizado la llamada <strong>querella de la Rosa</strong>, una polémica literaria contra la misoginia del <em>Roman de la Rose</em>.</p>\n<p>Se la considera precursora de la «querella de las mujeres» y, para muchos, del feminismo. Aparece ligada al tramo final de la Edad Media y a la tradición de las utopías escritas por mujeres.</p>",
+  "obras": [
+   "La ciudad de las damas",
+   "El libro de las tres virtudes",
+   "La epístola al dios Amor",
+   "Canción en honor de Juana de Arco (Ditié de Jehanne d'Arc)"
+  ],
+  "anecdota": "<p>Simone de Beauvoir, en <em>El segundo sexo</em>, señala que con la <em>Epístola al dios Amor</em> de Christine de Pizan es «la primera vez que vemos a una mujer tomar la pluma en defensa de su sexo» (paráfrasis). Siglos después de su muerte, un grupo de hombres llegó a fundar una «Orden de la Rosa» para defender su causa en aquella polémica.</p>",
+  "fuente": "Christine de Pizan, *La ciudad de las damas*; Simone de Beauvoir, *El segundo sexo* (introducción); adaptado de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, serie «En diálogo con…»; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1-filosofia-mujer"
+  ]
+ },
  "erasmo": {
   "name": "Erasmo de Róterdam",
   "dates": "c. 1466 – 1536",
@@ -1116,6 +1144,30 @@ const ILUSTRES = {
   ],
   "anecdota": "<p>En 1536, Calvino solo pensaba pasar una noche en Ginebra, de camino a Estrasburgo, donde quería dedicarse tranquilamente al estudio. Pero el predicador Guillaume Farel, que intentaba implantar allí la Reforma, se enteró y fue a buscarlo. Cuando Calvino se negó a quedarse, Farel le advirtió solemnemente que Dios maldeciría su retiro y sus estudios si abandonaba aquella tarea. Calvino, según su propio relato, quedó tan sobrecogido que renunció a su viaje. Ginebra ya no se separaría de su nombre.</p>",
   "fuente": "Calvino, prefacio al Comentario de los Salmos",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-comunidades-perseguidos"
+  ]
+ },
+ "servet": {
+  "name": "Miguel Servet",
+  "dates": "1511 – 1553",
+  "born": 1511,
+  "died": 1553,
+  "place": "Villanueva de Sijena (Aragón)",
+  "role": "médico y teólogo aragonés",
+  "idea": "Defendió que no hay base para el dogma de la Trinidad y reclamó libertad para pensar en religión; también describió cómo la sangre pasa por los pulmones.",
+  "bio": "<p>Miguel Servet nació en 1511 en Villanueva de Sijena, en Aragón. Fue una mente inquieta y universal: estudió leyes, medicina, geografía y teología. Como médico, en su obra <em>Restitución del cristianismo</em> describió la <strong>circulación pulmonar</strong> o «menor» de la sangre: explicó que la sangre pasa del corazón a los pulmones, se mezcla allí con el aire y vuelve al corazón. Fue una de las primeras descripciones de ese recorrido en Europa, aunque quedó enterrada en un libro de teología que casi nadie llegó a leer.</p>\n<p>Lo que le dio fama y lo que le costó la vida fueron sus ideas religiosas. Servet negó el dogma de la <strong>Trinidad</strong> (que Dios es Padre, Hijo y Espíritu Santo en una sola esencia) y pidió volver a un cristianismo que, según él, era el original. Esto lo convirtió en enemigo tanto de la Iglesia católica como de los reformadores protestantes. Perseguido por la Inquisición francesa, huyó y acabó en Ginebra, donde mandaba el reformador <strong>Juan Calvino</strong>. Allí fue juzgado y <strong>quemado en la hoguera</strong> en 1553. Su muerte provocó un debate que todavía importa: ¿puede un poder, religioso o político, matar a alguien por lo que piensa? Poco después, Sebastián Castellión escribió que obligar a creer con la fuerza y matar por una idea no se puede defender, en una de las primeras grandes llamadas a la <strong>tolerancia</strong>.</p>",
+  "obras": [
+   "Sobre los errores de la Trinidad (De Trinitatis erroribus, 1531)",
+   "Restitución del cristianismo (Christianismi restitutio, 1553)"
+  ],
+  "anecdota": "<p>La descripción de la circulación de la sangre por los pulmones no aparece en un tratado de medicina, sino escondida en medio de un libro de teología, la <em>Restitución del cristianismo</em>. Casi todos los ejemplares fueron quemados junto con su autor, y solo se salvaron unos pocos; durante mucho tiempo se dudó de que Servet hubiera escrito realmente aquello, hasta que se localizaron esos raros ejemplares. Por eso el hallazgo científico pasó casi inadvertido en su época: la medicina tuvo que redescubrir ese mismo recorrido de la sangre más tarde, por otros caminos.</p>",
+  "fuente": "Miguel Servet, Christianismi restitutio (1553), donde se describe la circulación pulmonar; de los pocos ejemplares que escaparon a la quema",
   "tradicion": false,
   "block": "ren",
   "subjects": [
@@ -1876,6 +1928,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t6",
+   "fil-t1-filosofia-mujer",
    "fil-grandes-preguntas"
   ]
  },
@@ -1902,6 +1955,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t6",
+   "fil-t1-filosofia-mujer",
    "fil-grandes-preguntas"
   ]
  },
@@ -2602,6 +2656,27 @@ const ILUSTRES = {
    "fil-metafisica"
   ]
  },
+ "maeztu": {
+  "name": "María de Maeztu",
+  "dates": "1881 – 1948",
+  "born": 1881,
+  "died": 1948,
+  "place": "Vitoria-Gasteiz",
+  "role": "pedagoga",
+  "idea": "Llevó a la práctica la igualdad educativa de las mujeres: desde la Residencia de Señoritas abrió a las jóvenes el acceso a la universidad y a la vida intelectual de la España de su tiempo.",
+  "bio": "<p>María de Maeztu y Whitney nació en Vitoria en 1881. Se formó como maestra y después estudió filosofía, como discípula de <strong>Unamuno</strong> y <strong>Ortega y Gasset</strong>, y amplió estudios en Alemania y en Estados Unidos. Dominaba varios idiomas y pronto se situó entre las figuras más respetadas de la educación española.</p>\n<p>En el entorno de la <strong>Institución Libre de Enseñanza</strong> dirigió, entre 1915 y 1936, la <strong>Residencia de Señoritas</strong>, su proyecto más importante: un lugar donde cualquier joven podía estudiar, alojarse y prepararse para la universidad, en una época en que las españolas aún necesitaban permisos especiales para acceder a ella. Por allí pasaron intelectuales como Gabriela Mistral o María Montessori. Impulsó también el Instituto-Escuela y presidió el Liceo Club Femenino.</p>\n<p>Su pedagogía defendía un alumnado activo, lejos del aprendizaje memorístico, con la educación como motor de reforma social. Al estallar la Guerra Civil, y tras la ejecución de su hermano Ramiro, se exilió a Argentina, donde siguió enseñando hasta su muerte, en Mar del Plata, en 1948. Aparece ligada al pensamiento español del primer tercio del siglo XX, junto a Ortega y a María Zambrano.</p>",
+  "obras": [],
+  "anecdota": "<p>La Residencia de Señoritas fue mucho más que un alojamiento: se convirtió en el punto de encuentro de las mujeres intelectuales de Madrid. Su carácter laico le valió los ataques de los sectores más conservadores, que llegó a calificar a sus socias de «mujeres sin virtud ni piedad». Con el franquismo, el mismo edificio del Liceo acabó ocupado por la Sección Femenina, de ideales opuestos a los suyos.</p>",
+  "fuente": "Adaptado de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, serie «En diálogo con…»; CC BY-NC-SA 4.0); fechas según Diccionario biográfico Auñamendi (Eusko Ikaskuntza) y EcuRed (murió el 7-1-1948 en Mar del Plata; el libro da erróneamente 1952)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "ortega": {
   "name": "José Ortega y Gasset",
   "dates": "1883 – 1955",
@@ -2625,6 +2700,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t2",
+   "fil-t3",
    "fil-t6"
   ]
  },
@@ -2852,6 +2928,32 @@ const ILUSTRES = {
    "fil-grandes-preguntas"
   ]
  },
+ "gaos": {
+  "name": "José Gaos",
+  "dates": "1900 – 1969",
+  "born": 1900,
+  "died": 1969,
+  "place": "Gijón (Asturias)",
+  "role": "filósofo y traductor del exilio español en México",
+  "idea": "Los exiliados españoles en América no eran simples «desterrados», sino «transterrados»: habían cambiado de tierra, pero seguían en una tierra propia por la lengua y la cultura compartidas.",
+  "bio": "<p>José Gaos nació en Gijón en 1900 y fue discípulo de <strong>Ortega y Gasset</strong> en Madrid. Catedrático de filosofía, llegó a ser rector de la Universidad de Madrid en los años de la Segunda República y la Guerra Civil. Al terminar la guerra marchó al exilio y en 1938 se instaló en México, donde enseñó en la Universidad Nacional (UNAM) y en El Colegio de México hasta su muerte, en 1969.</p>\n<p>En México acuñó la palabra con la que se le recuerda: para los intelectuales españoles que, como él, rehacían su vida al otro lado del Atlántico prefirió <strong>«transterrados»</strong> a «desterrados», porque no habían perdido su tierra, sino que la habían trasladado a un país que hablaba su lengua. Fue además un traductor decisivo: su versión de <em>Ser y tiempo</em>, de Heidegger (1951), fue durante medio siglo la puerta de entrada de ese libro al mundo de habla española. Formó a toda una generación de filósofos mexicanos y dejó una obra sobre la historia de las ideas y sobre qué es la propia filosofía.</p>",
+  "obras": [
+   "De la filosofía",
+   "Confesiones profesionales (1958)",
+   "Historia de nuestra idea del mundo",
+   "traducción de «El ser y el tiempo», de Heidegger (1951)"
+  ],
+  "anecdota": "<p>Cuando Gaos tradujo <em>Ser y tiempo</em>, de Heidegger, tuvo que inventar en castellano palabras para ideas que el alemán expresaba con términos dificilísimos. Su versión del <em>Dasein</em> heideggeriano —el ser humano entendido como «ser-ahí»— se discutió durante décadas. La traducción, publicada en México en 1951, fue la única disponible en español durante medio siglo y marcó la forma en que varias generaciones leyeron a Heidegger en nuestra lengua.</p>",
+  "fuente": "M. Heidegger, El ser y el tiempo, trad. de José Gaos, Fondo de Cultura Económica, México, 1951 (prólogo del traductor)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6"
+  ]
+ },
  "popper": {
   "name": "Karl Popper",
   "dates": "1902 – 1994",
@@ -3020,6 +3122,7 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t6",
+   "fil-t1-filosofia-mujer",
    "fil-grandes-preguntas"
   ]
  },
@@ -3275,6 +3378,7 @@ const ILUSTRES = {
   "temas": [
    "fil-t1",
    "fil-t3",
+   "fil-t5",
    "fil-t6",
    "fil-marxismos"
   ]
@@ -3328,6 +3432,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t7"
+  ]
+ },
+ "nussbaum": {
+  "name": "Martha Nussbaum",
+  "dates": "n. 1947",
+  "born": 1947,
+  "died": null,
+  "place": "Nueva York (EE. UU.)",
+  "role": "filósofa estadounidense",
+  "idea": "La justicia no se mide por la riqueza de un país, sino por las capacidades reales que cada persona tiene para llevar una vida digna.",
+  "bio": "<p>Martha Nussbaum nació en Nueva York en 1947. Se doctoró en la Universidad de Harvard con una tesis sobre Aristóteles y ha enseñado en Harvard, en Brown y, desde los años noventa, en la Universidad de Chicago, donde une filosofía y derecho. Especialista en filosofía griega, ha escrito sobre ética, emociones, educación y justicia. En 2012 recibió el Premio Príncipe de Asturias de Ciencias Sociales.</p>\n<p>Junto al economista Amartya Sen desarrolló el <strong>enfoque de las capacidades</strong>. Frente a la costumbre de medir el progreso por el PIB, sostiene que hay que preguntarse qué puede hacer y ser realmente cada persona. Propone una lista de <strong>capacidades centrales</strong>: vida, salud, integridad física, sentidos e imaginación, emociones, razón práctica, afiliación, relación con otras especies, juego y control sobre el propio entorno. Una sociedad es justa si garantiza a todos un mínimo de esas capacidades. Presta especial atención a las mujeres de los países pobres, a las personas con discapacidad y a los animales. También defiende el valor de las <strong>humanidades</strong> para formar ciudadanos críticos.</p>\n<p>Su pensamiento combina la ética de Aristóteles, centrada en la vida buena, con la tradición liberal. Dialoga críticamente con la teoría de la justicia de John Rawls, a la que reprocha dejar fuera a quienes no pueden participar en el contrato social. Es una referencia en los debates sobre desarrollo humano.</p>",
+  "obras": [
+   "La fragilidad del bien (1986)",
+   "Las mujeres y el desarrollo humano (2000)",
+   "Sin fines de lucro (2010)",
+   "Crear capacidades (2011)"
+  ],
+  "anecdota": "<p>Antes de dedicarse a la filosofía, la joven Martha quiso ser actriz. Dejó sus estudios universitarios para trabajar durante un tiempo en una compañía de teatro de repertorio que recorría el país representando obras clásicas. Después volvió a la universidad y se centró en la lengua y la literatura griegas, en la Universidad de Nueva York. Aquella pasión por la tragedia no desapareció: en <em>La fragilidad del bien</em> estudia a Sófocles y Eurípides para mostrar que la literatura también enseña a pensar la vida moral.</p>",
+  "fuente": "Perfil de R. Aviv en The New Yorker (2016) y entrevistas",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-utilidad"
   ]
  },
  "butler": {

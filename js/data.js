@@ -1038,6 +1038,67 @@ const DECKS = {
    ]
   ]
  },
+ "fil-t5-cuidado-cortina": {
+  "name": "Filosofía 1.º · El juicio moral, la ética del cuidado y Cortina (T5)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🪜",
+    "Kohlberg: tres niveles",
+    "El juicio moral madura en tres niveles (preconvencional, convencional y posconvencional); lo que importa no es el «sí» o el «no», sino la razón que se da."
+   ],
+   [
+    "💊",
+    "Dilema de Heinz",
+    "¿Debe robar el medicamento que salva a su mujer? Kohlberg no puntúa la respuesta, sino el tipo de razones con que se justifica."
+   ],
+   [
+    "🗣️",
+    "Gilligan: otra voz",
+    "Frente a Kohlberg, Gilligan describe una voz moral igual de madura que razona desde las relaciones, la responsabilidad y el cuidado, no solo desde la justicia."
+   ],
+   [
+    "🤲",
+    "Ética del cuidado",
+    "Nel Noddings y Joan Tronto: partimos de personas vulnerables e interdependientes; la moral empieza en atender las necesidades de quien depende de nosotros."
+   ],
+   [
+    "🩺",
+    "Bioética",
+    "Beauchamp y Childress: cuatro principios para los casos médicos —autonomía, beneficencia, no maleficencia y justicia."
+   ],
+   [
+    "🐄",
+    "Ética animal",
+    "Para Bentham la pregunta no es si los animales razonan, sino si pueden sufrir; «especismo» (término de Richard Ryder, 1970, que Singer popularizó) es discriminar por la especie."
+   ],
+   [
+    "🤖",
+    "Ética de la IA",
+    "Los algoritmos pueden heredar sesgos de sus datos; reaparece el dilema del tranvía en los coches autónomos y la pregunta de quién responde."
+   ],
+   [
+    "⚖️",
+    "Mínimos y máximos (Cortina)",
+    "Mínimos: lo exigible a todos por justicia. Máximos: los proyectos de vida feliz que se proponen, pero no se imponen."
+   ],
+   [
+    "🏛️",
+    "Ética cívica",
+    "La moral común de una sociedad plural: valores compartidos (libertad, igualdad, solidaridad, respeto, diálogo) y derechos humanos, sin obligar a creer lo mismo."
+   ],
+   [
+    "💬",
+    "Ética dialógica",
+    "Con Apel y Habermas: una norma es justa si todos los afectados pudieran aceptarla tras un diálogo en igualdad, sin engaño ni coacción."
+   ],
+   [
+    "🙅",
+    "Aporofobia",
+    "Término que Cortina acuñó en los años noventa (ABC Cultural, 1995) y difundió en su libro de 2017: rechazo o miedo al pobre y al desamparado; a menudo lo que parece xenofobia es, en el fondo, rechazo a quien «no aporta»."
+   ]
+  ]
+ },
  "fil-arte": {
   "name": "Filosofía 1.º · La belleza y el arte (T7)",
   "subject": "fil",
@@ -7520,6 +7581,122 @@ const QUIZZES = {
     ],
     "a": 3,
     "fb": "El valor es el medio entre la cobardía (defecto) y la temeridad (exceso)."
+   }
+  ]
+ },
+ "fil-t5-cuidado-cortina": {
+  "name": "El juicio moral, la ética del cuidado y Cortina (Filosofía 1.º · T5 · repaso)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "En el dilema de Heinz, ¿qué le interesa sobre todo a Kohlberg?",
+    "o": [
+     "El tipo de razones con que la persona justifica su respuesta",
+     "Si la persona responde finalmente que sí o que no",
+     "Si la conducta tiene buenas consecuencias para la mayoría",
+     "Qué sentimiento de aprobación o rechazo expresa"
+    ],
+    "a": 0,
+    "fb": "Para Kohlberg no importa el «sí» o el «no», sino el tipo de razones: ellas revelan el estadio de desarrollo moral."
+   },
+   {
+    "q": "¿Qué caracteriza al nivel posconvencional de Kohlberg?",
+    "o": [
+     "Obedecer por miedo al castigo",
+     "Buscar el propio interés en cada intercambio",
+     "Cumplir las expectativas del grupo y las leyes vigentes",
+     "Razonar con principios y derechos por encima de las leyes concretas"
+    ],
+    "a": 3,
+    "fb": "En el nivel posconvencional se razona con contrato social, derechos y principios universales, que pueden estar por encima de una ley concreta."
+   },
+   {
+    "q": "¿En qué consistió la objeción de Carol Gilligan a Kohlberg?",
+    "o": [
+     "En que Kohlberg medía la madurez solo con la vara de la justicia y dejaba fuera la voz del cuidado",
+     "En que los estadios no se recorren en orden",
+     "En que el dilema de Heinz era demasiado fácil",
+     "En que la moral no se puede estudiar científicamente"
+    ],
+    "a": 0,
+    "fb": "Gilligan sostuvo que hay una voz moral igual de madura que razona desde las relaciones, la responsabilidad y el cuidado, no solo desde la justicia."
+   },
+   {
+    "q": "Según la ética del cuidado (Noddings, Tronto), ¿de qué se parte al pensar la moral?",
+    "o": [
+     "De individuos aislados que firman un contrato",
+     "De personas vulnerables e interdependientes, en relación",
+     "Del cálculo de la mayor felicidad para el mayor número",
+     "De un imperativo que la razón se da a sí misma"
+    ],
+    "a": 1,
+    "fb": "La ética del cuidado parte de que todos somos vulnerables e interdependientes: la moral empieza en atender a quien depende de nosotros."
+   },
+   {
+    "q": "¿Cuáles son los cuatro principios de la bioética de Beauchamp y Childress?",
+    "o": [
+     "Libertad, igualdad, fraternidad y solidaridad",
+     "Intensidad, duración, certeza y extensión",
+     "Autonomía, beneficencia, no maleficencia y justicia",
+     "Virtud, deber, consecuencias y cuidado"
+    ],
+    "a": 2,
+    "fb": "Son autonomía, beneficencia, no maleficencia y justicia: principios intermedios aceptables desde posturas distintas."
+   },
+   {
+    "q": "Peter Singer llama «especismo» a…",
+    "o": [
+     "Negar que los animales sientan dolor",
+     "Discriminar a un ser por la especie a la que pertenece",
+     "Tratar a los animales igual que a las plantas",
+     "Defender que solo cuenta la felicidad humana porque los animales no razonan"
+    ],
+    "a": 1,
+    "fb": "El especismo es discriminar por la especie, como el racismo discrimina por la raza; lo acuñó Richard Ryder (1970) y Singer lo popularizó. Bentham ya decía que la clave es si pueden sufrir."
+   },
+   {
+    "q": "Una compañera dice: «la ética de mínimos de Cortina es una moral floja, de poco esfuerzo, para conformarse con poco». ¿Qué ha entendido mal?",
+    "o": [
+     "Que los mínimos son en realidad opcionales",
+     "Que «mínimos» se refiere a la extensión (lo compartido por todos), no a un nivel bajo de exigencia",
+     "Que los mínimos los propone cada persona por su cuenta",
+     "Que los mínimos y los máximos son lo mismo"
+    ],
+    "a": 1,
+    "fb": "Los mínimos son exigentes (dignidad, no discriminación, derechos); «mínimos» nombra lo poco en que, siendo distintos, hay que coincidir para convivir, no una moral fácil."
+   },
+   {
+    "q": "¿Qué es, para Cortina, una ética cívica?",
+    "o": [
+     "La moral de una religión impuesta a toda la sociedad",
+     "Un código que obliga a todos a compartir la misma idea de felicidad",
+     "La moral común de una sociedad plural: valores compartidos y derechos, sin imponer creencias",
+     "La renuncia a tener cualquier valor para no molestar a nadie"
+    ],
+    "a": 2,
+    "fb": "La ética cívica es el suelo compartido de una sociedad plural (libertad, igualdad, solidaridad, respeto, diálogo y derechos), que no obliga a creer lo mismo."
+   },
+   {
+    "q": "Según la ética dialógica (Apel y Habermas), ¿cuándo es justa una norma?",
+    "o": [
+     "Cuando la dicta la mayoría, aunque algunos afectados no la acepten",
+     "Cuando todos los afectados podrían aceptarla tras un diálogo en igualdad, sin engaño ni coacción",
+     "Cuando produce el mayor placer para el mayor número",
+     "Cuando cada persona decide por su cuenta lo que le parece bien"
+    ],
+    "a": 1,
+    "fb": "La ética del discurso busca la validez de la norma en el acuerdo posible de todos los afectados, argumentando en condiciones de igualdad."
+   },
+   {
+    "q": "¿Qué nombra el término «aporofobia», acuñado por Adela Cortina?",
+    "o": [
+     "El miedo a los extranjeros en general",
+     "El rechazo, el miedo o la aversión hacia el pobre y el desamparado",
+     "El rechazo a toda autoridad política",
+     "El miedo a hablar en público"
+    ],
+    "a": 1,
+    "fb": "Aporofobia es el rechazo al pobre (gr. áporos, pobre), término que Cortina acuñó en los años noventa y difundió con su libro de 2017; sostiene que a menudo lo que parece xenofobia es, en el fondo, rechazo a quien carece de recursos."
    }
   ]
  },
