@@ -206,7 +206,8 @@ const ILUSTRES = {
   "temas": [
    "fil-metafisica",
    "fil-presocraticos",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "anaxagoras": {
@@ -400,7 +401,8 @@ const ILUSTRES = {
    "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "democrito": {
@@ -502,7 +504,8 @@ const ILUSTRES = {
    "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "diogenes": {
@@ -583,7 +586,8 @@ const ILUSTRES = {
    "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "pirron": {
@@ -604,7 +608,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t3"
+   "fil-t3",
+   "fil-montaigne-ensayos"
   ]
  },
  "epicuro": {
@@ -634,7 +639,8 @@ const ILUSTRES = {
    "fil-presocraticos",
    "fil-helenismo",
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "zenon": {
@@ -656,6 +662,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-helenismo"
+  ]
+ },
+ "ciceron": {
+  "name": "Marco Tulio Cicerón",
+  "dates": "106 – 43 a. C.",
+  "born": -106,
+  "died": -43,
+  "place": "Arpino (Lacio, Italia)",
+  "role": "orador, político y filósofo romano",
+  "idea": "La filosofía griega se puede pensar en latín: Cicerón la tradujo para los romanos y expuso las escuelas como un debate en el que el lector tiene que decidir.",
+  "bio": "<p>Marco Tulio Cicerón nació en 106 a. C. en Arpino, a unos cien kilómetros de Roma, en una familia acomodada pero sin tradición política. Estudió derecho y retórica en Roma y filosofía en Atenas y en Rodas, donde escuchó al estoico <strong>Posidonio</strong>. Fue el mejor orador de su tiempo y llegó a cónsul en el año 63 a. C., cuando desarticuló la conjura de <strong>Catilina</strong>. Por haber ejecutado sin juicio a los conjurados tuvo que exiliarse año y medio.</p>\n<p>Con la dictadura de César perdió peso político, y tras la muerte de su hija Tulia, en el 45 a. C., se refugió en la filosofía. En menos de dos años escribió casi toda su obra filosófica: <em>Disputas tusculanas</em>, <em>Sobre la naturaleza de los dioses</em>, <em>Sobre la adivinación</em>, <em>Sobre los deberes</em>… Se declaraba seguidor de la <strong>Academia escéptica</strong>, la escuela platónica que pensaba que solo se alcanza lo probable: expone las razones de epicúreos, estoicos y académicos y deja que el lector juzgue. Para ello tuvo que crear en latín palabras que no existían, como <em>qualitas</em> («cualidad»). En <em>Sobre la naturaleza de los dioses</em> pone en boca de un estoico el argumento del orden del mundo: si un reloj de sol o una esfera que imita el cielo tienen un autor, el universo también. Su <em>Hortensio</em>, hoy perdido, llevó a la filosofía al joven Agustín de Hipona.</p>",
+  "obras": [
+   "Sobre la república",
+   "Disputas tusculanas",
+   "Sobre la naturaleza de los dioses",
+   "Sobre los deberes"
+  ],
+  "anecdota": "<p>Tras la muerte de César, Cicerón atacó a Marco Antonio en una serie de discursos, las <em>Filípicas</em>. Cuando Antonio, Octavio y Lépido se repartieron el poder, Antonio exigió su muerte. Los soldados lo alcanzaron en el año 43 a. C. cerca de su villa de Formia, mientras intentaba huir en una litera. Según cuenta Plutarco, Antonio mandó exponer su cabeza y sus manos en la tribuna de los oradores del Foro, el lugar desde el que había hablado tantas veces.</p>",
+  "fuente": "Plutarco, Vida de Cicerón 47-49",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t1"
   ]
  },
  "seneca": {
@@ -681,7 +713,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-helenismo"
+   "fil-helenismo",
+   "fil-montaigne-ensayos"
   ]
  },
  "plotino": {
@@ -760,7 +793,8 @@ const ILUSTRES = {
    "fil-metafisica",
    "fil-t6",
    "fil-t7",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "hipatia": {
@@ -783,6 +817,32 @@ const ILUSTRES = {
   "temas": [
    "fil-t3",
    "fil-t1-filosofia-mujer",
+   "fil-comunidades-perseguidos"
+  ]
+ },
+ "boecio": {
+  "name": "Boecio",
+  "dates": "c. 480 – 524",
+  "born": 480,
+  "died": 524,
+  "place": "Roma",
+  "role": "filósofo y político romano",
+  "idea": "La verdadera felicidad no está en los bienes de la fortuna, que van y vienen, sino en el bien perfecto, que es Dios: si hay bienes imperfectos, tiene que haber uno perfecto.",
+  "bio": "<p>Anicio Manlio Severino Boecio nació hacia el año 480 en una de las familias más nobles de Roma, cuando Italia ya la gobernaban reyes germanos. Fue cónsul en el 510 y, más tarde, <em>magister officiorum</em>, uno de los cargos más altos de la corte del rey ostrogodo <strong>Teodorico</strong>, en Rávena. Se propuso traducir al latín todas las obras de Platón y de Aristóteles y mostrar que estaban de acuerdo. No pudo acabarlo, pero tradujo y comentó la lógica de Aristóteles y la <em>Introducción</em> de Porfirio. Durante seis siglos, la Europa latina estudió lógica con sus libros, y a través de su comentario a Porfirio llegó a la Edad Media el <strong>problema de los universales</strong>.</p>\n<p>Hacia el 523 fue acusado de traición por defender a un senador sospechoso de conspirar con el emperador de Constantinopla. Lo encarcelaron cerca de Pavía y lo ejecutaron. En la cárcel escribió la <em>Consolación de la filosofía</em>, uno de los libros más leídos de la Edad Media: la Filosofía lo visita y le enseña que la fortuna es una rueda que gira y que el sumo bien es Dios. En el libro III razona que, si hay bienes imperfectos, tiene que existir un bien perfecto, un razonamiento parecido al que usarán Anselmo y la cuarta vía de Tomás.</p>",
+  "obras": [
+   "Consolación de la filosofía (hacia 524)",
+   "Traducciones y comentarios de la lógica de Aristóteles",
+   "Comentarios a la Introducción de Porfirio"
+  ],
+  "anecdota": "<p>La <em>Consolación</em> empieza con una escena. Boecio, en la cárcel, escribe versos tristes acompañado de las Musas de la poesía. Entonces aparece una mujer majestuosa, de altura cambiante: a veces parece de estatura normal y a veces su cabeza toca el cielo. Lleva un vestido roto, porque cada escuela se ha llevado un jirón. Es la Filosofía, que expulsa a las Musas y se pone a curar al prisionero con razones.</p>",
+  "fuente": "Boecio, Consolación de la filosofía I, prosas 1 y 3",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t2",
    "fil-comunidades-perseguidos"
   ]
  },
@@ -903,7 +963,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "maimonides": {
@@ -987,7 +1048,8 @@ const ILUSTRES = {
    "fil-t2",
    "fil-metafisica",
    "fil-t7",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "ockham": {
@@ -1175,6 +1237,30 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-comunidades-perseguidos"
+  ]
+ },
+ "montaigne": {
+  "name": "Michel de Montaigne",
+  "dates": "1533 – 1592",
+  "born": 1533,
+  "died": 1592,
+  "place": "Castillo de Montaigne (Périgord, Francia)",
+  "role": "humanista y ensayista francés",
+  "idea": "El mejor tema de estudio es uno mismo: examinando con honradez su propia vida, cambiante y contradictoria, se aprende qué es ser humano y lo poco que sabemos con certeza.",
+  "bio": "<p>Michel Eyquem de Montaigne nació en una familia de comerciantes enriquecidos de Burdeos. Su padre lo educó de un modo singular: hasta los seis años solo le hablaron en latín, que fue así su primera lengua. Estudió derecho y fue consejero del Parlamento de Burdeos, donde trabó con el escritor Étienne de La Boétie una amistad que lo marcó para siempre. En 1571, con 38 años, se retiró a la torre de su castillo para leer y escribir, aunque volvió a la vida pública como alcalde de Burdeos (1581-1585) y como mediador en las guerras de religión entre católicos y protestantes.</p>\n<p>En su retiro inventó un género nuevo, el <strong>ensayo</strong>: textos breves y libres en los que «prueba» su juicio sobre cualquier tema, de la amistad y la muerte a los caníbales, la educación o la experiencia. Montaigne se toma a sí mismo como objeto de estudio y descubre a un ser cambiante y lleno de contradicciones. Su actitud es <strong>escéptica</strong>: tomó como divisa la pregunta «¿Qué sé yo?», con una balanza en equilibrio. De ese escepticismo nacen su tolerancia y su crítica a la crueldad: en «De los caníbales» sostiene que llamamos bárbaro a lo que no es costumbre nuestra. Influyó en Descartes, en Pascal y en toda la literatura moderna.</p>",
+  "obras": [
+   "Ensayos (1580; ampliados en 1588; edición póstuma de 1595)",
+   "Diario de viaje a Italia (escrito en 1580-1581, publicado en 1774)"
+  ],
+  "anecdota": "<p>Cuando se retiró a su torre, Montaigne hizo pintar en las vigas del techo de su biblioteca más de cincuenta sentencias en griego y en latín, tomadas de la Biblia, de los escépticos, de Lucrecio o de Sexto Empírico, para tenerlas siempre a la vista mientras leía y escribía. Todavía hoy pueden verse en la torre, que se conserva junto al castillo. Y al lado hizo grabar una inscripción en latín: el día de su 38 cumpleaños se retiraba, «cansado desde hacía tiempo de la servidumbre de la corte y de los cargos públicos», al regazo de las doctas musas.</p>",
+  "fuente": "Inscripciones de la torre de Montaigne (1571)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-montaigne-ensayos"
   ]
  },
  "giordano_bruno": {
@@ -1401,7 +1487,8 @@ const ILUSTRES = {
    "fil-t3",
    "fil-metafisica",
    "fil-spinoza-sistema",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "isabel": {
@@ -1450,7 +1537,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-metafisica"
+   "fil-metafisica",
+   "fil-montaigne-ensayos"
   ]
  },
  "spinoza": {
@@ -1485,7 +1573,8 @@ const ILUSTRES = {
    "fil-metafisica",
    "fil-spinoza-sistema",
    "fil-grandes-preguntas",
-   "fil-comunidades-perseguidos"
+   "fil-comunidades-perseguidos",
+   "fil-montaigne-ensayos"
   ]
  },
  "locke": {
@@ -1750,7 +1839,8 @@ const ILUSTRES = {
    "fil-t5",
    "fil-t6",
    "fil-t7",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "rousseau": {
@@ -1776,7 +1866,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t6",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "baumgarten": {
@@ -1853,7 +1944,61 @@ const ILUSTRES = {
    "fil-t5",
    "fil-t6",
    "fil-t7",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
+  ]
+ },
+ "paley": {
+  "name": "William Paley",
+  "dates": "1743 – 1805",
+  "born": 1743,
+  "died": 1805,
+  "place": "Peterborough (Inglaterra)",
+  "role": "clérigo y filósofo inglés",
+  "idea": "Si al encontrar un reloj deducimos que alguien lo hizo, el ojo y los demás órganos de los seres vivos, mucho más complejos, exigen un diseñador inteligente.",
+  "bio": "<p>William Paley nació en 1743 en Peterborough, hijo de un clérigo que dirigía una escuela. Estudió matemáticas en el Christ’s College de Cambridge, donde sacó la mejor nota de su promoción en los exámenes de matemáticas (1763) y luego fue profesor. Ordenado sacerdote de la Iglesia de Inglaterra, llegó a archidiácono de Carlisle. Sus libros fueron manuales de Cambridge durante décadas. Los <em>Principios de filosofía moral y política</em> (1785) defienden una moral de la utilidad y critican la trata de esclavos.</p>\n<p>Su obra más famosa es la <em>Teología natural</em> (1802). Empieza con una imagen: si al cruzar un brezal tropiezo con una piedra, puedo pensar que siempre estuvo allí; pero si encuentro un reloj, sus piezas, ajustadas para medir el tiempo, me obligan a pensar en un relojero. Paley recorre después el ojo, las articulaciones o las alas de los pájaros para concluir que la naturaleza muestra un diseño. Medio siglo más tarde, Darwin, que lo había estudiado en el mismo colegio de Cambridge, explicó esa adaptación con la selección natural.</p>",
+  "obras": [
+   "Principios de filosofía moral y política (1785)",
+   "Una visión de las pruebas del cristianismo (1794)",
+   "Teología natural (1802)"
+  ],
+  "anecdota": "<p>El científico que dejó sin apoyo el argumento de Paley fue también uno de sus mayores admiradores. En 1859, el mismo año de <em>El origen de las especies</em>, Charles Darwin escribió a un amigo que casi nunca había admirado tanto un libro como la <em>Teología natural</em>, y que de joven casi podría haberlo recitado de memoria.</p>",
+  "fuente": "Carta de Charles Darwin a John Lubbock, 22 de noviembre de 1859 (Darwin Correspondence Project)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-metafisica",
+   "fil-t4"
+  ]
+ },
+ "condorcet": {
+  "name": "Nicolas de Condorcet",
+  "dates": "1743 – 1794",
+  "born": 1743,
+  "died": 1794,
+  "place": "Ribemont (Picardía, Francia)",
+  "role": "matemático, filósofo ilustrado y político de la Revolución francesa",
+  "idea": "La humanidad puede progresar sin un límite fijado de antemano gracias a la razón, la ciencia y la educación, y ese progreso exige los mismos derechos para todos: también para las mujeres y para los esclavos.",
+  "bio": "<p>Marie Jean Antoine Nicolas de Caritat, marqués de Condorcet, nació en 1743 en Ribemont, en el norte de Francia. Su padre, oficial de caballería, murió cuando él era un bebé. Estudió con los jesuitas en Reims y en el Colegio de Navarra de París, y se dedicó a las matemáticas: en 1769, con solo veinticinco años, entró en la Academia de Ciencias, de la que fue secretario perpetuo desde 1776. Amigo de d’Alembert y de Turgot, colaboró con artículos de matemáticas en el <em>Suplemento</em> de la <em>Enciclopedia</em> y fue elegido miembro de la Academia Francesa en 1782. En su <em>Ensayo sobre la aplicación del análisis a la probabilidad de las decisiones tomadas por mayoría</em> (1785) estudió las votaciones con matemáticas y descubrió que, con tres opciones o más, las preferencias de la mayoría pueden formar un círculo: la mayoría prefiere A a B, B a C y, sin embargo, C a A. Es la «paradoja de Condorcet».</p>\n<p>Condorcet puso su ciencia al servicio de los derechos. En 1781 publicó, con el seudónimo de «M. Schwartz», unas <em>Reflexiones sobre la esclavitud de los negros</em> en las que la condenaba y proponía abolirla de forma gradual, y fue uno de los primeros miembros de la Sociedad de los Amigos de los Negros (1788), que llegó a presidir. En 1790 defendió en un artículo que las mujeres fueran admitidas como ciudadanas con los mismos derechos políticos que los hombres, algo que casi nadie defendía entonces. Diputado durante la Revolución, presentó en 1792 un plan de instrucción pública gratuita en todos sus grados y sin enseñanza religiosa, que no llegó a aplicarse; ya antes había defendido que niñas y niños recibieran la misma instrucción. También se opuso a la pena de muerte, incluso en el juicio de Luis XVI. Por criticar la constitución de los jacobinos, la Convención ordenó su arresto en julio de 1793. Escondido en París, escribió el <em>Esbozo de un cuadro histórico de los progresos del espíritu humano</em>. En marzo de 1794 lo detuvieron y murió en la cárcel de Bourg-la-Reine pocos días después.</p>",
+  "obras": [
+   "Reflexiones sobre la esclavitud de los negros (1781)",
+   "Ensayo sobre la aplicación del análisis a la probabilidad de las decisiones tomadas por mayoría (1785)",
+   "Sobre la admisión de las mujeres al derecho de ciudadanía (1790)",
+   "Cinco memorias sobre la instrucción pública (1791)",
+   "Esbozo de un cuadro histórico de los progresos del espíritu humano (1795, póstumo)"
+  ],
+  "anecdota": "<p>Cuando abandonó su escondite, el 25 de marzo de 1794, Condorcet pasó dos días vagando por los alrededores de París, cansado y hambriento. Según cuentan sus biógrafos, entró en una posada de Clamart y pidió una tortilla. Cuando le preguntaron cuántos huevos quería, contestó «una docena». Según el relato, aquella respuesta delató a alguien que nunca había cocinado, un señor y no el obrero que decía ser. Como además no llevaba papeles, levantó sospechas y lo detuvieron. Es una escena repetida desde el siglo XIX y quizá adornada, pero retrata bien al sabio perdido fuera de los libros.</p>",
+  "fuente": "Relato tradicional repetido por sus biógrafos desde el siglo XIX; los detalles de la detención no están documentados con seguridad",
+  "tradicion": true,
+  "block": "ilu",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-comunidades-perseguidos"
   ]
  },
  "lamarck": {
@@ -2012,7 +2157,8 @@ const ILUSTRES = {
    "fil-t3",
    "fil-t6",
    "fil-t7",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "thompson": {
@@ -2373,7 +2519,8 @@ const ILUSTRES = {
    "fil-t1",
    "fil-t2",
    "fil-t5",
-   "fil-grandes-preguntas"
+   "fil-grandes-preguntas",
+   "fil-montaigne-ensayos"
   ]
  },
  "frege": {
@@ -2752,7 +2899,8 @@ const ILUSTRES = {
    "fil"
   ],
   "temas": [
-   "fil-t1"
+   "fil-t1",
+   "fil-montaigne-ensayos"
   ]
  },
  "heidegger": {
@@ -3007,7 +3155,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t7",
-   "fil-marxismos"
+   "fil-marxismos",
+   "fil-montaigne-ensayos"
   ]
  },
  "zambrano": {
