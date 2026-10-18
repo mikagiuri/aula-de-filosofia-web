@@ -2476,6 +2476,33 @@ const ILUSTRES = {
    "fil-t3"
   ]
  },
+ "luxemburgo": {
+  "name": "Rosa Luxemburgo",
+  "dates": "1871 – 1919",
+  "born": 1871,
+  "died": 1919,
+  "place": "Zamość (Polonia)",
+  "role": "pensadora y revolucionaria marxista",
+  "idea": "El socialismo y la democracia son inseparables: criticó tanto el reformismo que renuncia a transformar la sociedad como el poder de un solo partido, y confió en la iniciativa espontánea de los trabajadores.",
+  "bio": "<p>Rosa Luxemburgo nació en 1871 en Zamość, una ciudad de la parte de Polonia que entonces pertenecía al Imperio ruso, en una familia judía. Marchó a estudiar a Suiza y se doctoró en ciencias del Estado (derecho y economía) por la Universidad de Zúrich en 1897, con una tesis sobre el desarrollo industrial de Polonia. Después se instaló en Alemania, donde se integró en el Partido Socialdemócrata (SPD) y se convirtió en una de sus teóricas más destacadas. Se opuso con firmeza a la Primera Guerra Mundial y pasó buena parte de ella en prisión por su agitación contra la guerra. Junto a Karl Liebknecht fundó la Liga Espartaquista y, en los últimos días de 1918, el Partido Comunista de Alemania. En enero de 1919, durante el levantamiento espartaquista de Berlín, fue detenida y asesinada por soldados de los Freikorps.</p>\n<p>Luxemburgo fue una pensadora <strong>marxista</strong>, pero nunca entendió el marxismo como un sistema cerrado. En <em>¿Reforma social o revolución?</em> (1899) discutió con Eduard Bernstein, que proponía mejorar el capitalismo poco a poco en vez de transformarlo; ella defendió que las reformas no bastan, sin renunciar por ello a la acción diaria. Confiaba más en la <strong>huelga de masas</strong>, la acción colectiva y espontánea de los trabajadores, que en el control de un partido dirigido desde arriba. Por eso, aunque saludó la Revolución rusa de 1917, criticó pronto que Lenin y Trotski suprimieran la asamblea elegida y los demás partidos: para ella, <strong>socialismo y democracia</strong> no podían separarse. Aparece en el temario de Historia de la Filosofía, en la crítica del capitalismo posterior a Marx, junto a Lenin y a Clara Zetkin, como muestra de que dentro del marxismo hubo un debate abierto sobre la relación entre revolución, libertad y democracia.</p>",
+  "obras": [
+   "¿Reforma social o revolución? (1899)",
+   "Huelga de masas, partido y sindicatos (1906)",
+   "La acumulación del capital (1913)",
+   "La revolución rusa (escrita en 1918)"
+  ],
+  "anecdota": "<p>En diciembre de 1917, presa en la cárcel de Breslau, Rosa Luxemburgo escribió a su amiga Sofía Liebknecht una carta sobre unos búfalos traídos de Rumanía como botín de guerra y obligados a arrastrar cargas pesadas. Contó que un soldado golpeó con el mango del látigo a uno de los animales hasta hacerlo sangrar, y que la mirada del búfalo, indefenso, la hizo llorar. En aquella escena vio reflejado el sufrimiento de la guerra y de los oprimidos. La carta forma parte de su correspondencia desde prisión y es una de las páginas más conocidas de su vida íntima.</p>",
+  "fuente": "Rosa Luxemburgo, carta a Sofía Liebknecht desde la prisión de Breslau (mediados de diciembre de 1917), recogida en sus Cartas desde la prisión",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6",
+   "fil-marxismos"
+  ]
+ },
  "russell": {
   "name": "Bertrand Russell",
   "dates": "1872 – 1970",
@@ -2500,6 +2527,32 @@ const ILUSTRES = {
   "temas": [
    "fil-t3",
    "fil-t4"
+  ]
+ },
+ "kollontai": {
+  "name": "Aleksandra Kollontái",
+  "dates": "1872 – 1952",
+  "born": 1872,
+  "died": 1952,
+  "place": "San Petersburgo (Imperio ruso)",
+  "role": "revolucionaria y diplomática soviética",
+  "idea": "Unió el socialismo y la emancipación de la mujer: la igualdad legal no basta si no cambian el trabajo doméstico, la familia y las relaciones amorosas.",
+  "bio": "<p>Aleksandra Mijáilovna Kollontái nació en 1872 en San Petersburgo, en una familia aristocrática rusa, pero rompió pronto con ese ambiente para dedicarse a la militancia socialista. Estudió economía en Zúrich y, tras años de exilio por Europa, se unió a los bolcheviques. Después de la revolución de 1917 fue nombrada comisaria del pueblo de Asistencia Social, en uno de los primeros gobiernos del mundo que incluía a una mujer. En las décadas siguientes fue además una de las primeras mujeres en representar a su país como jefa de una misión diplomática, en Noruega, México y Suecia. Murió en Moscú en 1952.</p>\n<p>Kollontái unió el <strong>socialismo</strong> y la <strong>emancipación de la mujer</strong>: sostenía que el voto y la igualdad ante la ley no bastan si no cambian el trabajo doméstico, la familia y las relaciones amorosas. Defendió socializar las tareas del hogar y el cuidado de los hijos, y reflexionó sobre una <strong>nueva moral</strong> del amor, liberado de la dependencia económica. Dentro del propio partido encabezó la <strong>Oposición Obrera</strong>, que criticaba la burocratización del poder soviético. Aparece en el temario entre quienes prolongaron y discutieron el marxismo, y su obra sigue siendo una referencia para los feminismos socialistas, en un debate todavía abierto sobre la relación entre la igualdad económica y la libertad personal.</p>",
+  "obras": [
+   "Las bases sociales de la cuestión femenina (1909)",
+   "La nueva moral y la clase obrera (1918)",
+   "La oposición obrera (1921)",
+   "¡Abrid paso al Eros alado! (1923)"
+  ],
+  "anecdota": "<p>En 1923 el gobierno soviético la envió a Noruega al frente de su misión diplomática, y poco después quedó acreditada de forma oficial: fue una de las primeras mujeres del mundo en representar a su país como jefa de una legación. Siguió en el servicio diplomático durante casi veinte años, sobre todo en Suecia. Allí, ya con la salud muy debilitada tras un derrame cerebral que la obligó a usar silla de ruedas, participó en 1944 en los contactos que ayudaron a poner fin a la guerra entre Finlandia y la Unión Soviética.</p>",
+  "fuente": "Cathy Porter, Alexandra Kollontai. A Biography (Virago, 1980)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-marxismos"
   ]
  },
  "scheler": {
@@ -2650,6 +2703,32 @@ const ILUSTRES = {
   ],
   "temas": [
    "fil-t7"
+  ]
+ },
+ "gramsci": {
+  "name": "Antonio Gramsci",
+  "dates": "1891 – 1937",
+  "born": 1891,
+  "died": 1937,
+  "place": "Ales (Italia)",
+  "role": "pensador marxista y político italiano",
+  "idea": "Una clase no domina solo por la fuerza, sino por la hegemonía: el consentimiento que obtiene a través de la cultura (la escuela, la prensa, la religión). Por eso la política se juega también en el terreno de las ideas y del sentido común.",
+  "bio": "<p>Antonio Gramsci nació en 1891 en Ales, un pueblo de Cerdeña (Italia), en una familia modesta y numerosa. De salud frágil desde niño, consiguió una beca y estudió lingüística en la Universidad de Turín, aunque dejó la carrera para dedicarse al periodismo y a la política. En Turín, una ciudad de grandes fábricas, se acercó al movimiento obrero, escribió en la prensa socialista y en 1919 fundó la revista <em>El Orden Nuevo</em> (<em>L'Ordine Nuovo</em>). En 1921 fue uno de los fundadores del Partido Comunista de Italia y en 1924 fue elegido diputado. El régimen fascista de Mussolini lo detuvo en 1926, pese a su inmunidad parlamentaria, y lo condenó a más de veinte años de cárcel. Enfermo y nunca recuperado, murió en Roma en 1937, pocos días después de quedar formalmente en libertad.</p>\n<p>En prisión escribió sus <em>Cuadernos de la cárcel</em>, miles de páginas de notas que no pudo publicar en vida. Su idea más conocida es la de <strong>hegemonía</strong>: una clase social no se mantiene en el poder solo por la coacción, sino también por el consentimiento que consigue cuando logra que su visión del mundo pase por el <strong>sentido común</strong> de toda la sociedad, a través de la escuela, la prensa, la religión o la cultura. Para explicar ese trabajo cultural habló de los <strong>intelectuales orgánicos</strong>, personas que cada grupo social produce para dar forma a sus ideas. Gramsci es una figura central del llamado marxismo occidental, que desplazó la atención de la economía hacia la cultura y la conciencia. Aparece en el temario dentro de ese bloque, y su concepto de hegemonía se usa hoy en debates de muy distinto signo político, lo que lo mantiene vivo y discutido.</p>",
+  "obras": [
+   "La cuestión meridional (1926)",
+   "Cartas desde la cárcel (escritas 1926-1937)",
+   "Cuadernos de la cárcel (escritos 1929-1935)"
+  ],
+  "anecdota": "<p>En el juicio celebrado en Roma en 1928, el fiscal pidió una condena muy dura con una frase que se ha hecho célebre: había que impedir que aquel cerebro siguiera funcionando durante veinte años. El tribunal condenó a Gramsci a veinte años, cuatro meses y cinco días de prisión. El régimen quería silenciar sus ideas, pero fue precisamente en la cárcel donde escribió los <em>Cuadernos</em> que lo harían conocido en todo el mundo.</p>",
+  "fuente": "Giuseppe Fiori, Vida de Antonio Gramsci (1966); actas del proceso de 1928",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "fil"
+  ],
+  "temas": [
+   "fil-t6",
+   "fil-marxismos"
   ]
  },
  "benjamin": {
