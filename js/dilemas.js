@@ -322,6 +322,12 @@ const DILEMAS = [
     "elige": "B",
     "porque": "La persona virtuosa no decide con una fórmula sino con el carácter: hay acciones que un hombre bueno no realiza, y empujar a un inocente es una de ellas, aunque el resultado sea mejor.",
     "ilustre": "aristoteles"
+   },
+   {
+    "quien": "Spinoza",
+    "elige": "—",
+    "porque": "Antes de elegir, tres preguntas: qué sé de verdad, quién ha construido la situación y desde qué afecto actúo. La razón elige el menor de dos males (Ética, IV, 65), pero sin conocer a las personas ni las circunstancias, «cinco contra uno» es un cálculo de la imaginación. Las dos salidas pueden hacerse por miedo o ambición, o por firmeza y generosidad: lo que hace libre la acción no es el resultado, sino entender por qué se actúa.",
+    "ilustre": "spinoza"
    }
   ],
   "debate": {
