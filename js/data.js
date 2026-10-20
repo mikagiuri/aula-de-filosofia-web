@@ -1150,6 +1150,230 @@ const DECKS = {
    ]
   ]
  },
+ "fil-argumentacion": {
+  "name": "Filosofía 1.º · Argumentar y detectar falacias (T4)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🧩",
+    "Argumento",
+    "Conjunto de enunciados en el que unos (las premisas) se ofrecen como razones para aceptar otro (la conclusión)."
+   ],
+   [
+    "⬇️",
+    "Deducción",
+    "Razonamiento en el que, si las premisas son verdaderas, la conclusión tiene que serlo: va de lo general a lo particular."
+   ],
+   [
+    "⬆️",
+    "Inducción",
+    "Razonamiento que generaliza a partir de casos observados: la conclusión es probable, nunca segura."
+   ],
+   [
+    "🔎",
+    "Abducción",
+    "Razonamiento hacia la mejor explicación: de unos hechos se infiere la hipótesis que mejor los explica."
+   ],
+   [
+    "🧱",
+    "Argumento sólido",
+    "Argumento válido y, además, con premisas verdaderas: la única forma de asegurar que la conclusión es verdadera."
+   ],
+   [
+    "⚠️",
+    "Falacia",
+    "Razonamiento incorrecto que parece correcto y que por eso puede convencer."
+   ],
+   [
+    "🗣️",
+    "Ad hominem",
+    "Falacia que ataca a la persona que argumenta en lugar de a su argumento."
+   ],
+   [
+    "🥊",
+    "Hombre de paja",
+    "Falacia que deforma la postura del otro para que sea más fácil rebatirla."
+   ],
+   [
+    "🎢",
+    "Pendiente resbaladiza",
+    "Falacia que da por hecho, sin pruebas, que un primer paso llevará a una cadena de consecuencias desastrosas."
+   ],
+   [
+    "🔁",
+    "Petición de principio",
+    "Falacia en la que la conclusión ya está supuesta en las premisas: se da por probado lo que había que probar."
+   ]
+  ]
+ },
+ "fil-etica-teorias": {
+  "name": "Filosofía 1.º · Debates de la ética (T5)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🧠",
+    "Intelectualismo moral",
+    "Sócrates: quien sabe lo que es el bien, lo hace; el mal nace de la ignorancia."
+   ],
+   [
+    "🌍",
+    "Relativismo moral",
+    "Sofistas: lo bueno y lo justo dependen de cada persona o de cada sociedad; no hay normas válidas para todos."
+   ],
+   [
+    "🤝",
+    "Universalismo moral",
+    "Hay principios morales válidos para todo ser humano, sea cual sea su cultura."
+   ],
+   [
+    "❓",
+    "Imperativo hipotético",
+    "Kant: mandato condicionado a un fin («si quieres aprobar, estudia»); no obliga a quien no quiere ese fin."
+   ],
+   [
+    "📏",
+    "Imperativo categórico",
+    "Kant: mandato incondicionado. «Obra solo según la máxima que puedas querer que se convierta en ley universal»."
+   ],
+   [
+    "🫶",
+    "Ética del cuidado",
+    "Gilligan: la moral también nace de las relaciones, la responsabilidad y la atención a quien es vulnerable, no solo de normas abstractas."
+   ],
+   [
+    "💬",
+    "Ética del discurso",
+    "Habermas y Cortina: una norma es justa si podrían aceptarla, tras un diálogo libre, todos los afectados por ella."
+   ],
+   [
+    "🏛️",
+    "Estoicismo",
+    "Epicteto y Séneca: distinguir lo que depende de nosotros de lo que no, y vivir de acuerdo con la razón."
+   ],
+   [
+    "🧭",
+    "Prudencia",
+    "Aristóteles: la φρόνησις (phrónesis), la sabiduría práctica que permite aplicar la virtud a cada situación concreta."
+   ],
+   [
+    "⚖️",
+    "Dilema moral",
+    "Situación en la que dos deberes o valores chocan y no se pueden cumplir los dos a la vez."
+   ]
+  ]
+ },
+ "fil-poder": {
+  "name": "Filosofía 1.º · Poder, Estado y ciudadanía (T6)",
+  "subject": "fil",
+  "cards": [
+   [
+    "💪",
+    "Poder",
+    "Capacidad de influir en la conducta de otros, incluso contra su voluntad."
+   ],
+   [
+    "🎖️",
+    "Autoridad",
+    "Poder que se acepta como legítimo: se obedece porque se reconoce, no solo por la fuerza."
+   ],
+   [
+    "✅",
+    "Legitimidad",
+    "Weber: el poder se acepta por tradición, por el carisma de un líder o por unas leyes racionales."
+   ],
+   [
+    "👑",
+    "Soberanía",
+    "Poder supremo de un Estado, sin otro por encima; en la democracia reside en el pueblo."
+   ],
+   [
+    "🪪",
+    "Ciudadanía",
+    "Condición de quien pertenece a una comunidad política, con derechos y deberes y la posibilidad de participar en ella."
+   ],
+   [
+    "🏗️",
+    "División de poderes",
+    "Montesquieu: separar el poder legislativo, el ejecutivo y el judicial para que el poder frene al poder."
+   ],
+   [
+    "🗽",
+    "Liberalismo político",
+    "Corriente que pone en primer lugar la libertad individual y limita el poder del Estado para protegerla."
+   ],
+   [
+    "🔨",
+    "Socialismo",
+    "Corriente que pone en primer lugar la igualdad y defiende que la sociedad controle la economía para reducir las desigualdades."
+   ],
+   [
+    "🏴",
+    "Anarquismo",
+    "Corriente que considera ilegítimo el Estado y propone una sociedad organizada sin poder coercitivo."
+   ],
+   [
+    "✋",
+    "Desobediencia civil",
+    "Thoreau: incumplir de forma pública y pacífica una ley injusta, aceptando el castigo, para cambiarla."
+   ]
+  ]
+ },
+ "fil-arte-sociedad": {
+  "name": "Filosofía 1.º · Arte, belleza y sociedad (T7)",
+  "subject": "fil",
+  "cards": [
+   [
+    "🎭",
+    "Catarsis",
+    "Aristóteles: la purificación de las emociones (compasión y temor) que produce la tragedia en el espectador."
+   ],
+   [
+    "🏔️",
+    "Lo sublime",
+    "Burke y Kant: la emoción ante lo inmenso o lo terrible (una tormenta, el mar), que nos sobrepasa y a la vez nos atrae."
+   ],
+   [
+    "✨",
+    "Genio",
+    "Kant: el talento que da la regla al arte; crea obras originales que sirven de modelo y no se pueden aprender con una receta."
+   ],
+   [
+    "🎨",
+    "Gusto",
+    "Capacidad de juzgar lo bello; Hume buscaba un «estándar del gusto» que se educa con la práctica y la comparación."
+   ],
+   [
+    "🖨️",
+    "Reproductibilidad técnica",
+    "Benjamin: la fotografía y el cine permiten copiar la obra sin fin, y la obra pierde su «aura» de pieza única."
+   ],
+   [
+    "🏭",
+    "Industria cultural",
+    "Adorno y Horkheimer: la cultura producida en serie como mercancía, que entretiene pero no invita a pensar."
+   ],
+   [
+    "🚀",
+    "Vanguardias",
+    "Movimientos de principios del siglo XX (cubismo, dadaísmo, surrealismo) que rompen con la tradición artística."
+   ],
+   [
+    "🚽",
+    "Ready-made",
+    "Duchamp: un objeto corriente que el artista elige y expone como obra, como la Fuente (1917)."
+   ],
+   [
+    "💡",
+    "Arte conceptual",
+    "Arte en el que lo importante es la idea, más que el objeto o la habilidad técnica."
+   ],
+   [
+    "🍬",
+    "Kitsch",
+    "Lo que imita lo artístico de forma recargada o sentimental, para agradar sin exigir nada."
+   ]
+  ]
+ },
  "fil-logica": {
   "name": "Filosofía 1.º · Lógica: conectivas, Boole y puertas (T4)",
   "subject": "fil",

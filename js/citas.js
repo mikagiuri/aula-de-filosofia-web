@@ -1501,6 +1501,14 @@ const CITAS = [
   "uso": "Para presentar la razón poética de María Zambrano, o en una disertación sobre la relación entre filosofía y literatura."
  },
  {
+  "c": "Si la injusticia es de tal naturaleza que exige de ti que seas agente de la injusticia contra otro, entonces te digo: quebranta la ley.",
+  "a": "Thoreau",
+  "o": "Desobediencia civil (1849)",
+  "e": "contemporanea",
+  "sen": "Para Thoreau, la conciencia está por encima de la ley: si obedecerla te obliga a cometer una injusticia contra otro, como la esclavitud o una guerra injusta, debes desobedecerla y aceptar las consecuencias.",
+  "uso": "Para explicar la desobediencia civil, o en una disertación sobre la relación entre ley y justicia o sobre el deber de obedecer."
+ },
+ {
   "c": "Los desdichados no necesitan en este mundo otra cosa que hombres capaces de prestarles atención. […] La plenitud del amor al prójimo consiste simplemente en ser capaz de preguntarle: «¿Cuál es tu tormento?».",
   "a": "Simone Weil",
   "o": "«Reflexiones sobre el buen uso de los estudios escolares como medio de cultivar el amor a Dios» (1942), en A la espera de Dios",
