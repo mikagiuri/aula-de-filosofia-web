@@ -73,7 +73,7 @@ const GLOSARIO = [
  {
   "subject": "fil",
   "t": "Saber científico",
-  "et": "*Ciencia*, del latín *scientia*, de *scire*, «saber». Traduce el griego ἐπιστήμη (*epistéme*), el saber firme que Platón opone a la opinión (δόξα).",
+  "et": "*Ciencia*, del latín *scientia*, de *scire*, «saber». Traduce el griego ἐπιστήμη (*epistéme*), el saber firme que Platón opone a la opinión (δόξα, *dóxa*).",
   "area": "Epistemología",
   "tema": "Filosofía · Tema 1",
   "def": "Investiga las causas próximas de los hechos mediante observación y experimentación; es parcial (cada ciencia estudia una parcela de la realidad)."
@@ -414,7 +414,7 @@ const GLOSARIO = [
  {
   "subject": "fil",
   "t": "Creencia",
-  "et": "Del latín *credere*, «confiar, dar crédito». En griego, δόξα (*dóxa*), «opinión», y πίστις (*pístis*), «confianza, fe»: así las llama Platón frente a la ciencia (ἐπιστήμη).",
+  "et": "Del latín *credere*, «confiar, dar crédito». En griego, δόξα (*dóxa*), «opinión», y πίστις (*pístis*), «confianza, fe»: así las llama Platón frente a la ciencia (ἐπιστήμη, *epistéme*).",
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "Lo que se acepta como cierto sin garantía de que corresponda a la realidad (opinión, doxa)."

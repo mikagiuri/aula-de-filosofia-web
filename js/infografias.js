@@ -8,9 +8,9 @@ const INFOGRAFIAS = {
   "title": "¿QUÉ ES LA<br><em>FILOSOFÍA?</em>",
   "kicker": "Filosofía · 1.º Bach · Tema 1",
   "subtitle": "Del asombro al logos",
-  "tagline": "φιλοσοφία",
+  "tagline": "φιλοσοφία (philosophía)",
   "author": "«amor a la sabiduría»",
-  "ghost": "σοφία",
+  "ghost": "σοφία (sophía)",
   "portrait": null,
   "blocks": [
    {
@@ -491,7 +491,7 @@ const INFOGRAFIAS = {
   "subtitle": "El nacimiento de la filosofía",
   "tagline": "Grecia, s. VI a. C.",
   "author": "MYTHOS → LOGOS",
-  "ghost": "λόγος",
+  "ghost": "λόγος (lógos)",
   "portrait": null,
   "blocks": [
    {
