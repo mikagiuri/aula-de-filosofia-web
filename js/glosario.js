@@ -1038,6 +1038,60 @@ const GLOSARIO = [
  },
  {
   "subject": "fil",
+  "t": "Apelación a la emoción",
+  "id": "g-fil-apelacion-a-la-emocion",
+  "et": "En latín, *ad misericordiam*, «a la compasión», y *ad baculum*, «al bastón», es decir, a la amenaza.",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Buscar que se acepte algo despertando una emoción (pena, miedo, orgullo) en lugar de dar razones."
+ },
+ {
+  "subject": "fil",
+  "t": "Tu quoque",
+  "id": "g-fil-tu-quoque",
+  "et": "Del latín: «tú también». Es una variante del ataque a la persona (ad hominem).",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Rechazar una crítica señalando que quien la hace tampoco cumple lo que pide: puede ser incoherente, pero eso no hace falsa la crítica."
+ },
+ {
+  "subject": "fil",
+  "t": "Falsa analogía",
+  "id": "g-fil-falsa-analogia",
+  "et": "*Analogía*, del griego ἀναλογία (*analogía*), «proporción, correspondencia».",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Concluir que dos cosas coinciden en algo porque se parecen en otras, cuando las diferencias que importan son mayores que los parecidos."
+ },
+ {
+  "subject": "fil",
+  "t": "Equívoco",
+  "id": "g-fil-equivoco",
+  "et": "Del latín *aequivocus*, «de voz igual»: una misma palabra para cosas distintas. Aristóteles la estudia como παρὰ τὴν ὁμωνυμίαν (*parà tèn homonymían*), «por homonimia» (*Refutaciones sofísticas* 4).",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Usar una misma palabra con dos sentidos distintos dentro de un razonamiento, como si fuera uno solo."
+ },
+ {
+  "subject": "fil",
+  "t": "Pregunta compleja",
+  "id": "g-fil-pregunta-compleja",
+  "et": "También se llama *pregunta capciosa*, del latín *captiosus*, «que atrapa». Aristóteles habla de «hacer de varias preguntas una» (*Refutaciones sofísticas* 5).",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Hacer una pregunta que da por supuesto algo no aceptado, de modo que cualquier respuesta lo admite («¿Has dejado de copiar en los exámenes?»)."
+ },
+ {
+  "subject": "fil",
+  "t": "Pista falsa",
+  "id": "g-fil-pista-falsa",
+  "et": "Traduce el inglés *red herring*, «arenque rojo»: según la explicación habitual, un pescado ahumado de olor fuerte que despistaba a los perros de caza.",
+  "area": "Lógica",
+  "tema": "Taller de argumentación",
+  "def": "Desviar la discusión hacia otro tema para no responder al que se estaba tratando."
+ },
+ {
+  "subject": "fil",
   "t": "Disertación",
   "id": "g-fil-disertacion",
   "et": "Del latín *dissertatio*, de *disserere*, «exponer ordenadamente, enlazar razones».",

@@ -2730,6 +2730,94 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "Tautología: siempre verdadera. Si fuera siempre falsa, sería una contradicción."
+   },
+   {
+    "q": "¿Cuántas filas tiene la tabla de verdad de una fórmula con tres letras (p, q, r)?",
+    "o": [
+     "3",
+     "6",
+     "8",
+     "9"
+    ],
+    "a": 2,
+    "fb": "Cada letra puede ser V o F: 2 · 2 · 2 = 8 combinaciones. Con n letras son 2ⁿ filas; con 5 ya son 32, y por eso hacen falta las leyes y las reglas del nivel 4."
+   },
+   {
+    "q": "¿Con qué fórmula es equivalente p → q?",
+    "o": [
+     "q → p",
+     "¬p ∨ q",
+     "¬p → q",
+     "p ∧ ¬q"
+    ],
+    "a": 1,
+    "fb": "p → q solo es falsa si p es V y q es F, igual que ¬p ∨ q. q → p es la recíproca, que no equivale a p → q. ¬p → q equivale a p ∨ q: como A ∨ B es lo mismo que ¬A → B, ¬p ∨ q es ¬¬p → q, es decir, p → q. Y p ∧ ¬q es su negación."
+   },
+   {
+    "q": "Caso trampa: «Si llueve, el suelo está mojado.» ¿Cuál de estas frases dice lo mismo?",
+    "o": [
+     "Si el suelo está mojado, ha llovido.",
+     "Si no llueve, el suelo no está mojado.",
+     "Si el suelo no está mojado, no llueve.",
+     "Llueve y el suelo está mojado."
+    ],
+    "a": 2,
+    "fb": "Es la contrarrecíproca, ¬q → ¬p, equivalente a p → q. «Si el suelo está mojado, ha llovido» (la recíproca) y «Si no llueve, el suelo no está mojado» (la inversa) parecen decir lo mismo, pero no: el suelo puede estar mojado porque alguien ha regado. Y la frase no afirma que llueva."
+   },
+   {
+    "q": "La ley de De Morgan dice que ¬(p ∧ q) equivale a…",
+    "o": [
+     "¬p ∧ ¬q",
+     "¬p ∨ ¬q",
+     "¬p ∨ q",
+     "p ∨ q"
+    ],
+    "a": 1,
+    "fb": "Que no se den las dos cosas a la vez es que falle al menos una. ¬p ∧ ¬q (que equivale a ¬(p ∨ q)) dice que fallan las dos, que es más; ¬p ∨ q olvida negar la q, y p ∨ q olvida las dos negaciones."
+   },
+   {
+    "q": "¿Qué es la fórmula (p → q) ∧ p ∧ ¬q?",
+    "o": [
+     "Una tautología.",
+     "Una contradicción.",
+     "Una contingencia.",
+     "Un modus ponens válido."
+    ],
+    "a": 1,
+    "fb": "Para que sea verdadera, p tendría que ser V y q F; pero entonces p → q es F. No hay ninguna fila en que sea verdadera: es una contradicción. Dicho de otro modo: p → q, p y ¬q no pueden ser verdaderas a la vez; por eso de p → q y p se sigue q (modus ponens). La fórmula no es un razonamiento, sino un enunciado: no puede ser «un modus ponens válido»."
+   },
+   {
+    "q": "¿Qué es la fórmula p → q, por sí sola?",
+    "o": [
+     "Una tautología.",
+     "Una contradicción.",
+     "Una contingencia.",
+     "No es una fórmula."
+    ],
+    "a": 2,
+    "fb": "Es verdadera en tres filas y falsa en una (p V, q F). Las fórmulas contingentes son las que hablan del mundo: su verdad depende de cómo sean las cosas."
+   },
+   {
+    "q": "Caso trampa: en la lógica clásica, ¿qué valor tiene «si la Luna es de queso, entonces 2 + 2 = 5»?",
+    "o": [
+     "Falso, porque las dos partes son falsas.",
+     "Verdadero, porque el antecedente es falso.",
+     "Ni verdadero ni falso.",
+     "Falso, porque no hay relación entre las dos partes."
+    ],
+    "a": 1,
+    "fb": "El condicional material solo es falso con antecedente verdadero y consecuente falso. Con antecedente falso es verdadero, haya o no relación entre las partes. Que esto choque con el uso corriente de «si» es un problema conocido (las «paradojas del condicional material»)."
+   },
+   {
+    "q": "¿Cuándo dice una tabla de verdad que un argumento es válido?",
+    "o": [
+     "Cuando la conclusión es verdadera en todas las filas de la tabla.",
+     "Cuando ninguna fila tiene premisas verdaderas y conclusión falsa.",
+     "Cuando hay alguna fila en que todas las premisas son verdaderas.",
+     "Cuando hay más filas verdaderas que falsas en la columna de la conclusión."
+    ],
+    "a": 1,
+    "fb": "Basta una fila con premisas verdaderas y conclusión falsa para que sea inválido: es el contraejemplo. Que la conclusión sea verdadera en todas las filas describe una conclusión tautológica, que es un caso particular de argumento válido, no la definición."
    }
   ]
  },
@@ -7408,6 +7496,762 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La clase de todas las clases que no se contienen a sí mismas se contiene a sí misma si y solo si no se contiene. Russell se lo escribió a Frege en 1902; la salida fue fijar con axiomas qué colecciones son conjuntos."
+   }
+  ]
+ },
+ "fil-validez-q": {
+  "name": "Validez y verdad, deducción e inducción (Filosofía 1.º · T4 · itinerario, nivel 1)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "«Todos los peces vuelan; todos los gatos son peces; luego todos los gatos vuelan.» ¿Es un razonamiento válido?",
+    "o": [
+     "Sí, aunque las premisas y la conclusión sean falsas.",
+     "No, porque la conclusión es falsa: los gatos no vuelan.",
+     "No, porque las dos premisas son falsas: los peces no vuelan.",
+     "Solo sería válido si los gatos volaran de verdad."
+    ],
+    "a": 0,
+    "fb": "La validez depende de la forma (todo M es P; todo S es M; luego todo S es P), no de que lo dicho sea verdad: si las premisas fueran verdaderas, la conclusión tendría que serlo. Que la conclusión o las premisas sean falsas no basta para hacerlo inválido."
+   },
+   {
+    "q": "De estas cuatro combinaciones, ¿cuál es imposible en un razonamiento válido?",
+    "o": [
+     "Premisas falsas y conclusión falsa.",
+     "Premisas falsas y conclusión verdadera.",
+     "Premisas verdaderas y conclusión falsa.",
+     "Premisas verdaderas y conclusión verdadera."
+    ],
+    "a": 2,
+    "fb": "Eso es justo lo que la validez prohíbe: que las premisas sean verdaderas y la conclusión falsa. Las otras tres combinaciones pueden darse en razonamientos válidos (lo que no garantizan es una conclusión verdadera si alguna premisa es falsa)."
+   },
+   {
+    "q": "«Todos los peces son mamíferos; todos los delfines son peces; luego todos los delfines son mamíferos.» ¿Qué enseña este ejemplo?",
+    "o": [
+     "Que si la conclusión es verdadera, las dos premisas tienen que serlo también.",
+     "Que de premisas falsas puede salir, válidamente, una conclusión verdadera.",
+     "Que no es válido, porque los delfines no son peces, sino mamíferos.",
+     "Que es una inducción, porque va de los peces a los delfines."
+    ],
+    "a": 1,
+    "fb": "La forma es válida y la conclusión es verdadera, pero las dos premisas son falsas. Por eso una conclusión verdadera no prueba que las premisas lo sean, y una premisa falsa no garantiza una conclusión falsa."
+   },
+   {
+    "q": "Caso trampa: «Todos los atenienses son griegos; Sócrates es griego; luego Sócrates es ateniense.» Todo es verdad. ¿Es válido?",
+    "o": [
+     "Sí: si las premisas y la conclusión son verdaderas, el razonamiento es válido.",
+     "No: la misma forma lleva de «Aristóteles es griego» a «es ateniense».",
+     "Sí, porque Sócrates era ateniense de verdad, nacido en Atenas.",
+     "No, porque una de las premisas es falsa: no todos los atenienses son griegos."
+    ],
+    "a": 1,
+    "fb": "Aristóteles nació en Estagira: era griego, pero no ateniense. Basta un caso con la misma forma, premisas verdaderas y conclusión falsa para mostrar que la forma no es válida. El fallo: «griegos» (el término medio) no se toma nunca en toda su extensión."
+   },
+   {
+    "q": "«He visto trescientos cisnes y todos eran blancos; luego todos los cisnes son blancos.» ¿Qué clase de razonamiento es y qué le pasa?",
+    "o": [
+     "Es una deducción válida, porque las trescientas observaciones son verdaderas.",
+     "Es una inducción: las premisas pueden ser verdaderas y la conclusión falsa.",
+     "Es una deducción inválida, porque todavía quedan cisnes por ver en el mundo.",
+     "Es una falacia, porque nunca se puede generalizar desde casos."
+    ],
+    "a": 1,
+    "fb": "Generaliza desde casos observados: es una inducción. Puede ser más o menos fuerte, pero no es válida en sentido deductivo: las premisas podrían ser verdaderas y la conclusión falsa (y de hecho lo es: en Australia hay cisnes negros). Inducir no es un error; lo es confundir una inducción con una deducción."
+   },
+   {
+    "q": "¿Cuál de estos razonamientos es una deducción?",
+    "o": [
+     "Todos los cuervos que he visto son negros; luego todos los cuervos son negros.",
+     "Si llueve, el suelo se moja; llueve; luego el suelo se moja.",
+     "La Tierra y Marte se parecen en muchas cosas; la Tierra tiene vida; luego Marte también.",
+     "El suelo está mojado; lo más probable es que haya llovido."
+    ],
+    "a": 1,
+    "fb": "Es un modus ponens: si las premisas son verdaderas, la conclusión no puede ser falsa. Las demás son una generalización inductiva, una analogía y una inferencia a la mejor explicación: pueden ser razonables, pero no garantizan la conclusión."
+   },
+   {
+    "q": "Caso trampa: se suele decir que deducir es «ir de lo general a lo particular». ¿Es una buena definición?",
+    "o": [
+     "Sí, es exactamente lo que la define, y por eso se opone a la inducción.",
+     "No del todo: la define que la conclusión no puede ser falsa si las premisas son verdaderas.",
+     "No: deducir es ir de lo particular a lo general, y la inducción, al revés.",
+     "Sí, y por eso el silogismo «todo M es P; todo S es M; luego todo S es P» no es una deducción."
+    ],
+    "a": 1,
+    "fb": "Hay deducciones de lo general a lo general (ese silogismo, que es válido) y de lo particular a lo particular («si Ana viene, viene Juan; Ana viene; luego viene Juan»). La marca de la deducción es la necesidad, no la dirección."
+   },
+   {
+    "q": "En «Todos los S son P» (tipo A), ¿qué término está distribuido, es decir, de qué clase se habla entera?",
+    "o": [
+     "Solo S.",
+     "Solo P.",
+     "Los dos.",
+     "Ninguno."
+    ],
+    "a": 0,
+    "fb": "Se dice algo de todos los S, pero no de todos los P: «todos los perros son mamíferos» no habla de todos los mamíferos. En la E se distribuyen los dos; en la I, ninguno; en la O, solo el predicado."
+   },
+   {
+    "q": "En «Algún S no es P» (tipo O), ¿qué término está distribuido?",
+    "o": [
+     "Solo S.",
+     "Solo P.",
+     "Los dos.",
+     "Ninguno."
+    ],
+    "a": 1,
+    "fb": "Al decir que algún S queda fuera de P, ese S queda fuera de toda la clase P: se habla de P entera. De S, en cambio, solo se habla de una parte. Por eso la O no se convierte: en «algún P no es S», S quedaría distribuido sin estarlo en la premisa."
+   },
+   {
+    "q": "«Todo M es P; algún S es M; luego todo S es P.» ¿Por qué no es válido?",
+    "o": [
+     "Porque tiene dos premisas universales, y eso no está permitido.",
+     "Porque concluye de todos los S lo que sabe de algunos.",
+     "Porque el término medio aparece también en la conclusión.",
+     "Es válido: es un silogismo de la primera figura."
+    ],
+    "a": 1,
+    "fb": "Regla del silogismo: si una premisa es particular, la conclusión tiene que ser particular. Lo válido es «luego algún S es P» (Darii). Concluir de todos lo que solo se sabe de algunos es generalizar sin derecho."
+   },
+   {
+    "q": "«Ningún pez es mamífero; ningún mamífero respira por branquias.» ¿Qué se sigue sobre los peces y lo que respira por branquias?",
+    "o": [
+     "Que ningún pez respira por branquias, como en Celarent.",
+     "Que todos los peces respiran por branquias, como ya sabíamos.",
+     "Nada: de dos premisas negativas no se sigue nada.",
+     "Que algún pez respira por branquias, al menos uno."
+    ],
+    "a": 2,
+    "fb": "Dos premisas negativas solo dicen que S y P quedan fuera de M; no dicen nada de cómo están S y P entre sí. «Ningún pez respira por branquias» es, además, falso (los peces respiran por branquias), y «todos los peces respiran por branquias», aunque es verdad, no se sigue de las premisas. Celarent tiene una premisa afirmativa."
+   },
+   {
+    "q": "Caso trampa: «Algunos estudiantes son deportistas; algunos deportistas son músicos; luego algunos estudiantes son músicos.» ¿Es válido?",
+    "o": [
+     "Sí: la conclusión puede ser verdad, y en muchos institutos lo es.",
+     "No: los deportistas estudiantes y los músicos pueden ser distintos.",
+     "Sí, por la transitividad de «ser»: lo que vale de unos vale de otros.",
+     "No, porque tiene tres términos, y un silogismo solo puede tener dos."
+    ],
+    "a": 1,
+    "fb": "De dos premisas particulares no se sigue nada, y el término medio («deportistas») no se distribuye en ninguna. Que la conclusión pueda ser verdad no basta: la forma admite premisas verdaderas y conclusión falsa. Tener tres términos es lo normal en un silogismo."
+   }
+  ]
+ },
+ "fil-formalizar-q": {
+  "name": "Formalizar en lógica de enunciados (Filosofía 1.º · T4 · itinerario, nivel 3)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "p: «voy a la fiesta»; q: «me invitan». «Iré a la fiesta solo si me invitan» se formaliza…",
+    "o": [
+     "p → q",
+     "q → p",
+     "p ↔ q",
+     "p ∧ q"
+    ],
+    "a": 0,
+    "fb": "«Solo si» introduce una condición necesaria: lo que sigue a «solo si» va en el consecuente. Si voy, es que me han invitado (p → q). Que me inviten no basta para que vaya: eso sería q → p."
+   },
+   {
+    "q": "Con las mismas letras, «Iré a la fiesta si me invitan» se formaliza…",
+    "o": [
+     "p → q",
+     "q → p",
+     "p ↔ q",
+     "q ∧ p"
+    ],
+    "a": 1,
+    "fb": "«Si» a secas introduce el antecedente, aunque vaya al final de la frase: si me invitan, voy (q → p). Comparada con «Iré a la fiesta solo si me invitan» (p → q), se ve la trampa: «si» y «solo si» invierten el condicional. q ∧ p afirmaría que me invitan y que voy, y la frase no afirma ninguna de las dos cosas."
+   },
+   {
+    "q": "«Iré a la fiesta si y solo si me invitan» se formaliza…",
+    "o": [
+     "p → q",
+     "q → p",
+     "p ↔ q",
+     "(p → q) ∨ (q → p)"
+    ],
+    "a": 2,
+    "fb": "El bicondicional junta las dos condiciones: me invitan es necesario y suficiente para que vaya. Equivale a (p → q) ∧ (q → p). Con ∨ en lugar de ∧ sería una tautología, que no dice nada."
+   },
+   {
+    "q": "p: «salgo»; q: «llueve». Caso trampa: «Saldré a menos que llueva» se formaliza…",
+    "o": [
+     "¬q → p",
+     "q → ¬p",
+     "p ↔ ¬q",
+     "p ∧ ¬q"
+    ],
+    "a": 0,
+    "fb": "«A menos que» equivale a «si no»: si no llueve, salgo (¬q → p), que es lo mismo que p ∨ q. La frase no dice qué haré si llueve; leerla como q → ¬p («si llueve, no salgo») o como p ↔ ¬q («salgo si y solo si no llueve») añade algo que no está en ella. Y p ∧ ¬q afirma que salgo y que no llueve."
+   },
+   {
+    "q": "p: «estudia»; q: «trabaja». «Ni estudia ni trabaja» se formaliza…",
+    "o": [
+     "¬(p ∧ q)",
+     "¬p ∧ ¬q",
+     "¬p ∧ q",
+     "¬p → q"
+    ],
+    "a": 1,
+    "fb": "«Ni… ni» niega las dos cosas a la vez: ¬p ∧ ¬q, que por De Morgan equivale a ¬(p ∨ q). En cambio, ¬(p ∧ q) solo dice que no hace las dos cosas a la vez: podría hacer una. ¬p ∧ q niega solo «estudia», y ¬p → q dice que, si no estudia, trabaja."
+   },
+   {
+    "q": "Con las mismas letras, «No es verdad que estudie y trabaje» se formaliza…",
+    "o": [
+     "¬p ∧ ¬q",
+     "¬(p ∧ q)",
+     "¬p ∨ q",
+     "¬p ∧ q"
+    ],
+    "a": 1,
+    "fb": "Se niega la conjunción entera: no hace las dos cosas a la vez. Es compatible con que estudie y no trabaje, o al revés. ¬p ∧ ¬q dice más: que no hace ninguna de las dos. ¬p ∨ q y ¬p ∧ q dejan «trabaja» fuera del «no», y la frase lo niega todo junto."
+   },
+   {
+    "q": "p: «vienes tú»; q: «voy yo». «O vienes tú o voy yo, pero no los dos» se formaliza…",
+    "o": [
+     "p ∨ q",
+     "(p ∨ q) ∧ ¬(p ∧ q)",
+     "(p ∨ q) ∧ (¬p ∧ ¬q)",
+     "¬p ∨ ¬q"
+    ],
+    "a": 1,
+    "fb": "Es la «o» exclusiva: al menos uno y no los dos. Equivale a ¬(p ↔ q). La ∨ de la lógica es inclusiva y también es verdadera cuando vienen los dos; ¬p ∨ ¬q solo dice que no vienen los dos. Y (p ∨ q) ∧ (¬p ∧ ¬q) es una contradicción: «no los dos» no es «ninguno de los dos»."
+   },
+   {
+    "q": "p: «es caro»; q: «lo compro». «Es caro; sin embargo, lo compro» se formaliza…",
+    "o": [
+     "p → q",
+     "p ∧ q",
+     "¬p ∧ q",
+     "p → ¬q"
+    ],
+    "a": 1,
+    "fb": "«Sin embargo», «pero» y «aunque» afirman las dos cosas: son una conjunción. El matiz de contraste («esperarías que no lo comprara») es real, pero la lógica de enunciados no lo recoge."
+   },
+   {
+    "q": "p: «estudias»; q: «te distraes»; r: «apruebas». «Si estudias y no te distraes, apruebas» se formaliza…",
+    "o": [
+     "p ∧ (¬q → r)",
+     "(p ∧ ¬q) → r",
+     "p ∧ ¬q ∧ r",
+     "(p → r) ∧ ¬q"
+    ],
+    "a": 1,
+    "fb": "El antecedente es «estudias y no te distraes» entero, así que va entre paréntesis: (p ∧ ¬q) → r. p ∧ (¬q → r) afirma que estudias, y solo pone el «no te distraes» como condición."
+   },
+   {
+    "q": "Con las mismas letras, «Estudias, y si no te distraes, apruebas» se formaliza…",
+    "o": [
+     "(p ∧ ¬q) → r",
+     "p ∧ (¬q → r)",
+     "p → (¬q ∧ r)",
+     "p ∧ ¬q ∧ r"
+    ],
+    "a": 1,
+    "fb": "Ahora se afirma que estudias, y además un condicional: p ∧ (¬q → r). Compárala con «Si estudias y no te distraes, apruebas», que es (p ∧ ¬q) → r: las mismas letras con otros paréntesis dicen cosas distintas. Por ejemplo, si no estudias, (p ∧ ¬q) → r es verdadera y p ∧ (¬q → r) es falsa."
+   },
+   {
+    "q": "Caso trampa: alguien promete «si apruebas, te regalo la bici» (p → q). No apruebas y te regala la bici. ¿Ha incumplido la promesa?",
+    "o": [
+     "Sí: tenía que regalártela solo en el caso de que aprobaras.",
+     "No: solo fallaría si aprobaras y no te la regalara.",
+     "Sí, porque la promesa era en realidad un bicondicional.",
+     "No se puede saber sin preguntar qué quería decir."
+    ],
+    "a": 1,
+    "fb": "p → q solo es falso cuando p es verdadero y q falso. En la conversación a menudo se entiende «solo si apruebas», es decir, un bicondicional; pero lo dicho es un condicional, y la promesa se cumple."
+   },
+   {
+    "q": "p: «votas»; q: «tienes 18 años». «Para votar es necesario tener 18 años» se formaliza…",
+    "o": [
+     "q → p",
+     "p → q",
+     "p ↔ q",
+     "p ∧ q"
+    ],
+    "a": 1,
+    "fb": "Una condición necesaria va en el consecuente: si votas, es que tienes 18 años. Tener 18 no basta para votar (hay que estar inscrito, por ejemplo), así que q → p sería falso."
+   },
+   {
+    "q": "p: «llueve»; q: «se suspende el partido». «Basta con que llueva para que se suspenda el partido» se formaliza…",
+    "o": [
+     "p → q",
+     "q → p",
+     "p ↔ q",
+     "p ∧ q"
+    ],
+    "a": 0,
+    "fb": "«Basta con» introduce una condición suficiente, que va en el antecedente: si llueve, se suspende. El partido podría suspenderse por otras razones, así que no se puede invertir (q → p) ni decir que la lluvia es necesaria (p ↔ q). Y la frase no afirma que llueva, como haría p ∧ q."
+   },
+   {
+    "q": "p: «llueve»; q: «hace frío». «No llueve, pero hace frío» se formaliza…",
+    "o": [
+     "¬(p ∧ q)",
+     "¬p ∧ q",
+     "¬p → q",
+     "¬(p ∨ q)"
+    ],
+    "a": 1,
+    "fb": "El «no» afecta solo a «llueve», y «pero» es una conjunción. ¬(p ∧ q) niega que pasen las dos cosas a la vez, que es mucho menos."
+   },
+   {
+    "q": "p: «llueve»; q: «salgo»; r: «voy al cine». «Si llueve, no salgo ni voy al cine» se formaliza…",
+    "o": [
+     "(p → ¬q) ∧ ¬r",
+     "p → (¬q ∧ ¬r)",
+     "p → ¬(q ∧ r)",
+     "¬p → (q ∧ r)"
+    ],
+    "a": 1,
+    "fb": "Las dos negaciones dependen de la lluvia: van juntas en el consecuente. (p → ¬q) ∧ ¬r afirma que no voy al cine, llueva o no. p → ¬(q ∧ r) dice menos: solo que no hago las dos cosas."
+   }
+  ]
+ },
+ "fil-cuantif-q": {
+  "name": "Cuantificadores, cuadrado de oposición y conversión (Filosofía 1.º · T4 · itinerario, nivel 6)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "«Todos los S son P» se escribe con cuantificadores…",
+    "o": [
+     "∀x (Sx ∧ Px)",
+     "∀x (Sx → Px)",
+     "∃x (Sx → Px)",
+     "∀x (Px → Sx)"
+    ],
+    "a": 1,
+    "fb": "Para cualquier cosa: si es S, es P. Con ∧ diría que todo es S y P a la vez, algo mucho más fuerte; ∀x (Px → Sx) es «todos los P son S»."
+   },
+   {
+    "q": "Caso trampa: «Algún S es P» se escribe…",
+    "o": [
+     "∃x (Sx → Px)",
+     "∃x (Sx ∧ Px)",
+     "∀x (Sx ∧ Px)",
+     "∃x Sx → ∃x Px"
+    ],
+    "a": 1,
+    "fb": "Hay al menos una cosa que es S y P. ∃x (Sx → Px) es casi vacía: es verdadera en cuanto exista algo que no sea S, porque para esa cosa el condicional es verdadero. Con ∃ va ∧; con ∀ va →."
+   },
+   {
+    "q": "«Ningún S es P» se escribe…",
+    "o": [
+     "∀x (Sx → ¬Px)",
+     "∀x ¬(Sx → Px)",
+     "∃x (Sx ∧ ¬Px)",
+     "∀x ¬Sx"
+    ],
+    "a": 0,
+    "fb": "Para cualquier cosa: si es S, no es P. Equivale a ¬∃x (Sx ∧ Px). ∃x (Sx ∧ ¬Px) es la O («algún S no es P»), que dice mucho menos; ∀x ¬(Sx → Px) diría que todo es S y no es P, y ∀x ¬Sx, que no hay ningún S."
+   },
+   {
+    "q": "«Algún S no es P» se escribe…",
+    "o": [
+     "∃x (Sx ∧ ¬Px)",
+     "∃x ¬(Sx ∧ Px)",
+     "¬∃x (Sx ∧ ¬Px)",
+     "∀x (Sx → ¬Px)"
+    ],
+    "a": 0,
+    "fb": "Hay al menos una cosa que es S y no es P. ∃x ¬(Sx ∧ Px) sería verdadera con cualquier cosa que no fuera S; ¬∃x (Sx ∧ ¬Px) es la A («todo S es P»), y ∀x (Sx → ¬Px), la E («ningún S es P»)."
+   },
+   {
+    "q": "La negación de ∀x Px («todo es P») es…",
+    "o": [
+     "∀x ¬Px",
+     "∃x ¬Px",
+     "¬∃x ¬Px",
+     "∃x Px"
+    ],
+    "a": 1,
+    "fb": "Para que no todo sea P basta con que haya algo que no lo sea. ∀x ¬Px («nada es P») es la contraria, no la contradictoria: las dos pueden ser falsas a la vez. ¬∃x ¬Px equivale a ∀x Px: no la niega, la repite."
+   },
+   {
+    "q": "P: «se presenta»; A: «aprueba». «No todos los que se presentan aprueban» se escribe…",
+    "o": [
+     "∀x (Px → ¬Ax)",
+     "∃x (Px ∧ ¬Ax)",
+     "¬∀x (Px ∧ Ax)",
+     "∃x (¬Px ∧ Ax)"
+    ],
+    "a": 1,
+    "fb": "Negar una A da una O: hay alguien que se presenta y no aprueba (equivale a ¬∀x (Px → Ax)). ∀x (Px → ¬Ax) diría que no aprueba nadie, que es mucho más; ¬∀x (Px ∧ Ax) se cumpliría con que hubiera alguien que no se presenta."
+   },
+   {
+    "q": "Caso trampa. S: «es socio»; E: «puede entrar». «Solo los socios pueden entrar» se escribe…",
+    "o": [
+     "∀x (Sx → Ex)",
+     "∀x (Ex → Sx)",
+     "∃x (Sx ∧ Ex)",
+     "∀x (Sx ↔ Ex)"
+    ],
+    "a": 1,
+    "fb": "«Solo los S son E» significa «todos los E son S»: si alguien puede entrar, es socio. No dice que todos los socios puedan entrar (eso sería ∀x (Sx → Ex)): un socio sancionado podría no entrar."
+   },
+   {
+    "q": "Q: «quiere a». Compara «∀x ∃y Qxy» (todo el mundo quiere a alguien) y «∃y ∀x Qxy» (hay alguien a quien todo el mundo quiere). ¿Qué relación hay entre ellas?",
+    "o": [
+     "Dicen lo mismo.",
+     "La segunda implica la primera, pero no al revés.",
+     "La primera implica la segunda, pero no al revés.",
+     "Ninguna implica a la otra."
+    ],
+    "a": 1,
+    "fb": "Si hay alguien a quien todos quieren, cada uno quiere a alguien (a esa persona). Pero que cada uno quiera a alguien no obliga a que sea la misma persona. El orden de los cuantificadores cambia lo que se dice."
+   },
+   {
+    "q": "En la fórmula ∀x (Px → Qy), ¿qué variable está libre?",
+    "o": [
+     "x",
+     "y",
+     "Las dos.",
+     "Ninguna."
+    ],
+    "a": 1,
+    "fb": "La x está ligada por ∀x; la y no la liga ningún cuantificador. Por eso la fórmula no es verdadera ni falsa hasta que se dice de quién habla y: es como «él es alto» sin saber quién es él."
+   },
+   {
+    "q": "P: «es par»; I: «es impar». ¿Cuál de estas inferencias es válida?",
+    "o": [
+     "De ∃x Px ∧ ∃x Ix se sigue ∃x (Px ∧ Ix).",
+     "De ∃x (Px ∧ Ix) se sigue ∃x Px ∧ ∃x Ix.",
+     "Las dos.",
+     "Ninguna."
+    ],
+    "a": 1,
+    "fb": "Si algo es par e impar, hay algo par y hay algo impar. Pero al revés no: hay números pares y hay números impares, y ninguno es las dos cosas. El ∃ se reparte en la ∧ en un sentido, pero no se junta en el otro."
+   },
+   {
+    "q": "Caso trampa: «Todos los dragones escupen fuego» y «Algún dragón escupe fuego». Para la lógica actual, si no hay dragones…",
+    "o": [
+     "Las dos son falsas, porque no existe ningún dragón.",
+     "La primera es verdadera y la segunda falsa.",
+     "Las dos son verdaderas, porque nadie las desmiente.",
+     "Ninguna es verdadera ni falsa: hablan de algo que no existe."
+    ],
+    "a": 1,
+    "fb": "∀x (Dx → Fx) es verdadera si no hay ningún dragón que la contradiga; ∃x (Dx ∧ Fx) necesita un dragón. Por eso, en la lógica actual, de la A no se sigue la I: es el problema del sujeto vacío (el compromiso existencial)."
+   },
+   {
+    "q": "¿Qué relación del cuadrado de oposición se mantiene igual en la lectura tradicional y en la actual?",
+    "o": [
+     "Las contrarias (A y E): nunca son verdaderas a la vez.",
+     "Las subcontrarias (I y O): nunca son falsas a la vez.",
+     "Las subalternas: de la A se sigue la I.",
+     "Las contradictorias (A y O, E e I)."
+    ],
+    "a": 3,
+    "fb": "A y O, y E e I, siempre tienen valores opuestos, haya o no cosas de las que se habla. Las otras tres relaciones dependen de suponer que existe algún S, y fallan con el sujeto vacío."
+   },
+   {
+    "q": "¿Cuál de estas conversiones es válida sin ningún supuesto más?",
+    "o": [
+     "«Ningún S es P» → «Ningún P es S».",
+     "«Todos los S son P» → «Todos los P son S».",
+     "«Algún S no es P» → «Algún P no es S».",
+     "«Todos los S son P» → «Algún P es S»."
+    ],
+    "a": 0,
+    "fb": "La E y la I se convierten sin más. La A no: todos los perros son mamíferos, pero no todos los mamíferos son perros. La conversión de la A «por limitación» (de «Todos los S son P» a «Algún P es S») solo vale si hay algún S."
+   },
+   {
+    "q": "Caso trampa: «Algún animal no es perro». ¿Se puede convertir en «Algún perro no es animal»?",
+    "o": [
+     "Sí: la O se convierte igual que la I, cambiando S por P.",
+     "No: la O no se convierte, y aquí lleva a algo falso.",
+     "Sí, con tal de que en el mundo haya al menos un perro.",
+     "Solo en la lógica tradicional, que suponía que hay perros."
+    ],
+    "a": 1,
+    "fb": "El contraejemplo lo dice todo: premisa verdadera, conclusión falsa. En la O el predicado está distribuido y el sujeto no; al cambiarlos de sitio se habla de todos los animales sin derecho."
+   },
+   {
+    "q": "Darapti: «Todo M es P; todo M es S; luego algún S es P». En la lógica actual…",
+    "o": [
+     "Es válido sin más, como en la lógica de Aristóteles.",
+     "No; lo es si se añade que hay algún M.",
+     "Es válido solo si no hay ningún M en el mundo.",
+     "No es válido de ninguna manera, ni añadiendo premisas."
+    ],
+    "a": 1,
+    "fb": "Las dos premisas universales no dicen que haya ningún M, y la conclusión sí afirma que existe algo. Si no hay ningún M, las premisas son verdaderas y la conclusión puede ser falsa. Con la premisa «hay algún M», vuelve a ser válido."
+   }
+  ]
+ },
+ "fil-boole-q": {
+  "name": "Clases, conjuntos y álgebra de Boole: la misma ley en cinco lenguajes (Filosofía 1.º · T4 · itinerario, nivel 5)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "En el álgebra de Boole, el producto x · y corresponde a…",
+    "o": [
+     "la conjunción (∧), la intersección (∩) y la puerta AND",
+     "la disyunción (∨), la unión (∪) y la puerta OR",
+     "la negación (¬), el complemento (Aᶜ) y la puerta NOT",
+     "el condicional (→), la inclusión (A ⊆ B) y la puerta IMPLY"
+    ],
+    "a": 0,
+    "fb": "x · y vale 1 solo si x e y valen 1, como p ∧ q solo es verdadera si lo son las dos, y un elemento está en A ∩ B solo si está en A y en B."
+   },
+   {
+    "q": "En Boole, 1 + 1 = 1. ¿Con qué conectiva se corresponde esa suma?",
+    "o": [
+     "Con ∧",
+     "Con ∨",
+     "Con ¬",
+     "Con ↔"
+    ],
+    "a": 1,
+    "fb": "La suma de Boole vale 1 si al menos un sumando vale 1: es la ∨ inclusiva, la unión y la puerta OR. Por eso 1 + 1 no es 2, sino 1 («verdadero o verdadero» es verdadero)."
+   },
+   {
+    "q": "Con los números de siempre, si x e y solo valen 0 o 1, ¿qué cuenta da exactamente el valor de x ∨ y?",
+    "o": [
+     "x + y",
+     "x · y",
+     "x + y − x · y",
+     "(x + y) · (1 − x · y)"
+    ],
+    "a": 2,
+    "fb": "Con x = y = 1, x + y daría 2; restar x · y lo corrige a 1, y en los demás casos no cambia nada. x · y es la ∧, y (x + y) · (1 − x · y) da 0 con x = y = 1: es la «o» exclusiva, no la inclusiva."
+   },
+   {
+    "q": "Con los números de siempre (0 y 1), la negación de x es…",
+    "o": [
+     "−x",
+     "1 − x",
+     "x − 1",
+     "1 / x"
+    ],
+    "a": 1,
+    "fb": "Si x = 1, da 0; si x = 0, da 1. En conjuntos es el complemento (Aᶜ) y en circuitos la puerta NOT."
+   },
+   {
+    "q": "La ley de De Morgan ¬(p ∧ q) ↔ ¬p ∨ ¬q, escrita en el álgebra de Boole, es…",
+    "o": [
+     "(x · y)′ = x′ · y′",
+     "(x · y)′ = x′ + y′",
+     "(x + y)′ = x′ + y′",
+     "x′ · y′ = x + y"
+    ],
+    "a": 1,
+    "fb": "Fuera de «los dos a la vez» es «falla uno o falla el otro». En conjuntos, (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ; en circuitos, un NAND es un OR de dos NOT. (x · y)′ = x′ · y′ es el error de siempre: repartir la negación sin cambiar la operación."
+   },
+   {
+    "q": "¿A qué corresponden la tautología y la contradicción en los conjuntos?",
+    "o": [
+     "Al universo U y al conjunto vacío ∅.",
+     "Al conjunto vacío ∅ y al universo U, por ese orden.",
+     "A la unión y a la intersección.",
+     "A un conjunto A y a su complemento Aᶜ."
+    ],
+    "a": 0,
+    "fb": "Una tautología es verdadera en todos los casos, como U contiene todos los elementos; una contradicción no lo es en ninguno, como ∅ no tiene ninguno. En Boole son 1 y 0, y en un circuito, la lámpara siempre encendida o siempre apagada."
+   },
+   {
+    "q": "En el álgebra de Boole, x + x es igual a…",
+    "o": [
+     "2x",
+     "x",
+     "0",
+     "1"
+    ],
+    "a": 1,
+    "fb": "Es la idempotencia: p ∨ p equivale a p, y A ∪ A = A. Con los números de siempre, 1 + 1 = 2: por eso la tabla de puentes escribe la ∨ como x + y − x · y."
+   },
+   {
+    "q": "La ley de absorción p ∨ (p ∧ q) ↔ p, en conjuntos, es…",
+    "o": [
+     "A ∪ (A ∩ B) = A",
+     "A ∩ (A ∪ B) = B",
+     "A ∪ B = A",
+     "(A ∩ B)ᶜ = A"
+    ],
+    "a": 0,
+    "fb": "Lo que está en A, o en A y en B a la vez, es simplemente lo que está en A: la parte común ya estaba dentro de A. La ley hermana es A ∩ (A ∪ B) = A."
+   },
+   {
+    "q": "¿Cuál de estas igualdades vale en el álgebra de Boole, pero no con los números de siempre?",
+    "o": [
+     "x · (y + z) = x · y + x · z",
+     "x + y · z = (x + y) · (x + z)",
+     "x · (y + z + w) = x · y + x · z + x · w",
+     "x · 1 = x"
+    ],
+    "a": 1,
+    "fb": "Es la otra distributiva, p ∨ (q ∧ r) ↔ (p ∨ q) ∧ (p ∨ r). Con x = y = z = 1, a la izquierda da 1 + 1 = 2 y a la derecha 2 · 2 = 4 en los números de siempre, pero 1 en Boole. Las demás valen en los dos sitios."
+   },
+   {
+    "q": "La diferencia de conjuntos A − B (lo que está en A y no en B) corresponde a…",
+    "o": [
+     "p → q",
+     "p ∧ ¬q",
+     "¬(p ∧ q)",
+     "p ∨ ¬q"
+    ],
+    "a": 1,
+    "fb": "Estar en A y no estar en B: p ∧ ¬q, que es A ∩ Bᶜ. Curiosamente, es la negación del condicional: ¬(p → q) ↔ p ∧ ¬q."
+   },
+   {
+    "q": "Un NAND da 0 solo cuando sus dos entradas valen 1. ¿A qué fórmula corresponde?",
+    "o": [
+     "¬p ∧ ¬q",
+     "¬(p ∧ q)",
+     "¬(p ↔ q)",
+     "p ∧ q"
+    ],
+    "a": 1,
+    "fb": "NAND es «NOT AND»: la negación de la conjunción, que por De Morgan es ¬p ∨ ¬q. ¬p ∧ ¬q es el NOR, que da 1 solo si las dos entradas valen 0; ¬(p ↔ q) es el XOR, que da 0 con dos unos, pero también con dos ceros."
+   },
+   {
+    "q": "La paradoja de Russell toma la clase R de todas las clases que no son miembros de sí mismas. ¿Qué pasa al preguntar si R es miembro de R?",
+    "o": [
+     "Que sí lo es, y no hay problema.",
+     "Que no lo es, y no hay problema.",
+     "Que lo es si y solo si no lo es: una contradicción.",
+     "Que la pregunta no tiene sentido en la lógica de enunciados, pero sí en Boole."
+    ],
+    "a": 2,
+    "fb": "Si R ∈ R, cumple la condición de no estar en sí misma, así que R ∉ R; y si R ∉ R, la cumple, así que R ∈ R. La salida fue no permitir que cualquier propiedad defina una clase: los axiomas de la teoría de conjuntos dicen cuáles existen."
+   }
+  ]
+ },
+ "fil-relaciones-q": {
+  "name": "Propiedades de las relaciones y mundos pequeños (Filosofía 1.º · T4 · itinerario, nivel 8)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué propiedades tiene «ser más alto que»?",
+    "o": [
+     "Reflexiva, simétrica y transitiva.",
+     "Transitiva y asimétrica; no es reflexiva.",
+     "Simétrica y transitiva, pero no reflexiva.",
+     "Solo reflexiva: cada uno es más alto que sí mismo."
+    ],
+    "a": 1,
+    "fb": "Si Ana es más alta que Bea y Bea que Carla, Ana es más alta que Carla (transitiva); si Ana es más alta que Bea, Bea no lo es que Ana (asimétrica); y nadie es más alto que sí mismo."
+   },
+   {
+    "q": "«Ser igual de alto que» es…",
+    "o": [
+     "Reflexiva, simétrica y transitiva.",
+     "Simétrica, pero no transitiva: falla en las cadenas.",
+     "Transitiva, pero no simétrica, como «más alto que».",
+     "Solo simétrica, porque la estatura varía."
+    ],
+    "a": 0,
+    "fb": "Cada uno es igual de alto que sí mismo; si a lo es que b, b lo es que a; y si a lo es que b y b que c, a lo es que c: es una relación de equivalencia. Una equivalencia reparte las cosas en grupos (aquí, por estaturas)."
+   },
+   {
+    "q": "¿Es transitiva «ser amigo de»?",
+    "o": [
+     "Sí, siempre: los amigos de mis amigos son mis amigos.",
+     "No: el amigo de un amigo no es siempre amigo tuyo.",
+     "Sí, porque es simétrica, y lo simétrico es transitivo.",
+     "No, porque no es simétrica ni reflexiva."
+    ],
+    "a": 1,
+    "fb": "Es simétrica (al menos si la amistad es mutua), pero no transitiva: basta un caso en que a sea amigo de b, b de c, y a no sea amigo de c. Simetría y transitividad son independientes."
+   },
+   {
+    "q": "Caso trampa: «ser hermano o hermana de» es simétrica. ¿Es transitiva?",
+    "o": [
+     "Sí: los hermanos de mis hermanos son mis hermanos, y eso es la transitividad.",
+     "No: Ana es hermana de Bea y Bea de Ana, pero Ana no lo es de sí misma.",
+     "Sí, si se trata de hermanos de padre y madre, y no de medio hermanos.",
+     "No se puede saber sin conocer a la familia entera."
+    ],
+    "a": 1,
+    "fb": "La transitividad tiene que valer también cuando la cadena vuelve al principio (a con b, b con a): obligaría a que a fuera hermana de sí misma. Casi transitiva no es transitiva: un contraejemplo basta."
+   },
+   {
+    "q": "En los números naturales, «ser divisor de» (3 es divisor de 12) es reflexiva y transitiva. ¿Qué propiedad no tiene?",
+    "o": [
+     "Reflexiva.",
+     "Transitiva.",
+     "Simétrica.",
+     "Ninguna: las tiene todas."
+    ],
+    "a": 2,
+    "fb": "3 divide a 12, pero 12 no divide a 3. Es antisimétrica: si a divide a b y b divide a a, entonces a = b. Reflexiva, antisimétrica y transitiva: es un orden (parcial)."
+   },
+   {
+    "q": "Si una relación es simétrica y transitiva, ¿es también reflexiva?",
+    "o": [
+     "Sí: de a R b y b R a se sigue a R a, por transitividad, sin más.",
+     "No: basta que haya algo que no esté relacionado con nada.",
+     "Sí, siempre, en cualquier mundo que se pruebe.",
+     "Solo si es asimétrica."
+    ],
+    "a": 1,
+    "fb": "El argumento «de a R b y b R a se sigue a R a» solo vale para las cosas que están relacionadas con alguna. En el mundo {a, b} con R = {(a, a)}, R es simétrica y transitiva, pero no reflexiva: b no está relacionada consigo misma."
+   },
+   {
+    "q": "Si una relación es asimétrica (si a R b, entonces no b R a), ¿qué se sigue?",
+    "o": [
+     "Que es transitiva, como «ser más alto que».",
+     "Que es irreflexiva: nada se relaciona consigo mismo.",
+     "Que es reflexiva: todo está relacionado consigo mismo.",
+     "Nada: la asimetría no dice nada de a R a."
+    ],
+    "a": 1,
+    "fb": "Si a R a, tomando b = a, la asimetría exigiría que no a R a: contradicción. Lo contrario no vale: «ser hermano o hermana de» es irreflexiva y simétrica."
+   },
+   {
+    "q": "Si una relación es transitiva e irreflexiva, ¿es asimétrica?",
+    "o": [
+     "Sí: si a R b y b R a, sería a R a, que está prohibido.",
+     "No: transitividad e irreflexividad no dicen nada de la simetría.",
+     "Solo si además es simétrica, como la amistad.",
+     "Solo en mundos finitos, donde se pueden mirar todos los pares."
+    ],
+    "a": 0,
+    "fb": "Es una demostración de tres pasos. Por eso «ser más alto que» es asimétrica sin necesidad de comprobarlo: basta ver que es transitiva y que nadie es más alto que sí mismo."
+   },
+   {
+    "q": "Un mundo pequeño: las cosas son a, b y c, y R = {(a, b), (b, c)}. ¿Es R transitiva?",
+    "o": [
+     "Sí: de a se llega a c pasando por b.",
+     "No: tiene (a, b) y (b, c), pero no (a, c).",
+     "Sí, porque no es simétrica ni reflexiva.",
+     "No se puede saber sin conocer más cosas del mundo."
+    ],
+    "a": 1,
+    "fb": "Para ser transitiva, cada vez que hay un camino de dos pasos tiene que haber también el atajo. Aquí falta (a, c). Si se añade, R pasa a ser transitiva."
+   },
+   {
+    "q": "En el mismo mundo (a, b, c; R = {(a, b), (b, c)}), ¿es verdadera «∀x ∃y Rxy», «cada cosa está relacionada con alguna»?",
+    "o": [
+     "Sí.",
+     "No: c no está relacionada con nada.",
+     "Sí, porque hay tres pares.",
+     "No, porque a no recibe ninguna flecha."
+    ],
+    "a": 1,
+    "fb": "Hay que mirar cada x: a tiene su y (b), b tiene la suya (c), pero c no tiene ninguna. Que a no reciba flechas importaría para ∀y ∃x Rxy, no para esta frase."
+   },
+   {
+    "q": "En el mismo mundo, ¿es verdadera «∃x ∀y ¬Ryx», «hay algo con lo que nada está relacionado»?",
+    "o": [
+     "Sí: con a no está relacionado nada.",
+     "No: todo recibe alguna flecha.",
+     "Sí: c no está relacionado con nada.",
+     "No se puede saber."
+    ],
+    "a": 0,
+    "fb": "Ryx quiere decir «y está relacionado con x»: buscamos una x a la que no llegue ninguna flecha, y esa es a. La respuesta «c no está relacionado con nada» confunde la dirección: c no tiene flechas que salgan, pero sí le llega una (de b)."
+   },
+   {
+    "q": "Caso trampa: pruebas muchas relaciones simétricas y transitivas en un mundo de tres cosas y todas salen reflexivas. ¿Queda demostrado que toda relación simétrica y transitiva es reflexiva?",
+    "o": [
+     "Sí, si se han probado muchas.",
+     "No: un mundo pequeño puede refutar, pero no demostrar; y además es falso.",
+     "Sí, si se prueban todas las de ese mundo.",
+     "No, porque tres cosas son pocas; con diez o con cien ya estaría demostrado."
+    ],
+    "a": 1,
+    "fb": "Para demostrar hay que valer en todos los mundos, y ningún número de casos lo asegura. Aquí, además, hay contraejemplo: en el mundo {a, b}, R = {(a, a)} es simétrica y transitiva, pero no reflexiva, porque b no está relacionada consigo misma. Es el límite del nivel 8."
    }
   ]
  },
