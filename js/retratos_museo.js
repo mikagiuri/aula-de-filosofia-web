@@ -259,6 +259,18 @@ const RETRATOS = [
   "page": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg"
  },
  {
+  "slug": "schopenhauer",
+  "name": "Schopenhauer",
+  "aliases": [
+   "Schopenhauer"
+  ],
+  "file": "media/retratos/museo/schopenhauer.jpg",
+  "title": "Arthur Schopenhauer by J Sch fer 1859b",
+  "artist": "Johann Schäfer",
+  "license": "Public Domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+ },
+ {
   "slug": "mill",
   "name": "John Stuart Mill",
   "aliases": [

@@ -1,6 +1,654 @@
 // Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
 const PISTAS = [
  {
+  "id": "fil-mito-logos",
+  "subject": "fil",
+  "tema": "Tema 1 · ¿Qué es la filosofía?",
+  "unidad": "fil-t1",
+  "materia": "Filosofía 1.º · La filosofía",
+  "titulo": "¿Qué cambia al pasar del mito al logos?",
+  "lede": "Cómo nace la filosofía en Grecia: dos maneras de explicar un terremoto. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿En qué se diferencia una explicación mítica de una explicación racional?",
+    "intro": [
+     "La tierra tiembla. Un griego del siglo VIII a. C. diría que Poseidón, «el que sacude la tierra», está enfadado. Tales de Mileto, hacia el 585 a. C., dijo otra cosa: que la tierra flota sobre el agua y el agua la sacude. Los dos se equivocan. ¿Qué ha cambiado, entonces?"
+    ],
+    "pistas": [
+     "Para aterrizar: un <em>mito</em> es un relato tradicional que explica el mundo por la voluntad de dioses y héroes. Se cuenta y se transmite; no se discute.",
+     "Fíjate en <em>quién</em> causa el terremoto en cada explicación: en una, un dios con sus enfados; en la otra, algo que forma parte de la naturaleza misma, el agua.",
+     "Y fíjate en <em>por qué</em> se cree cada una: el mito vale porque lo dice la tradición; la explicación de Tales vale si sus razones convencen, y cualquiera puede examinarlas y buscarles fallos.",
+     "Eso es el <strong>logos</strong>: explicar la naturaleza por causas naturales y con razones que se pueden discutir. Lo nuevo no es acertar, sino el tipo de explicación."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué hace racional la explicación de Tales, aunque sea falsa?",
+     "opciones": [
+      [
+       "Que busca una causa natural y se apoya en razones que otros pueden examinar.",
+       true
+      ],
+      [
+       "Que es verdadera.",
+       false,
+       "No lo es: la tierra no flota sobre el agua. Una explicación puede ser racional y equivocarse."
+      ],
+      [
+       "Que la propuso alguien muy sabio.",
+       false,
+       "Eso sería creerla por autoridad, igual que el mito se cree por tradición."
+      ],
+      [
+       "Que no habla de nada que no se pueda ver.",
+       false,
+       "El agua bajo la tierra tampoco se veía: Tales la supone para explicar lo que sí se ve."
+      ]
+     ],
+     "ok": "Bien: causa natural y razones a la vista de todos.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Mito y logos, frente a frente",
+      "definicion": [
+       "Terremoto · mito: Poseidón golpea la tierra con su tridente · logos (Tales): el agua sobre la que flota la tierra la agita.",
+       "Origen del mundo · mito: los dioses nacen unos de otros (Hesíodo, <em>Teogonía</em>) · logos: todo procede de un principio, el <em>arjé</em> (el agua para Tales, lo indefinido para Anaximandro, el aire para Anaxímenes).",
+       "Por qué se acepta · mito: lo dice la tradición · logos: lo apoyan razones que se pueden discutir."
+      ],
+      "parrafos": [
+       "La explicación de Tales la recoge Séneca en sus <em>Cuestiones naturales</em>. No sabemos si Tales la escribió: de los primeros filósofos solo quedan fragmentos y noticias de otros autores."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué buscaban los primeros filósofos al hablar del <em>arjé</em>?",
+       "opciones": [
+        [
+         "El principio del que procede todo lo que existe.",
+         true
+        ],
+        [
+         "El dios más antiguo de todos.",
+         false,
+         "Eso lo buscaba la <em>Teogonía</em> de Hesíodo, que es un relato mítico."
+        ],
+        [
+         "La fecha en que se creó el mundo.",
+         false,
+         "No buscaban un momento, sino aquello de lo que todo está hecho."
+        ],
+        [
+         "La ley que debía gobernar la ciudad.",
+         false,
+         "Esa pregunta llegará después: los primeros filósofos miraban a la naturaleza."
+        ]
+       ],
+       "ok": "Correcto: el <em>arjé</em> es el principio de todas las cosas.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Mito y logos",
+      "definicion": [
+       "El <strong>mito</strong> explica el mundo con relatos sobre dioses y héroes; se acepta por la autoridad de la tradición.",
+       "El <strong>logos</strong> (razón, palabra razonada) explica la naturaleza por causas naturales y con argumentos que cualquiera puede examinar.",
+       "Los primeros filósofos, en Mileto (siglo VI a. C.), buscaron el <strong>arjé</strong>: el principio del que todo procede."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Cuál de estas explicaciones pertenece al logos?",
+       "opciones": [
+        [
+         "Las cosas cambian porque un mismo principio natural adopta formas distintas.",
+         true
+        ],
+        [
+         "Las estaciones cambian porque Perséfone pasa medio año con Hades.",
+         false,
+         "Es un mito: explica la naturaleza por lo que hacen los dioses."
+        ],
+        [
+         "El sol cruza el cielo porque Helios lo lleva en su carro.",
+         false,
+         "Otra vez un dios como causa: es un relato mítico."
+        ],
+        [
+         "Las cosas son así porque siempre se ha dicho que son así.",
+         false,
+         "Eso es apoyarse en la tradición, que es justo lo que el logos deja de hacer."
+        ]
+       ],
+       "ok": "Correcto: un principio natural, no una voluntad divina.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Fue un salto de golpe, o el mito y el logos convivieron?",
+    "intro": [
+     "Se suele decir que la filosofía nació al pasar «del mito al logos». Pero Platón, dos siglos después de Tales, sigue contando mitos en sus diálogos. ¿Entonces?"
+    ],
+    "pistas": [
+     "Para aterrizar: el paso del mito al logos no fue un día concreto, sino un proceso largo. Los mitos ya ordenaban el mundo, y los filósofos siguieron usándolos.",
+     "Lo que cambió de verdad fue la actitud ante las explicaciones: el mito se repite; la explicación racional se pone a prueba.",
+     "Mira lo que pasó en Mileto: Anaximandro, discípulo de Tales, no repitió a su maestro. Le corrigió: ningún elemento concreto puede ser el principio de todo; tiene que ser algo indefinido, el <em>ápeiron</em>.",
+     "Ahí está lo decisivo: una <strong>tradición crítica</strong>, en la que el alumno puede discutir al maestro con razones. Karl Popper vio en ella el comienzo de la ciencia y de la filosofía."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué fue lo realmente nuevo de los primeros filósofos?",
+     "opciones": [
+      [
+       "Que sus explicaciones se discutían y se corregían unos a otros con razones.",
+       true
+      ],
+      [
+       "Que dejaron de contar mitos por completo.",
+       false,
+       "Platón, por ejemplo, sigue usando mitos para explicar sus ideas."
+      ],
+      [
+       "Que acertaron en todo lo que dijeron.",
+       false,
+       "Casi todas sus teorías concretas eran falsas; lo valioso fue el método."
+      ],
+      [
+       "Que se apoyaron en la autoridad de los sabios antiguos.",
+       false,
+       "Al contrario: Anaximandro corrige a su propio maestro."
+      ]
+     ],
+     "ok": "Exacto: la novedad es la crítica.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Una tradición crítica",
+      "titulo": "Discutir al maestro",
+      "definicion": [
+       "La frase «del mito al logos» resume bien el cambio, pero no fue un salto brusco: el mito y el logos <strong>convivieron</strong> durante siglos.",
+       "Lo nuevo fue que las explicaciones se presentaban para ser <strong>discutidas</strong>: Anaximandro corrige a Tales, Anaxímenes a Anaximandro.",
+       "Un mito no se refuta; una teoría, sí. Por eso, aunque sus teorías fueran falsas, los presocráticos abrieron el camino de la filosofía y de la ciencia."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Por qué Anaximandro es un buen ejemplo del logos?",
+       "opciones": [
+        [
+         "Porque critica con razones la teoría de su maestro y propone otra.",
+         true
+        ],
+        [
+         "Porque fue el primero en escribir mitos.",
+         false,
+         "Los mitos son mucho más antiguos que él."
+        ],
+        [
+         "Porque obedeció en todo a Tales.",
+         false,
+         "Hizo lo contrario: lo corrigió."
+        ],
+        [
+         "Porque demostró que el agua es el principio de todo.",
+         false,
+         "Esa era la tesis de Tales, y Anaximandro la rechazó."
+        ]
+       ],
+       "ok": "Correcto: discutir al maestro es el gesto de la filosofía.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué cambió con el logos",
+   "parrafos": [
+    "El mito explica el mundo por la voluntad de los dioses y se acepta por tradición; el logos lo explica por causas naturales, con razones que cualquiera puede examinar.",
+    "No fue un salto de golpe: lo nuevo fue una tradición crítica, en la que cada filósofo podía corregir al anterior. Para seguir: los presocráticos y su búsqueda del <em>arjé</em>."
+   ]
+  }
+ },
+ {
+  "id": "fil-utilidad",
+  "subject": "fil",
+  "tema": "Tema 1 · ¿Qué es la filosofía?",
+  "unidad": "fil-t1",
+  "materia": "Filosofía 1.º · La filosofía",
+  "titulo": "¿Para qué sirve la filosofía si no produce nada?",
+  "lede": "Lo útil y lo valioso: Aristóteles, Russell y un filósofo que se hizo rico para demostrar algo. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Es lo mismo que algo sea útil y que sea valioso?",
+    "intro": [
+     "Un martillo sirve para clavar clavos. ¿Y una amistad, para qué sirve? Si contestas «para nada», ¿dirías que no vale nada?"
+    ],
+    "pistas": [
+     "Para aterrizar: algo es <em>útil</em> cuando sirve para conseguir otra cosa. Su valor está fuera de él, en aquello que permite obtener.",
+     "Pero hay cosas que queremos por sí mismas, no para conseguir otra: la amistad, la salud, entender algo. A esas no les preguntamos «¿para qué?».",
+     "Por eso conviene distinguir dos clases de valor: el valor como <em>medio</em> (instrumental) y el valor como <em>fin</em> (intrínseco).",
+     "Aristóteles dijo que la filosofía es la más libre de las ciencias porque se busca <strong>por sí misma</strong>, no para otra cosa. Que no sea útil como un martillo no la deja sin valor."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué quiere decir que algo tiene valor intrínseco?",
+     "opciones": [
+      [
+       "Que se quiere por sí mismo, y no como medio para conseguir otra cosa.",
+       true
+      ],
+      [
+       "Que es muy caro.",
+       false,
+       "El precio mide lo que se paga en el mercado, no si algo se quiere por sí mismo."
+      ],
+      [
+       "Que sirve para muchas cosas.",
+       false,
+       "Eso sería un valor instrumental muy grande, no un valor intrínseco."
+      ],
+      [
+       "Que no sirve para nada y por eso no importa.",
+       false,
+       "Precisamente: hay cosas que no «sirven» y son de lo que más importa."
+      ]
+     ],
+     "ok": "Bien: valor intrínseco es valor como fin.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "El filósofo y los molinos de aceite",
+      "definicion": [
+       "Aristóteles cuenta (<em>Política</em> I, 11) que a Tales le reprochaban su pobreza, como prueba de que la filosofía no sirve para nada.",
+       "Tales, que estudiaba los astros, previó una gran cosecha de aceitunas. En invierno alquiló barato todos los molinos de aceite de Mileto y Quíos; llegada la cosecha, los realquiló al precio que quiso.",
+       "Así mostró, dice Aristóteles, que a los filósofos les es fácil enriquecerse si quieren, pero que no es eso lo que les interesa."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué quería mostrar Tales con los molinos?",
+       "opciones": [
+        [
+         "Que el filósofo podría ser útil si quisiera, pero que la filosofía no se busca para eso.",
+         true
+        ],
+        [
+         "Que la filosofía sirve, sobre todo, para hacerse rico.",
+         false,
+         "Al revés: si fuera eso lo que buscaba, no habría vuelto a ser pobre."
+        ],
+        [
+         "Que el aceite es más importante que el pensamiento.",
+         false,
+         "La anécdota no compara el aceite con el pensamiento: responde a la burla de que la filosofía no sirve."
+        ],
+        [
+         "Que hay que alquilar siempre los molinos en invierno.",
+         false,
+         "Es un detalle de la historia, no su enseñanza."
+        ]
+       ],
+       "ok": "Correcto: podía ser útil, y aun así eligió otra cosa.",
+       "mal": "Vuelve a leer la historia.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Útil y valioso",
+      "definicion": [
+       "Algo tiene <strong>valor instrumental</strong> cuando sirve como medio para otra cosa (un martillo, el dinero).",
+       "Algo tiene <strong>valor intrínseco</strong> cuando se quiere por sí mismo (la amistad, comprender).",
+       "Para Aristóteles, la filosofía nace del asombro y se busca por sí misma: por eso la llama la más <strong>libre</strong> de las ciencias."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Por qué decir que la filosofía «no sirve para nada» no prueba que no valga nada?",
+       "opciones": [
+        [
+         "Porque algunas cosas valen por sí mismas, sin servir de medio para otras.",
+         true
+        ],
+        [
+         "Porque en realidad la filosofía sirve para ganar dinero.",
+         false,
+         "Puede ser útil a veces, pero el argumento no depende de eso."
+        ],
+        [
+         "Porque nada sirve para nada.",
+         false,
+         "Eso es falso: un martillo sirve para clavar."
+        ],
+        [
+         "Porque lo dijo Aristóteles.",
+         false,
+         "Que lo dijera Aristóteles no basta: hay que ver la razón, la distinción entre medio y fin."
+        ]
+       ],
+       "ok": "Correcto: «útil» y «valioso» no son lo mismo.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Qué gana quien filosofa, si la filosofía no da respuestas seguras?",
+    "intro": [
+     "Las ciencias resuelven problemas y, cuando lo hacen, esos problemas dejan de ser de la filosofía. A ella le quedan las preguntas sin respuesta segura. ¿No es eso un fracaso?"
+    ],
+    "pistas": [
+     "Para aterrizar: Bertrand Russell se hizo esta misma pregunta en <em>Los problemas de la filosofía</em> (1912), en el capítulo «El valor de la filosofía».",
+     "Su respuesta: el valor de la filosofía está, en buena parte, en su misma <em>incertidumbre</em>. Al no dar respuestas cerradas, nos obliga a examinar las que dábamos por hechas.",
+     "Quien nunca ha filosofado vive preso de los prejuicios del sentido común, de su época y de su país, dice Russell. La filosofía no le dice qué pensar, pero le muestra que las cosas podrían ser de otra manera.",
+     "Por eso, lo que se gana no es una respuesta, sino una mente más <strong>libre</strong> y más amplia: liberarse de la «tiranía de la costumbre» y ver más posibilidades."
+    ],
+    "comprobacion": {
+     "pregunta": "Según Russell, ¿dónde está el valor de la filosofía?",
+     "opciones": [
+      [
+       "En que, al examinar lo que damos por hecho, nos libra de prejuicios y amplía lo que podemos pensar.",
+       true
+      ],
+      [
+       "En que da por fin respuestas seguras a las grandes preguntas.",
+       false,
+       "Russell reconoce que no las da: su valor está justo en la incertidumbre."
+      ],
+      [
+       "En que prepara para encontrar un buen trabajo.",
+       false,
+       "Russell no la defiende por sus usos prácticos."
+      ],
+      [
+       "En que no hace falta pensar mucho para hacerla.",
+       false,
+       "Es al revés: obliga a pensar lo que no solemos pensar."
+      ]
+     ],
+     "ok": "Exacto: menos certezas, más libertad.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "El valor de la filosofía",
+      "titulo": "La incertidumbre como ganancia",
+      "definicion": [
+       "Russell sostiene que la filosofía vale más por sus <strong>preguntas</strong> que por sus respuestas.",
+       "Esas preguntas amplían nuestra idea de lo posible y nos libran de la «tiranía de la costumbre»: de creer algo solo porque siempre se ha creído.",
+       "Un siglo después, Nuccio Ordine defendió algo parecido en <em>La utilidad de lo inútil</em> (2013): los saberes que no dan beneficio inmediato son los que nos hacen más humanos."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué significa librarse de la «tiranía de la costumbre»?",
+       "opciones": [
+        [
+         "Dejar de aceptar algo solo porque siempre se ha pensado así.",
+         true
+        ],
+        [
+         "Dejar de tener costumbres.",
+         false,
+         "No se trata de abandonar los hábitos, sino de poder examinarlos."
+        ],
+        [
+         "Hacer siempre lo contrario de lo que hace la mayoría.",
+         false,
+         "Eso sería otra forma de no pensar: llevar la contraria por sistema."
+        ],
+        [
+         "Obedecer a los filósofos en vez de a la tradición.",
+         false,
+         "Sería cambiar una autoridad por otra; la filosofía pide examinar, no obedecer."
+        ]
+       ],
+       "ok": "Correcto: examinar en vez de repetir.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes para qué sirve lo que no sirve",
+   "parrafos": [
+    "No todo lo valioso es útil: hay cosas que valen por sí mismas, y Aristóteles puso la filosofía entre ellas. Tales mostró que podía ser útil, pero que no se busca para eso.",
+    "Russell añade que su valor está en sus preguntas: nos libran de prejuicios y amplían lo que podemos pensar. Para seguir: la exploración «¿Es útil o valiosa la filosofía?»."
+   ]
+  }
+ },
+ {
+  "id": "fil-dar-razones",
+  "subject": "fil",
+  "tema": "Tema 1 · ¿Qué es la filosofía?",
+  "unidad": "fil-t1",
+  "materia": "Filosofía 1.º · La filosofía",
+  "titulo": "¿Filosofar es tener opiniones o dar razones?",
+  "lede": "Por qué «es mi opinión» no cierra una discusión, y qué hacía Sócrates en el ágora. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Son todas las opiniones igual de respetables?",
+    "intro": [
+     "En un debate de clase alguien dice: «Bueno, es mi opinión, y todas las opiniones son respetables». Y ahí se acaba la conversación. ¿Tiene razón?"
+    ],
+    "pistas": [
+     "Para aterrizar: una <em>opinión</em> es lo que alguien cree sobre algo. Tener opiniones no cuesta nada: todos las tenemos sobre casi todo.",
+     "Fíjate en que la frase mezcla dos cosas. Las <em>personas</em> merecen respeto siempre; las <em>opiniones</em>, en cambio, pueden estar mejor o peor fundadas.",
+     "«La Tierra es plana» es una opinión. Quien la sostiene merece respeto como persona, pero su opinión no vale lo mismo que la contraria: las razones no la apoyan.",
+     "Lo que distingue una opinión de otra son sus <strong>razones</strong>. Filosofar empieza cuando, en vez de decir «es mi opinión», alguien pregunta: «¿y por qué lo piensas?»."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué es lo que merece siempre respeto en una discusión?",
+     "opciones": [
+      [
+       "Las personas; las opiniones se examinan y se valoran por sus razones.",
+       true
+      ],
+      [
+       "Todas las opiniones por igual, sin entrar a valorarlas.",
+       false,
+       "Entonces daría igual pensar bien que pensar mal: ninguna opinión podría corregirse."
+      ],
+      [
+       "Solo las opiniones de la mayoría.",
+       false,
+       "La mayoría también puede equivocarse: lo que cuenta son las razones."
+      ],
+      [
+       "Solo las opiniones de los expertos.",
+       false,
+       "Los expertos suelen tener buenas razones, pero lo que hay que mirar son esas razones, no el título."
+      ]
+     ],
+     "ok": "Bien: respeto a las personas, examen de las ideas.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Opinión y opinión con razones",
+      "definicion": [
+       "«Los deberes no sirven para nada». → Una opinión sin más.",
+       "«Los deberes largos no sirven, porque lo que se repite sin entender se olvida pronto». → Una opinión con una razón: ahora se puede discutir si esa razón es buena.",
+       "«Es mi opinión y punto». → No es un argumento: es una manera de no dar razones."
+      ],
+      "parrafos": [
+       "Cuando una opinión trae sus razones, los demás pueden examinarlas, aceptarlas o mostrar un fallo. Así se puede aprender unos de otros."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Cuál de estas intervenciones permite seguir discutiendo?",
+       "opciones": [
+        [
+         "«Creo que mentir siempre está mal, porque si todos mintiéramos nadie podría fiarse de nadie».",
+         true
+        ],
+        [
+         "«Mentir está mal y no hay más que hablar».",
+         false,
+         "Cierra la conversación: no da ninguna razón que se pueda examinar."
+        ],
+        [
+         "«Cada uno piensa lo que quiere».",
+         false,
+         "Es verdad, pero no dice nada sobre si mentir está bien o mal."
+        ],
+        [
+         "«Eso lo dices porque eres muy pesado».",
+         false,
+         "Ataca a la persona en vez de discutir lo que dice."
+        ]
+       ],
+       "ok": "Correcto: trae una razón que se puede discutir.",
+       "mal": "Busca la que da una razón.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Opinión y argumento",
+      "definicion": [
+       "Una <strong>opinión</strong> es una creencia sobre algo; los griegos la llamaban <em>doxa</em>.",
+       "Un <strong>argumento</strong> es una opinión acompañada de las razones que la apoyan.",
+       "Respetar a alguien en una discusión no es dar por buena cualquier cosa que diga, sino tomarse en serio sus razones y contestarle con otras."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué convierte una opinión en un argumento?",
+       "opciones": [
+        [
+         "Que vaya acompañada de razones que la apoyan.",
+         true
+        ],
+        [
+         "Que se diga en voz más alta.",
+         false,
+         "La fuerza de un argumento no depende del volumen."
+        ],
+        [
+         "Que la comparta mucha gente.",
+         false,
+         "Una opinión muy extendida puede no tener ninguna razón detrás."
+        ],
+        [
+         "Que la diga un profesor.",
+         false,
+         "La autoridad no sustituye a las razones."
+        ]
+       ],
+       "ok": "Correcto: opinión más razones.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Se aprende filosofía o se aprende a filosofar?",
+    "intro": [
+     "Sócrates no escribió nada. Se pasaba el día en el ágora de Atenas haciendo preguntas. ¿Qué enseñaba, si no daba lecciones?"
+    ],
+    "pistas": [
+     "Para aterrizar: Sócrates preguntaba a sus conciudadanos qué es la justicia, el valor o la virtud, y luego examinaba sus respuestas hasta que aparecían las contradicciones.",
+     "No lo hacía para humillar a nadie, sino para que cada uno pensara por sí mismo. En su juicio dijo que «una vida sin examen no merece ser vivida» (Platón, <em>Apología</em> 38a).",
+     "Siglos después, Kant escribió que no se puede aprender filosofía, sino solo a <em>filosofar</em>: no se trata de memorizar lo que pensaron otros, sino de ejercitar la propia razón.",
+     "Por eso la filosofía es, sobre todo, una <strong>actividad</strong>: preguntar, dar razones y examinarlas con otros. En el siglo XX, Matthew Lipman la llevó así a las aulas, como una «comunidad de investigación»."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué quiere decir que se aprende «a filosofar»?",
+     "opciones": [
+      [
+       "Que lo importante es ejercitar la propia razón: preguntar, argumentar y examinar.",
+       true
+      ],
+      [
+       "Que hay que memorizar lo que dijeron los grandes filósofos.",
+       false,
+       "Conocerlos ayuda, pero Kant subraya que lo esencial es pensar por uno mismo."
+      ],
+      [
+       "Que cualquier cosa que se piense ya es filosofía.",
+       false,
+       "Filosofar exige dar razones y someterlas a examen, no solo pensar algo."
+      ],
+      [
+       "Que la filosofía no se puede enseñar de ninguna manera.",
+       false,
+       "Sí se enseña, pero como una actividad que se practica."
+      ]
+     ],
+     "ok": "Exacto: la filosofía se hace.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Filosofar",
+      "titulo": "Una actividad compartida",
+      "definicion": [
+       "Sócrates practicaba la filosofía como <strong>diálogo</strong>: preguntar, examinar las respuestas y buscar juntos una definición mejor.",
+       "Kant lo resumió así: no se aprende filosofía, se aprende a <strong>filosofar</strong> (<em>Crítica de la razón pura</em>, «Arquitectónica de la razón pura»).",
+       "Matthew Lipman fundó la «filosofía para niños»: el aula como <strong>comunidad de investigación</strong>, donde se escucha, se dan razones y se construye sobre lo que dicen los demás."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué tienen en común Sócrates y la comunidad de investigación de Lipman?",
+       "opciones": [
+        [
+         "Que filosofar se hace dialogando: preguntando y examinando razones con otros.",
+         true
+        ],
+        [
+         "Que los dos escribieron libros de texto para escuelas.",
+         false,
+         "Sócrates no escribió nada; lo conocemos por Platón y otros."
+        ],
+        [
+         "Que los dos daban las respuestas correctas al final.",
+         false,
+         "Sócrates acababa muchas veces sin respuesta: lo valioso era el examen."
+        ],
+        [
+         "Que en los dos casos manda el que más sabe.",
+         false,
+         "En los dos casos cuentan las razones, no la autoridad."
+        ]
+       ],
+       "ok": "Correcto: el diálogo es el método.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué es filosofar",
+   "parrafos": [
+    "Las personas merecen respeto; las opiniones se examinan por sus razones. Filosofar empieza cuando se pregunta «¿por qué?» y se dan razones que otros pueden discutir.",
+    "Sócrates lo hacía dialogando, Kant lo llamó aprender a filosofar y Lipman lo llevó a las aulas. Para seguir: la actividad sobre Lipman y la filosofía para niños."
+   ]
+  }
+ },
+ {
   "id": "fil-identidad",
   "subject": "fil",
   "tema": "Tema 2 · ¿Qué es el ser humano?",
@@ -295,6 +943,1302 @@ const PISTAS = [
    "parrafos": [
     "La identidad personal pregunta qué te hace numéricamente la misma persona a lo largo del tiempo. Locke la pone en la memoria y la conciencia; Reid le objeta que la memoria tiene lagunas; y el caso de la fisión llevó a Parfit a pensar que quizá lo que importa no es la identidad.",
     "Para seguir: prueba el dilema «Los dos que despiertan» y compáralo con Hume, para quien no hay un yo fijo, sino percepciones que se suceden."
+   ]
+  }
+ },
+ {
+  "id": "fil-naturaleza-cultura",
+  "subject": "fil",
+  "tema": "Tema 2 · ¿Qué es el ser humano?",
+  "unidad": "fil-t2",
+  "materia": "Filosofía 1.º · Antropología",
+  "titulo": "¿Somos naturaleza o cultura?",
+  "lede": "Lo innato y lo aprendido, con el caso de un niño que creció solo en un bosque. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué parte de lo que somos viene de la naturaleza y qué parte de la cultura?",
+    "intro": [
+     "En 1800 apareció en los bosques de Aveyron, en Francia, un chico de unos doce años que había crecido solo. No hablaba, andaba casi a cuatro patas y no reaccionaba a su nombre. El médico Jean Itard lo llamó Víctor e intentó educarlo durante años. ¿Qué le faltaba a Víctor?"
+    ],
+    "pistas": [
+     "Para aterrizar: llamamos <em>naturaleza</em> a lo que traemos al nacer por ser de nuestra especie (lo innato), y <em>cultura</em> a lo que aprendemos de los demás (lo adquirido).",
+     "Víctor tenía un cuerpo y un cerebro humanos: la naturaleza no le faltaba. Le faltaba lo que solo se recibe de otros: una lengua, unas costumbres, un trato con los demás.",
+     "Mira el lenguaje: todos nacemos capaces de hablar, pero nadie nace hablando castellano o euskera. La <em>capacidad</em> es natural; la <em>lengua</em> concreta es cultural. Y la capacidad, si no se ejercita a tiempo, se pierde en parte: Víctor nunca llegó a hablar.",
+     "Por eso no es «naturaleza <em>o</em> cultura», sino las dos a la vez: la naturaleza da <strong>capacidades</strong> y la cultura las <strong>realiza</strong>. Sin la una no hay la otra."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué enseña el caso de Víctor de Aveyron?",
+     "opciones": [
+      [
+       "Que las capacidades humanas necesitan la cultura, el trato con otros, para desarrollarse.",
+       true
+      ],
+      [
+       "Que Víctor no era del todo humano.",
+       false,
+       "Lo era: tenía la naturaleza humana completa. Lo que le faltó fue la convivencia."
+      ],
+      [
+       "Que todo lo humano es aprendido y nada es innato.",
+       false,
+       "La capacidad de hablar es innata; lo aprendido es la lengua concreta."
+      ],
+      [
+       "Que todo lo humano es innato y la educación no sirve.",
+       false,
+       "Sin educación, Víctor no desarrolló el lenguaje: la cultura sí cuenta."
+      ]
+     ],
+     "ok": "Bien: naturaleza y cultura se necesitan.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "¿Innato o adquirido?",
+      "definicion": [
+       "Poder aprender a hablar → <strong>innato</strong> · Hablar euskera → <strong>adquirido</strong>.",
+       "Sentir hambre → <strong>innato</strong> · Comer con palillos o con tenedor → <strong>adquirido</strong>.",
+       "Poder caminar erguidos → <strong>innato</strong> · Bailar una jota → <strong>adquirido</strong>."
+      ],
+      "parrafos": [
+       "Fíjate en el patrón: la naturaleza pone la capacidad o la necesidad; la cultura decide la forma concreta que toma."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Cuál de estas cosas es cultural?",
+       "opciones": [
+        [
+         "Saludar con dos besos.",
+         true
+        ],
+        [
+         "Tener sueño por la noche.",
+         false,
+         "El sueño es una necesidad biológica: es natural."
+        ],
+        [
+         "Poder ver los colores.",
+         false,
+         "La visión de los colores viene con nuestro cuerpo: es natural."
+        ],
+        [
+         "Sentir miedo ante un peligro.",
+         false,
+         "El miedo es una reacción natural, aunque cada cultura enseñe a qué temer."
+        ]
+       ],
+       "ok": "Correcto: es una costumbre aprendida; en otros lugares se saluda de otra manera.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Naturaleza y cultura",
+      "definicion": [
+       "<strong>Naturaleza</strong>: lo que el ser humano trae al nacer por pertenecer a su especie (lo innato, lo biológico).",
+       "<strong>Cultura</strong>: todo lo que se aprende y se transmite en sociedad: lenguas, técnicas, costumbres, normas, creencias.",
+       "En el ser humano no se pueden separar: la naturaleza da capacidades abiertas y la cultura les da forma."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué relación hay entre naturaleza y cultura en el ser humano?",
+       "opciones": [
+        [
+         "La naturaleza da capacidades y la cultura las desarrolla y les da forma.",
+         true
+        ],
+        [
+         "Son dos cosas enfrentadas: cuanta más cultura, menos naturaleza.",
+         false,
+         "No compiten: la cultura se apoya en capacidades naturales."
+        ],
+        [
+         "La cultura es solo el arte y los museos.",
+         false,
+         "En filosofía, cultura es todo lo aprendido y transmitido en sociedad."
+        ],
+        [
+         "Solo los pueblos modernos tienen cultura.",
+         false,
+         "Todos los grupos humanos tienen lengua, técnicas y costumbres: todos tienen cultura."
+        ]
+       ],
+       "ok": "Correcto: capacidades naturales, formas culturales.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Hay una naturaleza humana fija, o nos vamos haciendo?",
+    "intro": [
+     "Una abeja nace sabiendo construir panales, y todas lo hacen igual desde hace millones de años. Los seres humanos, en cambio, han vivido de mil maneras distintas. ¿Qué dice eso de nosotros?"
+    ],
+    "pistas": [
+     "Para aterrizar: los animales nacen con instintos que les fijan casi todo lo que harán. El ser humano nace con instintos más débiles y tarda años en valerse por sí mismo.",
+     "Esa aparente debilidad tiene otra cara: como la naturaleza no nos fija un único modo de vida, podemos inventar muchos. Por eso tenemos historia y las abejas no.",
+     "En 1486, el humanista Pico della Mirandola imaginó que Dios decía a Adán: no te he dado un lugar fijo, para que tú mismo elijas lo que quieres ser. Y Ortega y Gasset escribió que el hombre «no tiene naturaleza, sino que tiene… historia».",
+     "La idea común: en el ser humano, lo que es no viene dado del todo. Una parte la <strong>hacemos</strong> nosotros, con la cultura y con nuestras decisiones. Eso no niega la biología: la supone."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué quiere decir que el ser humano «tiene historia» y la abeja no?",
+     "opciones": [
+      [
+       "Que su modo de vida no está fijado por el instinto: lo inventa y lo cambia con el tiempo.",
+       true
+      ],
+      [
+       "Que los humanos han escrito libros de historia.",
+       false,
+       "Eso es una consecuencia; la idea de fondo es que nuestro modo de vida cambia."
+      ],
+      [
+       "Que el ser humano no tiene biología.",
+       false,
+       "La tiene; lo que pasa es que no le fija un único modo de vivir."
+      ],
+      [
+       "Que las abejas no han existido mucho tiempo.",
+       false,
+       "Han existido mucho más tiempo que nosotros, pero viviendo siempre igual."
+      ]
+     ],
+     "ok": "Exacto: la naturaleza humana es abierta.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Una naturaleza abierta",
+      "titulo": "Hacernos a nosotros mismos",
+      "definicion": [
+       "Comparado con otros animales, el ser humano tiene instintos poco especializados y una infancia muy larga: necesita aprender casi todo.",
+       "Pico della Mirandola (<em>Discurso sobre la dignidad del hombre</em>, 1486) vio en eso su dignidad: poder elegir lo que llega a ser.",
+       "Ortega y Gasset (<em>Historia como sistema</em>, 1935) lo dijo así: el hombre no tiene naturaleza, sino historia. Lo que somos se hace en parte con lo que hacemos."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué veía Pico della Mirandola en que el ser humano no tenga un lugar fijo?",
+       "opciones": [
+        [
+         "Su dignidad: puede elegir y hacerse a sí mismo.",
+         true
+        ],
+        [
+         "Un defecto que había que corregir con leyes.",
+         false,
+         "Para Pico es justo lo que hace grande al ser humano."
+        ],
+        [
+         "Una prueba de que somos iguales que los demás animales.",
+         false,
+         "Al revés: es lo que nos distingue de ellos."
+        ],
+        [
+         "Una razón para no educar a los niños.",
+         false,
+         "Si nos hacemos, la educación es decisiva, no inútil."
+        ]
+       ],
+       "ok": "Correcto: libertad para hacerse.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué es naturaleza y qué es cultura",
+   "parrafos": [
+    "La naturaleza nos da capacidades y la cultura las desarrolla: sin trato con otros, como le pasó a Víctor de Aveyron, esas capacidades no llegan a realizarse.",
+    "Y como el instinto no nos fija un único modo de vivir, nos vamos haciendo: Pico lo llamó dignidad y Ortega, historia. Para seguir: «¿Somos libres o está todo determinado?»."
+   ],
+   "siguiente": "fil-libertad"
+  }
+ },
+ {
+  "id": "fil-libertad",
+  "subject": "fil",
+  "tema": "Tema 2 · ¿Qué es el ser humano?",
+  "unidad": "fil-t2",
+  "materia": "Filosofía 1.º · Antropología",
+  "titulo": "¿Somos libres o está todo determinado?",
+  "lede": "Si todo tiene una causa, ¿también tus decisiones? Determinismo, libre albedrío y una tercera vía. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué dice el determinismo, y por qué pone en duda la libertad?",
+    "intro": [
+     "Esta mañana has elegido qué ropa ponerte. Pero esa elección tuvo causas: el tiempo que hacía, lo que tenías limpio, cómo te sentías… y cada una de esas causas tuvo a su vez otras. ¿Podrías haber elegido otra cosa?"
+    ],
+    "pistas": [
+     "Para aterrizar: el <em>determinismo</em> sostiene que todo lo que ocurre está causado por lo que ocurrió antes, según leyes fijas. Dadas las causas, el efecto no podía ser otro.",
+     "En 1814, Pierre-Simon Laplace lo llevó al extremo: una inteligencia que conociera el estado de todo el universo en un instante y todas sus leyes podría predecir el futuro entero.",
+     "Si nuestras decisiones también son sucesos del mundo, con sus causas, parece que también estarían escritas de antemano. Entonces, ¿en qué sentido «elegimos»?",
+     "Ese es el problema: si <strong>todo</strong> está determinado, parece que no hay <strong>libre albedrío</strong>, es decir, la capacidad de haber actuado de otra manera. Y sin ella, ¿tiene sentido culpar o premiar a alguien?"
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué el determinismo parece amenazar la libertad?",
+     "opciones": [
+      [
+       "Porque si todo está causado por lo anterior, nuestras decisiones no podrían haber sido otras.",
+       true
+      ],
+      [
+       "Porque las leyes del Estado nos prohíben muchas cosas.",
+       false,
+       "Eso es la libertad política; aquí la pregunta es si nuestras decisiones están causadas."
+      ],
+      [
+       "Porque dice que todo ocurre por azar.",
+       false,
+       "Es al revés: el determinismo dice que nada ocurre por azar."
+      ],
+      [
+       "Porque niega que existan las leyes de la naturaleza.",
+       false,
+       "El determinismo se apoya precisamente en esas leyes."
+      ]
+     ],
+     "ok": "Bien: si todo tiene causa, también tus decisiones.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Tres respuestas al problema",
+      "definicion": [
+       "<strong>Determinismo duro</strong>: todo está determinado, y por eso la libertad es una ilusión. Spinoza decía que los hombres se creen libres porque conocen sus acciones pero ignoran sus causas (<em>Ética</em> I, apéndice).",
+       "<strong>Libertarismo</strong>: las decisiones humanas no están del todo determinadas; en ellas hay algo que no se reduce a causas anteriores.",
+       "<strong>Compatibilismo</strong>: todo tiene causas, y aun así somos libres, porque ser libre no es actuar sin causa, sino actuar sin coacción."
+      ],
+      "parrafos": [
+       "Ojo: «libertarismo» aquí no tiene que ver con la política. Es el nombre de una postura sobre el libre albedrío."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué piensa un determinista duro de la sensación de ser libres?",
+       "opciones": [
+        [
+         "Que es una ilusión: nos sentimos libres porque ignoramos las causas de lo que hacemos.",
+         true
+        ],
+        [
+         "Que demuestra que somos libres.",
+         false,
+         "Para el determinista duro, sentirse libre no prueba nada: también tiene causas."
+        ],
+        [
+         "Que solo la tienen las personas buenas.",
+         false,
+         "La postura no distingue entre buenos y malos: habla de todos."
+        ],
+        [
+         "Que viene de que el mundo es puro azar.",
+         false,
+         "El determinista niega el azar: todo tiene su causa."
+        ]
+       ],
+       "ok": "Correcto: es la tesis de Spinoza.",
+       "mal": "Vuelve a mirar las tres respuestas.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Determinismo y libre albedrío",
+      "definicion": [
+       "<strong>Determinismo</strong>: todo lo que ocurre está causado por lo anterior según leyes fijas.",
+       "<strong>Libre albedrío</strong>: la capacidad de decidir por uno mismo, de modo que se podría haber actuado de otra manera.",
+       "El problema filosófico es si las dos cosas pueden ser verdad a la vez, y qué pasa con la <strong>responsabilidad</strong> si no pueden."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Por qué importa este problema para la ética?",
+       "opciones": [
+        [
+         "Porque si nadie pudo actuar de otra manera, parece injusto culpar o premiar a alguien.",
+         true
+        ],
+        [
+         "Porque la ética solo trata de las leyes del Estado.",
+         false,
+         "La ética trata de lo que está bien o mal, no solo de lo legal."
+        ],
+        [
+         "Porque el determinismo dice que todo está permitido.",
+         false,
+         "El determinismo no habla de permisos: habla de causas."
+        ],
+        [
+         "No importa: es solo una cuestión de física.",
+         false,
+         "Afecta a la responsabilidad, que es una cuestión ética."
+        ]
+       ],
+       "ok": "Correcto: libertad y responsabilidad van juntas.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Se puede ser libre aunque todo tenga causas?",
+    "intro": [
+     "Compara dos casos. En uno, alguien entrega su cartera porque le apuntan con una navaja. En otro, alguien la entrega para hacer un donativo. Las dos acciones tienen causas. ¿Son igual de libres?"
+    ],
+    "pistas": [
+     "Para aterrizar: el compatibilismo cambia la pregunta. No pregunta si una acción tiene causas, porque todas las tienen, sino <em>qué clase</em> de causas tiene.",
+     "En el primer caso, la causa es una amenaza externa: se actúa contra la propia voluntad. En el segundo, la causa es la propia voluntad, con sus razones y deseos.",
+     "David Hume lo planteó así en 1748: la libertad es el poder de actuar o no actuar según lo que decida la voluntad. Lo contrario de la libertad no es la causa, sino la <em>coacción</em>.",
+     "Por eso, para un compatibilista, somos libres cuando lo que hacemos <strong>sale de nosotros</strong>, de nuestros deseos y razones, aunque estos también tengan su historia y sus causas."
+    ],
+    "comprobacion": {
+     "pregunta": "Para un compatibilista, ¿qué es lo contrario de actuar libremente?",
+     "opciones": [
+      [
+       "Actuar bajo coacción, forzado desde fuera contra la propia voluntad.",
+       true
+      ],
+      [
+       "Actuar por alguna causa.",
+       false,
+       "Para el compatibilista todo tiene causa, también lo libre: no es eso lo que lo opone."
+      ],
+      [
+       "Actuar siguiendo los propios deseos.",
+       false,
+       "Eso es justamente actuar libremente."
+      ],
+      [
+       "Actuar sin pensar mucho.",
+       false,
+       "Puede ser imprudente, pero si sale de la propia voluntad sigue siendo libre."
+      ]
+     ],
+     "ok": "Exacto: libre no es sin causas, sino sin coacción.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Compatibilismo",
+      "titulo": "Libertad sin milagros",
+      "definicion": [
+       "El <strong>compatibilismo</strong> sostiene que el determinismo y la libertad son compatibles.",
+       "Hume (<em>Investigación sobre el entendimiento humano</em>, sección VIII) define la libertad como el poder de actuar según las determinaciones de la voluntad: es libre todo el que no está preso ni encadenado.",
+       "La crítica habitual: si mi voluntad también está determinada, ¿soy de verdad su autor? El debate sigue abierto hoy, también en la neurociencia."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Cuál de estas acciones es libre para un compatibilista?",
+       "opciones": [
+        [
+         "Ir a un concierto porque te apetece, aunque esa preferencia tenga su historia.",
+         true
+        ],
+        [
+         "Firmar un papel porque te amenazan.",
+         false,
+         "Es coacción: se actúa contra la propia voluntad."
+        ],
+        [
+         "Caerte porque alguien te empuja.",
+         false,
+         "Ni siquiera es una acción tuya: es algo que te pasa."
+        ],
+        [
+         "Ninguna, porque todas tienen causas.",
+         false,
+         "Esa es la respuesta del determinista duro, no la del compatibilista."
+        ]
+       ],
+       "ok": "Correcto: sale de tu voluntad.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces el problema de la libertad",
+   "parrafos": [
+    "El determinismo dice que todo tiene una causa anterior; si también nuestras decisiones, parece que no podríamos haber actuado de otra manera, y peligra la responsabilidad.",
+    "Hay tres salidas: negar la libertad (determinismo duro), negar que todo esté determinado (libertarismo) o redefinir la libertad como ausencia de coacción (compatibilismo, Hume)."
+   ]
+  }
+ },
+ {
+  "id": "fil-saber",
+  "subject": "fil",
+  "tema": "Tema 3 · ¿Qué podemos conocer?",
+  "unidad": "fil-t3",
+  "materia": "Filosofía 1.º · Teoría del conocimiento",
+  "titulo": "¿Qué es saber algo, y no solo creerlo?",
+  "lede": "Creencia, verdad y justificación, y un reloj parado que pone en apuros a la definición clásica. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué le hace falta a una creencia para ser conocimiento?",
+    "intro": [
+     "Antes de un examen de tipo test, una alumna contesta al azar la pregunta 7 y acierta. Otra la contesta bien porque ha estudiado el tema. Las dos creían que la respuesta era la B, y las dos acertaron. ¿Sabían las dos?"
+    ],
+    "pistas": [
+     "Para aterrizar: para saber algo, primero hay que <em>creerlo</em>. No puedes saber que mañana hay examen si no crees que mañana hay examen.",
+     "Pero creer no basta: también hay que <em>acertar</em>. Si crees que el examen es mañana y es el jueves, no lo sabías: solo lo creías. Lo que se sabe tiene que ser verdad.",
+     "Y aun así falta algo: la que contestó al azar creía la respuesta correcta, pero no tenía ninguna razón para ella. Acertó por suerte.",
+     "Por eso la definición clásica, que viene de Platón (<em>Teeteto</em>), dice que saber es tener una <strong>creencia verdadera justificada</strong>: creer algo, que sea verdad y tener buenas razones para creerlo."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué la alumna que contestó al azar no sabía la respuesta?",
+     "opciones": [
+      [
+       "Porque, aunque su creencia era verdadera, no tenía razones que la justificaran.",
+       true
+      ],
+      [
+       "Porque su respuesta era falsa.",
+       false,
+       "Acertó: su creencia era verdadera. Lo que le faltaba era otra cosa."
+      ],
+      [
+       "Porque no creía de verdad en su respuesta.",
+       false,
+       "La marcó convencida; el problema no es la creencia."
+      ],
+      [
+       "Porque los exámenes tipo test no miden el conocimiento.",
+       false,
+       "El problema no es el examen, sino cómo llegó ella a su respuesta."
+      ]
+     ],
+     "ok": "Bien: le faltaba la justificación.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Las tres condiciones, una a una",
+      "definicion": [
+       "Crees que la Luna brilla con luz propia. → Creencia, pero <strong>falsa</strong> (refleja la luz del Sol): no es saber.",
+       "La Luna refleja la luz del Sol, pero tú nunca lo has pensado. → Verdad, pero <strong>sin creencia</strong>: no es saber.",
+       "Dices que refleja la luz del Sol porque «te suena», sin razón alguna, y aciertas. → Creencia verdadera, pero <strong>sin justificación</strong>: es suerte.",
+       "Lo crees porque lo has estudiado y entiendes que así se explican las fases de la Luna. → Creencia <strong>verdadera</strong> y <strong>justificada</strong>: es saber."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "Pablo cree que mañana lloverá porque ha soñado con paraguas, y mañana llueve. ¿Lo sabía?",
+       "opciones": [
+        [
+         "No: su creencia era verdadera, pero un sueño no es una buena razón.",
+         true
+        ],
+        [
+         "Sí, porque acertó.",
+         false,
+         "Acertar no basta: también hay que tener buenas razones."
+        ],
+        [
+         "No, porque su creencia era falsa.",
+         false,
+         "Llovió: su creencia era verdadera."
+        ],
+        [
+         "Sí, porque lo creía con mucha fuerza.",
+         false,
+         "La fuerza de una creencia no la convierte en conocimiento."
+        ]
+       ],
+       "ok": "Correcto: creencia verdadera, pero sin justificación.",
+       "mal": "Vuelve a mirar las tres condiciones.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "La definición clásica",
+      "definicion": [
+       "Según la definición clásica, alguien <strong>sabe</strong> algo si se cumplen tres condiciones:",
+       "1) lo <strong>cree</strong>; 2) es <strong>verdad</strong>; 3) tiene una <strong>justificación</strong>, buenas razones para creerlo.",
+       "La idea aparece en el <em>Teeteto</em> de Platón, que distingue el saber de la mera opinión verdadera."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Cuál de estos casos es conocimiento según la definición clásica?",
+       "opciones": [
+        [
+         "Crees que el agua hierve a 100 °C al nivel del mar porque lo has medido en el laboratorio.",
+         true
+        ],
+        [
+         "Crees que el agua hierve a 50 °C porque te lo dijo un amigo.",
+         false,
+         "Es falso: sin verdad no hay conocimiento."
+        ],
+        [
+         "Aciertas el número de la lotería porque te gustaba.",
+         false,
+         "Es verdad, pero sin justificación: es suerte."
+        ],
+        [
+         "El agua hierve a 100 °C, aunque tú nunca lo has pensado.",
+         false,
+         "Falta la creencia: no puedes saber lo que no crees."
+        ]
+       ],
+       "ok": "Correcto: creencia, verdad y justificación.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Bastan esas tres condiciones?",
+    "intro": [
+     "Miras el reloj de la cocina, que siempre ha funcionado bien, y marca las tres. Crees que son las tres, y lo son. Pero el reloj se paró ayer exactamente a las tres. ¿Sabías qué hora era?"
+    ],
+    "pistas": [
+     "Para aterrizar: repasa las tres condiciones. ¿Creías que eran las tres? Sí. ¿Era verdad? Sí. ¿Tenías una razón? Sí: un reloj que siempre ha funcionado es una buena razón.",
+     "Y, sin embargo, cuesta decir que lo <em>sabías</em>: acertaste porque el reloj, por casualidad, se paró justo a esa hora. Si hubieras mirado un minuto después, te habrías equivocado.",
+     "El ejemplo es de Bertrand Russell. En 1963, Edmund Gettier publicó un artículo de tres páginas con casos parecidos: creencias verdaderas y justificadas que aciertan por <em>suerte</em>.",
+     "Desde entonces se discute qué falta: quizá que la justificación esté bien <strong>conectada</strong> con la verdad. Es un buen ejemplo de cómo trabaja la filosofía: una definición que parecía cerrada se pone a prueba con un contraejemplo."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué muestran los casos de Gettier?",
+     "opciones": [
+      [
+       "Que se puede tener una creencia verdadera y justificada que acierta por suerte, y entonces no parece saber.",
+       true
+      ],
+      [
+       "Que nunca podemos saber nada.",
+       false,
+       "Gettier no niega el conocimiento; muestra que la definición clásica se queda corta."
+      ],
+      [
+       "Que la justificación no hace falta para saber.",
+       false,
+       "Al contrario: muestran que hace falta algo más, no algo menos."
+      ],
+      [
+       "Que los relojes no son fiables.",
+       false,
+       "El reloj es solo el ejemplo; la cuestión es qué es saber."
+      ]
+     ],
+     "ok": "Exacto: la suerte se cuela incluso con justificación.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "El problema de Gettier",
+      "titulo": "Un contraejemplo famoso",
+      "definicion": [
+       "Un <strong>contraejemplo</strong> es un caso que cumple las condiciones de una definición y, aun así, no encaja con lo definido.",
+       "Edmund Gettier («¿Es el conocimiento creencia verdadera justificada?», 1963) mostró casos en los que las tres condiciones se cumplen, pero el acierto es casual.",
+       "La conclusión no es que no sepamos nada, sino que la definición clásica necesita algo más. Qué es ese algo sigue discutiéndose."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué es un contraejemplo a una definición?",
+       "opciones": [
+        [
+         "Un caso que cumple la definición y, sin embargo, no es lo que se quería definir.",
+         true
+        ],
+        [
+         "Un ejemplo que confirma la definición.",
+         false,
+         "Eso es un ejemplo a favor, no un contraejemplo."
+        ],
+        [
+         "Una definición distinta de la misma cosa.",
+         false,
+         "No es otra definición: es un caso que pone a prueba la que hay."
+        ],
+        [
+         "Un ejemplo inventado que no sirve para nada.",
+         false,
+         "Aunque sea inventado, puede mostrar que una definición falla."
+        ]
+       ],
+       "ok": "Correcto: así se ponen a prueba las definiciones.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué es saber",
+   "parrafos": [
+    "Según la definición clásica, que viene de Platón, saber es tener una creencia verdadera y justificada: creer algo, que sea verdad y tener buenas razones.",
+    "Gettier mostró que se puede cumplir todo eso y acertar por suerte, como con el reloj parado. Para seguir: «¿Qué hace científica una teoría?»."
+   ],
+   "siguiente": "fil-ciencia"
+  }
+ },
+ {
+  "id": "fil-ciencia",
+  "subject": "fil",
+  "tema": "Tema 3 · ¿Qué podemos conocer?",
+  "unidad": "fil-t3",
+  "materia": "Filosofía 1.º · Teoría del conocimiento",
+  "titulo": "¿Qué hace científica una teoría?",
+  "lede": "Cisnes negros, un pollo demasiado confiado y una teoría que se arriesga a fallar. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Pueden mil observaciones demostrar una ley general?",
+    "intro": [
+     "Durante siglos, los europeos vieron cisnes y todos eran blancos. «Todos los cisnes son blancos» parecía una ley segura. En 1697, unos navegantes holandeses vieron cisnes negros en Australia. ¿Qué falló?"
+    ],
+    "pistas": [
+     "Para aterrizar: la <em>inducción</em> es el razonamiento que va de casos particulares a una ley general: «este cisne es blanco, y este, y este… luego todos lo son».",
+     "Por muchos casos que se sumen, nunca se han observado <em>todos</em>. El siguiente puede ser distinto. La inducción da conclusiones probables, no seguras.",
+     "Bertrand Russell lo contó con un pollo: el granjero le da de comer cada mañana, y el pollo, por inducción, espera comida siempre… hasta el día en que el granjero le retuerce el cuello. Ya David Hume había señalado este <em>problema de la inducción</em>.",
+     "La conclusión es incómoda: <strong>ninguna</strong> cantidad de observaciones puede demostrar del todo una ley general. En cambio, <strong>una sola</strong> observación contraria basta para mostrar que es falsa."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué enseña el caso de los cisnes negros?",
+     "opciones": [
+      [
+       "Que muchos casos a favor no prueban una ley general, y uno solo en contra la refuta.",
+       true
+      ],
+      [
+       "Que en Australia la ciencia funciona de otra manera.",
+       false,
+       "La lógica es la misma en todas partes: lo que cambió fue la observación."
+      ],
+      [
+       "Que hay que observar más cisnes blancos para estar seguros.",
+       false,
+       "Por muchos que se observen, el siguiente puede ser negro."
+      ],
+      [
+       "Que las leyes científicas no sirven para nada.",
+       false,
+       "Sirven, pero hay que tratarlas como provisionales."
+      ]
+     ],
+     "ok": "Bien: confirmar es débil; refutar es fuerte.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Inducción y deducción",
+      "definicion": [
+       "<strong>Inducción</strong>: «Este metal se dilata con el calor, y este, y este… luego todos los metales se dilatan». Conclusión probable.",
+       "<strong>Deducción</strong>: «Todos los metales se dilatan; el hierro es un metal; luego el hierro se dilata». Si las premisas son verdaderas, la conclusión es segura.",
+       "<strong>Refutación</strong>: «Si todos los cisnes son blancos, no habrá ninguno negro; aquí hay uno negro; luego no todos son blancos». Una deducción que tumba una ley."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué tipo de razonamiento hace el pollo de Russell?",
+       "opciones": [
+        [
+         "Una inducción: de muchas mañanas con comida saca una regla para todas.",
+         true
+        ],
+        [
+         "Una deducción: parte de una ley general segura.",
+         false,
+         "Su regla general es justo lo que saca de los casos: no la tenía antes."
+        ],
+        [
+         "Una refutación: busca el caso que falla.",
+         false,
+         "Al contrario: no imagina que pueda haber un caso que falle."
+        ],
+        [
+         "Ninguno: los pollos no razonan.",
+         false,
+         "Es un ejemplo inventado para mostrar un tipo de razonamiento."
+        ]
+       ],
+       "ok": "Correcto: de los casos a la regla.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "El problema de la inducción",
+      "definicion": [
+       "La <strong>inducción</strong> generaliza a partir de casos observados; su conclusión va más allá de lo observado y por eso nunca es del todo segura.",
+       "David Hume señaló en el siglo XVIII que no hay forma de justificar la inducción sin dar por supuesto que el futuro se parecerá al pasado.",
+       "Pero hay una asimetría: los casos a favor no <strong>verifican</strong> una ley general, y un solo caso en contra sí la <strong>refuta</strong>."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué es la asimetría entre verificar y refutar?",
+       "opciones": [
+        [
+         "Que ningún número de casos a favor prueba una ley general, pero uno en contra basta para refutarla.",
+         true
+        ],
+        [
+         "Que es más fácil verificar que refutar.",
+         false,
+         "Es al revés: verificar del todo es imposible; refutar basta con un caso."
+        ],
+        [
+         "Que verificar y refutar son lo mismo.",
+         false,
+         "Son operaciones opuestas, y además desiguales en fuerza."
+        ],
+        [
+         "Que las leyes solo se pueden refutar en el laboratorio.",
+         false,
+         "Los cisnes negros se observaron en la naturaleza, no en un laboratorio."
+        ]
+       ],
+       "ok": "Correcto: esa asimetría es la clave de lo que viene.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "Si no se pueden verificar, ¿qué distingue a las teorías científicas?",
+    "intro": [
+     "Un horóscopo dice: «esta semana vivirás un cambio importante». La teoría de Einstein predijo que, durante el eclipse de 1919, la luz de ciertas estrellas se desviaría al pasar junto al Sol una cantidad concreta. ¿Cuál de las dos se arriesga más?"
+    ],
+    "pistas": [
+     "Para aterrizar: el horóscopo no puede fallar. Pase lo que pase esta semana, algo habrá cambiado. Por eso no nos enseña nada.",
+     "La predicción de Einstein sí podía fallar: si la luz no se hubiera desviado esa cantidad, la teoría habría quedado refutada. Las mediciones del eclipse, dirigidas por Arthur Eddington, le dieron la razón.",
+     "Karl Popper sacó de ahí su criterio (<em>Lógica de la investigación científica</em>, 1934): una teoría es científica si es <strong>falsable</strong>, es decir, si dice qué observaciones la harían falsa.",
+     "Así, la ciencia avanza proponiendo <strong>hipótesis</strong> atrevidas, deduciendo de ellas predicciones y poniéndolas a prueba. La que resiste no queda demostrada para siempre: queda <em>corroborada</em> hasta nuevo aviso."
+    ],
+    "comprobacion": {
+     "pregunta": "Según Popper, ¿por qué el horóscopo no es ciencia?",
+     "opciones": [
+      [
+       "Porque no hay ninguna observación que pudiera mostrar que es falso.",
+       true
+      ],
+      [
+       "Porque habla de los astros.",
+       false,
+       "La astronomía también habla de los astros y es ciencia: el problema no es el tema."
+      ],
+      [
+       "Porque casi siempre acierta.",
+       false,
+       "Acierta porque no se arriesga: justo eso es lo que lo deja fuera de la ciencia."
+      ],
+      [
+       "Porque no lo hacen científicos con título.",
+       false,
+       "El criterio de Popper mira la teoría, no a quien la propone."
+      ]
+     ],
+     "ok": "Exacto: no se arriesga a fallar.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Un caso real",
+      "titulo": "Semmelweis y las manos de los médicos",
+      "definicion": [
+       "En el Hospital General de Viena, en la década de 1840, morían de fiebre puerperal muchas más madres en la sala atendida por médicos y estudiantes que en la de las comadronas.",
+       "Ignaz Semmelweis fue descartando hipótesis una a una. Cuando un colega murió con los mismos síntomas tras cortarse en una autopsia, propuso otra: los médicos llevaban en las manos «materia cadavérica» de la sala de disección.",
+       "Dedujo una predicción que podía fallar: si se lavaban las manos con cal clorada, las muertes bajarían. En 1847 lo impuso, y bajaron. Es el <strong>método hipotético-deductivo</strong>: hipótesis, predicción y prueba."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué hace científica la hipótesis de Semmelweis?",
+       "opciones": [
+        [
+         "Que de ella se deducía una predicción que podía fallar, y se puso a prueba.",
+         true
+        ],
+        [
+         "Que la propuso un médico.",
+         false,
+         "Lo que cuenta es la hipótesis, no el título de quien la propone."
+        ],
+        [
+         "Que todos sus colegas estuvieron de acuerdo enseguida.",
+         false,
+         "De hecho, muchos la rechazaron durante años."
+        ],
+        [
+         "Que no podía ser refutada por ninguna observación.",
+         false,
+         "Al revés: precisamente podía serlo."
+        ]
+       ],
+       "ok": "Correcto: se arriesgó y resistió la prueba.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué hace científica una teoría",
+   "parrafos": [
+    "La inducción no puede probar del todo una ley general, pero un solo caso en contra basta para refutarla. Popper hizo de esa asimetría su criterio: es científica la teoría falsable, la que se arriesga a fallar.",
+    "La ciencia avanza por hipótesis que se ponen a prueba, como hizo Semmelweis. Para seguir: la exploración «El método hipotético-deductivo: el caso Semmelweis»."
+   ]
+  }
+ },
+ {
+  "id": "fil-verdad",
+  "subject": "fil",
+  "tema": "Tema 3 · ¿Qué podemos conocer?",
+  "unidad": "fil-t3",
+  "materia": "Filosofía 1.º · Teoría del conocimiento",
+  "titulo": "¿Qué es la verdad?",
+  "lede": "Tres maneras de entender la verdad, y por qué «todo es relativo» se contradice a sí mismo. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué hace verdadera a una frase?",
+    "intro": [
+     "«Está lloviendo». Si te asomas a la ventana y llueve, la frase es verdadera; si no, es falsa. Parece sencillo. ¿Qué has hecho exactamente para decidirlo?"
+    ],
+    "pistas": [
+     "Para aterrizar: la verdad y la falsedad son propiedades de lo que <em>decimos</em> o <em>pensamos</em> (frases, creencias), no de las cosas. La lluvia no es verdadera: es verdadera la frase «está lloviendo».",
+     "Al asomarte, has comparado lo que dice la frase con cómo están las cosas. Si coinciden, la llamas verdadera.",
+     "Aristóteles lo dijo así: decir de lo que es que es, y de lo que no es que no es, es verdadero; decir de lo que es que no es, o de lo que no es que es, es falso (<em>Metafísica</em> IV, 7).",
+     "Esa es la <strong>teoría de la verdad como correspondencia</strong>: una frase es verdadera cuando <strong>se corresponde</strong> con los hechos. Es la idea más cercana al sentido común."
+    ],
+    "comprobacion": {
+     "pregunta": "Según la teoría de la correspondencia, ¿cuándo es verdadera la frase «la nieve es blanca»?",
+     "opciones": [
+      [
+       "Cuando la nieve es blanca.",
+       true
+      ],
+      [
+       "Cuando la mayoría de la gente lo cree.",
+       false,
+       "Que mucha gente lo crea no lo hace verdad: lo que cuenta es cómo es la nieve."
+      ],
+      [
+       "Cuando a quien lo dice le resulta útil creerlo.",
+       false,
+       "Eso se parece a otra teoría, la pragmatista; la correspondencia mira los hechos."
+      ],
+      [
+       "Cuando lo dice un científico.",
+       false,
+       "La autoridad no decide la verdad: la decide si la frase encaja con los hechos."
+      ]
+     ],
+     "ok": "Bien: parece obvio, y esa es la gracia de la definición.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Tres teorías de la verdad",
+      "definicion": [
+       "<strong>Correspondencia</strong>: «el agua hierve a 100 °C al nivel del mar» es verdadera porque eso es lo que pasa.",
+       "<strong>Coherencia</strong>: una creencia es verdadera si encaja sin contradicciones con el resto de lo que sabemos. Un detective acepta la versión que encaja con todas las pistas.",
+       "<strong>Pragmatismo</strong> (William James, 1907): es verdadero lo que funciona, lo que guía con éxito nuestra acción y se confirma en la experiencia."
+      ],
+      "parrafos": [
+       "Las tres no son del todo rivales: la coherencia y la utilidad suelen ser las pistas que usamos para saber si algo se corresponde con los hechos."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "Un detective acepta la versión que encaja con todas las pistas sin contradicciones. ¿Qué teoría de la verdad aplica?",
+       "opciones": [
+        [
+         "La de la coherencia.",
+         true
+        ],
+        [
+         "La de la correspondencia.",
+         false,
+         "El detective no ha visto el crimen: no compara con los hechos, sino que busca que todo encaje."
+        ],
+        [
+         "La pragmatista.",
+         false,
+         "No elige la versión que le resulta más útil, sino la que encaja con todo."
+        ],
+        [
+         "Ninguna: los detectives no buscan la verdad.",
+         false,
+         "La buscan, y aquí con un criterio muy concreto."
+        ]
+       ],
+       "ok": "Correcto: que todo encaje.",
+       "mal": "Vuelve a mirar las tres teorías.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "La verdad como correspondencia",
+      "definicion": [
+       "La <strong>verdad</strong> es una propiedad de lo que decimos o pensamos, no de las cosas.",
+       "Según la <strong>teoría de la correspondencia</strong>, una frase es verdadera cuando coincide con los hechos.",
+       "Otras teorías la entienden como <strong>coherencia</strong> con el resto de nuestras creencias o como <strong>éxito</strong> en la práctica (pragmatismo)."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿De qué se dice, en sentido estricto, que es verdadero o falso?",
+       "opciones": [
+        [
+         "De lo que decimos o creemos: frases, creencias, afirmaciones.",
+         true
+        ],
+        [
+         "De las cosas: una mesa verdadera, una lluvia falsa.",
+         false,
+         "Hablamos así a veces («un amigo de verdad»), pero en sentido estricto la verdad es de las frases."
+        ],
+        [
+         "Solo de las leyes científicas.",
+         false,
+         "También son verdaderas o falsas las frases de la vida diaria."
+        ],
+        [
+         "Solo de lo que no se puede discutir.",
+         false,
+         "Muchas verdades se discuten mucho antes de quedar claras."
+        ]
+       ],
+       "ok": "Correcto: la verdad es de lo que se dice.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Es la verdad relativa a cada uno?",
+    "intro": [
+     "«Eso será verdad para ti, pero para mí no». Se oye a menudo. A veces tiene sentido: «la sopa está muy salada» puede ser verdad para ti y no para mí. ¿Vale lo mismo para todo?"
+    ],
+    "pistas": [
+     "Para aterrizar: hay frases que hablan de <em>nuestros gustos o sensaciones</em> («está muy salada»). En esas, que cada uno tenga su verdad es razonable: en realidad hablan de cada uno.",
+     "Otras hablan de <em>cómo es el mundo</em> («el agua hierve a 100 °C al nivel del mar»). Esas no cambian según quién las diga: o el agua hierve a esa temperatura o no.",
+     "El sofista Protágoras decía que «el hombre es la medida de todas las cosas». En el <em>Teeteto</em>, Platón le pone una trampa: si todo lo que cada uno cree es verdad para él, también es verdad la creencia de quien piensa que Protágoras se equivoca.",
+     "Es el problema del <strong>relativismo</strong> radical: la frase «toda verdad es relativa» quiere ser verdad para todos, y así se <strong>contradice a sí misma</strong>. Eso no hace ciertas todas nuestras opiniones, pero muestra que no todo es cuestión de perspectiva."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué «toda verdad es relativa» se contradice a sí misma?",
+     "opciones": [
+      [
+       "Porque se presenta como una verdad válida para todos, que es justo lo que niega.",
+       true
+      ],
+      [
+       "Porque es demasiado larga para ser verdad.",
+       false,
+       "La longitud de una frase no tiene que ver con su verdad."
+      ],
+      [
+       "Porque nadie la cree.",
+       false,
+       "Mucha gente la cree; el problema está en lo que dice."
+      ],
+      [
+       "Porque todas las verdades son absolutas.",
+       false,
+       "No hace falta ir al extremo contrario: algunas frases sí dependen de quien las dice."
+      ]
+     ],
+     "ok": "Exacto: la frase se refuta a sí misma.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Relativismo",
+      "titulo": "Verdad para mí y verdad sin más",
+      "definicion": [
+       "El <strong>relativismo</strong> sostiene que la verdad depende de cada persona o de cada cultura.",
+       "Tiene sentido para las frases sobre gustos y sensaciones, pero no para las que describen hechos.",
+       "El relativismo radical se <strong>autorrefuta</strong>: si nada es verdad para todos, tampoco lo es el propio relativismo. Platón lo vio ya frente a Protágoras."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿En cuál de estas frases tiene sentido decir «es verdad para ti, no para mí»?",
+       "opciones": [
+        [
+         "«Esta película es aburridísima».",
+         true
+        ],
+        [
+         "«El Sol es una estrella».",
+         false,
+         "Describe un hecho: no depende de quién lo diga."
+        ],
+        [
+         "«Dos más dos son cuatro».",
+         false,
+         "No cambia según quién lo piense."
+        ],
+        [
+         "«En Madrid hay más habitantes que en Soria».",
+         false,
+         "Es un hecho que se puede comprobar."
+        ]
+       ],
+       "ok": "Correcto: es una frase sobre un gusto.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué es la verdad",
+   "parrafos": [
+    "La verdad es una propiedad de lo que decimos. Para la teoría de la correspondencia, una frase es verdadera cuando coincide con los hechos; otras teorías hablan de coherencia o de éxito práctico.",
+    "Las frases sobre gustos pueden ser verdad para cada uno; las que describen hechos, no. Y el relativismo radical se contradice a sí mismo, como Platón le mostró a Protágoras."
+   ]
+  }
+ },
+ {
+  "id": "fil-cambio",
+  "subject": "fil",
+  "tema": "Tema M · La realidad: ¿qué hay y cómo es?",
+  "unidad": "fil-metafisica",
+  "materia": "Filosofía 1.º · Metafísica",
+  "titulo": "¿Cambia todo o algo permanece?",
+  "lede": "Heráclito y su río, Parménides y su camino de la verdad, y cómo Aristóteles salvó el cambio. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Por qué el cambio fue un problema para los primeros filósofos?",
+    "intro": [
+     "Una bellota se convierte en encina. La encina ya no es la bellota, y sin embargo decimos que es «la misma» planta que ha crecido. ¿Qué ha cambiado y qué ha permanecido?"
+    ],
+    "pistas": [
+     "Para aterrizar: Heráclito de Éfeso (hacia el 500 a. C.) vio en el cambio la ley de todo. Su imagen más famosa: no es posible bañarse dos veces en el mismo río, porque el agua ya es otra.",
+     "Para Heráclito, la realidad es un flujo constante y una lucha de contrarios (día y noche, frío y calor), pero ordenada por una razón común, el <em>logos</em>.",
+     "Parménides de Elea pensó lo contrario. Razonó así: lo que es, es, y lo que no es, no es. Cambiar sería pasar de no ser a ser, y del no ser no puede salir nada. Luego el cambio es imposible.",
+     "Si los sentidos nos muestran cambios, dice Parménides, es que los sentidos <strong>engañan</strong>: hay que fiarse de la <strong>razón</strong>. Así quedó planteado el problema: ¿la realidad es cambio o permanencia?"
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué Parménides concluye que el cambio es imposible?",
+     "opciones": [
+      [
+       "Porque cambiar sería pasar del no ser al ser, y del no ser no puede salir nada.",
+       true
+      ],
+      [
+       "Porque nunca había visto nada cambiar.",
+       false,
+       "Lo veía como todos; lo que hace es desconfiar de lo que muestran los sentidos."
+      ],
+      [
+       "Porque el agua del río es siempre la misma.",
+       false,
+       "Esa imagen es de Heráclito, y dice lo contrario: el agua es siempre otra."
+      ],
+      [
+       "Porque los dioses lo habían prohibido.",
+       false,
+       "Su argumento es racional, no religioso."
+      ]
+     ],
+     "ok": "Bien: un argumento de pura razón contra los sentidos.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Dos posturas enfrentadas",
+      "definicion": [
+       "<strong>Heráclito</strong>: todo fluye; la realidad es cambio y tensión de contrarios; los sentidos captan ese cambio.",
+       "<strong>Parménides</strong>: el ser es uno, eterno e inmóvil; el cambio es apariencia; solo la razón alcanza la verdad.",
+       "<strong>Zenón</strong>, discípulo de Parménides, intentó mostrar que el movimiento lleva a absurdos: Aquiles nunca alcanzaría a una tortuga que sale con ventaja, porque cuando llega a donde estaba, ella ya ha avanzado un poco."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿De qué filósofo es la idea de que no podemos bañarnos dos veces en el mismo río?",
+       "opciones": [
+        [
+         "De Heráclito.",
+         true
+        ],
+        [
+         "De Parménides.",
+         false,
+         "Parménides niega el cambio; el río que fluye es la imagen de su rival."
+        ],
+        [
+         "De Zenón.",
+         false,
+         "Zenón defendía a Parménides con paradojas sobre el movimiento."
+        ],
+        [
+         "De Tales.",
+         false,
+         "Tales buscaba el principio de todo en el agua, pero la imagen del río es de Heráclito."
+        ]
+       ],
+       "ok": "Correcto: todo fluye.",
+       "mal": "Vuelve a mirar las dos posturas.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "El problema del cambio",
+      "definicion": [
+       "El <strong>cambio</strong> supone que algo deja de ser lo que era y pasa a ser otra cosa, pero sigue siendo, en algún sentido, lo mismo.",
+       "<strong>Heráclito</strong> hizo del cambio la ley de la realidad; <strong>Parménides</strong> lo negó en nombre de la razón.",
+       "Su choque plantea dos preguntas que recorren la historia de la filosofía: qué es lo real y si podemos fiarnos de los sentidos."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué dos preguntas deja abiertas el choque entre Heráclito y Parménides?",
+       "opciones": [
+        [
+         "Qué es lo real (cambio o permanencia) y si nos podemos fiar de los sentidos.",
+         true
+        ],
+        [
+         "Quién fue el primer filósofo y dónde nació.",
+         false,
+         "Son preguntas de historia, no las que plantea su choque."
+        ],
+        [
+         "Si los dioses existen y cuántos son.",
+         false,
+         "Ninguno de los dos discute eso aquí."
+        ],
+        [
+         "Cómo se gobierna mejor una ciudad.",
+         false,
+         "Esa es una pregunta política, que llegará después."
+        ]
+       ],
+       "ok": "Correcto: realidad y conocimiento.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Cómo se puede explicar el cambio sin caer en la contradicción de Parménides?",
+    "intro": [
+     "Vuelve a la bellota. ¿De verdad la encina sale de la nada? ¿O ya había algo en la bellota que no era todavía encina, pero podía llegar a serlo?"
+    ],
+    "pistas": [
+     "Para aterrizar: Platón buscó una salida separando dos mundos. Las cosas que vemos cambian sin parar; pero lo que las hace inteligibles, las <em>Ideas</em> (la Belleza, la Justicia), es eterno e inmutable. Heráclito acierta sobre lo sensible y Parménides sobre lo inteligible.",
+     "Aristóteles, su discípulo, buscó otra salida sin separar mundos. Se fijó en que «no ser» se dice de dos maneras: no ser en absoluto, y no ser todavía.",
+     "La bellota no es encina, pero no es una nada: es encina <em>en potencia</em>. Puede llegar a serlo. Cuando crece, esa posibilidad se realiza: pasa a ser encina <em>en acto</em>.",
+     "Así, el cambio no es pasar de la nada al ser, sino el paso de la <strong>potencia</strong> al <strong>acto</strong>. Lo que permanece es el sujeto que cambia (la planta); lo que cambia es la forma que va realizando."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Cómo explica Aristóteles el paso de la bellota a la encina?",
+     "opciones": [
+      [
+       "Como el paso de lo que la bellota era en potencia a lo que llega a ser en acto.",
+       true
+      ],
+      [
+       "Como algo que sale de la nada absoluta.",
+       false,
+       "Eso es justo lo que Parménides veía imposible, y Aristóteles lo evita."
+      ],
+      [
+       "Como una ilusión de los sentidos.",
+       false,
+       "Esa sería la respuesta de Parménides, no la de Aristóteles."
+      ],
+      [
+       "Como una copia imperfecta de la Idea de encina.",
+       false,
+       "Ese lenguaje es más bien de Platón."
+      ]
+     ],
+     "ok": "Exacto: de la potencia al acto.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Acto y potencia",
+      "titulo": "Dos soluciones al problema",
+      "definicion": [
+       "<strong>Platón</strong> distingue el mundo sensible, que cambia, del mundo de las Ideas, eterno e inmutable.",
+       "<strong>Aristóteles</strong> distingue entre lo que algo es <strong>en acto</strong> (lo que ya es) y lo que es <strong>en potencia</strong> (lo que puede llegar a ser).",
+       "El cambio es el paso de la potencia al acto: el niño es adulto en potencia; el bloque de mármol, estatua en potencia. Nada surge de la nada absoluta."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué es un bloque de mármol, según Aristóteles?",
+       "opciones": [
+        [
+         "Una estatua en potencia: puede llegar a serlo si se esculpe.",
+         true
+        ],
+        [
+         "Una estatua en acto.",
+         false,
+         "Todavía no lo es: en acto es solo un bloque."
+        ],
+        [
+         "Nada, porque aún no es una estatua.",
+         false,
+         "No ser estatua todavía no es lo mismo que no ser nada."
+        ],
+        [
+         "Una copia de la Idea de estatua.",
+         false,
+         "Ese lenguaje es de Platón."
+        ]
+       ],
+       "ok": "Correcto: puede llegar a ser estatua.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces el problema del cambio",
+   "parrafos": [
+    "Heráclito vio la realidad como cambio; Parménides negó el cambio porque del no ser no puede salir nada, y se fió de la razón contra los sentidos.",
+    "Platón separó un mundo que cambia de otro inmutable; Aristóteles explicó el cambio como paso de la potencia al acto. Para seguir: «¿Qué es lo real?»."
    ]
   }
  },
@@ -949,6 +2893,867 @@ const PISTAS = [
   }
  },
  {
+  "id": "fil-falacias",
+  "subject": "fil",
+  "tema": "Tema 4 · Lógica y argumentación",
+  "unidad": "fil-t4",
+  "materia": "Filosofía 1.º · Lógica",
+  "titulo": "¿Qué es una falacia y cómo se reconoce?",
+  "lede": "Argumentos que parecen buenos y no lo son: atacar a la persona, deformar lo que dice el otro, dar a elegir entre solo dos salidas. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué tiene de malo un argumento falaz, si a veces convence?",
+    "intro": [
+     "En un debate sobre el carril bici, alguien responde a una concejala: «¿Y tú qué sabes de bicis, si vas a todas partes en coche?». El público aplaude. ¿Ha refutado lo que ella proponía?"
+    ],
+    "pistas": [
+     "Para aterrizar: un <em>argumento</em> da razones (premisas) para apoyar una conclusión. Es bueno si esas razones de verdad la apoyan.",
+     "Fíjate en qué se discute: si el carril bici es buena idea. ¿Dice algo sobre eso que la concejala vaya en coche? Aunque fuera incoherente, su propuesta podría ser buena o mala igual.",
+     "La respuesta convence porque desvía la atención: deja de hablar del carril bici y pasa a hablar de la persona. Por eso parece una respuesta y no lo es.",
+     "Una <strong>falacia</strong> es eso: un argumento que <strong>parece</strong> correcto, y a menudo convence, pero cuyas razones no apoyan de verdad la conclusión. Esta en concreto se llama <em>ad hominem</em>, «contra la persona»."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué es una falacia?",
+     "opciones": [
+      [
+       "Un argumento que parece bueno, pero cuyas razones no apoyan de verdad la conclusión.",
+       true
+      ],
+      [
+       "Una mentira.",
+       false,
+       "Una falacia puede no contener ninguna mentira: el fallo está en cómo se razona."
+      ],
+      [
+       "Cualquier argumento con el que no estamos de acuerdo.",
+       false,
+       "Un argumento puede ser bueno aunque no nos guste su conclusión."
+      ],
+      [
+       "Un argumento que no convence a nadie.",
+       false,
+       "Lo peligroso de las falacias es justo que suelen convencer."
+      ]
+     ],
+     "ok": "Bien: parece un argumento y no lo es.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Cinco falacias frecuentes",
+      "definicion": [
+       "<strong>Ad hominem</strong> (contra la persona): «No le hagas caso sobre el cambio climático, que es un pesado».",
+       "<strong>Hombre de paja</strong>: deformar la postura del otro para atacarla mejor. «¿Quieres menos deberes? O sea, que no quieres que se estudie nada».",
+       "<strong>Falso dilema</strong>: presentar solo dos salidas cuando hay más. «O estás conmigo o estás contra mí».",
+       "<strong>Ad populum</strong> (apelar a la mayoría): «Todo el mundo lo hace, así que no puede estar mal».",
+       "<strong>Pendiente resbaladiza</strong>: encadenar consecuencias cada vez peores sin justificarlas. «Si te dejo salir hasta las once, luego querrás hasta las doce, y acabarás no viniendo a dormir»."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "«O apruebas todo en junio o eres un fracasado». ¿Qué falacia es?",
+       "opciones": [
+        [
+         "Un falso dilema: hay muchas más posibilidades que esas dos.",
+         true
+        ],
+        [
+         "Un ad hominem.",
+         false,
+         "No ataca a quien argumenta: reduce las opciones a dos."
+        ],
+        [
+         "Un hombre de paja.",
+         false,
+         "No deforma la postura de nadie: presenta una elección amañada."
+        ],
+        [
+         "Una pendiente resbaladiza.",
+         false,
+         "No encadena consecuencias: plantea solo dos salidas."
+        ]
+       ],
+       "ok": "Correcto: dos salidas, cuando hay muchas más.",
+       "mal": "Vuelve a mirar los cinco ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Falacias",
+      "definicion": [
+       "Una <strong>falacia</strong> es un razonamiento incorrecto que parece correcto.",
+       "Las falacias suelen convencer porque desvían la atención: hacia la persona, hacia lo que piensa la mayoría, hacia una versión deformada del otro o hacia el miedo a las consecuencias.",
+       "Reconocerlas exige preguntarse siempre lo mismo: <strong>¿estas razones apoyan de verdad esta conclusión?</strong>"
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Cuál es la mejor pregunta para detectar una falacia?",
+       "opciones": [
+        [
+         "¿Las razones que se dan apoyan de verdad la conclusión?",
+         true
+        ],
+        [
+         "¿Quién lo dice?",
+         false,
+         "Fijarse en quién lo dice puede llevar justo a un ad hominem."
+        ],
+        [
+         "¿Cuánta gente está de acuerdo?",
+         false,
+         "Eso lleva a la falacia ad populum."
+        ],
+        [
+         "¿Me gusta la conclusión?",
+         false,
+         "Que nos guste o no la conclusión no dice nada sobre el argumento."
+        ]
+       ],
+       "ok": "Correcto: siempre volver a las razones.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Hay falacias que fallan por su forma, aunque hablen de cosas verdaderas?",
+    "intro": [
+     "«Si llueve, la calle se moja. La calle está mojada. Luego ha llovido». Suena razonable. Pero piensa en el camión de la limpieza que acaba de pasar."
+    ],
+    "pistas": [
+     "Para aterrizar: las falacias del ejemplo anterior fallan por su <em>contenido</em>: meten razones que no vienen al caso. Se llaman falacias <em>informales</em>.",
+     "Otras fallan por su <em>forma</em>, por la estructura del razonamiento, sea cual sea el tema. Son las falacias <em>formales</em>.",
+     "Mira la estructura: «si A, entonces B; B; luego A». Que la lluvia moje la calle no impide que otras cosas la mojen también. De «B» no se puede volver a «A».",
+     "Esa forma inválida se llama <strong>afirmación del consecuente</strong>. Su pareja correcta es el <em>modus ponens</em>: «si A, entonces B; A; luego B». La forma decide la validez, aunque cada premisa sea verdadera."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué «si llueve, la calle se moja; la calle está mojada; luego ha llovido» es una falacia?",
+     "opciones": [
+      [
+       "Porque la calle puede estar mojada por otra causa: de la consecuencia no se puede volver a la condición.",
+       true
+      ],
+      [
+       "Porque es falso que la lluvia moje la calle.",
+       false,
+       "Esa premisa es verdadera: el fallo está en la estructura."
+      ],
+      [
+       "Porque ataca a la persona que habla.",
+       false,
+       "No hay ninguna persona atacada: es un fallo de forma."
+      ],
+      [
+       "No es una falacia: es un argumento válido.",
+       false,
+       "Piensa en el camión de la limpieza: las premisas pueden ser verdaderas y la conclusión falsa."
+      ]
+     ],
+     "ok": "Exacto: es la afirmación del consecuente.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Formales e informales",
+      "titulo": "Dos clases de falacias",
+      "definicion": [
+       "<strong>Falacias formales</strong>: fallan por la estructura del razonamiento. Ejemplo: la afirmación del consecuente («si A, B; B; luego A»).",
+       "<strong>Falacias informales</strong>: la forma puede parecer correcta, pero las razones no son pertinentes o no bastan (ad hominem, hombre de paja, falso dilema…).",
+       "Un argumento es <strong>válido</strong> cuando, si sus premisas fueran verdaderas, la conclusión tendría que serlo. La afirmación del consecuente no cumple esa condición."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Cuál de estos razonamientos tiene una forma válida?",
+       "opciones": [
+        [
+         "Si estudias, apruebas. Has estudiado. Luego apruebas.",
+         true
+        ],
+        [
+         "Si estudias, apruebas. Has aprobado. Luego has estudiado.",
+         false,
+         "Es la afirmación del consecuente: pudiste aprobar por otra razón."
+        ],
+        [
+         "Si estudias, apruebas. No has estudiado. Luego no apruebas.",
+         false,
+         "Tampoco es válido: se llama negación del antecedente."
+        ],
+        [
+         "Has estudiado, así que eres listo y todo el mundo lo sabe.",
+         false,
+         "No sigue ninguna forma válida: mezcla cosas sin conexión."
+        ]
+       ],
+       "ok": "Correcto: es el <em>modus ponens</em>.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes reconocer una falacia",
+   "parrafos": [
+    "Una falacia es un argumento que parece bueno pero cuyas razones no apoyan la conclusión. Las informales desvían la atención (ad hominem, hombre de paja, falso dilema); las formales fallan por su estructura, como la afirmación del consecuente.",
+    "La pregunta que las delata es siempre la misma: ¿estas razones apoyan de verdad esta conclusión? Para seguir: «¿Qué hace válido a un argumento?»."
+   ]
+  }
+ },
+ {
+  "id": "fil-deduccion",
+  "subject": "fil",
+  "tema": "Tema 4 · Lógica y argumentación",
+  "unidad": "fil-t4",
+  "materia": "Filosofía 1.º · Lógica",
+  "titulo": "¿En qué se diferencian la deducción y la inducción?",
+  "lede": "Tres maneras de razonar: la que asegura, la que generaliza y la del detective. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué diferencia hay entre deducir e inducir?",
+    "intro": [
+     "Compara dos razonamientos. A: «Todos los mamíferos tienen pulmones; la ballena es un mamífero; luego la ballena tiene pulmones». B: «Todos los lunes de este trimestre ha habido examen sorpresa; luego el lunes que viene también habrá». ¿Te fías igual de las dos conclusiones?"
+    ],
+    "pistas": [
+     "Para aterrizar: en A, si las premisas son verdaderas, la conclusión <em>no puede</em> ser falsa. Ya estaba contenida en lo que se dijo.",
+     "En B, las premisas pueden ser todas verdaderas y la conclusión, falsa: quizá el profesor cambie de costumbre. La conclusión va <em>más allá</em> de lo observado.",
+     "El primer tipo se llama <strong>deducción</strong>: de lo general a lo particular, o en general, de premisas a una conclusión que se sigue con necesidad.",
+     "El segundo se llama <strong>inducción</strong>: de casos particulares a una regla general. No asegura la conclusión: la hace más o menos <strong>probable</strong>, según cuántos casos y qué tan variados."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué distingue a una deducción válida?",
+     "opciones": [
+      [
+       "Que, si las premisas son verdaderas, la conclusión tiene que serlo.",
+       true
+      ],
+      [
+       "Que se basa en muchos casos observados.",
+       false,
+       "Eso caracteriza a la inducción."
+      ],
+      [
+       "Que su conclusión es siempre verdadera, sean como sean las premisas.",
+       false,
+       "Si las premisas son falsas, la conclusión puede ser falsa aunque el razonamiento sea válido."
+      ],
+      [
+       "Que es más larga que una inducción.",
+       false,
+       "La longitud no tiene nada que ver: lo que cuenta es la conexión entre premisas y conclusión."
+      ]
+     ],
+     "ok": "Bien: la deducción transmite la verdad con necesidad.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "¿Deducción o inducción?",
+      "definicion": [
+       "«Todos los triángulos tienen tres lados; esta figura es un triángulo; luego tiene tres lados». → <strong>Deducción</strong>.",
+       "«Las cien muestras de agua del río tenían plomo; luego todo el río está contaminado». → <strong>Inducción</strong>.",
+       "«Si un número es par, es divisible entre dos; 14 es par; luego es divisible entre dos». → <strong>Deducción</strong>.",
+       "«Cada vez que como marisco me sale un sarpullido; luego soy alérgico al marisco». → <strong>Inducción</strong>."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "«Las tres últimas veces que llegué tarde me castigaron; luego si llego tarde mañana me castigarán». ¿Qué es?",
+       "opciones": [
+        [
+         "Una inducción: generaliza a partir de casos y su conclusión es solo probable.",
+         true
+        ],
+        [
+         "Una deducción: la conclusión es segura.",
+         false,
+         "Mañana puede ser distinto: la conclusión no es segura."
+        ],
+        [
+         "Una falacia ad hominem.",
+         false,
+         "No ataca a ninguna persona."
+        ],
+        [
+         "No es un razonamiento.",
+         false,
+         "Sí lo es: saca una conclusión a partir de casos."
+        ]
+       ],
+       "ok": "Correcto: de casos a una regla, con probabilidad.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Deducción e inducción",
+      "definicion": [
+       "<strong>Deducción</strong>: la conclusión se sigue necesariamente de las premisas. Si es <strong>válida</strong> y las premisas son verdaderas, la conclusión es verdadera.",
+       "<strong>Inducción</strong>: la conclusión generaliza a partir de casos. Puede ser más o menos <strong>fuerte</strong>, pero nunca garantiza la conclusión.",
+       "La deducción no aporta información nueva, pero da seguridad; la inducción amplía lo que sabemos, pero con riesgo."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué ventaja tiene la inducción sobre la deducción?",
+       "opciones": [
+        [
+         "Que amplía lo que sabemos, aunque sus conclusiones no sean seguras.",
+         true
+        ],
+        [
+         "Que sus conclusiones son siempre seguras.",
+         false,
+         "Es al revés: la seguridad es propia de la deducción."
+        ],
+        [
+         "Que no necesita observar nada.",
+         false,
+         "La inducción parte precisamente de observaciones."
+        ],
+        [
+         "Ninguna: es un razonamiento incorrecto.",
+         false,
+         "No es incorrecta: es otro tipo de razonamiento, imprescindible en la ciencia y en la vida."
+        ]
+       ],
+       "ok": "Correcto: gana información a cambio de riesgo.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Cómo razona un detective?",
+    "intro": [
+     "Sherlock Holmes ve a un desconocido con la piel morena en la cara pero no en las muñecas, porte militar y un brazo rígido, y le dice: «Usted ha estado en Afganistán». ¿Ha deducido o ha inducido?"
+    ],
+    "pistas": [
+     "Para aterrizar: Holmes no parte de una ley general segura, así que no es una deducción en sentido estricto, aunque él la llame así.",
+     "Tampoco generaliza a partir de muchos casos: tiene un caso, con varios detalles sorprendentes, y busca qué los explicaría a la vez.",
+     "Lo que hace es proponer la hipótesis que mejor explica los datos: un médico militar recién vuelto de una guerra en un país soleado, con una herida en el brazo.",
+     "Ese tercer tipo de razonamiento se llama <strong>abducción</strong>, o inferencia a la mejor explicación. El filósofo Charles S. Peirce la estudió: es como razonan los detectives, los médicos al diagnosticar y los científicos al proponer hipótesis."
+    ],
+    "comprobacion": {
+     "pregunta": "¿En qué consiste la abducción?",
+     "opciones": [
+      [
+       "En proponer la hipótesis que mejor explica unos datos sorprendentes.",
+       true
+      ],
+      [
+       "En sacar una conclusión segura de premisas generales.",
+       false,
+       "Eso es la deducción."
+      ],
+      [
+       "En generalizar a partir de muchos casos iguales.",
+       false,
+       "Eso es la inducción."
+      ],
+      [
+       "En adivinar sin ninguna razón.",
+       false,
+       "La abducción no es adivinar: elige la explicación que mejor encaja con los datos."
+      ]
+     ],
+     "ok": "Exacto: la mejor explicación.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Abducción",
+      "titulo": "Inferencia a la mejor explicación",
+      "definicion": [
+       "La <strong>abducción</strong> parte de un hecho sorprendente y propone una hipótesis que, si fuera verdadera, lo explicaría.",
+       "No es segura: puede haber otras explicaciones. Por eso las hipótesis abductivas hay que <strong>ponerlas a prueba</strong> después.",
+       "Un médico que ve fiebre, tos y manchas y piensa en el sarampión hace una abducción; luego pide pruebas para confirmarlo."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "Llegas a casa, la puerta está abierta y hay barro en la entrada. Piensas: «Ha vuelto mi hermano del entrenamiento». ¿Qué has hecho?",
+       "opciones": [
+        [
+         "Una abducción: has propuesto la explicación que mejor encaja con lo que ves.",
+         true
+        ],
+        [
+         "Una deducción: tu conclusión es segura.",
+         false,
+         "Podría ser otra persona: no es segura."
+        ],
+        [
+         "Una inducción a partir de muchos casos.",
+         false,
+         "Te basas en unos pocos indicios de este caso, buscando una explicación."
+        ],
+        [
+         "Una falacia de falso dilema.",
+         false,
+         "No has reducido las opciones a dos: has elegido la explicación más probable."
+        ]
+       ],
+       "ok": "Correcto: piensas como un detective.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces las tres formas de razonar",
+   "parrafos": [
+    "La deducción asegura la conclusión si las premisas son verdaderas; la inducción generaliza a partir de casos y solo da probabilidad; la abducción propone la mejor explicación de unos datos.",
+    "La ciencia usa las tres: la abducción propone hipótesis, la deducción saca sus consecuencias y la experiencia las pone a prueba. Para seguir: «¿Qué hace científica una teoría?»."
+   ]
+  }
+ },
+ {
+  "id": "fil-relativismo",
+  "subject": "fil",
+  "tema": "Tema 5 · Las preguntas de la ética",
+  "unidad": "fil-t5",
+  "materia": "Filosofía 1.º · Ética",
+  "titulo": "¿Es todo relativo en moral?",
+  "lede": "La diversidad de costumbres, lo que se sigue de ella y lo que no. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "Si cada cultura tiene su moral, ¿quiere decir que ninguna es mejor que otra?",
+    "intro": [
+     "El historiador griego Heródoto cuenta que el rey persa Darío preguntó a unos griegos cuánto dinero querrían por comerse a sus padres muertos: ninguno lo haría por nada del mundo. Luego preguntó a los calatias, un pueblo de la India que sí comía a sus padres, cuánto querrían por quemarlos, como hacían los griegos: se horrorizaron. ¿Quién tenía razón?"
+    ],
+    "pistas": [
+     "Para aterrizar: la historia muestra un <em>hecho</em>: los pueblos tienen costumbres morales muy distintas, y cada uno ve las suyas como las correctas. Heródoto concluye, con el poeta Píndaro, que «la costumbre es reina de todas las cosas».",
+     "Del hecho de la diversidad, el <em>relativismo moral</em> saca una tesis: no hay nada bueno o malo en sí; lo correcto es lo que cada cultura aprueba, y no se puede juzgar a otras.",
+     "Pero ojo: que las culturas <em>piensen</em> distinto no prueba que todas <em>tengan</em> razón. También hubo culturas que pensaban que la Tierra era plana, y eso no hacía verdad su creencia.",
+     "Hay que distinguir dos cosas: la <strong>diversidad</strong> de costumbres, que es un hecho, y el <strong>relativismo</strong>, que es una tesis sobre si unas morales pueden ser mejores que otras. La primera no demuestra la segunda."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué la diversidad de costumbres no basta para demostrar el relativismo moral?",
+     "opciones": [
+      [
+       "Porque del hecho de que se piense distinto no se sigue que todas las opiniones sean igual de correctas.",
+       true
+      ],
+      [
+       "Porque en realidad todas las culturas tienen las mismas costumbres.",
+       false,
+       "La diversidad es real: el ejemplo de Heródoto lo muestra."
+      ],
+      [
+       "Porque los griegos tenían razón y los calatias no.",
+       false,
+       "La cuestión no es quién acertaba aquí, sino qué se sigue de la diversidad."
+      ],
+      [
+       "Porque las costumbres no tienen nada que ver con la moral.",
+       false,
+       "Tienen mucho que ver; lo que se discute es si la moral se reduce a costumbre."
+      ]
+     ],
+     "ok": "Bien: hecho y tesis son cosas distintas.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Diversidad: cosas que cambian y cosas que no tanto",
+      "definicion": [
+       "Cambian mucho: cómo se trata a los muertos, cómo se saluda, qué se come, cómo se organiza la familia.",
+       "Cambian menos: casi todas las culturas valoran cuidar a los hijos, cumplir la palabra dada, no matar a los del propio grupo sin motivo.",
+       "A veces la diferencia está en los <strong>medios</strong>, no en el <strong>valor</strong>: griegos y calatias querían lo mismo, honrar a sus padres muertos, y lo hacían de modos opuestos."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué tenían en común los griegos y los calatias de la historia de Heródoto?",
+       "opciones": [
+        [
+         "Los dos querían honrar a sus padres muertos, aunque de formas opuestas.",
+         true
+        ],
+        [
+         "Nada: sus morales eran completamente distintas.",
+         false,
+         "Mira el valor que hay detrás de cada costumbre."
+        ],
+        [
+         "Los dos comían a sus muertos.",
+         false,
+         "Los griegos los quemaban."
+        ],
+        [
+         "Los dos aceptaron el dinero de Darío.",
+         false,
+         "Los dos se negaron, horrorizados."
+        ]
+       ],
+       "ok": "Correcto: el mismo valor, distintas costumbres.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Relativismo moral",
+      "definicion": [
+       "La <strong>diversidad moral</strong> es un hecho: las culturas tienen costumbres y normas distintas.",
+       "El <strong>relativismo moral</strong> es una tesis: lo bueno y lo malo dependen solo de lo que aprueba cada cultura, y no hay un criterio para juzgar entre ellas.",
+       "El <strong>universalismo</strong> sostiene lo contrario: hay al menos algunos valores o normas válidos para todos los seres humanos."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué sostiene el relativismo moral?",
+       "opciones": [
+        [
+         "Que lo correcto depende de lo que aprueba cada cultura, sin un criterio común para juzgar entre ellas.",
+         true
+        ],
+        [
+         "Que las culturas tienen costumbres distintas.",
+         false,
+         "Eso es la diversidad, un hecho que acepta casi todo el mundo; el relativismo va más allá."
+        ],
+        [
+         "Que hay valores válidos para todos.",
+         false,
+         "Eso es el universalismo."
+        ],
+        [
+         "Que la moral no existe.",
+         false,
+         "El relativista no niega la moral: la hace depender de cada cultura."
+        ]
+       ],
+       "ok": "Correcto: esa es la tesis.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Qué problemas tiene el relativismo moral?",
+    "intro": [
+     "En el siglo XIX, la sociedad del sur de Estados Unidos aprobaba la esclavitud. Si lo correcto es lo que aprueba cada sociedad, ¿qué podían decir los abolicionistas que luchaban contra ella?"
+    ],
+    "pistas": [
+     "Para aterrizar: si lo correcto es lo que la propia sociedad aprueba, quien critica las normas de su sociedad está, por definición, equivocado. Los abolicionistas, o las sufragistas, habrían sido simplemente «inmorales».",
+     "Además, no tendría sentido hablar de <em>progreso moral</em>: abolir la esclavitud no sería mejorar, sino solo cambiar de costumbre, como cambiar de moda.",
+     "Y no podríamos criticar las prácticas de otras culturas, por crueles que fueran. Paradójicamente, el relativismo nace a menudo del respeto a los demás, pero acaba sin poder defender a quien sufre dentro de otra cultura.",
+     "Por eso muchos filósofos defienden un <strong>universalismo mínimo</strong>: unos pocos valores comunes (la dignidad, no causar sufrimiento gratuito) que permiten criticar y, a la vez, respetar la enorme diversidad de costumbres. La Declaración Universal de los Derechos Humanos (1948) es un intento de ponerlo por escrito."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué el relativismo moral tiene problemas para explicar el progreso moral?",
+     "opciones": [
+      [
+       "Porque si lo correcto es lo que cada sociedad aprueba, abolir la esclavitud sería solo un cambio de costumbre, no una mejora.",
+       true
+      ],
+      [
+       "Porque nunca ha habido progreso moral.",
+       false,
+       "La mayoría de la gente cree que abolir la esclavitud fue un progreso: el problema es que el relativismo no puede decirlo."
+      ],
+      [
+       "Porque el relativismo defiende la esclavitud.",
+       false,
+       "No la defiende; el problema es que no tiene base para condenarla."
+      ],
+      [
+       "Porque el progreso moral solo se da en la ciencia.",
+       false,
+       "Se habla de progreso moral, precisamente, fuera de la ciencia."
+      ]
+     ],
+     "ok": "Exacto: sin un criterio común, no hay mejor ni peor.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Críticas al relativismo",
+      "titulo": "Tres problemas y una salida",
+      "definicion": [
+       "1) El <strong>reformador</strong> siempre estaría equivocado, porque va contra lo que su sociedad aprueba.",
+       "2) No habría <strong>progreso</strong> moral, solo cambios.",
+       "3) No se podría <strong>criticar</strong> ninguna práctica de otra cultura, por cruel que fuera.",
+       "El <strong>universalismo mínimo</strong> propone pocos valores comunes y mucha libertad en lo demás: es la idea de las éticas de mínimos y de los derechos humanos."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué propone un universalismo mínimo?",
+       "opciones": [
+        [
+         "Unos pocos valores comunes a todos, respetando la diversidad en todo lo demás.",
+         true
+        ],
+        [
+         "Que todas las culturas adopten las mismas costumbres.",
+         false,
+         "Eso no sería mínimo: el universalismo mínimo deja espacio a la diversidad."
+        ],
+        [
+         "Que cada cultura decida sin límites lo que está bien.",
+         false,
+         "Eso es el relativismo."
+        ],
+        [
+         "Que la moral la decida la cultura más poderosa.",
+         false,
+         "Sería imponer la fuerza, no razonar sobre valores comunes."
+        ]
+       ],
+       "ok": "Correcto: pocos mínimos, mucha diversidad.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces el debate sobre el relativismo",
+   "parrafos": [
+    "La diversidad de costumbres es un hecho, pero no demuestra que toda moral valga lo mismo. Y el relativismo tiene problemas: el reformador siempre estaría equivocado y no habría progreso moral.",
+    "El universalismo mínimo busca unos pocos valores comunes que permitan criticar sin dejar de respetar la diversidad. Para seguir: la actividad «¿Ética de mínimos o de máximos?»."
+   ]
+  }
+ },
+ {
+  "id": "fil-consecuencias",
+  "subject": "fil",
+  "tema": "Tema 5 · Las preguntas de la ética",
+  "unidad": "fil-t5",
+  "materia": "Filosofía 1.º · Ética",
+  "titulo": "¿Cuentan las consecuencias o las intenciones?",
+  "lede": "Un tranvía sin frenos, dos maneras de salvar a cinco personas y dos grandes teorías éticas. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué hace buena una acción: sus resultados o el principio que la guía?",
+    "intro": [
+     "Un tranvía sin frenos va a atropellar a cinco personas atadas a la vía. Tú estás junto a una palanca: si la accionas, el tranvía se desvía a otra vía donde hay una sola persona. ¿La accionas?"
+    ],
+    "pistas": [
+     "Para aterrizar: la mayoría de la gente responde que sí. La razón suele ser una cuenta: es mejor que muera una persona que cinco. Se mira el <em>resultado</em>.",
+     "Esa manera de razonar es la del <strong>utilitarismo</strong> (Jeremy Bentham y John Stuart Mill): es buena la acción que produce la mayor felicidad para el mayor número.",
+     "Ahora cambia el caso: estás en un puente sobre la vía, junto a un hombre muy corpulento. Si lo empujas, su cuerpo frenará el tranvía y salvará a los cinco. La cuenta es la misma, cinco contra uno… y casi nadie lo empujaría.",
+     "Esa resistencia apunta a otra manera de pensar, la ética del <strong>deber</strong> (deontológica), cuyo gran nombre es Kant: hay cosas que no se hacen, como usar a una persona como un simple medio, aunque las consecuencias sean mejores."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué el caso del puente pone en apuros al utilitarismo?",
+     "opciones": [
+      [
+       "Porque las consecuencias son las mismas que con la palanca, y aun así casi todos ven mal empujar al hombre.",
+       true
+      ],
+      [
+       "Porque en el puente mueren más personas.",
+       false,
+       "Las cuentas son idénticas: uno muere y cinco se salvan."
+      ],
+      [
+       "Porque el utilitarismo prohíbe empujar a nadie.",
+       false,
+       "Al contrario: si solo cuentan las consecuencias, habría que empujarlo."
+      ],
+      [
+       "Porque el tranvía no se pararía.",
+       false,
+       "El experimento supone que sí se para: la pregunta es si sería correcto."
+      ]
+     ],
+     "ok": "Bien: algo más que las consecuencias parece contar.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Dos maneras de juzgar",
+      "definicion": [
+       "Mentir para que un amigo no se lleve un disgusto. → <strong>Utilitarista</strong>: si produce más bienestar que la verdad, está bien. <strong>Deontólogo</strong>: mentir está mal aunque evite un disgusto.",
+       "Donar un riñón a un desconocido. → <strong>Utilitarista</strong>: bueno, porque salva una vida con poco daño. <strong>Deontólogo</strong>: admirable, pero no obligatorio.",
+       "Prometer algo y cumplirlo aunque ya no convenga. → <strong>Deontólogo</strong>: es un deber. <strong>Utilitarista</strong>: depende de las consecuencias de cumplir o no."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "«Mentir está mal, aunque con la mentira se consiga algo bueno». ¿Qué ética lo diría?",
+       "opciones": [
+        [
+         "La ética del deber (deontológica).",
+         true
+        ],
+        [
+         "El utilitarismo.",
+         false,
+         "El utilitarista miraría si la mentira produce más bienestar."
+        ],
+        [
+         "El relativismo.",
+         false,
+         "El relativista diría que depende de lo que apruebe cada cultura."
+        ],
+        [
+         "Ninguna: todas las éticas permiten mentir.",
+         false,
+         "La ética del deber, en particular, no lo permite."
+        ]
+       ],
+       "ok": "Correcto: hay deberes que no dependen del resultado.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Consecuencialismo y deontología",
+      "definicion": [
+       "El <strong>consecuencialismo</strong> juzga las acciones por sus resultados. Su forma más conocida es el <strong>utilitarismo</strong>: lo correcto es lo que produce la mayor felicidad para el mayor número.",
+       "La <strong>deontología</strong> (de <em>déon</em>, «deber») juzga las acciones por el principio que siguen: hay deberes y prohibiciones que valen sean cuales sean los resultados.",
+       "El dilema del tranvía lo planteó Philippa Foot (1967) y lo amplió Judith Jarvis Thomson con el caso del puente."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Qué dice el utilitarismo?",
+       "opciones": [
+        [
+         "Que es correcta la acción que produce la mayor felicidad para el mayor número.",
+         true
+        ],
+        [
+         "Que hay que cumplir el deber sean cuales sean las consecuencias.",
+         false,
+         "Eso es la deontología."
+        ],
+        [
+         "Que lo útil es lo que le conviene a cada uno.",
+         false,
+         "El utilitarismo cuenta la felicidad de todos, no solo la propia."
+        ],
+        [
+         "Que la moral depende de cada cultura.",
+         false,
+         "Eso es el relativismo."
+        ]
+       ],
+       "ok": "Correcto: felicidad del mayor número.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Y qué papel tienen las intenciones?",
+    "intro": [
+     "Dos personas salvan a un niño que se ahoga. Una lo hace porque es lo que hay que hacer; la otra, porque espera una recompensa. ¿Han hecho lo mismo? ¿Valen lo mismo?"
+    ],
+    "pistas": [
+     "Para aterrizar: para Kant, lo único bueno sin restricción es una <em>buena voluntad</em>. Una acción tiene valor moral si se hace <em>por deber</em>, no solo conforme al deber. Quien salva al niño por la recompensa hace lo correcto, pero su acción no tiene valor moral.",
+     "Mill responde distinguiendo dos cosas. Quien salva a alguien que se ahoga hace lo correcto, sea cual sea su motivo; el motivo no cambia si la acción es buena, sino lo que pensamos de <em>la persona</em>.",
+     "Así, los dos enfoques no discuten solo sobre resultados, sino sobre qué se juzga: el utilitarismo juzga sobre todo las <em>acciones</em> por lo que producen; Kant, la <em>voluntad</em> que las guía.",
+     "En la vida real solemos usar las dos miradas: preguntamos qué consecuencias tendrá algo <strong>y</strong> qué principio estamos siguiendo. Los dilemas sirven para ver cuál pesa más en cada caso."
+    ],
+    "comprobacion": {
+     "pregunta": "Para Kant, ¿qué acción tiene valor moral?",
+     "opciones": [
+      [
+       "La que se hace por deber, con buena voluntad, no por interés.",
+       true
+      ],
+      [
+       "La que produce las mejores consecuencias.",
+       false,
+       "Eso es lo que miraría el utilitarismo."
+      ],
+      [
+       "La que consigue una recompensa.",
+       false,
+       "Para Kant, actuar por la recompensa le quita valor moral a la acción."
+      ],
+      [
+       "La que aprueba la mayoría.",
+       false,
+       "La aprobación de la mayoría no decide el valor moral para Kant."
+      ]
+     ],
+     "ok": "Exacto: lo decisivo es la voluntad.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Acciones e intenciones",
+      "titulo": "Kant y Mill, cara a cara",
+      "definicion": [
+       "<strong>Kant</strong> (<em>Fundamentación de la metafísica de las costumbres</em>, 1785): solo la buena voluntad es buena sin restricción; la acción vale moralmente si se hace por deber.",
+       "<strong>Mill</strong> (<em>El utilitarismo</em>, 1861): quien salva a alguien que se ahoga hace lo correcto, tanto si lo hace por deber como si espera que le paguen; el motivo dice algo de la persona, no de la acción.",
+       "Por eso los dos pueden estar de acuerdo en que salvar al niño está bien y discrepar en qué hace <strong>buena</strong> a una persona."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "Según Mill, ¿qué cambia el motivo de una acción?",
+       "opciones": [
+        [
+         "Lo que pensamos de la persona, no si la acción es correcta.",
+         true
+        ],
+        [
+         "Si la acción es correcta o incorrecta.",
+         false,
+         "Para Mill, eso lo deciden las consecuencias."
+        ],
+        [
+         "Nada en absoluto.",
+         false,
+         "Sí cambia algo: nuestra valoración de quien actúa."
+        ],
+        [
+         "Las consecuencias de la acción.",
+         false,
+         "El niño se salva igual sea cual sea el motivo."
+        ]
+       ],
+       "ok": "Correcto: acción y agente se juzgan distinto.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces el debate entre consecuencias e intenciones",
+   "parrafos": [
+    "El utilitarismo juzga las acciones por sus consecuencias: la mayor felicidad para el mayor número. La ética del deber, con Kant, sostiene que hay cosas que no se hacen aunque salgan bien, y que el valor moral está en la buena voluntad.",
+    "El dilema del tranvía muestra que usamos las dos miradas. Para seguir: «¿Qué es la virtud para Aristóteles?», una tercera respuesta, centrada en el carácter."
+   ],
+   "siguiente": "fil-virtud"
+  }
+ },
+ {
   "id": "fil-virtud",
   "subject": "fil",
   "tema": "Tema 5 · Las preguntas de la ética",
@@ -1163,6 +3968,222 @@ const PISTAS = [
     "La virtud es un hábito de elegir el término medio entre dos vicios, guiado por la razón práctica. Vivir así es la felicidad: una vida lograda en su conjunto.",
     "Para seguir: compárala con Epicuro (el placer como ausencia de dolor) y con Kant (el deber)."
    ]
+  }
+ },
+ {
+  "id": "fil-legitimidad",
+  "subject": "fil",
+  "tema": "Tema 6 · La vida en sociedad",
+  "unidad": "fil-t6",
+  "materia": "Filosofía 1.º · Política",
+  "titulo": "¿Qué hace legítimo al poder?",
+  "lede": "La diferencia entre poder mandar y tener derecho a mandar, y qué hacer ante una ley injusta. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué diferencia hay entre el poder de un atracador y el de un gobierno?",
+    "intro": [
+     "Un atracador te exige la cartera y se la das. Hacienda te exige pagar impuestos y los pagas. En los dos casos alguien te obliga a darle dinero. ¿Es lo mismo?"
+    ],
+    "pistas": [
+     "Para aterrizar: en los dos casos hay <em>poder</em>, es decir, capacidad de hacer que otros actúen de cierta manera, incluso contra su voluntad.",
+     "Pero al atracador lo obedeces solo por miedo: en cuanto pudieras, dejarías de hacerlo, y nadie diría que estás obligado. Su poder es pura <em>fuerza</em>.",
+     "Al Estado, en cambio, la mayoría lo obedece porque reconoce que tiene <em>derecho</em> a mandar, dentro de ciertos límites. Rousseau lo dijo así: el más fuerte nunca lo es tanto como para ser siempre el amo, si no transforma su fuerza en derecho y la obediencia en deber (<em>El contrato social</em> I, 3).",
+     "Esa diferencia se llama <strong>legitimidad</strong>: un poder es legítimo cuando quienes lo obedecen tienen <strong>razones</strong> para reconocer su derecho a mandar, y no solo miedo."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué es un poder legítimo?",
+     "opciones": [
+      [
+       "Uno que se reconoce con derecho a mandar, por razones y no solo por miedo.",
+       true
+      ],
+      [
+       "Cualquier poder que tenga suficiente fuerza.",
+       false,
+       "La fuerza sola no da derecho: eso es lo que distingue al atracador del Estado."
+      ],
+      [
+       "Uno que nunca obliga a nadie a nada.",
+       false,
+       "Todo poder político obliga; la cuestión es si tiene derecho a hacerlo."
+      ],
+      [
+       "Uno que gusta a todo el mundo.",
+       false,
+       "Un poder legítimo puede tomar decisiones impopulares."
+      ]
+     ],
+     "ok": "Bien: no basta con poder, hay que tener derecho.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Tres fuentes de legitimidad",
+      "definicion": [
+       "El sociólogo Max Weber distinguió tres tipos de legitimidad («La política como vocación», 1919):",
+       "<strong>Tradicional</strong>: se obedece porque siempre ha sido así. Un rey que hereda el trono de sus antepasados.",
+       "<strong>Carismática</strong>: se obedece por las cualidades extraordinarias de un líder. Un profeta o un caudillo que arrastra a las masas.",
+       "<strong>Legal-racional</strong>: se obedece a normas aprobadas según un procedimiento. Un gobierno elegido que actúa según la Constitución."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "Una alcaldesa elegida en las urnas que gobierna según las leyes, ¿qué legitimidad tiene según Weber?",
+       "opciones": [
+        [
+         "Legal-racional.",
+         true
+        ],
+        [
+         "Tradicional.",
+         false,
+         "No manda porque siempre haya sido así, sino por un procedimiento establecido."
+        ],
+        [
+         "Carismática.",
+         false,
+         "Puede tener carisma, pero su derecho a mandar viene de las elecciones y las leyes."
+        ],
+        [
+         "Ninguna, porque obliga a pagar impuestos.",
+         false,
+         "Obligar no quita legitimidad: la cuestión es con qué derecho se obliga."
+        ]
+       ],
+       "ok": "Correcto: normas y procedimientos.",
+       "mal": "Vuelve a mirar los tres tipos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Poder y legitimidad",
+      "definicion": [
+       "<strong>Poder</strong>: capacidad de influir en la conducta de otros, incluso contra su voluntad.",
+       "<strong>Legitimidad</strong>: reconocimiento de que ese poder tiene derecho a mandar.",
+       "Un poder sin legitimidad se sostiene solo por la fuerza; por eso todos los poderes buscan justificarse: en la tradición, en el carisma o en la ley."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Por qué los gobernantes suelen intentar justificar su poder?",
+       "opciones": [
+        [
+         "Porque un poder que solo se apoya en la fuerza es inestable: necesita ser reconocido.",
+         true
+        ],
+        [
+         "Porque la ley les obliga a escribir discursos.",
+         false,
+         "No es una obligación formal: es una necesidad del propio poder."
+        ],
+        [
+         "Porque así pueden usar más la fuerza.",
+         false,
+         "Al contrario: un poder reconocido necesita menos fuerza."
+        ],
+        [
+         "No lo intentan: el poder no necesita justificación.",
+         false,
+         "Hasta los regímenes más duros dan razones para mandar."
+        ]
+       ],
+       "ok": "Correcto: la fuerza sola no basta.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Basta con que algo sea legal para que sea justo?",
+    "intro": [
+     "En la tragedia de Sófocles, el rey Creonte prohíbe enterrar a Polinices, que ha muerto luchando contra la ciudad. Su hermana Antígona lo entierra de todos modos: dice que hay leyes no escritas, más antiguas que las del rey. ¿Quién tiene razón?"
+    ],
+    "pistas": [
+     "Para aterrizar: la <em>legalidad</em> es la conformidad con las leyes vigentes; la <em>justicia</em>, la conformidad con lo que es correcto. Normalmente coinciden, pero no siempre.",
+     "La historia está llena de leyes injustas que eran perfectamente legales: la segregación racial en Estados Unidos o las leyes que impedían votar a las mujeres.",
+     "Ante una ley injusta, hay quien defiende la <em>desobediencia civil</em>: incumplirla de forma pública y pacífica, aceptando el castigo, para mostrar su injusticia. Martin Luther King la defendió en su «Carta desde la cárcel de Birmingham» (1963).",
+     "La idea de fondo: la <strong>legitimidad</strong> no depende solo de cómo se aprueba una ley, sino también de su <strong>contenido</strong>. Cuánto debe pesar cada cosa es uno de los grandes debates de la filosofía política, y conviene oír a las dos partes."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué distingue la desobediencia civil de simplemente saltarse la ley?",
+     "opciones": [
+      [
+       "Que es pública, pacífica, acepta el castigo y busca mostrar que una ley es injusta.",
+       true
+      ],
+      [
+       "Que la hacen muchas personas a la vez.",
+       false,
+       "No depende del número: puede hacerla una sola persona."
+      ],
+      [
+       "Que busca un beneficio para quien desobedece.",
+       false,
+       "Al contrario: no busca un beneficio propio, sino cambiar una ley injusta."
+      ],
+      [
+       "Que se hace a escondidas para no ser castigado.",
+       false,
+       "La desobediencia civil es pública y acepta el castigo."
+      ]
+     ],
+     "ok": "Exacto: desobedecer para que se vea la injusticia.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Legalidad y justicia",
+      "titulo": "Cuando la ley y lo justo no coinciden",
+      "definicion": [
+       "<strong>Legalidad</strong>: estar de acuerdo con las leyes vigentes. <strong>Justicia</strong>: estar de acuerdo con lo que es correcto.",
+       "La <strong>desobediencia civil</strong> incumple una ley que se considera injusta de forma pública, pacífica y aceptando el castigo, para apelar al sentido de justicia de los demás.",
+       "Sus críticos advierten de un riesgo: si cada uno decide qué leyes cumple, el Estado de derecho se debilita. Por eso sus defensores la reservan para injusticias graves."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Qué riesgo señalan los críticos de la desobediencia civil?",
+       "opciones": [
+        [
+         "Que, si cada uno decide qué leyes cumple, se debilita el Estado de derecho.",
+         true
+        ],
+        [
+         "Que siempre es violenta.",
+         false,
+         "Por definición, la desobediencia civil es pacífica."
+        ],
+        [
+         "Que nunca ha cambiado ninguna ley.",
+         false,
+         "Ha cambiado varias, por ejemplo en la lucha por los derechos civiles."
+        ],
+        [
+         "Que solo la practican los gobernantes.",
+         false,
+         "La practican ciudadanos frente a leyes que consideran injustas."
+        ]
+       ],
+       "ok": "Correcto: por eso se reserva para casos graves.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes qué hace legítimo al poder",
+   "parrafos": [
+    "El poder es capacidad de mandar; la legitimidad, el derecho reconocido a hacerlo. Weber distinguió tres fuentes: la tradición, el carisma y la ley.",
+    "Pero lo legal no siempre es justo, como mostró Antígona. La desobediencia civil es una respuesta a las leyes injustas, discutida por sus riesgos. Para seguir: «¿Qué es el contrato social?»."
+   ],
+   "siguiente": "fil-contrato"
   }
  },
  {
@@ -1675,6 +4696,650 @@ const PISTAS = [
    "parrafos": [
     "El velo de ignorancia es el experimento mental de Rawls: elegir las reglas sin saber qué lugar ocuparás. De ahí salen la regla maximin y dos principios: iguales libertades para todos y desigualdades solo si benefician a los menos aventajados. Nozick le responde que lo justo depende de cómo se adquirió cada cosa.",
     "Para pensar: compara lo que elegirías tras el velo con la sociedad en la que vives. Si no se parecen, ¿por qué defiendes en la vida real cosas que no te atreverías a escribir sin saber qué lugar te tocará?"
+   ]
+  }
+ },
+ {
+  "id": "fil-arte",
+  "subject": "fil",
+  "tema": "Tema 7 · ¿Qué es el arte?",
+  "unidad": "fil-t7",
+  "materia": "Filosofía 1.º · Estética",
+  "titulo": "¿Qué convierte algo en arte?",
+  "lede": "Imitación, expresión, forma… y un urinario firmado que lo puso todo patas arriba. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿Qué tienen en común todas las obras de arte?",
+    "intro": [
+     "Piensa en una catedral gótica, una sinfonía de Beethoven, un retrato de Velázquez y un cuadro abstracto de colores. A las cuatro las llamamos «arte». ¿Qué comparten?"
+    ],
+    "pistas": [
+     "Para aterrizar: la respuesta más antigua es la <em>imitación</em> (<em>mímesis</em>): el arte representa la realidad, y es mejor cuanto mejor la retrata. Encaja con el retrato de Velázquez… pero ¿qué imita una sinfonía?",
+     "Con el Romanticismo surge otra respuesta: el arte es <em>expresión</em> de los sentimientos del artista. Encaja con la sinfonía, pero también un grito expresa emociones y no es arte.",
+     "El <em>formalismo</em> responde que lo artístico es la <em>forma</em>: composición, color, ritmo, estructura. Así se entiende el cuadro abstracto, pero se queda fuera lo que la obra significa.",
+     "Cada <strong>teoría del arte</strong> explica bien unas obras y mal otras. Por eso definir el arte es tan difícil: ninguna característica parece estar en <strong>todas</strong> las obras y solo en ellas."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué problema tiene definir el arte como imitación de la realidad?",
+     "opciones": [
+      [
+       "Que hay arte que no imita nada, como la música o la pintura abstracta.",
+       true
+      ],
+      [
+       "Que ningún cuadro se parece a lo que retrata.",
+       false,
+       "Muchos se parecen mucho: el problema está en las obras que no retratan nada."
+      ],
+      [
+       "Que imitar es muy fácil.",
+       false,
+       "Imitar bien puede ser dificilísimo; el problema es que no todo el arte imita."
+      ],
+      [
+       "Que solo los griegos sabían imitar.",
+       false,
+       "La mímesis dominó hasta el Renacimiento y más allá."
+      ]
+     ],
+     "ok": "Bien: la definición se queda corta.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Cada teoría, con su obra",
+      "definicion": [
+       "<strong>Imitación</strong>: un bodegón que parece de verdad. Le cuesta: la música, la arquitectura, lo abstracto.",
+       "<strong>Expresión</strong>: un poema romántico de amor y desesperación. Le cuesta: por qué no es arte cualquier desahogo.",
+       "<strong>Forma</strong>: un cuadro de Kandinsky, todo color y composición. Le cuesta: el significado, el tema."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué teoría explica mejor un cuadro abstracto hecho solo de colores y líneas?",
+       "opciones": [
+        [
+         "El formalismo.",
+         true
+        ],
+        [
+         "La imitación.",
+         false,
+         "Un cuadro abstracto no representa nada reconocible."
+        ],
+        [
+         "La expresión, y solo ella.",
+         false,
+         "Puede expresar algo, pero lo que lo hace valioso para el formalista es su forma."
+        ],
+        [
+         "Ninguna: lo abstracto no es arte.",
+         false,
+         "Lo es, y precisamente el formalismo lo explica."
+        ]
+       ],
+       "ok": "Correcto: color, línea, composición.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Teorías del arte",
+      "definicion": [
+       "<strong>Imitación (mímesis)</strong>: el arte representa la realidad. Domina desde Grecia hasta el Renacimiento.",
+       "<strong>Expresión</strong>: el arte comunica el mundo interior del artista. Nace con el Romanticismo.",
+       "<strong>Formalismo</strong>: lo artístico está en la forma. Ayuda a entender el arte abstracto."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Por qué la teoría de la expresión no basta para definir el arte?",
+       "opciones": [
+        [
+         "Porque también expresan emociones cosas que no son arte, como un llanto o un grito.",
+         true
+        ],
+        [
+         "Porque los artistas no tienen sentimientos.",
+         false,
+         "Los tienen; el problema es que expresar sentimientos no basta para hacer arte."
+        ],
+        [
+         "Porque solo vale para la pintura.",
+         false,
+         "Vale para muchas artes, sobre todo la música y la poesía."
+        ],
+        [
+         "Porque es la más moderna.",
+         false,
+         "Que sea moderna no la hace peor: el problema es lógico."
+        ]
+       ],
+       "ok": "Correcto: la expresión no es exclusiva del arte.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "Si un urinario puede ser arte, ¿qué decide que algo lo sea?",
+    "intro": [
+     "En 1917, Marcel Duchamp presentó a una exposición un urinario de porcelana comprado en una tienda, puesto boca arriba y firmado «R. Mutt». Lo tituló <em>La fuente</em>. Hoy se considera una de las obras más influyentes del siglo XX. ¿Por qué es arte, si no lo hizo él?"
+    ],
+    "pistas": [
+     "Para aterrizar: <em>La fuente</em> no imita nada, no expresa los sentimientos de Duchamp y su forma es la de cualquier urinario. Ninguna de las teorías anteriores la explica.",
+     "En 1964, Andy Warhol expuso cajas de estropajos Brillo prácticamente iguales a las de los supermercados. El filósofo Arthur Danto se preguntó: si se parecen tanto, ¿qué hace que unas sean arte y otras no?",
+     "Su respuesta: la diferencia no se ve con los ojos. Depende de un contexto de teorías, historia y obras anteriores que él llamó el «mundo del arte». George Dickie lo convirtió en una definición: es arte lo que el mundo del arte reconoce como tal.",
+     "Es la <strong>teoría institucional</strong>: algo es arte no por cómo es, sino por el lugar que ocupa en una práctica social (museos, críticos, artistas, historia del arte). Su riesgo: parece que el arte es <strong>lo que digan los expertos</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "Según la teoría institucional, ¿qué hace que <em>La fuente</em> sea arte?",
+     "opciones": [
+      [
+       "Que el mundo del arte (artistas, museos, críticos) la reconoce y la trata como arte.",
+       true
+      ],
+      [
+       "Que es una imitación perfecta de un urinario.",
+       false,
+       "No imita un urinario: es un urinario."
+      ],
+      [
+       "Que Duchamp lo fabricó con mucho esfuerzo.",
+       false,
+       "Lo compró en una tienda: no lo fabricó."
+      ],
+      [
+       "Que es muy bonito.",
+       false,
+       "La teoría institucional no exige que la obra sea bella."
+      ]
+     ],
+     "ok": "Exacto: el contexto decide.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Teoría institucional",
+      "titulo": "El mundo del arte",
+      "definicion": [
+       "Los <em>ready-made</em> de Duchamp y las cajas Brillo de Warhol mostraron que una obra de arte puede ser idéntica a un objeto corriente.",
+       "Arthur Danto («El mundo del arte», 1964) concluyó que lo que hace arte a algo es invisible: una interpretación dentro de una historia y unas teorías del arte.",
+       "George Dickie formuló la <strong>teoría institucional</strong>: es arte lo que el mundo del arte reconoce como tal. La crítica habitual: parece circular y deja la decisión a unos pocos."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "¿Cuál es la crítica más habitual a la teoría institucional?",
+       "opciones": [
+        [
+         "Que convierte el arte en «lo que digan los expertos».",
+         true
+        ],
+        [
+         "Que no sirve para explicar las vanguardias.",
+         false,
+         "Al revés: es la que mejor explica los <em>ready-made</em>."
+        ],
+        [
+         "Que exige que el arte imite la realidad.",
+         false,
+         "No exige nada parecido."
+        ],
+        [
+         "Que solo vale para la música.",
+         false,
+         "Se pensó sobre todo para las artes visuales contemporáneas."
+        ]
+       ],
+       "ok": "Correcto: es su punto débil.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya conoces las grandes teorías del arte",
+   "parrafos": [
+    "El arte se ha definido como imitación, como expresión y como forma, y cada definición deja fuera algunas obras.",
+    "Las vanguardias, con Duchamp y Warhol, llevaron a la teoría institucional: es arte lo que el mundo del arte reconoce como tal. Para seguir: «¿Es la belleza cuestión de gustos?»."
+   ],
+   "siguiente": "fil-belleza"
+  }
+ },
+ {
+  "id": "fil-belleza",
+  "subject": "fil",
+  "tema": "Tema 7 · ¿Qué es el arte?",
+  "unidad": "fil-t7",
+  "materia": "Filosofía 1.º · Estética",
+  "titulo": "¿Es la belleza cuestión de gustos?",
+  "lede": "¿Está la belleza en las cosas o en quien las mira? Proporción, gusto y el juicio estético de Hume y Kant. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿La belleza está en el objeto o en quien lo contempla?",
+    "intro": [
+     "Dices «esta canción es preciosa» y tu amiga dice que es horrible. ¿Discutís sobre la canción, o cada uno habla de lo que siente?"
+    ],
+    "pistas": [
+     "Para aterrizar: para los griegos, la belleza estaba en el <em>objeto</em>: era cuestión de proporción, armonía y medida. Los pitagóricos la veían en los números de los intervalos musicales; el escultor Policleto fijó en su <em>Canon</em> las proporciones ideales del cuerpo.",
+     "Si la belleza es proporción, se puede medir y enseñar, y quien no ve bella una obra bien proporcionada, sencillamente se equivoca.",
+     "En la Edad Moderna gana fuerza la idea contraria: la belleza está en el <em>sujeto</em>. David Hume escribió que la belleza no es una cualidad de las cosas, sino que existe solo en la mente que las contempla.",
+     "Así quedan frente a frente la <strong>belleza objetiva</strong> (clásica: proporción, armonía) y la <strong>belleza subjetiva</strong> (moderna: el placer de quien contempla). Si es subjetiva, ¿quiere decir que «sobre gustos no hay nada escrito»?"
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué sostiene la concepción clásica de la belleza?",
+     "opciones": [
+      [
+       "Que la belleza está en el objeto y consiste en proporción, armonía y medida.",
+       true
+      ],
+      [
+       "Que la belleza es el placer que siente cada uno.",
+       false,
+       "Esa es la concepción moderna, subjetiva."
+      ],
+      [
+       "Que la belleza no existe.",
+       false,
+       "Los clásicos creían firmemente en ella, y hasta la medían."
+      ],
+      [
+       "Que la belleza la deciden los museos.",
+       false,
+       "Eso se parece más a la teoría institucional del arte, del siglo XX."
+      ]
+     ],
+     "ok": "Bien: belleza como proporción.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Objetiva o subjetiva",
+      "definicion": [
+       "«El Partenón es bello porque sus proporciones son armónicas». → Concepción <strong>objetiva</strong>.",
+       "«Este paisaje me parece bellísimo, aunque sé que a otros les aburre». → Concepción <strong>subjetiva</strong>.",
+       "«Un acorde suena bien porque sus notas guardan una proporción numérica sencilla». → Concepción <strong>objetiva</strong> (pitagórica)."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "«La belleza está en el ojo del que mira». ¿Qué concepción expresa?",
+       "opciones": [
+        [
+         "La subjetiva.",
+         true
+        ],
+        [
+         "La objetiva.",
+         false,
+         "Pone la belleza en quien mira, no en el objeto."
+        ],
+        [
+         "La pitagórica.",
+         false,
+         "Los pitagóricos la ponían en los números, en el objeto."
+        ],
+        [
+         "Ninguna: es solo un refrán.",
+         false,
+         "Es un refrán, pero resume una concepción filosófica."
+        ]
+       ],
+       "ok": "Correcto: la belleza, en el sujeto.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Dos concepciones de la belleza",
+      "definicion": [
+       "<strong>Belleza objetiva</strong> (clásica): está en el objeto; es proporción, armonía, orden y medida. Pitagóricos, Policleto; después, Agustín y Tomás.",
+       "<strong>Belleza subjetiva</strong> (moderna): está en el sujeto; es el placer o el sentimiento que despierta algo en quien lo contempla.",
+       "La <strong>estética</strong>, palabra que viene del griego <em>aísthesis</em>, «sensación», es la rama de la filosofía que estudia la belleza y el arte."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "Si la belleza fuera solo proporción, ¿qué se seguiría?",
+       "opciones": [
+        [
+         "Que se podría medir y enseñar, y quien no la viera se equivocaría.",
+         true
+        ],
+        [
+         "Que cada uno tendría su propia belleza.",
+         false,
+         "Eso se seguiría de la concepción subjetiva."
+        ],
+        [
+         "Que no habría belleza en la naturaleza.",
+         false,
+         "Para los clásicos, la naturaleza está llena de proporciones."
+        ],
+        [
+         "Que no se podría hablar de belleza.",
+         false,
+         "Al contrario: se podría hablar de ella con precisión."
+        ]
+       ],
+       "ok": "Correcto: una belleza medible.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "Si la belleza es subjetiva, ¿valen todos los gustos lo mismo?",
+    "intro": [
+     "Un helado de chocolate te encanta y a tu amigo no; ahí no hay nada que discutir. Pero si alguien dice que una canción cualquiera de anuncio es más bella que la Novena de Beethoven, ¿es igual que lo del helado?"
+    ],
+    "pistas": [
+     "Para aterrizar: Hume reconoce que el gusto es subjetivo, pero no cree que todos los juicios valgan lo mismo. Hay un <em>buen gusto</em>, y lo tiene el <em>crítico competente</em>: con sensibilidad, experiencia, mucha comparación entre obras y libre de prejuicios.",
+     "Kant da otro paso. Distingue lo <em>agradable</em> (el helado: gusta porque satisface un apetito, y cada cual tiene el suyo) de lo <em>bello</em>, que gusta sin que queramos usarlo ni poseerlo: es un placer <em>desinteresado</em>.",
+     "Y cuando decimos «esto es bello», dice Kant, no hablamos solo por nosotros: <em>pretendemos</em> que los demás estén de acuerdo, aunque no podamos demostrarlo con reglas. El juicio estético es <em>universal sin concepto</em>.",
+     "Así, los dos buscan un camino intermedio: la belleza tiene que ver con el <strong>sujeto</strong>, pero el juicio estético no es un capricho. Se puede educar el gusto y se puede <strong>discutir</strong> sobre belleza, cosa que no hacemos sobre helados."
+    ],
+    "comprobacion": {
+     "pregunta": "¿En qué se diferencia lo bello de lo agradable, según Kant?",
+     "opciones": [
+      [
+       "Lo agradable satisface un apetito de cada uno; lo bello gusta de forma desinteresada y pretende el acuerdo de todos.",
+       true
+      ],
+      [
+       "Lo bello es más caro que lo agradable.",
+       false,
+       "El precio no tiene nada que ver con la distinción."
+      ],
+      [
+       "Lo agradable es objetivo y lo bello, subjetivo.",
+       false,
+       "Lo agradable es, si acaso, lo más subjetivo: cada uno tiene sus gustos."
+      ],
+      [
+       "No se diferencian: son sinónimos.",
+       false,
+       "Kant los distingue con cuidado."
+      ]
+     ],
+     "ok": "Exacto: desinterés y pretensión de universalidad.",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "El juicio del gusto",
+      "titulo": "Hume y Kant",
+      "definicion": [
+       "<strong>Hume</strong> («Sobre la norma del gusto», 1757): el gusto es subjetivo, pero el del crítico competente sirve de norma. Aun así, admite desacuerdos que no son errores, por temperamento o por época.",
+       "<strong>Kant</strong> (<em>Crítica del juicio</em>, 1790): el juicio estético es desinteresado, universal sin concepto y produce un placer libre.",
+       "La conclusión común: la belleza no es una propiedad medible, pero tampoco un simple capricho; sobre ella se puede razonar."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "Según Hume, ¿quién tiene buen gusto?",
+       "opciones": [
+        [
+         "Quien tiene sensibilidad, experiencia, compara muchas obras y está libre de prejuicios.",
+         true
+        ],
+        [
+         "Quien sigue lo que le gusta a la mayoría.",
+         false,
+         "La mayoría puede tener poca experiencia o muchos prejuicios."
+        ],
+        [
+         "Quien tiene más dinero para comprar arte.",
+         false,
+         "El dinero no da sensibilidad ni experiencia."
+        ],
+        [
+         "Nadie: todos los gustos valen lo mismo.",
+         false,
+         "Precisamente Hume quiere evitar esa conclusión."
+        ]
+       ],
+       "ok": "Correcto: el crítico competente.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes si la belleza es cuestión de gustos",
+   "parrafos": [
+    "Para los clásicos, la belleza estaba en el objeto (proporción, armonía); para los modernos, en el sujeto que contempla.",
+    "Hume y Kant buscaron un término medio: el juicio estético es subjetivo, pero no un capricho. Hay un gusto educado y una pretensión de acuerdo. Para seguir: «¿Para qué sirve el arte en la sociedad?»."
+   ],
+   "siguiente": "fil-arte-sociedad"
+  }
+ },
+ {
+  "id": "fil-arte-sociedad",
+  "subject": "fil",
+  "tema": "Tema 7 · ¿Qué es el arte?",
+  "unidad": "fil-t7",
+  "materia": "Filosofía 1.º · Estética",
+  "titulo": "¿Para qué sirve el arte en la sociedad?",
+  "lede": "¿El arte engaña o enseña? ¿Tiene que ser moral? De Platón y Aristóteles a Schiller. Pide solo las pistas que necesites.",
+  "ciclos": [
+   {
+    "fase": "Fase 1 · Recuperación",
+    "etiqueta": "Pregunta inicial",
+    "pregunta": "¿El arte nos aleja de la verdad o nos ayuda a conocerla?",
+    "intro": [
+     "Ves una película sobre una guerra que nunca existió, con personajes inventados, y sales del cine entendiendo algo nuevo sobre el miedo o la lealtad. ¿Has aprendido algo verdadero de una historia falsa?"
+    ],
+    "pistas": [
+     "Para aterrizar: Platón desconfiaba del arte. Para él, las cosas sensibles ya son copias de las Ideas, y el arte imita esas cosas: una obra es una <em>copia de una copia</em>, dos veces lejos de la verdad.",
+     "Además, el arte mueve las emociones y la parte irracional del alma. Por eso, en su ciudad ideal (<em>República</em>), Platón vigila a los poetas y llega a expulsar a algunos.",
+     "Aristóteles, su discípulo, le contesta en la <em>Poética</em>. Imitar es natural y aprendemos imitando. Y la tragedia, al hacernos sentir compasión y miedo, produce la <em>catarsis</em>: una purificación de esas emociones.",
+     "Más aún: la poesía muestra no lo que ha pasado, sino lo que <strong>podría</strong> pasar, lo universal; por eso, dice Aristóteles, es «más filosófica» que la historia. El arte, para él, sí <strong>enseña</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Por qué Aristóteles dice que la poesía es «más filosófica» que la historia?",
+     "opciones": [
+      [
+       "Porque muestra lo que podría pasar, lo universal, y no solo lo que pasó una vez.",
+       true
+      ],
+      [
+       "Porque cuenta hechos reales con más exactitud.",
+       false,
+       "Al contrario: la historia cuenta lo que pasó; la poesía, lo que podría pasar."
+      ],
+      [
+       "Porque la escriben filósofos.",
+       false,
+       "La escriben poetas: lo que importa es lo que muestra."
+      ],
+      [
+       "Porque es más difícil de leer.",
+       false,
+       "No tiene que ver con la dificultad."
+      ]
+     ],
+     "ok": "Bien: lo universal.",
+     "mal": "Todavía no."
+    },
+    "rescate": [
+     {
+      "boton": "Necesito ver ejemplos",
+      "etiqueta": "Ejemplos",
+      "titulo": "Platón y Aristóteles, frente a frente",
+      "definicion": [
+       "<strong>Platón</strong>: el arte es copia de una copia; mueve pasiones irracionales; hay que vigilar a los poetas.",
+       "<strong>Aristóteles</strong>: imitar es natural y enseña; la tragedia produce catarsis; la poesía muestra lo universal.",
+       "Un ejemplo: <em>Edipo rey</em>, de Sófocles. Para Aristóteles, al ver cómo Edipo descubre su terrible verdad, el espectador siente compasión y miedo, y sale purificado."
+      ],
+      "comprobacion": {
+       "etiqueta": "Comprobación de los ejemplos",
+       "pregunta": "¿Qué es la catarsis, según Aristóteles?",
+       "opciones": [
+        [
+         "La purificación de la compasión y el miedo que produce la tragedia en el espectador.",
+         true
+        ],
+        [
+         "El castigo que recibe el protagonista de una tragedia.",
+         false,
+         "El protagonista sufre, pero la catarsis ocurre en el espectador."
+        ],
+        [
+         "La expulsión de los poetas de la ciudad.",
+         false,
+         "Eso es lo que proponía Platón, no la catarsis."
+        ],
+        [
+         "El final feliz de una obra.",
+         false,
+         "Las tragedias no suelen acabar bien, y aun así producen catarsis."
+        ]
+       ],
+       "ok": "Correcto: una purificación de las emociones.",
+       "mal": "Vuelve a mirar los ejemplos.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Definición y explicación",
+      "titulo": "Arte y verdad",
+      "definicion": [
+       "<strong>Platón</strong> desconfía del arte: imita lo sensible, que ya es copia de las Ideas, y mueve pasiones irracionales.",
+       "<strong>Aristóteles</strong> lo rehabilita: la <em>mímesis</em> es natural y placentera, y la tragedia produce <strong>catarsis</strong>.",
+       "Para Aristóteles, el arte da conocimiento porque muestra lo <strong>universal</strong>: lo que podría pasar a cualquiera."
+      ],
+      "comprobacion": {
+       "boton": "Comprobar comprensión",
+       "etiqueta": "Comprobación final",
+       "pregunta": "¿Por qué Platón dice que el arte es «copia de una copia»?",
+       "opciones": [
+        [
+         "Porque imita las cosas sensibles, que a su vez son copias de las Ideas.",
+         true
+        ],
+        [
+         "Porque los artistas copian unos de otros.",
+         false,
+         "No se refiere al plagio, sino a la distancia de la verdad."
+        ],
+        [
+         "Porque las obras de arte se reproducen en serie.",
+         false,
+         "Eso es un problema moderno, no de Platón."
+        ],
+        [
+         "Porque el arte imita directamente las Ideas.",
+         false,
+         "Si imitara las Ideas, estaría cerca de la verdad; imita las cosas."
+        ]
+       ],
+       "ok": "Correcto: dos veces lejos de la verdad.",
+       "mal": "Todavía no."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Fase 2 · Profundización",
+    "etiqueta": "Nueva pregunta",
+    "pregunta": "¿Tiene que ser moral el arte?",
+    "intro": [
+     "Una película está magníficamente rodada, con una música y una fotografía extraordinarias, pero su mensaje defiende algo que te parece injusto. ¿Es una gran película o una mala película?"
+    ],
+    "pistas": [
+     "Para aterrizar: hay dos posturas. El <em>moralismo</em> sostiene que los valores morales de una obra afectan a su valor artístico: si su mensaje es malo, la obra es peor.",
+     "El <em>autonomismo</em>, o «arte por el arte», sostiene que el arte tiene sus propias reglas: una obra puede ser artísticamente magnífica aunque su mensaje sea reprobable.",
+     "Cada postura tiene su riesgo: el moralismo puede convertir el arte en sermón o justificar la censura; el autonomismo puede pasar por alto que una obra también hace cosas en el mundo. Hoy muchos defienden una vía intermedia: la moral cuenta, pero no lo es todo.",
+     "Friedrich Schiller fue más allá: en sus <em>Cartas sobre la educación estética del hombre</em> (1795) sostuvo que el arte <strong>educa la sensibilidad</strong> y une razón y sentimiento, y que esa educación es el camino hacia una sociedad <strong>libre</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "¿Qué sostiene el autonomismo?",
+     "opciones": [
+      [
+       "Que el valor artístico de una obra no depende de su valor moral.",
+       true
+      ],
+      [
+       "Que el arte debe enseñar siempre una lección moral.",
+       false,
+       "Eso se acerca al moralismo."
+      ],
+      [
+       "Que el arte debe estar controlado por el Estado.",
+       false,
+       "El autonomismo defiende justo la independencia del arte."
+      ],
+      [
+       "Que solo es arte lo que gusta a la mayoría.",
+       false,
+       "El autonomismo no habla de gustos de la mayoría."
+      ]
+     ],
+     "ok": "Exacto: «el arte por el arte».",
+     "mal": "No exactamente."
+    },
+    "rescate": [
+     {
+      "boton": "Mostrar la explicación",
+      "etiqueta": "Arte y moral",
+      "titulo": "Moralismo, autonomismo y educación estética",
+      "definicion": [
+       "<strong>Moralismo</strong>: la moral de una obra afecta a su valor artístico. Riesgo: el sermón, la censura.",
+       "<strong>Autonomismo</strong> («arte por el arte»): el arte tiene sus propias leyes. Riesgo: olvidar los efectos de la obra.",
+       "<strong>Schiller</strong>: el arte educa los sentimientos y une el impulso sensible y el racional; por eso la educación estética prepara para la libertad."
+      ],
+      "comprobacion": {
+       "boton": "Terminar comprobando",
+       "pregunta": "Para Schiller, ¿qué papel tiene el arte en la sociedad?",
+       "opciones": [
+        [
+         "Educar la sensibilidad y unir razón y sentimiento, como camino hacia la libertad.",
+         true
+        ],
+        [
+         "Distraer a la gente para que no piense en política.",
+         false,
+         "Schiller pensaba lo contrario: el arte prepara para la libertad política."
+        ],
+        [
+         "Ninguno: el arte es un lujo privado.",
+         false,
+         "Para Schiller es decisivo para formar ciudadanos."
+        ],
+        [
+         "Transmitir las órdenes del gobierno.",
+         false,
+         "Eso sería propaganda, no educación estética."
+        ]
+       ],
+       "ok": "Correcto: educación estética.",
+       "mal": "Relee la explicación."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Ya sabes para qué puede servir el arte",
+   "parrafos": [
+    "Platón desconfiaba del arte por alejarnos de la verdad y mover las pasiones; Aristóteles lo defendió: produce catarsis y muestra lo universal.",
+    "Sobre arte y moral chocan el moralismo y el autonomismo, y muchos buscan una vía intermedia. Schiller vio en la educación estética un camino hacia la libertad."
    ]
   }
  }

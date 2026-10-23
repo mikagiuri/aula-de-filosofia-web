@@ -485,6 +485,16 @@ const CITAS = [
   "uso": "Para explicar el estado de naturaleza y los derechos naturales en Locke, o para compararlo con Hobbes y Rousseau."
  },
  {
+  "c": "Muchos se han imaginado repúblicas y principados que nunca han existido ni se han conocido realmente; porque hay tanta distancia entre cómo se vive y cómo se debería vivir, que quien deja lo que se hace por lo que se debería hacer, aprende más bien su ruina que su preservación.",
+  "a": "Maquiavelo",
+  "o": "El príncipe (1513) XV",
+  "e": "moderna",
+  "id": "maquiavelo",
+  "img": "media/retratos/museo2/maquiavelo.jpg",
+  "sen": "Maquiavelo separa la política de la moral: quien gobierne debe atender a cómo actúan realmente los hombres, no a repúblicas ideales, si quiere mantener el poder.",
+  "uso": "Para explicar el realismo político de Maquiavelo y el paso a la política moderna, o en debates sobre ética y política."
+ },
+ {
   "c": "El cristiano es señor de todas las cosas y no está sujeto a nadie. El cristiano es siervo de todas las cosas y está sujeto a todos.",
   "a": "Martín Lutero",
   "o": "La libertad del cristiano (1520), § 1",
@@ -1359,6 +1369,17 @@ const CITAS = [
   "img": "media/retratos/museo/rousseau.jpg",
   "sen": "En el Emilio, Rousseau propone para Sofía, la futura esposa de Emilio, una educación pensada para agradar y servir a los hombres, muy distinta de la educación en libertad que diseña para él.",
   "uso": "Para explicar la contradicción entre igualdad y exclusión de las mujeres en la Ilustración, o al presentar la crítica de Mary Wollstonecraft a Rousseau."
+ },
+ {
+  "c": "Se querría ser lo uno y lo otro; pero, como es difícil juntarlos, es mucho más seguro ser temido que amado cuando haya de faltar uno de los dos.",
+  "a": "Maquiavelo",
+  "o": "El príncipe (1513) XVII",
+  "e": "moderna",
+  "id": "maquiavelo",
+  "img": "media/retratos/museo2/maquiavelo.jpg",
+  "sen": "Para Maquiavelo, el gobernante debe partir de cómo son los hombres, no de cómo deberían ser: como el amor es inestable, el temor da un control más seguro, aunque sin llegar a ser odiado.",
+  "uso": "Para explicar el realismo político de Maquiavelo y la separación entre política y moral, o en debates sobre el poder.",
+  "trampa": "Se le atribuye a Maquiavelo «el fin justifica los medios», pero esa frase no aparece en El príncipe."
  },
  {
   "c": "Somos todos retazos, y de una contextura tan informe y diversa que cada pieza, cada momento, hace su juego. Y hay tanta diferencia de nosotros a nosotros mismos como de nosotros a otro.",
