@@ -958,6 +958,16 @@ const CITAS = [
   "uso": "Para presentar el pensamiento de Unamuno y el sentimiento trágico de la vida, o en una disertación sobre razón y fe ante la muerte."
  },
  {
+  "c": "Líquido es lo que no conserva su forma por mucho tiempo.",
+  "a": "Zygmunt Bauman",
+  "o": "Modernidad líquida (2000), Prólogo",
+  "e": "contemporanea",
+  "id": "bauman",
+  "img": "media/retratos/ilustres/bauman.jpg",
+  "sen": "Bauman usa la imagen de los líquidos para describir nuestra época: trabajos, relaciones e identidades ya no son sólidos ni duraderos, sino que cambian de forma continuamente.",
+  "uso": "Para explicar la modernidad líquida de Bauman, o en debates sobre la precariedad, el consumo y las relaciones en la sociedad actual."
+ },
+ {
   "c": "Los pensamientos sin contenido son vacíos; las intuiciones sin conceptos, ciegas.",
   "a": "Immanuel Kant",
   "o": "Crítica de la razón pura (1781), Lógica trascendental, Introducción, I (A 51 / B 75)",
