@@ -1,9 +1,9 @@
 "use strict";
 /* ===== Resúmenes de Filosofía 1.º (12-10-2026) — grupo «F1» =====
-   Un resumen por tema del curso, con el mismo formato que los de Historia de la Filosofía (esquemas_autor.js):
+   Un resumen por tema del curso, con el mismo formato que los de Historia de la Filosofía (resumenes.js):
    pregunta guía, apartados con su idea y sus conceptos (t: término, d: explicación, a: autores) e idea clave.
    Sale de la teoría de cada tema (theory.js, fil-*). Datos puros (traducibles por la cadena i18n);
-   la vista «Resúmenes» (esquemas_autorview.js) los junta con los de HF. */
+   la vista «Resúmenes» (resumenesview.js) los junta con los de HF. */
 const RESUMENES_FIL = [
  {
   "title": "¿Qué es la filosofía?",

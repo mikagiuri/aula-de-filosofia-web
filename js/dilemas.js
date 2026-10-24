@@ -49,7 +49,7 @@ const DILEMAS = [
     "quien": "Descartes (racionalismo)",
     "elige": "A",
     "porque": "También él imaginó un genio maligno que lo engañaba en todo, y encontró un suelo firme: puedo dudar de todo menos de que estoy dudando; y desde ese «pienso» reconstruyó el mundo. La duda es un método, no un destino.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    },
    {
     "quien": "Pirrón (escepticismo)",
@@ -60,13 +60,13 @@ const DILEMAS = [
     "quien": "Hume (empirismo)",
     "elige": "A",
     "porque": "Reconoce que la razón no puede demostrar que el mundo exterior exista, pero la naturaleza es más fuerte que el escepticismo: en cuanto sales del despacho, juegas, cenas y crees en el mundo. La creencia no se demuestra, se vive.",
-    "ilustre": "hume"
+    "biografia": "hume"
    },
    {
     "quien": "Kant",
     "elige": "A",
     "porque": "Conocemos fenómenos, no la cosa en sí; pero eso no es un engaño sino la condición de todo conocimiento. El mundo tal como lo experimentamos es objetivo para todos los seres racionales, y eso basta.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -100,7 +100,7 @@ const DILEMAS = [
     "quien": "Aristóteles",
     "elige": "A",
     "porque": "La experiencia (empeiría) de quien ha visto muchos casos es el origen del saber práctico; el médico prudente conoce lo particular, que los principios generales no alcanzan.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Bacon y la ciencia moderna",
@@ -111,7 +111,7 @@ const DILEMAS = [
     "quien": "Hume",
     "elige": "B",
     "porque": "La costumbre nos hace esperar que lo que vimos se repita; treinta años de costumbre no son una prueba, son treinta años de hábito. Un sabio proporciona su creencia a la evidencia.",
-    "ilustre": "hume"
+    "biografia": "hume"
    },
    {
     "quien": "Popper (siglo XX)",
@@ -160,13 +160,13 @@ const DILEMAS = [
     "quien": "Platón",
     "elige": "B",
     "porque": "El yo verdadero es el alma, no el cuerpo ni sus funciones; si el proceso solo copia funciones, copia el cuerpo, y el alma no se fabrica.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Hume",
     "elige": "B",
     "porque": "Cuando me busco a mí mismo, solo encuentro percepciones sueltas; el «yo» es un haz, una ficción útil. La pregunta de si «seguirás siendo tú» no tiene respuesta porque no hay tal cosa.",
-    "ilustre": "hume"
+    "biografia": "hume"
    }
   ],
   "debate": {
@@ -200,19 +200,19 @@ const DILEMAS = [
     "quien": "Aristóteles",
     "elige": "A",
     "porque": "El ser humano es por naturaleza un animal que habla y vive en la polis; quien vive fuera de la comunidad «o es una bestia o es un dios». Educarlo es ayudarle a ser lo que ya es en potencia.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
     "porque": "El hombre nace bueno y libre y la sociedad lo encadena; el niño del bosque no es un defecto de humanidad sino una muestra de lo que somos antes de que nos deformen.",
-    "ilustre": "rousseau"
+    "biografia": "rousseau"
    },
    {
     "quien": "Kant",
     "elige": "A",
     "porque": "El hombre es la única criatura que debe ser educada; solo por la educación puede llegar a ser hombre. No hay humanidad sin disciplina y cultura.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Marx y la antropología cultural",
@@ -251,25 +251,25 @@ const DILEMAS = [
     "quien": "Epicuro (hedonismo)",
     "elige": "A",
     "porque": "Con condiciones: el placer que cuenta es la ausencia de dolor y de temor (ataraxia); una máquina sin dolor cumple su ideal, siempre que no haya miedo a que falle.",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Bentham y Mill (utilitarismo)",
     "elige": "A",
     "porque": "Bentham mediría cantidad de placer y diría que sí; Mill distingue placeres superiores e inferiores («más vale un Sócrates insatisfecho que un necio satisfecho») y dudaría.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Aristóteles (eudaimonía)",
     "elige": "B",
     "porque": "La felicidad no es una sensación sino una actividad del alma conforme a la virtud; quien no actúa no vive bien.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Una vida programada renuncia a la autonomía; la dignidad está en darse uno mismo la ley, no en ser un receptor de estímulos.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -303,31 +303,31 @@ const DILEMAS = [
     "quien": "Bentham (utilitarismo)",
     "elige": "A",
     "porque": "Cinco vidas valen más que una en cualquier cálculo; el modo de salvarlas es un detalle. Las emociones que nos frenan son restos de superstición moral.",
-    "ilustre": "bentham"
+    "biografia": "bentham"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Empujar al hombre es tratarlo solo como un medio, y eso está prohibido por el imperativo categórico. Desviar el tranvía no lo usa a él: su muerte es un efecto, no el instrumento.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Tomás de Aquino (doctrina del doble efecto)",
     "elige": "B",
     "porque": "Una acción con un efecto malo puede ser lícita si el mal no es el medio ni el fin, sino un efecto colateral proporcionado. La palanca cumple la regla; el empujón, no.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Aristóteles",
     "elige": "B",
     "porque": "La persona virtuosa no decide con una fórmula sino con el carácter: hay acciones que un hombre bueno no realiza, y empujar a un inocente es una de ellas, aunque el resultado sea mejor.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Spinoza",
     "elige": "—",
     "porque": "Antes de elegir, tres preguntas: qué sé de verdad, quién ha construido la situación y desde qué afecto actúo. La razón elige el menor de dos males (Ética, IV, 65), pero sin conocer a las personas ni las circunstancias, «cinco contra uno» es un cálculo de la imaginación. Las dos salidas pueden hacerse por miedo o ambición, o por firmeza y generosidad: lo que hace libre la acción no es el resultado, sino entender por qué se actúa.",
-    "ilustre": "spinoza"
+    "biografia": "spinoza"
    }
   ],
   "debate": {
@@ -361,25 +361,25 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "B",
     "porque": "La mentira es siempre contraria al deber porque destruye la fuente de todo derecho: la confianza en la palabra. Pero Kant no obliga a decir toda la verdad, solo a no afirmar lo falso: callar o desviar es lícito.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Mill (utilitarismo)",
     "elige": "A",
     "porque": "Si la verdad solo produce sufrimiento y no puede cambiar nada, la mentira es la acción correcta. Aunque Mill añade: la regla de veracidad es tan útil que las excepciones deben ser muy raras.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Aristóteles (ética de la virtud)",
     "elige": "B",
     "porque": "La persona prudente no mentiría, pero tampoco soltaría la verdad como una piedra: encontraría el modo justo, en el momento justo, de estar con el abuelo. La virtud no está en la regla sino en el tacto.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Agustín de Hipona",
     "elige": "B",
     "porque": "Escribió dos tratados contra la mentira: ninguna mentira es lícita, ni la que salva una vida, porque quien miente pierde algo que vale más que lo que protege.",
-    "ilustre": "agustin"
+    "biografia": "agustin"
    }
   ],
   "debate": {
@@ -418,19 +418,19 @@ const DILEMAS = [
     "quien": "Platón (Sócrates)",
     "elige": "B",
     "porque": "Toda la República es la respuesta: la justicia es la armonía del alma, y el injusto, aunque tenga el anillo, vive con el alma tiranizada por sus deseos. Ningún anillo lo salva de eso.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Hobbes",
     "elige": "A",
     "porque": "En estado de naturaleza cada uno tiene derecho a todo; las leyes obligan porque hay una espada que las respalda. «Los pactos sin la espada son solo palabras».",
-    "ilustre": "hobbes"
+    "biografia": "hobbes"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "La moral no depende de las consecuencias ni de ser visto: una acción es buena si su máxima puede ser ley universal, y «robaré cuando nadie me vea» no puede serlo.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -464,7 +464,7 @@ const DILEMAS = [
     "quien": "Rawls (liberalismo igualitario)",
     "elige": "B",
     "porque": "Bajo el velo de ignorancia, un ser racional elige la estrategia maximin: que el peor lugar posible sea lo mejor posible. De ahí sus dos principios: libertades básicas para todos y desigualdades solo si favorecen a los peor situados.",
-    "ilustre": "rawls"
+    "biografia": "rawls"
    },
    {
     "quien": "Nozick (libertarismo)",
@@ -475,7 +475,7 @@ const DILEMAS = [
     "quien": "Aristóteles",
     "elige": "B",
     "porque": "Justicia es dar a cada uno lo suyo según el mérito, pero la ciudad existe para la vida buena de todos, y una polis de extremos, muy ricos y muy pobres, no es ciudad sino dos ciudades en guerra.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Marx",
@@ -514,25 +514,25 @@ const DILEMAS = [
     "quien": "Platón",
     "elige": "A",
     "porque": "La ciudad es como un barco: quien no sabe navegar no debe llevar el timón. La democracia entrega el poder al que mejor halaga a la masa, y de ahí nace el tirano. Deben gobernar los que saben, los filósofos.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Aristóteles",
     "elige": "B",
     "porque": "Muchos que individualmente no son sabios, reunidos pueden juzgar mejor que unos pocos, como un banquete al que cada uno aporta un plato. Además, quien lleva los zapatos sabe dónde aprietan mejor que el zapatero.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
     "porque": "La soberanía es del pueblo y no puede delegarse: la ley es justa porque la quiere la voluntad general, no porque la dicte un experto. Un pueblo que deja decidir a otros ya no es libre.",
-    "ilustre": "rousseau"
+    "biografia": "rousseau"
    },
    {
     "quien": "Mill",
     "elige": "A",
     "porque": "A medias: defendía el sufragio universal, pero proponía que los más instruidos tuvieran más de un voto. Temía la «tiranía de la mayoría» tanto como la de un rey.",
-    "ilustre": "mill"
+    "biografia": "mill"
    }
   ],
   "debate": {
@@ -566,13 +566,13 @@ const DILEMAS = [
     "quien": "Platón",
     "elige": "A",
     "porque": "Con ironía: para Platón todo cuadro es ya una copia de una copia, tres grados alejado de la verdad; la falsificación solo añade un grado más de engaño a lo que ya era engaño.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Kant (juicio estético)",
     "elige": "B",
     "porque": "El juicio de gusto es desinteresado: lo bello nos complace sin que importe la existencia, el origen ni la utilidad del objeto. Si el cuadro era bello el lunes, sigue siéndolo el martes.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Hegel y la estética romántica",
@@ -616,7 +616,7 @@ const DILEMAS = [
     "quien": "Locke (empirismo)",
     "elige": "A",
     "porque": "Sí, pero con un problema: la identidad personal es la continuidad de la conciencia y de la memoria, y los dos cuerpos conservan tu conciencia. Su criterio dice que los dos son tú, y una persona no puede ser dos: es un caso que Locke no se planteó.",
-    "ilustre": "locke"
+    "biografia": "locke"
    },
    {
     "quien": "Parfit (siglo XX)",
@@ -632,7 +632,7 @@ const DILEMAS = [
     "quien": "Descartes (racionalismo)",
     "elige": "B",
     "porque": "Por otra razón: la mente, la cosa que piensa, es indivisible, a diferencia del cuerpo; no se puede partir por la mitad junto con los hemisferios. Lo que divide el cirujano es el cuerpo, no el yo.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    }
   ],
   "debate": {
@@ -666,25 +666,25 @@ const DILEMAS = [
     "quien": "Kant (Ilustración)",
     "elige": "A",
     "porque": "Ilustrarse es atreverse a servirse del propio entendimiento. Un miedo heredado que no resiste el examen de la razón no debe guiarte: dejarle decidir es seguir en la minoría de edad.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Descartes (racionalismo)",
     "elige": "A",
     "porque": "Su primera regla del método: no admitir nunca como verdadero nada que no se conozca con evidencia. Un prejuicio no gana autoridad por estar muy arraigado.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    },
    {
     "quien": "Epicuro",
     "elige": "A",
     "porque": "Conocer cómo funciona la naturaleza sirve para librarse de miedos sin fundamento. La tela son átomos, como todo lo demás; temerla es dejar que un miedo vacío te quite la serenidad.",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Hume (empirismo)",
     "elige": "B",
     "porque": "Con matices: la razón sola no mueve a actuar; los sentimientos y la costumbre deciden casi todo lo que hacemos, y un rechazo sin argumento no es una locura, es algo humano. Lo que no debe hacer es convertirse en una creencia sobre la lana.",
-    "ilustre": "hume"
+    "biografia": "hume"
    }
   ],
   "debate": {
@@ -718,25 +718,25 @@ const DILEMAS = [
     "quien": "Aristóteles",
     "elige": "A",
     "porque": "Lo real en primer lugar son las sustancias concretas, que existen por sí mismas: estas personas. Spiderman solo existe en otra cosa, en los cómics y en las mentes: es, pero de un modo derivado. El ser se dice de muchas maneras.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Tomás de Aquino",
     "elige": "A",
     "porque": "Puedes saber muy bien qué es Spiderman, su esencia, sin que exista. Conocer la esencia de algo no le da existencia, y la aldea tiene justo lo que a Spiderman le falta: existe.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Berkeley (idealismo)",
     "elige": "A",
     "porque": "Ser es ser percibido, pero no todo lo percibido vale igual: las ideas de los sentidos, vivas y ordenadas, que no dependen de mi voluntad, son las cosas reales; las que fabrica la imaginación, como Spiderman, son más débiles y dependen de mí.",
-    "ilustre": "berkeley"
+    "biografia": "berkeley"
    },
    {
     "quien": "Nietzsche",
     "elige": "B",
     "porque": "Desconfía de quien separa un «mundo verdadero» del mundo que vivimos: en Crepúsculo de los ídolos cuenta cómo ese «mundo verdadero» acabó convirtiéndose en una fábula. Lo que cuenta es lo que actúa en una vida, y lo que Spiderman hace en la tuya es real.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    }
   ],
   "debate": {
@@ -770,19 +770,19 @@ const DILEMAS = [
     "quien": "Tomás de Aquino",
     "elige": "A",
     "porque": "En caso de necesidad extrema, todas las cosas son comunes: tomar lo ajeno para salvar una vida, la propia o la de otro, no es propiamente robar. La propiedad existe para servir a la vida, no al revés.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Mill (utilitarismo)",
     "elige": "A",
     "porque": "Cuenta las consecuencias: una vida salvada pesa mucho más que el perjuicio a un laboratorio que seguirá ganando dinero. Aunque añadiría una advertencia: una costumbre general de robar cuando uno se cree con razón tendría malas consecuencias para todos.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Kant (ética del deber)",
     "elige": "B",
     "porque": "Prueba tu máxima: «robaré cuando crea que lo necesito»; convertida en ley universal, destruye la propiedad y la confianza. El deber de ayudar existe, pero no autoriza a violar el derecho de otro; Kant llegó a decir que en un caso de necesidad el acto puede quedar sin castigo, pero no por eso es justo.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Gilligan (ética del cuidado)",

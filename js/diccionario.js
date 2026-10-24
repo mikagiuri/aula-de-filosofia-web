@@ -1,5 +1,5 @@
 // Generado por tools/build_subject.js (fil) — alumnado, sin material del profesor.
-const GLOSARIO = [
+const DICCIONARIO = [
  {
   "subject": "fil",
   "t": "Filosofía",
@@ -17,7 +17,7 @@ const GLOSARIO = [
   "area": "Método",
   "tema": "Filosofía · Tema 1",
   "def": "La capacidad de extrañarse ante lo que a los demás parece obvio. Para Platón y Aristóteles, es el origen de la filosofía.",
-  "ilustre": [
+  "biografia": [
    "platon",
    "aristoteles"
   ]
@@ -57,7 +57,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · Tema 1",
   "def": "El principio o elemento originario del que todo procede. Tales de Mileto lo identificó con el agua.",
-  "ilustre": [
+  "biografia": [
    "tales"
   ]
  },
@@ -185,7 +185,7 @@ const GLOSARIO = [
   "area": "Método",
   "tema": "Filosofía · Tema 1",
   "def": "«Atrévete a saber»: consigna de Kant; ten el valor de servirte de tu propia razón.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -197,7 +197,7 @@ const GLOSARIO = [
   "area": "Antropología",
   "tema": "Filosofía · Tema 2",
   "def": "El proceso por el que las especies cambian con el tiempo; Darwin lo explicó mediante la selección natural y el origen común.",
-  "ilustre": [
+  "biografia": [
    "darwin"
   ]
  },
@@ -236,7 +236,7 @@ const GLOSARIO = [
   "area": "Antropología",
   "tema": "Filosofía · Tema 2",
   "def": "Conjunto de conocimientos, creencias, arte, moral, derecho, costumbres y hábitos que se adquieren como miembro de una sociedad (Tylor).",
-  "ilustre": [
+  "biografia": [
    "tylor"
   ]
  },
@@ -320,7 +320,7 @@ const GLOSARIO = [
   "area": "Antropología",
   "tema": "Filosofía · Tema 2",
   "def": "En Descartes: la «cosa pensante» (la mente) y la «cosa extensa» (el cuerpo, la materia).",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -350,7 +350,7 @@ const GLOSARIO = [
   "area": "Antropología",
   "tema": "Filosofía · Tema 2",
   "def": "Rasgo que Aristóteles añade: necesitamos vivir en comunidad para desarrollarnos y ser plenamente humanos.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -371,7 +371,7 @@ const GLOSARIO = [
   "area": "Ética",
   "tema": "Filosofía · Tema 2",
   "def": "El valor absoluto de la persona, que hace que sea un fin en sí misma y nunca un simple medio (Kant).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -428,7 +428,7 @@ const GLOSARIO = [
   "area": "Antropología",
   "tema": "Filosofía · Tema 2",
   "def": "El entorno concreto (época, cuerpo, sociedad) con el que el yo se hace: «yo soy yo y mi circunstancia» (Ortega).",
-  "ilustre": [
+  "biografia": [
    "ortega"
   ]
  },
@@ -503,7 +503,7 @@ const GLOSARIO = [
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "Corriente que afirma que todo conocimiento procede de la experiencia sensible (Locke, Hume).",
-  "ilustre": [
+  "biografia": [
    "locke",
    "hume"
   ]
@@ -516,7 +516,7 @@ const GLOSARIO = [
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "Corriente que confía sobre todo en la razón como fuente de conocimiento (Descartes).",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -528,7 +528,7 @@ const GLOSARIO = [
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "Síntesis de Kant (apriorismo): el conocimiento nace de la experiencia, pero lo ordena con estructuras a priori del sujeto.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -549,7 +549,7 @@ const GLOSARIO = [
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "En Kant: el fenómeno es lo que se nos aparece (lo cognoscible); el noúmeno, la cosa en sí (incognoscible).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -624,7 +624,7 @@ const GLOSARIO = [
   "area": "Epistemología",
   "tema": "Filosofía · Tema 3",
   "def": "El estado en que una verdad se presenta con claridad y distinción, sin posible duda (Descartes).",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -751,7 +751,7 @@ const GLOSARIO = [
   "area": "Ética",
   "tema": "Filosofía · Tema 5",
   "def": "Ética que identifica el bien con la felicidad (Aristóteles).",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -772,7 +772,7 @@ const GLOSARIO = [
   "area": "Ética",
   "tema": "Filosofía · Tema 5",
   "def": "En Aristóteles, el hábito de elegir el término medio entre dos extremos; la excelencia del carácter.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -784,7 +784,7 @@ const GLOSARIO = [
   "area": "Ética",
   "tema": "Filosofía · Tema 5",
   "def": "Ética (deontología) que juzga la acción por su conformidad con el deber, no por sus consecuencias (Kant).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -796,7 +796,7 @@ const GLOSARIO = [
   "area": "Ética",
   "tema": "Filosofía · Tema 5",
   "def": "El mandato incondicionado de Kant: obra solo según la máxima que puedas querer que se convierta en ley universal.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -870,7 +870,7 @@ const GLOSARIO = [
   "area": "Estética",
   "tema": "Filosofía · Tema 7",
   "def": "El juicio con el que valoramos algo como bello o feo; para Kant es subjetivo pero aspira a validez universal.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -1141,7 +1141,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "Que una proposición dé por supuesto que existe aquello de lo que habla. Para Aristóteles, las afirmativas lo suponen; para la lógica actual, las universales no: «todos los unicornios tienen un cuerno» es verdadera aunque no haya unicornios. Por eso silogismos como Darapti dejan de ser válidos.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1161,7 +1161,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "Dos relaciones que en castellano se dicen con «es». La pertenencia (∈) une un individuo con una clase: «Sócrates ∈ humanos». La inclusión (⊆) une dos clases: «humanos ⊆ mortales». La inclusión se encadena; la pertenencia, no.",
-  "ilustre": [
+  "biografia": [
    "socrates"
   ]
  },
@@ -1180,7 +1180,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "Negar una disyunción equivale a negar sus dos partes: ¬(p ∨ q) = ¬p ∧ ¬q («ni lo uno ni lo otro»). Negar una conjunción equivale a negar al menos una parte: ¬(p ∧ q) = ¬p ∨ ¬q. Con clases: (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ y (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ. Las formuló Augustus De Morgan en el siglo XIX.",
-  "ilustre": [
+  "biografia": [
    "de_morgan"
   ]
  },
@@ -1191,7 +1191,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "Dibujo que representa cada clase con un círculo colocado según la relación que se afirma: uno dentro de otro (todo), separados (ninguno) o cruzados (algunos). Lo difundió Leonhard Euler en sus cartas de 1761. Si no sabemos cómo están colocadas las clases, hay que dibujar varias situaciones.",
-  "ilustre": [
+  "biografia": [
    "euler"
   ]
  },
@@ -1202,7 +1202,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "Dibujo que representa las clases con círculos siempre cruzados, de modo que aparecen todas las regiones posibles. Se sombrean las vacías y se marca con ✕ aquella en que hay al menos uno. Lo propuso John Venn en 1880; con tres círculos permite comprobar si un silogismo es válido.",
-  "ilustre": [
+  "biografia": [
    "venn"
   ]
  },
@@ -1214,7 +1214,7 @@ const GLOSARIO = [
   "area": "Lógica",
   "tema": "Filosofía · Tema 4",
   "def": "La clase de todas las clases que no son miembros de sí mismas, ¿es miembro de sí misma? Si lo es, no lo es; si no lo es, lo es. Bertrand Russell la comunicó a Frege en 1902 y mostró que no toda propiedad puede definir una clase.",
-  "ilustre": [
+  "biografia": [
    "frege",
    "russell"
   ]
@@ -1236,7 +1236,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Lo que las cosas parecen ser, frente a lo que realmente son. Para Parménides, el cambio y la multiplicidad que vemos son mera apariencia.",
-  "ilustre": [
+  "biografia": [
    "parmenides"
   ]
  },
@@ -1257,7 +1257,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Para Aristóteles, cualidad que solo existe en una sustancia y puede cambiar, como el color, el tamaño o el lugar.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1295,7 +1295,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Prueba propuesta por Alan Turing en 1950: si, conversando por escrito, no distinguimos a una máquina de una persona, no tendríamos motivo para negarle la inteligencia.",
-  "ilustre": [
+  "biografia": [
    "turing"
   ]
  },
@@ -1315,7 +1315,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Expresión de David Chalmers (1995): explicar por qué existe la experiencia subjetiva, lo que se siente al ver el rojo.",
-  "ilustre": [
+  "biografia": [
    "chalmers"
   ]
  },
@@ -1354,7 +1354,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Postura de Hobbes y Hume: libertad y determinismo pueden darse juntos, porque ser libre no es actuar sin causas, sino actuar según los propios deseos y razones, sin coacción.",
-  "ilustre": [
+  "biografia": [
    "hobbes",
    "hume"
   ]
@@ -1367,7 +1367,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Razonamiento que parte del mundo: la cadena de motores y de causas no puede prolongarse sin fin, así que exige un primer motor, una primera causa, un ser necesario (cinco vías de Tomás de Aquino).",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -1379,7 +1379,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Razonamiento teleológico: el orden de la naturaleza, como el de un reloj, exige un diseñador (Paley). Lo criticaron Hume y, con la selección natural, Darwin.",
-  "ilustre": [
+  "biografia": [
    "hume",
    "darwin"
   ]
@@ -1401,7 +1401,7 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Nombre que dio Leibniz (1710) a las respuestas del creyente al problema del mal; una de las más conocidas sostiene que el mal es el precio de la libertad humana.",
-  "ilustre": [
+  "biografia": [
    "leibniz"
   ]
  },
@@ -1422,12 +1422,12 @@ const GLOSARIO = [
   "area": "Metafísica",
   "tema": "Filosofía · M",
   "def": "Postura según la cual a Dios se llega por la fe y no por la razón, de modo que los argumentos no son el camino; suele citarse a Kierkegaard.",
-  "ilustre": [
+  "biografia": [
    "kierkegaard"
   ]
  }
 ];
-const GLOSARIO_TRAMPAS = {
+const DICCIONARIO_TRAMPAS = {
  "fil": [
   [
    "Mito",
