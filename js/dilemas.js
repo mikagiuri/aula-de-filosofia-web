@@ -605,153 +605,150 @@ const DILEMAS = [
   "id": "fil-fision",
   "emoji": "👥",
   "etiqueta": "Identidad y supervivencia",
-  "titulo": "Los dos que despiertan",
-  "situacion": "Tras un accidente, tu cuerpo ya no tiene arreglo, pero tu cerebro sí. Los cirujanos solo pueden salvarte de una manera: separar los dos hemisferios y trasplantar cada uno a un cuerpo distinto. La operación es imaginaria, aunque parte de algo real: hay personas que viven con un solo hemisferio y otras a las que se les ha cortado la conexión entre los dos. Supón que cada mitad conserva toda tu vida mental. Los dos cuerpos despiertan. Los dos recuerdan tu infancia, reconocen a tu familia, tienen tus manías y tus planes, y los dos dicen ser tú con la misma convicción. Antes de firmar la autorización, te preguntan qué esperas que pase.",
-  "a": "Sobreviviré, aunque sea en dos: lo que me importa —mis recuerdos, mi carácter, mis proyectos— seguirá vivo en los dos, y eso es todo lo que le pedía a sobrevivir.",
-  "b": "No sobreviviré: una persona no puede ser dos; si los dos tienen el mismo derecho a ser yo, no lo es ninguno, y lo que despierta son dos personas nuevas que se parecen a mí.",
-  "pregunta": "¿Qué hace que una persona siga siendo la misma a lo largo del tiempo? Y si la identidad puede romperse en dos, ¿es la identidad lo que de verdad nos importa al sobrevivir?",
-  "enjuego": "Los criterios de la identidad personal (la memoria, el cuerpo, el relato) llevados al límite, y la diferencia entre ser el mismo individuo (identidad numérica) y ser igual (identidad cualitativa).",
+  "titulo": "El escáner de Tokio",
+  "situacion": "Año 2090. Para ir de Bilbao a Tokio ya nadie coge un avión: entras en una cabina, un escáner registra la posición de cada átomo de tu cuerpo, la cabina deshace el original y en Tokio una máquina te construye otra vez, idéntico, en pocos segundos. Lo has hecho veinte veces y siempre has salido de la cabina de llegada con tus recuerdos, tus manías y tus planes. Hoy algo falla: el escáner te registra, pero la cabina de Bilbao no te deshace. Sigues aquí sentado, con el corazón en la boca, cuando un técnico te cuenta que en Tokio ya ha salido alguien que dice ser tú y que acaba de llamar a tu madre. La empresa te pide perdón y te regala un billete para el próximo viaje. Tienes que decidir si lo aceptas.",
+  "a": "Viajaré: si en el destino aparece alguien con mi memoria, mi carácter y mis proyectos, eso es todo lo que le puedo pedir a seguir vivo; el fallo de hoy solo demuestra que puedo continuar en dos sitios a la vez.",
+  "b": "No viajaré: el fallo ha demostrado que lo que sale en Tokio es una copia; si el original puede quedarse mirando, en cada viaje anterior alguien murió en Bilbao y otro nació en Tokio.",
+  "pregunta": "¿Qué hace que sigas siendo tú de un día para otro: tu cuerpo, tu memoria o algo más? Si existiera una copia perfecta de ti, ¿cuál de las dos serías tú, y debería importarte?",
+  "enjuego": "Los criterios de la identidad personal (el cuerpo, la memoria y la continuidad psicológica) puestos a prueba por una copia, y la diferencia entre ser el mismo individuo (identidad numérica) y ser exactamente igual (identidad cualitativa).",
   "escuelas": [
    {
     "quien": "Locke (empirismo)",
     "elige": "A",
-    "porque": "Sí, pero con un problema: la identidad personal es la continuidad de la conciencia y de la memoria, y los dos cuerpos conservan tu conciencia. Su criterio dice que los dos son tú, y una persona no puede ser dos: es un caso que Locke no se planteó.",
+    "porque": "Eres la misma persona hasta donde llega tu conciencia: quien recuerda tus actos y los siente como suyos eres tú, esté hecho de los átomos que esté. El problema es que su criterio da el mismo resultado para el de Bilbao y para el de Tokio, y Locke nunca pensó en una persona repetida.",
     "biografia": "locke"
    },
    {
     "quien": "Parfit (siglo XX)",
     "elige": "A",
-    "porque": "De la fisión sacó una conclusión sorprendente: lo que nos importa al sobrevivir no es la identidad, sino la continuidad psicológica (recuerdos, carácter, proyectos). Duplicarse no se parece a morir: se parece mucho a sobrevivir."
+    "porque": "Imaginó una máquina así en Razones y personas y sacó una conclusión inquietante: puede que la pregunta «¿cuál de los dos soy yo?» no tenga respuesta, y no pasa nada, porque lo que importa no es la identidad, sino que continúen tu memoria, tu carácter y tus planes. Viajar en la cabina sería casi tan bueno como viajar en avión."
    },
    {
     "quien": "Thomas Reid",
     "elige": "B",
-    "porque": "Una persona es algo indivisible: no se puede ser media persona ni dos a la vez. La memoria muestra la identidad, pero no la crea; que los dos tengan tus recuerdos no los convierte en ti."
+    "porque": "Una persona no se puede dividir ni repetir: o eres tú o no lo eres. Recordar tu vida no te convierte en ti, solo es una señal de que lo eres. El de Tokio tiene tus recuerdos igual que una fotocopia tiene el texto del original."
    },
    {
     "quien": "Descartes (racionalismo)",
     "elige": "B",
-    "porque": "Por otra razón: la mente, la cosa que piensa, es indivisible, a diferencia del cuerpo; no se puede partir por la mitad junto con los hemisferios. Lo que divide el cirujano es el cuerpo, no el yo.",
+    "porque": "Tú eres una cosa que piensa, distinta del cuerpo. La máquina mide y reproduce materia: copia un cuerpo con tu aspecto y tu cerebro, pero nada garantiza que con él viaje la mente que eres.",
     "biografia": "descartes"
    }
   ],
   "debate": {
    "epoca": "Siglos XVII y XX",
-   "texto": "«Hasta donde esa conciencia pueda extenderse hacia atrás, a cualquier acción o pensamiento pasados, hasta ahí alcanza la identidad de esa persona.»",
-   "fuente": "Locke, Ensayo sobre el entendimiento humano, II, 27, 9 (capítulo añadido en la 2.ª edición, 1694). El caso de la fisión lo hizo famoso Derek Parfit («Personal Identity», 1971; Razones y personas, 1984).",
+   "texto": "«[Una persona es] un ser que piensa y entiende, dotado de razón y de reflexión, capaz de verse a sí mismo como él mismo, la misma cosa pensante, en tiempos y lugares diferentes.»",
+   "fuente": "Locke, en el libro II (capítulo 27, § 9) de su Ensayo sobre el entendimiento humano, 2.ª edición (1694). El teletransportador que deja una copia lo planteó Derek Parfit en Razones y personas (1984), capítulo 10.",
    "unidad": "fil-t2"
   },
   "preguntas": [
-   "Si los dos son tú, ¿de quién es tu casa, tu móvil, tu plaza en el instituto? Y si uno comete un delito, ¿castigamos también al otro?",
-   "Thomas Reid decía que la memoria no crea la identidad, solo la muestra: el bebé que fuiste eras tú aunque no lo recuerdes. ¿Qué hay entonces, además de la memoria, que te haga ser tú?",
-   "Si te dijeran que solo uno de los dos va a despertar, ¿te parecería mejor o peor noticia? ¿Por qué es raro que «uno» suene mejor que «dos»?"
+   "Si los dos sois tú, ¿quién duerme esta noche en tu cama y quién va mañana al instituto? Y si el de Tokio firma un contrato, ¿te obliga a ti?",
+   "Antes del fallo viajaste veinte veces sin preocuparte. ¿Ha cambiado algo de aquellos viajes o solo lo que sabes de ellos?",
+   "Con los años, muchos de los átomos de tu cuerpo se sustituyen por otros. ¿En qué se diferencia eso de la cabina, aparte de la velocidad?"
   ],
-  "ysi": "¿Y si uno de los dos cuerpos no despertara nunca? Casi todo el mundo diría que has sobrevivido en el otro. Pero entonces que el segundo despierte no puede convertir tu supervivencia en tu muerte. Si lo hace, tu identidad depende de algo que ni siquiera te pasa a ti.",
-  "dato": "Las operaciones que inspiran el caso existen: a algunas personas con epilepsia grave se les ha cortado la conexión entre los hemisferios (el cuerpo calloso), y a algunos niños se les ha extirpado o desconectado un hemisferio entero; muchos siguen haciendo una vida normal. Roger Sperry recibió el Nobel en 1981 por estudiar a pacientes con el cerebro dividido. Lo que no existe es el trasplante: esa parte es el experimento mental."
+  "ysi": "¿Y si la cabina de Bilbao funcionara bien, pero con un minuto de retraso? Durante ese minuto existirían los dos, y después solo el de Tokio. Si eso es viajar, un minuto no debería convertirlo en morir; y si es morir, ¿por qué no lo era cuando el retraso era de una milésima de segundo?",
+  "dato": "La teletransportación existe, pero no de personas ni de objetos: lo que se envía es el estado cuántico de una partícula. En 2017 un equipo chino lo hizo desde el Tíbet hasta el satélite Micius, a distancias de hasta 1.400 km. Y hay un detalle curioso: las leyes de la física cuántica impiden copiar un estado desconocido (el teorema de no clonación, de 1982), así que en esa teletransportación el estado original siempre se destruye en el punto de salida."
  },
  {
   "subject": "fil",
   "grupo": "fil-conocer",
   "id": "fil-jersey",
-  "emoji": "🧶",
+  "emoji": "🖋️",
   "etiqueta": "Creencia y razón",
-  "titulo": "El jersey del asesino",
-  "situacion": "En una tienda de segunda mano encuentras un jersey de buena lana, limpio, de tu talla y a muy buen precio. La dependienta, que es sincera, te cuenta de dónde viene: perteneció a un hombre condenado por varios asesinatos, que lo llevaba a menudo. Ha pasado por una lavandería industrial y nadie más lo sabe. Sabes que la lana no guarda nada y que la maldad no es una sustancia que se pegue a la ropa. Aun así, dudas. Tienes que decidir si te lo llevas o lo dejas en la percha.",
-  "a": "Me lo llevo: sé que la tela no guarda nada, y una creencia que no puedo defender no debería decidir por mí.",
-  "b": "Lo dejo: aunque no sepa explicarlo, ese rechazo dice algo de mí, y no todo lo que siento tiene que aprobar un examen de la razón para tener derecho a existir.",
-  "pregunta": "¿Hay que creer solo lo que se puede justificar? ¿Qué hacemos con las creencias que sabemos sin fundamento pero no conseguimos dejar de sentir?",
-  "enjuego": "La diferencia entre saber y creer, el paso del mito al logos en pequeño (dentro de cada uno) y una sospecha incómoda: cuántas creencias tuyas funcionan como el jersey sin que lo notes.",
+  "titulo": "La pluma del juez",
+  "situacion": "En un mercadillo de antigüedades ves una pluma estilográfica preciosa: plumín de oro, cuerpo negro; escribe de maravilla y cuesta menos que un bolígrafo de marca. Llevas meses buscando una para tomar apuntes. El vendedor, que conoce bien lo que vende, te cuenta su historia: perteneció a un juez de una dictadura europea, que la usó durante años para firmar condenas a muerte. La han limpiado y restaurado, y fuera de este puesto nadie conoce ese detalle. Sabes que el metal y la tinta no guardan nada de quien los usó. Aun así, cuando la tienes en la mano, algo te frena. Tienes que decidir si la compras.",
+  "a": "La compro: una pluma no tiene memoria ni culpa, y no quiero que decida por mí una sensación que yo mismo sé que no tiene fundamento.",
+  "b": "No la compro: aunque no pueda demostrar nada, lo que siento al cogerla dice algo de cómo veo el mundo, y no todas mis decisiones tienen que pasar por un tribunal de argumentos.",
+  "pregunta": "¿Debemos creer y actuar solo según lo que podemos justificar? ¿Qué hacemos con una sensación que sabemos infundada y que, sin embargo, no se va?",
+  "enjuego": "La diferencia entre saber y creer, el paso del mito al logos dentro de cada uno y el pensamiento mágico que sigue funcionando en personas que se consideran racionales.",
   "escuelas": [
    {
     "quien": "Kant (Ilustración)",
     "elige": "A",
-    "porque": "Ilustrarse es atreverse a servirse del propio entendimiento. Un miedo heredado que no resiste el examen de la razón no debe guiarte: dejarle decidir es seguir en la minoría de edad.",
+    "porque": "Ilustrarse es atreverse a usar tu propio entendimiento sin que nadie, ni siquiera un miedo heredado, te lleve de la mano. Si tu razón dice que la pluma es solo una pluma, obedecer a la sensación es renunciar a pensar por ti mismo.",
     "biografia": "kant"
    },
    {
-    "quien": "Descartes (racionalismo)",
+    "quien": "William K. Clifford (siglo XIX)",
     "elige": "A",
-    "porque": "Su primera regla del método: no admitir nunca como verdadero nada que no se conozca con evidencia. Un prejuicio no gana autoridad por estar muy arraigado.",
-    "biografia": "descartes"
-   },
-   {
-    "quien": "Epicuro",
-    "elige": "A",
-    "porque": "Conocer cómo funciona la naturaleza sirve para librarse de miedos sin fundamento. La tela son átomos, como todo lo demás; temerla es dejar que un miedo vacío te quite la serenidad.",
-    "biografia": "epicuro"
+    "porque": "En «La ética de la creencia» defendió que creer sin pruebas suficientes está siempre mal, porque cada creencia infundada nos acostumbra a ser crédulos. Actuar como si la pluma estuviera manchada es creer, con los hechos, algo que no se puede sostener."
    },
    {
     "quien": "Hume (empirismo)",
     "elige": "B",
-    "porque": "Con matices: la razón sola no mueve a actuar; los sentimientos y la costumbre deciden casi todo lo que hacemos, y un rechazo sin argumento no es una locura, es algo humano. Lo que no debe hacer es convertirse en una creencia sobre la lana.",
+    "porque": "La razón sola no nos mueve a actuar: deciden los sentimientos y la costumbre. Que algo te frene sin argumento no es una locura, es naturaleza humana; lo absurdo sería pensar que el metal ha cambiado.",
     "biografia": "hume"
+   },
+   {
+    "quien": "Pascal (siglo XVII)",
+    "elige": "B",
+    "porque": "El corazón tiene sus razones, que la razón no conoce. Hay cosas que captamos por el sentimiento antes que por la demostración, y no por eso son menos nuestras."
    }
   ],
   "debate": {
-   "epoca": "Siglo XVIII (Ilustración)",
-   "texto": "«¡Ten el valor de servirte de tu propio entendimiento! He aquí el lema de la Ilustración.»",
-   "fuente": "Kant, Respuesta a la pregunta: ¿Qué es la Ilustración? (1784). La regla de no aceptar nada sin evidencia es la primera del Discurso del método de Descartes (1637).",
+   "epoca": "Siglos XVIII y XIX",
+   "texto": "«Está mal, siempre, en todas partes y para cualquiera, creer algo a partir de pruebas insuficientes.»",
+   "fuente": "William K. Clifford, «La ética de la creencia» (1877). La invitación a servirse del propio entendimiento es de Kant, Respuesta a la pregunta: ¿Qué es la Ilustración? (1784).",
    "unidad": "fil-t3"
   },
   "preguntas": [
-   "Intenta escribir la razón por la que no te lo pondrías. ¿Es una razón o un sentimiento con forma de razón?",
-   "¿Te pondrías una sudadera que llevó tu cantante favorito en un concierto? Si es que sí, ¿no estás creyendo lo mismo, pero al revés?",
-   "¿Cómo distingues, desde dentro, una creencia que podrías defender de una que no? ¿Se notan distintas?"
+   "Escribe en una frase por qué no la usarías. Después léela: ¿es un argumento o un sentimiento disfrazado de argumento?",
+   "Si la pluma hubiera sido de una escritora a la que admiras, pagarías más por ella. ¿Es la misma creencia, pero al revés?",
+   "¿Hay diferencia entre rechazar la pluma por miedo a que te «pegue» algo y rechazarla por respeto a las víctimas? ¿Cuál de las dos razones aguanta mejor un examen?"
   ],
-  "ysi": "¿Y si nadie te hubiera contado de quién era? Te lo pondrías sin pensarlo. Lo único que ha cambiado es una frase que has oído: ¿qué te toca la piel, la lana o la historia?",
-  "dato": "El psicólogo Paul Rozin y sus colaboradores estudian desde los años ochenta este «contagio mágico»: la creencia de que las cosas conservan algo de quien las tocó. Mucha gente se niega a ponerse un jersey limpio que llevó alguien malvado o enfermo, aunque reconozca que no hay ningún riesgo."
+  "ysi": "¿Y si el vendedor se hubiera equivocado y la pluma fuera de otro juez, uno que nunca condenó a nadie? Tendrías en la mano exactamente la misma pluma. Si tu sensación cambia, no venía de la pluma, sino de la historia que te han contado.",
+  "dato": "El antropólogo James Frazer, en La rama dorada (1890-1915), llamó «magia contagiosa» a la creencia de que las cosas que han estado en contacto siguen unidas después de separarse. La idea sigue viva: en un estudio de 2011, George Newman, Gil Diesendruck y Paul Bloom comprobaron que la gente pagaría menos por una prenda de un famoso al que admira si le dicen que la han lavado y desinfectado antes de venderla, como si con la limpieza se hubiera ido algo de la persona."
  },
  {
   "subject": "fil",
   "grupo": "fil-conocer",
   "id": "fil-existir",
-  "emoji": "🕸️",
+  "emoji": "🧵",
   "etiqueta": "Ser y existir",
-  "titulo": "La aldea y el superhéroe",
-  "situacion": "Piensa en una aldea de Uganda: unas trescientas personas que cultivan, cuidan ganado, se conocen y se ayudan; cada una tiene nombre, cara e historia, y se despierta cada mañana igual que tú. Hace un momento no sabías que existían, y dentro de un rato las habrás olvidado. Piensa ahora en Spiderman: sabes quién hay bajo la máscara, por qué murió su tío y podrías discutir una tarde entera si acertó o no en una decisión. Spiderman no existe; las trescientas personas, sí. Un amigo te pregunta cuál de los dos es más real para ti.",
-  "a": "La aldea: existir no depende de que yo lo sepa ni de que me importe; esas personas son reales aunque nadie piense en ellas, y Spiderman no lo es aunque piense en él medio mundo.",
-  "b": "En algún sentido, Spiderman: actúa en mis ideas, en mis decisiones y en mis conversaciones; lo que existe pero no me toca en nada es, para mí, casi como si no existiera.",
-  "pregunta": "¿Qué es ser real? ¿Es lo mismo existir que estar presente en la vida de alguien? ¿De qué modo «son» las cosas que solo existen en la imaginación?",
-  "enjuego": "La distinción entre esencia y existencia (saber qué es algo no garantiza que exista), los distintos modos de ser y la vieja pregunta de la metafísica: qué hay de verdad, con independencia de cómo nos afecte.",
+  "titulo": "La costurera y el personaje",
+  "situacion": "Mira la etiqueta de la camiseta que llevas puesta: «Made in Bangladesh». Alguien la cortó y la cosió, quizá una mujer de tu edad o de la de tu madre, en un taller de Daca, con las mismas manos con las que esa noche preparó la cena. Tocó algo que ahora te toca la piel, pero no sabes su nombre y nunca habías pensado en ella. Piensa ahora en el protagonista del videojuego al que más horas has dedicado: conoces su pasado, su voz y sus miedos, has decidido por él cientos de veces y hasta has soñado con él. Él no existe; ella, sí. Una amiga te pregunta cuál de los dos ocupa más sitio en tu vida, y si eso hace a uno de ellos más real que el otro.",
+  "a": "La costurera: existir no depende de que yo la conozca ni de que piense en ella; es real aunque nadie la recuerde, y el personaje no lo es aunque lo jueguen millones de personas.",
+  "b": "En cierto sentido, el personaje: está en mis recuerdos, en mis conversaciones y en lo que siento; lo que existe pero no deja ninguna huella en mi vida es, para mí, casi como si no existiera.",
+  "pregunta": "¿Qué significa que algo sea real? ¿Es lo mismo existir que estar presente en la vida de alguien? ¿De qué manera «son» las cosas que solo existen en una historia?",
+  "enjuego": "La distinción entre esencia y existencia (saber cómo es algo no garantiza que exista), los distintos modos de ser y la pregunta básica de la metafísica: qué hay de verdad, al margen de cuánto nos afecte.",
   "escuelas": [
    {
     "quien": "Aristóteles",
     "elige": "A",
-    "porque": "Lo real en primer lugar son las sustancias concretas, que existen por sí mismas: estas personas. Spiderman solo existe en otra cosa, en los cómics y en las mentes: es, pero de un modo derivado. El ser se dice de muchas maneras.",
+    "porque": "Lo que existe en sentido pleno son las sustancias concretas, como esa mujer, que es por sí misma. El personaje solo es en otra cosa: en un programa, en una pantalla y en la cabeza de quienes juegan. También es, pero de una manera secundaria.",
     "biografia": "aristoteles"
    },
    {
-    "quien": "Tomás de Aquino",
+    "quien": "Kant (Ilustración)",
     "elige": "A",
-    "porque": "Puedes saber muy bien qué es Spiderman, su esencia, sin que exista. Conocer la esencia de algo no le da existencia, y la aldea tiene justo lo que a Spiderman le falta: existe.",
-    "biografia": "tomas"
+    "porque": "Puedes describir al personaje con todo detalle y no le habrás añadido existencia: existir no es una característica más de una cosa. Cien táleros (monedas de su época) pensados tienen las mismas propiedades que cien táleros reales; lo que les falta es estar en el mundo.",
+    "biografia": "kant"
    },
    {
-    "quien": "Berkeley (idealismo)",
-    "elige": "A",
-    "porque": "Ser es ser percibido, pero no todo lo percibido vale igual: las ideas de los sentidos, vivas y ordenadas, que no dependen de mi voluntad, son las cosas reales; las que fabrica la imaginación, como Spiderman, son más débiles y dependen de mí.",
-    "biografia": "berkeley"
+    "quien": "Meinong (siglo XX)",
+    "elige": "B",
+    "porque": "Con matices: hay objetos que no existen y que, sin embargo, tienen propiedades verdaderas; es verdad que tu personaje es valiente y que tiene una cicatriz. No existir no lo convierte en nada: tiene su propia manera de ser."
    },
    {
     "quien": "Nietzsche",
     "elige": "B",
-    "porque": "Desconfía de quien separa un «mundo verdadero» del mundo que vivimos: en Crepúsculo de los ídolos cuenta cómo ese «mundo verdadero» acabó convirtiéndose en una fábula. Lo que cuenta es lo que actúa en una vida, y lo que Spiderman hace en la tuya es real.",
+    "porque": "Desconfía de quienes separan un «mundo verdadero» del mundo que vivimos; lo que cuenta es lo que actúa en una vida y la hace más intensa. Lo que el personaje te hace sentir y decidir forma parte de tu realidad.",
     "biografia": "nietzsche"
    }
   ],
   "debate": {
-   "epoca": "Siglo IV a. C. y siglo XIII",
-   "texto": "«Lo que es se dice de muchas maneras, pero en relación con una sola cosa y una sola naturaleza.»",
-   "fuente": "Aristóteles, Metafísica, IV, 2, 1003a33. Siglos después, Tomás de Aquino distinguió entre la esencia de una cosa y su existencia en Sobre el ente y la esencia (hacia 1252-1256).",
+   "epoca": "Siglo IV a. C. y siglo XVIII",
+   "texto": "«“Ser” no es, evidentemente, un predicado real, es decir, el concepto de algo que pueda añadirse al concepto de una cosa.»",
+   "fuente": "Kant, Crítica de la razón pura (1781), A 598 / B 626, donde pone el ejemplo de los cien táleros. Que lo que es se dice de muchas maneras lo había sostenido Aristóteles en la Metafísica (IV, 2).",
    "unidad": "fil-metafisica"
   },
   "preguntas": [
-   "¿Qué hace hoy en tu vida la existencia de esas trescientas personas que no haga Spiderman? Si la respuesta es «nada», ¿significa eso que existir no importa?",
-   "Los números, las leyes o las promesas tampoco se pueden tocar. ¿Existen como la aldea, como Spiderman o de una tercera manera?",
-   "Si un día viajaras a esa aldea y conocieras a sus habitantes, ¿qué cambiaría: ellos o tu relación con ellos?"
+   "¿Qué cambiaría hoy en tu vida si la costurera no existiera? ¿Y si desapareciera el personaje? Si la segunda pérdida te duele más, ¿demuestra algo sobre lo que existe o solo sobre lo que te importa?",
+   "Se puede decir con verdad que tu personaje tiene una cicatriz en la ceja. ¿De qué es verdad esa frase, si no hay nadie con esa ceja?",
+   "Los números, las reglas de un juego o las promesas tampoco se pueden tocar. ¿Existen como la costurera, como el personaje o de una tercera manera?"
   ],
-  "ysi": "¿Y si supieras que en esa aldea hay una niña que puede morir de una enfermedad que se cura con muy poco dinero, y que tú podrías pagarlo? ¿Seguiría pesando más Spiderman? Si cambia tu respuesta, lo real no era lo que te importaba, sino lo que te puede pedir algo.",
-  "dato": "«Existir» viene del latín exsistere, «salir, aparecer, sobresalir»: existe lo que está ahí fuera, no solo en una mente. La distinción entre saber qué es algo y saber que existe la desarrollaron Avicena y Tomás de Aquino: puedes saber perfectamente qué es un dragón sin que exista ninguno."
+  "ysi": "¿Y si en la etiqueta vinieran su nombre, su foto y una frase escrita por ella? En ella no habría cambiado nada: ya existía. Solo cambiaría el sitio que ocupa en tu cabeza. Si con eso cambia tu respuesta, quizá no hablabas de lo que existe, sino de lo que tienes delante.",
+  "dato": "El 24 de abril de 2013 se derrumbó el Rana Plaza, un edificio de ocho plantas lleno de talleres de costura a las afueras de Daca, en Bangladés: murieron más de 1.100 personas que cosían ropa para marcas que se vendían en Europa. Hoy Bangladés sigue entre los mayores exportadores de ropa del mundo."
  },
  {
   "subject": "fil",
