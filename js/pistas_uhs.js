@@ -4360,7 +4360,7 @@ const PISTAS = [
       "etiqueta": "Tres contractualistas",
       "titulo": "Del estado de naturaleza al Estado",
       "definicion": [
-       "<strong>Hobbes</strong>: «guerra de todos contra todos» («el hombre es un lobo para el hombre») → por miedo, todos ceden su poder a un soberano → monarquía absoluta (el Leviatán).",
+       "<strong>Hobbes</strong>: «guerra de todos contra todos» («el hombre es un lobo para el hombre», frase de Plauto que él hizo célebre) → por miedo, todos ceden su poder a un soberano → monarquía absoluta (el Leviatán).",
        "<strong>Locke</strong>: paz insegura, con derechos naturales (vida, libertad, propiedad) → pacto limitado → Estado liberal, con división de poderes y derecho a rebelarse contra el tirano.",
        "<strong>Rousseau</strong>: el «buen salvaje» es libre e igual; la sociedad lo corrompe → pacto en el que cada uno se somete a la voluntad general → democracia."
       ],

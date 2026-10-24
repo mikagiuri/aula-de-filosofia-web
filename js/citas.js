@@ -798,6 +798,15 @@ const CITAS = [
   "uso": "Para explicar la distinción de calidades de placer en Mill y su diferencia con Bentham, o en debates sobre felicidad."
  },
  {
+  "c": "Obra de tal modo que los efectos de tu acción sean compatibles con la permanencia de una vida humana auténtica en la Tierra.",
+  "a": "Jonas",
+  "o": "El principio de responsabilidad (1979), cap. 1, V",
+  "e": "contemporanea",
+  "img": "media/retratos/citas/jonas.jpg",
+  "sen": "Jonas formula un nuevo imperativo para la era tecnológica: como nuestro poder puede destruir el futuro, debemos actuar pensando en las generaciones que vendrán.",
+  "uso": "Para explicar la ética de la responsabilidad y su comparación con Kant, o en debates sobre ecología y tecnología."
+ },
+ {
   "c": "Yo soy yo y mi circunstancia, y si no la salvo a ella no me salvo yo.",
   "a": "José Ortega y Gasset",
   "o": "Meditaciones del Quijote (1914), «Lector…»",

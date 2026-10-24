@@ -5845,7 +5845,7 @@ const QUIZZES = {
     "fb": "Fue Hannah Arendt quien analizó el totalitarismo como el poder que anula la libertad, la pluralidad y la vida pública."
    },
    {
-    "q": "La frase «el hombre es un lobo para el hombre» resume el estado de naturaleza según…",
+    "q": "La frase de Plauto «el hombre es un lobo para el hombre», que se hizo célebre en el siglo XVII, resume el estado de naturaleza según…",
     "o": [
      "Hobbes",
      "Locke",
@@ -5853,7 +5853,7 @@ const QUIZZES = {
      "Aristóteles"
     ],
     "a": 0,
-    "fb": "Hobbes describe el estado de naturaleza como una guerra de todos contra todos, en la que «el hombre es un lobo para el hombre»."
+    "fb": "Hobbes, que hizo célebre esta frase de Plauto, describe el estado de naturaleza como una guerra de todos contra todos, en la que «el hombre es un lobo para el hombre»."
    },
    {
     "q": "La idea de una ciudad justa en la que cada parte cumple su función en armonía procede de…",

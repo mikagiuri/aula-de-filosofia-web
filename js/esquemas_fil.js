@@ -1125,7 +1125,7 @@ Object.assign(ESQUEMAS_FIL["FIL-T6-01"], { v2: {
         {
           "rel": "para salir de la",
           "t": "Guerra de todos contra todos",
-          "d": "«El hombre es un lobo para el hombre»: dominan el miedo y la inseguridad."
+          "d": "«El hombre es un lobo para el hombre» (frase de Plauto que popularizó Hobbes): dominan el miedo y la inseguridad."
         }
       ]
     },
