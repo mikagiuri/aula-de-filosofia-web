@@ -1595,6 +1595,834 @@ const DECKS = {
  }
 };
 const QUIZZES = {
+ "fil-t2-ampliacion": {
+  "name": "Convivencia entre culturas y emociones (Filosofía 1.º · T2 · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué modelo de convivencia pide a las minorías dejar atrás su cultura de origen para ser ciudadanos iguales?",
+    "o": [
+     "La integración.",
+     "La asimilación.",
+     "El multiculturalismo.",
+     "El pluralismo intercultural."
+    ],
+    "a": 1,
+    "fb": "La asimilación pide adoptar la cultura mayoritaria; el ejemplo es el modelo republicano francés."
+   },
+   {
+    "q": "¿Qué ejemplo histórico ilustra el modelo de segregación?",
+    "o": [
+     "El apartheid de Sudáfrica (1948-1994).",
+     "La política oficial de Canadá desde 1971.",
+     "El informe Bouchard-Taylor de Quebec (2008).",
+     "Los principios comunes de integración de la UE (2004)."
+    ],
+    "a": 0,
+    "fb": "La segregación hace vivir aparte a cada grupo, con barrios, escuelas y derechos distintos."
+   },
+   {
+    "q": "¿Qué distingue Will Kymlicka para defender derechos diferentes para cada caso?",
+    "o": [
+     "Las culturas antiguas y las modernas.",
+     "Las minorías nacionales y los grupos inmigrantes.",
+     "Las religiones y las lenguas.",
+     "Las ciudades y el campo."
+    ],
+    "a": 1,
+    "fb": "Las minorías nacionales ya vivían en un territorio antes de formar parte de un Estado mayor; los grupos inmigrantes llegaron después."
+   },
+   {
+    "q": "¿Qué preguntó Susan Moller Okin en 1999 sobre el multiculturalismo?",
+    "o": [
+     "Si era demasiado caro para los Estados.",
+     "Si era malo para las mujeres, porque reconocer a un grupo puede proteger costumbres que oprimen a quienes viven dentro de él.",
+     "Si debía aplicarse solo a los inmigrantes.",
+     "Si las lenguas minoritarias debían desaparecer."
+    ],
+    "a": 1,
+    "fb": "Okin señaló que el reconocimiento de un grupo puede reforzar costumbres que oprimen a sus propias mujeres."
+   },
+   {
+    "q": "¿Qué modelo propone un diálogo en el que todas las culturas, también la mayoritaria, cambian al convivir?",
+    "o": [
+     "La asimilación.",
+     "La segregación.",
+     "El pluralismo intercultural.",
+     "La integración."
+    ],
+    "a": 2,
+    "fb": "Es el interculturalismo, con el ejemplo de Quebec (informe Bouchard-Taylor, 2008)."
+   },
+   {
+    "q": "¿Qué diferencia una emoción de un estado de ánimo?",
+    "o": [
+     "La emoción es breve, intensa y tiene un objeto; el estado de ánimo dura más, es difuso y no siempre sabemos a qué se debe.",
+     "No hay diferencia: son sinónimos.",
+     "La emoción dura años y el estado de ánimo, segundos.",
+     "El estado de ánimo siempre tiene un objeto claro."
+    ],
+    "a": 0,
+    "fb": "Me enfado con alguien (emoción); hay días en que estoy irritable sin motivo claro (estado de ánimo)."
+   },
+   {
+    "q": "¿Qué sostuvo William James en 1884 sobre el miedo?",
+    "o": [
+     "Que temblamos porque tenemos miedo.",
+     "Que tenemos miedo porque notamos que temblamos.",
+     "Que el miedo es un juicio equivocado.",
+     "Que el miedo no tiene relación con el cuerpo."
+    ],
+    "a": 1,
+    "fb": "Para James, la emoción es la percepción de los cambios del cuerpo."
+   },
+   {
+    "q": "¿Qué objetó Walter Cannon a James en 1927?",
+    "o": [
+     "Que las emociones son todas aprendidas.",
+     "Que cambios corporales muy parecidos acompañan a emociones distintas, como el miedo y la ira.",
+     "Que solo los animales tienen emociones.",
+     "Que las emociones no se pueden educar."
+    ],
+    "a": 1,
+    "fb": "Si el cuerpo cambia casi igual con el miedo y con la ira, el cuerpo solo no basta para distinguirlas."
+   },
+   {
+    "q": "¿Qué defendió Paul Ekman tras enseñar fotografías de caras a personas de muchas culturas?",
+    "o": [
+     "Que cada cultura tiene emociones completamente distintas.",
+     "Que hay unas emociones básicas universales: alegría, tristeza, miedo, ira, asco y sorpresa.",
+     "Que las emociones las construye el cerebro con los conceptos de cada lengua.",
+     "Que las caras no expresan emociones."
+    ],
+    "a": 1,
+    "fb": "Casi todos reconocían las mismas expresiones, también los fore de Papúa Nueva Guinea. Lisa Feldman Barrett defiende lo contrario."
+   },
+   {
+    "q": "Si las emociones contienen valoraciones, como sostiene Martha Nussbaum, ¿qué se sigue?",
+    "o": [
+     "Que nunca se equivocan.",
+     "Que pueden ser acertadas o equivocadas, y se pueden corregir y educar.",
+     "Que no dependen de lo que pensamos.",
+     "Que solo las tienen los adultos."
+    ],
+    "a": 1,
+    "fb": "Por eso Aristóteles hablaba de sentir miedo o ira cuando se debe y en la medida justa."
+   }
+  ]
+ },
+ "fil-t3-ampliacion": {
+  "name": "Percepción, memoria, posverdad y mujer en la ciencia (Filosofía 1.º · T3 · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué mostró el experimento del gorila de Simons y Chabris (1999)?",
+    "o": [
+     "Que la atención es selectiva: más o menos la mitad no vio al gorila.",
+     "Que todos vemos lo mismo cuando miramos.",
+     "Que los gorilas son difíciles de reconocer en vídeo.",
+     "Que la memoria es un archivo perfecto."
+    ],
+    "a": 0,
+    "fb": "Es la ceguera por falta de atención: mirar no es ver."
+   },
+   {
+    "q": "En el experimento de Loftus y Palmer (1974), ¿qué cambió al preguntar con «se estrellaron» en lugar de «se dieron»?",
+    "o": [
+     "Nada: todos recordaron lo mismo.",
+     "Calcularon más velocidad, y más del doble «recordaba» cristales rotos que no salían en el vídeo.",
+     "Olvidaron por completo el vídeo.",
+     "Se negaron a responder."
+    ],
+    "a": 1,
+    "fb": "Una palabra en la pregunta cambió el recuerdo: la memoria reconstruye."
+   },
+   {
+    "q": "¿Qué estudió Frederic Bartlett con el relato «La guerra de los fantasmas»?",
+    "o": [
+     "Que recordamos a través de esquemas: cada versión salía más corta y más parecida a lo familiar.",
+     "Que los relatos indígenas son imposibles de recordar.",
+     "Que la memoria mejora con el tiempo.",
+     "Que los estudiantes ingleses no leen."
+    ],
+    "a": 0,
+    "fb": "Lo que ya sabemos rellena lo que no retuvimos (Remembering, 1932)."
+   },
+   {
+    "q": "¿Qué sostiene el realismo crítico ante los fallos de la percepción y la memoria?",
+    "o": [
+     "Que no podemos conocer nada.",
+     "Que nuestro acceso a la realidad es parcial y corregible, y hace falta verificación externa.",
+     "Que basta con que el testigo esté muy seguro.",
+     "Que solo la memoria es fiable, no la percepción."
+    ],
+    "a": 1,
+    "fb": "Otros testigos, documentos e instrumentos: la seguridad del recuerdo no garantiza su exactitud."
+   },
+   {
+    "q": "¿Por qué la expresión «hechos alternativos» es un oxímoron?",
+    "o": [
+     "Porque caben interpretaciones alternativas de un hecho, pero no hechos alternativos.",
+     "Porque los hechos no existen.",
+     "Porque la inventó un periodista.",
+     "Porque todos los hechos son falsos."
+    ],
+    "a": 0,
+    "fb": "Si cada grupo tiene «sus» hechos, falta el suelo común sobre el que discrepar."
+   },
+   {
+    "q": "¿Qué advirtió Herbert Simon en 1971 sobre la información?",
+    "o": [
+     "Que la abundancia de información produce escasez de atención.",
+     "Que nunca hay suficiente información.",
+     "Que la información siempre es verdadera.",
+     "Que internet acabaría con la prensa."
+    ],
+    "a": 0,
+    "fb": "Con cientos de titulares al día no da tiempo a comprobar nada: es la sobreinformación o infoxicación."
+   },
+   {
+    "q": "Según Harry Frankfurt, ¿qué distingue al charlatán del mentiroso?",
+    "o": [
+     "Que el charlatán siempre dice cosas falsas.",
+     "Que al charlatán le es indiferente la verdad; el mentiroso aún la tiene en cuenta para esconderla.",
+     "Que el mentiroso es más peligroso.",
+     "Que el charlatán no habla en público."
+    ],
+    "a": 1,
+    "fb": "Para Frankfurt, la charlatanería es un enemigo de la verdad mayor que la mentira (On Bullshit, 1986)."
+   },
+   {
+    "q": "¿Qué diferencia una burbuja de filtros de una cámara de eco?",
+    "o": [
+     "La burbuja la construimos nosotros; la cámara de eco, un algoritmo.",
+     "La burbuja nos la pone un algoritmo y no sabemos qué deja fuera; la cámara de eco la levantamos nosotros y nuestro grupo.",
+     "Son lo mismo.",
+     "La cámara de eco solo existe en la radio."
+    ],
+    "a": 1,
+    "fb": "Eli Pariser llamó burbuja de filtros al efecto de los algoritmos que personalizan lo que vemos (2011)."
+   },
+   {
+    "q": "¿Qué halló un amplio metaanálisis (Ditto y otros, 2019) sobre el razonamiento motivado?",
+    "o": [
+     "Que solo se da en la izquierda.",
+     "Que solo se da en la derecha.",
+     "Que se da en grado parecido en la izquierda y en la derecha.",
+     "Que no existe."
+    ],
+    "a": 2,
+    "fb": "No es cosa de una ideología: razonamos como abogados en todos los lados."
+   },
+   {
+    "q": "¿Qué cambió en España la Real Orden de 8 de marzo de 1910?",
+    "o": [
+     "Que las mujeres pudieron matricularse en la universidad sin pedir permiso.",
+     "Que se prohibió a las mujeres estudiar Medicina.",
+     "Que se creó la primera universidad femenina.",
+     "Que se admitió a la primera mujer en la Real Academia de Ciencias."
+    ],
+    "a": 0,
+    "fb": "Hasta entonces, cada matrícula femenina tenía que consultarse a la superioridad."
+   },
+   {
+    "q": "¿Quién fue la primera doctora en Física de España (1926)?",
+    "o": [
+     "Margarita Salas.",
+     "Concepción Arenal.",
+     "La donostiarra Felisa Martín Bravo.",
+     "María Elena Maseras."
+    ],
+    "a": 2,
+    "fb": "Felisa Martín Bravo fue también la primera mujer del cuerpo estatal de meteorología (1929)."
+   },
+   {
+    "q": "¿Qué describe el efecto Matilda, nombrado por Margaret W. Rossiter en 1993?",
+    "o": [
+     "Que las aportaciones de mujeres se pasan por alto o se atribuyen a colegas varones.",
+     "Que las mujeres reciben más premios que los hombres.",
+     "Que los científicos jóvenes publican más.",
+     "Que las mujeres prefieren no investigar."
+    ],
+    "a": 0,
+    "fb": "Lleva el nombre de la sufragista Matilda Joslyn Gage, que ya en 1870 lo denunció con los inventos."
+   },
+   {
+    "q": "¿Qué mostró el experimento de Moss-Racusin (2012) con el currículum de «John» y «Jennifer»?",
+    "o": [
+     "Que se valoró igual a los dos.",
+     "Que a «John» lo vieron más competente y le ofrecieron más sueldo, siendo el currículum idéntico.",
+     "Que solo los profesores varones discriminaban.",
+     "Que «Jennifer» recibió más ofertas."
+    ],
+    "a": 1,
+    "fb": "Como todo lo demás era idéntico, ahí sí se puede hablar de causa. Lo hicieron profesores y profesoras."
+   },
+   {
+    "q": "«En la I+D de las empresas vascas hay menos mujeres que en la universidad». ¿Qué es esa frase?",
+    "o": [
+     "Una explicación de la discriminación.",
+     "Un dato, compatible con varias explicaciones.",
+     "Una prueba de que a las mujeres no les interesa la industria.",
+     "Una ley."
+    ],
+    "a": 1,
+    "fb": "Un dato dice qué pasa; una explicación, por qué. Una correlación no demuestra una causa."
+   }
+  ]
+ },
+ "fil-metafisica-ampliacion": {
+  "name": "La inteligencia artificial (Filosofía 1.º · tema M · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Dónde y cuándo se considera que nació la inteligencia artificial como disciplina?",
+    "o": [
+     "En el Dartmouth College, en un encuentro celebrado en 1956.",
+     "En Cambridge, con Turing, en 1936.",
+     "En Silicon Valley, en 1997.",
+     "En la Grecia clásica."
+    ],
+    "a": 0,
+    "fb": "John McCarthy propuso el nombre en 1955 al convocar el encuentro con Minsky, Rochester y Shannon."
+   },
+   {
+    "q": "¿En qué se diferencia el aprendizaje automático de la IA simbólica?",
+    "o": [
+     "El aprendizaje automático escribe a mano las reglas.",
+     "La IA simbólica escribe a mano las reglas; el aprendizaje automático ajusta sus parámetros a partir de ejemplos.",
+     "Son lo mismo con dos nombres.",
+     "La IA simbólica solo juega al ajedrez."
+    ],
+    "a": 1,
+    "fb": "La vía simbólica es transparente pero rígida; la del aprendizaje, flexible pero opaca."
+   },
+   {
+    "q": "¿Qué es una IA débil o estrecha?",
+    "o": [
+     "Una IA que funciona mal.",
+     "Un sistema que resuelve una tarea concreta, a veces mejor que cualquier persona.",
+     "Una IA capaz de cualquier tarea intelectual humana.",
+     "Un robot pequeño."
+    ],
+    "a": 1,
+    "fb": "Según la mayoría de los especialistas, toda la IA que existe es estrecha."
+   },
+   {
+    "q": "¿Qué llamó Vernor Vinge «singularidad tecnológica» (1993)?",
+    "o": [
+     "El punto en que, tras una explosión de inteligencia, nuestras previsiones dejarían de servir.",
+     "El primer ordenador personal.",
+     "Un error de programación único.",
+     "La prohibición de la IA."
+    ],
+    "a": 0,
+    "fb": "Partía del razonamiento de I. J. Good (1965); Kurzweil le puso fecha: hacia 2045."
+   },
+   {
+    "q": "¿Qué quiere ilustrar el ejemplo de Nick Bostrom de la IA que fabrica clips?",
+    "o": [
+     "Que las máquinas odian a los humanos.",
+     "Que el peligro sería una IA muy capaz cuyos objetivos no coincidieran con los nuestros.",
+     "Que los clips son peligrosos.",
+     "Que la IA nunca podrá fabricar nada."
+    ],
+    "a": 1,
+    "fb": "Es el problema del control o de la alineación (Superinteligencia, 2014)."
+   }
+  ]
+ },
+ "fil-t4-ampliacion": {
+  "name": "Los sesgos cognitivos (Filosofía 1.º · T4 · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué es un sesgo cognitivo?",
+    "o": [
+     "Un despiste ocasional.",
+     "Una desviación sistemática del juicio que casi todos cometemos en la misma dirección y en las mismas condiciones.",
+     "Un argumento mal construido.",
+     "Una enfermedad mental."
+    ],
+    "a": 1,
+    "fb": "No es un error al azar: se repite siempre en el mismo sentido."
+   },
+   {
+    "q": "Un bate y una pelota cuestan 1,10 euros, y el bate cuesta un euro más que la pelota. ¿Cuánto cuesta la pelota?",
+    "o": [
+     "10 céntimos.",
+     "5 céntimos.",
+     "1 euro.",
+     "55 céntimos."
+    ],
+    "a": 1,
+    "fb": "Si la pelota costara 10 céntimos, el bate costaría 1,10 y el total, 1,20. La respuesta rápida (Sistema 1) falla."
+   },
+   {
+    "q": "¿Qué heurístico actúa cuando, tras ver noticias de accidentes aéreos, el avión nos parece más peligroso que el coche?",
+    "o": [
+     "El anclaje.",
+     "La representatividad.",
+     "La disponibilidad.",
+     "El punto ciego."
+    ],
+    "a": 2,
+    "fb": "Juzgamos lo frecuente por la facilidad con que nos vienen ejemplos a la cabeza."
+   },
+   {
+    "q": "¿En qué se diferencian un sesgo y una falacia?",
+    "o": [
+     "La falacia es un defecto de un argumento; el sesgo, una tendencia de la mente que actúa antes de que haya argumento.",
+     "Son lo mismo.",
+     "El sesgo está en el texto y la falacia en quien lo lee.",
+     "La falacia es siempre inconsciente y el sesgo, intencionado."
+    ],
+    "a": 0,
+    "fb": "En corto: la falacia está en el texto; el sesgo, en quien lo escribe o lo lee."
+   },
+   {
+    "q": "¿Qué mostró Peter Wason (1960) con la serie 2-4-6?",
+    "o": [
+     "Que casi todos probaban series que confirmaban su hipótesis y casi nadie una que pudiera desmentirla.",
+     "Que nadie sabe sumar de dos en dos.",
+     "Que la regla era «números pares».",
+     "Que las matemáticas no tienen sesgos."
+    ],
+    "a": 0,
+    "fb": "Es el sesgo de confirmación. La regla era «cualquier serie creciente»."
+   },
+   {
+    "q": "¿Qué defiende Gerd Gigerenzer sobre los heurísticos?",
+    "o": [
+     "Que son siempre irracionales.",
+     "Que muchos son racionales en su ambiente: reglas rápidas y frugales que aciertan tanto o más que un cálculo complicado.",
+     "Que hay que eliminarlos por completo.",
+     "Que solo los usan los niños."
+    ],
+    "a": 1,
+    "fb": "El problema aparece cuando el atajo se usa fuera del terreno en el que sirve."
+   }
+  ]
+ },
+ "fil-t5-ampliacion": {
+  "name": "Virtud, estoicismo, deber y ética aplicada (Filosofía 1.º · T5 · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Qué responde Rosalind Hursthouse a la objeción de que la ética de la virtud no dice qué hacer?",
+    "o": [
+     "Que cada virtud y cada vicio ya dan una pauta, y que las demás teorías también necesitan juicio para aplicarse.",
+     "Que la ética de la virtud no tiene que decir qué hacer.",
+     "Que basta con seguir el imperativo de Kant.",
+     "Que hay que obedecer a la mayoría."
+    ],
+    "a": 0,
+    "fb": "Sé honesto, no seas cruel, no seas cobarde: cada virtud orienta."
+   },
+   {
+    "q": "¿Qué sostiene la objeción situacionista contra la ética de la virtud?",
+    "o": [
+     "Que las virtudes cambian según la cultura.",
+     "Que el carácter estable quizá no existe y que nos mueve la situación.",
+     "Que la virtud no da pautas.",
+     "Que las virtudes chocan entre sí."
+    ],
+    "a": 1,
+    "fb": "Se apoya en experimentos como el de la moneda de Isen y Levin (1972) o el de Milgram."
+   },
+   {
+    "q": "¿Cómo contesta Martha Nussbaum a la objeción de la relatividad cultural de las virtudes?",
+    "o": [
+     "Que todas las culturas tienen las mismas costumbres.",
+     "Que, aunque los nombres cambien, todas las culturas afrontan las mismas experiencias, y la virtud es la manera acertada de afrontar cada una.",
+     "Que solo valen las virtudes griegas.",
+     "Que la virtud no existe."
+    ],
+    "a": 1,
+    "fb": "El miedo a la muerte, el reparto de los bienes, el trato con los placeres."
+   },
+   {
+    "q": "¿Qué comprobaron Alice Isen y Paula Levin en un experimento de 1972?",
+    "o": [
+     "Que quien acababa de encontrar una moneda en una cabina ayudaba mucho más a recoger unos papeles caídos.",
+     "Que las personas virtuosas ayudan siempre, pase lo que pase.",
+     "Que nadie ayuda a un desconocido.",
+     "Que el dinero hace a la gente más egoísta."
+    ],
+    "a": 0,
+    "fb": "Es uno de los experimentos en que se apoya el situacionismo: un detalle de la situación cambia la conducta."
+   },
+   {
+    "q": "Para los estoicos, ¿qué es lo único verdaderamente bueno?",
+    "o": [
+     "La salud.",
+     "El dinero.",
+     "Tener un carácter excelente, la virtud.",
+     "El placer."
+    ],
+    "a": 2,
+    "fb": "Lo demás (salud, dinero, éxito) es indiferente: no nos hace mejores ni peores personas."
+   },
+   {
+    "q": "¿Cuáles son las cuatro caras de la virtud estoica?",
+    "o": [
+     "Sabiduría práctica, valentía, justicia y templanza.",
+     "Fe, esperanza, caridad y prudencia.",
+     "Riqueza, salud, fama y poder.",
+     "Placer, amistad, ciencia y arte."
+    ],
+    "a": 0,
+    "fb": "Phrónēsis, andreía, dikaiosýnē y sōphrosýnē."
+   },
+   {
+    "q": "¿Qué es una pasión para Crisipo?",
+    "o": [
+     "Un juicio, y además equivocado.",
+     "Un temblor del cuerpo sin contenido.",
+     "Un regalo de los dioses.",
+     "Una virtud."
+    ],
+    "a": 0,
+    "fb": "La ira, por ejemplo, es creer que alguien me ha hecho un daño injusto y que merece pagarlo."
+   },
+   {
+    "q": "¿Qué propone William Irvine frente a la división estoica entre lo que controlo y lo que no?",
+    "o": [
+     "Una tercera casilla: lo que controlamos en parte.",
+     "Eliminar la división.",
+     "Controlarlo todo.",
+     "No preocuparse de nada."
+    ],
+    "a": 0,
+    "fb": "La nota de un examen no depende solo de mí, pero tampoco es ajena a lo que estudio."
+   },
+   {
+    "q": "Un tendero cobra el precio justo a un niño solo porque le conviene tener fama de honrado. Según Kant, ¿cómo actúa?",
+    "o": [
+     "Por deber, y su acción tiene valor moral.",
+     "Conforme al deber, pero su acción no tiene valor moral.",
+     "Contra el deber.",
+     "Por inclinación, y por eso tiene más valor moral."
+    ],
+    "a": 1,
+    "fb": "Solo tiene valor moral actuar por deber, porque es lo que debe hacerse."
+   },
+   {
+    "q": "¿Qué muestra el caso del juez de McCloskey (1957)?",
+    "o": [
+     "Que hay que condenar al inocente para salvar vidas.",
+     "Que las normas del deber son límites a lo que podemos hacer, no metas que haya que maximizar.",
+     "Que los jueces deben obedecer a la multitud.",
+     "Que la justicia no existe."
+    ],
+    "a": 1,
+    "fb": "La cuenta de vidas parece favorecer la condena, pero casi todos sentimos que el juez no puede hacerlo."
+   },
+   {
+    "q": "¿Cuál de estos rasgos pertenece a la estructura de las éticas del deber?",
+    "o": [
+     "Hay que maximizar siempre el bien de todos.",
+     "Importa la diferencia entre hacer un daño y no evitarlo.",
+     "Solo cuentan las consecuencias.",
+     "No existen permisos para ocuparse de la propia vida."
+    ],
+    "a": 1,
+    "fb": "Además, hay permisos para la propia vida, y algunos admiten que ante una catástrofe el límite puede ceder."
+   },
+   {
+    "q": "Para Kant, ¿dónde está lo que hace buena una acción?",
+    "o": [
+     "En sus consecuencias, que se ven desde fuera.",
+     "En la máxima con la que se hace: no se ve desde fuera.",
+     "En la opinión de los demás.",
+     "En que salga bien."
+    ],
+    "a": 1,
+    "fb": "Por eso el tendero honrado por interés actúa conforme al deber, pero no por deber."
+   },
+   {
+    "q": "¿Qué hace falta para que un problema sea de ética aplicada?",
+    "o": [
+     "Que salga en el periódico.",
+     "Un desacuerdo razonable entre personas informadas y de buena fe, que no se resuelva con mirar la ley.",
+     "Que sea ilegal.",
+     "Que afecte solo a científicos."
+    ],
+    "a": 1,
+    "fb": "Algo puede ser legal y discutible moralmente, o ilegal y defendible."
+   },
+   {
+    "q": "¿Qué postura medioambiental extiende la consideración moral a la comunidad entera de suelos, aguas, plantas y animales?",
+    "o": [
+     "El antropocentrismo.",
+     "El biocentrismo de Paul Taylor.",
+     "El ecocentrismo de Aldo Leopold.",
+     "El utilitarismo."
+    ],
+    "a": 2,
+    "fb": "Para Leopold, una acción es buena si protege el equilibrio de esa comunidad (Almanaque del condado arenoso, 1949)."
+   },
+   {
+    "q": "¿Qué imperativo nuevo propuso Hans Jonas (El principio de responsabilidad, 1979)?",
+    "o": [
+     "Actuar de modo que la vida humana pueda seguir existiendo en la Tierra.",
+     "Actuar siempre según el propio interés.",
+     "Obedecer la ley sin excepción.",
+     "Maximizar el crecimiento económico."
+    ],
+    "a": 0,
+    "fb": "La técnica moderna puede dañar a quienes aún no han nacido."
+   },
+   {
+    "q": "Según Milton Friedman (1970), ¿cuál es la única responsabilidad social de una empresa?",
+    "o": [
+     "Atender a todos los grupos de interés.",
+     "Ganar dinero dentro de la ley.",
+     "Donar sus beneficios.",
+     "Generar confianza."
+    ],
+    "a": 1,
+    "fb": "Frente a él, R. Edward Freeman (1984) defendió que responde ante todos los grupos de interés a los que afecta."
+   },
+   {
+    "q": "¿Qué concluye Peter Singer (1972) del caso del niño que se ahoga en un estanque?",
+    "o": [
+     "Que solo tenemos deberes con quienes están cerca.",
+     "Que también deberíamos dar parte de nuestro dinero para salvar a niños lejanos, porque la distancia no cambia nada moralmente.",
+     "Que la ropa importa más que una vida.",
+     "Que la pobreza no es un problema moral."
+    ],
+    "a": 1,
+    "fb": "Sus críticos responden desde lados distintos; Thomas Pogge apunta a las reglas del comercio internacional."
+   }
+  ]
+ },
+ "fil-t6-ampliacion": {
+  "name": "Estado y nación, democracia, derechos humanos y movimientos sociales (Filosofía 1.º · T6 · ampliación)",
+  "subject": "fil",
+  "items": [
+   {
+    "q": "¿Cuál de estos términos nombra una realidad jurídica: un poder soberano sobre un territorio y una población, con sus instituciones?",
+    "o": [
+     "La nación.",
+     "La patria.",
+     "El Estado.",
+     "El país."
+    ],
+    "a": 2,
+    "fb": "La nación es cultural; la patria, emocional; el país, sobre todo territorial."
+   },
+   {
+    "q": "¿Qué nombra la patria?",
+    "o": [
+     "Una institución del Estado.",
+     "El vínculo afectivo con una comunidad, el sentirse de un lugar.",
+     "Un territorio en el mapa.",
+     "Una ley fundamental."
+    ],
+    "a": 1,
+    "fb": "Es el plano emocional, distinto del legal, el territorial y el cultural."
+   },
+   {
+    "q": "¿Qué suponía el Estado-nación moderno?",
+    "o": [
+     "Que a cada nación debía corresponder un Estado.",
+     "Que los Estados no deben tener fronteras.",
+     "Que las naciones no existen.",
+     "Que cada ciudad es un Estado."
+    ],
+    "a": 0,
+    "fb": "La realidad casi nunca encaja: hay Estados plurinacionales y naciones repartidas entre varios Estados o sin Estado propio."
+   },
+   {
+    "q": "¿Qué muestra el caso de la cultura vasca a uno y otro lado de la frontera franco-española?",
+    "o": [
+     "Que los límites culturales y los políticos no tienen por qué ir juntos.",
+     "Que toda nación tiene ya su propio Estado.",
+     "Que las fronteras siguen siempre a las lenguas.",
+     "Que la cultura vasca no existe en Francia."
+    ],
+    "a": 0,
+    "fb": "Separar los planos ayuda a discutir con más calma un debate político abierto y legítimo por todos sus lados."
+   },
+   {
+    "q": "¿Qué rasgo de la democracia liberal se opone a la impunidad?",
+    "o": [
+     "El pluralismo.",
+     "La rendición de cuentas.",
+     "La representación.",
+     "Las elecciones periódicas."
+    ],
+    "a": 1,
+    "fb": "Quien manda responde de lo que hace."
+   },
+   {
+    "q": "¿Qué significa «mayoría con derechos de las minorías»?",
+    "o": [
+     "Que gobierna la minoría.",
+     "Que gobierna quien gana, pero sin aplastar a quien pierde.",
+     "Que la mayoría puede decidir cualquier cosa.",
+     "Que no se vota."
+    ],
+    "a": 1,
+    "fb": "Es uno de los rasgos que distinguen a una democracia liberal."
+   },
+   {
+    "q": "¿Qué rasgo de la democracia liberal se opone al partido único?",
+    "o": [
+     "El pluralismo.",
+     "El imperio de la ley.",
+     "La sociedad civil.",
+     "La rendición de cuentas."
+    ],
+    "a": 0,
+    "fb": "Pluralismo: compiten muchos partidos y opiniones."
+   },
+   {
+    "q": "¿Qué rasgo de la democracia liberal se opone al cargo vitalicio o heredado?",
+    "o": [
+     "Las elecciones libres y periódicas.",
+     "El imperio de la ley.",
+     "El pluralismo.",
+     "La sociedad civil activa."
+    ],
+    "a": 0,
+    "fb": "Y con la representación, la ciudadanía elige a quienes deciden y puede cambiarlos."
+   },
+   {
+    "q": "¿Qué proclama el artículo 1 de la Declaración Universal de Derechos Humanos?",
+    "o": [
+     "Que todos nacemos libres e iguales en dignidad y derechos.",
+     "El derecho al trabajo.",
+     "La prohibición de la guerra.",
+     "La soberanía de cada Estado."
+    ],
+    "a": 0,
+    "fb": "El artículo 2 prohíbe la discriminación."
+   },
+   {
+    "q": "¿Qué recogen los artículos 22 a 27 de la Declaración?",
+    "o": [
+     "Derechos civiles y políticos.",
+     "Derechos económicos, sociales y culturales.",
+     "Los deberes de los Estados.",
+     "El preámbulo."
+    ],
+    "a": 1,
+    "fb": "Trabajo, educación, salud, vida cultural. Los artículos 3 a 21 recogen los civiles y políticos."
+   },
+   {
+    "q": "¿Por qué la Declaración de 1948 no obliga jurídicamente por sí sola a los Estados?",
+    "o": [
+     "Porque es una resolución de la Asamblea General, no un tratado.",
+     "Porque nadie la votó.",
+     "Porque caducó en 1966.",
+     "Porque solo es válida en Europa."
+    ],
+    "a": 0,
+    "fb": "La Declaración inspira y los pactos obligan."
+   },
+   {
+    "q": "¿Qué se aprobó en 1966 para que los derechos obligaran a los Estados que los ratifican?",
+    "o": [
+     "Una nueva Declaración Universal.",
+     "Dos pactos: uno de derechos civiles y políticos y otro de derechos económicos, sociales y culturales.",
+     "Una constitución mundial.",
+     "Un tribunal europeo."
+    ],
+    "a": 1,
+    "fb": "Los pactos sí son tratados."
+   },
+   {
+    "q": "¿Qué propuso la Declaración de El Cairo (1990)?",
+    "o": [
+     "Leer los derechos humanos a la luz de la ley islámica.",
+     "Abolir los derechos humanos.",
+     "Reafirmar su universalidad sin matices.",
+     "Subrayar los valores asiáticos."
+    ],
+    "a": 0,
+    "fb": "La Declaración de Bangkok (1993) subrayó los llamados valores asiáticos y la soberanía de cada Estado."
+   },
+   {
+    "q": "¿Qué reafirmó la Conferencia de Viena en 1993?",
+    "o": [
+     "Que los derechos son universales, aunque haya que aplicarlos atendiendo a cada contexto.",
+     "Que cada Estado elige sus derechos.",
+     "Que la Declaración de 1948 quedaba anulada.",
+     "Que solo valen los derechos civiles."
+    ],
+    "a": 0,
+    "fb": "Fue la respuesta a las declaraciones de El Cairo y Bangkok."
+   },
+   {
+    "q": "¿Qué pregunta filosófica late debajo del debate sobre la universalidad de los derechos?",
+    "o": [
+     "En qué se fundan los derechos y si algo puede obligar a todos sin un fundamento compartido.",
+     "Cuántos artículos debe tener una declaración.",
+     "Qué idioma es el oficial de la ONU.",
+     "Quién ganó la Segunda Guerra Mundial."
+    ],
+    "a": 0,
+    "fb": "¿En la naturaleza humana, en un acuerdo, en la dignidad? Enlaza con el relativismo moral del Tema 5."
+   },
+   {
+    "q": "¿Qué subrayó la Declaración de Bangkok (1993)?",
+    "o": [
+     "Los llamados valores asiáticos y la soberanía de cada Estado frente a una lista común.",
+     "La lectura de los derechos según la ley islámica.",
+     "La universalidad de los derechos sin matices.",
+     "La abolición de la pena de muerte."
+    ],
+    "a": 0,
+    "fb": "La lectura según la ley islámica era la de El Cairo (1990); Viena (1993) reafirmó la universalidad."
+   },
+   {
+    "q": "¿Qué son los movimientos sociales?",
+    "o": [
+     "Partidos políticos con representación parlamentaria.",
+     "Organizaciones de gente desde fuera de las instituciones para cambiar leyes y costumbres.",
+     "Departamentos del gobierno.",
+     "Empresas sin ánimo de lucro."
+    ],
+    "a": 1,
+    "fb": "Sufragismo, derechos civiles, ecologismo, feminismo, movimiento obrero."
+   },
+   {
+    "q": "¿Qué rasgos tiene la desobediencia civil?",
+    "o": [
+     "Es secreta, violenta y busca el provecho propio.",
+     "Es pública, no violenta y deliberada, y quien la practica acepta la sanción.",
+     "Solo la practican los gobiernos.",
+     "Consiste en no votar."
+    ],
+    "a": 1,
+    "fb": "Busca interpelar a la conciencia de la mayoría para cambiar una ley que se considera injusta."
+   },
+   {
+    "q": "¿Por qué se negó Thoreau a pagar un impuesto?",
+    "o": [
+     "Porque sostenía la esclavitud y la guerra.",
+     "Porque no tenía dinero.",
+     "Porque quería quedarse con él.",
+     "Porque no le gustaba el alcalde."
+    ],
+    "a": 0,
+    "fb": "Gandhi y Martin Luther King convirtieron después la desobediencia civil en estrategia de masas."
+   },
+   {
+    "q": "¿Qué distingue la desobediencia civil del delito común?",
+    "o": [
+     "Que no busca el provecho propio ni esconderse, sino cambiar una norma apelando a principios compartidos.",
+     "Que no tiene consecuencias.",
+     "Que siempre triunfa.",
+     "Que la hacen solo los jóvenes."
+    ],
+    "a": 0,
+    "fb": "Si debe obedecerse siempre la ley, o cuándo es legítimo desobedecerla, es un debate abierto."
+   }
+  ]
+ },
  "fil-t7": {
   "name": "¿Qué es el arte? · Estética (Filosofía 1.º · T7)",
   "subject": "fil",
