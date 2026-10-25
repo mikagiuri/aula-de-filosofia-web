@@ -4705,7 +4705,7 @@ const QUIZZES = {
     "o": [
      "Con la de Tales: pedir razones y no aceptar la autoridad.",
      "Con la del Escriba: el saber es orden a imitación del cielo.",
-     "Con la del Escriba: la igualdad de los hombres es una falsedad.",
+     "Con la del Escriba: la igualdad de los seres humanos es una falsedad.",
      "Con la de los egipcios: el mito dictado por un poder supremo."
     ],
     "a": 0,
@@ -4720,7 +4720,7 @@ const QUIZZES = {
      "En que sus dioses son más poderosos que el Dios de la Luz de Egipto."
     ],
     "a": 1,
-    "fb": "Tales dice que solo se creen superiores por no creer en civilizaciones superiores: el Logos es único en todos los hombres."
+    "fb": "Tales dice que solo se creen superiores por no creer en civilizaciones superiores: el Logos es único en todos los seres humanos."
    }
   ]
  },
@@ -4751,7 +4751,7 @@ const QUIZZES = {
     "fb": "La antropología cultural describe pueblos y costumbres mediante la observación; la filosófica busca, con conceptos y argumentos, lo que nos define como humanos."
    },
    {
-    "q": "¿Quién afirmó que «el hombre es la medida de todas las cosas»?",
+    "q": "¿Quién afirmó que «el ser humano es la medida de todas las cosas»?",
     "o": [
      "Aristóteles",
      "Kant",
@@ -4762,7 +4762,7 @@ const QUIZZES = {
     "fb": "La frase es del sofista Protágoras, que situó al ser humano en el centro de la reflexión ya en la Antigüedad."
    },
    {
-    "q": "¿Qué quiere decir la frase «el hombre es la medida de todas las cosas»?",
+    "q": "¿Qué quiere decir la frase «el ser humano es la medida de todas las cosas»?",
     "o": [
      "Que el ser humano es el ser vivo más grande y perfecto de toda la naturaleza",
      "Que no hay un criterio absoluto de verdad: las cosas son como a cada uno, o a cada comunidad, le parecen",
@@ -5072,7 +5072,7 @@ const QUIZZES = {
    {
     "q": "Una empresa prueba un medicamento en sus empleados sin informarles, solo para ahorrar costes. ¿Qué idea del tema explica mejor por qué es inaceptable?",
     "o": [
-     "Que el hombre es la medida de todas las cosas, como decía Protágoras",
+     "Que el ser humano es la medida de todas las cosas, como decía Protágoras",
      "Que la cultura es una segunda matriz en la que el ser humano se forma",
      "Que la persona es un fin en sí misma, nunca un simple medio",
      "Que en el ser humano la existencia precede siempre a la esencia"
@@ -5351,7 +5351,7 @@ const QUIZZES = {
     "fb": "Quien afirma que no se puede conocer nada está afirmando algo muy seguro sobre el conocimiento, justo lo que dice que es imposible."
    },
    {
-    "q": "La frase «El hombre es la medida de todas las cosas» es de…",
+    "q": "La frase «El ser humano es la medida de todas las cosas» es de…",
     "o": [
      "Platón, y expresa el dogmatismo",
      "Pirrón de Elis, y expresa el escepticismo",

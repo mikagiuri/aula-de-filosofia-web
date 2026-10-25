@@ -205,13 +205,13 @@ const DILEMAS = [
    {
     "quien": "Rousseau",
     "elige": "B",
-    "porque": "El hombre nace bueno y libre y la sociedad lo encadena; el niño del bosque no es un defecto de humanidad sino una muestra de lo que somos antes de que nos deformen.",
+    "porque": "El ser humano nace bueno y libre y la sociedad lo encadena; el niño del bosque no es un defecto de humanidad sino una muestra de lo que somos antes de que nos deformen.",
     "biografia": "rousseau"
    },
    {
     "quien": "Kant",
     "elige": "A",
-    "porque": "El hombre es la única criatura que debe ser educada; solo por la educación puede llegar a ser hombre. No hay humanidad sin disciplina y cultura.",
+    "porque": "El ser humano es la única criatura que debe ser educada; solo por la educación puede llegar a ser humano. No hay humanidad sin disciplina y cultura.",
     "biografia": "kant"
    },
    {
@@ -320,7 +320,7 @@ const DILEMAS = [
    {
     "quien": "Aristóteles",
     "elige": "B",
-    "porque": "La persona virtuosa no decide con una fórmula sino con el carácter: hay acciones que un hombre bueno no realiza, y empujar a un inocente es una de ellas, aunque el resultado sea mejor.",
+    "porque": "La persona virtuosa no decide con una fórmula sino con el carácter: hay acciones que un ser humano bueno no realiza, y empujar a un inocente es una de ellas, aunque el resultado sea mejor.",
     "biografia": "aristoteles"
    },
    {

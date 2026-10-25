@@ -1092,7 +1092,7 @@ const ILUSTRACIONES = [
  {
   "f": "media/retratos/museo2/boecio.jpg",
   "t": "Boecio y la rueda de la Fortuna",
-  "pie": "Miniatura de una edición francesa de La consolación de la filosofía: Boecio conversa con dos figuras femeninas junto a la rueda de la Fortuna, que sube y baja a los hombres. La obra se pregunta cómo encaja la libertad humana con el destino y con un Dios que lo sabe todo.",
+  "pie": "Miniatura de una edición francesa de La consolación de la filosofía: Boecio conversa con dos figuras femeninas junto a la rueda de la Fortuna, que sube y baja a los seres humanos. La obra se pregunta cómo encaja la libertad humana con el destino y con un Dios que lo sabe todo.",
   "tema": "fil-metafisica",
   "license": "Dominio público",
   "artist": ""

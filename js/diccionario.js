@@ -950,7 +950,7 @@ const DICCIONARIO = [
   "subject": "fil",
   "t": "Ad hominem",
   "id": "g-fil-ad-hominem",
-  "et": "Del latín: «contra el hombre», es decir, contra la persona y no contra lo que dice. Aristóteles ya distingue entre responder πρὸς τὸν λόγον (*pròs tòn lógon*), «al argumento», y πρὸς τὸν ἄνθρωπον (*pròs tòn ánthropon*), «a la persona» (*Refutaciones sofísticas* 22), aunque allí se trata de dirigirse al interlocutor, no de atacarlo.",
+  "et": "Del latín: «contra el ser humano», es decir, contra la persona y no contra lo que dice. Aristóteles ya distingue entre responder πρὸς τὸν λόγον (*pròs tòn lógon*), «al argumento», y πρὸς τὸν ἄνθρωπον (*pròs tòn ánthropon*), «a la persona» (*Refutaciones sofísticas* 22), aunque allí se trata de dirigirse al interlocutor, no de atacarlo.",
   "area": "Lógica",
   "tema": "Taller de argumentación",
   "def": "Atacar a la persona que argumenta en vez de rebatir sus razones."

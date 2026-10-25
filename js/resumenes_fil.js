@@ -384,7 +384,7 @@ const RESUMENES_FIL = [
       "d": "cuerpo y mente, biología y cultura, individuo y sociedad, condicionamiento y libertad; ninguna respuesta ha cerrado el debate"
      },
      {
-      "t": "«El hombre es la medida de todas las cosas»",
+      "t": "«El ser humano es la medida de todas las cosas»",
       "d": "hoy se lee en clave humanista, pero es una lectura moderna: hablaba de la verdad y es una tesis relativista",
       "a": "Protágoras"
      }

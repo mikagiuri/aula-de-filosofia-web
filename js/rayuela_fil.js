@@ -108,8 +108,8 @@ const RAYUELA_FIL = {
    "red": 1,
    "linea": "l-conocimiento",
    "xy": [9.6, 11.6],
-   "titulo": "El hombre, medida de todas las cosas",
-   "texto": "Protágoras, el sofista más famoso de Atenas, sostenía que «el hombre es la medida de todas las cosas»: el mismo viento es frío para quien tirita y agradable para quien viene de correr. ¿Vale eso también para la verdad?",
+   "titulo": "El ser humano, medida de todas las cosas",
+   "texto": "Protágoras, el sofista más famoso de Atenas, sostenía que «el ser humano es la medida de todas las cosas»: el mismo viento es frío para quien tirita y agradable para quien viene de correr. ¿Vale eso también para la verdad?",
    "pregunta": "¿Hay verdades que valen para todos?",
    "opciones": [
     { "t": "No: cada uno, o cada cultura, tiene su verdad.", "to": "90", "marca": "m-relativismo" },

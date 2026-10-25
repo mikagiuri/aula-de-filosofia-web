@@ -829,7 +829,7 @@ const PISTAS = [
       ],
       "comprobacion": {
        "boton": "Terminar comprobando",
-       "pregunta": "Un hombre con amnesia total no recuerda nada de su vida. ¿Qué problema le crea esto al criterio de la memoria?",
+       "pregunta": "Un ser humano con amnesia total no recuerda nada de su vida. ¿Qué problema le crea esto al criterio de la memoria?",
        "opciones": [
         [
          "Parecería que ya no es la persona que vivió esa vida, y eso suena absurdo.",
@@ -1516,7 +1516,7 @@ const PISTAS = [
       "etiqueta": "Ejemplos",
       "titulo": "Tres respuestas al problema",
       "definicion": [
-       "<strong>Determinismo duro</strong>: todo está determinado, y por eso la libertad es una ilusión. Spinoza decía que los hombres se creen libres porque conocen sus acciones pero ignoran sus causas (<em>Ética</em> I, apéndice).",
+       "<strong>Determinismo duro</strong>: todo está determinado, y por eso la libertad es una ilusión. Spinoza decía que los seres humanos se creen libres porque conocen sus acciones pero ignoran sus causas (<em>Ética</em> I, apéndice).",
        "<strong>Libertarismo</strong>: las decisiones humanas no están del todo determinadas; en ellas hay algo que no se reduce a causas anteriores.",
        "<strong>Compatibilismo</strong>: todo tiene causas, y aun así somos libres, porque ser libre no es actuar sin causa, sino actuar sin coacción."
       ],
@@ -2757,7 +2757,7 @@ const PISTAS = [
     "pistas": [
      "Para aterrizar: hay frases que hablan de <em>nuestros gustos o sensaciones</em> («está muy salada»). En esas, que cada uno tenga su verdad es razonable: en realidad hablan de cada uno.",
      "Otras hablan de <em>cómo es el mundo</em> («el agua hierve a 100 °C al nivel del mar»). Esas no cambian según quién las diga: o el agua hierve a esa temperatura o no.",
-     "El sofista Protágoras decía que «el hombre es la medida de todas las cosas». En el <em>Teeteto</em>, Platón le pone una trampa: si todo lo que cada uno cree es verdad para él, también es verdad la creencia de quien piensa que Protágoras se equivoca.",
+     "El sofista Protágoras decía que «el ser humano es la medida de todas las cosas». En el <em>Teeteto</em>, Platón le pone una trampa: si todo lo que cada uno cree es verdad para él, también es verdad la creencia de quien piensa que Protágoras se equivoca.",
      "Es el problema del <strong>relativismo</strong> radical: la frase «toda verdad es relativa» quiere ser verdad para todos, y así se <strong>contradice a sí misma</strong>. Eso no hace ciertas todas nuestras opiniones, pero muestra que no todo es cuestión de perspectiva."
     ],
     "comprobacion": {
