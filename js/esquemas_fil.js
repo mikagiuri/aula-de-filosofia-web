@@ -1518,4 +1518,142 @@ Object.assign(ESQUEMAS_FIL["FIL-HEL-01"], { v2: {
   ],
   "idea": "Una misma pregunta, cuatro respuestas: gozar del momento, gozar con medida, aceptar lo que no depende de mí o necesitar lo mínimo."
 } });
+/* ===== Esquemas v3 (02-11-2026): versión nueva de un esquema que ya tenía v2. El v2 se conserva tal cual
+   (no se sobrescribe; qué se retira lo decide el profesor) y la vista usa el v3 si existe. Mismo formato que el v2. ===== */
+Object.assign(ESQUEMAS_FIL["FIL-T1-01"], { v3: {
+  "pregunta": "¿Qué tipo de saber es la filosofía, cómo ha llegado hasta hoy y cómo se trabaja?",
+  "raiz": "LA FILOSOFÍA",
+  "raiz_d": "Philía (amor) + sophía (sabiduría): amor a la sabiduría. Quien filosofa no posee la verdad: la desea y la busca.",
+  "ramas": [
+    {
+      "rel": "nace del asombro con el paso",
+      "t": "Del mito al logos",
+      "k": true,
+      "a": "Tales de Mileto",
+      "d": "Grecia, s. VI a. C.: de los relatos sobre dioses a las explicaciones con razones.",
+      "c": [
+        {
+          "rel": "deja atrás",
+          "t": "El mito",
+          "d": "Relato tradicional que se acepta sin discutir: todo depende de la voluntad de los dioses."
+        },
+        {
+          "rel": "adopta",
+          "t": "El logos",
+          "d": "Busca el principio (arché) de la naturaleza con argumentos que cualquiera puede examinar."
+        }
+      ]
+    },
+    {
+      "rel": "entre los tipos de saber",
+      "t": "Un saber de las causas últimas",
+      "k": true,
+      "d": "Los tres saberes no se excluyen: se complementan.",
+      "c": [
+        {
+          "rel": "no es el",
+          "t": "Saber común",
+          "d": "Espontáneo y útil en la vida diaria, pero poco reflexivo: tiende al prejuicio. «El fuego quema»."
+        },
+        {
+          "rel": "ni el",
+          "t": "Saber científico",
+          "d": "Busca causas próximas observando y experimentando, pero en una parcela de la realidad. «El agua es H₂O»."
+        },
+        {
+          "rel": "sino el",
+          "t": "Saber filosófico",
+          "k": true,
+          "d": "Busca los primeros principios y una visión de la realidad en su conjunto (cosmovisión).",
+          "c": [
+            {
+              "rel": "por su método",
+              "t": "Racional y crítico",
+              "d": "Argumenta en vez de apelar a la autoridad y lo examina todo, también sus propias ideas."
+            },
+            {
+              "rel": "por su alcance",
+              "t": "Radical y universal",
+              "d": "Va a la raíz de los problemas y se pregunta por toda la realidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rel": "se divide en ramas y dialoga",
+      "t": "Con los otros saberes",
+      "d": "Las ramas se ven en el esquema «Las ramas de la filosofía».",
+      "c": [
+        {
+          "rel": "con la ciencia",
+          "t": "Describir no es prescribir",
+          "d": "La ciencia dice cómo son las cosas; la filosofía pregunta por los conceptos y por cómo deben ser."
+        },
+        {
+          "rel": "con la religión",
+          "t": "Las mismas preguntas, otro método",
+          "d": "Comparten las grandes preguntas, pero la religión responde desde la fe y la filosofía, desde la razón."
+        }
+      ]
+    },
+    {
+      "rel": "a lo largo de la historia",
+      "t": "Cuatro grandes etapas",
+      "k": true,
+      "d": "Una etapa no borra las anteriores.",
+      "c": [
+        {
+          "rel": "s. VI a. C. – s. V",
+          "t": "Antigua: la naturaleza y el ser humano",
+          "a": "Sócrates, Platón, Aristóteles"
+        },
+        {
+          "rel": "s. V – s. XV",
+          "t": "Medieval: razón y fe",
+          "a": "Agustín de Hipona, Tomás de Aquino"
+        },
+        {
+          "rel": "s. XV – s. XVIII",
+          "t": "Moderna: el conocimiento",
+          "a": "Descartes, Hume, Kant"
+        },
+        {
+          "rel": "s. XIX – s. XXI",
+          "t": "Contemporánea: muchas corrientes",
+          "a": "Marx, Nietzsche, Arendt, Zambrano"
+        }
+      ]
+    },
+    {
+      "rel": "hoy sirve y se practica",
+      "t": "Funciones y método",
+      "c": [
+        {
+          "rel": "cumple tres",
+          "t": "Funciones",
+          "d": "Crítica (pensar por uno mismo), orientación (cómo podría ser el mundo) y búsqueda de sentido."
+        },
+        {
+          "rel": "se aprende al",
+          "t": "Comentar un texto",
+          "d": "Tema, tesis, argumentos y opinión razonada."
+        },
+        {
+          "rel": "y en el",
+          "t": "Diálogo argumentativo",
+          "d": "Gana la mejor razón, no quien más grita ni quien más manda."
+        }
+      ]
+    }
+  ],
+  "cruces": [
+    {
+      "de": "El logos",
+      "rel": "se ejercita hoy en el",
+      "a": "Diálogo argumentativo"
+    }
+  ],
+  "idea": "La filosofía busca las causas últimas con razones: nació del asombro en Grecia, dialoga con la ciencia y la religión y se aprende filosofando, al comentar textos y discutir con argumentos."
+} });
 /* ===== fin de los esquemas v2 ===== */
