@@ -79,9 +79,9 @@ const WEEK = [
 const SUBJECTS = {
  "fil": {
   "name": "Filosofía",
-  "kick": "1.º de Bachillerato · Temas 1-3",
+  "kick": "1.º de Bachillerato",
   "color": "var(--fil)",
-  "intro": "«¿Qué es la filosofía?»: el asombro, del mito al logos, características, ramas, la filosofía y otros saberes, y el método (leer y argumentar). Tres sesiones que reciben igual los grupos C, D y G.",
+  "intro": "",
   "mats": [],
   "tools": [
    [
