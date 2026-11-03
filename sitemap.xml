@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/adagios/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/adagios/adaequatio/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/adagios/aeternitatis/</loc></url>
@@ -67,18 +67,23 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/adagios/zoon/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/afectos/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/abelardo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/adorno/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/agustin/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/anaxagoras/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/anaximandro/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/anaximenes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/anselmo/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/antistenes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/arendt/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/aristipo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/aristoteles/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/aspasia/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/averroes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/avicena/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/azurmendi/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/baudrillard/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/bauman/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/baumgarten/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/beauvoir/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/benjamin/</loc></url>
@@ -87,24 +92,42 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/boecio/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/boole/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/bostrom/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/buda/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/butler/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/calvino/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/campanella/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/camus/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/carnap/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/carneades/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/chalmers/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ciceron/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/cleantes/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/comte/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/condorcet/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/confucio/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/copernico/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/copleston/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/crates/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/crisipo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/curie/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/dalembert/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/danto/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/darwin/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/de_morgan/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/debord/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/deleuze/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/democrito/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/derrida/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/descartes/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/dewey/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/dickie/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/diderot/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/diogenes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/duchamp/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/duns_escoto/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/einstein/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/empedocles/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/epicteto/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/epicuro/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/epoca-ant/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/epoca-con/</loc></url>
@@ -116,6 +139,10 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/erasmo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/euler/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/feuerbach/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/feyerabend/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/fichte/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/foucault/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/fourier/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/francis_bacon/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/franklin/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/frege/</loc></url>
@@ -128,51 +155,71 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/gouges/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/gramsci/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/habermas/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hamann/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/han/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/harvey/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hegel/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/heidegger/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/heraclito/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/herder/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/herrero/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hesiodo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hildegarda/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hipatia/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hipias/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hobbes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/holbach/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/homero/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/horkheimer/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/hume/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/husserl/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ingham/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/isabel/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/james/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/jaspers/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/jefferson/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/jenofanes/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kant/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kepler/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kierkegaard/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/klein/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kollontai/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kropotkin/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/kuhn/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lamarck/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lamettrie/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lao_zi/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/leibniz/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lessing/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/leucipo/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/llull/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/locke/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lutero/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/luxemburgo/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/lyotard/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/maeztu/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/maimonides/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/malebranche/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/maquiavelo/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/marco_aurelio/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/marcuse/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/marx/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/mendel/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/mill/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/montaigne/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/montesquieu/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/moore/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/newton/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/nicolas_cusa/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/nietzsche/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/nussbaum/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ockham/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ortega/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/owen/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/paley/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/parmenides/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/pascal/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/pico/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/pirron/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/pitagoras/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/pizan/</loc></url>
@@ -180,38 +227,58 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/plotino/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/policleto/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/popper/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/preciado/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/protagoras/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/rawls/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ricoeur/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/roger_bacon/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/rorty/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/rousseau/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/russell/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/ryle/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/saint-simon/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/sapir/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/sartre/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/scheler/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/schelling/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/schiller/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/schleiermacher/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/schlick/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/schopenhauer/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/seneca/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/sepulveda/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/servet/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/shannon/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/smith/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/socrates/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/solon/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/spinoza/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/tales/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/teofrasto/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/tertuliano/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/thompson/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/timon/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/tomas/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/tomas_moro/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/turing/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/txillardegi/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/tylor/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/unamuno/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/vattimo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/venn/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/voltaire/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/wallace/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/weber/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/weil/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/whitehead/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/whorf/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/wilson/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/wittgenstein/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/wollstonecraft/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/zambrano/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/zenon/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/zenon_elea/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/biografias/zetkin/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/comunidades/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/fil-boole-q/</loc></url>
@@ -263,6 +330,7 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/lex-fil-T3/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/lex-fil-T4/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/lex-fil-T5/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/lex-fil-T6/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/cuestionarios/lex-fil-T7/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-a-priori/</loc></url>
@@ -299,12 +367,14 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-conciencia-moral/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-conclusion/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-conocimiento/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-contrato-social/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-creencia/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-criticismo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-cuadrado-de-oposicion/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-cultura/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-deduccion/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-deliberacion/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-democracia/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-desarrollo-moral/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-determinismo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-diagrama-de-euler/</loc></url>
@@ -319,6 +389,7 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-equivoco/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-escepticismo/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-esencia/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-estado/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-estetica/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-estructura-psicosomatica/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-etica/</loc></url>
@@ -357,6 +428,7 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-juicio-estetico/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-justicia/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-justificacion/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-legitimidad/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-lenguaje-simbolico/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-leyes-de-de-morgan/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-libertad/</loc></url>
@@ -378,6 +450,7 @@
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-pertenencia-e-inclusion/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-peticion-de-principio/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-pista-falsa/</loc></url>
+  <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-poder/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-posverdad/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-pregunta-compleja/</loc></url>
   <url><loc>https://mikagiuri.github.io/aula-de-filosofia-web/diccionario/g-fil-pregunta-filosofica/</loc></url>

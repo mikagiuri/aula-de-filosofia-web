@@ -129,7 +129,7 @@ const SUBJECTS = {
 };
 const DECKS = {
  "fil-que-es": {
-  "name": "Filosofía 1.º · ¿Qué es la filosofía? (T1)",
+  "name": "¿Qué es la filosofía? (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -185,7 +185,7 @@ const DECKS = {
   ]
  },
  "fil-ramas": {
-  "name": "Filosofía 1.º · Las ramas de la filosofía",
+  "name": "Las ramas de la filosofía",
   "subject": "fil",
   "cards": [
    [
@@ -226,7 +226,7 @@ const DECKS = {
   ]
  },
  "fil-ser-humano": {
-  "name": "Filosofía 1.º · ¿Qué es el ser humano? (T2)",
+  "name": "¿Qué es el ser humano? (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -287,7 +287,7 @@ const DECKS = {
   ]
  },
  "fil-metafisica": {
-  "name": "Filosofía 1.º · La realidad: metafísica (M)",
+  "name": "La realidad: metafísica (M)",
   "subject": "fil",
   "cards": [
    [
@@ -413,7 +413,7 @@ const DECKS = {
   ]
  },
  "fil-conocer": {
-  "name": "Filosofía 1.º · Conocimiento, verdad y ciencia (T3)",
+  "name": "Conocimiento, verdad y ciencia (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -479,7 +479,7 @@ const DECKS = {
   ]
  },
  "fil-caracteristicas": {
-  "name": "Filosofía 1.º · Características del saber filosófico (T1)",
+  "name": "Características del saber filosófico (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -535,7 +535,7 @@ const DECKS = {
   ]
  },
  "fil-mente": {
-  "name": "Filosofía 1.º · El cuerpo y la mente (T2)",
+  "name": "El cuerpo y la mente (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -591,7 +591,7 @@ const DECKS = {
   ]
  },
  "fil-concepciones": {
-  "name": "Filosofía 1.º · Concepciones del ser humano (T2)",
+  "name": "Concepciones del ser humano (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -647,7 +647,7 @@ const DECKS = {
   ]
  },
  "fil-verdad": {
-  "name": "Filosofía 1.º · ¿Podemos alcanzar la verdad? (T3)",
+  "name": "¿Podemos alcanzar la verdad? (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -703,7 +703,7 @@ const DECKS = {
   ]
  },
  "fil-metodo": {
-  "name": "Filosofía 1.º · El método: leer y argumentar (T1)",
+  "name": "El método: leer y argumentar (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -759,7 +759,7 @@ const DECKS = {
   ]
  },
  "fil-saberes": {
-  "name": "Filosofía 1.º · Los tipos de saber (T1)",
+  "name": "Los tipos de saber (T1)",
   "subject": "fil",
   "cards": [
    [
@@ -815,7 +815,7 @@ const DECKS = {
   ]
  },
  "fil-identidad": {
-  "name": "Filosofía 1.º · Persona, identidad y sentido (T2)",
+  "name": "Persona, identidad y sentido (T2)",
   "subject": "fil",
   "cards": [
    [
@@ -871,7 +871,7 @@ const DECKS = {
   ]
  },
  "fil-ciencia": {
-  "name": "Filosofía 1.º · El saber científico (T3)",
+  "name": "El saber científico (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -927,7 +927,7 @@ const DECKS = {
   ]
  },
  "fil-posverdad": {
-  "name": "Filosofía 1.º · Posverdad y fake news (T3)",
+  "name": "Posverdad y fake news (T3)",
   "subject": "fil",
   "cards": [
    [
@@ -983,7 +983,7 @@ const DECKS = {
   ]
  },
  "fil-etica": {
-  "name": "Filosofía 1.º · Las preguntas de la ética (T5)",
+  "name": "Las preguntas de la ética (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1039,7 +1039,7 @@ const DECKS = {
   ]
  },
  "fil-t5-cuidado-cortina": {
-  "name": "Filosofía 1.º · El juicio moral, la ética del cuidado y Cortina (T5)",
+  "name": "El juicio moral, la ética del cuidado y Cortina (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1100,7 +1100,7 @@ const DECKS = {
   ]
  },
  "fil-arte": {
-  "name": "Filosofía 1.º · La belleza y el arte (T7)",
+  "name": "La belleza y el arte (T7)",
   "subject": "fil",
   "cards": [
    [
@@ -1151,7 +1151,7 @@ const DECKS = {
   ]
  },
  "fil-argumentacion": {
-  "name": "Filosofía 1.º · Argumentar y detectar falacias (T4)",
+  "name": "Argumentar y detectar falacias (T4)",
   "subject": "fil",
   "cards": [
    [
@@ -1207,7 +1207,7 @@ const DECKS = {
   ]
  },
  "fil-etica-teorias": {
-  "name": "Filosofía 1.º · Debates de la ética (T5)",
+  "name": "Debates de la ética (T5)",
   "subject": "fil",
   "cards": [
    [
@@ -1263,7 +1263,7 @@ const DECKS = {
   ]
  },
  "fil-poder": {
-  "name": "Filosofía 1.º · Poder, Estado y ciudadanía (T6)",
+  "name": "Poder, Estado y ciudadanía (T6)",
   "subject": "fil",
   "cards": [
    [
@@ -1319,7 +1319,7 @@ const DECKS = {
   ]
  },
  "fil-arte-sociedad": {
-  "name": "Filosofía 1.º · Arte, belleza y sociedad (T7)",
+  "name": "Arte, belleza y sociedad (T7)",
   "subject": "fil",
   "cards": [
    [
@@ -1375,7 +1375,7 @@ const DECKS = {
   ]
  },
  "fil-logica": {
-  "name": "Filosofía 1.º · Lógica: conectivas, Boole y puertas (T4)",
+  "name": "Lógica: conectivas, Boole y puertas (T4)",
   "subject": "fil",
   "cards": [
    [
@@ -1431,7 +1431,7 @@ const DECKS = {
   ]
  },
  "fil-politica": {
-  "name": "Filosofía 1.º · La vida en sociedad: política (T6)",
+  "name": "La vida en sociedad: política (T6)",
   "subject": "fil",
   "cards": [
    [
@@ -1487,7 +1487,7 @@ const DECKS = {
   ]
  },
  "fil-presocraticos": {
-  "name": "Filosofía 1.º · Los presocráticos: la búsqueda del arché",
+  "name": "Los presocráticos: la búsqueda del arché",
   "subject": "fil",
   "cards": [
    [
@@ -1543,7 +1543,7 @@ const DECKS = {
   ]
  },
  "fil-helenismo": {
-  "name": "Filosofía 1.º · Las escuelas helenísticas: caminos a la felicidad",
+  "name": "Las escuelas helenísticas: caminos a la felicidad",
   "subject": "fil",
   "cards": [
    [
@@ -1596,7 +1596,7 @@ const DECKS = {
 };
 const QUIZZES = {
  "fil-t2-ampliacion": {
-  "name": "Convivencia entre culturas y emociones (Filosofía 1.º · T2 · ampliación)",
+  "name": "Convivencia entre culturas y emociones (T2 · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -1712,7 +1712,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-ampliacion": {
-  "name": "Percepción, memoria, posverdad y mujer en la ciencia (Filosofía 1.º · T3 · ampliación)",
+  "name": "Percepción, memoria, posverdad y mujer en la ciencia (T3 · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -1872,7 +1872,7 @@ const QUIZZES = {
   ]
  },
  "fil-metafisica-ampliacion": {
-  "name": "La inteligencia artificial (Filosofía 1.º · tema M · ampliación)",
+  "name": "La inteligencia artificial (tema M · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -1933,7 +1933,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-ampliacion": {
-  "name": "Los sesgos cognitivos (Filosofía 1.º · T4 · ampliación)",
+  "name": "Los sesgos cognitivos (T4 · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -2005,7 +2005,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-ampliacion": {
-  "name": "Virtud, estoicismo, deber y ética aplicada (Filosofía 1.º · T5 · ampliación)",
+  "name": "Virtud, estoicismo, deber y ética aplicada (T5 · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -2198,7 +2198,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-ampliacion": {
-  "name": "Estado y nación, democracia, derechos humanos y movimientos sociales (Filosofía 1.º · T6 · ampliación)",
+  "name": "Estado y nación, democracia, derechos humanos y movimientos sociales (T6 · ampliación)",
   "subject": "fil",
   "items": [
    {
@@ -2424,7 +2424,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7": {
-  "name": "¿Qué es el arte? · Estética (Filosofía 1.º · T7)",
+  "name": "¿Qué es el arte? · Estética (T7)",
   "subject": "fil",
   "items": [
    {
@@ -2595,7 +2595,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1": {
-  "name": "¿Qué es la filosofía? (Filosofía 1.º · T1)",
+  "name": "¿Qué es la filosofía? (T1)",
   "subject": "fil",
   "items": [
    {
@@ -2711,7 +2711,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2": {
-  "name": "El ser humano (Filosofía 1.º · T2)",
+  "name": "El ser humano (T2)",
   "subject": "fil",
   "items": [
    {
@@ -2816,7 +2816,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3": {
-  "name": "Conocimiento y verdad (Filosofía 1.º · T3)",
+  "name": "Conocimiento y verdad (T3)",
   "subject": "fil",
   "items": [
    {
@@ -2921,7 +2921,7 @@ const QUIZZES = {
   ]
  },
  "fil-metodo-q": {
-  "name": "El método y los tipos de saber (Filosofía 1.º · T1)",
+  "name": "El método y los tipos de saber (T1)",
   "subject": "fil",
   "items": [
    {
@@ -3037,7 +3037,7 @@ const QUIZZES = {
   ]
  },
  "fil-mente-q": {
-  "name": "Cuerpo, mente y concepciones del ser humano (Filosofía 1.º · T2)",
+  "name": "Cuerpo, mente y concepciones del ser humano (T2)",
   "subject": "fil",
   "items": [
    {
@@ -3153,7 +3153,7 @@ const QUIZZES = {
   ]
  },
  "fil-ciencia-q": {
-  "name": "Ciencia, método y posverdad (Filosofía 1.º · T3)",
+  "name": "Ciencia, método y posverdad (T3)",
   "subject": "fil",
   "items": [
    {
@@ -3269,7 +3269,7 @@ const QUIZZES = {
   ]
  },
  "fil-ramas-q": {
-  "name": "Las ramas de la filosofía (Filosofía 1.º · T1)",
+  "name": "Las ramas de la filosofía (T1)",
   "subject": "fil",
   "items": [
    {
@@ -3407,7 +3407,7 @@ const QUIZZES = {
   ]
  },
  "fil-etica-q": {
-  "name": "Filosofía 1.º · Ética: teorías (T5)",
+  "name": "Ética: teorías (T5)",
   "subject": "fil",
   "items": [
    {
@@ -3479,7 +3479,7 @@ const QUIZZES = {
   ]
  },
  "fil-logica-q": {
-  "name": "Filosofía 1.º · Tablas de verdad y lógica (T4)",
+  "name": "Tablas de verdad y lógica (T4)",
   "subject": "fil",
   "items": [
    {
@@ -3650,7 +3650,7 @@ const QUIZZES = {
   ]
  },
  "fil-politica-q": {
-  "name": "Filosofía 1.º · La vida en sociedad: política (T6)",
+  "name": "La vida en sociedad: política (T6)",
   "subject": "fil",
   "items": [
    {
@@ -3733,7 +3733,7 @@ const QUIZZES = {
   ]
  },
  "fil-presocraticos-q": {
-  "name": "Filosofía 1.º · Los presocráticos",
+  "name": "Los presocráticos",
   "subject": "fil",
   "items": [
    {
@@ -3816,7 +3816,7 @@ const QUIZZES = {
   ]
  },
  "fil-helenismo-q": {
-  "name": "Filosofía 1.º · Las escuelas helenísticas",
+  "name": "Las escuelas helenísticas",
   "subject": "fil",
   "items": [
    {
@@ -3888,7 +3888,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1-banco": {
-  "name": "¿Qué es la filosofía? (Filosofía 1.º · T1 · banco ampliado)",
+  "name": "¿Qué es la filosofía?",
   "subject": "fil",
   "items": [
    {
@@ -4334,7 +4334,7 @@ const QUIZZES = {
   ]
  },
  "fil-presocraticos-banco": {
-  "name": "Los orígenes de la filosofía: los presocráticos (Filosofía 1.º · T1 · banco ampliado)",
+  "name": "Los orígenes de la filosofía: los presocráticos",
   "subject": "fil",
   "items": [
    {
@@ -4725,7 +4725,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2-banco": {
-  "name": "¿Qué es el ser humano? (Filosofía 1.º · T2 · banco ampliado)",
+  "name": "¿Qué es el ser humano?",
   "subject": "fil",
   "items": [
    {
@@ -5171,7 +5171,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-banco": {
-  "name": "¿Qué podemos conocer? (Filosofía 1.º · T3 · banco ampliado)",
+  "name": "¿Qué podemos conocer?",
   "subject": "fil",
   "items": [
    {
@@ -5617,7 +5617,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-banco": {
-  "name": "Lógica y argumentación (Filosofía 1.º · T4 · banco ampliado)",
+  "name": "Lógica y argumentación",
   "subject": "fil",
   "items": [
    {
@@ -5953,7 +5953,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-banco": {
-  "name": "Las preguntas de la ética (Filosofía 1.º · T5 · banco ampliado)",
+  "name": "Las preguntas de la ética",
   "subject": "fil",
   "items": [
    {
@@ -6289,7 +6289,7 @@ const QUIZZES = {
   ]
  },
  "fil-helenismo-banco": {
-  "name": "Las escuelas helenísticas: ¿cómo se alcanza la felicidad? (Filosofía 1.º · T5 · banco ampliado)",
+  "name": "Las escuelas helenísticas: ¿cómo se alcanza la felicidad?",
   "subject": "fil",
   "items": [
    {
@@ -6493,7 +6493,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-banco": {
-  "name": "La vida en sociedad (Filosofía política) (Filosofía 1.º · T6 · banco ampliado)",
+  "name": "La vida en sociedad (Filosofía política)",
   "subject": "fil",
   "items": [
    {
@@ -6829,7 +6829,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7-banco": {
-  "name": "¿Qué es el arte? (Estética) (Filosofía 1.º · T7 · banco ampliado)",
+  "name": "¿Qué es el arte? (Estética)",
   "subject": "fil",
   "items": [
    {
@@ -7286,7 +7286,7 @@ const QUIZZES = {
   ]
  },
  "fil-t1-repaso": {
-  "name": "¿Qué es la filosofía? (Filosofía 1.º · T1 · repaso)",
+  "name": "¿Qué es la filosofía? (T1 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -7468,7 +7468,7 @@ const QUIZZES = {
   ]
  },
  "fil-t2-repaso": {
-  "name": "El ser humano (Filosofía 1.º · T2 · repaso)",
+  "name": "El ser humano (T2 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -7683,7 +7683,7 @@ const QUIZZES = {
   ]
  },
  "fil-metafisica": {
-  "name": "La realidad: ¿qué hay y cómo es? (Filosofía 1.º · M)",
+  "name": "La realidad: ¿qué hay y cómo es? (M)",
   "subject": "fil",
   "items": [
    {
@@ -7964,7 +7964,7 @@ const QUIZZES = {
   ]
  },
  "fil-t3-repaso": {
-  "name": "Conocimiento y verdad (Filosofía 1.º · T3 · repaso)",
+  "name": "Conocimiento y verdad (T3 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -8179,7 +8179,7 @@ const QUIZZES = {
   ]
  },
  "fil-venn-q": {
-  "name": "Proposiciones, clases y diagramas de Euler y de Venn (Filosofía 1.º · T4)",
+  "name": "Proposiciones, clases y diagramas de Euler y de Venn (T4)",
   "subject": "fil",
   "items": [
    {
@@ -8328,7 +8328,7 @@ const QUIZZES = {
   ]
  },
  "fil-validez-q": {
-  "name": "Validez y verdad, deducción e inducción (Filosofía 1.º · T4 · itinerario, nivel 1)",
+  "name": "Validez y verdad, deducción e inducción (T4 · itinerario, nivel 1)",
   "subject": "fil",
   "items": [
    {
@@ -8466,7 +8466,7 @@ const QUIZZES = {
   ]
  },
  "fil-formalizar-q": {
-  "name": "Formalizar en lógica de enunciados (Filosofía 1.º · T4 · itinerario, nivel 3)",
+  "name": "Formalizar en lógica de enunciados (T4 · itinerario, nivel 3)",
   "subject": "fil",
   "items": [
    {
@@ -8637,7 +8637,7 @@ const QUIZZES = {
   ]
  },
  "fil-cuantif-q": {
-  "name": "Cuantificadores, cuadrado de oposición y conversión (Filosofía 1.º · T4 · itinerario, nivel 6)",
+  "name": "Cuantificadores, cuadrado de oposición y conversión (T4 · itinerario, nivel 6)",
   "subject": "fil",
   "items": [
    {
@@ -8808,7 +8808,7 @@ const QUIZZES = {
   ]
  },
  "fil-boole-q": {
-  "name": "Clases, conjuntos y álgebra de Boole: la misma ley en cinco lenguajes (Filosofía 1.º · T4 · itinerario, nivel 5)",
+  "name": "Clases, conjuntos y álgebra de Boole: la misma ley en cinco lenguajes (T4 · itinerario, nivel 5)",
   "subject": "fil",
   "items": [
    {
@@ -8946,7 +8946,7 @@ const QUIZZES = {
   ]
  },
  "fil-relaciones-q": {
-  "name": "Propiedades de las relaciones y mundos pequeños (Filosofía 1.º · T4 · itinerario, nivel 8)",
+  "name": "Propiedades de las relaciones y mundos pequeños (T4 · itinerario, nivel 8)",
   "subject": "fil",
   "items": [
    {
@@ -9084,7 +9084,7 @@ const QUIZZES = {
   ]
  },
  "fil-t4-repaso": {
-  "name": "Lógica y argumentación (Filosofía 1.º · T4 · repaso)",
+  "name": "Lógica y argumentación (T4 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -9266,7 +9266,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-repaso": {
-  "name": "Ética (Filosofía 1.º · T5 · repaso)",
+  "name": "Ética (T5 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -9481,7 +9481,7 @@ const QUIZZES = {
   ]
  },
  "fil-t5-cuidado-cortina": {
-  "name": "El juicio moral, la ética del cuidado y Cortina (Filosofía 1.º · T5 · repaso)",
+  "name": "El juicio moral, la ética del cuidado y Cortina (T5 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -9597,7 +9597,7 @@ const QUIZZES = {
   ]
  },
  "fil-t6-repaso": {
-  "name": "La vida en sociedad: política (Filosofía 1.º · T6 · repaso)",
+  "name": "La vida en sociedad: política (T6 · repaso)",
   "subject": "fil",
   "items": [
    {
@@ -9779,7 +9779,7 @@ const QUIZZES = {
   ]
  },
  "fil-t7-repaso": {
-  "name": "Estética: ¿qué es el arte? (Filosofía 1.º · T7 · repaso)",
+  "name": "Estética: ¿qué es el arte? (T7 · repaso)",
   "subject": "fil",
   "items": [
    {
