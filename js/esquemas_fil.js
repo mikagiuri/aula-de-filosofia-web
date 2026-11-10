@@ -92,7 +92,8 @@ const ESQUEMAS_FIL = {
   "tema": "Filosofía · Tema 4",
   "title": "Las falacias",
   "mermaid": "flowchart TD\n  fal[\"LAS FALACIAS\"]:::axis\n  def[\"argumentos que parecen válidos pero no lo son\"]\n  formal[\"formales: fallo en la estructura lógica\"]:::key\n  inf[\"informales: fallo en el contenido o el lenguaje\"]:::key\n  ah[\"ad hominem: atacar a la persona\"]\n  ap[\"ad populum: apelar a la mayoría\"]\n  aver[\"ad verecundiam: apelar a la autoridad\"]\n  fc[\"falsa causa: confundir correlación con causa\"]\n  hp[\"hombre de paja: deformar la tesis rival\"]\n  fal --> def\n  fal --> formal\n  fal --> inf\n  inf --> ah\n  inf --> ap\n  inf --> aver\n  inf --> fc\n  inf --> hp\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;"
- },
+ }
+,
   "FIL-T6-01": {
   "subject": "fil",
   "block": "F1",
